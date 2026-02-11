@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'output/**'
-      - 'site/**'
+      - 'docs/**'
       - '.github/workflows/**'
       - 'scripts/**'
       - '**/*.md'
@@ -37,7 +37,7 @@ jobs:
 
       - name: Build HTML from Markdown
         run: |
-          mkdir -p site/reports
+          mkdir -p docs/reports
           
           # Find and convert all markdown files in output/
           find output -name "*.md" -type f | while read -r md_file; do
@@ -45,7 +45,7 @@ jobs:
             
             # Get relative path and create HTML path
             rel_path="${md_file#output/}"
-            html_path="site/reports/${rel_path%.md}.html"
+            html_path="docs/reports/${rel_path%.md}.html"
             
             # Create directory
             mkdir -p "$(dirname "$html_path")"
@@ -97,12 +97,12 @@ EOF
           done
           
           echo "✅ Build complete!"
-          find site/reports -name "*.html" -type f
+          find docs/reports -name "*.html" -type f
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site/
+          path: docs/
 
   deploy:
     environment:

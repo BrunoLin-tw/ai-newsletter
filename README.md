@@ -13,7 +13,7 @@ ai-newsletter/
 │   └── 2026/
 │       └── 02/
 │           └── 11.md            # YYYY/MM/DD.md 格式
-├── site/                         # GitHub Pages 靜態網站
+├── docs/                         # GitHub Pages 靜態網站 (原 site/)
 │   ├── assets/
 │   │   └── style.css            # 網站樣式
 │   ├── templates/

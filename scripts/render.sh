@@ -6,7 +6,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 OUTPUT_DIR="$PROJECT_ROOT/output"
-SITE_DIR="$PROJECT_ROOT/site"
+SITE_DIR="$PROJECT_ROOT/docs"
 TEMPLATE_DIR="$SITE_DIR/templates"
 PROJECT_NAME="$(basename "$PROJECT_ROOT")"
 
