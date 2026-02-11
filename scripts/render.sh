@@ -60,7 +60,11 @@ find "$OUTPUT_DIR" -name "*.md" | while read -r md_file; do
 EOF
     
     # Convert markdown to HTML and append
-    pandoc "$md_file" -f markdown -t html --wrap=none >> "$temp_file"
+    # Preprocess lines like "🔗 https://..." into clickable Markdown links "🔗 [來源](https://...)"
+    processed_md=$(mktemp)
+    sed -E 's/^🔗[[:space:]]+(https?:\/\/[^[:space:]]+)/🔗 [來源](\1)/' "$md_file" > "$processed_md"
+    pandoc "$processed_md" -f markdown -t html --wrap=none >> "$temp_file"
+    rm -f "$processed_md"
     
     # Write footer
     cat >> "$temp_file" << EOF
