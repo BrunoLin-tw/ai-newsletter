@@ -1,0 +1,35 @@
+📰 AI 每日早報 — 2026年2月11日 09:20
+
+---
+
+🔧 硬核技術更新
+
+🧠 Samsung 下月開始量產 HBM4 記憶體，搶攻 NVIDIA AI 晶片供應鏈 — Samsung 將於 2 月開始大規模生產新一代 HBM4 高頻寬記憶體，主要供應 NVIDIA AI 加速器使用。這是 Samsung 挑戰 SK Hynix 在 AI 記憶體市場主導地位的重要一步，HBM4 將成為新一代 AI 資料中心的核心記憶體規格。
+🔗 https://thesiliconreview.com/2026/01/the-silicon-reviewjan-2026samsung-hbm4-production-nvidia-supply-ai
+
+🤖 AI 從工具進化為夥伴 — 2026 年的七大趨勢 — Microsoft 預測 2026 年將是 AI 從「回答問題」轉變為「協作夥伴」的關鍵年。AI Agent 將成為數位同事，在醫療、軟體開發、科學研究等領域與人類深度合作，不僅理解程式碼，更能理解背後的情境與歷史脈絡。
+🔗 https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026/
+
+🏗️ 生成式虛擬環境技術持續突破 — 從 Google DeepMind 的 Genie 3 到 World Labs 的 Marble，能即時生成逼真虛擬環境的「世界模型」技術正在快速成熟。2026 年將看到更多基於這類技術的應用，從遊戲開發到模擬訓練都將被顛覆。
+🔗 https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/
+
+---
+
+🏢 大廠動態
+
+💰 AI 軍備競賽加速，中國開源模型縮短與西方差距 — MIT Technology Review 指出，2026 年將有更多矽谷應用程式採用中國開源模型，中國與西方前沿模型的發布差距將從數月縮短至數週。DeepSeek-R1 等推理模型的崛起正改變全球 AI 競爭格局。
+🔗 https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/
+
+🔄 IBM 專家展望：Agent 生態系將迎來爆發 — IBM 研究人員指出，MCP（Model Context Protocol）已獲得業界廣泛支持，2026 年將是 AI Agent 商業化元年。從自動化工作流程到企業級應用，具備任務執行能力的 AI 助理將成為標配。
+🔗 https://www.ibm.com/think/news/ai-tech-trends-predictions-2026
+
+---
+
+🛠️ 有趣的小工具應用
+
+💻 GitHub 推出「Repository Intelligence」功能 — GitHub CPO Mario Rodriguez 預告 2026 年將推出能理解程式碼之間關聯與歷史脈絡的 AI 功能，不只看單行程式碼，而是理解整個專案架構，類似音樂製作人 Rick Rubin 的整體視角創作方式。
+🔗 https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026/
+
+---
+
+*Sources: MIT Technology Review, Microsoft News, IBM Think, The Silicon Review*
