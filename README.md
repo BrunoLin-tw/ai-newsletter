@@ -1,32 +1,56 @@
 # AI Daily Newsletter
 
-自動生成的 AI 產業每日早報，追蹤最新技術突破、大廠動態與新興應用。
+每日自動生成的 AI 產業早報，追蹤最新技術突破、大廠動態與新興應用。
 
-## 目錄結構
+## 🏗️ 專案結構
 
 ```
 ai-newsletter/
-├── README.md
-├── index.md              # GitHub Pages 首頁
-└── reports/              # 每日早報存檔
-    └── 2026/
-        └── 02/
-            └── ai-daily-report-2026-02-11.md
+├── .github/
+│   └── workflows/
+│       └── ai-newsletter.yml    # GitHub Actions 自動部署
+├── output/                       # Markdown 原始檔案
+│   └── 2026/
+│       └── 02/
+│           └── 11.md            # YYYY/MM/DD.md 格式
+├── site/                         # GitHub Pages 靜態網站
+│   ├── assets/
+│   │   └── style.css            # 網站樣式
+│   ├── templates/
+│   │   ├── header.html          # HTML 樣板頭部
+│   │   └── footer.html          # HTML 樣板尾部
+│   ├── index.html               # 首頁
+│   └── reports/                 # 生成的 HTML 報告
+│       └── 2026/
+│           └── 02/
+│               └── 11.html
+├── scripts/                      # 自動化腳本
+│   ├── render.sh                # Markdown → HTML 轉換
+│   └── publish.sh               # Git 推送腳本
+└── README.md
 ```
 
-## 最新一期
+## 🚀 自動部署流程
 
-- [2026-02-11 AI 每日早報](./reports/2026/02/ai-daily-report-2026-02-11.md)
-  - Samsung HBM4 記憶體量產
-  - Microsoft AI 七大趨勢預測
-  - GitHub Repository Intelligence 功能
+1. **產生內容**：AI Agent 將早報寫入 `output/YYYY/MM/DD.md`
+2. **觸發建置**：GitHub Actions 監聽 `output/` 目錄變更
+3. **轉換格式**：自動將 Markdown 轉換為 HTML
+4. **部署上線**：發布到 GitHub Pages
 
-## 資料來源
+## 📝 手動操作
 
-- MIT Technology Review
-- Microsoft News
-- IBM Think
-- The Silicon Review
+```bash
+# 轉換 Markdown 為 HTML
+./scripts/render.sh
+
+# 推送更新
+./scripts/publish.sh
+```
+
+## 🌐 網站連結
+
+- GitHub Pages: `https://brunolin-tw.github.io/ai-newsletter/`
+- 最新一期: `/reports/2026/02/11.html`
 
 ---
 

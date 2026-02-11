@@ -1,0 +1,80 @@
+name: Build and Deploy AI Newsletter
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'output/**'
+      - 'site/**'
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Build HTML from Markdown
+        run: |
+          mkdir -p site/reports
+          
+          # Convert all markdown files in output/ to HTML
+          for md_file in output/**/*.md; do
+            if [ -f "$md_file" ]; then
+              # Get relative path and create HTML path
+              rel_path="${md_file#output/}"
+              html_path="site/reports/${rel_path%.md}.html"
+              
+              # Create directory
+              mkdir -p "$(dirname "$html_path")"
+              
+              # Convert markdown to HTML (basic)
+              cat site/templates/header.html > "$html_path"
+              
+              # Simple markdown to HTML conversion
+              tail -n +1 "$md_file" | \
+                sed 's/^### \(.*\)/<h3>\1<\/h3>/g' | \
+                sed 's/^## \(.*\)/<h2>\1<\/h2>/g' | \
+                sed 's/^# \(.*\)/<h1>\1<\/h1>/g' | \
+                sed 's/^\*\*\(.*\)\*\*/<strong>\1<\/strong>/g' | \
+                sed 's/^\* \(.*\)/<li>\1<\/li>/g' | \
+                sed 's/^🔗 \(.*\)/<p><a href="\1">\1<\/a><\/p>/g' | \
+                sed 's/---/<hr>/g' >> "$html_path"
+              
+              cat site/templates/footer.html >> "$html_path"
+            fi
+          done
+
+      - name: Copy static assets
+        run: |
+          cp -r site/assets/* site/ 2>/dev/null || true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
