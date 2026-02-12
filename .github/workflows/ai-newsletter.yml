@@ -57,7 +57,7 @@ jobs:
             temp_file=$(mktemp)
             
             # Write header
-            cat > "$temp_file" << EOF
+            cat > "$temp_file" << 'EOF'
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
