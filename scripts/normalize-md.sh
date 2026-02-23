@@ -7,7 +7,7 @@ find output -name "*.md" -type f -print0 | while IFS= read -r -d '' md_file; do
   [[ -s "$md_file" ]] || { echo "⚠️ Skipping empty: $md_file"; continue; }
   
   # Extract YYYYMMDD from path: output/YYYY/MM/DD.md
-  date_path=$(echo "$md_file" | sed -n 's|.*/output/\([0-9]\{4\}\)/\([0-9]\{2\}\)/\([0-9]\{2\}\)\.md$|\1\2\3|p')
+  date_path=$(echo "$md_file" | sed -n 's|^output/\([0-9]\{4\}\)/\([0-9]\{2\}\)/\([0-9]\{2\}\)\.md$|\1\2\3|p')
   [[ -n "$date_path" ]] || { echo "⚠️ Invalid path: $md_file"; continue; }
   
   year="${date_path:0:4}"
