@@ -6,6 +6,9 @@ PROJECT_NAME="ai-newsletter"
 
 mkdir -p "$SITE_DIR/reports"
 
+# Normalize titles before processing
+./scripts/normalize-md.sh
+
 # Find and convert all markdown files in output/
 find output -name "*.md" -type f | while read -r md_file; do
     echo "Processing: $md_file"
