@@ -4,12 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Daily Newsletter - 搜尋</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/ai-newsletter/assets/style.css">
 </head>
 <body>
+  <div class="neural-bg"></div>
   <div class="container">
-    <header>
-      <h1>🤖 AI Daily Newsletter</h1>
+    <header class="glass-effect">
+      <h1 class="glow-text">AI Daily Newsletter</h1>
       <nav>
         <a href="/ai-newsletter/">最新</a>
         <a href="/ai-newsletter/archive.html">歷史存檔</a>
@@ -18,7 +22,7 @@
     </header>
     <main>
       <div class="section-header">
-        <h2>搜尋文章</h2>
+        <h2 class="glow-text">搜尋文章</h2>
       </div>
       <div class="search-container">
         <input type="text" id="search-input" placeholder="輸入關鍵字搜尋 (標題、日期或內容)..." autofocus>
@@ -62,7 +66,7 @@
       
       filtered.forEach(item => {
         const card = document.createElement('div');
-        card.className = 'newsletter-card';
+        card.className = 'newsletter-card glass-effect';
         
         // Highlight logic (basic)
         let displayTitle = item.title;
@@ -76,7 +80,7 @@
           <h3>${displayTitle}</h3>
           <div class="date">${item.date}</div>
           <div class="summary">${displayContent}</div>
-          <a href="${item.url}" class="btn">閱讀全文</a>
+          <a href="${item.url}" class="btn shine">閱讀全文</a>
         `;
         resultsContainer.appendChild(card);
       });

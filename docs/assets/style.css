@@ -1,12 +1,19 @@
-/* AI Daily Newsletter Styles */
+/* AI Daily Newsletter Styles - Future AI Aesthetics */
 
 :root {
-    --primary: #2563eb;
-    --secondary: #64748b;
-    --bg: #f8fafc;
-    --card: #ffffff;
-    --text: #1e293b;
-    --border: #e2e8f0;
+    --primary: #00d2ff;
+    --secondary: #9d50bb;
+    --accent: #00f2fe;
+    --bg: #050b18; /* 深靛藍/黑曜石背景 */
+    --card-bg: rgba(15, 23, 42, 0.7);
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --border: rgba(255, 255, 255, 0.1);
+    --glow: 0 0 15px rgba(0, 210, 255, 0.5);
+    --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-tech: 'Orbitron', sans-serif;
+    --hologram-gradient: linear-gradient(135deg, rgba(0, 210, 255, 0.4), rgba(157, 80, 187, 0.4), rgba(0, 242, 254, 0.4));
+    --hologram-border: linear-gradient(135deg, #00d2ff, #9d50bb, #00f2fe);
 }
 
 * {
@@ -16,166 +23,286 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background: var(--bg);
+    font-family: var(--font-main);
+    background-color: var(--bg);
     color: var(--text);
     line-height: 1.6;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* 背景神經網路圖案 */
+.neural-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: 
+        radial-gradient(circle at 50% 50%, rgba(157, 80, 187, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 20% 30%, rgba(0, 210, 255, 0.1) 0%, transparent 40%),
+        linear-gradient(rgba(5, 11, 24, 0.9), rgba(5, 11, 24, 0.9)),
+        repeating-linear-gradient(0deg, transparent, transparent 40px, rgba(255, 255, 255, 0.02) 40px, rgba(255, 255, 255, 0.02) 41px),
+        repeating-linear-gradient(90deg, transparent, transparent 40px, rgba(255, 255, 255, 0.02) 40px, rgba(255, 255, 255, 0.02) 41px);
+    animation: pulse-bg 10s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-bg {
+    0% { transform: scale(1); opacity: 0.8; }
+    100% { transform: scale(1.05); opacity: 1; }
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
+}
+
+/* Glassmorphism 效果 */
+.glass-effect {
+    background: var(--card-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     position: sticky;
     top: 0;
-    background: var(--bg);
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     z-index: 100;
-    border-bottom: 1px solid var(--border);
+    transition: all 0.3s ease;
+}
+
+header.glass-effect {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 header h1 {
-    font-size: 1.5rem;
+    font-family: var(--font-tech);
+    font-size: 2rem;
     margin: 0 0 0.5rem 0;
+    letter-spacing: 2px;
+}
+
+/* 霓虹文字效果 */
+.glow-text {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 210, 255, 0.8),
+                 0 0 20px rgba(0, 210, 255, 0.4);
 }
 
 nav {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
     font-weight: 500;
 }
 
 nav a {
-    color: var(--secondary);
+    color: var(--text-muted);
     text-decoration: none;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    transition: color 0.2s, background 0.2s;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: var(--font-tech);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 nav a:hover {
     color: var(--primary);
-    background: rgba(37, 99, 235, 0.1);
-    text-decoration: none;
+    background: rgba(0, 210, 255, 0.1);
+    box-shadow: inset 0 0 10px rgba(0, 210, 255, 0.2);
 }
 
 nav a.active {
     color: var(--primary);
-    border-bottom: 2px solid var(--primary);
-    border-radius: 0;
+    background: rgba(0, 210, 255, 0.1);
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.3);
+    border: 1px solid rgba(0, 210, 255, 0.5);
 }
 
 .newsletter-card {
-    background: var(--card);
-    border-radius: 12px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    border: 1px solid var(--border);
-    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.newsletter-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+    transition: 0.5s;
 }
 
 .newsletter-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px) scale(1.01);
+    border-color: rgba(0, 210, 255, 0.4);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 210, 255, 0.1);
+}
+
+.newsletter-card:hover::before {
+    left: 100%;
 }
 
 .newsletter-card h3 {
-    font-size: 1.25rem;
-    margin: 0 0 0.5rem 0;
-    color: var(--text);
+    font-family: var(--font-tech);
+    font-size: 1.4rem;
+    margin: 0;
+    color: #fff;
+    flex: 1;
+    min-width: 200px;
+    margin-right: 1rem;
 }
 
 .newsletter-card .date {
-    color: var(--secondary);
-    font-size: 0.875rem;
-    margin-bottom: 1.25rem;
+    color: var(--primary);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    display: block;
+    font-family: var(--font-tech);
 }
 
 .report-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
-    border-bottom: 2px solid var(--primary);
-    padding-bottom: 0.5rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, var(--primary), var(--secondary)) 1;
 }
 
 .section-header h2 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    font-family: var(--font-tech);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 .btn {
     display: inline-block;
-    background: var(--primary);
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
     color: white;
-    padding: 0.6rem 1.2rem;
-    border-radius: 8px;
+    padding: 0.8rem 1.8rem;
+    border-radius: 30px;
     text-decoration: none;
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
-    transition: background 0.2s;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-tech);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* 全息投影按鈕效果 */
+.btn.holographic-btn {
+    background: var(--hologram-gradient);
+    background-size: 200% 200%;
+    animation: holo-shimmer 3s ease infinite alternate;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(0, 210, 255, 0.4);
+}
+
+.btn.holographic-btn:hover {
+    filter: brightness(1.2);
+    box-shadow: 0 0 30px rgba(0, 242, 254, 0.6);
+    transform: translateY(-2px) scale(1.05);
+}
+
+/* 按鈕電光動畫 */
+.btn.shine::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(45deg);
+    transition: 0.5s;
 }
 
 .btn:hover {
-    background: #1d4ed8;
-    color: white;
-    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 210, 255, 0.4);
+    filter: brightness(1.1);
+}
+
+.btn.secondary {
+    background: transparent;
+    border: 1px solid var(--text-muted);
+}
+
+.btn.secondary:hover {
+    border-color: var(--secondary);
+    background: rgba(157, 80, 187, 0.1);
 }
 
 h1, h2, h3 {
-    margin: 1.5rem 0 0.75rem;
+    margin: 1.5rem 0 1rem;
 }
 
 a {
     color: var(--primary);
-    word-break: break-all;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: var(--accent);
 }
 
 hr {
     border: none;
     border-top: 1px solid var(--border);
-    margin: 1.5rem 0;
+    margin: 2rem 0;
 }
 
 footer {
     text-align: center;
-    margin-top: 3rem;
-    padding-top: 2rem;
+    margin-top: 5rem;
+    padding: 3rem 0;
     border-top: 1px solid var(--border);
-    color: var(--secondary);
-    font-size: 0.875rem;
-}
-
-.btn.secondary {
-    background: var(--secondary);
-}
-
-.archive-link {
-    text-align: center;
-    margin-top: 2rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-family: var(--font-tech);
 }
 
 .month-group {
-    margin-bottom: 2rem;
-    background: var(--card);
-    padding: 1.5rem;
-    border-radius: 12px;
-    border: 1px solid var(--border);
+    margin-bottom: 2.5rem;
+    padding: 2rem;
+    border-radius: 16px;
 }
 
 .month-group summary {
@@ -186,72 +313,157 @@ footer {
     align-items: center;
 }
 
-.month-group summary::-webkit-details-marker {
-    display: none;
-}
-
 .month-group summary h3 {
     margin: 0;
     padding-bottom: 0.5rem;
     flex: 1;
-    border-bottom: 1px solid var(--border);
+    font-family: var(--font-tech);
+    color: var(--primary);
 }
 
 .month-group summary::after {
-    content: "▶";
-    font-size: 0.8rem;
-    color: var(--secondary);
-    transition: transform 0.2s;
+    content: "⚡";
+    font-size: 1rem;
+    color: var(--primary);
+    transition: transform 0.3s;
     margin-left: 1rem;
 }
 
 .month-group[open] summary::after {
-    transform: rotate(90deg);
-}
-
-.month-group ul {
-    list-style: none;
-    padding: 0;
+    transform: rotate(180deg);
 }
 
 .month-group li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #f1f5f9;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border);
+    transition: padding-left 0.3s ease;
 }
 
-.month-group li:last-child {
-    border-bottom: none;
+.month-group li:hover {
+    padding-left: 10px;
 }
 
 .month-group .date {
-    font-family: monospace;
-    color: var(--secondary);
-    margin-right: 1rem;
+    font-family: var(--font-tech);
+    color: var(--text-muted);
+    margin-right: 1.5rem;
+    font-size: 0.8rem;
 }
 
 .search-container {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 #search-input {
     width: 100%;
-    padding: 0.8rem 1.2rem;
-    border-radius: 8px;
-    border: 2px solid var(--border);
-    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    color: #fff;
+    font-size: 1.1rem;
     outline: none;
-    transition: border-color 0.2s;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
 }
 
 #search-input:focus {
     border-color: var(--primary);
+    box-shadow: 0 0 20px rgba(0, 210, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
 }
 
 mark {
-    background-color: #fef08a;
-    color: inherit;
+    background: linear-gradient(to bottom, transparent 60%, rgba(0, 210, 255, 0.3) 100%);
+    color: var(--primary);
+    font-weight: bold;
     padding: 0 2px;
-    border-radius: 2px;
+}
+
+/* 捲軸樣式 */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--card-bg);
+    border-radius: 4px;
+    border: 1px solid var(--border);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary);
+}
+
+/* 3D Isometric & Holographic Enhancements */
+.iso-box {
+    position: relative;
+    transform: perspective(1000px) rotateX(25deg) rotateY(-25deg);
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.iso-box:hover {
+    transform: perspective(1000px) rotateX(20deg) rotateY(-20deg) translateY(-10px);
+}
+
+/* 全息投影色彩效果 (Holographic / Iridescent) */
+.holographic {
+    position: relative;
+    background: var(--hologram-gradient);
+    background-size: 200% 200%;
+    animation: holo-shimmer 5s ease infinite alternate;
+    border: 1px solid transparent;
+    border-image: var(--hologram-border) 1;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.3);
+}
+
+@keyframes holo-shimmer {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+/* 強化列表項目的等距感 */
+.month-group li {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    transition: all 0.3s ease;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.month-group li:hover {
+    padding-left: 20px;
+    background: rgba(0, 210, 255, 0.05);
+    transform: translateX(10px) perspective(1000px) rotateY(-5deg);
+    box-shadow: -5px 0 15px rgba(0, 210, 255, 0.1);
+}
+
+/* 3D 等距圖標容器 */
+.iso-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    background: var(--card-bg);
+    border: 1px solid var(--primary);
+    transform: rotateX(30deg) rotateZ(-30deg);
+    box-shadow: 2px 2px 0 var(--secondary), 4px 4px 0 rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    color: var(--primary);
+    font-size: 1.2rem;
+}
+
+.newsletter-card:hover .iso-icon {
+    transform: rotateX(20deg) rotateZ(-20deg) translateZ(10px);
+    box-shadow: 3px 3px 0 var(--secondary), 6px 6px 15px rgba(0, 210, 255, 0.3);
 }
 
 @media (max-width: 768px) {
@@ -260,38 +472,14 @@ mark {
     }
     
     header h1 {
-        font-size: 1.35rem;
+        font-size: 1.6rem;
     }
 
     .newsletter-card {
-        padding: 1.2rem;
+        padding: 1.5rem;
     }
     
     .section-header h2 {
-        font-size: 1.25rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-        padding: 1rem 0.5rem;
-    }
-    
-    header h1 {
-        font-size: 1.2rem;
-    }
-
-    nav {
-        gap: 0.5rem;
-        font-size: 0.9rem;
-    }
-
-    .newsletter-card h3 {
-        font-size: 1.1rem;
-    }
-    
-    .btn {
-        width: 100%;
-        padding: 0.8rem;
+        font-size: 1.4rem;
     }
 }

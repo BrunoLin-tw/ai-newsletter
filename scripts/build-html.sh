@@ -34,12 +34,16 @@ find output -name "*.md" -type f | while read -r md_file; do
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/$PROJECT_NAME/assets/style.css">
 </head>
 <body>
+    <div class="neural-bg"></div>
     <div class="container">
-        <header>
-            <h1>🤖 AI Daily Newsletter</h1>
+        <header class="glass-effect">
+            <h1 class="glow-text">AI Daily Newsletter</h1>
             <nav>
                 <a href="/$PROJECT_NAME/">最新</a>
                 <a href="/$PROJECT_NAME/archive.html">歷史存檔</a>
@@ -81,13 +85,17 @@ generate_index() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Daily Newsletter - 最新消息</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/ai-newsletter/assets/style.css">
 </head>
 <body>
+  <div class="neural-bg"></div>
   <div class="container">
-    <header>
-      <h1>🤖 AI Daily Newsletter</h1>
-      <p>每日 AI 科技新聞摘要</p>
+    <header class="glass-effect">
+      <h1 class="glow-text">AI Daily Newsletter</h1>
+      <p class="text-muted">每日 AI 科技新聞摘要</p>
       <nav>
         <a href="/ai-newsletter/" class="active">最新</a>
         <a href="/ai-newsletter/archive.html">歷史存檔</a>
@@ -96,7 +104,7 @@ generate_index() {
     </header>
     <main>
       <div class="section-header">
-        <h2>最新報告 (最近 3 天)</h2>
+        <h2 class="glow-text">最新報告 (最近 3 天)</h2>
       </div>
       <div class="report-grid">
 INDEXEOF
@@ -115,9 +123,9 @@ INDEXEOF
         title=${title:-$(basename "$f")}
         
         cat >> "$tmp" << EOF
-        <div class="newsletter-card">
+        <div class="newsletter-card glass-effect">
           <h3>$title</h3>
-          <a href="/$PROJECT_NAME/${rel}" class="btn">閱讀內容</a>
+          <a href="/$PROJECT_NAME/${rel}" class="btn shine">閱讀內容</a>
         </div>
 EOF
         count=$((count + 1))
@@ -154,12 +162,16 @@ generate_archive() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Daily Newsletter - 歷史存檔</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/ai-newsletter/assets/style.css">
 </head>
 <body>
+  <div class="neural-bg"></div>
   <div class="container">
-    <header>
-      <h1>🤖 AI Daily Newsletter</h1>
+    <header class="glass-effect">
+      <h1 class="glow-text">AI Daily Newsletter</h1>
       <nav>
         <a href="/ai-newsletter/">最新</a>
         <a href="/ai-newsletter/archive.html" class="active">歷史存檔</a>
@@ -168,7 +180,7 @@ generate_archive() {
     </header>
     <main>
       <div class="section-header">
-        <h2>歷史存檔</h2>
+        <h2 class="glow-text">歷史存檔</h2>
       </div>
       <div class="archive-list">
 ARCHIVEEOF
@@ -185,7 +197,7 @@ ARCHIVEEOF
             if [ "$last_month" != "" ]; then
                 echo "        </ul></details>" >> "$tmp"
             fi
-            echo "        <details class='month-group' open><summary><h3>$month</h3></summary><ul>" >> "$tmp"
+            echo "        <details class='month-group glass-effect' open><summary><h3>$month</h3></summary><ul>" >> "$tmp"
             last_month="$month"
         fi
 
@@ -252,12 +264,16 @@ generate_search_page() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Daily Newsletter - 搜尋</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/ai-newsletter/assets/style.css">
 </head>
 <body>
+  <div class="neural-bg"></div>
   <div class="container">
-    <header>
-      <h1>🤖 AI Daily Newsletter</h1>
+    <header class="glass-effect">
+      <h1 class="glow-text">AI Daily Newsletter</h1>
       <nav>
         <a href="/ai-newsletter/">最新</a>
         <a href="/ai-newsletter/archive.html">歷史存檔</a>
@@ -266,7 +282,7 @@ generate_search_page() {
     </header>
     <main>
       <div class="section-header">
-        <h2>搜尋文章</h2>
+        <h2 class="glow-text">搜尋文章</h2>
       </div>
       <div class="search-container">
         <input type="text" id="search-input" placeholder="輸入關鍵字搜尋 (標題、日期或內容)..." autofocus>
@@ -310,7 +326,7 @@ generate_search_page() {
       
       filtered.forEach(item => {
         const card = document.createElement('div');
-        card.className = 'newsletter-card';
+        card.className = 'newsletter-card glass-effect';
         
         // Highlight logic (basic)
         let displayTitle = item.title;
@@ -324,7 +340,7 @@ generate_search_page() {
           <h3>${displayTitle}</h3>
           <div class="date">${item.date}</div>
           <div class="summary">${displayContent}</div>
-          <a href="${item.url}" class="btn">閱讀全文</a>
+          <a href="${item.url}" class="btn shine">閱讀全文</a>
         `;
         resultsContainer.appendChild(card);
       });
