@@ -96,15 +96,15 @@ generate_index() {
     </header>
     <main>
       <div class="section-header">
-        <h2>最新報告 (最近 10 天)</h2>
+        <h2>最新報告 (最近 3 天)</h2>
       </div>
       <div class="report-grid">
 INDEXEOF
 
-    # List reports newest-first, limit to 10
+    # List reports newest-first, limit to 3
     count=0
     find "$SITE_DIR/reports" -name "*.html" | sort -r | while read -r f; do
-        if [ $count -ge 10 ]; then
+        if [ $count -ge 3 ]; then
             break
         fi
         rel="${f#$SITE_DIR/}"                 # reports/2026/02/11.html
@@ -117,8 +117,7 @@ INDEXEOF
         cat >> "$tmp" << EOF
         <div class="newsletter-card">
           <h3>$title</h3>
-          <div class="date">$nice_date</div>
-          <a href="/$PROJECT_NAME/${rel}" class="btn">閱讀更多</a>
+          <a href="/$PROJECT_NAME/${rel}" class="btn">閱讀內容</a>
         </div>
 EOF
         count=$((count + 1))
