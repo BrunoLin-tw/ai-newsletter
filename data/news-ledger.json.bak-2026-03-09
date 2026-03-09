@@ -34,11 +34,7 @@
       "topic": "AI brain MRI diagnosis",
       "fingerprint": "密西根大學|ai-brain-mri-diagnosis|2026-03-05",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "密西根大學研發的「Prima」AI 系統可在數秒內分析腦部 MRI 掃描，診斷準確率高達 97.5%，能識別 50 多種神經系統疾病，並自動標記需要緊急治療的病例（如中風、腦出血）。該系統採用視覺語言模型（VLM）架構，訓練數據涵蓋超過 20 萬個 MRI 研究和 560 萬個影像序列。",
       "from_file": "output/2026/03/05.md"
     },
@@ -51,11 +47,7 @@
       "topic": "Broadcom AI revenue",
       "fingerprint": "Broadcom|broadcom-ai-revenue|2026-03-05",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "商業模式或市場進展具有明顯新意"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "Broadcom 第一季 AI 營收飆升 106% 至 84 億美元，執行長 Hock Tan 表示預計 2027 年 AI 晶片營收將超過 1000 億美元。受益於客製化 AI 加速器和 AI 網路需求強勁，營收表現優於市場預期。",
       "from_file": "output/2026/03/05.md"
     },
@@ -68,11 +60,7 @@
       "topic": "Anthropic revenue growth",
       "fingerprint": "Anthropic|anthropic-revenue-growth|2026-03-05",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "商業模式或市場進展具有明顯新意"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "根據 Bloomberg 報導，Anthropic 的年化營收從約 3 個月前的 90 億美元翻倍至 190 億美元，增長動力來自企業 AI 編碼工具 Claude Code 的普及。企業客戶佔 Anthropic 業務的 80%。",
       "from_file": "output/2026/03/05.md"
     },
@@ -85,11 +73,7 @@
       "topic": "AI content licensing deals",
       "fingerprint": "Meta|ai-content-licensing-deals|2026-03-05",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "partnership_or_integration",
-        "secondary": [],
-        "note": "新合作或產品整合具實際意義"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "News Corp 執行長 Robert Thomson 將新聞媒體定位為 AI 時代的「輸入公司」，與 Meta 簽訂每年高達 5000 萬美元、為期至少三年的內容授權協議。Meta 可使用 News Corp 旗下 WSJ、NY Post、Times 等內容訓練 AI 模型。",
       "from_file": "output/2026/03/05.md"
     },
@@ -102,11 +86,7 @@
       "topic": "AI 驅動的基因網路分析工具問世",
       "fingerprint": "Unknown|ai-驅動的基因網路分析工具問世|2026-03-05",
       "section": "tools",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "西班牙研究團隊推出名為 RNACOREX 的開源工具，可分析數千個分子交互作用，幫助揭開癌症發展的隱藏基因網路。這類 AI 工具正在加速生醫研究的突破。",
       "from_file": "output/2026/03/05.md"
     },
@@ -119,11 +99,7 @@
       "topic": "Google Gemini 3.1 Flash-Lite",
       "fingerprint": "Google|google-gemini-3-1-flash-lite|2026-03-06",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [],
-        "note": "正式發布或首次公開新能力"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "最便宜的多模態模型** — Google DeepMind 推出 Gemini 3.1 Flash-Lite，定價為輸入每百萬 Token 0.25 美元、輸出每百萬 Token 1.50 美元，成為三大 AI 公司（Google、OpenAI、Anthropic）中最便宜的選項。該模型支援文字、圖片、視訊、音訊和 PDF 的多模態輸入，約接受 100 萬上下文 Token。特別的是，開發者可以調整模型的「思考深度」，從極速處理簡單任務到深入邏輯分析，實現資源優化。根據 Ar",
       "from_file": "output/2026/03/06.md"
     },
@@ -136,11 +112,7 @@
       "topic": "AI brain MRI diagnosis",
       "fingerprint": "密西根大學|ai-brain-mri-diagnosis|2026-03-06",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "研究人員開發出可在數秒內解讀腦部 MRI 掃描的 AI 系統，能準確識別多種神經系統疾病，並判斷哪些病例需要緊急治療。這項突破有望大幅縮短診斷時間，讓醫療資源更有效分配。",
       "from_file": "output/2026/03/06.md"
     },
@@ -153,11 +125,7 @@
       "topic": "AI infrastructure and chips",
       "fingerprint": "NVIDIA|ai-infrastructure-and-chips|2026-03-06",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "根據 Wall Street Journal 報導，Nvidia 計畫推出專為 OpenAI 和其他客戶設計的新處理器，協助构建更快、更高效的 AI 系統。此舉顯示 AI 晶片市場的競爭日益激烈，同時也反映出對專用 AI 硬體的強勁需求。",
       "from_file": "output/2026/03/06.md"
     },
@@ -170,11 +138,7 @@
       "topic": "OpenAI revenue growth",
       "fingerprint": "OpenAI|openai-revenue-growth|2026-03-06",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "商業模式或市場進展具有明顯新意"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "根據 The Information 報導，截至上月底，OpenAI 的年化營收已超過 250 億美元，顯示 AI 商業化正在加速。這一數字反映了企業和消費者對 ChatGPT 等 AI 產品的強勁需求。",
       "from_file": "output/2026/03/06.md"
     },
@@ -187,11 +151,7 @@
       "topic": "Alibaba Qwen leadership change",
       "fingerprint": "Alibaba|alibaba-qwen-leadership-change|2026-03-06",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "leadership_change",
-        "secondary": [],
-        "note": "關鍵主管或領導層異動"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "負責阿里巴巴 AI 模型的核心人物 Junyang Lin 突然宣布辭職，這位曾警告中國與 OpenAI 差距的技術領袖離開，引發外界對阿里巴巴 AI 發展策略的質疑。他在今年一月北京論壇上曾表示，中国公司不太可能超越 OpenAI 和 Anthropic。",
       "from_file": "output/2026/03/06.md"
     },
@@ -204,11 +164,7 @@
       "topic": "AI agents market outlook",
       "fingerprint": "Qualcomm|ai-agents-market-outlook|2026-03-06",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "Qualcomm 執行長預測 2026 年將是 AI Agent 的一年。隨著移動設備 AI 能力的提升，智慧型手機將能夠執行更複雜的自主任務，從個人助理到企業自動化流程，AI Agent 的應用場景正在快速擴展。",
       "from_file": "output/2026/03/06.md"
     },
@@ -221,13 +177,7 @@
       "topic": "AI manufacturing automation tools",
       "fingerprint": "Unknown|ai-manufacturing-automation-tools|2026-03-06",
       "section": "tools",
-      "reason_picked": {
-        "code": "real_world_deployment",
-        "secondary": [
-          "workflow_automation"
-        ],
-        "note": "從能力展示走向實際工作流落地"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "AI 新創公司 SageX 發布專為製造商設計的 AI 自動化平台，可消除手動 ERP 資料輸入，自動化管理財務和營運流程。根據報導，這款工具能幫助製造企業現代化並提升獲利能力。",
       "from_file": "output/2026/03/06.md"
     },
@@ -240,11 +190,7 @@
       "topic": "AI construction equipment applications",
       "fingerprint": "Unknown|ai-construction-equipment-applications|2026-03-06",
       "section": "tools",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "全球工程設備製造商聚集在拉斯維加斯參加 2026 年 CONEXPO-CON/AGG，展示 AI 和自主操作的廣泛應用趨勢。從自動駕駛卡車到智慧 施工系統，AI 正在重塑傳統營建產業。",
       "from_file": "output/2026/03/06.md"
     },
@@ -257,13 +203,7 @@
       "topic": "AI brain MRI diagnosis",
       "fingerprint": "密西根大學|ai-brain-mri-diagnosis|2026-03-07",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "real_world_deployment",
-        "secondary": [
-          "healthcare"
-        ],
-        "note": "從能力展示走向實際工作流落地"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "研究團隊打造的新型 AI 系統可在數秒內解讀腦部 MRI 掃描，精準識別多種神經系統疾病，並判斷哪些案例需要緊急處置。這項技術有望大幅縮短診斷時間，提升醫療效率。",
       "from_file": "output/2026/03/07.md"
     },
@@ -276,11 +216,7 @@
       "topic": "AI chip export controls",
       "fingerprint": "NVIDIA|ai-chip-export-controls|2026-03-07",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "policy_or_regulatory_change",
-        "secondary": [],
-        "note": "政策或監管規則出現新變化"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "根據 Bloomberg 報導，官員起草法規賦予華盛頓對全球 AI 晶片運輸的廣泛控制權，無論是訓練或運行 AI 模型的設施，都需經過美國批准。這項新規將影響 Nvidia、AMD 等公司的全球銷售。",
       "from_file": "output/2026/03/07.md"
     },
@@ -293,11 +229,7 @@
       "topic": "2026 年企業級 AI 主流：AI Agents 將全面崛起",
       "fingerprint": "Unknown|2026-年企業級-ai-主流-ai-agents-將全面崛起|2026-03-07",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "從生成式模型、預測分析、電腦視覺到智慧自動化，眾多 AI 工具正在獲得青睞。但企業級 AI Agents 才是真正會在未來幾個月主導市場的解決方案。AI Agents 能夠推理目標、規劃行動序列、執行任務，並從結果中學習優化決策。",
       "from_file": "output/2026/03/07.md"
     },
@@ -310,13 +242,7 @@
       "topic": "OpenAI Codex Security",
       "fingerprint": "OpenAI|openai-codex-security|2026-03-07",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "security_or_incident",
-        "secondary": [
-          "security_research"
-        ],
-        "note": "安全研究、漏洞或風險事件"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "OpenAI 發布了名為 Codex Security 的應用安全代理程式，可深入理解用戶專案以識別複雜漏洞並減少誤報。該工具結合前沿模型的代理推理能力與自動驗證，提供高可信度的發現和可操作的修復建議，挑戰傳統資安大廠。",
       "from_file": "output/2026/03/07.md"
     },
@@ -329,11 +255,7 @@
       "topic": "Google Gemini 3.1 Pro",
       "fingerprint": "Google|google-gemini-3-1-pro|2026-03-07",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "major_feature_update",
-        "secondary": [],
-        "note": "既有產品新增重要功能或能力升級"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "Gemini 3.1 Pro 擁有 200 萬 token 上下文窗口，在 GPQA Diamond（研究生級科學推理基準）取得 94.3 分，讓 Google 重回基準測試排行榜榜首。Anthropic 的 Claude Sonnet 4.6 也以接近 Opus 等級的表現但 Sonnet 價格獲得關注。",
       "from_file": "output/2026/03/07.md"
     },
@@ -346,11 +268,7 @@
       "topic": "AI telecom transformation",
       "fingerprint": "Unknown|ai-telecom-transformation|2026-03-07",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "2026 年世界行動通訊大會（MWC）於巴塞隆納落幕，會中焦點集中在 AI 如何將行動通訊從基本連接推向更廣泛的數位生態系統，整合雲端運算、資料平台和產業應用。",
       "from_file": "output/2026/03/07.md"
     },
@@ -363,11 +281,7 @@
       "topic": "xAI infrastructure expansion",
       "fingerprint": "xAI|xai-infrastructure-expansion|2026-03-07",
       "section": "tools",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "Elon Musk 的 xAI 宣布斥資 6.59 億美元擴張 Memphis 超級電腦，這是 AI 基礎設施建設的又一個重大投資訊號。",
       "from_file": "output/2026/03/07.md"
     },
@@ -380,13 +294,7 @@
       "topic": "OpenAI GPT-5.4",
       "fingerprint": "OpenAI|openai-gpt-5-4|2026-03-08",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [
-          "first_party_report"
-        ],
-        "note": "正式發布或首次公開新能力"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "OpenAI 推出了 GPT-5.4 系列，包含標準版、Thinking（推理）版和 Pro 版。這款新模型被定位為「專業工作中最强大且最高效的前沿模型」，API 版本支援高達 100 萬 tokens 的上下文窗口。GPT-5.4 在 OSWorld-Verified 和 WebArena-Verified 電腦使用基準測試中創下紀錄，並在 APEX-Agients 基準測試中於法律和金融專業技能測試中領先。更值得注意的是，GPT-5.4 的幻覺率比 GPT-5.2 降低了",
       "from_file": "output/2026/03/08.md"
     },
@@ -399,11 +307,7 @@
       "topic": "US AI contract rules and Anthropic clash",
       "fingerprint": "美國政府|us-ai-contract-rules-and-anthropic-clash|2026-03-08",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "policy_or_regulatory_change",
-        "secondary": [],
-        "note": "政策或監管規則出現新變化"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "根據 FT 報導，Trump administration 已擬定針對民用 AI 合約的嚴格新規範，要求企業允許「任何合法使用」其模型。這項政策是在與 Anthropic 僵持不下之際推出的，引發 AI 業界對監管方向的廣泛討論。",
       "from_file": "output/2026/03/08.md"
     },
@@ -416,11 +320,7 @@
       "topic": "OpenAI GPT-5.4 context window",
       "fingerprint": "OpenAI|openai-gpt-5-4-context-window|2026-03-08",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "major_feature_update",
-        "secondary": [],
-        "note": "既有產品新增重要功能或能力升級"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "除了 GPT-5.4 支援 100 萬 tokens 上下文外，GPT-5.2 早先已支援 40 萬 tokens，較 GPT-4 的 12.8 萬大幅提升。這場「上下文窗口軍備競賽」讓 AI 能夠處理更長的文件、程式碼庫和對話歷史。",
       "from_file": "output/2026/03/08.md"
     },
@@ -433,11 +333,7 @@
       "topic": "AI 股票觀測：BigBear.ai、SoundHound AI 等七檔值得關注",
       "fingerprint": "Unknown|ai-股票觀測-bigbear-ai-soundhound-ai-等七檔值得關注|2026-03-08",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "根據 Daily Political 分析，BigBear.ai、SoundHound AI、Hut 8、Tempus AI、SentinelOne、Upstart 和 InterDigital 是 2026 年 3 月值得关注的七檔 AI 相關股票，反映 AI 產業在資本市場的持續熱度。",
       "from_file": "output/2026/03/08.md"
     },
@@ -450,11 +346,7 @@
       "topic": "Netflix 收購 Ben Affleck 的 AI 電影技術公司",
       "fingerprint": "Netflix|netflix-收購-ben-affleck-的-ai-電影技術公司|2026-03-08",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "Netflix 近期收購了 Ben Affleck 旗下的 AI 電影技術公司，顯示好萊塢對 AI 製片技術的興趣持續升溫，AI 在影視產業的應用正從後製走向前期創作。",
       "from_file": "output/2026/03/08.md"
     },
@@ -467,13 +359,7 @@
       "topic": "OpenAI GPT-5.4 tools",
       "fingerprint": "OpenAI|openai-gpt-5-4-tools|2026-03-08",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [
-          "first_party_report"
-        ],
-        "note": "正式發布或首次公開新能力"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "GPT-5.4 導入了名為 Tool Search 的新系統，允許模型按需查詢工具定義，而非在每次調用時將所有工具定義塞入提示詞。這使得擁有大量工具的開發者能獲得更快速、更便宜的 API 請求。",
       "from_file": "output/2026/03/08.md"
     },
@@ -486,11 +372,7 @@
       "topic": "AI prediction market consumer apps",
       "fingerprint": "Unknown|ai-prediction-market-consumer-apps|2026-03-08",
       "section": "tools",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "ESPN 的 Tournament Challenge 現在提供由 ESPN Analytics 驅動的 Smart Bracket 自動填入功能，將過去僅限於博彩公司的分析優勢變成消費者介面功能。同時，生成式 AI 也成為許多人「代填」籃球 brackets 的幫手，儘管它偶爾會「幻想」出信心十足的錯誤預測。2025 年 ESPN 收到 2440 萬份完成的 brackets，峰值流量達每秒 709 份。",
       "from_file": "output/2026/03/08.md"
     },
@@ -503,11 +385,7 @@
       "topic": "Responsible AI genealogy usage",
       "fingerprint": "Unknown|responsible-ai-genealogy-usage|2026-03-08",
       "section": "tools",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "在 Salt Lake City 舉辦的 RootsTech 2026 基因學大會上，「負責任使用 AI 於族譜研究」論壇發布了五項核心原則：準確性（Accuracy）、揭露（Disclosure）、隱私（Privacy）、教育（Education）和合規（Compliance）。研究人員強調 AI 可能產生虛假、偏見或捏造的資訊，使用者必須透過其他歷史記錄和可信來源進行驗證。",
       "from_file": "output/2026/03/08.md"
     },
@@ -520,11 +398,7 @@
       "topic": "OpenAI GPT-5.4",
       "fingerprint": "OpenAI|openai-gpt-5-4|2026-03-09",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [],
-        "note": "正式發布或首次公開新能力"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "新模型可直接透過 Playwright 類工具看畫面、下滑鼠鍵盤指令，OSWorld-Verified 成功率達 75.0%，已高於文中引用的人類基準 72.4%。這代表 AI 不只會聊天，而是更接近能實際執行桌面與瀏覽器工作流程的自動化代理。",
       "from_file": "output/2026/03/09.md"
     },
@@ -537,13 +411,7 @@
       "topic": "AI infrastructure",
       "fingerprint": "Unknown|ai-infrastructure|2026-03-09",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [
-          "first_party_report"
-        ],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "TechCrunch 點出，從 Microsoft、OpenAI 到 Google、Oracle、Meta，產業正把競爭焦點往算力、資料中心與電網資源延伸。Jensen Huang 甚至預估本世代 AI 基建支出上看 3 到 4 兆美元，意味模型戰背後其實是能源與供應鏈戰。",
       "from_file": "output/2026/03/09.md"
     },
@@ -556,13 +424,7 @@
       "topic": "AI agents in Jira",
       "fingerprint": "Atlassian|ai-agents-in-jira|2026-03-09",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [
-          "first_party_report"
-        ],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "Atlassian 推出 open beta 的「agents in Jira」，讓企業可像分派真人任務一樣，把 ticket 指派給 AI agent，並在同一面板追蹤進度、期限與協作狀態。這很關鍵，因為企業導入 AI 的下一步，不是多一個聊天視窗，而是把代理納入既有專案治理與可觀測流程。",
       "from_file": "output/2026/03/09.md"
     },
@@ -575,11 +437,7 @@
       "topic": "Anthropic Claude availability/governance",
       "fingerprint": "Anthropic|anthropic-claude-availability-governance|2026-03-09",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "distribution_expansion",
-        "secondary": [],
-        "note": "產品進入新市場或新通路"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "儘管美國國防部已將 Anthropic 列為供應鏈風險，Google 仍表示 Claude 會繼續透過 Vertex AI 提供給非國防客戶。值得注意的是，Anthropic 同時擴大取得 Google 最多 100 萬顆 TPU 的算力資源，顯示雲端巨頭與模型公司之間的綁定仍在加深。",
       "from_file": "output/2026/03/09.md"
     },
@@ -592,11 +450,7 @@
       "topic": "OpenAI Pentagon controversy",
       "fingerprint": "OpenAI|openai-pentagon-controversy|2026-03-09",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "leadership_change",
-        "secondary": [],
-        "note": "關鍵主管或領導層異動"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "Caitlin Kalinowski 公開表示，OpenAI 在宣布 Pentagon 合作前，對「國內監控」與「致命自主武器」等紅線的治理界定不夠完整。這件事提醒市場：AI 大廠接國防訂單，已不只是商業合作問題，而是公司治理、倫理邊界與人才穩定度的壓力測試。",
       "from_file": "output/2026/03/09.md"
     },
@@ -609,13 +463,7 @@
       "topic": "AI funding concentration",
       "fingerprint": "OpenAI|ai-funding-concentration|2026-03-09",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [
-          "first_party_report"
-        ],
-        "note": "商業模式或市場進展具有明顯新意"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "Crunchbase 數據顯示，2026 年 2 月全球創投共投入 1890 億美元，其中 AI 公司就拿走 1710 億美元，占比高達 90%。光是 OpenAI、Anthropic、Waymo 三家，就包辦 83% 資金，說明市場正從「廣撒種子」進入「超級平台集中化」階段。",
       "from_file": "output/2026/03/09.md"
     },
@@ -628,13 +476,7 @@
       "topic": "Conversational AI on TV",
       "fingerprint": "YouTube|conversational-ai-on-tv|2026-03-09",
       "section": "tools",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [
-          "first_party_report"
-        ],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "selected_for_recent_newsletter_bootstrap",
       "summary": "新功能讓使用者在看影片時可直接按下「Ask」，一邊看內容一邊問食譜、歌詞背景或影片細節，甚至能用遙控器麥克風即時發問。這類「不中斷內容消費」的設計，很可能會成為客廳型 AI 助理的主流介面。",
       "from_file": "output/2026/03/09.md"
     },
@@ -647,14 +489,7 @@
       "topic": "agentic coding automations for software engineering workflows",
       "fingerprint": "Cursor|agentic-coding-automations-for-software-engineering-workflows|2026-03-09",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "real_world_deployment",
-        "secondary": [
-          "first_party_report",
-          "workflow_automation"
-        ],
-        "note": "從能力展示走向實際工作流落地"
-      },
+      "reason_picked": "official_launch_new_workflow_automation",
       "summary": "Cursor 新增 Automations，可由 commit、Slack 或定時器自動觸發代理，延伸到安全審查、incident response 與週報整理，代表 coding agent 正走向常駐工作流。",
       "from_file": "output/2026/03/09.md"
     },
@@ -667,14 +502,7 @@
       "topic": "multimodal creative agents with unified intelligence models",
       "fingerprint": "Luma|multimodal-creative-agents-with-unified-intelligence-models|2026-03-09",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "material_followup",
-        "secondary": [
-          "first_party_report",
-          "creative_tools"
-        ],
-        "note": "bootstrap imported from recent newsletter output"
-      },
+      "reason_picked": "official_launch_new_multimodal_agent_platform",
       "summary": "Luma Agents 由 Uni-1 支撐，整合文字、圖像、影音與空間推理，並可協同其他模型完成端到端創意素材製作。",
       "from_file": "output/2026/03/09.md"
     },
@@ -687,14 +515,7 @@
       "topic": "hipaa-compliant healthcare administrative ai agent platform",
       "fingerprint": "AWS|hipaa-compliant-healthcare-administrative-ai-agent-platform|2026-03-09",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "real_world_deployment",
-        "secondary": [
-          "first_party_report",
-          "healthcare"
-        ],
-        "note": "HIPAA 合規 AI agent 進入醫療行政流程"
-      },
+      "reason_picked": "official_launch_clear_real_world_deployment",
       "summary": "Amazon Connect Health 針對醫療行政流程提供 HIPAA 合規 AI agents，可處理病患驗證、紀錄、排程與後續醫療編碼。",
       "from_file": "output/2026/03/09.md"
     },
@@ -707,13 +528,7 @@
       "topic": "whatsapp business api access for rival ai chatbots in europe",
       "fingerprint": "Meta|whatsapp-business-api-access-for-rival-ai-chatbots-in-europe|2026-03-09",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "pricing_or_packaging_change",
-        "secondary": [
-          "first_party_report"
-        ],
-        "note": "平台開放第三方 AI 並改採訊息計費"
-      },
+      "reason_picked": "regulatory_or_governance_change",
       "summary": "Meta 因歐盟反壟斷壓力，允許第三方一般型 AI chatbot 透過 WhatsApp Business API 在歐洲上架，但改採按訊息計費。",
       "from_file": "output/2026/03/09.md"
     },
@@ -726,13 +541,7 @@
       "topic": "gemini canvas rollout into google search ai mode",
       "fingerprint": "Google|gemini-canvas-rollout-into-google-search-ai-mode|2026-03-09",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "major_feature_update",
-        "secondary": [
-          "first_party_report"
-        ],
-        "note": "Gemini Canvas 擴大整合進 Search AI Mode"
-      },
+      "reason_picked": "major_feature_or_benchmark_update",
       "summary": "Google 把 Gemini Canvas 擴大到 Search 的 AI Mode，讓使用者可在搜尋中直接整理研究、產生文件與建構小型 app。",
       "from_file": "output/2026/03/09.md"
     },
@@ -745,13 +554,7 @@
       "topic": "pixel drop daily ai utilities and multimodal shopping tools",
       "fingerprint": "Google|pixel-drop-daily-ai-utilities-and-multimodal-shopping-tools|2026-03-09",
       "section": "tools",
-      "reason_picked": {
-        "code": "major_feature_update",
-        "secondary": [
-          "official_source"
-        ],
-        "note": "Pixel 生態新增多項 Gemini 實用能力"
-      },
+      "reason_picked": "clear_new_productization_or_real_world_deployment",
       "summary": "Pixel 3 月更新加入多物件辨識、Try It On 試穿與 Gemini 背景代辦，顯示 AI 功能正更深地嵌入手機日常任務。",
       "from_file": "output/2026/03/09.md"
     },
@@ -764,14 +567,7 @@
       "topic": "Claude finds Firefox vulnerabilities with Mozilla",
       "fingerprint": "Anthropic|claude-finds-firefox-vulnerabilities-with-mozilla|2026-03-09",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "security_or_incident",
-        "secondary": [
-          "official_source",
-          "security_research"
-        ],
-        "note": "Claude 進入真實產品漏洞研究場景"
-      },
+      "reason_picked": "clear_new_productization_or_real_world_deployment",
       "summary": "Claude Opus 4.6 在兩週內替 Mozilla 找出 22 個 Firefox 漏洞，其中 14 個為高嚴重度，顯示 AI 在真實資安研究中的可用性明顯提升。",
       "from_file": "output/2026/03/09.md"
     },
@@ -784,13 +580,7 @@
       "topic": "SpeciesNet open-source wildlife monitoring model",
       "fingerprint": "Google|speciesnet-open-source-wildlife-monitoring-model|2026-03-09",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [
-          "official_source"
-        ],
-        "note": "Google 正式開源 SpeciesNet 模型"
-      },
+      "reason_picked": "official_launch",
       "summary": "Google 介紹開源 SpeciesNet 的全球落地情況，該模型可辨識近 2500 類動物，已協助研究團隊快速分析數百萬張野外相機影像。",
       "from_file": "output/2026/03/09.md"
     },
@@ -803,15 +593,7 @@
       "topic": "ChatGPT for Excel and financial data integrations",
       "fingerprint": "OpenAI|chatgpt-for-excel-and-financial-data-integrations|2026-03-09",
       "section": "hard-tech",
-      "reason_picked": {
-        "code": "real_world_deployment",
-        "secondary": [
-          "official_source",
-          "finance",
-          "workflow_automation"
-        ],
-        "note": "AI 正式切進金融分析實際工作流"
-      },
+      "reason_picked": "official_launch",
       "summary": "OpenAI 推出 Excel 外掛與金融資料整合，讓 GPT-5.4 Thinking 直接參與建模、情境分析與研究流程，明確切入高價值金融工作場景。",
       "from_file": "output/2026/03/09.md"
     },
@@ -824,15 +606,7 @@
       "topic": "Gemini for Education rollout in Malaysian public universities",
       "fingerprint": "Google|gemini-for-education-rollout-in-malaysian-public-universities|2026-03-09",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "distribution_expansion",
-        "secondary": [
-          "official_source",
-          "education",
-          "new_market"
-        ],
-        "note": "Gemini for Education 擴張到馬來西亞公立大學"
-      },
+      "reason_picked": "new_partnership_or_distribution",
       "summary": "Google 與馬來西亞高教體系合作，將 Gemini for Education、Gemini 3.1 Pro 與 NotebookLM Enterprise 大規模導入 20 所公立大學。",
       "from_file": "output/2026/03/09.md"
     },
@@ -845,14 +619,7 @@
       "topic": "AI multilingual video dubbing at scale",
       "fingerprint": "Descript|ai-multilingual-video-dubbing-at-scale|2026-03-09",
       "section": "big-tech",
-      "reason_picked": {
-        "code": "partnership_or_integration",
-        "secondary": [
-          "official_source",
-          "creative_tools"
-        ],
-        "note": "OpenAI 能力整合進 Descript 多語配音產品"
-      },
+      "reason_picked": "clear_new_productization_or_real_world_deployment",
       "summary": "Descript 以 OpenAI 模型重做翻譯與配音流程，同時優化語意與時長貼合度，讓多語影片本地化更接近可大規模商用。",
       "from_file": "output/2026/03/09.md"
     },
@@ -865,38 +632,9 @@
       "topic": "NotebookLM cinematic video overviews",
       "fingerprint": "Google|notebooklm-cinematic-video-overviews|2026-03-09",
       "section": "tools",
-      "reason_picked": {
-        "code": "major_feature_update",
-        "secondary": [
-          "official_source",
-          "creative_tools"
-        ],
-        "note": "NotebookLM 新增影片化輸出能力"
-      },
+      "reason_picked": "major_feature_or_benchmark_update",
       "summary": "NotebookLM 新增 Cinematic Video Overviews，可把來源資料轉成更完整的敘事型 AI 影片，顯示知識工具正走向可交付內容生成。",
       "from_file": "output/2026/03/09.md"
     }
-  ],
-  "reason_picked_schema": {
-    "type": "object",
-    "required": [
-      "code",
-      "secondary",
-      "note"
-    ],
-    "code_enum": [
-      "official_launch",
-      "major_feature_update",
-      "pricing_or_packaging_change",
-      "distribution_expansion",
-      "partnership_or_integration",
-      "real_world_deployment",
-      "leadership_change",
-      "policy_or_regulatory_change",
-      "security_or_incident",
-      "material_followup"
-    ],
-    "secondary_max_items": 3,
-    "note_rule": "short justification, ideally 8-30 Chinese chars or equivalent concise English"
-  }
+  ]
 }
