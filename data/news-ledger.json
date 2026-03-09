@@ -510,6 +510,122 @@
       },
       "summary": "在 Salt Lake City 舉辦的 RootsTech 2026 基因學大會上，「負責任使用 AI 於族譜研究」論壇發布了五項核心原則：準確性（Accuracy）、揭露（Disclosure）、隱私（Privacy）、教育（Education）和合規（Compliance）。研究人員強調 AI 可能產生虛假、偏見或捏造的資訊，使用者必須透過其他歷史記錄和可信來源進行驗證。",
       "from_file": "output/2026/03/08.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Cisco unveils new AI networking chip, taking on Broadcom and Nvidia",
+      "url": "https://www.reuters.com/business/media-telecom/cisco-unveils-new-ai-networking-chip-taking-broadcom-and-nvidia-2026-02-10/",
+      "source": "reuters.com",
+      "company": "Cisco",
+      "topic": "AI networking chip for data centers",
+      "fingerprint": "Cisco|ai-networking-chip-for-data-centers|2026-03-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "新晶片切入 AI 資料中心互連"
+      },
+      "summary": "Cisco 發表 AI 網路晶片與新路由器，瞄準 AI 資料中心的高頻寬互連需求，直接對上 Broadcom 與 NVIDIA 在基礎設施層的影響力。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Nvidia to invest $2 billion each in Lumentum, Coherent to bolster AI processors",
+      "url": "https://www.reuters.com/technology/nvidia-invest-2-billion-photonic-product-maker-lumentum-2026-03-02/",
+      "source": "reuters.com",
+      "company": "NVIDIA",
+      "topic": "AI photonics supply chain investment",
+      "fingerprint": "NVIDIA|ai-photonics-supply-chain-investment|2026-03-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "新增光通訊投資布局 AI 互連"
+      },
+      "summary": "NVIDIA 各投資 20 億美元給 Lumentum 與 Coherent，強化 AI 伺服器所需的光學互連與資料中心頻寬供應鏈。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Scaling AI for everyone",
+      "url": "https://openai.com/index/scaling-ai-for-everyone/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI funding round with Amazon and Nvidia infrastructure partnerships",
+      "fingerprint": "OpenAI|funding-round-with-amazon-and-nvidia-infrastructure-partnerships|2026-03-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "募資同時綁定新算力與雲端合作"
+      },
+      "summary": "OpenAI 宣布 1100 億美元新投資，並同步擴大與 Amazon、NVIDIA 的算力與部署合作，把資本、基建與產品擴張綁在同一輪推進。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Snowflake and Anthropic announce $200 million partnership to bring agentic AI to global enterprises",
+      "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Snowflake enterprise data agent partnership",
+      "fingerprint": "Anthropic|anthropic-snowflake-enterprise-data-agent-partnership|2026-03-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把 Claude 直接帶進企業資料層"
+      },
+      "summary": "Anthropic 與 Snowflake 擴大為 2 億美元合作，讓 Claude 更直接貼近企業資料治理、text-to-SQL 與 agentic AI 工作流。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Offering expanded Claude access across all three branches of the U.S. government",
+      "url": "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Claude $1 US government expansion",
+      "fingerprint": "Anthropic|anthropic-claude-1-us-government-expansion|2026-03-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "從可採購推進到低門檻上線"
+      },
+      "summary": "Anthropic 向美國政府三權機構推出 1 美元 Claude 方案，結合 GSA 與 FedRAMP High，降低公部門導入門檻。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Fitbit founders launch AI platform to help families monitor their health",
+      "url": "https://techcrunch.com/2026/02/03/fitbit-founders-launch-ai-platform-to-help-families-monitor-their-health/",
+      "source": "techcrunch.com",
+      "company": "Luffu",
+      "topic": "AI family health monitoring assistant",
+      "fingerprint": "Luffu|ai-family-health-monitoring-assistant|2026-03-09",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "healthcare",
+          "workflow_automation"
+        ],
+        "note": "AI 走向家庭照護協作場景"
+      },
+      "summary": "Fitbit 創辦人推出 Luffu，以 AI 整合家庭健康資訊、偵測異常與提醒照護者，屬於更貼近真實生活的 AI 工具化應用。",
+      "from_file": "output/2026/03/09.md"
     }
   ],
   "reason_picked_schema": {
