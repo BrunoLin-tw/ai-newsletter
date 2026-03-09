@@ -37,6 +37,76 @@ ai-newsletter/
 3. **轉換格式**：自動將 Markdown 轉換為 HTML
 4. **部署上線**：發布到 GitHub Pages
 
+## 🧠 選題與去重機制（2026-03 升級）
+
+AI Daily Newsletter 現在不是單純「每天搜尋新聞後直接寫出來」，而是加入了**新聞台帳（ledger）+ 去重規則 + 選題理由結構化記錄**的流程，避免連續幾天重複報導同一主題。
+
+### 核心做法
+
+- 使用 `/data/news-ledger.json` 作為已採用新聞的**正式台帳**
+- 每次生成前，先比對 **最近 7 天**已採用的新聞
+- 若候選新聞與近 7 日的 `topic` 相同或高度相近，**原則上排除**
+- 只有在有明確新意時才允許保留，例如：
+  - 正式發布
+  - 重大功能 / benchmark / 價格 / 規格更新
+  - 新合作 / 新市場 / 新通路落地
+  - 監管、治理或高層異動
+- 同一事件若有多篇來源，只保留資訊最完整、最原始、最可信的一篇
+- 優先官方來源與一手媒體，避免聚合站與二手改寫文
+
+### Ledger 結構
+
+每筆採用新聞會記錄：
+
+- `date`
+- `title`
+- `url`
+- `source`
+- `company`
+- `topic`
+- `fingerprint`
+- `section`
+- `reason_picked`
+- `summary`
+- `from_file`
+
+其中：
+- `topic` 代表事件本身，而不是單純複製標題
+- `fingerprint` 使用穩定格式，例如：`company|normalized_topic|YYYY-MM-DD`
+- `reason_picked` 使用結構化物件，而不是自由文字
+
+### `reason_picked` 格式
+
+```json
+{
+  "code": "official_launch",
+  "secondary": ["official_source", "benchmark_detail"],
+  "note": "首次正式發布，含 benchmark 細節"
+}
+```
+
+`code` 目前固定使用以下枚舉值：
+
+- `official_launch`
+- `major_feature_update`
+- `pricing_or_packaging_change`
+- `distribution_expansion`
+- `partnership_or_integration`
+- `real_world_deployment`
+- `leadership_change`
+- `policy_or_regulatory_change`
+- `security_or_incident`
+- `material_followup`
+
+### 額外硬規則
+
+如果新聞屬於近 7 日相近 topic 的延續報導：
+
+- `reason_picked.note` **必須明寫本次新增的新意**
+- 若 note 只是泛泛而談、沒有寫出新進展，**不得入選**
+
+這套流程的目的，是讓電子報從「每日搜尋摘要」升級成**有記憶、有編輯判斷、可持續學習的選題系統**。
+
 ## 📝 手動操作
 
 ```bash
