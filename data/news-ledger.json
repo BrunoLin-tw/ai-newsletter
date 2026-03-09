@@ -557,6 +557,84 @@
       "reason_picked": "clear_new_productization_or_real_world_deployment",
       "summary": "Pixel 3 月更新加入多物件辨識、Try It On 試穿與 Gemini 背景代辦，顯示 AI 功能正更深地嵌入手機日常任務。",
       "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Anthropic 與 Mozilla 聯手，Claude 兩週內找出 Firefox 22 個漏洞",
+      "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude finds Firefox vulnerabilities with Mozilla",
+      "fingerprint": "Anthropic|claude-finds-firefox-vulnerabilities-with-mozilla|2026-03-09",
+      "section": "hard-tech",
+      "reason_picked": "clear_new_productization_or_real_world_deployment",
+      "summary": "Claude Opus 4.6 在兩週內替 Mozilla 找出 22 個 Firefox 漏洞，其中 14 個為高嚴重度，顯示 AI 在真實資安研究中的可用性明顯提升。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Google 開源 SpeciesNet，把野生動物監測變成可規模化 AI 任務",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/speciesnet-open-source-ai-wildlife/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "SpeciesNet open-source wildlife monitoring model",
+      "fingerprint": "Google|speciesnet-open-source-wildlife-monitoring-model|2026-03-09",
+      "section": "hard-tech",
+      "reason_picked": "official_launch",
+      "summary": "Google 介紹開源 SpeciesNet 的全球落地情況，該模型可辨識近 2500 類動物，已協助研究團隊快速分析數百萬張野外相機影像。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "OpenAI 推出 ChatGPT for Excel，切入金融分析工作流",
+      "url": "https://openai.com/index/chatgpt-for-excel/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "ChatGPT for Excel and financial data integrations",
+      "fingerprint": "OpenAI|chatgpt-for-excel-and-financial-data-integrations|2026-03-09",
+      "section": "hard-tech",
+      "reason_picked": "official_launch",
+      "summary": "OpenAI 推出 Excel 外掛與金融資料整合，讓 GPT-5.4 Thinking 直接參與建模、情境分析與研究流程，明確切入高價值金融工作場景。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Google 把 Gemini for Education 推進馬來西亞全部 20 所公立大學",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/gemini-malaysia-universities/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Gemini for Education rollout in Malaysian public universities",
+      "fingerprint": "Google|gemini-for-education-rollout-in-malaysian-public-universities|2026-03-09",
+      "section": "big-tech",
+      "reason_picked": "new_partnership_or_distribution",
+      "summary": "Google 與馬來西亞高教體系合作，將 Gemini for Education、Gemini 3.1 Pro 與 NotebookLM Enterprise 大規模導入 20 所公立大學。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Descript 用 OpenAI 模型把多語影片配音做得更像產品，而不是 demo",
+      "url": "https://openai.com/index/descript/",
+      "source": "openai.com",
+      "company": "Descript",
+      "topic": "AI multilingual video dubbing at scale",
+      "fingerprint": "Descript|ai-multilingual-video-dubbing-at-scale|2026-03-09",
+      "section": "big-tech",
+      "reason_picked": "clear_new_productization_or_real_world_deployment",
+      "summary": "Descript 以 OpenAI 模型重做翻譯與配音流程，同時優化語意與時長貼合度，讓多語影片本地化更接近可大規模商用。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "NotebookLM 推出 Cinematic Video Overviews，把筆記直接長成短片",
+      "url": "https://blog.google/innovation-and-ai/products/notebooklm/generate-your-own-cinematic-video-overviews-in-notebooklm/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "NotebookLM cinematic video overviews",
+      "fingerprint": "Google|notebooklm-cinematic-video-overviews|2026-03-09",
+      "section": "tools",
+      "reason_picked": "major_feature_or_benchmark_update",
+      "summary": "NotebookLM 新增 Cinematic Video Overviews，可把來源資料轉成更完整的敘事型 AI 影片，顯示知識工具正走向可交付內容生成。",
+      "from_file": "output/2026/03/09.md"
     }
   ]
 }
