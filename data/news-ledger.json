@@ -875,6 +875,125 @@
       },
       "summary": "NotebookLM 新增 Cinematic Video Overviews，可把來源資料轉成更完整的敘事型 AI 影片，顯示知識工具正走向可交付內容生成。",
       "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Google AI Impact Summit 2026 推出印度基建與公部門 AI 計畫",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "AI infrastructure, science funding, and government AI capacity initiatives announced at Google AI Impact Summit India",
+      "fingerprint": "Google|ai-impact-summit-india-infrastructure-government-capacity|2026-03-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "new_market",
+          "education"
+        ],
+        "note": "印度市場新增基建、公部門與科研三線布局"
+      },
+      "summary": "Google 在 AI Impact Summit India 宣布跨國光纖路由、兩個各 3000 萬美元 AI 基金，以及與印度政府/研究機構的 AI 科學與教育合作，把競爭從模型延伸到基建與公部門採用。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Anthropic 收購 Vercept 強化 Claude 電腦操作能力",
+      "url": "https://www.anthropic.com/news/acquires-vercept",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic acquires Vercept to improve Claude computer-use capabilities",
+      "fingerprint": "Anthropic|acquires-vercept-for-claude-computer-use|2026-03-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "新收購補強 Claude 的 computer use 能力"
+      },
+      "summary": "Anthropic 收購 Vercept，瞄準 AI 在真實軟體中的感知與互動能力，並同步披露 Sonnet 4.6 在 OSWorld 已達 72.5%，顯示 computer use 進入產品化競爭。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Meta 因監管壓力在巴西開放 WhatsApp 給第三方 AI 聊天機器人",
+      "url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
+      "source": "techcrunch.com",
+      "company": "Meta",
+      "topic": "WhatsApp Business API opens to rival AI chatbots in Brazil with per-message pricing",
+      "fingerprint": "Meta|whatsapp-business-api-rival-ai-chatbots-brazil|2026-03-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "相近主題的新意是巴西落地且價格正式公開"
+      },
+      "summary": "繼歐洲後，Meta 在巴西因反壟斷監管要求開放 WhatsApp Business API 給第三方 AI 業者使用，並公告每則非模板訊息 0.0625 美元的新計費。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "City Detect 獲 1300 萬美元 A 輪，把城市巡檢做成 vision AI 服務",
+      "url": "https://techcrunch.com/2026/03/06/city-detect-uses-ai-to-help-cities-stay-safe-and-clean/",
+      "source": "techcrunch.com",
+      "company": "City Detect",
+      "topic": "Vision AI city inspection using vehicle-mounted cameras for blight and damage detection",
+      "fingerprint": "City Detect|vision-ai-city-inspection-for-urban-blight-and-damage|2026-03-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "AI 已進入 17 座城市的真實公共治理流程"
+      },
+      "summary": "City Detect 以裝在垃圾車與街道清掃車上的攝影機蒐集街景，再由電腦視覺辨識塗鴉、違法棄置與建物損壞，已在至少 17 座城市落地。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Gemini 將在 Android 測試多步驟任務代理",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/android-multi-step-tasks/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Gemini Android multi-step task automation beta for rides, food and grocery apps",
+      "fingerprint": "Google|gemini-android-multi-step-task-automation-beta|2026-03-09",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "手機 agent 首次進入多步驟 app 代辦 beta"
+      },
+      "summary": "Google 預告 Gemini 將在 Pixel 10 與 Galaxy S26 系列推出多步驟任務 beta，可在安全虛擬視窗中完成叫車、重訂外送等操作。",
+      "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "DiligenceSquared 用 AI 語音代理降低併購盡調成本",
+      "url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
+      "source": "techcrunch.com",
+      "company": "DiligenceSquared",
+      "topic": "AI voice agents for private-equity M&A diligence and market research",
+      "fingerprint": "DiligenceSquared|ai-voice-agents-for-ma-diligence|2026-03-09",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "finance",
+          "workflow_automation"
+        ],
+        "note": "AI 進入私募基金盡調流程並明顯壓低成本"
+      },
+      "summary": "DiligenceSquared 以 AI voice agents 進行客戶訪談，再由資深顧問驗證輸出，聲稱可把傳統 M&A 商業研究報告的成本壓低到約十分之一。",
+      "from_file": "output/2026/03/09.md"
     }
   ],
   "reason_picked_schema": {
