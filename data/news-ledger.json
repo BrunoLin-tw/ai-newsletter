@@ -626,6 +626,123 @@
       },
       "summary": "Fitbit 創辦人推出 Luffu，以 AI 整合家庭健康資訊、偵測異常與提醒照護者，屬於更貼近真實生活的 AI 工具化應用。",
       "from_file": "output/2026/03/09.md"
+    },
+    {
+      "date": "2026-03-10",
+      "title": "Nvidia Is Planning to Launch an Open-Source AI Agent Platform",
+      "url": "https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/",
+      "source": "wired.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA open-source enterprise AI agent platform",
+      "fingerprint": "NVIDIA|open-source-enterprise-ai-agent-platform|2026-03-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "GTC 前首度曝光開源 agent 平台佈局"
+      },
+      "summary": "WIRED 獨家指出 NVIDIA 正籌備開源 AI agent 平台 NemoClaw，讓企業軟體商可派遣 agent 執行多步驟任務，並附帶安全與隱私工具。這代表 NVIDIA 正往企業 agent orchestration 與工作流層擴張。",
+      "from_file": "output/2026/03/10.md"
+    },
+    {
+      "date": "2026-03-10",
+      "title": "Partnering with Mozilla to improve Firefox’s security",
+      "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Mozilla Firefox vulnerability discovery partnership",
+      "fingerprint": "Anthropic|mozilla-firefox-vulnerability-discovery-partnership|2026-03-06",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "首度披露 Firefox 漏洞實戰成果"
+      },
+      "summary": "Anthropic 公布與 Mozilla 的合作成果：Claude Opus 4.6 在兩週內找出 22 個 Firefox 漏洞，其中 14 個被列為高嚴重度，並已隨 Firefox 148.0 修補。AI 資安研究已進入真實維運與修補流程。",
+      "from_file": "output/2026/03/10.md"
+    },
+    {
+      "date": "2026-03-10",
+      "title": "Introducing the First Frontier Suite built on Intelligence + Trust",
+      "url": "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/",
+      "source": "blogs.microsoft.com",
+      "company": "Microsoft",
+      "topic": "Microsoft Frontier Suite and Agent 365 pricing",
+      "fingerprint": "Microsoft|frontier-suite-and-agent-365-pricing|2026-03-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Agent 365 與 Frontier Suite 首次正式定價"
+      },
+      "summary": "Microsoft 發布 Copilot Wave 3，並宣布 Agent 365 將於 5 月 1 日以每人每月 15 美元 GA，新版 Microsoft 365 E7 Frontier Suite 則定價每人每月 99 美元，同時導入 Claude 與新一代 OpenAI 模型。",
+      "from_file": "output/2026/03/10.md"
+    },
+    {
+      "date": "2026-03-10",
+      "title": "Revealed: UK’s multibillion AI drive is built on ‘phantom investments’",
+      "url": "https://www.theguardian.com/technology/2026/mar/09/revealed-uks-multibillion-ai-drive-is-built-on-phantom-investments",
+      "source": "theguardian.com",
+      "company": "UK Government",
+      "topic": "UK AI investment accountability and phantom projects",
+      "fingerprint": "UK Government|ai-investment-accountability-and-phantom-projects|2026-03-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "英國 AI 基建投資敘事遭實質檢驗"
+      },
+      "summary": "《衛報》調查指出英國政府近年高調宣傳的多筆 AI 投資可能缺乏完整合約、審核與可驗證落地，甚至部分資料中心與超級電腦案場進度存疑。這反映 AI 基建敘事與實際資本落地之間可能存在落差。",
+      "from_file": "output/2026/03/10.md"
+    },
+    {
+      "date": "2026-03-10",
+      "title": "Medidata Expands Partnership with The Menarini Group, Deploying Medidata’s Study Build AI Technology to Accelerate Global Oncology Pipeline",
+      "url": "https://www.3ds.com/newsroom/press-releases/medidata-expands-partnership-menarini-group-deploying-medidatas-study-build-ai-technology-accelerate-global-oncology-pipeline",
+      "source": "3ds.com",
+      "company": "Medidata",
+      "topic": "AI Study Build deployment in oncology trials",
+      "fingerprint": "Medidata|ai-study-build-deployment-in-oncology-trials|2026-03-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "healthcare",
+          "workflow_automation"
+        ],
+        "note": "AI 實際縮短腫瘤臨床試驗啟動時間"
+      },
+      "summary": "Medidata 與 Menarini/Stemline 擴大合作，將 AI Study Build 導入腫瘤臨床試驗工作流，利用超過 3.8 萬個試驗資料自動化配置，把 trial startup 從數月縮短到數週。",
+      "from_file": "output/2026/03/10.md"
+    },
+    {
+      "date": "2026-03-10",
+      "title": "The Top 100 Gen AI Consumer Apps — 6th Edition",
+      "url": "https://a16z.com/100-gen-ai-apps-6/",
+      "source": "a16z.com",
+      "company": "Andreessen Horowitz",
+      "topic": "consumer gen AI app ranking and legacy app AI adoption",
+      "fingerprint": "Andreessen Horowitz|consumer-gen-ai-app-ranking-and-legacy-app-ai-adoption|2026-03-09",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "新版榜單首納 AI 滲透型既有產品"
+      },
+      "summary": "a16z 第六版 Gen AI 百大榜指出，CapCut、Canva、Notion、Grammarly 等既有產品已把生成式 AI 深度嵌入核心體驗，顯示 AI 消費市場競爭正從 AI-native app 擴展到高頻既有應用。",
+      "from_file": "output/2026/03/10.md"
     }
   ],
   "reason_picked_schema": {
