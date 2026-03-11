@@ -743,6 +743,106 @@
       },
       "summary": "a16z 第六版 Gen AI 百大榜指出，CapCut、Canva、Notion、Grammarly 等既有產品已把生成式 AI 深度嵌入核心體驗，顯示 AI 消費市場競爭正從 AI-native app 擴展到高頻既有應用。",
       "from_file": "output/2026/03/10.md"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "NVIDIA and ComfyUI Streamline Local AI Video Generation for Game Developers and Creators at GDC",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-flux-ltx-video-comfyui-gdc/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "local AI video generation workflow productization with ComfyUI App View and NVFP4",
+      "fingerprint": "NVIDIA|local-ai-video-generation-workflow-productization-comfyui-app-view-nvfp4|2026-03-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "ComfyUI 介面產品化，並公開 NVFP4/4K 工作流效能新細節"
+      },
+      "summary": "NVIDIA 在 GDC 發布 ComfyUI App View、RTX Video Super Resolution 節點與 NVFP4/FP8 模型優化，強調本地 AI 影片生成的易用性、4K 升頻與顯存效率。",
+      "from_file": "output/2026/03/11.md"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "AI Impact Summit 2026: How we’re partnering to make AI work for everyone",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "India AI infrastructure government science expansion programs",
+      "fingerprint": "Google|india-ai-infrastructure-government-science-expansion-programs|2026-03-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "new_market",
+          "education"
+        ],
+        "note": "Google 在印度同時擴基建、政府 AI 與科研計畫，屬新市場落地"
+      },
+      "summary": "Google 於 AI Impact Summit 宣布 America-India Connect、兩項各 3000 萬美元挑戰基金，以及 DeepMind 與印度政府/機構合作，把 AI 導入科學、教育與公共服務。",
+      "from_file": "output/2026/03/11.md"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Amazon launches Health AI agent on Amazon website and app with free 24/7 access to virtual care for Prime members",
+      "url": "https://www.aboutamazon.com/news/retail/amazon-health-ai-agent-one-medical",
+      "source": "aboutamazon.com",
+      "company": "Amazon",
+      "topic": "Amazon Health AI expansion to main app and Prime virtual care bundle",
+      "fingerprint": "Amazon|amazon-health-ai-expansion-main-app-prime-virtual-care-bundle|2026-03-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "healthcare",
+          "workflow_automation"
+        ],
+        "note": "從 One Medical 擴到 Amazon 主站與 App，首次明確綁定 Prime 問診權益"
+      },
+      "summary": "Amazon 將 Health AI 從 One Medical 擴展至 Amazon.com 與 App，可讀病歷、續藥、預約與轉接 One Medical，並提供 Prime 會員免費訊息問診額度。",
+      "from_file": "output/2026/03/11.md"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "‘I wish I could push ChatGPT off a cliff’: professors scramble to save critical thinking in an age of AI",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/mar/10/ai-impact-professors-students-learning",
+      "source": "theguardian.com",
+      "company": "Higher Education",
+      "topic": "universities redesign pedagogy against generative AI overreliance",
+      "fingerprint": "Higher Education|universities-redesign-pedagogy-against-generative-ai-overreliance|2026-03-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "education"
+        ],
+        "note": "高教現場開始實際改寫教學法，反映生成式 AI 的真實社會衝擊"
+      },
+      "summary": "多位教授描述如何用離線作業、口說與觀察式任務對抗生成式 AI 對閱讀與批判思考的侵蝕，凸顯 AI 對教育制度的實際重塑。",
+      "from_file": "output/2026/03/11.md"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift",
+      "url": "https://www.theinformation.com/articles/openai-plans-launch-sora-video-ai-chatgpt-strategy-shift",
+      "source": "theinformation.com",
+      "company": "OpenAI",
+      "topic": "Sora integration into ChatGPT distribution shift",
+      "fingerprint": "OpenAI|sora-integration-into-chatgpt-distribution-shift|2026-03-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "新意在於傳出將直接整合進 ChatGPT，屬分發與產品策略重大變化"
+      },
+      "summary": "The Information 報導 OpenAI 計畫把 Sora 影片生成功能直接放進 ChatGPT，顯示其多模態產品策略可能從獨立展示轉向主產品整合。",
+      "from_file": "output/2026/03/11.md"
     }
   ],
   "reason_picked_schema": {
