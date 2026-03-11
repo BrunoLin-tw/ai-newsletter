@@ -843,6 +843,126 @@
       },
       "summary": "The Information 報導 OpenAI 計畫把 Sora 影片生成功能直接放進 ChatGPT，顯示其多模態產品策略可能從獨立展示轉向主產品整合。",
       "from_file": "output/2026/03/11.md"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "NVIDIA and Thinking Machines Lab Announce Long-Term Gigawatt-Scale Strategic Partnership",
+      "url": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "gigawatt-scale infrastructure partnership with Thinking Machines Lab",
+      "fingerprint": "NVIDIA|gigawatt-scale-infrastructure-partnership-with-thinking-machines-lab|2026-03-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Mira Murati 新創首度公開 GW 級算力合作"
+      },
+      "summary": "NVIDIA 與 Thinking Machines Lab 宣布多年戰略合作，將部署至少 1GW 的下一代 Vera Rubin 系統，並由 NVIDIA 對該公司進行重大投資，瞄準 frontier model 訓練與可客製化 AI 平台。",
+      "from_file": "output/2026/03/11.md"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Now Live: The World’s Most Powerful AI Factory for Pharmaceutical Discovery and Development",
+      "url": "https://blogs.nvidia.com/blog/lilly-ai-factory-live/",
+      "source": "blogs.nvidia.com",
+      "company": "Lilly",
+      "topic": "LillyPod Blackwell Ultra AI factory for drug discovery",
+      "fingerprint": "Lilly|lillypod-blackwell-ultra-ai-factory-for-drug-discovery|2026-02-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "healthcare"
+        ],
+        "note": "1,016 顆 Blackwell Ultra 正式上線，屬實際落地"
+      },
+      "summary": "Lilly 正式啟用自建 AI 工廠 LillyPod，採用 1,016 顆 NVIDIA Blackwell Ultra GPU、總算力逾 9,000 PFLOPS，將用於蛋白質 diffusion、小分子 GNN 與基因體 foundation model。",
+      "from_file": "output/2026/03/11.md"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Qualcomm and Wayve hook up for pre-integrated HW/SW ADAS tech",
+      "url": "https://www.electronicsweekly.com/news/business/qualcomm-and-wayve-hook-up-for-hw-sw-adas-product-2026-03/",
+      "source": "electronicsweekly.com",
+      "company": "Qualcomm",
+      "topic": "Qualcomm Wayve pre-integrated AI ADAS platform",
+      "fingerprint": "Qualcomm|qualcomm-wayve-pre-integrated-ai-adas-platform|2026-03-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "ADAS 預整合方案，從研發走向車廠導入"
+      },
+      "summary": "Qualcomm 與 Wayve 合作，把 Wayve AI Driver 與 Snapdragon Ride 預整合，提供車廠更快導入 ADAS 與 automated driving 的硬軟體組合，並保留從 hands-off 進一步升級的路徑。",
+      "from_file": "output/2026/03/11.md"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Gemini for Government: Build custom AI agents for unclassified work on GenAI.mil",
+      "url": "https://cloud.google.com/blog/topics/public-sector/gemini-for-government-build-custom-ai-agents-for-unclassified-work-on-genaimil/",
+      "source": "cloud.google.com",
+      "company": "Google",
+      "topic": "GenAI.mil Agent Designer rollout for government workflows",
+      "fingerprint": "Google|genai-mil-agent-designer-rollout-for-government-workflows|2026-03-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把低程式碼 agent 擴到 300 萬政府人員"
+      },
+      "summary": "Google Public Sector 在 GenAI.mil 新增 Agent Designer，讓超過 300 萬名美國國防部文職與軍職人員可建立 no-code/low-code AI agents，處理非機密行政工作。",
+      "from_file": "output/2026/03/11.md"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Amazon Connect Health: AWS’s AI solution to improve patient care",
+      "url": "https://www.aboutamazon.com/news/aws/amazon-connect-health-ai-healthcare",
+      "source": "aboutamazon.com",
+      "company": "Amazon",
+      "topic": "Amazon Connect Health agentic AI for provider administration",
+      "fingerprint": "Amazon|amazon-connect-health-agentic-ai-for-provider-administration|2026-03-05",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "healthcare",
+          "workflow_automation"
+        ],
+        "note": "首個面向醫療院所的 AWS 專用 agentic AI 方案"
+      },
+      "summary": "AWS 發布 Amazon Connect Health，可串接 EHR 自動處理病人驗證、掛號、病史整理、文件與醫療編碼，並披露 UC San Diego Health 的節省人力與降棄話率成效。",
+      "from_file": "output/2026/03/11.md"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "How Google and Taiwan are building an AI blueprint for public health",
+      "url": "https://blog.google/innovation-and-ai/technology/health/how-google-and-taiwan-are-building-an-ai-blueprint-for-public-health/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Taiwan NHIA Gemini public health deployment and diabetes risk model",
+      "fingerprint": "Google|taiwan-nhia-gemini-public-health-deployment-and-diabetes-risk-model|2026-03-05",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "healthcare",
+          "new_market"
+        ],
+        "note": "健保 App 本月上線，觸及 1,000 萬用戶"
+      },
+      "summary": "Google 與台灣健保署合作的 AI-on-DM 可把糖尿病風險評估從每例 20 分鐘降到 25 秒，並預計於本月在健保 App 推出 Gemini 健康助理，擴及約 1,000 萬名使用者。",
+      "from_file": "output/2026/03/11.md"
     }
   ],
   "reason_picked_schema": {
