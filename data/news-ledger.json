@@ -979,6 +979,119 @@
       },
       "summary": "Webflow 收購 AI 內容生成平台 Vidoso，後者可把長影音與活動內容轉為短片、貼文與部落格素材，強化 Webflow 從內容生成到行銷工作流的一體化能力。",
       "from_file": "output/2026/03/12.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Atlassian 宣布裁員約 10%、加碼 AI 與企業銷售",
+      "url": "https://www.atlassian.com/blog/announcements/atlassian-team-update-march-2026",
+      "source": "atlassian.com",
+      "company": "Atlassian",
+      "topic": "AI-first restructure and workforce reduction",
+      "fingerprint": "Atlassian|ai-first-restructure-and-workforce-reduction|2026-03-13",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "AI-first 重整首次明說重配技能與成本"
+      },
+      "summary": "Atlassian 表示將裁員約 10%、約 1,600 人，目的是自籌資金加碼 AI 與 enterprise sales，並重整團隊以更快推進其 System of Work。公司同時強調 Rovo 已超過 500 萬 MAU，反映 AI 已開始影響大型 SaaS 公司的組織與資本配置。",
+      "from_file": "output/2026/03/13.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Gumloop 拿下 5000 萬美元，主打讓非工程人員打造 AI agents",
+      "url": "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/",
+      "source": "techcrunch.com",
+      "company": "Gumloop",
+      "topic": "No-code enterprise AI agent builder Series B",
+      "fingerprint": "Gumloop|no-code-enterprise-ai-agent-builder-series-b|2026-03-13",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "無碼 agent builder 已進入企業實際工作流"
+      },
+      "summary": "Gumloop 獲 Benchmark 領投 5,000 萬美元 Series B，主打讓非技術員工也能建立與分享可處理多步驟任務的 AI agents，現有客戶包括 Shopify、Ramp、Gusto 與 Instacart。此案反映 enterprise AI 的重點正從模型本身，轉向可複製的 agent workflow 平台。",
+      "from_file": "output/2026/03/13.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Rox AI 傳估值達 12 億美元，AI sales agent 類別升溫",
+      "url": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
+      "source": "techcrunch.com",
+      "company": "Rox AI",
+      "topic": "AI sales agent platform valuation milestone",
+      "fingerprint": "Rox AI|ai-sales-agent-platform-valuation-milestone|2026-03-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "AI sales agent 類別估值跨入十億美元"
+      },
+      "summary": "據 TechCrunch，Rox AI 最新一輪融資後估值達 12 億美元。其產品可串接 Salesforce、Zendesk 等系統，部署大量 AI agents 監控帳戶、研究客戶、更新 CRM，顯示 AI sales automation 正被視為可獨立成長的大型軟體市場。",
+      "from_file": "output/2026/03/13.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Meta 為 Facebook Marketplace 導入 AI 草擬刊登與自動回覆",
+      "url": "https://about.fb.com/news/2026/03/facebook-marketplace-new-meta-ai-tools-make-selling-faster-and-easier/",
+      "source": "about.fb.com",
+      "company": "Meta",
+      "topic": "Facebook Marketplace Meta AI selling workflow tools",
+      "fingerprint": "Meta|facebook-marketplace-meta-ai-selling-workflow-tools|2026-03-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Marketplace 首次整合刊登、定價與回覆 AI"
+      },
+      "summary": "Meta 宣布為 Facebook Marketplace 加入多項新 AI 功能，包括上傳圖片後自動草擬 listing、依區域相似商品建議價格、對買家詢問自動回覆，以及 AI 生成的賣家摘要。生成式 AI 正被壓進交易流程最耗時的環節。",
+      "from_file": "output/2026/03/13.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Bumble 推出 AI 交友助理 Bee",
+      "url": "https://techcrunch.com/2026/03/12/bumble-introduces-an-ai-dating-assistant-bee/",
+      "source": "techcrunch.com",
+      "company": "Bumble",
+      "topic": "Bee AI dating assistant beta",
+      "fingerprint": "Bumble|bee-ai-dating-assistant-beta|2026-03-13",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "交友 App 把 AI 推進到媒合決策層"
+      },
+      "summary": "Bumble 在財報會上介紹 AI 助理 Bee，會透過私密對話學習用戶的價值觀、關係目標與生活方式，進一步協助配對與後續約會建議。這代表消費型 AI 正從生成文案走向高情境決策輔助。",
+      "from_file": "output/2026/03/13.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Grammarly 因 AI 模擬名家編輯回饋遭集體訴訟",
+      "url": "https://techcrunch.com/2026/03/12/a-writer-is-suing-grammarly-for-turning-her-and-other-authors-into-ai-editors-without-consent/",
+      "source": "techcrunch.com",
+      "company": "Grammarly",
+      "topic": "Expert Review likeness rights lawsuit",
+      "fingerprint": "Grammarly|expert-review-likeness-rights-lawsuit|2026-03-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "AI 模擬名家風格首波集體訴訟出現"
+      },
+      "summary": "Grammarly 的 Expert Review 功能用 AI 模擬知名作者與評論者的回饋風格，但未先獲得授權，已引發作家 Julia Angwin 提起的集體訴訟。這類案件把生成式 AI 產品的肖像、署名與風格借用推向更清楚的法律檢驗。",
+      "from_file": "output/2026/03/13.md"
     }
   ],
   "reason_picked_schema": {
