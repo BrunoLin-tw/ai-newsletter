@@ -862,6 +862,123 @@
       },
       "summary": "Google 與台灣健保署合作，讓 AI-on-DM 把糖尿病風險評估從 20 分鐘壓縮到 25 秒，並將在健保 App 上推出 Gemini 健康助理，覆蓋約 1,000 萬名使用者。",
       "from_file": "output/2026/03/11.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "New NVIDIA Nemotron 3 Super Delivers 5x Higher Throughput for Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "Nemotron 3 Super open model for agentic AI throughput and long-context efficiency",
+      "fingerprint": "NVIDIA|nemotron-3-super-agentic-ai-throughput-and-long-context-efficiency|2026-03-13",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "新開放模型主打 agent 吞吐與百萬上下文"
+      },
+      "summary": "NVIDIA 發表 Nemotron 3 Super，採 hybrid MoE 架構、120B 參數但僅 12B active parameters，支援 100 萬 token context，官方稱可帶來最高 5 倍吞吐量與更高準確率，瞄準多代理與長工作流場景。",
+      "from_file": "output/2026/03/13.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Keeping your data safe when an AI agent clicks a link",
+      "url": "https://openai.com/index/ai-agent-link-safety/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "AI agent URL verification to prevent prompt-injection data exfiltration",
+      "fingerprint": "OpenAI|ai-agent-url-verification-to-prevent-prompt-injection-data-exfiltration|2026-03-13",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "首度細講 agent 取連結防外洩機制"
+      },
+      "summary": "OpenAI 說明 AI agent 自動開啟連結時的 URL-based data exfiltration 風險，並公開以獨立 web index 驗證 URL 是否為公開地址的防護機制，用來降低 prompt injection 導致的靜默外洩。",
+      "from_file": "output/2026/03/13.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Anthropic invests $100 million into the Claude Partner Network",
+      "url": "https://www.anthropic.com/news/claude-partner-network",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude Partner Network ecosystem investment and enterprise certification launch",
+      "fingerprint": "Anthropic|claude-partner-network-ecosystem-investment-and-enterprise-certification-launch|2026-03-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "首推夥伴網路並投入 1 億美元擴大企業落地"
+      },
+      "summary": "Anthropic 啟動 Claude Partner Network，承諾 2026 年先投入 1 億美元，提供訓練、技術支援、共同市場開發與新認證，擴大 Claude 在企業導入與交付端的夥伴生態。",
+      "from_file": "output/2026/03/13.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Adobe's longtime CEO to exit role amid AI disruption, shares fall",
+      "url": "https://finance.yahoo.com/news/adobe-announces-ceo-transition-shares-202025546.html",
+      "source": "finance.yahoo.com",
+      "company": "Adobe",
+      "topic": "Adobe CEO transition amid investor pressure over generative AI strategy",
+      "fingerprint": "Adobe|adobe-ceo-transition-amid-investor-pressure-over-generative-ai-strategy|2026-03-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "創意軟體龍頭在 AI 轉型壓力下啟動交棒"
+      },
+      "summary": "Adobe 表示執掌 18 年的 CEO Shantanu Narayen 將在接班人確定後卸任，市場把此事與生成式 AI 時代的策略壓力連結，消息後股價盤後下跌逾 7%。",
+      "from_file": "output/2026/03/13.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "How we’re reimagining Maps with Gemini",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Google Maps Ask Maps conversational search and immersive navigation upgrade",
+      "fingerprint": "Google|google-maps-ask-maps-conversational-search-and-immersive-navigation-upgrade|2026-03-13",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "Maps 首次把 Gemini 問答與導航大改版綁在一起"
+      },
+      "summary": "Google 將 Gemini 帶進 Google Maps，新增可用自然語言問地點與規劃路線的 Ask Maps，同步推出 Immersive Navigation，以 3D 視覺與更自然的語音導航提升駕車體驗。",
+      "from_file": "output/2026/03/13.md"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Webflow buys AI content-generation platform Vidoso to bolster its marketing suite",
+      "url": "https://techcrunch.com/2026/03/12/webflow-buys-ai-content-generation-platform-vidoso-to-bolster-its-marketing-suite/",
+      "source": "techcrunch.com",
+      "company": "Webflow",
+      "topic": "Webflow acquisition of Vidoso for agentic marketing content workflows",
+      "fingerprint": "Webflow|webflow-acquisition-of-vidoso-for-agentic-marketing-content-workflows|2026-03-13",
+      "section": "tools",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "workflow_automation",
+          "creative_tools"
+        ],
+        "note": "收購 AI 內容生成團隊切進 agentic marketing"
+      },
+      "summary": "Webflow 收購 AI 內容生成平台 Vidoso，後者可把長影音與活動內容轉為短片、貼文與部落格素材，強化 Webflow 從內容生成到行銷工作流的一體化能力。",
+      "from_file": "output/2026/03/13.md"
     }
   ],
   "reason_picked_schema": {
