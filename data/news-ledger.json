@@ -1092,6 +1092,102 @@
       },
       "summary": "Grammarly 的 Expert Review 功能用 AI 模擬知名作者與評論者的回饋風格，但未先獲得授權，已引發作家 Julia Angwin 提起的集體訴訟。這類案件把生成式 AI 產品的肖像、署名與風格借用推向更清楚的法律檢驗。",
       "from_file": "output/2026/03/13.md"
+    },
+    {
+      "date": "2026-03-14",
+      "title": "美國商務部撤回原定 AI 晶片出口新規",
+      "url": "https://www.reuters.com/world/us/us-commerce-department-withdraws-planned-rule-ai-chip-exports-2026-03-13/",
+      "source": "Reuters",
+      "company": "US Commerce Department",
+      "topic": "AI chip export controls withdrawn before implementation",
+      "fingerprint": "us-commerce-department|ai_chip_export_controls_withdrawn|2026-03-14",
+      "section": "硬核技術更新",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "延續 3/7 出口管制議題，但這次是正式撤回草案，政策方向出現實質反轉"
+      },
+      "summary": "美國商務部在規則正式落地前撤回原定 AI 晶片出口新規，讓先進算力出口政策重新回到未定狀態。",
+      "from_file": "output/2026/03/14.md"
+    },
+    {
+      "date": "2026-03-14",
+      "title": "OpenAI 與美國能源部深化科學研究合作",
+      "url": "https://openai.com/index/us-department-of-energy-collaboration/",
+      "source": "OpenAI",
+      "company": "OpenAI",
+      "topic": "OpenAI DOE scientific research collaboration under Genesis Mission",
+      "fingerprint": "openai|doe_science_collaboration_genesis_mission|2026-03-14",
+      "section": "硬核技術更新",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "與 DOE 簽 MOU，正式把 frontier AI 導入國家實驗室科研合作"
+      },
+      "summary": "OpenAI 與美國能源部簽署合作備忘錄，將 frontier AI 與國家實驗室研究、Genesis Mission 與科學工作流結合。",
+      "from_file": "output/2026/03/14.md"
+    },
+    {
+      "date": "2026-03-14",
+      "title": "xAI 再度重整，原始共同創辦人僅剩 2 位留任",
+      "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
+      "source": "TechCrunch",
+      "company": "xAI",
+      "topic": "xAI restructuring and cofounder departures amid coding tool pressure",
+      "fingerprint": "xai|restructuring_and_cofounder_departures|2026-03-14",
+      "section": "大廠動態",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "不是先前基建擴張，而是核心團隊再洗牌，且直接牽動 coding 產品競爭力"
+      },
+      "summary": "xAI 持續重組，Elon Musk 直言公司基礎沒打對，近期共同創辦人與工程核心再度流失。",
+      "from_file": "output/2026/03/14.md"
+    },
+    {
+      "date": "2026-03-14",
+      "title": "AI psychosis 案件升溫，聊天機器人安全風險擴大到現實暴力",
+      "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
+      "source": "TechCrunch",
+      "company": "Unknown",
+      "topic": "AI chatbot psychosis and violence risk across major platforms",
+      "fingerprint": "unknown|ai_chatbot_psychosis_and_violence_risk|2026-03-14",
+      "section": "大廠動態",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "從一般幻覺爭議升級為多起暴力與妄想強化案例，風險層級明顯提高"
+      },
+      "summary": "多起訴訟與案例顯示，聊天機器人可能在脆弱使用者身上強化妄想與暴力規劃，安全議題升級。",
+      "from_file": "output/2026/03/14.md"
+    },
+    {
+      "date": "2026-03-14",
+      "title": "Google Earth AI 開始支援全球公共衛生預測",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai-global-public-health/",
+      "source": "Google Blog",
+      "company": "Google",
+      "topic": "Google Earth AI public health forecasting with geospatial foundation models",
+      "fingerprint": "google|earth_ai_public_health_forecasting|2026-03-14",
+      "section": "有趣的小工具應用",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "healthcare"
+        ],
+        "note": "延續 3/11 台灣公衛主題，但這次新意是 Earth AI 正式擴到全球霍亂、登革熱與疫苗預測"
+      },
+      "summary": "Google 將 Earth AI、人口動態模型與天氣資料結合，用於霍亂、登革熱、疫苗覆蓋率與醫療利用率預測。",
+      "from_file": "output/2026/03/14.md"
     }
   ],
   "reason_picked_schema": {
