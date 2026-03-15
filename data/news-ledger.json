@@ -1188,6 +1188,123 @@
       },
       "summary": "Google 將 Earth AI、人口動態模型與天氣資料結合，用於霍亂、登革熱、疫苗覆蓋率與醫療利用率預測。",
       "from_file": "output/2026/03/14.md"
+    },
+    {
+      "date": "2026-03-15",
+      "title": "Microsoft Research 開源 AgentRx，替 AI agents 補上失敗診斷層",
+      "url": "https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "AgentRx framework for debugging AI agent failures with critical-failure localization",
+      "fingerprint": "Microsoft|agentrx-agent-failure-debugging-framework|2026-03-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "首度開源 agent 除錯框架與失敗 benchmark"
+      },
+      "summary": "Microsoft Research 發布 AgentRx，自動從 tool schema 與 domain policy 產生約束，定位 AI agent 首個不可挽回的失敗步驟，並同步開源 115 筆失敗軌跡 benchmark。",
+      "from_file": "output/2026/03/15.md"
+    },
+    {
+      "date": "2026-03-15",
+      "title": "Microsoft Foundry 接上 Fireworks AI，強化開放模型企業推論",
+      "url": "https://azure.microsoft.com/en-us/blog/introducing-fireworks-ai-on-microsoft-foundry-bringing-high-performance-low-latency-open-model-inference-to-azure/",
+      "source": "azure.microsoft.com",
+      "company": "Microsoft",
+      "topic": "Microsoft Foundry integration with Fireworks AI for open-model inference and governance",
+      "fingerprint": "Microsoft|foundry-fireworks-open-model-inference-governance|2026-03-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把高效開放模型推論正式帶進 Azure Foundry 控制平面"
+      },
+      "summary": "Microsoft 宣布 Fireworks AI 進入 Foundry 公開預覽，讓 DeepSeek、gpt-oss、Kimi、MiniMax 等開放模型能在 Azure 內以單一控制平面做評估、治理、部署與推論優化。",
+      "from_file": "output/2026/03/15.md"
+    },
+    {
+      "date": "2026-03-15",
+      "title": "Anthropic 宣布投資 500 億美元建美國 AI 基礎設施",
+      "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic $50 billion US data center infrastructure buildout with Fluidstack",
+      "fingerprint": "Anthropic|50b-us-data-center-buildout-fluidstack|2026-03-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "不只是擴夥伴網路，這次直接公布 500 億美元算力建設"
+      },
+      "summary": "Anthropic 將與 Fluidstack 在德州與紐約建設客製化資料中心，總投資達 500 億美元，站點預計於 2026 年陸續上線，反映 frontier model 公司正把算力基建視為核心競爭力。",
+      "from_file": "output/2026/03/15.md"
+    },
+    {
+      "date": "2026-03-15",
+      "title": "OpenAI 啟動美國 AI 供應鏈製造 RFP",
+      "url": "https://openai.com/index/strengthening-the-us-ai-supply-chain/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI US manufacturing RFP for AI supply chain, data center hardware and robotics inputs",
+      "fingerprint": "OpenAI|us-manufacturing-rfp-ai-supply-chain-hardware-robotics|2026-03-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首次正式對外徵求 AI 供應鏈本土製造合作案"
+      },
+      "summary": "OpenAI 發布面向美國製造商的 RFP，範圍涵蓋資料中心硬體、電力散熱、消費電子模組與機器人關鍵零件，顯示其正在把 AI 基建擴張到更完整的實體供應鏈。",
+      "from_file": "output/2026/03/15.md"
+    },
+    {
+      "date": "2026-03-15",
+      "title": "NVIDIA GTC 2026 進入倒數，agentic AI 與 physical AI 成主軸",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA GTC 2026 focus on agentic AI, physical AI and infrastructure buildout",
+      "fingerprint": "NVIDIA|gtc-2026-agentic-physical-ai-infrastructure-focus|2026-03-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "不是既有模型更新，而是 GTC 前夕正式揭示今年產業主軸"
+      },
+      "summary": "NVIDIA 在 GTC 2026 開展前更新議程重點，鎖定 agentic AI、physical AI、open models 與基礎設施擴張，Jensen Huang keynote 被視為下週 AI 產業的重要風向球。",
+      "from_file": "output/2026/03/15.md"
+    },
+    {
+      "date": "2026-03-15",
+      "title": "Microsoft 推出 Copilot Health，整合健康資料與 AI 洞察",
+      "url": "https://microsoft.ai/news/introducing-copilot-health/",
+      "source": "microsoft.ai",
+      "company": "Microsoft",
+      "topic": "Copilot Health personal medical assistant with wearables and health record connectors",
+      "fingerprint": "Microsoft|copilot-health-personal-medical-assistant-connectors|2026-03-15",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "healthcare"
+        ],
+        "note": "新產品把 wearable、病歷與 AI 洞察整成單一健康助手"
+      },
+      "summary": "Microsoft 推出 Copilot Health，支援匯入 wearable、醫療紀錄與檢驗資料，協助使用者整理健康脈絡、形成就診問題清單，並強調資料隔離與不作模型訓練。",
+      "from_file": "output/2026/03/15.md"
     }
   ],
   "reason_picked_schema": {
