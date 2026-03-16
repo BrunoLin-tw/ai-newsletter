@@ -1305,6 +1305,121 @@
       },
       "summary": "Microsoft 推出 Copilot Health，支援匯入 wearable、醫療紀錄與檢驗資料，協助使用者整理健康脈絡、形成就診問題清單，並強調資料隔離與不作模型訓練。",
       "from_file": "output/2026/03/15.md"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Google 發布 Gemini Embedding 2，首個原生多模態 embedding 模型進入公開預覽",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Gemini Embedding 2 multimodal embedding public preview",
+      "fingerprint": "Google|gemini-embedding-2-multimodal-embedding-public-preview|2026-03-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首次公開原生多模態 embedding 模型"
+      },
+      "summary": "Google 推出 Gemini Embedding 2，將文字、圖片、影片、音訊與文件映射到單一 embedding 空間，支援多模態檢索、RAG 與分類，並提供彈性輸出維度。",
+      "from_file": "output/2026/03/16.md"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Anthropic 發表 AI 勞動衝擊新量尺 observed exposure",
+      "url": "https://www.anthropic.com/research/labor-market-impacts",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Observed exposure metric for AI labor market impacts",
+      "fingerprint": "Anthropic|observed-exposure-metric-for-ai-labor-market-impacts|2026-03-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首次提出結合理論與實際使用的勞動衝擊指標"
+      },
+      "summary": "Anthropic 發表研究，提出 observed exposure 指標，把模型能力與實際使用行為結合，用來評估 AI 對不同職業的早期勞動市場影響。",
+      "from_file": "output/2026/03/16.md"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "OpenAI 推出 GDPval，以真實職業工作產物衡量模型經濟價值",
+      "url": "https://openai.com/index/gdpval/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "GDPval benchmark for economically valuable real-world tasks",
+      "fingerprint": "OpenAI|gdpval-benchmark-for-economically-valuable-real-world-tasks|2026-03-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首個以職業工作產物為核心的經濟任務 benchmark"
+      },
+      "summary": "OpenAI 發布 GDPval，涵蓋 44 種職業與 1320 項任務，改用真實工作交付物而非純學術題目，評估模型在經濟上有價值的任務表現。",
+      "from_file": "output/2026/03/16.md"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Google 完成收購 Wiz，強化多雲與 AI 安全布局",
+      "url": "https://cloud.google.com/blog/products/identity-security/google-completes-acquisition-of-wiz",
+      "source": "cloud.google.com",
+      "company": "Google",
+      "topic": "Google closes Wiz acquisition for multicloud and AI security",
+      "fingerprint": "Google|google-closes-wiz-acquisition-for-multicloud-and-ai-security|2026-03-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "Wiz 正式併入 Google Cloud，資安版圖實質擴張"
+      },
+      "summary": "Google 宣布完成對 Wiz 的收購，將其多雲與 AI 安全能力納入 Google Cloud，同時保留 Wiz 品牌並維持多雲支援。",
+      "from_file": "output/2026/03/16.md"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Anthropic 持續挑戰美國國防部供應鏈風險認定",
+      "url": "https://www.anthropic.com/news/where-stand-department-war",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic challenge to Department of War supply chain risk designation",
+      "fingerprint": "Anthropic|anthropic-challenge-to-department-of-war-supply-chain-risk-designation|2026-03-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "AI 軍用限制與政府採購邊界進入公開對抗"
+      },
+      "summary": "Anthropic 最新聲明針對國防部供應鏈風險認定做出法律與政策層面的反擊，強調限制應僅限於特定合約場景。",
+      "from_file": "output/2026/03/16.md"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "ByteDance 暫緩 Seedance 2.0 全球上線，版權爭議升高",
+      "url": "https://techcrunch.com/2026/03/15/bytedance-reportedly-pauses-global-launch-of-its-seedance-2-0-video-generator/",
+      "source": "techcrunch.com",
+      "company": "ByteDance",
+      "topic": "Seedance 2.0 global launch delayed after copyright disputes",
+      "fingerprint": "ByteDance|seedance-2-0-global-launch-delayed-after-copyright-disputes|2026-03-16",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "不是單純爆紅，而是全球上線因版權爭議正式踩煞車"
+      },
+      "summary": "ByteDance 因 Hollywood 版權與 IP 爭議，暫停 Seedance 2.0 的全球發布計畫，顯示 AI 影音工具的商業化正先撞上法律邊界。",
+      "from_file": "output/2026/03/16.md"
     }
   ],
   "reason_picked_schema": {
