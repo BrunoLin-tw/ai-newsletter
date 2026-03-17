@@ -1420,6 +1420,107 @@
       },
       "summary": "ByteDance 因 Hollywood 版權與 IP 爭議，暫停 Seedance 2.0 的全球發布計畫，顯示 AI 影音工具的商業化正先撞上法律邊界。",
       "from_file": "output/2026/03/16.md"
+    },
+    {
+      "date": "2026-03-17",
+      "title": "NVIDIA 發表 Physical AI Data Factory Blueprint",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-open-physical-ai-data-factory-blueprint-to-accelerate-robotics-vision-ai-agents-and-autonomous-vehicle-development",
+      "source": "nvidianews.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA Physical AI Data Factory Blueprint for robotics vision agents and autonomous vehicles",
+      "fingerprint": "nvidia|physical-ai-data-factory-blueprint|2026-03-17",
+      "section": "硬核技術更新",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "GTC 正式發布 physical AI 資料工廠藍圖與工具鏈"
+      },
+      "summary": "NVIDIA 把 physical AI 的資料生成、擴增、驗證與 orchestration 整成開放藍圖，主打機器人、自駕與視覺代理訓練流程。",
+      "from_file": "output/2026/03/17.md"
+    },
+    {
+      "date": "2026-03-17",
+      "title": "NVIDIA 推出 Dynamo 1.0 推論作業系統",
+      "url": "https://nvidianews.nvidia.com/news/dynamo-1-0",
+      "source": "nvidianews.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA Dynamo 1.0 inference operating system for AI factories",
+      "fingerprint": "nvidia|dynamo-inference-os|2026-03-17",
+      "section": "硬核技術更新",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "首次把 AI factory inference orchestration 正式產品化"
+      },
+      "summary": "Dynamo 1.0 以開源方式處理跨 GPU 推論調度與快取管理，NVIDIA 稱在 Blackwell 上可帶來最高 7 倍效能提升。",
+      "from_file": "output/2026/03/17.md"
+    },
+    {
+      "date": "2026-03-17",
+      "title": "Microsoft 在 GTC 補齊 Foundry 到 Physical AI 鏈條",
+      "url": "https://blogs.microsoft.com/blog/2026/03/16/microsoft-at-nvidia-gtc-new-solutions-for-microsoft-foundry-azure-ai-infrastructure-and-physical-ai/",
+      "source": "blogs.microsoft.com",
+      "company": "Microsoft",
+      "topic": "Microsoft Foundry Azure infrastructure and Physical AI toolchain at GTC 2026",
+      "fingerprint": "microsoft|foundry-physical-ai-toolchain-gtc|2026-03-17",
+      "section": "大廠動態",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "新意在 Foundry、Vera Rubin 與 Physical AI toolchain 一次落地"
+      },
+      "summary": "Microsoft 擴大 Foundry Agent Service、納入 Nemotron，並公開 Azure Physical AI Toolchain 與 Vera Rubin NVL72 佈局。",
+      "from_file": "output/2026/03/17.md"
+    },
+    {
+      "date": "2026-03-17",
+      "title": "Google 啟動 AI Works for Europe",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/ai-works-for-europe/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Google AI Works for Europe workforce training and certificate expansion",
+      "fingerprint": "google|ai-works-for-europe|2026-03-17",
+      "section": "大廠動態",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "education"
+        ],
+        "note": "不是既有產品更新，而是正式擴大歐洲 AI 技能與證照計畫"
+      },
+      "summary": "Google 為歐洲 AI 訓練與 AI Opportunity Fund 加碼資源，並推進多語系 AI Professional Certificate 與校園合作。",
+      "from_file": "output/2026/03/17.md"
+    },
+    {
+      "date": "2026-03-17",
+      "title": "OpenAI 讓 ChatGPT 用互動視覺教數理",
+      "url": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "ChatGPT interactive visual learning for math and science concepts",
+      "fingerprint": "openai|interactive-math-science-learning|2026-03-17",
+      "section": "有趣的小工具應用",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "education",
+          "creative_tools"
+        ],
+        "note": "新意是互動式視覺模組正式面向全體登入用戶推出"
+      },
+      "summary": "ChatGPT 新增互動式數理視覺教學模組，可即時調整變數與圖形，讓抽象概念更像可操作教具。",
+      "from_file": "output/2026/03/17.md"
     }
   ],
   "reason_picked_schema": {
