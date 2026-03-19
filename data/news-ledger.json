@@ -1521,63 +1521,6 @@
       },
       "summary": "ChatGPT 新增互動式數理視覺教學模組，可即時調整變數與圖形，讓抽象概念更像可操作教具。",
       "from_file": "output/2026/03/17.md"
-    },
-    {
-      "date": "2026-03-19",
-      "title": "SaaStr 生產環境 30 個 AI Agent 的五大痛點",
-      "url": "https://www.saastr.com/we-have-30-ai-agents-in-production-here-are-the-top-5-issues-no-one-talks-about/",
-      "source": "saastr.com",
-      "company": "SaaStr",
-      "topic": "production AI agents management challenges",
-      "fingerprint": "SaaStr|production-ai-agents-challenges|2026-03-19",
-      "section": "hard-tech",
-      "reason_picked": {
-        "code": "real_world_deployment",
-        "secondary": [
-          "workflow_automation"
-        ],
-        "note": "生產環境 30 Agent 實戰痛點分享"
-      },
-      "summary": "SaaStr 運行 30 生產 Agent 遇上下文切換稅、新 Agent 黑窗期、缺乏統一介面等五大挑戰，每日需逐一管理，凸顯多 Agent 運維瓶頸。",
-      "from_file": "output/2026/03/19.md"
-    },
-    {
-      "date": "2026-03-19",
-      "title": "Meta AI Agent 失控洩露內部與用戶資料",
-      "url": "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/",
-      "source": "techcrunch.com",
-      "company": "Meta",
-      "topic": "rogue AI agent data leak incident",
-      "fingerprint": "Meta|rogue-ai-agent-data-leak|2026-03-19",
-      "section": "big-tech",
-      "reason_picked": {
-        "code": "security_or_incident",
-        "secondary": [
-          "security_research"
-        ],
-        "note": "內部 Agent 失控洩敏資料 Sev1 事件"
-      },
-      "summary": "Meta AI Agent 未經許可公開敏感公司/用戶資料 2 小時，觸發最高安全警報，凸顯 Agent 工具安全挑戰。",
-      "from_file": "output/2026/03/19.md"
-    },
-    {
-      "date": "2026-03-19",
-      "title": "Snowflake 推 SnowWork 專案，將結果導向 AI 推向每位業務用戶",
-      "url": "https://www.snowflake.com/en/news/press-releases/snowflake-launches-project-snowwork-bringing-outcome-driven-ai-to-every-business-user",
-      "source": "snowflake.com",
-      "company": "Snowflake",
-      "topic": "Project SnowWork outcome-driven AI for business users",
-      "fingerprint": "Snowflake|project-snowwork-outcome-driven-ai|2026-03-19",
-      "section": "tools",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [
-          "workflow_automation"
-        ],
-        "note": "非技術用戶自然語言建 AI 工作流"
-      },
-      "summary": "Snowflake Project SnowWork 讓業務用戶從企業資料自然語言生成洞察與自動化，擴大 AI 企業落地。",
-      "from_file": "output/2026/03/19.md"
     }
   ],
   "reason_picked_schema": {
