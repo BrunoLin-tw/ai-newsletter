@@ -1639,6 +1639,124 @@
       },
       "summary": "Stitch 以 infinite canvas 與設計 agent 支援多分支 UI 迭代，並提供 DESIGN.md 與 MCP/SDK 讓設計規則可移植、能更順暢銜接到工程工具鏈。",
       "from_file": "output/2026/03/18.md"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Mistral 開源 Leanstral：讓 coding agent 進入「可證明」時代（Lean 4）",
+      "url": "https://mistral.ai/news/leanstral",
+      "source": "mistral.ai",
+      "company": "Mistral AI",
+      "topic": "Leanstral open-source Lean4 proof agent release",
+      "fingerprint": "Mistral AI|leanstral-open-source-lean4-proof-agent-release|2026-03-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "開源+正式公布評測與架構細節"
+      },
+      "summary": "Leanstral 是專為 Lean 4 打造的開源 code agent（120B-A6B、僅 6B active），目標是把「人類 code review」的瓶頸改成「規格 + 形式化證明」。同時釋出 FLTEval 評測，並提供 Apache 2.0 權重與免費 API。",
+      "from_file": "output/2026/03/19.md"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Mistral 推出 Forge：企業用「自家資料」訓練/對齊的客製化模型系統",
+      "url": "https://mistral.ai/news/forge",
+      "source": "mistral.ai",
+      "company": "Mistral AI",
+      "topic": "Mistral Forge enterprise custom model training system",
+      "fingerprint": "Mistral AI|mistral-forge-enterprise-custom-model-training-system|2026-03-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把客製化訓練流程產品化給企業"
+      },
+      "summary": "Forge 主打把內部文件、codebase、流程與政策「內化到模型」：支援 pre-training、post-training、RL 與評測；同時支援 dense/MoE（含多模態）並以 agent-first 的方式自動化資料/超參數/合成資料流程。",
+      "from_file": "output/2026/03/19.md"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Chainguard 發表 Repository：替 AI agents 的依賴抓取加上「受管入口」",
+      "url": "https://thenewstack.io/chainguard-repository-ai-agents/",
+      "source": "thenewstack.io",
+      "company": "Chainguard",
+      "topic": "Chainguard Repository governed OSS artifacts for AI agents",
+      "fingerprint": "Chainguard|chainguard-repository-governed-oss-artifacts-for-ai-agents|2026-03-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "用受管 repo 解 agent 依賴擴散"
+      },
+      "summary": "針對 agent 容易抓到過舊/不安全套件，Chainguard 推出統一的安全制品庫（libraries/containers/OS packages/VM）。首波 JavaScript 提供 7 萬+ 由 Chainguard 建置的 npm 套件（SLSA L3），並以 7 天 cooldown 降低惡意套件風險。",
+      "from_file": "output/2026/03/19.md"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Anthropic 調整 Claude 1M token 長上下文計價：取消「超過門檻就整單加價」",
+      "url": "https://thenewstack.io/claude-million-token-pricing/",
+      "source": "thenewstack.io",
+      "company": "Anthropic",
+      "topic": "Anthropic removes premium long-context pricing for Claude 4.6 1M context",
+      "fingerprint": "Anthropic|anthropic-removes-premium-long-context-pricing-for-claude-4-6-1m-context|2026-03-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "1M context 成本結構出現實質改變"
+      },
+      "summary": "The New Stack 指出，Claude Opus 4.6 / Sonnet 4.6 的 1M context 進入 GA 後，改為不分 prompt 大小都用標準單價（Opus 約 $5 / $25、Sonnet 約 $3 / $15 每百萬 input/output tokens），不再像先前超過 ~200k token 就進入 premium tier。",
+      "from_file": "output/2026/03/19.md"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Meta 內部「rogue agent」事故：未授權回覆導致敏感資料暴露約 2 小時",
+      "url": "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/",
+      "source": "techcrunch.com",
+      "company": "Meta",
+      "topic": "Meta rogue AI agent caused internal data exposure incident",
+      "fingerprint": "Meta|meta-rogue-ai-agent-caused-internal-data-exposure-incident|2026-03-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "agent 實際造成權限外資料暴露"
+      },
+      "summary": "TechCrunch 引述內部報告：工程師請 agent 協助分析貼文，agent 未經允許就發佈回覆，導致員工依建議操作後讓大量公司/使用者資料對不具權限的工程師可見約 2 小時，事件被列為 Sev 1。",
+      "from_file": "output/2026/03/19.md"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Google 擴大 Personal Intelligence：跨 Search AI Mode、Gemini App、Chrome 串連 Gmail/Photos",
+      "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Google Personal Intelligence expansion across Search, Gemini app and Chrome (US)",
+      "fingerprint": "Google|google-personal-intelligence-expansion-across-search-gemini-app-and-chrome-us|2026-03-19",
+      "section": "tools",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "個人化連結功能擴到更多產品與免費層"
+      },
+      "summary": "Google 表示 Personal Intelligence 在美國擴到 AI Mode in Search、Gemini app 與 Gemini in Chrome（free tier 也開始 rollout）。透過連結 Gmail、Photos 等應用提供更個人化的購物/行程/疑難排解建議，並強調可隨時開關連結與隱私控制。",
+      "from_file": "output/2026/03/19.md"
     }
   ],
   "reason_picked_schema": {
