@@ -870,7 +870,7 @@
       "source": "blogs.nvidia.com",
       "company": "NVIDIA",
       "topic": "Nemotron 3 Super open model for agentic AI throughput and long-context efficiency",
-      "fingerprint": "NVIDIA|nemotron-3-super-agentic-ai-throughput-and-long-context-efficiency|2026-03-13",
+      "fingerprint": "NVIDIA|nemotron-3-super-agentic-ai-throughput-and-long-context-efficiency|2026-03-12",
       "section": "hard-tech",
       "reason_picked": {
         "code": "official_launch",
@@ -890,7 +890,7 @@
       "source": "openai.com",
       "company": "OpenAI",
       "topic": "AI agent URL verification to prevent prompt-injection data exfiltration",
-      "fingerprint": "OpenAI|ai-agent-url-verification-to-prevent-prompt-injection-data-exfiltration|2026-03-13",
+      "fingerprint": "OpenAI|ai-agent-url-verification-to-prevent-prompt-injection-data-exfiltration|2026-03-12",
       "section": "hard-tech",
       "reason_picked": {
         "code": "security_or_incident",
@@ -910,7 +910,7 @@
       "source": "anthropic.com",
       "company": "Anthropic",
       "topic": "Claude Partner Network ecosystem investment and enterprise certification launch",
-      "fingerprint": "Anthropic|claude-partner-network-ecosystem-investment-and-enterprise-certification-launch|2026-03-13",
+      "fingerprint": "Anthropic|claude-partner-network-ecosystem-investment-and-enterprise-certification-launch|2026-03-12",
       "section": "big-tech",
       "reason_picked": {
         "code": "distribution_expansion",
@@ -930,7 +930,7 @@
       "source": "finance.yahoo.com",
       "company": "Adobe",
       "topic": "Adobe CEO transition amid investor pressure over generative AI strategy",
-      "fingerprint": "Adobe|adobe-ceo-transition-amid-investor-pressure-over-generative-ai-strategy|2026-03-13",
+      "fingerprint": "Adobe|adobe-ceo-transition-amid-investor-pressure-over-generative-ai-strategy|2026-03-12",
       "section": "big-tech",
       "reason_picked": {
         "code": "leadership_change",
@@ -947,7 +947,7 @@
       "source": "blog.google",
       "company": "Google",
       "topic": "Google Maps Ask Maps conversational search and immersive navigation upgrade",
-      "fingerprint": "Google|google-maps-ask-maps-conversational-search-and-immersive-navigation-upgrade|2026-03-13",
+      "fingerprint": "Google|google-maps-ask-maps-conversational-search-and-immersive-navigation-upgrade|2026-03-12",
       "section": "tools",
       "reason_picked": {
         "code": "major_feature_update",
@@ -967,7 +967,7 @@
       "source": "techcrunch.com",
       "company": "Webflow",
       "topic": "Webflow acquisition of Vidoso for agentic marketing content workflows",
-      "fingerprint": "Webflow|webflow-acquisition-of-vidoso-for-agentic-marketing-content-workflows|2026-03-13",
+      "fingerprint": "Webflow|webflow-acquisition-of-vidoso-for-agentic-marketing-content-workflows|2026-03-12",
       "section": "tools",
       "reason_picked": {
         "code": "partnership_or_integration",
@@ -1523,13 +1523,13 @@
       "from_file": "output/2026/03/17.md"
     },
     {
-      "date": "2026-03-19",
+      "date": "2026-03-18",
       "title": "OpenAI 發布 GPT‑5.4 mini / nano：更快、更便宜的小模型選項",
       "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
       "source": "openai.com",
       "company": "OpenAI",
       "topic": "GPT-5.4 mini and nano release for high-volume low-latency workloads",
-      "fingerprint": "openai|gpt-5.4-mini-nano|2026-03-19",
+      "fingerprint": "openai|gpt-5.4-mini-nano|2026-03-18",
       "section": "硬核技術更新",
       "reason_picked": {
         "code": "official_launch",
@@ -1541,16 +1541,16 @@
         "note": "首次推出 mini/nano 版本並公開價格與多項評測，直接影響成本/延遲取捨"
       },
       "summary": "GPT‑5.4 mini 以更低延遲提供接近大模型的 coding/tool use 表現（含 400k context）；nano 則鎖定極低成本的支援型子任務。",
-      "from_file": "output/2026/03/19.md"
+      "from_file": "output/2026/03/18.md"
     },
     {
-      "date": "2026-03-19",
+      "date": "2026-03-18",
       "title": "Google 強化 Gemini API：工具組合、context circulation 與 Maps grounding 擴到 Gemini 3",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tooling-updates/",
       "source": "blog.google",
       "company": "Google",
       "topic": "Gemini API tool combination and cross-tool context circulation with Maps grounding for Gemini 3",
-      "fingerprint": "google|gemini-api-tool-combo-context-circulation-maps-grounding|2026-03-19",
+      "fingerprint": "google|gemini-api-tool-combo-context-circulation-maps-grounding|2026-03-18",
       "section": "硬核技術更新",
       "reason_picked": {
         "code": "major_feature_update",
@@ -1561,16 +1561,16 @@
         "note": "單次請求可混用內建工具與自訂函式，並保留跨工具上下文，顯著降低 agent orchestration 複雜度"
       },
       "summary": "Gemini API 支援同一 request 內建工具+自訂 function、context circulation 與 tool call id，並把 Google Maps grounding 擴到 Gemini 3。",
-      "from_file": "output/2026/03/19.md"
+      "from_file": "output/2026/03/18.md"
     },
     {
-      "date": "2026-03-19",
+      "date": "2026-03-18",
       "title": "OpenAI 發起 Parameter Golf：16MB + 10 分鐘預訓練的極限效率挑戰",
       "url": "https://openai.com/index/parameter-golf/",
       "source": "openai.com",
       "company": "OpenAI",
       "topic": "Parameter Golf efficiency pretraining challenge with 16MB artifact and 10-minute budget",
-      "fingerprint": "openai|parameter-golf-efficiency-pretraining|2026-03-19",
+      "fingerprint": "openai|parameter-golf-efficiency-pretraining|2026-03-18",
       "section": "硬核技術更新",
       "reason_picked": {
         "code": "official_launch",
@@ -1580,16 +1580,16 @@
         "note": "以極端尺寸/時間限制聚焦「高效預訓練」方法，對小模型與壓縮技巧很有風向意義"
       },
       "summary": "比賽要求在固定 FineWeb 與 8×H100、10 分鐘訓練內，把模型與訓練碼壓進 16MB，最小化 held-out loss，凸顯效率工程的重要性。",
-      "from_file": "output/2026/03/19.md"
+      "from_file": "output/2026/03/18.md"
     },
     {
-      "date": "2026-03-19",
+      "date": "2026-03-18",
       "title": "Microsoft 更新 Copilot 領導架構：整合 consumer/commercial 與強化前沿模型路線",
       "url": "https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/",
       "source": "blogs.microsoft.com",
       "company": "Microsoft",
       "topic": "Copilot org unification and leadership update with continued superintelligence effort",
-      "fingerprint": "microsoft|copilot-leadership-unification|2026-03-19",
+      "fingerprint": "microsoft|copilot-leadership-unification|2026-03-18",
       "section": "大廠動態",
       "reason_picked": {
         "code": "leadership_change",
@@ -1599,16 +1599,16 @@
         "note": "正式公布 Copilot 組織整併與高層分工，影響產品整合節奏與模型投入方向"
       },
       "summary": "微軟將 Copilot 商用/消費體系統一，Jacob Andreou 主管跨產品體驗；Mustafa Suleyman 持續領導前沿模型與算力路線、聚焦產品影響與成本效率。",
-      "from_file": "output/2026/03/19.md"
+      "from_file": "output/2026/03/18.md"
     },
     {
-      "date": "2026-03-19",
+      "date": "2026-03-18",
       "title": "Anthropic 發布 8 萬人 AI 訪談分析：用 Claude 收集並分類「人們真正想要的 AI」",
       "url": "https://www.anthropic.com/features/81k-interviews",
       "source": "anthropic.com",
       "company": "Anthropic",
       "topic": "81k Claude user interviews on AI hopes and concerns with large-scale qualitative clustering",
-      "fingerprint": "anthropic|81k-ai-interviews-hopes-concerns|2026-03-19",
+      "fingerprint": "anthropic|81k-ai-interviews-hopes-concerns|2026-03-18",
       "section": "大廠動態",
       "reason_picked": {
         "code": "official_launch",
@@ -1618,16 +1618,16 @@
         "note": "公開大規模多語質化研究與 Quote Wall，提供產品/治理討論可引用的實證素材"
       },
       "summary": "Anthropic 以「AI 訪談員」收集 159 國、70 語言共 80,508 份訪談，再用 Claude 分群需求（工作卓越、生活管理、時間自由等）並整理代表性引言。",
-      "from_file": "output/2026/03/19.md"
+      "from_file": "output/2026/03/18.md"
     },
     {
-      "date": "2026-03-19",
+      "date": "2026-03-18",
       "title": "Google Labs Stitch 推出「vibe design」：自然語言生成高保真 UI，並用 DESIGN.md 串接開發流程",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/",
       "source": "blog.google",
       "company": "Google",
       "topic": "Stitch AI-native design canvas with design agent, agent manager and DESIGN.md",
-      "fingerprint": "google|stitch-vibe-design-design-md|2026-03-19",
+      "fingerprint": "google|stitch-vibe-design-design-md|2026-03-18",
       "section": "有趣的小工具應用",
       "reason_picked": {
         "code": "official_launch",
@@ -1638,7 +1638,7 @@
         "note": "Stitch 升級為 AI-native 設計畫布並導入設計 agent/Agent manager，且以 DESIGN.md/MCP 打通設計到工程"
       },
       "summary": "Stitch 以 infinite canvas 與設計 agent 支援多分支 UI 迭代，並提供 DESIGN.md 與 MCP/SDK 讓設計規則可移植、能更順暢銜接到工程工具鏈。",
-      "from_file": "output/2026/03/19.md"
+      "from_file": "output/2026/03/18.md"
     }
   ],
   "reason_picked_schema": {
