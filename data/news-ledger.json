@@ -1521,6 +1521,93 @@
       },
       "summary": "ChatGPT 新增互動式數理視覺教學模組，可即時調整變數與圖形，讓抽象概念更像可操作教具。",
       "from_file": "output/2026/03/17.md"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "Human Attribution of Causality to AI",
+      "url": "https://arxiv.org/abs/2603.13236",
+      "source": "arxiv.org",
+      "company": "arXiv",
+      "topic": "AI causality attribution in harm chains",
+      "fingerprint": "arXiv|ai-causality-attribution|2026-03-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "新論文公開AI因果歸因實驗結果"
+      },
+      "summary": "arXiv新論文探討民眾如何在傷害事件鏈中歸因AI責任。高AI代理度（AI定目標/手段）時，AI被視為更主要因果源；開發者遠距仍高責；人類優越偏誤明顯，助AI責任框架設計。",
+      "from_file": "output/2026/03/18.md"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "Dual-Path Generative Framework for Zero-Day Fraud Detection",
+      "url": "https://arxiv.org/abs/2603.13237",
+      "source": "arxiv.org",
+      "company": "Unknown",
+      "topic": "zero-day fraud detection generative framework",
+      "fingerprint": "Unknown|zero-day-fraud-detection-framework|2026-03-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "新框架解銀行零日詐騙與GDPR即時解釋"
+      },
+      "summary": "銀行防詐雙路徑生成框架：VAE建正當交易流形（<50ms推論），WGAN-GP異步生成高熵詐騙樣本；Gumbel-Softmax解離散數據，SHAP僅高不確定觸發解釋，平衡GDPR即時性。",
+      "from_file": "output/2026/03/18.md"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "Amazon CEO：AI將翻倍AWS營收預測至2036年6000億美元",
+      "url": "https://www.reuters.com/technology/exclusive-amazon-ceo-sees-ai-doubling-prior-aws-sales-projections-600-billion-by-2036-2026-03-17/",
+      "source": "reuters.com",
+      "company": "Amazon",
+      "topic": "AWS AI revenue projection 600B 2036",
+      "fingerprint": "Amazon|aws-ai-revenue-600b-2036|2026-03-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "CEO獨家預測翻倍雲端AI市場"
+      },
+      "summary": "Jassy獨家預測AI工作負載驅動雲端爆發，遠超先前預期；強調企業AI需求正重塑基礎設施市場。",
+      "from_file": "output/2026/03/18.md"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "Railway獲1億美元融資挑戰AWS AI原生雲",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "source": "venturebeat.com",
+      "company": "Railway",
+      "topic": "AI-native cloud infrastructure funding",
+      "fingerprint": "Railway|ai-native-cloud-100m-funding|2026-03-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "自建資料中心挑戰AWS子秒部署"
+      },
+      "summary": "棄Google Cloud自建資料中心，子秒部署支援AI代理速度；Fortune 500客戶報65%成本降、10x開發者速度。",
+      "from_file": "output/2026/03/18.md"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "SaaStr生產30 AI代理前5痛點曝光",
+      "url": "https://www.saastr.com/we-have-30-ai-agents-in-production-here-are-the-top-5-issues-no-one-talks-about/",
+      "source": "saastr.com",
+      "company": "SaaStr",
+      "topic": "production AI agents management challenges",
+      "fingerprint": "SaaStr|ai-agents-production-issues|2026-03-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "實戰30代理痛點：無統一介面與黑窗期"
+      },
+      "summary": "情境切換稅重（20+代理無統一介面）、新代理需2週黑窗期（舊代理衰退）、缺乏大師協調層；每日1v1審核成標配，呼籲統一管理介面。",
+      "from_file": "output/2026/03/18.md"
     }
   ],
   "reason_picked_schema": {
