@@ -1757,6 +1757,123 @@
       },
       "summary": "Google 表示 Personal Intelligence 在美國擴到 AI Mode in Search、Gemini app 與 Gemini in Chrome（free tier 也開始 rollout）。透過連結 Gmail、Photos 等應用提供更個人化的購物/行程/疑難排解建議，並強調可隨時開關連結與隱私控制。",
       "from_file": "output/2026/03/19.md"
+    },
+    {
+      "date": "2026-03-20",
+      "title": "Google 加碼 AI 時代的開源安全防線",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Alpha-Omega open source security funding and AI-assisted remediation for maintainers",
+      "fingerprint": "Google|alpha-omega-open-source-security-funding-ai-remediation|2026-03-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "聯合資助 1250 萬美元並把 AI 修補工具推向開源維護流程"
+      },
+      "summary": "Google 與 Amazon、Anthropic、Microsoft/GitHub、OpenAI 共同透過 Alpha-Omega / OpenSSF 投入 1,250 萬美元，目標是讓開源安全從找漏洞進一步走向修補與維護者實際採用，並把 Big Sleep、CodeMender、Sec-Gemini 等 AI 安全能力帶進防守面。",
+      "from_file": "output/2026/03/20.md"
+    },
+    {
+      "date": "2026-03-20",
+      "title": "NVIDIA 把電信網路推向「AI Grid」基礎設施",
+      "url": "https://blogs.nvidia.com/blog/telecom-ai-grids-inference/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "Telecom AI grids for distributed edge inference across carrier networks",
+      "fingerprint": "NVIDIA|telecom-ai-grids-distributed-edge-inference|2026-03-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "多家電信商把邊緣節點正式推進為 AI 推論平台"
+      },
+      "summary": "AT&T、Comcast、Spectrum、Akamai、Indosat、T-Mobile 在 GTC 2026 展示把電信邊緣機房與 AI-RAN 轉成 AI Grid，讓低延遲 inference 更靠近使用者、裝置與資料來源，反映 AI 基礎設施正從集中式資料中心擴散到網路邊緣。",
+      "from_file": "output/2026/03/20.md"
+    },
+    {
+      "date": "2026-03-20",
+      "title": "OpenAI 收購 Astral，直接補強 Python 開發工具鏈",
+      "url": "https://openai.com/index/openai-to-acquire-astral/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI acquisition of Astral to integrate Python developer tooling into Codex",
+      "fingerprint": "OpenAI|acquisition-of-astral-for-codex-python-tooling|2026-03-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "不是模型小改版，而是直接收進 Python 核心工具鏈"
+      },
+      "summary": "OpenAI 宣布將收購 Astral，後者打造了 uv、Ruff、ty 等廣泛使用的 Python 工具。OpenAI 表示未來會把這些工具與 Codex 更緊密整合，讓 AI agent 能更深入參與依賴管理、格式化、型別檢查與整體開發流程。",
+      "from_file": "output/2026/03/20.md"
+    },
+    {
+      "date": "2026-03-20",
+      "title": "Apple 去年靠生成式 AI App 抽成進帳逼近 9 億美元",
+      "url": "https://9to5mac.com/2026/03/19/report-apple-made-roughly-900m-from-generative-ai-apps-in-2025/",
+      "source": "9to5mac.com",
+      "company": "Apple",
+      "topic": "App Store generative AI commission revenue growth driven by ChatGPT subscriptions",
+      "fingerprint": "Apple|app-store-generative-ai-commission-revenue-growth|2026-03-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "首次看到蘋果從 GenAI App 抽成逼近 9 億美元"
+      },
+      "summary": "9to5Mac 引述 AppMagic 與 WSJ 數據指出，Apple 在 2025 年來自生成式 AI app 的 App Store 抽成收入大幅成長，約 75% 來自 ChatGPT。這凸顯在 AI 競賽中，分發入口與裝置生態同樣具有極高商業價值。",
+      "from_file": "output/2026/03/20.md"
+    },
+    {
+      "date": "2026-03-20",
+      "title": "Google AI Studio 升級成真正的「full-stack vibe coding」工作台",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/full-stack-vibe-coding-google-ai-studio/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Google AI Studio full-stack vibe coding with Antigravity agent and Firebase integration",
+      "fingerprint": "Google|ai-studio-full-stack-vibe-coding-antigravity-firebase|2026-03-20",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "新意在 Firebase、Secrets 與 Next.js 一次補齊 prompt-to-production"
+      },
+      "summary": "Google AI Studio 新版引入 Antigravity coding agent，支援 Next.js、外部函式庫、Secrets Manager，以及在需要時主動接 Firebase Authentication 與 Cloud Firestore，讓生成式開發從原型更接近可部署應用。",
+      "from_file": "output/2026/03/20.md"
+    },
+    {
+      "date": "2026-03-20",
+      "title": "NVIDIA 把本地 agent PC 這件事做得更完整了",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-gtc-2026-nemoclaw/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NemoClaw and local agent stack for RTX PCs and DGX Spark",
+      "fingerprint": "NVIDIA|nemoclaw-local-agent-stack-for-rtx-pcs-and-dgx-spark|2026-03-20",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "NemoClaw 與 OpenShell 讓本地 agent 方案更完整可用"
+      },
+      "summary": "NVIDIA 在 GTC 2026 推出 NemoClaw、OpenShell 與新一波 Nemotron 模型，主打讓 AI agent 能在 RTX PC 或 DGX Spark 上更安全地本地運行，兼顧隱私、成本與個人工作流整合。",
+      "from_file": "output/2026/03/20.md"
     }
   ],
   "reason_picked_schema": {
