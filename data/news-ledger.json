@@ -1874,6 +1874,103 @@
       },
       "summary": "NVIDIA 在 GTC 2026 推出 NemoClaw、OpenShell 與新一波 Nemotron 模型，主打讓 AI agent 能在 RTX PC 或 DGX Spark 上更安全地本地運行，兼顧隱私、成本與個人工作流整合。",
       "from_file": "output/2026/03/20.md"
+    },
+    {
+      "date": "2026-03-21",
+      "title": "Microsoft 補上 agentic AI 的端到端安全層",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/20/secure-agentic-ai-end-to-end/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "end-to-end security stack for agentic AI with Agent 365 Defender Entra and Purview",
+      "fingerprint": "Microsoft|end-to-end-security-stack-for-agentic-ai|2026-03-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "RSAC 前補齊 agent 觀測治理與防護能力"
+      },
+      "summary": "Microsoft 在 RSAC 2026 前公開新一波 agentic AI 安全能力，圍繞 Agent 365、Defender、Entra 與 Purview，主打對 agent 的觀測、治理、存取控制與資料外洩防護。",
+      "from_file": "output/2026/03/21.md"
+    },
+    {
+      "date": "2026-03-21",
+      "title": "Roche 把 AI factory 真正推進藥研與製造主流程",
+      "url": "https://blogs.nvidia.com/blog/roche-ai-factories-omniverse/",
+      "source": "blogs.nvidia.com",
+      "company": "Roche",
+      "topic": "Roche global Blackwell AI factory deployment for drug discovery diagnostics and manufacturing",
+      "fingerprint": "Roche|global-blackwell-ai-factory-deployment|2026-03-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "healthcare",
+          "workflow_automation"
+        ],
+        "note": "3,500 顆 Blackwell 正式成為藥廠 AI 骨幹"
+      },
+      "summary": "Roche 宣布在美歐混合雲與地端環境部署超過 3,500 顆 NVIDIA Blackwell GPU，把 biological foundation model、藥物探索與製造數位分身納入同一套 AI 工廠架構。",
+      "from_file": "output/2026/03/21.md"
+    },
+    {
+      "date": "2026-03-21",
+      "title": "Palantir Maven 將升格為美軍正式核心系統",
+      "url": "https://www.thehindu.com/news/international/pentagon-to-adopt-palantir-aias-core-us-military-system-memo-says/article70767406.ece",
+      "source": "thehindu.com",
+      "company": "Palantir",
+      "topic": "Palantir Maven becomes Pentagon program of record for long-term military AI adoption",
+      "fingerprint": "Palantir|maven-program-of-record-pentagon|2026-03-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "Maven 升格 program of record，正式進入長期採用"
+      },
+      "summary": "五角大廈將 Palantir 的 Maven Smart System 升格為正式 program of record，意味著長期預算、制度化採購與跨軍種部署將同步推進。",
+      "from_file": "output/2026/03/21.md"
+    },
+    {
+      "date": "2026-03-21",
+      "title": "白宮釋出 AI 立法藍圖，主張對 AI 採取較輕監管",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX2xQTmpPX25YanFWNlhWQnFsbS1Cb3dROF84dGhxLWRXT1ZEVWxmX2g5bmdEdUN3UXlBX2xKWmRzN0xDTXVkTk4zWFVGR2Z5MXNoM181X1FzRl9Pb21Kcl8wNmpsN3lmb01NZVB0N1VCb2d3RTE1V1d0MnBWOGZ6dTFkNmdsYmhrRnpncEk5Ylk3YlhoWTJRX056V191MHJUZzNNWTFZcnRIX25N?oc=5",
+      "source": "apnews.com",
+      "company": "White House",
+      "topic": "White House legislative blueprint favors light-touch AI regulation",
+      "fingerprint": "White House|light-touch-ai-legislative-blueprint|2026-03-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "白宮首次用立法藍圖明講輕監管方向"
+      },
+      "summary": "美國白宮最新 AI legislative blueprint 呼籲國會對 AI 採取較輕手監管，透露政策重心將更偏向加速創新與部署，而非先行高壓管制。",
+      "from_file": "output/2026/03/21.md"
+    },
+    {
+      "date": "2026-03-21",
+      "title": "Google Search 開始用 AI 改寫搜尋結果標題",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbUVMYWJqRG9NaVFJNHh4NHFSQVdGREpZVDFZV0lOcGNUV3owNGlCYy1vRWNVRjhFcjg3MFZ1R01jYU55RFREWmt5X2tPYUJsdUxkZGlnUWctY2pMNGRnREFhU2htQnVhY1RNOHl4RGxVQ3czZ1ljN0F5ZHZDRHZRTERraE9Oalo2X1NPaXpaTTh4MHE5ck5SNmlPeGZjQWJiVC0xSlhQVQ?oc=5",
+      "source": "theverge.com",
+      "company": "Google",
+      "topic": "Google Search AI-generated replacement headlines in search results",
+      "fingerprint": "Google|ai-generated-replacement-headlines-in-search-results|2026-03-21",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "AI 直接進入搜尋標題層，牽動 publisher 流量"
+      },
+      "summary": "Google 被報導開始在部分搜尋結果中使用 AI 生成標題取代原始 headline，這將直接影響 publisher 流量、SEO 呈現與 attribution。",
+      "from_file": "output/2026/03/21.md"
     }
   ],
   "reason_picked_schema": {
