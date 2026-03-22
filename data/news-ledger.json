@@ -1971,6 +1971,122 @@
       },
       "summary": "Google 被報導開始在部分搜尋結果中使用 AI 生成標題取代原始 headline，這將直接影響 publisher 流量、SEO 呈現與 attribution。",
       "from_file": "output/2026/03/21.md"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "Mistral Small 4 正式登場，整合 reasoning、vision、coding 為單一開源模型",
+      "url": "https://mistral.ai/news/mistral-small-4",
+      "source": "mistral.ai",
+      "company": "Mistral AI",
+      "topic": "Mistral Small 4 unified open multimodal reasoning and coding model",
+      "fingerprint": "Mistral AI|mistral-small-4-unified-open-multimodal-reasoning-coding-model|2026-03-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首次正式發布 unified reasoning/vision/coding 開源模型，含規格與效能細節"
+      },
+      "summary": "Mistral 發布 Apache 2.0 授權的 Small 4，採 128-expert MoE、119B 總參數、256k context，並用 reasoning_effort 把推理、視覺與 coding workflow 收斂到單一模型。",
+      "from_file": "output/2026/03/22.md"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "Meta 將自研 AI 晶片 roadmap 拉快到兩年四代",
+      "url": "https://about.fb.com/news/2026/03/expanding-metas-custom-silicon-to-power-our-ai-workloads/",
+      "source": "about.fb.com",
+      "company": "Meta",
+      "topic": "Meta MTIA custom silicon roadmap expansion for GenAI inference",
+      "fingerprint": "Meta|meta-mtia-custom-silicon-roadmap-expansion-genai-inference|2026-03-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "公布四代晶片節奏並確認 MTIA 300 已投入生產，GenAI inference 方向更清楚"
+      },
+      "summary": "Meta 宣布 MTIA 300 已量產上線，並將在兩年內推進 MTIA 400/450/500，以更高頻節奏支撐 ranking、recommendation 與 GenAI inference。",
+      "from_file": "output/2026/03/22.md"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "NVIDIA 2026 State of AI 顯示企業導入重心轉向 ROI 與 agentic automation",
+      "url": "https://blogs.nvidia.com/blog/state-of-ai-report-2026/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA 2026 State of AI enterprise ROI and agentic adoption report",
+      "fingerprint": "NVIDIA|nvidia-2026-state-of-ai-enterprise-roi-agentic-adoption-report|2026-03-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "最新年度報告首次集中量化跨產業 ROI、成本下降與 agentic AI 採用進度"
+      },
+      "summary": "NVIDIA 最新 State of AI 報告顯示 64% 企業已實際用 AI、88% 感受到營收影響，市場討論重點明顯轉向導入效益與 agentic automation 的真實回報。",
+      "from_file": "output/2026/03/22.md"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "OpenAI 擴大 OpenAI for Countries，延伸到教育、醫療與資安方案",
+      "url": "https://openai.com/index/how-countries-can-end-the-capability-overhang/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI for Countries expansion into education health cybersecurity and capability adoption",
+      "fingerprint": "OpenAI|openai-for-countries-expansion-education-health-cybersecurity-capability-adoption|2026-03-22",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "education"
+        ],
+        "note": "國家合作計畫新增教育、健康與資安方案，從倡議走向更具體落地"
+      },
+      "summary": "OpenAI 以 capability overhang 為主軸，宣布 2026 年擴大 OpenAI for Countries，將 AI 國家合作計畫延伸到教育、醫療、技能訓練、災防與資安。",
+      "from_file": "output/2026/03/22.md"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "Meta AI 接入更多國際新聞來源，補強即時內容能力",
+      "url": "https://about.fb.com/news/2026/03/bringing-more-international-news-and-content-to-meta-ai/",
+      "source": "about.fb.com",
+      "company": "Meta",
+      "topic": "Meta AI international news partner integrations for real-time answers",
+      "fingerprint": "Meta|meta-ai-international-news-partner-integrations-real-time-answers|2026-03-22",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "新增多家國際媒體即時內容接入 Meta AI，從授權走向即時分發整合"
+      },
+      "summary": "Meta 宣布與 News Corp、Le Figaro、Prisa、Süddeutsche Zeitung 等媒體合作，讓 Meta AI 可引用更多即時新聞並導流回原始文章。",
+      "from_file": "output/2026/03/22.md"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "Hachette 撤回《Shy Girl》，AI 生成疑雲開始影響出版上架決策",
+      "url": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/",
+      "source": "techcrunch.com",
+      "company": "Hachette",
+      "topic": "publishing withdrawal over suspected AI-generated novel authenticity concerns",
+      "fingerprint": "Hachette|publishing-withdrawal-suspected-ai-generated-novel-authenticity-concerns|2026-03-22",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "大型出版社正式撤書，AI 內容真偽爭議首次直接影響商業上架決策"
+      },
+      "summary": "Hachette 因疑似涉及 AI 生成內容而停止出版《Shy Girl》，顯示出版業已把 AI 內容可驗證性視為實際風險管理與上架判斷的一部分。",
+      "from_file": "output/2026/03/22.md"
     }
   ],
   "reason_picked_schema": {
