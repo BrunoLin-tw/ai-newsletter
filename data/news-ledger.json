@@ -90,7 +90,7 @@
         "secondary": [],
         "note": "IG CEO 首提真實內容標記策略"
       },
-      "summary": "IG 負責人 Mosseri 表示，平台傾向標記人類生成內容而非僅標 AI，以降低辨識難度並維持使用者信任，此立場反映內容真偽認證的新趨勢。",
+      "summary": "IG 負責人 Mosseri 表示，平台傾向標記人類生成內容而非僅標 AI，以降低辨識難度並維持使用者信任，此立場反映內容真偽認識的新趨勢。",
       "from_file": "output/2026/03/23.md"
     },
     {
@@ -228,6 +228,108 @@
       },
       "summary": "影片展示 iPhone 17 Pro 執行 400B 參數大語言模型，凸顯 Apple 矽晶圓上 NPU 進展，邊緣 AI 運算即將進入生產力級應用。",
       "from_file": "output/2026/03/24.md"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "Arm AGI CPU 登場",
+      "url": "https://newsroom.arm.com/blog/introducing-arm-agi-cpu",
+      "source": "newsroom.arm.com",
+      "company": "Arm",
+      "topic": "AGI CPU agentic AI infrastructure",
+      "fingerprint": "Arm|agi-cpu-agentic-ai|2026-03-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["benchmark_detail"],
+        "note": "Arm 首款自製 AGI CPU 正式發布"
+      },
+      "summary": "Arm 推出 AGI CPU，Neoverse V3 架構單機 136 核心，機架級 8000+ 核心，效能每瓦 x86 2 倍，專為代理式 AI 雲端協調設計。",
+      "from_file": "output/2026/03/25.md"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "Google TurboQuant 極端壓縮",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "source": "research.google",
+      "company": "Google",
+      "topic": "TurboQuant vector quantization KV cache",
+      "fingerprint": "Google|turboquant-vector-quantization|2026-03-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "極端壓縮 KV cache 零精度損失"
+      },
+      "summary": "TurboQuant 算法消除向量量化開銷，PolarQuant + QJL 實現高壓縮比，加速大模型推理與向量搜尋，ICLR 2026 發表。",
+      "from_file": "output/2026/03/25.md"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "OpenAI Sora 影片 App 關閉",
+      "url": "https://www.wsj.com/tech/ai/openai-sora-video-platform-shut-down-9e8b0a0a",
+      "source": "wsj.com",
+      "company": "OpenAI",
+      "topic": "Sora video generator shutdown",
+      "fingerprint": "OpenAI|sora-shutdown|2026-03-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [],
+        "note": "高調 video gen 項目數月後終止"
+      },
+      "summary": "OpenAI 關閉 Sora video app，Disney 10 億投資取消，轉內部開發。",
+      "from_file": "output/2026/03/25.md"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "Anthropic Claude 控制 Mac",
+      "url": "https://venturebeat.com/ai/anthropics-claude-can-now-control-your-mac-escalating-the-fight-to-build-ai-agents-that-actually-do-work/",
+      "source": "venturebeat.com",
+      "company": "Anthropic",
+      "topic": "Claude computer use Mac control",
+      "fingerprint": "Anthropic|claude-computer-use-mac|2026-03-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": ["workflow_automation"],
+        "note": "Claude 獲 Mac 介面操作能力"
+      },
+      "summary": "Claude 3.5 研究預覽支援電腦控制，操作 Mac、Claude Cowork/Code 整合手機 Dispatch，代理生產力升級。",
+      "from_file": "output/2026/03/25.md"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "LiteLLM PyPI 供應鏈攻擊",
+      "url": "https://github.com/BerriAI/litellm/issues/24512",
+      "source": "github.com",
+      "company": "BerriAI",
+      "topic": "litellm PyPI malicious package",
+      "fingerprint": "BerriAI|litellm-supply-chain-attack|2026-03-25",
+      "section": "tools",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [],
+        "note": "惡意 .pth 竊取憑證自動執行"
+      },
+      "summary": "litellm 1.82.7/8 PyPI 套件含 credential stealer，收集 SSH/AWS 等，開發者移除。",
+      "from_file": "output/2026/03/25.md"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "Cloudflare Dynamic Workers",
+      "url": "https://blog.cloudflare.com/dynamic-workers/",
+      "source": "blog.cloudflare.com",
+      "company": "Cloudflare",
+      "topic": "Dynamic Workers AI code sandbox",
+      "fingerprint": "Cloudflare|dynamic-workers-ai-sandbox|2026-03-25",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["workflow_automation"],
+        "note": "毫秒沙盒取代容器 100x 加速"
+      },
+      "summary": "Dynamic Workers beta 安全執行 AI 生成程式碼，支援 Code Mode，付費用戶可用。",
+      "from_file": "output/2026/03/25.md"
     }
   ],
   "reason_picked_schema": {
