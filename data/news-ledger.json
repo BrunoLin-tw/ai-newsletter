@@ -330,6 +330,193 @@
       },
       "summary": "Dynamic Workers beta 安全執行 AI 生成程式碼，支援 Code Mode，付費用戶可用。",
       "from_file": "output/2026/03/25.md"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "ARC-AGI-3 發布：互動式 AGI 基準測試",
+      "url": "https://arcprize.org/arc-agi/3",
+      "source": "arcprize.org",
+      "company": "ARC Prize",
+      "topic": "ARC-AGI-3 interactive AGI benchmark",
+      "fingerprint": "ARC|arc-agi-3-interactive-benchmark|2026-03-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["benchmark_detail"],
+        "note": "全新互動式 AGI 測試框架發布"
+      },
+      "summary": "ARC-AGI-3 挑戰 AI 代理探索新環境、即時獲取目標、建構世界模型並持續學習。100% 分數等同人類效率，強調長期規劃與經驗適應，無需語言提示。",
+      "from_file": "output/2026/03/26.md"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Nature：端到端 AI 研究自動化",
+      "url": "https://www.nature.com/articles/d41586-026-00896-5",
+      "source": "nature.com",
+      "company": "Independent",
+      "topic": "end-to-end AI research automation",
+      "fingerprint": "Independent|end-to-end-ai-research-automation|2026-03-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "探討 AI 自動化完整研究流程"
+      },
+      "summary": "探討 AI 代理自動化完整研究流程，從假設生成到實驗驗證，加速科學發現但需解決幻覺與可靠性問題。",
+      "from_file": "output/2026/03/26.md"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Microsoft x Nvidia 聯手推 AI 核能",
+      "url": "https://www.axios.com/2026/03/25/microsoft-nvidia-ai-nuclear",
+      "source": "axios.com",
+      "company": "Microsoft/Nvidia",
+      "topic": "AI nuclear power collaboration",
+      "fingerprint": "Microsoft|ai-nuclear-power-collaboration|2026-03-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": ["real_world_deployment"],
+        "note": "AI 數據中心核能合作"
+      },
+      "summary": "合作開發 AI 數據中心專用核反應爐，提供穩定高密度能源解決電力瓶頸，支持 AGI 規模訓練。",
+      "from_file": "output/2026/03/26.md"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Meta 裁員 700 人轉向 AI",
+      "url": "https://www.theverge.com/2026/3/25/meta-layoffs-reality-labs-ai",
+      "source": "theverge.com",
+      "company": "Meta",
+      "topic": "layoffs pivot to AI",
+      "fingerprint": "Meta|layoffs-ai-pivot|2026-03-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "裁員加速 AI 轉型"
+      },
+      "summary": "影響 Reality Labs、招聘與社群團隊，Zuckerberg 加速 AI 代理取代高階管理，優化決策流程。",
+      "from_file": "output/2026/03/26.md"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Wiz Red Agent：AI 驅動攻擊者模擬",
+      "url": "https://www.wiz.io/blog/introducing-wiz-red-agent-ai-powered-attacker",
+      "source": "wiz.io",
+      "company": "Wiz",
+      "topic": "red agent AI attacker simulation",
+      "fingerprint": "Wiz|red-agent-ai-attacker|2026-03-26",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["security_research"],
+        "note": "AI 紅隊滲透測試工具"
+      },
+      "summary": "紅隊工具模擬真實駭客，使用 AI 自動化雲端滲透測試，加速安全評估。",
+      "from_file": "output/2026/03/26.md"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Sanders/OAC 提案 AI 數據中心停建禁令",
+      "url": "https://apnews.com/article/ai-data-center-moratorium-sanders-ocasio-cortez-3a2b5c1d4e8f9g0h1i2j3k4l5m6n7o8p9q0r",
+      "source": "apnews.com",
+      "company": "US Congress",
+      "topic": "AI data center moratorium bill",
+      "fingerprint": "US Congress|ai-data-center-moratorium|2026-03-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "提案暫停 AI 數據中心建設"
+      },
+      "summary": "國會推動暫停新 AI 數據中心建設，回應能源與環境衝擊，強制評估監管框架。",
+      "from_file": "output/2026/03/26.md"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "Cohere Transcribe：SOTA ASR 模型登頂 Hugging Face 排行",
+      "url": "https://www.marktechpost.com/2026/03/26/cohere-ai-releases-cohere-transcribe-a-sota-automatic-speech-recognition-asr-model-powering-enterprise-speech-intelligence/",
+      "source": "marktechpost.com",
+      "company": "Cohere",
+      "topic": "Cohere Transcribe ASR model",
+      "fingerprint": "Cohere|transcribe-asr-sota|2026-03-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["benchmark_detail"],
+        "note": "SOTA ASR 模型登頂 leaderboard"
+      },
+      "summary": "Cohere 推出企業級語音轉文字模型，採用 Conformer-Transformer 架構，平均 WER 僅 5.42%，勝過 Whisper Large v3，支持 14 種語言，自動處理長音頻（35秒分塊重組），適用財報電話、會議記錄等場景。",
+      "from_file": "output/2026/03/27.md"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "Tencent Covo-Audio 開源：7B 端到端語音語言模型",
+      "url": "https://www.marktechpost.com/2026/03/26/tencent-ai-open-sources-covo-audio-a-7b-speech-language-model-and-inference-pipeline-for-real-time-audio-conversations-and-reasoning/",
+      "source": "marktechpost.com",
+      "company": "Tencent",
+      "topic": "Covo-Audio speech language model",
+      "fingerprint": "Tencent|covo-audio-lalm|2026-03-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["open_source"],
+        "note": "開源 7B 全雙工語音 LLM"
+      },
+      "summary": "基於 Qwen2.5-7B，整合 Whisper-large-v3 編碼器與 WavLM 語音 tokenizer，支持即時全雙工對話（1:4 chunk 交錯）、中斷偵測（BREAK token），透過階層三模態交錯（連續聲學+離散 token+文字）實現語音推理，GRPO 強化複雜思考。",
+      "from_file": "output/2026/03/27.md"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "Shield AI 募資 20 億美元達 127 億估值，併購 Aechelon",
+      "url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation",
+      "source": "shield.ai",
+      "company": "Shield AI",
+      "topic": "Shield AI funding and Aechelon acquisition",
+      "fingerprint": "Shield AI|funding-aechelon-acquisition|2026-03-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": ["real_world_deployment"],
+        "note": "募資併購強化 Hivemind 模擬訓練"
+      },
+      "summary": "國防 AI 獨角獸獲 Advent 領投 15 億 G 輪 + Blackstone 5 億優先股，用於 Hivemind AI 飛行員模擬訓練（JSE 環境）、X-BAT 開發與收購高保真模擬軟體商 Aechelon，提升自主無人機從模擬到實戰轉移。",
+      "from_file": "output/2026/03/27.md"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "Meta 將西德州 AI 數據中心投資擴至 100 億美元",
+      "url": "https://www.cnbc.com/2026/03/27/meta-boosts-investment-in-west-texas-ai-data-center-to-10-billion.html",
+      "source": "cnbc.com",
+      "company": "Meta",
+      "topic": "Meta West Texas AI data center expansion",
+      "fingerprint": "Meta|west-texas-ai-datacenter-expansion|2026-03-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "投資從原計畫增至 100 億"
+      },
+      "summary": "原計畫大幅上調，強化 AI 基礎設施，反映大廠對運算資源飢渴，與近期裁員轉向 AI 策略一致。",
+      "from_file": "output/2026/03/27.md"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "Apple iOS 27 開放 Siri 接入競爭對手 AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-27/apple-plans-to-open-up-siri-to-rival-ai-assistants-in-ios-27-update",
+      "source": "bloomberg.com",
+      "company": "Apple",
+      "topic": "Apple Siri open to rival AI iOS 27",
+      "fingerprint": "Apple|siri-rival-ai-ios27|2026-03-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": ["distribution_expansion"],
+        "note": "Siri 開放第三方 AI 整合"
+      },
+      "summary": "Bloomberg 報導，Siri 將允許第三方 AI 助手整合，提升智慧助理競爭力，回應生成式 AI 浪潮。",
+      "from_file": "output/2026/03/27.md"
     }
   ],
   "reason_picked_schema": {
