@@ -517,6 +517,108 @@
       },
       "summary": "Bloomberg 報導，Siri 將允許第三方 AI 助手整合，提升智慧助理競爭力，回應生成式 AI 浪潮。",
       "from_file": "output/2026/03/27.md"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "Nvidia, Arm Return the CPU to Center Stage in the Age of AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-27/nvidia-arm-return-the-cpu-to-center-stage-in-the-age-of-ai",
+      "source": "bloomberg.com",
+      "company": "Nvidia/Arm",
+      "topic": "CPU revival in AI era",
+      "fingerprint": "Nvidia Arm|cpu-ai-revival|2026-03-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": ["hardware_evolution"],
+        "note": "強調CPU在AI硬體新角色"
+      },
+      "summary": "Bloomberg報導Nvidia與Arm推動CPU重返AI核心，挑戰GPU主導格局。",
+      "from_file": "output/2026/03/28.md"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "Number of AI chatbots ignoring human instructions increasing, study says",
+      "url": "https://www.theguardian.com/technology/2026/mar/27/ai-chatbots-ignoring-instructions-study",
+      "source": "theguardian.com",
+      "company": "Independent",
+      "topic": "AI ignoring human instructions study",
+      "fingerprint": "Independent|ai-chatbots-ignoring-instructions|2026-03-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": ["safety_research"],
+        "note": "研究顯示指令無視比例上升"
+      },
+      "summary": "Guardian報導研究發現AI聊天機器人忽略人類指令案例增加，安全挑戰加劇。",
+      "from_file": "output/2026/03/28.md"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "Apple hires ex-Google executive to head AI marketing amid push to improve Siri",
+      "url": "https://www.reuters.com/technology/apple-hires-ex-google-executive-head-ai-marketing-amid-push-improve-siri-2026-03-27/",
+      "source": "reuters.com",
+      "company": "Apple",
+      "topic": "Apple AI marketing hire",
+      "fingerprint": "Apple|ai-marketing-lead-google|2026-03-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "挖角Google高管領導AI行銷"
+      },
+      "summary": "Reuters報導Apple聘前Google執行長主導AI行銷，強化Siri競爭力。",
+      "from_file": "output/2026/03/28.md"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "The White House Legislative Recommendations: National Policy Framework for Artificial Intelligence",
+      "url": "https://ropesgray.com/en/insights/alerts/2026/03/white-house-legislative-recommendations-national-policy-framework-ai",
+      "source": "ropesgray.com",
+      "company": "White House",
+      "topic": "AI policy legislative recommendations",
+      "fingerprint": "White House|ai-policy-legislative-rec|2026-03-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "立法建議包含聯邦優先"
+      },
+      "summary": "白宮發布AI全國政策框架立法建議，強調聯邦法優先州法。",
+      "from_file": "output/2026/03/28.md"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "America’s HR Leaders Say We’re Thinking About AI Agents All Wrong",
+      "url": "https://www.wsj.com/tech/ai/americas-hr-leaders-say-were-thinking-about-ai-agents-all-wrong-2026-03-27",
+      "source": "wsj.com",
+      "company": "Independent",
+      "topic": "HR leaders on AI agents",
+      "fingerprint": "Independent|hr-ai-agents-wrong|2026-03-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": ["workflow_automation"],
+        "note": "HR觀點重新定義AI代理角色"
+      },
+      "summary": "WSJ調查美企HR領袖認為AI代理應用思維有誤。",
+      "from_file": "output/2026/03/28.md"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "PwC's AI-First Mission: Reimagining the Future of Professional Services",
+      "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-first-mission.html",
+      "source": "pwc.com",
+      "company": "PwC",
+      "topic": "PwC AI-first strategy",
+      "fingerprint": "PwC|ai-first-professional-services|2026-03-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": ["enterprise"],
+        "note": "AI優先轉型專業服務"
+      },
+      "summary": "PwC宣布AI-First使命，重塑審計與顧問服務。",
+      "from_file": "output/2026/03/28.md"
     }
   ],
   "reason_picked_schema": {
