@@ -619,6 +619,91 @@
       },
       "summary": "PwC宣布AI-First使命，重塑審計與顧問服務。",
       "from_file": "output/2026/03/28.md"
+    },
+    {
+      "date": "2026-03-29",
+      "title": "Cambridge 開發腦啟發 memristor，大幅降低 AI 能耗",
+      "url": "https://www.cam.ac.uk/research/news/new-computer-chip-material-inspired-by-the-human-brain-could-slash-ai-energy-use",
+      "source": "cam.ac.uk",
+      "company": "Cambridge",
+      "topic": "brain-inspired HfO2 memristor low-energy neuromorphic",
+      "fingerprint": "Cambridge|brain-inspired-hfo2-memristor|2026-03-29",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": ["benchmark_detail"],
+        "note": "HfO2 memristor 電流低百萬倍，支持學習規則"
+      },
+      "summary": "Cambridge 利用摻雜 HfO2 製作穩定 memristor，模擬神經元，切換電流低百萬倍，支持多狀態與 spike-timing 學習，耐萬次循環，預期降 AI 能耗 70%。",
+      "from_file": "output/2026/03/29.md"
+    },
+    {
+      "date": "2026-03-29",
+      "title": "Meta 攜 Arm 開發 AGI CPU，強化 AI 資料中心",
+      "url": "https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/",
+      "source": "fb.com",
+      "company": "Meta",
+      "topic": "Meta Arm AGI CPU partnership",
+      "fingerprint": "Meta|arm-agi-cpu-partnership|2026-03-29",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": ["official_source"],
+        "note": "Meta 領軍 co-develop Arm AGI CPU 開源 OCP"
+      },
+      "summary": "Meta 與 Arm co-develop AGI CPU（Neoverse V3），單機 136 核心、每瓦超 x86 兩倍，優化 AI 部署，將開源板卡設計。",
+      "from_file": "output/2026/03/29.md"
+    },
+    {
+      "date": "2026-03-29",
+      "title": "Anthropic 最強 AI 模型遭資料快取外洩",
+      "url": "https://www.coindesk.com/tech/2026/03/28/anthropics-most-powerful-ai-model-leaked-via-unsecured-data-cache/",
+      "source": "coindesk.com",
+      "company": "Anthropic",
+      "topic": "Anthropic model unsecured cache leak",
+      "fingerprint": "Anthropic|model-unsecured-cache-leak|2026-03-29",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": ["security_research"],
+        "note": "最強模型透過未加密快取洩露"
+      },
+      "summary": "Anthropic 最先進模型經未加密快取洩露，CoinDesk 追蹤事件後續與安全影響。",
+      "from_file": "output/2026/03/29.md"
+    },
+    {
+      "date": "2026-03-29",
+      "title": "Stanford 研究：AI 聊天機器人過度附和個人建議",
+      "url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research/",
+      "source": "stanford.edu",
+      "company": "Stanford",
+      "topic": "AI sycophantic personal advice study",
+      "fingerprint": "Stanford|ai-sycophantic-advice-study|2026-03-29",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": ["safety_research"],
+        "note": "AI 過度肯定私人建議風險研究"
+      },
+      "summary": "Stanford 研究發現 AI 傾向諂媚使用者私人建議，忽略風險，可能導致危險決策。",
+      "from_file": "output/2026/03/29.md"
+    },
+    {
+      "date": "2026-03-29",
+      "title": "Chrome 擴充套件一站式整合數十 AI 模型",
+      "url": "https://mashable.com/article/chrome-extension-ai-models-chatgpt-gemini-grok",
+      "source": "mashable.com",
+      "company": "Independent",
+      "topic": "Chrome extension multi-AI models hub",
+      "fingerprint": "Independent|chrome-multi-ai-models-extension|2026-03-29",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "一工具整合 ChatGPT/Gemini/Grok 等模型"
+      },
+      "summary": "Chrome 擴充套件讓使用者單一介面存取多 AI 模型，簡化比較與生產力應用。",
+      "from_file": "output/2026/03/29.md"
     }
   ],
   "reason_picked_schema": {
