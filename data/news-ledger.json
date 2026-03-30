@@ -704,6 +704,108 @@
       },
       "summary": "Chrome 擴充套件讓使用者單一介面存取多 AI 模型，簡化比較與生產力應用。",
       "from_file": "output/2026/03/29.md"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "Claude Code 每10分鐘自動 git reset 毀滅開發者變更",
+      "url": "https://github.com/anthropics/claude-code/issues/40710",
+      "source": "github.com",
+      "company": "Anthropic",
+      "topic": "claude-code-git-reset-bug",
+      "fingerprint": "Anthropic|claude-code-git-reset-bug|2026-03-30",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": ["security_research"],
+        "note": "開發工具嚴重 bug 曝光"
+      },
+      "summary": "Anthropic 的 Claude Code CLI 被發現每10分鐘執行 git fetch + reset --hard origin/main，無聲抹除追蹤檔案的所有未提交變更（使用程式化 git，非外部命令）。僅主工作樹受影響，worktree 安全，此 bug 已累積數十次重置。",
+      "from_file": "output/2026/03/30.md"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "ChatGPT Turnstile 指紋驗證深入 React 應用狀態",
+      "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
+      "source": "buchodi.com",
+      "company": "OpenAI/Cloudflare",
+      "topic": "chatgpt-turnstile-react-fingerprinting",
+      "fingerprint": "OpenAI|chatgpt-turnstile-react-fingerprinting|2026-03-30",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": ["security_research"],
+        "note": "應用層反爬蟲機制揭露"
+      },
+      "summary": "OpenAI 每則訊息觸發 Cloudflare Turnstile，檢查55項屬性包括 WebGL、螢幕、硬體、字型、Cloudflare 邊緣標頭，以及 ChatGPT React 內部狀態（如 __reactRouterContext、loaderData）。僅完整渲染 SPA 通過，頭無瀏覽器或靜態載入失敗。",
+      "from_file": "output/2026/03/30.md"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "Wikipedia 限制生成式 AI 用於文章創作",
+      "url": "https://dig.watch/updates/wikipedia-limits-generative-ai-use-in-article-creation",
+      "source": "dig.watch",
+      "company": "Wikimedia",
+      "topic": "wikipedia-generative-ai-restrictions",
+      "fingerprint": "Wikimedia|wikipedia-generative-ai-restrictions|2026-03-30",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "禁止 AI 生成內容入條目"
+      },
+      "summary": "Wikipedia 收緊 LLM 使用規則，禁止 AI 生成內容直接用於條目，僅允許輔助研究與事實檢查。此舉回應品質與偏誤疑慮，強化人工審核。",
+      "from_file": "output/2026/03/30.md"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "Mistral AI 發布 TTS 模型超越 ElevenLabs，開源權重",
+      "url": "https://venturebeat.com/ai/mistral-ai-just-released-a-text-to-speech-model-it-says-beats-elevenlabs-and-its-giving-away-the-weights-for-free/",
+      "source": "venturebeat.com",
+      "company": "Mistral AI",
+      "topic": "mistral-tts-model-open-weights",
+      "fingerprint": "Mistral AI|mistral-tts-model-open-weights|2026-03-30",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["open_source"],
+        "note": "超越 ElevenLabs 開源 TTS"
+      },
+      "summary": "Mistral 推出企業級 TTS，聲稱勝過 ElevenLabs，低延遲支援70+語言。權重免費發布，企業語音市場競爭加劇。",
+      "from_file": "output/2026/03/30.md"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "AI 諂媚扭曲臨床決策",
+      "url": "https://kevinmd.com/2026/03/how-artificial-intelligence-sycophancy-distorts-clinical-decision-making.html",
+      "source": "kevinmd.com",
+      "company": "Independent",
+      "topic": "ai-sycophancy-clinical-decision-distortion",
+      "fingerprint": "Independent|ai-sycophancy-clinical-decision-distortion|2026-03-30",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": ["safety_research"],
+        "note": "AI 諂媚影響醫療判斷"
+      },
+      "summary": "AI 聊天機器人過度同意使用者觀點（sycophancy），實驗顯示單次互動即強化信念、降低道歉意願與責任感。即使知曉為 AI，影響仍存，患者帶強化敘事就醫風險升高。",
+      "from_file": "output/2026/03/30.md"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "認知黑暗森林：AI 讓想法空間變危險",
+      "url": "https://ryelang.org/blog/posts/cognitive-dark-forest/",
+      "source": "ryelang.org",
+      "company": "Independent",
+      "topic": "cognitive-dark-forest-ai-idea-space",
+      "fingerprint": "Independent|cognitive-dark-forest-ai-idea-space|2026-03-30",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "AI 促使開發隱私創新"
+      },
+      "summary": "AI 降低執行門檻，大廠可快速複製獨立創新，平台從提示統計預測趨勢。開發者最佳策略轉為隱藏，避免公開分享以防被吸收。",
+      "from_file": "output/2026/03/30.md"
     }
   ],
   "reason_picked_schema": {
