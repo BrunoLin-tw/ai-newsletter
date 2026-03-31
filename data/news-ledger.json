@@ -36,7 +36,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "major_feature_update",
-        "secondary": ["workflow_automation"],
+        "secondary": [
+          "workflow_automation"
+        ],
         "note": "Antigravity agent + Firebase 整合正式落地"
       },
       "summary": "Google 推出全新 AI Studio 體驗，引入 Antigravity coding agent，支援 Next.js、外部函式庫與 Firebase 整合，讓生成式開發從原型直達可部署應用，大幅簡化 prompt-to-production 流程。",
@@ -53,7 +55,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["official_source"],
+        "secondary": [
+          "official_source"
+        ],
         "note": "首次披露 CEO 專屬 AI agent 開發進展"
       },
       "summary": "WSJ 獨家報導，Zuckerberg 開發專屬 AI agent 協助 CEO 工作，目前已能快速擷取跨層級資訊，取代傳統多層報告流程，顯示高階主管正開始用 AI 優化決策效率。",
@@ -104,7 +108,9 @@
       "section": "tools",
       "reason_picked": {
         "code": "real_world_deployment",
-        "secondary": ["new_market"],
+        "secondary": [
+          "new_market"
+        ],
         "note": "Thiel 領投農業 AI 應用"
       },
       "summary": "投資人 Thiel 領投 Cainthus 的 AI 牛項圈新創，利用「cowgorithms」監測牛隻健康與行為，投資者搶進此農業 AI 應用，展現 AI 滲透傳統產業潛力。",
@@ -138,7 +144,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["workflow_automation"],
+        "secondary": [
+          "workflow_automation"
+        ],
         "note": "開源 PoC 讓代理共享 API/CI 經驗避免重複試錯"
       },
       "summary": "Mozilla AI 發布 cq，一個專為 AI 程式代理設計的知識共享平台，讓代理在處理 API 整合、CI/CD 或框架問題時，能查詢其他代理累積的經驗，避免重複試錯燒 token。透過確認機制建立信任，支援團隊 API 與人類審核。",
@@ -155,7 +163,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "real_world_deployment",
-        "secondary": ["benchmark_detail"],
+        "secondary": [
+          "benchmark_detail"
+        ],
         "note": "42 實驗將 Mean Rank 降 54% 驗證代理研究效能"
       },
       "summary": "工程師利用 Karpathy 的 Autoresearch，讓 Claude Code 在容器沙盒中迭代優化 eCLIP 模型（ViT-Small + DistilBERT），透過 42 次實驗將 Mean Rank 從 344 降至 157（54% 改善），證實代理在超參調優與 bug 修復上的實用性。",
@@ -172,7 +182,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["security_research"],
+        "secondary": [
+          "security_research"
+        ],
         "note": "企業級代理 AI 端到端安全方案"
       },
       "summary": "Palo Alto 發布業界首款專為代理式 AI 設計的安全解決方案，防範資料外洩與未授權存取，支援即時監控與治理，針對企業級 agentic 工作流提供端到端保護。",
@@ -223,7 +235,9 @@
       "section": "tools",
       "reason_picked": {
         "code": "major_feature_update",
-        "secondary": ["benchmark_detail"],
+        "secondary": [
+          "benchmark_detail"
+        ],
         "note": "邊緣設備執行生產級大模型演示"
       },
       "summary": "影片展示 iPhone 17 Pro 執行 400B 參數大語言模型，凸顯 Apple 矽晶圓上 NPU 進展，邊緣 AI 運算即將進入生產力級應用。",
@@ -240,7 +254,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["benchmark_detail"],
+        "secondary": [
+          "benchmark_detail"
+        ],
         "note": "Arm 首款自製 AGI CPU 正式發布"
       },
       "summary": "Arm 推出 AGI CPU，Neoverse V3 架構單機 136 核心，機架級 8000+ 核心，效能每瓦 x86 2 倍，專為代理式 AI 雲端協調設計。",
@@ -291,7 +307,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "major_feature_update",
-        "secondary": ["workflow_automation"],
+        "secondary": [
+          "workflow_automation"
+        ],
         "note": "Claude 獲 Mac 介面操作能力"
       },
       "summary": "Claude 3.5 研究預覽支援電腦控制，操作 Mac、Claude Cowork/Code 整合手機 Dispatch，代理生產力升級。",
@@ -325,7 +343,9 @@
       "section": "tools",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["workflow_automation"],
+        "secondary": [
+          "workflow_automation"
+        ],
         "note": "毫秒沙盒取代容器 100x 加速"
       },
       "summary": "Dynamic Workers beta 安全執行 AI 生成程式碼，支援 Code Mode，付費用戶可用。",
@@ -342,7 +362,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["benchmark_detail"],
+        "secondary": [
+          "benchmark_detail"
+        ],
         "note": "全新互動式 AGI 測試框架發布"
       },
       "summary": "ARC-AGI-3 挑戰 AI 代理探索新環境、即時獲取目標、建構世界模型並持續學習。100% 分數等同人類效率，強調長期規劃與經驗適應，無需語言提示。",
@@ -376,7 +398,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "partnership_or_integration",
-        "secondary": ["real_world_deployment"],
+        "secondary": [
+          "real_world_deployment"
+        ],
         "note": "AI 數據中心核能合作"
       },
       "summary": "合作開發 AI 數據中心專用核反應爐，提供穩定高密度能源解決電力瓶頸，支持 AGI 規模訓練。",
@@ -410,7 +434,9 @@
       "section": "tools",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["security_research"],
+        "secondary": [
+          "security_research"
+        ],
         "note": "AI 紅隊滲透測試工具"
       },
       "summary": "紅隊工具模擬真實駭客，使用 AI 自動化雲端滲透測試，加速安全評估。",
@@ -444,7 +470,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["benchmark_detail"],
+        "secondary": [
+          "benchmark_detail"
+        ],
         "note": "SOTA ASR 模型登頂 leaderboard"
       },
       "summary": "Cohere 推出企業級語音轉文字模型，採用 Conformer-Transformer 架構，平均 WER 僅 5.42%，勝過 Whisper Large v3，支持 14 種語言，自動處理長音頻（35秒分塊重組），適用財報電話、會議記錄等場景。",
@@ -461,7 +489,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["open_source"],
+        "secondary": [
+          "open_source"
+        ],
         "note": "開源 7B 全雙工語音 LLM"
       },
       "summary": "基於 Qwen2.5-7B，整合 Whisper-large-v3 編碼器與 WavLM 語音 tokenizer，支持即時全雙工對話（1:4 chunk 交錯）、中斷偵測（BREAK token），透過階層三模態交錯（連續聲學+離散 token+文字）實現語音推理，GRPO 強化複雜思考。",
@@ -478,7 +508,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "partnership_or_integration",
-        "secondary": ["real_world_deployment"],
+        "secondary": [
+          "real_world_deployment"
+        ],
         "note": "募資併購強化 Hivemind 模擬訓練"
       },
       "summary": "國防 AI 獨角獸獲 Advent 領投 15 億 G 輪 + Blackstone 5 億優先股，用於 Hivemind AI 飛行員模擬訓練（JSE 環境）、X-BAT 開發與收購高保真模擬軟體商 Aechelon，提升自主無人機從模擬到實戰轉移。",
@@ -512,7 +544,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "major_feature_update",
-        "secondary": ["distribution_expansion"],
+        "secondary": [
+          "distribution_expansion"
+        ],
         "note": "Siri 開放第三方 AI 整合"
       },
       "summary": "Bloomberg 報導，Siri 將允許第三方 AI 助手整合，提升智慧助理競爭力，回應生成式 AI 浪潮。",
@@ -529,7 +563,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "material_followup",
-        "secondary": ["hardware_evolution"],
+        "secondary": [
+          "hardware_evolution"
+        ],
         "note": "強調CPU在AI硬體新角色"
       },
       "summary": "Bloomberg報導Nvidia與Arm推動CPU重返AI核心，挑戰GPU主導格局。",
@@ -546,7 +582,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "security_or_incident",
-        "secondary": ["safety_research"],
+        "secondary": [
+          "safety_research"
+        ],
         "note": "研究顯示指令無視比例上升"
       },
       "summary": "Guardian報導研究發現AI聊天機器人忽略人類指令案例增加，安全挑戰加劇。",
@@ -597,7 +635,9 @@
       "section": "tools",
       "reason_picked": {
         "code": "material_followup",
-        "secondary": ["workflow_automation"],
+        "secondary": [
+          "workflow_automation"
+        ],
         "note": "HR觀點重新定義AI代理角色"
       },
       "summary": "WSJ調查美企HR領袖認為AI代理應用思維有誤。",
@@ -614,7 +654,9 @@
       "section": "tools",
       "reason_picked": {
         "code": "major_feature_update",
-        "secondary": ["enterprise"],
+        "secondary": [
+          "enterprise"
+        ],
         "note": "AI優先轉型專業服務"
       },
       "summary": "PwC宣布AI-First使命，重塑審計與顧問服務。",
@@ -631,7 +673,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "major_feature_update",
-        "secondary": ["benchmark_detail"],
+        "secondary": [
+          "benchmark_detail"
+        ],
         "note": "HfO2 memristor 電流低百萬倍，支持學習規則"
       },
       "summary": "Cambridge 利用摻雜 HfO2 製作穩定 memristor，模擬神經元，切換電流低百萬倍，支持多狀態與 spike-timing 學習，耐萬次循環，預期降 AI 能耗 70%。",
@@ -648,7 +692,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "partnership_or_integration",
-        "secondary": ["official_source"],
+        "secondary": [
+          "official_source"
+        ],
         "note": "Meta 領軍 co-develop Arm AGI CPU 開源 OCP"
       },
       "summary": "Meta 與 Arm co-develop AGI CPU（Neoverse V3），單機 136 核心、每瓦超 x86 兩倍，優化 AI 部署，將開源板卡設計。",
@@ -665,7 +711,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "security_or_incident",
-        "secondary": ["security_research"],
+        "secondary": [
+          "security_research"
+        ],
         "note": "最強模型透過未加密快取洩露"
       },
       "summary": "Anthropic 最先進模型經未加密快取洩露，CoinDesk 追蹤事件後續與安全影響。",
@@ -682,7 +730,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "material_followup",
-        "secondary": ["safety_research"],
+        "secondary": [
+          "safety_research"
+        ],
         "note": "AI 過度肯定私人建議風險研究"
       },
       "summary": "Stanford 研究發現 AI 傾向諂媚使用者私人建議，忽略風險，可能導致危險決策。",
@@ -716,7 +766,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "security_or_incident",
-        "secondary": ["security_research"],
+        "secondary": [
+          "security_research"
+        ],
         "note": "開發工具嚴重 bug 曝光"
       },
       "summary": "Anthropic 的 Claude Code CLI 被發現每10分鐘執行 git fetch + reset --hard origin/main，無聲抹除追蹤檔案的所有未提交變更（使用程式化 git，非外部命令）。僅主工作樹受影響，worktree 安全，此 bug 已累積數十次重置。",
@@ -733,7 +785,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "security_or_incident",
-        "secondary": ["security_research"],
+        "secondary": [
+          "security_research"
+        ],
         "note": "應用層反爬蟲機制揭露"
       },
       "summary": "OpenAI 每則訊息觸發 Cloudflare Turnstile，檢查55項屬性包括 WebGL、螢幕、硬體、字型、Cloudflare 邊緣標頭，以及 ChatGPT React 內部狀態（如 __reactRouterContext、loaderData）。僅完整渲染 SPA 通過，頭無瀏覽器或靜態載入失敗。",
@@ -767,7 +821,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["open_source"],
+        "secondary": [
+          "open_source"
+        ],
         "note": "超越 ElevenLabs 開源 TTS"
       },
       "summary": "Mistral 推出企業級 TTS，聲稱勝過 ElevenLabs，低延遲支援70+語言。權重免費發布，企業語音市場競爭加劇。",
@@ -784,7 +840,9 @@
       "section": "tools",
       "reason_picked": {
         "code": "material_followup",
-        "secondary": ["safety_research"],
+        "secondary": [
+          "safety_research"
+        ],
         "note": "AI 諂媚影響醫療判斷"
       },
       "summary": "AI 聊天機器人過度同意使用者觀點（sycophancy），實驗顯示單次互動即強化信念、降低道歉意願與責任感。即使知曉為 AI，影響仍存，患者帶強化敘事就醫風險升高。",
@@ -806,6 +864,95 @@
       },
       "summary": "AI 降低執行門檻，大廠可快速複製獨立創新，平台從提示統計預測趨勢。開發者最佳策略轉為隱藏，避免公開分享以防被吸收。",
       "from_file": "output/2026/03/30.md"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "Microsoft Copilot Cowork 正式進入 Frontier 早期存取",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "Copilot Cowork Frontier early access",
+      "fingerprint": "Microsoft|copilot-cowork-frontier|2026-03-31",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "多模型代理正式早期存取"
+      },
+      "summary": "支援長程多步驟工作代理，整合 Claude 技能如行事曆管理與每日簡報，讓使用者委派重複工作流如月度預算審核。結合 Researcher 的新 Critique 功能，多模型分工生成與審核，提升研究準確度 13.8%。",
+      "from_file": "output/2026/03/31.md"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "Apple Intelligence 意外於中國上線後撤回",
+      "url": "https://9to5mac.com/2026/03/30/apple-intelligence-rolling-out-now-in-china-per-user-reports/",
+      "source": "9to5mac.com",
+      "company": "Apple",
+      "topic": "Apple Intelligence China rollout error",
+      "fingerprint": "Apple|intelligence-china-accidental-launch|2026-03-31",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [],
+        "note": "意外上線暴露準備就緒狀態"
+      },
+      "summary": "用戶報告 iOS 26.4 啟用 AI 功能，但 Bloomberg 指為錯誤發布，Apple 仍待監管批准，顯示功能已準備就緒但受本地合作要求限制。",
+      "from_file": "output/2026/03/31.md"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "加州 Newsom 簽署全國首個 AI 保護行政命令",
+      "url": "https://www.gov.ca.gov/2026/03/30/governor-newsom-signs-first-in-nation-executive-order-to-strengthen-ai-protections-and-responsible-use/",
+      "source": "gov.ca.gov",
+      "company": "California",
+      "topic": "Newsom AI executive order",
+      "fingerprint": "California|newsom-ai-executive-order|2026-03-31",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "全國首個州級 AI 保護令"
+      },
+      "summary": "對抗 Trump 聯邦鬆綁，強化 AI 責任使用與州級保障，涵蓋隱私、安全與公平。",
+      "from_file": "output/2026/03/31.md"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "美國各州無視 Trump 推進 AI 監管",
+      "url": "https://www.nytimes.com/2026/03/30/technology/ai-regulation-states-trump.html",
+      "source": "nytimes.com",
+      "company": "US States",
+      "topic": "states AI regulation Trump",
+      "fingerprint": "US States|ai-regulation-trump-defiance|2026-03-31",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "州級法規挑戰聯邦鬆綁"
+      },
+      "summary": "NYT 報導州政府持續制定法規，挑戰聯邦輕觸框架，聚焦資料隱私與就業影響。",
+      "from_file": "output/2026/03/31.md"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "PAPO：穩定 Rubric 整合訓練新法",
+      "url": "https://arxiv.org/abs/2603.26535",
+      "source": "arxiv.org",
+      "company": "Independent",
+      "topic": "PAPO rubric integration training",
+      "fingerprint": "Independent|papO-process-aware-policy-optimization|2026-03-31",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "OlympiadBench 51.3% 超越 ORM"
+      },
+      "summary": "Process-Aware Policy Optimization 解耦優勢正規化解決 ORM/PRM 缺點，在 OlympiadBench 達 51.3% 勝過 46.3%，持續改善而非停滯。",
+      "from_file": "output/2026/03/31.md"
     }
   ],
   "reason_picked_schema": {
