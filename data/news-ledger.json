@@ -1137,6 +1137,98 @@
       },
       "summary": "美國退伍軍人事務部推出環境 AI 書記工具，自動記錄醫師訪談，讓醫護專注患者互動，符合聯邦隱私標準，用戶可隨時退出。",
       "from_file": "output/2026/04/02.md"
+    },
+    {
+      "date": "2026-04-03",
+      "title": "Google 發布 Gemma 4 開源模型",
+      "url": "https://deepmind.google/models/gemma/gemma-4/",
+      "source": "deepmind.google",
+      "company": "Google",
+      "topic": "gemma-4-open-models",
+      "fingerprint": "Google|gemma-4-open-models|2026-04-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "open_source"
+        ],
+        "note": "基於Gemini 3的最強開源模型系列"
+      },
+      "summary": "基於 Gemini 3 研究，31B 模型 Arena AI 1452 分、MMMLU 85.2%、GPQA 84.3%，支援代理工作流、多模態、140 語言，高效能適合行動裝置與 PC。",
+      "from_file": "output/2026/04/03.md"
+    },
+    {
+      "date": "2026-04-03",
+      "title": "Cursor 3 代理編碼工作空間",
+      "url": "https://cursor.com/blog/cursor-3",
+      "source": "cursor.com",
+      "company": "Cursor",
+      "topic": "cursor-3-agent-workspace",
+      "fingerprint": "Cursor|cursor-3-agent-workspace|2026-04-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "全新代理編碼介面多repo支援"
+      },
+      "summary": "全新介面統一管理多代理、多 repo，本地雲端無縫切換，內建瀏覽器與插件市場，加速自主開發流程。",
+      "from_file": "output/2026/04/03.md"
+    },
+    {
+      "date": "2026-04-03",
+      "title": "OpenAI 收購 TBPN 直播節目",
+      "url": "https://openai.com/index/openai-acquires-tbpn/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "openai-tbpn-acquisition",
+      "fingerprint": "OpenAI|tbpn-acquisition|2026-04-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [],
+        "note": "收購AI社群直播節目強化敘事"
+      },
+      "summary": "引入編輯團隊強化 AI 社群溝通與敘事，保留節目獨立性，擴大科技建構者影響力。",
+      "from_file": "output/2026/04/03.md"
+    },
+    {
+      "date": "2026-04-03",
+      "title": "Microsoft 推出三款新基礎模型",
+      "url": "https://techcrunch.com/2026/04/03/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
+      "source": "techcrunch.com",
+      "company": "Microsoft",
+      "topic": "microsoft-new-foundational-models",
+      "fingerprint": "Microsoft|new-foundational-models|2026-04-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "三款新基礎模型挑戰對手"
+      },
+      "summary": "直接挑戰 OpenAI/Anthropic 等對手，強化基礎設施競爭。",
+      "from_file": "output/2026/04/03.md"
+    },
+    {
+      "date": "2026-04-03",
+      "title": "AMD Lemonade 本地 LLM 伺服器",
+      "url": "https://lemonade-server.ai",
+      "source": "lemonade-server.ai",
+      "company": "AMD",
+      "topic": "lemonade-local-llm-server",
+      "fingerprint": "AMD|lemonade-local-llm-server|2026-04-03",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source"
+        ],
+        "note": "GPU/NPU輕量多模態伺服器"
+      },
+      "summary": "開源 C++ 後端，2MB 輕量，支援 GPU/NPU 多模態（文字/圖像/語音），OpenAI API 相容，一分鐘安裝。",
+      "from_file": "output/2026/04/03.md"
     }
   ],
   "reason_picked_schema": {
