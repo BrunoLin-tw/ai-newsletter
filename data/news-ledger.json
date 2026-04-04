@@ -1229,6 +1229,97 @@
       },
       "summary": "開源 C++ 後端，2MB 輕量，支援 GPU/NPU 多模態（文字/圖像/語音），OpenAI API 相容，一分鐘安裝。",
       "from_file": "output/2026/04/03.md"
+    },
+    {
+      "date": "2026-04-04",
+      "title": "Meta 暫停與 Mercor 合作，資料外洩威脅 AI 訓練機密",
+      "url": "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/",
+      "source": "wired.com",
+      "company": "Meta/Mercor",
+      "topic": "mercor-data-breach-ai-training",
+      "fingerprint": "Meta|mercor-data-breach|2026-04-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "供應鏈攻擊外洩訓練資料"
+      },
+      "summary": "Meta 暫停與資料供應商 Mercor 合作，此公司遭 TeamPCP 透過 LiteLLM 供應鏈攻擊入侵，可能外洩 OpenAI/Anthropic 等大廠專屬訓練資料集，揭露模型訓練細節。",
+      "from_file": "output/2026/04/04.md"
+    },
+    {
+      "date": "2026-04-04",
+      "title": "Anthropic 禁止 Claude Code 訂閱用於 OpenClaw 等第三方工具",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "source": "theverge.com",
+      "company": "Anthropic",
+      "topic": "claude-code-openclaw-ban",
+      "fingerprint": "Anthropic|claude-code-openclaw-ban|2026-04-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "禁止第三方工具存取訂閱"
+      },
+      "summary": "自 4/4 起，Claude Code 訂閱無法存取 OpenClaw 等第三方平台，Anthropic 調整政策以控制 API 使用，影響開發者工作流。",
+      "from_file": "output/2026/04/04.md"
+    },
+    {
+      "date": "2026-04-04",
+      "title": "Perplexity 被控 Incognito 模式失效，聊天記錄外洩 Meta/Google",
+      "url": "https://arstechnica.com/tech-policy/2026/04/perplexitys-incognito-mode-is-a-sham-lawsuit-says/",
+      "source": "arstechnica.com",
+      "company": "Perplexity",
+      "topic": "incognito-tracking-lawsuit",
+      "fingerprint": "Perplexity|incognito-tracking-lawsuit|2026-04-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "privacy"
+        ],
+        "note": "Incognito 失效外洩聊天"
+      },
+      "summary": "訴訟指 Perplexity 嵌入 Meta Pixel/Google Ads 追蹤器，即使開啟 Incognito 仍分享完整聊天（含財務/醫療敏感資訊）及 PII，用於廣告，違反隱私法。",
+      "from_file": "output/2026/04/04.md"
+    },
+    {
+      "date": "2026-04-04",
+      "title": "Take-Two 裁員 AI 部門主管及團隊",
+      "url": "https://www.gamedeveloper.com/business/report-take-two-lays-off-the-head-of-ai-and-unknown-number-of-team-members",
+      "source": "gamedeveloper.com",
+      "company": "Take-Two",
+      "topic": "ai-team-layoffs",
+      "fingerprint": "Take-Two|ai-team-layoffs|2026-04-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "裁 AI 部門主管及團隊"
+      },
+      "summary": "Rockstar/Zynga 母公司 Take-Two 裁 AI 頭頭 Luke Dicken 及多名工程師，儘管先前擁抱 genAI 提升效率，此舉反映遊戲業 AI 投資轉向。",
+      "from_file": "output/2026/04/04.md"
+    },
+    {
+      "date": "2026-04-04",
+      "title": "AI 獨角獸新創：1 人億萬企業時代來臨",
+      "url": "https://www.inc.com/leila-sheridan/the-1-employee-billion-dollar-startup-how-ai-is-changing-the-face-of-solopreneurship.html",
+      "source": "inc.com",
+      "company": "Independent",
+      "topic": "ai-solopreneur-billion-dollar",
+      "fingerprint": "Independent|ai-solopreneur-billion-dollar|2026-04-04",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "AI 驅動單人億萬企業"
+      },
+      "summary": "AI 工具讓單人創業達成十億市值，取代傳統團隊分工，solopreneur 透過自動化生成內容/行銷/產品，顛覆創業模式。",
+      "from_file": "output/2026/04/04.md"
     }
   ],
   "reason_picked_schema": {
