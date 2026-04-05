@@ -1320,6 +1320,102 @@
       },
       "summary": "AI 工具讓單人創業達成十億市值，取代傳統團隊分工，solopreneur 透過自動化生成內容/行銷/產品，顛覆創業模式。",
       "from_file": "output/2026/04/04.md"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "Google Gemma 4 開源模型家族登場",
+      "url": "https://huggingface.co/collections/google/gemma-4",
+      "source": "huggingface.co",
+      "company": "Google",
+      "topic": "Gemma 4 open models Apache 2.0",
+      "fingerprint": "Google|gemma-4-apache-open-models|2026-04-05",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source",
+          "benchmark_detail"
+        ],
+        "note": "Apache 2.0 + 多模態原生支援"
+      },
+      "summary": "Google DeepMind 發布 Gemma 4 四款模型（31B 密集、26B A4B MoE、E2B/E4B 邊緣），全數採用 Apache 2.0 授權，支援 256K 上下文、多模態、原生函式呼叫。31B AIME 89.2%、LiveCodeBench 80.0%。",
+      "from_file": "output/2026/04/05.md"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "Nvidia Agent Toolkit 企業聯盟",
+      "url": "https://venturebeat.com/ai/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among-17-adopters-at-gtc-2026/",
+      "source": "venturebeat.com",
+      "company": "Nvidia",
+      "topic": "Agent Toolkit enterprise adoption",
+      "fingerprint": "Nvidia|agent-toolkit-enterprise|2026-04-05",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "partnership_or_integration"
+        ],
+        "note": "17 家 Fortune 500 企業採用"
+      },
+      "summary": "Nvidia 推出開源 Agent Toolkit，獲 Adobe、Salesforce、SAP 等 17 家企業採用，涵蓋 Fortune 500 產業，優化自主 AI 代理建構與部署。",
+      "from_file": "output/2026/04/05.md"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "ThinkLabs AI 募資 2800 萬美元",
+      "url": "https://venturebeat.com/infrastructure/nvidia-backed-thinklabs-ai-raises-usd28-million-to-tackle-a-growing-power-grid-crunch/",
+      "source": "venturebeat.com",
+      "company": "ThinkLabs",
+      "topic": "AI power grid simulation funding",
+      "fingerprint": "ThinkLabs|ai-power-grid-funding|2026-04-05",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "Nvidia 支持電網 AI 融資"
+      },
+      "summary": "Nvidia 支持的 ThinkLabs 獲 2800 萬美元融資，物理資訊 AI 模擬電力網，壓縮工程分析至數分鐘，支持 AI 資料中心電網解決。",
+      "from_file": "output/2026/04/05.md"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "Bennett College AI 音樂創作者大會",
+      "url": "https://www.bennett.edu/ai-music-creators-conference/",
+      "source": "bennett.edu",
+      "company": "Bennett College",
+      "topic": "AI Music Creators Conference",
+      "fingerprint": "Bennett College|ai-music-conference|2026-04-05",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "Suno 合作音樂 AI 大會"
+      },
+      "summary": "4/17-19 北卡州舉辦，Suno 合作，Black Design Collective 時尚秀、AI 音樂示範、產業講座，探討 AI 對音樂/時尚影響。",
+      "from_file": "output/2026/04/05.md"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "Slackbot 注入 30 項 AI 功能",
+      "url": "https://venturebeat.com/orchestration/slack-adds-30-ai-features-to-slackbot-its-most-ambitious-update-since-the-salesforce-acquisition/",
+      "source": "venturebeat.com",
+      "company": "Salesforce",
+      "topic": "Slackbot 30 AI features",
+      "fingerprint": "Salesforce|slackbot-ai-upgrade|2026-04-05",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Salesforce 後最大代理升級"
+      },
+      "summary": "Slackbot 支援長程代理，每週節省 20 小時，ROI 640 萬美元，企業生產力代理最快採用產品。",
+      "from_file": "output/2026/04/05.md"
     }
   ],
   "reason_picked_schema": {
