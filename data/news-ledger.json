@@ -1416,6 +1416,116 @@
       },
       "summary": "Slackbot 支援長程代理，每週節省 20 小時，ROI 640 萬美元，企業生產力代理最快採用產品。",
       "from_file": "output/2026/04/05.md"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Anthropic 與 Google/Broadcom 簽署多GW TPU 供應協議",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "google-broadcom-tpu-multi-gw-deal",
+      "fingerprint": "Anthropic|google-broadcom-tpu-deal|2026-04-07",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "多GW TPU從2027上線支撐Claude"
+      },
+      "summary": "Anthropic 宣布與 Google 及 Broadcom 合作，從 2027 年起獲取數 GW 次世代 TPU 運算容量，用於訓練前沿 Claude 模型並滿足客戶需求；年化營收已破 300 億美元。",
+      "from_file": "output/2026/04/07.md"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Meta 計畫開源下一代 AI 模型",
+      "url": "https://www.axios.com/2026/04/06/meta-open-source-ai-models-llama",
+      "source": "axios.com",
+      "company": "Meta",
+      "topic": "meta-nextgen-llama-open-source",
+      "fingerprint": "Meta|next-gen-llama-open-source|2026-04-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source"
+        ],
+        "note": "Llama後續開源版本"
+      },
+      "summary": "Axios 獨家：Meta 將發布 Llama 系列下一代的開源版本，延續開源策略，預計加速產業生態與開發者採用。",
+      "from_file": "output/2026/04/07.md"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Broadcom 與 Google 簽長期客製 AI 晶片合約",
+      "url": "https://www.reuters.com/technology/broadcom-signs-long-term-deal-develop-googles-custom-ai-chips-2026-04-06/",
+      "source": "reuters.com",
+      "company": "Broadcom",
+      "topic": "broadcom-google-custom-ai-chips",
+      "fingerprint": "Broadcom|google-custom-ai-chips-deal|2026-04-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [],
+        "note": "長期客製TPU開發"
+      },
+      "summary": "Broadcom 與 Google 達成多年協議，專責開發 Google 自家 AI 晶片，強化 TPU 供應鏈以支撐雲端 AI 需求。",
+      "from_file": "output/2026/04/07.md"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Sam Altman 呼籲 AI 超智能「新政」",
+      "url": "https://fortune.com/2026/04/06/sam-altman-openai-superintelligence-new-deal-regulatory-nihilism/",
+      "source": "fortune.com",
+      "company": "OpenAI",
+      "topic": "altman-superintelligence-new-deal",
+      "fingerprint": "OpenAI|altman-superintelligence-new-deal|2026-04-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "超智能新政提案"
+      },
+      "summary": "OpenAI CEO Altman 提議「新政」框架因應超智能衝擊，但批評者指其為規避監管的「無為主義」掩護，引發政策辯論。",
+      "from_file": "output/2026/04/07.md"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Slack AI 代理週末不打烊自動報表",
+      "url": "https://www.saastr.com/its-sunday-on-slack-no-one-told-our-ai-agents-they-didnt-have-to-check-in/",
+      "source": "saastr.com",
+      "company": "SaaStr",
+      "topic": "ai-agents-slack-sunday-reports",
+      "fingerprint": "SaaStr|ai-agents-slack-sunday-reports|2026-04-07",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "代理24/7一致性示範"
+      },
+      "summary": "SaaStr 分享：AI 代理無視週末自動生成完整儀表板與贊助商追蹤報告，展現代理 24/7 一致性，僅需少數人類監督即可運轉高效團隊。",
+      "from_file": "output/2026/04/07.md"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "AI 重塑網路安全防禦",
+      "url": "https://www.nytimes.com/2026/04/06/technology/ai-cybersecurity-upending.html",
+      "source": "nytimes.com",
+      "company": "Independent",
+      "topic": "ai-cybersecurity-upending",
+      "fingerprint": "Independent|ai-cybersecurity-upending|2026-04-07",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "AI雙刃劍資安影響"
+      },
+      "summary": "NYT 分析：AI 即將顛覆資安領域，從攻擊自動化到防禦預測，帶來雙刃劍挑戰。",
+      "from_file": "output/2026/04/07.md"
     }
   ],
   "reason_picked_schema": {
