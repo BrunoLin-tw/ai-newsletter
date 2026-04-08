@@ -10,11 +10,14 @@
     "allowIf": [
       "official_launch",
       "major_feature_update",
-      "pricing_or_spec_disclosure",
-      "new_partnership_or_distribution",
-      "regulatory_or_governance_change",
-      "senior_leadership_change",
-      "clear_new_productization_or_real_world_deployment"
+      "pricing_or_packaging_change",
+      "distribution_expansion",
+      "partnership_or_integration",
+      "real_world_deployment",
+      "leadership_change",
+      "policy_or_regulatory_change",
+      "security_or_incident",
+      "material_followup"
     ]
   },
   "bootstrappedFrom": [
