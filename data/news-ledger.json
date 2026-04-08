@@ -1505,7 +1505,7 @@
         ],
         "note": "代理24/7一致性示範"
       },
-      "summary": "SaaStr 分享：AI 代理無視週末自動生成完整儀表板與贏商追蹤報告，展現代理 24/7 一致性，僅需少數人類監督即可運轉高效團隊。",
+      "summary": "SaaStr 分享：AI 代理無視週末自動生成完整儀表板與贊助商追蹤報告，展現代理 24/7 一致性，僅需少數人類監督即可運轉高效團隊。",
       "from_file": "output/2026/04/07.md"
     },
     {
@@ -1526,97 +1526,6 @@
       },
       "summary": "NYT 分析：AI 即將顛覆資安領域，從攻擊自動化到防禦預測，帶來雙刃劍挑戰。",
       "from_file": "output/2026/04/07.md"
-    },
-    {
-      "date": "2026-04-08",
-      "title": "Anthropic 啟動 Project Glasswing，聯手 AWS/Apple/Google 等掃描關鍵軟體漏洞",
-      "url": "https://www.anthropic.com/glasswing",
-      "source": "anthropic.com",
-      "company": "Anthropic",
-      "topic": "project-glasswing-cyber-vulns",
-      "fingerprint": "Anthropic|project-glasswing-cyber-vulns|2026-04-08",
-      "section": "hard-tech",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [
-          "security_research"
-        ],
-        "note": "12家巨頭聯盟用 Mythos Preview 找 zero-day"
-      },
-      "summary": "Anthropic 與 AWS/Apple/Google 等 12 家合作，使用 Claude Mythos Preview 自主發現 OpenBSD/FFmpeg/Linux 等數千高危漏洞，已修補多項。砸 1 億 credits 支援防禦，防 AI 駭客時代。",
-      "from_file": "output/2026/04/08.md"
-    },
-    {
-      "date": "2026-04-08",
-      "title": "Nvidia 推 Agent Toolkit 企業平台，17 家 Fortune 500 採用",
-      "url": "https://nvidianews.nvidia.com/news/ai-agents",
-      "source": "nvidia.com",
-      "company": "Nvidia",
-      "topic": "agent-toolkit-openshell-aiq",
-      "fingerprint": "Nvidia|agent-toolkit-gtc-openshell|2026-04-08",
-      "section": "hard-tech",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [
-          "partnership_or_integration"
-        ],
-        "note": "OpenShell 安全運行時 + AI-Q blueprint"
-      },
-      "summary": "開源 Agent Toolkit 含 OpenShell/Nemotron/AI-Q，Adobe/Salesforce/SAP 等 17 家建代理，LangChain 整合，成本減半加速知識自動化。",
-      "from_file": "output/2026/04/08.md"
-    },
-    {
-      "date": "2026-04-08",
-      "title": "Zhipu AI 發布 GLM-5.1，強化長程任務代理",
-      "url": "https://z.ai/blog/glm-5.1",
-      "source": "z.ai",
-      "company": "Zhipu AI",
-      "topic": "glm-5.1-long-horizon-tasks",
-      "fingerprint": "ZhipuAI|glm-5.1-long-tasks|2026-04-08",
-      "section": "hard-tech",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [
-          "benchmark_detail"
-        ],
-        "note": "長視野任務代理新模型"
-      },
-      "summary": "新 GLM-5.1 專攻長程任務，HN 熱議，挑戰代理持續規劃極限。",
-      "from_file": "output/2026/04/08.md"
-    },
-    {
-      "date": "2026-04-08",
-      "title": "Apple Siri 擬推 AI App Store，自訂智慧助理",
-      "url": "https://mashable.com/article/apple-siri-ai-app-store",
-      "source": "mashable.com",
-      "company": "Apple",
-      "topic": "siri-ai-app-store",
-      "fingerprint": "Apple|siri-ai-app-store|2026-04-08",
-      "section": "big-tech",
-      "reason_picked": {
-        "code": "major_feature_update",
-        "secondary": [],
-        "note": "第三方 AI 插件商店傳聞"
-      },
-      "summary": "Siri 將有專屬 App Store，讓第三方 AI 擴充功能，強化 iOS 助理競爭力。",
-      "from_file": "output/2026/04/08.md"
-    },
-    {
-      "date": "2026-04-08",
-      "title": "Google 推免費離線 AI 語音轉文字 App",
-      "url": "https://ai.google.dev/edge/eloquent",
-      "source": "ai.google.dev",
-      "company": "Google",
-      "topic": "ai-edge-eloquent-dictation",
-      "fingerprint": "Google|ai-edge-eloquent|2026-04-08",
-      "section": "tools",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [],
-        "note": "無限用濾 um/ah 轉錄"
-      },
-      "summary": "AI Edge Eloquent 離線即時轉錄，iOS 先上，無訂閱無限用。",
-      "from_file": "output/2026/04/08.md"
     }
   ],
   "reason_picked_schema": {
