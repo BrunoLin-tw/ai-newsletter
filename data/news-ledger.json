@@ -1529,6 +1529,80 @@
       },
       "summary": "NYT 分析：AI 即將顛覆資安領域，從攻擊自動化到防禦預測，帶來雙刃劍挑戰。",
       "from_file": "output/2026/04/07.md"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "Anthropic 推 Project Glasswing + Claude Mythos Preview",
+      "url": "https://www.anthropic.com/glasswing",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude Mythos Preview cybersecurity",
+      "fingerprint": "Anthropic|claude-mythos-preview-glasswing|2026-04-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "froniter model 資安掃描不公開"
+      },
+      "summary": "全新 frontier 模型擅長代理編碼與資安，發現數千 zero-day 漏洞（含 OS/瀏覽器），不公開發布僅限合作夥伴（AWS/Apple/Google/MS 等12家）用於防禦掃描，Anthropic 捐 1億 credits + 400萬 OSS 資安。",
+      "from_file": "output/2026/04/08.md"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "Trent AI 募資 1300 萬美元推多代理資安平台",
+      "url": "https://thenextweb.com/news/trent-ai-13m-agentic-security-multi-agent",
+      "source": "thenextweb.com",
+      "company": "Trent AI",
+      "topic": "multi-agent security platform",
+      "fingerprint": "Trent AI|multi-agent-security-platform|2026-04-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "agentic 資安募資"
+      },
+      "summary": "針對 agentic 環境，掃描/判斷/修補/評估漏洞循環，解企業 AI 自主治理缺口，LocalGlobe/Cambridge IC 領投。",
+      "from_file": "output/2026/04/08.md"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "PAR Technology 發布 PAR Intelligence 代理 OS",
+      "url": "https://partech.com/solutions/par-intelligence/",
+      "source": "partech.com",
+      "company": "PAR Technology",
+      "topic": "PAR Intelligence agentic OS",
+      "fingerprint": "PAR Technology|par-intelligence-agentic-os|2026-04-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "多店運營代理層"
+      },
+      "summary": "餐飲/零售多店運營統一 AI 層，Insights/Offers/Dev Assist 等代理自動化績效/行銷/整合，基於 120 億交易/6.4 億客群資料優勢，縮小最佳/最差店 3.6x 獲利差距。",
+      "from_file": "output/2026/04/08.md"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "Conxai 募資 500 萬歐元推建築 agentic AI",
+      "url": "https://www.conxai.com/",
+      "source": "conxai.com",
+      "company": "Conxai",
+      "topic": "agentic AI construction",
+      "fingerprint": "Conxai|agentic-ai-construction|2026-04-08",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "建築 Neuro-Agentic"
+      },
+      "summary": "Neuro-Agentic 架構自動化專案流程（報告/文件/現場監控），從照片/感測/CAD 萃取，無程式介面，Earlybird/Pi Labs 等支持。",
+      "from_file": "output/2026/04/08.md"
     }
   ],
   "reason_picked_schema": {
