@@ -1606,45 +1606,6 @@
     },
     {
       "date": "2026-04-09",
-      "title": "OpenAI 宣布企業 AI 下一階段戰略",
-      "url": "https://openai.com/index/next-phase-of-enterprise-ai/",
-      "source": "openai.com",
-      "company": "OpenAI",
-      "topic": "enterprise AI strategy and Frontier operating layer",
-      "fingerprint": "OpenAI|enterprise-ai-frontier-operating-layer|2026-04-09",
-      "section": "big-tech",
-      "reason_picked": {
-        "code": "major_feature_update",
-        "secondary": [
-          "official_source",
-          "workflow_automation"
-        ],
-        "note": "企業 AI 從試點走向統一控制層"
-      },
-      "summary": "OpenAI 表示企業營收占比已超過 40%，API 每分鐘處理逾 150 億 tokens，並以 Frontier 作為跨系統 agent 控制層，主打企業 AI operating layer 與統一 superapp 體驗。",
-      "from_file": "output/2026/04/09.md"
-    },
-    {
-      "date": "2026-04-09",
-      "title": "OpenAI 發布 Child Safety Blueprint",
-      "url": "https://openai.com/index/introducing-child-safety-blueprint/",
-      "source": "openai.com",
-      "company": "OpenAI",
-      "topic": "AI child safety policy blueprint",
-      "fingerprint": "OpenAI|ai-child-safety-blueprint|2026-04-09",
-      "section": "big-tech",
-      "reason_picked": {
-        "code": "policy_or_regulatory_change",
-        "secondary": [
-          "official_source"
-        ],
-        "note": "主動推 AI 兒少安全政策框架"
-      },
-      "summary": "OpenAI 提出 Child Safety Blueprint，聚焦更新 AI 生成兒少性剝削內容相關法律、改善通報協作，並強調 safety-by-design 機制，將高風險治理往政策與執法層推進。",
-      "from_file": "output/2026/04/09.md"
-    },
-    {
-      "date": "2026-04-09",
       "title": "Microsoft Copilot Studio 多代理協作正式 GA",
       "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
       "source": "microsoft.com",
@@ -1655,6 +1616,7 @@
       "reason_picked": {
         "code": "major_feature_update",
         "secondary": [
+          "official_source",
           "workflow_automation"
         ],
         "note": "多代理協作從 preview 轉正式可用"
@@ -1664,61 +1626,102 @@
     },
     {
       "date": "2026-04-09",
-      "title": "NVIDIA National Robotics Week 聚焦 Physical AI 落地",
+      "title": "NVIDIA 用 National Robotics Week 推進 Physical AI 真機部署",
       "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
       "source": "blogs.nvidia.com",
       "company": "NVIDIA",
-      "topic": "physical AI robotics development stack",
-      "fingerprint": "NVIDIA|physical-ai-robotics-stack|2026-04-09",
+      "topic": "physical AI robotics deployment stack",
+      "fingerprint": "NVIDIA|physical-ai-robotics-deployment-stack|2026-04-09",
       "section": "hard-tech",
       "reason_picked": {
         "code": "real_world_deployment",
         "secondary": [
           "official_source",
-          "benchmark_detail"
-        ],
-        "note": "實體 AI 工具鏈加速真機部署"
-      },
-      "summary": "NVIDIA 在 National Robotics Week 整理實體 AI 最新進展，涵蓋 Jetson Thor 本地代理、模擬到真機流程，以及家務和工業機器人研究，凸顯 physical AI 正快速走向可部署系統。",
-      "from_file": "output/2026/04/09.md"
-    },
-    {
-      "date": "2026-04-09",
-      "title": "NVIDIA 加速 Gemma 4，推本地 Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
-      "source": "blogs.nvidia.com",
-      "company": "NVIDIA",
-      "topic": "Gemma 4 local agentic AI optimization on NVIDIA",
-      "fingerprint": "NVIDIA|gemma-4-local-agentic-ai-optimization|2026-04-09",
-      "section": "tools",
-      "reason_picked": {
-        "code": "major_feature_update",
-        "secondary": [
-          "official_source",
           "workflow_automation"
         ],
-        "note": "Gemma 4 本地代理部署更實用"
+        "note": "模擬到真機工具鏈更完整"
       },
-      "summary": "NVIDIA 宣布將 Gemma 4 優化到 RTX PC、DGX Spark 與 Jetson Orin Nano，強化離線多模態推理與本地 agent 工作流，讓桌機與邊緣裝置上的實用部署更成熟。",
+      "summary": "NVIDIA 在 National Robotics Week 集中展示 Jetson Thor、本地推理、模擬到真機流程與機器人學習資源，顯示 Physical AI 正從研究展示走向較完整的部署堆疊。",
       "from_file": "output/2026/04/09.md"
     },
     {
       "date": "2026-04-09",
-      "title": "OpenAI 啟動 Safety Fellowship 招募",
-      "url": "https://openai.com/index/introducing-openai-safety-fellowship/",
+      "title": "Meta 發表 Muse Spark，升級 Meta AI 核心模型",
+      "url": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+      "source": "about.fb.com",
+      "company": "Meta",
+      "topic": "Muse Spark model launch for Meta AI",
+      "fingerprint": "Meta|muse-spark-meta-ai-launch|2026-04-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "首個 Muse 模型已直接上線 Meta AI"
+      },
+      "summary": "Meta Superintelligence Labs 首次對外發布 Muse Spark，已用於 Meta AI app 與 meta.ai，主打推理、多模態理解與 subagent 任務拆分，代表 Meta 開始把新模型直接接進自家流量入口。",
+      "from_file": "output/2026/04/09.md"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "OpenAI 推出 Child Safety Blueprint",
+      "url": "https://openai.com/index/introducing-child-safety-blueprint/",
       "source": "openai.com",
       "company": "OpenAI",
-      "topic": "OpenAI safety fellowship program",
-      "fingerprint": "OpenAI|safety-fellowship-program|2026-04-09",
+      "topic": "AI child safety policy blueprint",
+      "fingerprint": "OpenAI|ai-child-safety-blueprint|2026-04-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "把模型安全正式推進到政策協作層"
+      },
+      "summary": "OpenAI 提出 Child Safety Blueprint，聚焦更新 AI 生成兒少性剝削內容相關法律、改善通報協作，並強調 safety-by-design 機制，將高風險治理往政策與執法層推進。",
+      "from_file": "output/2026/04/09.md"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "Oura 推出女性健康專用 AI 模型",
+      "url": "https://ouraring.com/blog/womens-health-ai-model/",
+      "source": "ouraring.com",
+      "company": "Oura",
+      "topic": "women's health proprietary AI model",
+      "fingerprint": "Oura|womens-health-proprietary-ai-model|2026-04-09",
       "section": "tools",
       "reason_picked": {
         "code": "official_launch",
         "secondary": [
-          "official_source"
+          "official_source",
+          "healthcare"
         ],
-        "note": "安全研究人才管線正式成形"
+        "note": "首個女性健康專用模型結合生理長期資料"
       },
-      "summary": "OpenAI 推出 Safety Fellowship，提供外部研究者 stipend、算力與導師支援，聚焦 safety evaluation、robustness、privacy-preserving safety 與 agentic oversight，將安全研究制度化。",
+      "summary": "Oura 發布首個女性健康專用 AI 模型，整合睡眠、壓力、週期、懷孕等長期生理訊號，並以臨床審閱知識庫提供更個人化且可信的女性健康建議。",
+      "from_file": "output/2026/04/09.md"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "Uber 分享 AI prototyping 實戰經驗",
+      "url": "https://www.uber.com/do/en/blog/ai-prototyping/",
+      "source": "uber.com",
+      "company": "Uber",
+      "topic": "AI prototyping in product development workflow",
+      "fingerprint": "Uber|ai-prototyping-product-workflow|2026-04-09",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "兩小時原型拆掉四週產品對齊卡點"
+      },
+      "summary": "Uber 分享內部使用 Lovable、Figma Make、Claude Code 與 Cursor 進行 AI prototyping 的實際做法，顯示原型可大幅提前需求對齊、MVP 定義與跨部門決策。",
       "from_file": "output/2026/04/09.md"
     }
   ],
