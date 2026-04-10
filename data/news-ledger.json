@@ -1723,6 +1723,134 @@
       },
       "summary": "Uber 分享內部使用 Lovable、Figma Make、Claude Code 與 Cursor 進行 AI prototyping 的實際做法，顯示原型可大幅提前需求對齊、MVP 定義與跨部門決策。",
       "from_file": "output/2026/04/09.md"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "Google 擴大與 Intel 的 AI 晶片合作",
+      "url": "https://www.cnbc.com/2026/04/09/google-expands-partnership-with-intel-for-ai-chips-.html",
+      "source": "cnbc.com",
+      "company": "Google",
+      "topic": "Google Intel Xeon 6 AI data center partnership",
+      "fingerprint": "Google|intel-xeon-6-ai-data-center-partnership|2026-04-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [],
+        "note": "CPU 開始成為 agentic AI 基礎設施瓶頸"
+      },
+      "summary": "Google 擴大與 Intel 的合作，將在 AI 資料中心採用多個世代的 Intel CPU，最新 Xeon 6 將直接支援 AI 訓練與推論，凸顯 CPU 在新一波 AI 基礎設施中的關鍵性再度上升。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Pony.ai 發布 PonyWorld 2.0，自駕世界模型開始會自我找弱點",
+      "url": "https://www.prnewswire.com/news-releases/ponyai-launches-ponyworld-2-0--a-self-improving-physical-ai-engine-for-autonomous-driving-302739012.html",
+      "source": "prnewswire.com",
+      "company": "Pony.ai",
+      "topic": "PonyWorld 2.0 self-improving world model for autonomous driving",
+      "fingerprint": "Pony.ai|ponyworld-2-self-improving-world-model|2026-04-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "世界模型開始能自診弱點並導引補數據"
+      },
+      "summary": "Pony.ai 推出 PonyWorld 2.0，讓世界模型可自我診斷弱點、引導針對性資料收集並強化最困難場景訓練，目標是提升 L4 車隊在安全、舒適度與商業化擴張上的迭代效率。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "OpenAI 把 Codex 重度用戶拉到新一層收費",
+      "url": "https://developers.openai.com/codex/pricing",
+      "source": "developers.openai.com",
+      "company": "OpenAI",
+      "topic": "Codex Pro 5x and 20x pricing tier",
+      "fingerprint": "OpenAI|codex-pro-5x-20x-pricing-tier|2026-04-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "agentic coding 開始被切成更明確收費層"
+      },
+      "summary": "OpenAI 官方 Codex pricing page 明列 Pro 可選 5x 或 20x 於 Plus 的用量上限，並將 credits 與 token-based rates 說明得更完整，顯示 agentic coding 正被包裝成更獨立的商業產品線。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "Meta 再加碼 210 億美元向 CoreWeave 買 AI 算力",
+      "url": "https://www.cnbc.com/2026/04/09/meta-commits-to-spending-additional-21-billion-with-coreweave-.html",
+      "source": "cnbc.com",
+      "company": "Meta",
+      "topic": "Meta CoreWeave 21 billion AI infrastructure deal",
+      "fingerprint": "Meta|coreweave-21b-ai-infrastructure-deal|2026-04-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [],
+        "note": "Muse Spark 後立刻補更大筆算力合約"
+      },
+      "summary": "Meta 對 CoreWeave 再追加約 210 億美元 AI 雲基礎設施合約，合作期間一路延到 2032，顯示大模型競爭最終仍回到算力供應、交付能力與長期容量保證。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Microsoft 研究直接點破 AI 上班革命的麻煩點",
+      "url": "https://www.microsoft.com/en-us/research/blog/new-future-of-work-ai-is-driving-rapid-change-uneven-benefits/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "New Future of Work AI workplace report",
+      "fingerprint": "Microsoft|new-future-of-work-ai-report|2026-04-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "研究報告直指 AI 紅利分配不均"
+      },
+      "summary": "Microsoft Research 最新 New Future of Work 報告指出，AI 正快速改變協作方式，但紅利分配並不平均，真正受益者往往是把 AI 視為協作夥伴而非單純自動化工具的組織。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "REALLY 推出 Clone，讓 AI 直接用你的門號和聲音接打電話",
+      "url": "https://venturebeat.com/business/wireless-carrier-really-announces-clone-ai-that-can-make-and-answer-calls",
+      "source": "venturebeat.com",
+      "company": "REALLY",
+      "topic": "Clone carrier-native AI phone agent",
+      "fingerprint": "REALLY|clone-carrier-native-ai-phone-agent|2026-04-09",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "不靠轉接號碼直接吃下語音代理入口"
+      },
+      "summary": "REALLY 推出 Clone，主打在 carrier layer 直接用使用者原本門號與聲音處理來電、外撥與 IVR 任務，和一般依賴 VoIP 或轉接架構的 AI 語音工具走的是完全不同的基礎設施路線。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Hippo 把 agentic AI 推進保險理賠主流程",
+      "url": "https://www.claimsjournal.com/news/national/2026/04/10/336821.htm",
+      "source": "claimsjournal.com",
+      "company": "Hippo",
+      "topic": "AI-driven claims workflow rollout",
+      "fingerprint": "Hippo|ai-driven-claims-workflow-rollout|2026-04-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "finance"
+        ],
+        "note": "AI 已開始吃進保險高摩擦後台流程"
+      },
+      "summary": "Hippo 推出 AI 驅動的理賠工作流，讓 24/7 對話代理負責 FNOL、分流、文件審查與客戶溝通，目標把超過 70% 理賠案件導向數位化，顯示 agentic AI 正從 demo 進入保險營運主流程。",
+      "from_file": "output/2026/04/10.md"
     }
   ],
   "reason_picked_schema": {
