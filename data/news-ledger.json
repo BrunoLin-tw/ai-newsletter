@@ -1723,6 +1723,105 @@
       },
       "summary": "Uber 分享內部使用 Lovable、Figma Make、Claude Code 與 Cursor 進行 AI prototyping 的實際做法，顯示原型可大幅提前需求對齊、MVP 定義與跨部門決策。",
       "from_file": "output/2026/04/09.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "OpenAI Safety Fellowship 開放申請",
+      "url": "https://openai.com/index/introducing-openai-safety-fellowship/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "external AI safety fellowship research program",
+      "fingerprint": "OpenAI|safety-fellowship-external-research|2026-04-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "外部安全研究人才管線成形"
+      },
+      "summary": "OpenAI 啟動新的 Safety Fellowship，聚焦 safety evaluation、robustness、privacy-preserving safety、agentic oversight 等研究方向，提供 stipend、compute 與 mentor 支援，擴大外部安全研究生態。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Google 在 AI Impact Summit 2026 擴大印度 AI 基建與公共部門合作",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "India AI infrastructure and public sector partnerships",
+      "fingerprint": "Google|india-ai-infrastructure-public-sector|2026-04-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "education"
+        ],
+        "note": "基建加政府採用同步推進"
+      },
+      "summary": "Google 在 AI Impact Summit 2026 宣布印度相關 AI 基礎建設、政府創新挑戰、科學合作與大規模技能培訓，顯示其把 AI 競爭延伸到公共部門與國家級基建。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "OpenAI：企業 AI 進入全面部署期",
+      "url": "https://openai.com/index/next-phase-of-enterprise-ai/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "enterprise AI operating layer and agent deployment",
+      "fingerprint": "OpenAI|enterprise-ai-operating-layer|2026-04-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "企業AI從試點轉全面部署"
+      },
+      "summary": "OpenAI 表示企業業務已占營收 40% 以上，並將 Frontier、ChatGPT、Codex 與 agentic browsing 整合成公司級 AI operating layer，主打企業內跨系統代理部署。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "OpenAI 提出 Intelligence Age 產業政策草案",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "people-first AI industrial policy proposal",
+      "fingerprint": "OpenAI|intelligence-age-industrial-policy|2026-04-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "OpenAI直接下場塑造政策框架"
+      },
+      "summary": "OpenAI 發布以 people-first 為核心的 AI 產業政策構想，並搭配研究補助、fellowship 與華府 workshop 推進討論，顯示其正積極爭奪 AI 政策敘事主導權。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Codex 團隊版改採 pay-as-you-go 計價",
+      "url": "https://openai.com/index/codex-flexible-pricing-for-teams/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "Codex pay-as-you-go pricing for teams",
+      "fingerprint": "OpenAI|codex-payg-team-pricing|2026-04-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "先試再擴的企業採用門檻更低"
+      },
+      "summary": "OpenAI 讓 Business 與 Enterprise 工作區可加購按 token 計費的 Codex-only seats，取消固定 seat fee，並同步下調 ChatGPT Business 年費，明顯是在加速工程團隊的小規模試點與擴散。",
+      "from_file": "output/2026/04/10.md"
     }
   ],
   "reason_picked_schema": {
