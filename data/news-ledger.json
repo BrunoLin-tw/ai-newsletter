@@ -1723,6 +1723,126 @@
       },
       "summary": "Uber 分享內部使用 Lovable、Figma Make、Claude Code 與 Cursor 進行 AI prototyping 的實際做法，顯示原型可大幅提前需求對齊、MVP 定義與跨部門決策。",
       "from_file": "output/2026/04/09.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Intel 與 SambaNova 推出 Xeon 6 為核心的 agentic AI 推理藍圖",
+      "url": "https://newsroom.intel.com/artificial-intelligence/intel-and-sambanova-advance-agentic-ai-with-xeon-6",
+      "source": "newsroom.intel.com",
+      "company": "Intel/SambaNova",
+      "topic": "heterogeneous agentic AI inference blueprint with Xeon 6",
+      "fingerprint": "Intel/SambaNova|heterogeneous-agentic-ai-inference-blueprint|2026-04-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "agentic 推理解耦成異質架構"
+      },
+      "summary": "Intel 與 SambaNova 公布以 Xeon 6、GPU prefill 與 RDU decode 組成的異質推理藍圖，直接對準 agentic AI 在延遲、吞吐與資料中心相容性上的部署需求。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Microsoft 提出 agentic SOC，重塑下一代 SecOps",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/the-agentic-soc-rethinking-secops-for-the-next-decade/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "agentic SOC operating model for SecOps",
+      "fingerprint": "Microsoft|agentic-soc-operating-model-secops|2026-04-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "把自主防禦推成 SOC 操作模型"
+      },
+      "summary": "Microsoft 提出 agentic SOC 的雙層架構，主張以平台自動阻斷與 agent 調查協作取代純人工告警處理，並揭露其在勒索中斷與調查自動化上的實戰進展。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Oracle 推出財務與供應鏈用 Fusion Agentic Applications",
+      "url": "https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-finance-and-supply-chain-2026-04-09/",
+      "source": "oracle.com",
+      "company": "Oracle",
+      "topic": "Fusion Agentic Applications for finance and supply chain",
+      "fingerprint": "Oracle|fusion-agentic-applications-finance-supply-chain|2026-04-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "finance"
+        ],
+        "note": "12 個企業流程工作區正式上線"
+      },
+      "summary": "Oracle 在 Fusion Cloud 中推出面向財務與供應鏈的 12 個 agentic applications，將 claims、collections、logistics、warehouse 與 sourcing 等流程從助理模式推向可執行流程。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Oracle 推出 HR 用 Fusion Agentic Applications",
+      "url": "https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/",
+      "source": "oracle.com",
+      "company": "Oracle",
+      "topic": "Fusion Agentic Applications for HR",
+      "fingerprint": "Oracle|fusion-agentic-applications-hr|2026-04-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "agentic HR 從招募排班一路包到內服"
+      },
+      "summary": "Oracle 同步把 agentic applications 延伸到 HR，涵蓋 career mobility、manager concierge、employee help、talent review 與 workforce operations，顯示大廠正把 agent 直接嵌進高頻內部流程。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Cisco 揭露 Claude Code persistent memory poisoning 風險",
+      "url": "https://blogs.cisco.com/ai/identifying-and-remediating-a-persistent-memory-compromise-in-claude-code",
+      "source": "blogs.cisco.com",
+      "company": "Cisco/Anthropic",
+      "topic": "Claude Code persistent memory poisoning",
+      "fingerprint": "Cisco/Anthropic|claude-code-persistent-memory-poisoning|2026-04-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "長期污染代理記憶的攻擊面被講透"
+      },
+      "summary": "Cisco 團隊展示如何透過 npm lifecycle hooks 汙染 Claude Code 的記憶與 hooks 設定，讓代理跨專案、跨重開機後持續輸出不安全建議，也促成 Anthropic 在 Claude Code v2.1.50 調整記憶權限架構。",
+      "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Cisco 開源 DefenseClaw，補上 AI agent 治理層",
+      "url": "https://blogs.cisco.com/ai/defenseclaw-is-live",
+      "source": "blogs.cisco.com",
+      "company": "Cisco",
+      "topic": "DefenseClaw governance layer for AI agents",
+      "fingerprint": "Cisco|defenseclaw-governance-layer-ai-agents|2026-04-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "agent 安全從討論走向可部署工具鏈"
+      },
+      "summary": "Cisco 正式開源 DefenseClaw，提供安裝前掃描、執行時 guardrails、工具檢查與 agent 寫碼掃描，讓 AI agent 安全開始具備可部署的治理與觀測工具鏈。",
+      "from_file": "output/2026/04/10.md"
     }
   ],
   "reason_picked_schema": {
