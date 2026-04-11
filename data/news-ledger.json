@@ -1851,6 +1851,141 @@
       },
       "summary": "Hippo 推出 AI 驅動的理賠工作流，讓 24/7 對話代理負責 FNOL、分流、文件審查與客戶溝通，目標把超過 70% 理賠案件導向數位化，顯示 agentic AI 正從 demo 進入保險營運主流程。",
       "from_file": "output/2026/04/10.md"
+    },
+    {
+      "date": "2026-04-11",
+      "title": "MirrorCode 初步結果顯示，AI 已能處理數週級 coding 任務",
+      "url": "https://epoch.ai/blog/mirrorcode-preliminary-results/",
+      "source": "Epoch AI",
+      "company": "Epoch AI/METR",
+      "topic": "mirrorcode-long-horizon-coding-benchmark",
+      "fingerprint": "Epoch AI|mirrorcode-long-horizon-coding-benchmark|2026-04-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "把長時程自主 coding 能力變成可重現 benchmark"
+      },
+      "summary": "MirrorCode 初步結果顯示模型已能在無原始碼情況下重建數週級軟體任務，提供衡量 AI 長時程工程能力的新基準。",
+      "from_file": "output/2026/04/11.md"
+    },
+    {
+      "date": "2026-04-11",
+      "title": "美國空軍與太空軍釋出阿拉斯加 AI 資料中心用地",
+      "url": "https://www.spaceforce.mil/News/Article-Display/Article/4456710/daf-takes-steps-for-potential-alaskan-ai-data-centers/",
+      "source": "United States Space Force",
+      "company": "U.S. Air Force/U.S. Space Force",
+      "topic": "alaska-ai-data-center-lease-rflp",
+      "fingerprint": "U.S. Air Force|alaska-ai-data-center-lease-rflp|2026-04-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "軍方正式釋地徵案，AI 基礎設施進入實體部署"
+      },
+      "summary": "美國空軍部釋出阿拉斯加三處基地土地，徵求建置與營運 AI 資料中心，顯示戰略級 AI 基礎設施正在落地。",
+      "from_file": "output/2026/04/11.md"
+    },
+    {
+      "date": "2026-04-11",
+      "title": "CoreWeave 再拿下 Anthropic，多年期 Claude 算力合約落地",
+      "url": "https://www.cnbc.com/2026/04/10/coreweave-anthropic-claude-ai-deal.html",
+      "source": "CNBC",
+      "company": "CoreWeave/Anthropic",
+      "topic": "coreweave-anthropic-claude-infrastructure-deal",
+      "fingerprint": "CoreWeave|anthropic-claude-infrastructure-deal|2026-04-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "Meta 大單後再補 Anthropic，獨立 AI 雲地位升級"
+      },
+      "summary": "CoreWeave 與 Anthropic 簽下多年合作，替 Claude 提供分階段擴充的基礎設施，顯示 neocloud 正快速吃下頂級模型客戶。",
+      "from_file": "output/2026/04/11.md"
+    },
+    {
+      "date": "2026-04-11",
+      "title": "Cohere 與 Aleph Alpha 傳出合併談判，柏林公開表態支持",
+      "url": "https://wkzo.com/2026/04/10/canadas-cohere-germanys-aleph-alpha-in-merger-talks-handelsblatt-reports/",
+      "source": "WKZO/Reuters",
+      "company": "Cohere/Aleph Alpha",
+      "topic": "cohere-aleph-alpha-merger-talks",
+      "fingerprint": "Cohere|aleph-alpha-merger-talks|2026-04-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "主權 AI 從敘事進到跨國整併與政府採購支持"
+      },
+      "summary": "Cohere 與 Aleph Alpha 傳出合併談判，且德國政府表態支持，可能讓歐洲主權 AI 進入更實際的產業整合階段。",
+      "from_file": "output/2026/04/11.md"
+    },
+    {
+      "date": "2026-04-11",
+      "title": "xAI 出手告科羅拉多州，正面挑戰 AI 反歧視法",
+      "url": "https://coloradosun.com/2026/04/10/elon-musk-colorado-ai-law-federal-court-lawsuit/",
+      "source": "The Colorado Sun",
+      "company": "xAI",
+      "topic": "xai-challenges-colorado-ai-antidiscrimination-law",
+      "fingerprint": "xAI|colorado-ai-antidiscrimination-law-challenge|2026-04-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "大型模型公司首次正面測試州級 AI 監管落地邊界"
+      },
+      "summary": "xAI 對科羅拉多州 AI 反歧視法提告，主張其侵害言論自由，成為美國州級 AI 監管的重要測試案。",
+      "from_file": "output/2026/04/11.md"
+    },
+    {
+      "date": "2026-04-11",
+      "title": "AI Alliance 推出 Project Tapestry，要把主權 AI 做成可協作的開源底座",
+      "url": "https://www.prnewswire.com/news-releases/ai-alliance-launches-project-tapestry-to-build-a-collaborative-foundation-for-open-and-sovereign-ai-302735918.html",
+      "source": "PR Newswire",
+      "company": "AI Alliance",
+      "topic": "project-tapestry-open-sovereign-ai-platform",
+      "fingerprint": "AI Alliance|project-tapestry-open-sovereign-ai-platform|2026-04-11",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "不只喊開源，直接公布平台方向與首席科學顧問"
+      },
+      "summary": "AI Alliance 發表 Project Tapestry，想以分散式與聯邦式方式打造 frontier open models，強調各方保有主權與治理控制。",
+      "from_file": "output/2026/04/11.md"
+    },
+    {
+      "date": "2026-04-11",
+      "title": "Snap 新 AI 智慧眼鏡改用 Qualcomm XR 平台，Specs 今年正式上線",
+      "url": "https://wkzo.com/2026/04/10/snap-unit-to-use-qualcomm-chips-for-upcoming-ai-smart-glasses/",
+      "source": "WKZO/Reuters",
+      "company": "Snap/Qualcomm",
+      "topic": "snap-specs-qualcomm-xr-platform-deal",
+      "fingerprint": "Snap|specs-qualcomm-xr-platform-deal|2026-04-11",
+      "section": "tools",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "creative_tools",
+          "new_market"
+        ],
+        "note": "Snap 把 XR 眼鏡推向今年量產節點，正式搶 AI 裝置入口"
+      },
+      "summary": "Snap 旗下 Specs 與 Qualcomm 擴大多年合作，新一代 AI 智慧眼鏡將採用 Snapdragon XR 平台，朝商業化硬體推進。",
+      "from_file": "output/2026/04/11.md"
     }
   ],
   "reason_picked_schema": {
