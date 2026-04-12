@@ -1986,6 +1986,146 @@
       },
       "summary": "Snap 旗下 Specs 與 Qualcomm 擴大多年合作，新一代 AI 智慧眼鏡將採用 Snapdragon XR 平台，朝商業化硬體推進。",
       "from_file": "output/2026/04/11.md"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "TorchTPU 讓 PyTorch 幾乎原生跑上 Google TPU",
+      "url": "https://developers.googleblog.com/en/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/",
+      "source": "developers.googleblog.com",
+      "company": "Google",
+      "topic": "TorchTPU PyTorch native TPU runtime and compiler stack",
+      "fingerprint": "Google|torchtpu-pytorch-native-tpu-runtime-stack|2026-04-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "Google 直接補上 PyTorch 對 TPU 的原生化路徑"
+      },
+      "summary": "Google 公開 TorchTPU，讓 PyTorch workload 可用極少改動跑上 TPU，並提供 debug、strict、fused eager 模式與 torch.compile + XLA 路徑，目標是把可用性和大規模 TPU 效能一起拉起來。",
+      "from_file": "output/2026/04/12.md"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "Google ADK 把 agent skills 做成可按需載入的能力模組",
+      "url": "https://developers.googleblog.com/en/developers-guide-to-building-adk-agents-with-skills/",
+      "source": "developers.googleblog.com",
+      "company": "Google",
+      "topic": "ADK SkillToolset progressive disclosure and skill factory patterns",
+      "fingerprint": "Google|adk-skilltoolset-progressive-disclosure-skill-factory|2026-04-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把 skills 架構講到能動態生成新能力，技術含金量夠高"
+      },
+      "summary": "Google 說明 ADK SkillToolset 的分層載入設計，讓 agent 以 metadata、instructions、references 漸進載入知識，並進一步展示可在執行時生成新 SKILL.md 的 skill factory 模式。",
+      "from_file": "output/2026/04/12.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Microsoft 砸逾 10 億美元布局泰國 AI 基建",
+      "url": "https://news.microsoft.com/source/asia/2026/04/10/microsoft-charts-ai-powered-path-forward-in-thailand/",
+      "source": "news.microsoft.com",
+      "company": "Microsoft",
+      "topic": "Thailand AI infrastructure and public sector deployment plan",
+      "fingerprint": "Microsoft|thailand-ai-infrastructure-public-sector-plan|2026-04-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "超過 10 億美元不只蓋基建，還直接綁治理和產業落地"
+      },
+      "summary": "Microsoft 宣布 2026 至 2028 將在泰國投入超過 10 億美元於雲端與 AI 基礎設施，並同步推進公部門 AI 治理、電商應用與人才培訓，想把泰國做成東南亞 AI 落地樞紐。",
+      "from_file": "output/2026/04/12.md"
+    },
+    {
+      "date": "2026-04-11",
+      "title": "OpenAI 因 Axios 供應鏈事件輪替 macOS 簽章憑證",
+      "url": "https://openai.com/index/axios-developer-tool-compromise/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "Axios supply chain incident and macOS certificate rotation",
+      "fingerprint": "OpenAI|axios-supply-chain-incident-macos-certificate-rotation|2026-04-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "AI 桌面工具正式碰到供應鏈簽章風險，屬高價值資安事件"
+      },
+      "summary": "OpenAI 表示其 macOS app signing workflow 曾受到遭污染 Axios 套件波及，雖無用戶資料外洩證據，仍主動輪替並撤銷簽章憑證，要求相關 macOS 版 ChatGPT、Codex 與 Atlas 用戶更新。",
+      "from_file": "output/2026/04/12.md"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "南非端出國家 AI 政策草案，連監管機構與算力都一起規劃",
+      "url": "https://enterpriseai.economictimes.indiatimes.com/news/industry/south-africa-launches-draft-ai-policy-to-become-continental-leader/130188424",
+      "source": "enterpriseai.economictimes.indiatimes.com",
+      "company": "South Africa",
+      "topic": "draft national AI policy institutions incentives and supercomputing",
+      "fingerprint": "South Africa|draft-national-ai-policy-institutions-incentives-supercomputing|2026-04-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "治理機構、補助誘因和主權算力一次到位，不只是口號"
+      },
+      "summary": "南非發布國家 AI 政策草案，規劃成立 National AI Commission、AI Ethics Board 與 AI Regulatory Authority，並搭配稅務優惠、補助和超算投資，試圖同時推進監管與產業發展。",
+      "from_file": "output/2026/04/12.md"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "GitHub Copilot 在 VS Code 開始把 Autopilot 推進公開預覽",
+      "url": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases/",
+      "source": "github.blog",
+      "company": "GitHub",
+      "topic": "Copilot VS Code Autopilot browser debugging and agent controls",
+      "fingerprint": "GitHub|copilot-vscode-autopilot-browser-debugging-agent-controls|2026-04-08",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Copilot 開始把 agent autonomy、除錯與自訂能力整包往前推"
+      },
+      "summary": "GitHub 在 VS Code 的 Copilot 更新中加入 Autopilot 公開預覽、browser debugging、圖片與影片 chat 支援，以及新的 chat customizations 管理介面，讓 Copilot 更接近可自主執行流程的 coding agent。",
+      "from_file": "output/2026/04/12.md"
+    },
+    {
+      "date": "2026-04-06",
+      "title": "AWS 把 DevOps Agent 與 Security Agent 推到 GA",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-devops-agent-security-agent-ga-product-lifecycle-updates-and-more-april-6-2026/",
+      "source": "aws.amazon.com",
+      "company": "AWS",
+      "topic": "DevOps Agent and Security Agent general availability",
+      "fingerprint": "AWS|devops-agent-security-agent-general-availability|2026-04-06",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation",
+          "security_research"
+        ],
+        "note": "AWS 直接把 SRE 與滲透測試代理化，商業訊號很明確"
+      },
+      "summary": "AWS 宣布 DevOps Agent 與 Security Agent 正式 GA，前者主打自動調查 incident 與降低 MTTR，後者把滲透測試做成可按需啟動的代理流程，顯示高成本運維與資安工作正被平台化成常態服務。",
+      "from_file": "output/2026/04/12.md"
     }
   ],
   "reason_picked_schema": {
