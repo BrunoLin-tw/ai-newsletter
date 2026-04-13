@@ -2126,6 +2126,124 @@
       },
       "summary": "AWS 宣布 DevOps Agent 與 Security Agent 正式 GA，前者主打自動調查 incident 與降低 MTTR，後者把滲透測試做成可按需啟動的代理流程，顯示高成本運維與資安工作正被平台化成常態服務。",
       "from_file": "output/2026/04/12.md"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Microsoft 一次丟出三個多模態模型，直接塞進 Foundry 公開預覽",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-mai-transcribe-1-mai-voice-1-and-mai-image-2-in-microsoft-foundry/4507787",
+      "source": "techcommunity.microsoft.com",
+      "company": "Microsoft",
+      "topic": "MAI multimedia models public preview in Foundry",
+      "fingerprint": "Microsoft|mai-multimedia-models-foundry-public-preview|2026-04-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "從概念戰變成可用預覽與定價"
+      },
+      "summary": "Microsoft 在 Foundry 公開預覽 MAI-Transcribe-1、MAI-Voice-1 和 MAI-Image-2，連同成本、延遲與內部產品落地細節一併公開，顯示第一方多媒體模型已正式走向企業可採購的基礎能力層。",
+      "from_file": "output/2026/04/13.md"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Anthropic 開始評估自研 AI 晶片，算力焦慮已經逼到下一層",
+      "url": "https://wkzo.com/2026/04/09/exclusive-anthropic-weighs-building-it-own-ai-chips-sources-say/",
+      "source": "WKZO/Reuters",
+      "company": "Anthropic",
+      "topic": "Anthropic exploring in-house AI chip design",
+      "fingerprint": "Anthropic|own-ai-chip-exploration|2026-04-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "算力策略從採購走向自研評估"
+      },
+      "summary": "Reuters 報導 Anthropic 正在早期評估自研 AI 晶片，雖未正式拍板，但在擴大 TPU 合作後立刻傳出自研規劃，反映前沿模型公司正嘗試把算力主導權再往自己手上拉。",
+      "from_file": "output/2026/04/13.md"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "OpenAI 端出 Intelligence Age 產業政策草案，直接把自己推進華府對話中心",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "Industrial policy for the Intelligence Age proposal",
+      "fingerprint": "OpenAI|industrial-policy-intelligence-age|2026-04-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "從安全倡議升級為產業政策提案"
+      },
+      "summary": "OpenAI 發布《Industrial policy for the Intelligence Age》，不只談模型安全，還把產業政策、機構韌性、研究補助與 API credits 一起端上桌，顯示其正在把自身角色從模型供應商往政策參與者擴張。",
+      "from_file": "output/2026/04/13.md"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "英國監管單位緊急評估 Anthropic 新模型風險，Claude Mythos 開始碰到金融級審視",
+      "url": "https://www.channelnewsasia.com/business/uk-financial-regulators-rush-assess-risks-anthropics-latest-ai-model-ft-reports-6051736",
+      "source": "channelnewsasia.com",
+      "company": "Anthropic",
+      "topic": "UK regulators assess Claude Mythos cyber risk",
+      "fingerprint": "Anthropic|uk-regulators-assess-claude-mythos-risk|2026-04-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "finance",
+          "security_research"
+        ],
+        "note": "Glasswing 釋出後出現監管層級回應"
+      },
+      "summary": "英國金融監管機構正與網安單位及主要銀行評估 Anthropic 最新模型帶來的資安風險，代表 Claude Mythos Preview 在封閉釋出後，已迅速進入金融監管與關鍵基礎設施的審視範圍。",
+      "from_file": "output/2026/04/13.md"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Broadcom 把 Automic V26 從排程器推向 agentic AI 控制平面",
+      "url": "https://automation.broadcom.com/blog/automic-v26-establishing-intelligent-control-plane-enterprise-ai",
+      "source": "automation.broadcom.com",
+      "company": "Broadcom",
+      "topic": "Automic V26 intelligent control plane for enterprise AI",
+      "fingerprint": "Broadcom|automic-v26-agentic-control-plane|2026-04-13",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "MCP加治理，企業代理開始可落地"
+      },
+      "summary": "Broadcom 發表 Automic Automation V26，把 MCP、agentic AI job type、原生 Python 與 text-to-workflow 功能整合進企業自動化平台，明顯瞄準『可治理、可稽核、可上線』的代理式工作流。",
+      "from_file": "output/2026/04/13.md"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Thomson Reuters 新報告證明，專業服務業 AI 採用已過臨界點，但 ROI 追蹤還很爛",
+      "url": "https://www.thomsonreuters.com/en-us/posts/technology/ai-in-professional-services-report-2026/",
+      "source": "thomsonreuters.com",
+      "company": "Thomson Reuters",
+      "topic": "2026 AI in Professional Services adoption and ROI gap",
+      "fingerprint": "Thomson Reuters|ai-professional-services-adoption-roi-gap|2026-04-13",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "採用翻倍但 ROI 治理明顯落後"
+      },
+      "summary": "Thomson Reuters 2026 報告顯示，專業服務業組織層級 AI 採用率已翻倍到 40%，且多數受訪者正往 agentic AI 準備，但只有少數企業真的有在追蹤 ROI，暴露出落地速度已經跑贏治理能力。",
+      "from_file": "output/2026/04/13.md"
     }
   ],
   "reason_picked_schema": {
