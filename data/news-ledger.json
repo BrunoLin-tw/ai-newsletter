@@ -2244,6 +2244,106 @@
       },
       "summary": "Thomson Reuters 2026 報告顯示，專業服務業組織層級 AI 採用率已翻倍到 40%，且多數受訪者正往 agentic AI 準備，但只有少數企業真的有在追蹤 ROI，暴露出落地速度已經跑贏治理能力。",
       "from_file": "output/2026/04/13.md"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Gemini 3.1 Deep Think 把高階推理直接拉到工程現場",
+      "url": "https://deepmind.google/models/gemini/deep-think/",
+      "source": "deepmind.google",
+      "company": "Google",
+      "topic": "Gemini 3.1 Deep Think reasoning mode for science and engineering",
+      "fingerprint": "Google|gemini-3-1-deep-think-science-engineering|2026-04-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "Deep Think 正式對外強打科研與工程場景"
+      },
+      "summary": "Google DeepMind 將 Deep Think 建立在 Gemini 3.1 Pro 之上，主打科學研究、工程設計與高階推理，並公開 ARC-AGI-2、IMO、Codeforces 等多項成績，顯示其把高成本 reasoning mode 正式產品化。",
+      "from_file": "output/2026/04/14.md"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "GLM-5-Turbo 直接瞄準 OpenClaw 長鏈代理任務",
+      "url": "https://docs.z.ai/guides/llm/glm-5-turbo",
+      "source": "docs.z.ai",
+      "company": "Z.ai",
+      "topic": "GLM-5-Turbo optimized for OpenClaw long-chain agent tasks",
+      "fingerprint": "Z.ai|glm-5-turbo-openclaw-long-chain-agent-tasks|2026-04-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation",
+          "benchmark_detail"
+        ],
+        "note": "把工具調用與長鏈任務直接當主戰場"
+      },
+      "summary": "Z.ai 將 GLM-5-Turbo 定位為針對 OpenClaw 場景深度優化的模型，強化工具調用、複雜指令拆解、排程任務與長鏈執行穩定性，並以 ZClawBench 直接展示代理工作流表現。",
+      "from_file": "output/2026/04/14.md"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "Microsoft 和 Publicis 把 agentic AI 直接灌進全球行銷主流程",
+      "url": "https://news.microsoft.com/source/2026/04/08/microsoft-and-publicis-groupe-expand-their-strategic-partnership-to-power-the-future-of-agentic-marketing-for-businesses-worldwide/",
+      "source": "news.microsoft.com",
+      "company": "Microsoft/Publicis",
+      "topic": "agentic marketing full-stack partnership",
+      "fingerprint": "Microsoft|publicis-agentic-marketing-partnership|2026-04-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "AI 代理開始吃進全球行銷主流程"
+      },
+      "summary": "Microsoft 與 Publicis 擴大合作，把 Azure、Copilot Studio、Agent 365、Microsoft IQ 與 Publicis 的身份資料層整合進行銷與商務流程，並計畫讓 11.4 萬名員工使用 Microsoft 365 Copilot。",
+      "from_file": "output/2026/04/14.md"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Claude Mythos Preview 開始從封閉實驗走向雲平台入口",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-claude-mythos/",
+      "source": "aws.amazon.com",
+      "company": "Anthropic/AWS",
+      "topic": "Claude Mythos Preview distribution on Amazon Bedrock",
+      "fingerprint": "Anthropic|claude-mythos-bedrock-gated-preview|2026-04-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "Glasswing 模型開始進入雲平台入口"
+      },
+      "summary": "Amazon Bedrock 將 Claude Mythos Preview 納入 gated research preview，讓這個原本高度敏感的 cyber model 開始有實際雲端分發路徑，雖僅限 allow-list 組織，但已代表平台化供應的第一步。",
+      "from_file": "output/2026/04/14.md"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "AWS Agent Registry 想先解掉企業代理最蠢的問題，重複造輪子",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-agent-registry-in-agentcore-preview/",
+      "source": "aws.amazon.com",
+      "company": "AWS",
+      "topic": "AWS Agent Registry governed catalog for agents and MCP tools",
+      "fingerprint": "AWS|agent-registry-governed-agent-catalog|2026-04-09",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "先解企業代理重複造輪子與治理問題"
+      },
+      "summary": "AWS 在 AgentCore 中推出 Agent Registry，將 agents、tools、skills、MCP servers 與自訂資源收進同一個可搜尋、可審批、可稽核的私有目錄，先補上企業代理治理與資產重用缺口。",
+      "from_file": "output/2026/04/14.md"
     }
   ],
   "reason_picked_schema": {
