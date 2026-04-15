@@ -2344,6 +2344,159 @@
       },
       "summary": "AWS 在 AgentCore 中推出 Agent Registry，將 agents、tools、skills、MCP servers 與自訂資源收進同一個可搜尋、可審批、可稽核的私有目錄，先補上企業代理治理與資產重用缺口。",
       "from_file": "output/2026/04/14.md"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Spring AI SDK for Amazon Bedrock AgentCore GA",
+      "url": "https://aws.amazon.com/blogs/machine-learning/spring-ai-sdk-for-amazon-bedrock-agentcore-is-now-generally-available/",
+      "source": "aws.amazon.com",
+      "company": "AWS",
+      "topic": "Spring AI SDK for Amazon Bedrock AgentCore GA",
+      "fingerprint": "AWS|spring-ai-sdk-bedrock-agentcore-ga|2026-04-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Java/Spring 開發者建 AI 代理正式 GA"
+      },
+      "summary": "新開源 SDK 讓 Java/Spring 開發者用註解快速建生產級 AI 代理，自動處理 AgentCore Runtime 合約、SSE 串流、記憶體、工具與健康檢查，免除數週基礎建設。",
+      "from_file": "output/2026/04/15.md"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "NVIDIA Ising 量子加速開源模型",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers",
+      "source": "nvidianews.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA Ising quantum AI models",
+      "fingerprint": "NVIDIA|ising-quantum-ai-models-launch|2026-04-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source"
+        ],
+        "note": "首款量子電腦優化開源 AI 模型"
+      },
+      "summary": "首款開源 AI 模型專為量子電腦優化，加速 Ising 問題求解，推動實用量子運算從研究走向產業應用。",
+      "from_file": "output/2026/04/15.md"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Meta x Broadcom 自訂 AI 矽片合作",
+      "url": "https://about.fb.com/news/2026/04/meta-partners-with-broadcom-to-co-develop-custom-ai-silicon/",
+      "source": "about.fb.com",
+      "company": "Meta/Broadcom",
+      "topic": "Meta Broadcom custom AI silicon",
+      "fingerprint": "Meta|broadcom-custom-ai-silicon-partnership|2026-04-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "hardware_evolution"
+        ],
+        "note": "次世代自訂 AI 晶片強化基建"
+      },
+      "summary": "Meta 與 Broadcom 攜手開發下一代自訂 AI 晶片，強化資料中心基礎設施以支撐大規模模型訓練。",
+      "from_file": "output/2026/04/15.md"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Anthropic 納 Novartis CEO 入董座",
+      "url": "https://www.anthropic.com/news/narasimhan-board",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic board Vas Narasimhan",
+      "fingerprint": "Anthropic|novartis-ceo-board-member|2026-04-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Novartis CEO 加入 Anthropic 董事會"
+      },
+      "summary": "醫藥巨頭 Novartis CEO Vas Narasimhan 加入 Anthropic 董事會，帶來嚴格產業監管與安全部署經驗，強化 AI 負責任發展。",
+      "from_file": "output/2026/04/15.md"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "OpenAI 安全研究員計畫啟動",
+      "url": "https://openai.com/index/introducing-openai-safety-fellowship/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Safety Fellowship",
+      "fingerprint": "OpenAI|safety-fellowship-launch|2026-04-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "招募研究者探討 AI 安全與倫理"
+      },
+      "summary": "新 Safety Fellowship 招募獨立研究者探討安全評估、倫理與濫用防範，9 月 Berkeley 開跑，附資助與導師。",
+      "from_file": "output/2026/04/15.md"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Novo Nordisk x OpenAI 藥物發現聯盟",
+      "url": "https://www.cnbc.com/amp/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html",
+      "source": "cnbc.com",
+      "company": "Novo Nordisk/OpenAI",
+      "topic": "Novo Nordisk OpenAI drug discovery alliance",
+      "fingerprint": "Novo Nordisk|openai-drug-discovery-partnership|2026-04-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "healthcare"
+        ],
+        "note": "AI 加速新藥識別與開發流程"
+      },
+      "summary": "丹麥藥廠與 OpenAI 合作，利用 AI 分析海量資料加速新藥識別與開發流程，縮短從研究到患者用藥時間。",
+      "from_file": "output/2026/04/15.md"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "CIMB Niaga Google Cloud 銀行 AI 代理",
+      "url": "https://www.googlecloudpresscorner.com/2026-04-14-CIMB-Niaga,-Google-Cloud,-and-Artefact-Debut-Enterprise-AI-Agents-to-Deliver-Life-Centric-Banking-for-Millions-of-Indonesians",
+      "source": "googlecloudpresscorner.com",
+      "company": "Google/CIMB Niaga",
+      "topic": "CIMB Niaga Google Cloud banking agents",
+      "fingerprint": "CIMB Niaga|google-cloud-enterprise-banking-agents|2026-04-15",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "workflow_automation",
+          "finance"
+        ],
+        "note": "Vertex AI 建構個人化理財代理"
+      },
+      "summary": "印尼銀行用 Vertex AI 建關係經理與客服代理， grounding 內部知識庫，提供個人化理財與即時支援，提升數百萬客戶體驗。",
+      "from_file": "output/2026/04/15.md"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "GitHub AI 代理安全遊戲",
+      "url": "https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/",
+      "source": "github.blog",
+      "company": "GitHub",
+      "topic": "GitHub Secure Code Game AI agent",
+      "fingerprint": "GitHub|ai-agent-security-skills-game|2026-04-15",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "模擬攻防練 agentic AI 資安技能"
+      },
+      "summary": "新遊戲模擬攻防，讓開發者練 agentic AI 資安技能，從漏洞掃描到防護部署。",
+      "from_file": "output/2026/04/15.md"
     }
   ],
   "reason_picked_schema": {
