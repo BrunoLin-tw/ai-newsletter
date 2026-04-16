@@ -2497,6 +2497,64 @@
       },
       "summary": "新遊戲模擬攻防，讓開發者練 agentic AI 資安技能，從漏洞掃描到防護部署。",
       "from_file": "output/2026/04/15.md"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "Alibaba 開源 Qwen3 全系列，235B MoE 率先採用 Apache 2.0",
+      "url": "https://qwen-3.com/en",
+      "source": "qwen-3.com",
+      "company": "Alibaba",
+      "topic": "Qwen3 open source model family Apache 2.0",
+      "fingerprint": "Alibaba|qwen3-open-source-apache-2|2026-04-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source",
+          "benchmark_detail"
+        ],
+        "note": "最大開源 Apache 2.0 MoE，單卡可跑 32B"
+      },
+      "summary": "Qwen3 全系列上線，0.6B 至 235B MoE 全部 Apache 2.0 開源，支援 Thinking Mode、128K 上下文、MCP 工具调用，Hugging Face/ModelScope 可直接下載，32B Q4 量化僅需單張 RTX 4090。",
+      "from_file": "output/2026/04/16.md"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Apple 送 200 名 Siri 工程師進 AI coding bootcamp，迎接 WWDC Gemini 改版",
+      "url": "https://9to5mac.com/2026/04/15/report-apple-to-send-siri-engineers-to-multi-week-ai-coding-bootcamp/",
+      "source": "9to5mac.com",
+      "company": "Apple",
+      "topic": "Apple Siri AI coding bootcamp Gemini integration",
+      "fingerprint": "Apple|siri-ai-coding-bootcamp-gemini-overhaul|2026-04-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "大廠正式用內部集訓回應 AI 落後"
+      },
+      "summary": "Apple 將約 200 名 Siri 工程師送往為期數週的 AI 編程集訓營，少數人留守開發與安全評估，其餘重新學習 AI 輔助開發流程；此為 WWDC26 引入 Google Gemini 全面改造 Siri 的一部分。",
+      "from_file": "output/2026/04/16.md"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Anthropic 推出身份驗證：Claude 部分用戶須提交政府證件與 Live Selfie",
+      "url": "https://www.firstpost.com/tech/anthropic-introduces-identity-checks-that-could-require-claude-users-to-submit-id-and-live-selfie-for-access-14001009.html",
+      "source": "firstpost.com",
+      "company": "Anthropic",
+      "topic": "Claude identity verification government ID selfie",
+      "fingerprint": "Anthropic|claude-identity-verification-government-id|2026-04-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "隱私優先立場轉向合規審查"
+      },
+      "summary": "Anthropic 對部分 Claude 用戶推出政府證件+即時自拍驗證，由第三方供應商 Persona 處理，資料不用於模型訓練但公司可調取；隱私倡議者批評此舉偏離其「隱私優先」路線。",
+      "from_file": "output/2026/04/16.md"
     }
   ],
   "reason_picked_schema": {
