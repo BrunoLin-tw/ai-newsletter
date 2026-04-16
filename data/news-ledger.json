@@ -2555,6 +2555,80 @@
       },
       "summary": "Anthropic 對部分 Claude 用戶推出政府證件+即時自拍驗證，由第三方供應商 Persona 處理，資料不用於模型訓練但公司可調取；隱私倡議者批評此舉偏離其「隱私優先」路線。",
       "from_file": "output/2026/04/16.md"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "ASML 調升 2026 預測，AI 需求撐起記憶體晶片",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/04/16/2003855670",
+      "source": "taipeitimes.com",
+      "company": "ASML",
+      "topic": "ASML 2026 sales forecast raise AI chip lithography",
+      "fingerprint": "ASML|2026-sales-forecast-raise|2026-04-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "半導體設備龍頭財測上調，Q1 記憶體佔 51%"
+      },
+      "summary": "ASML 將全年營收指引從 €34–39B 上調至 €36–40B，Q1 淨銷售 €8.77B 超預期，記憶體晶片佔 Q1 工具銷售 51%，顯示 AI 需求正從邏輯晶片擴散至 DRAM。Q2 指引 €8.4–9B 低於共識，主因美國對中出口管制不確定性。",
+      "from_file": "output/2026/04/16.md"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "OpenAI Agents SDK 原生沙箱落地，代理式 AI 走向生產級",
+      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Agents SDK sandbox execution production agents",
+      "fingerprint": "OpenAI|agents-sdk-sandbox-execution|2026-04-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "官方 SDK 升級提供隔離執行環境"
+      },
+      "summary": "OpenAI 發布 Agents SDK v0.14.0（4/15），新增原生沙箱執行環境，將控制邏輯與計算環境分離，支援平行子代理分流至隔離容器、Shell 工具、Apply-Patch 精準檔案編輯、快照與故障復原。內建 E2B/Modal/Cloudflare 等多供應商整合。",
+      "from_file": "output/2026/04/16.md"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "投資人轉向：Anthropic 營收季增 233% 威脅 OpenAI 龍頭地位",
+      "url": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
+      "source": "techcrunch.com",
+      "company": "Anthropic/OpenAI",
+      "topic": "Anthropic vs OpenAI investor sentiment valuation gap",
+      "fingerprint": "Anthropic|investor-sentiment-openai-valuation|2026-04-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "Anthropic 季營收從 $9B 飆 $30B，龍頭易位訊號"
+      },
+      "summary": "多家持有 OpenAI 部位的機構投資人正在二級市場減持，質疑其 $852B 估值。Anthropic 年化營收從 $9B 跳升至 $30B，Iconiq Capital 合夥人明確表示：「我們選了 Anthropic。」支撐 OpenAI 估值需假設 IPO 估值達 $1.2T 以上。",
+      "from_file": "output/2026/04/16.md"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "歐洲 AI 創投 Q1 2026：17.6 億美元、佔全體 VC 50%",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "llm-stats.com",
+      "company": "Independent",
+      "topic": "Europe AI VC funding Q1 2026 concentration",
+      "fingerprint": "Independent|europe-ai-vc-q1-2026|2026-04-16",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "歐洲 AI 創業生態持續吸引資金集中"
+      },
+      "summary": "歐洲 Q1 VC 總額 $17.6B（YoY +30%），但整體交易件數下跌 40%，AI 新創獨佔超過一半資金，顯示資金持續向 AI 集中的全球趨勢在歐洲同樣明顯。",
+      "from_file": "output/2026/04/16.md"
     }
   ],
   "reason_picked_schema": {
