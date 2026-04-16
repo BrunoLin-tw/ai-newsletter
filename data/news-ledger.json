@@ -2555,80 +2555,21 @@
     },
     {
       "date": "2026-04-16",
-      "title": "Apple 派 200 名 Siri 工程師上 AI 集訓營，WWDC Gemini 改造蓄勢",
-      "url": "https://9to5mac.com/2026/04/15/report-apple-to-send-siri-engineers-to-multi-week-ai-coding-bootcamp/",
-      "source": "9to5mac.com",
-      "company": "Apple",
-      "topic": "Apple Siri AI coding bootcamp Google Gemini WWDC26",
-      "fingerprint": "Apple|siri-ai-coding-bootcamp|2026-04-15",
-      "section": "big-tech",
-      "reason_picked": {
-        "code": "major_feature_update",
-        "secondary": [
-          "official_launch",
-          "workflow_automation"
-        ],
-        "note": "Siri 落後認知的務實回應，200 人集訓營重新訓練 AI 開發能力"
-      },
-      "summary": "Apple 將約 200 名 Siri 工程師送往為期數週的 AI 編程集訓營，少數人留守安全評估，其餘重新學習 Claude Code 與 OpenAI Codex 等 AI 輔助開發流程。這是 WWDC26 引入 Google Gemini 全面改造 Siri 的一部分，Mike Rockwell（Vision Pro 負責人）接手 Siri 團隊，John Giannandrea 正式離開。",
-      "from_file": "output/2026/04/16.md"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Anthropic 對部分用戶推出政府證件 + 即時自拍身份驗證",
-      "url": "https://www.firstpost.com/tech/anthropic-introduces-identity-checks-that-could-require-claude-users-to-submit-id-and-live-selfie-for-access-14001009.html",
-      "source": "firstpost.com",
-      "company": "Anthropic",
-      "topic": "Anthropic identity verification KYC Persona government ID selfie",
-      "fingerprint": "Anthropic|kyc-identity-verification|2026-04-16",
-      "section": "big-tech",
-      "reason_picked": {
-        "code": "policy_or_regulatory_change",
-        "secondary": [
-          "security_research"
-        ],
-        "note": "偏離隱私優先立場，特定能力需提交政府證件與自拍"
-      },
-      "summary": "Anthropic 開始要求存取特定 Claude 能力的用戶提交政府證件與即時自拍，由第三方供應商 Persona 處理。資料不用於模型訓練但公司可調取。此舉偏離其隱私優先立場，隱私倡議者已提出批評，部分用戶已因年齡偵測系統誤判而遭停權。",
-      "from_file": "output/2026/04/16.md"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Caterpillar 收購自動駕駛電動曳引機新創 Monarch，傳統工業巨頭整併農技新創",
-      "url": "https://techcrunch.com/2026/04/15/monarch-tractors-collapse-ends-in-with-an-acquisition-by-caterpillar/",
-      "source": "techcrunch.com",
-      "company": "Caterpillar/Monarch",
-      "topic": "Caterpillar acquires Monarch Tractor autonomous electric tractor",
-      "fingerprint": "Caterpillar|monarch-tractor-acquisition|2026-04-15",
-      "section": "hard-tech",
-      "reason_picked": {
-        "code": "partnership_or_integration",
-        "secondary": [
-          "real_world_deployment",
-          "new_market"
-        ],
-        "note": "氣候科技硬體新創規模化困境，傳統巨頭收購切入農業自動化"
-      },
-      "summary": "Caterpillar 收購已破產的自動駕駛電動曳引機新創 Monarch Tractor 資產，Monarch 曾獲逾 $200M 融資並與 Foxconn 合作製造，但後者出售 Lordstown 工廠後失去製造基地，終以 ABC 破產程序清算資產。顯示氣候科技硬體新創的規模化困境，以及傳統巨頭透過收購快速切入農業自動化的趨勢。",
-      "from_file": "output/2026/04/16.md"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Objection：Peter Thiel 資助的 AI 陪審團，每件新聞事實核查收費 $2,000",
-      "url": "https://www.cornerforai.com/news/objection-launches-ai-jury-to-fact-check-news-claims-backed-by-peter-thiel-and-balaji-srinivasan",
-      "source": "cornerforai.com",
-      "company": "Objection",
-      "topic": "Objection AI jury fact-check journalism Peter Thiel Balaji Srinivasan",
-      "fingerprint": "Objection|ai-jury-fact-check-journalism|2026-04-15",
+      "title": "歐洲 AI 創投 Q1 2026：17.6 億美元、佔全體 VC 50%",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "llm-stats.com",
+      "company": "Independent",
+      "topic": "Europe AI VC funding Q1 2026 concentration",
+      "fingerprint": "Independent|europe-ai-vc-q1-2026|2026-04-16",
       "section": "tools",
       "reason_picked": {
-        "code": "new_market",
+        "code": "real_world_deployment",
         "secondary": [
-          "policy_or_regulatory_change"
+          "new_market"
         ],
-        "note": "AI 陪審團商業化收費核查新聞主張，引發新聞自由爭議"
+        "note": "歐洲 AI 創業生態持續吸引資金集中"
       },
-      "summary": "Objection 獲得 Peter Thiel、Balaji Srinivasan 等「多輪」種子輪投資，用五家 LLM（OpenAI、Anthropic、xAI、Mistral、Google）組成陪審團對新聞報導主張進行裁決，每件收費 $2,000。批評者擔憂此服務會對新聞自由產生「寒蟬效應」，成為資源充足者打壓獨立記者的工具。",
+      "summary": "歐洲 Q1 VC 總額 $17.6B（YoY +30%），但整體交易件數下跌 40%，AI 新創獨佔超過一半資金，顯示資金持續向 AI 集中的全球趨勢在歐洲同樣明顯。",
       "from_file": "output/2026/04/16.md"
     }
   ],
