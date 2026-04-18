@@ -2691,6 +2691,126 @@
       },
       "summary": "OpenAI 將 Codex 擴充到背景電腦操作、內建瀏覽器、90+ 外掛、圖片生成、記憶與排程自動化，明顯朝真正可持續工作的開發代理邁進。",
       "from_file": "output/2026/04/17.md"
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Gemini Robotics-ER 1.6 升級，把機器人空間理解與儀表讀取再往前推",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "source": "deepmind.google",
+      "company": "Google DeepMind",
+      "topic": "Gemini Robotics-ER 1.6 enhanced embodied reasoning and instrument reading for robots",
+      "fingerprint": "Google DeepMind|gemini-robotics-er-1-6-embodied-reasoning|2026-04-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "機器人推理模型新增儀表讀取等關鍵能力"
+      },
+      "summary": "Google DeepMind 發布 Gemini Robotics-ER 1.6，強化機器人的指向、計數、成功判定與儀表讀取能力，並已透過 Gemini API 與 AI Studio 提供預覽，讓 embodied AI 更接近可部署的工業與服務場景。",
+      "from_file": "output/2026/04/18.md"
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Muse Spark 登場，Meta 把新一代多模態模型推進自家 AI 助手核心",
+      "url": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+      "source": "about.fb.com",
+      "company": "Meta",
+      "topic": "Muse Spark launch as Meta Superintelligence Labs multimodal model for Meta AI",
+      "fingerprint": "Meta|muse-spark-multimodal-model-meta-ai|2026-04-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "Meta 新旗艦模型開始接管自家 AI 產品體驗"
+      },
+      "summary": "Meta 推出由 Superintelligence Labs 打造的 Muse Spark，主打更快的複雜推理、多模態理解與平行子代理能力，先上線於 Meta AI app 與 meta.ai，之後再擴展到 WhatsApp、Instagram 與眼鏡裝置。",
+      "from_file": "output/2026/04/18.md"
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Gemini 正式上 Mac，Google 把桌面級 AI 助手塞進快捷鍵",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Gemini native Mac app with screen sharing and quick invoke shortcut",
+      "fingerprint": "Google|gemini-native-mac-app-screen-sharing|2026-04-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Gemini 首次以原生 Mac app 進入桌面工作流"
+      },
+      "summary": "Google 把 Gemini 做成原生 macOS app，支援 Option + Space 快捷喚出、畫面分享與本機檔案脈絡理解，等於把 AI 助手直接嵌進日常桌面生產力流程。",
+      "from_file": "output/2026/04/18.md"
+    },
+    {
+      "date": "2026-04-18",
+      "title": "AI Mode 進 Chrome，Google 想把搜尋與瀏覽器真正合成一個介面",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "AI Mode in Chrome side-by-side browsing with tabs files and images context",
+      "fingerprint": "Google|ai-mode-chrome-side-by-side-browsing|2026-04-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "AI Mode 從搜尋結果走進真實瀏覽流程"
+      },
+      "summary": "Google 為 Chrome 加入 side-by-side AI Mode，讓使用者能一邊看網頁、一邊延續 AI 搜尋對話，還能把分頁、圖片與 PDF 一起丟進查詢，明顯朝代理式瀏覽體驗前進。",
+      "from_file": "output/2026/04/18.md"
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Claude Design 上線，Anthropic 把視覺設計流程也交給 Claude",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude Design visual design and prototype creation workflow in Anthropic Labs",
+      "fingerprint": "Anthropic|claude-design-visual-design-workflow|2026-04-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "Claude 從寫作與 coding 擴張到視覺設計工作流"
+      },
+      "summary": "Anthropic 推出 Claude Design，讓使用者能用對話方式產生 prototype、簡報與 one-pager，還能讀取設計系統、匯出 PDF、PPTX 與 HTML，接著交棒給 Claude Code 實作。",
+      "from_file": "output/2026/04/18.md"
+    },
+    {
+      "date": "2026-04-18",
+      "title": "GitHub CLI 新增 gh skill，代理技能開始有了套件管理器味道",
+      "url": "https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli",
+      "source": "github.blog",
+      "company": "GitHub",
+      "topic": "gh skill command for discovering installing pinning and publishing agent skills",
+      "fingerprint": "GitHub|gh-skill-agent-skills-cli|2026-04-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "代理技能首次進入可搜尋可版本鎖定的 CLI 流程"
+      },
+      "summary": "GitHub 在 CLI 加入 gh skill 指令，支援搜尋、安裝、版本鎖定、更新與發佈 agent skills，等於把跨代理工作流的可攜指令包往更正式的供應鏈管理推進。",
+      "from_file": "output/2026/04/18.md"
     }
   ],
   "reason_picked_schema": {
