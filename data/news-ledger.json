@@ -2811,6 +2811,121 @@
       },
       "summary": "GitHub 在 CLI 加入 gh skill 指令，支援搜尋、安裝、版本鎖定、更新與發佈 agent skills，等於把跨代理工作流的可攜指令包往更正式的供應鏈管理推進。",
       "from_file": "output/2026/04/18.md"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "GPT-Rosalind 登場，OpenAI 開始把生命科學研究拆成專用推理模型",
+      "url": "https://openai.com/index/introducing-gpt-rosalind/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "GPT-Rosalind life sciences research model and Codex plugin",
+      "fingerprint": "OpenAI|gpt-rosalind-life-sciences-research-model|2026-04-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "healthcare",
+          "workflow_automation"
+        ],
+        "note": "生命科學專用模型與科學工具鏈首次一起發布"
+      },
+      "summary": "OpenAI 發表 GPT-Rosalind，鎖定生物、藥物研發與轉譯醫學流程，並同步提供可串接 50+ 科學工具與資料源的 Codex plugin，明顯想把科學研究工作流做成專用 AI 基礎設施。",
+      "from_file": "output/2026/04/19.md"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "Cerebras 重啟赴美 IPO，AI 推論晶片第二條路線開始被資本市場正視",
+      "url": "https://www.reuters.com/technology/nvidia-rival-cerebras-reveals-us-ipo-filing-ai-boom-drives-listings-2026-04-17/",
+      "source": "reuters.com",
+      "company": "Cerebras",
+      "topic": "Cerebras US IPO filing and OpenAI inference deployment deal",
+      "fingerprint": "Cerebras|us-ipo-filing-openai-inference-deployment|2026-04-17",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "IPO 文件讓推論晶片路線與 OpenAI 大單細節正式浮出"
+      },
+      "summary": "Cerebras 披露美國 IPO 文件，主打避開 HBM 瓶頸的架構與推論市場，還揭露與 OpenAI 的 200 億美元多年合作，顯示 AI 晶片競局不再只有 Nvidia 一種敘事。",
+      "from_file": "output/2026/04/19.md"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "OpenAI 擴大 Trusted Access for Cyber，把前沿模型直接交到防禦方手上",
+      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "Trusted Access for Cyber expansion with grants and enterprise defenders",
+      "fingerprint": "OpenAI|trusted-access-for-cyber-expansion|2026-04-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "首批防禦方名單與 1000 萬美元資安補助同步落地"
+      },
+      "summary": "OpenAI 公布首批 Trusted Access for Cyber 參與者，涵蓋金融與資安大廠，另投入 1000 萬美元 API credits 給漏洞研究與開源安全團隊，想把先進模型優先導向防守端的真實部署。",
+      "from_file": "output/2026/04/19.md"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "白宮與 Anthropic 直接談 Mythos，AI 網安能力開始進入國安級協調模式",
+      "url": "https://apnews.com/article/white-house-anthropic-meeting-ai-mythos-f3c590fcee98297832973d02d3979c87",
+      "source": "apnews.com",
+      "company": "Anthropic",
+      "topic": "White House meeting on Anthropic Mythos cyber model",
+      "fingerprint": "Anthropic|white-house-meeting-mythos-cyber-model|2026-04-17",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "Mythos 風險討論從監管關切升級到白宮協調"
+      },
+      "summary": "Anthropic CEO Dario Amodei 與白宮幕僚長會面，討論 Mythos 的資安能力、政府使用評估與安全邊界；這代表最強模型的風險討論，已從實驗室內部升級到政策層級。",
+      "from_file": "output/2026/04/19.md"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "DeepSeek 傳以 100 億美元估值募資，中國前沿模型也進入高資本消耗戰",
+      "url": "https://www.reuters.com/world/china/chinas-deepseek-is-raising-funds-10-billion-valuation-information-reports-2026-04-17/",
+      "source": "reuters.com",
+      "company": "DeepSeek",
+      "topic": "DeepSeek fundraising at 10 billion valuation for frontier AI scale-up",
+      "fingerprint": "DeepSeek|fundraising-10-billion-valuation-frontier-ai|2026-04-17",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "finance"
+        ],
+        "note": "低成本模型代表也開始正面承擔前沿 AI 的募資壓力"
+      },
+      "summary": "Reuters 引述報導指出，DeepSeek 正洽談至少 3 億美元募資，估值上看 100 億美元；低成本模型神話之後，市場開始重新面對推理模型與 agent 系統背後的資本需求。",
+      "from_file": "output/2026/04/19.md"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "Anthropic 開新一輪 bug bounty，直接拿未公開安全防線給紅隊找 universal jailbreak",
+      "url": "https://www.anthropic.com/news/testing-our-safety-defenses-with-a-new-bug-bounty-program",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic ASL-3 bug bounty for constitutional classifiers jailbreaks",
+      "fingerprint": "Anthropic|asl3-bug-bounty-constitutional-classifiers|2026-04-19",
+      "section": "tools",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "未公開安全分類器開放紅隊壓測並設最高 2.5 萬美元獎勵"
+      },
+      "summary": "Anthropic 與 HackerOne 合作，讓研究者提前測試新版 Constitutional Classifiers，並為可穩定繞過防線的 jailbreak 提供最高 2.5 萬美元獎勵，顯示模型安全驗證正越來越像正式化的工程流程。",
+      "from_file": "output/2026/04/19.md"
     }
   ],
   "reason_picked_schema": {
