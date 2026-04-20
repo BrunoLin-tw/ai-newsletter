@@ -2926,6 +2926,99 @@
       },
       "summary": "Anthropic 與 HackerOne 合作，讓研究者提前測試新版 Constitutional Classifiers，並為可穩定繞過防線的 jailbreak 提供最高 2.5 萬美元獎勵，顯示模型安全驗證正越來越像正式化的工程流程。",
       "from_file": "output/2026/04/19.md"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "IBM 推出 Autonomous Security，想把多代理防禦拉進企業資安主流程",
+      "url": "https://newsroom.ibm.com/2026-04-15-ibm-announces-new-cybersecurity-measures-to-help-enterprises-confront-agentic-attacks",
+      "source": "newsroom.ibm.com",
+      "company": "IBM",
+      "topic": "IBM Autonomous Security and enterprise assessments for agentic attacks",
+      "fingerprint": "IBM|autonomous-security-agentic-attacks|2026-04-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "多代理防禦服務直接瞄準 agentic attacks"
+      },
+      "summary": "IBM 新增針對 frontier model 威脅的企業評估服務，並推出可跨工具協同決策與回應的 Autonomous Security，代表企業資安也開始轉向 agent 對 agent 的防禦架構。",
+      "from_file": "output/2026/04/20.md"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "IBM 與 UIUC 擴大 Discovery Accelerator，把量子與 DeltaAI 串成同一套研究底座",
+      "url": "https://newsroom.ibm.com/2026-04-16-IBM-and-the-University-of-Illinois-Urbana-Champaign-Expand-Discovery-Accelerator-Institute-to-Advance-AI-and-Quantum-Computing",
+      "source": "newsroom.ibm.com",
+      "company": "IBM/UIUC",
+      "topic": "IBM UIUC Discovery Accelerator expansion for quantum-centric supercomputing and AI systems",
+      "fingerprint": "IBM UIUC|discovery-accelerator-quantum-centric-supercomputing-expansion|2026-04-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "把量子電腦與 Delta、DeltaAI 串進同一研究環境"
+      },
+      "summary": "IBM 與伊利諾大學把量子電腦接上 Delta 與 DeltaAI 超算，並同步擴充 AI systems 與專用晶矽設計研究，讓量子中心超算從概念走向可持續的研究基礎設施。",
+      "from_file": "output/2026/04/20.md"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Avid 聯手 Google Cloud，把 agentic AI 直接塞進影視後製工作流",
+      "url": "https://www.googlecloudpresscorner.com/2026-04-16-Avid-and-Google-Cloud-Announce-Partnership-to-Bring-Agentic-AI-to-Media-Production",
+      "source": "googlecloudpresscorner.com",
+      "company": "Avid/Google Cloud",
+      "topic": "Avid Google Cloud partnership for agentic AI media production workflows",
+      "fingerprint": "Avid|google-cloud-agentic-ai-media-production|2026-04-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "Gemini 與 Vertex AI 直接進入 Media Composer 與 Content Core"
+      },
+      "summary": "Avid 將 Gemini 與 Vertex AI 接進 Media Composer 和 Content Core，讓影片搜尋、metadata logging、B-roll 生成與時間軸補齊開始進入可對話、可代理的後製流程。",
+      "from_file": "output/2026/04/20.md"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Meta 在 EU/UK 推出相簿 AI 建議，讓 Facebook 開始主動幫你整理可分享內容",
+      "url": "https://about.fb.com/news/2026/04/now-rolling-out-facebooks-opt-in-camera-roll-suggestions-in-the-eu-and-uk/",
+      "source": "about.fb.com",
+      "company": "Meta",
+      "topic": "Facebook opt-in AI camera roll suggestions rollout in EU and UK",
+      "fingerprint": "Meta|facebook-camera-roll-ai-suggestions-eu-uk|2026-04-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [],
+        "note": "EU 與英國正式開放 opt-in 相簿 AI 建議功能"
+      },
+      "summary": "Meta 讓 Facebook 在歐盟與英國開始分析使用者授權的相簿內容，自動提出 collage、編輯與分享建議，顯示消費級 AI 助理正往更主動的內容整理介面前進。",
+      "from_file": "output/2026/04/20.md"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "GitHub 讓 Copilot cloud agent 能按組織分批開放，企業導入開始更像正式治理",
+      "url": "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties/",
+      "source": "github.blog",
+      "company": "GitHub",
+      "topic": "GitHub Copilot cloud agent selective enablement by organization custom properties",
+      "fingerprint": "GitHub|copilot-cloud-agent-custom-properties|2026-04-20",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "企業可按組織與政策分階段放行 Copilot cloud agent"
+      },
+      "summary": "GitHub 新增以 custom properties 與 API 管理 Copilot cloud agent 的能力，讓大型企業可以先小範圍試行、再逐步擴張，不必再在全開與全關之間二選一。",
+      "from_file": "output/2026/04/20.md"
     }
   ],
   "reason_picked_schema": {
