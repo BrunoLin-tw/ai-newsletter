@@ -3019,6 +3019,121 @@
       },
       "summary": "GitHub 新增以 custom properties 與 API 管理 Copilot cloud agent 的能力，讓大型企業可以先小範圍試行、再逐步擴張，不必再在全開與全關之間二選一。",
       "from_file": "output/2026/04/20.md"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Anthropic 與 Amazon 把 Claude 算力合約直接拉到 5GW，AWS 也要原生提供完整 Claude Platform",
+      "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "source": "anthropic.com",
+      "company": "Anthropic/Amazon",
+      "topic": "Anthropic Amazon 5GW Trainium compute and Claude Platform on AWS",
+      "fingerprint": "Anthropic|amazon-5gw-trainium-claude-platform|2026-04-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "5GW Trainium 算力與 AWS 原生平台同步落地"
+      },
+      "summary": "Anthropic 與 Amazon 把合作擴大到未來十年的 5GW Trainium／Graviton 容量，還要把完整 Claude Platform 直接放進 AWS 帳號與治理體系，等於同時補算力瓶頸與企業導入摩擦。",
+      "from_file": "output/2026/04/21.md"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "NVIDIA 砸 20 億美元押注 Nebius，全棧 AI cloud 目標直指 5GW",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Nebius-Partner-to-Scale-Full-Stack-AI-Cloud/default.aspx",
+      "source": "investor.nvidia.com",
+      "company": "NVIDIA/Nebius",
+      "topic": "NVIDIA Nebius full-stack AI cloud partnership and 5GW capacity roadmap",
+      "fingerprint": "NVIDIA|nebius-full-stack-ai-cloud-5gw-roadmap|2026-03-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "20 億美元投資把 AI cloud 競爭拉向全棧與 GW 級擴張"
+      },
+      "summary": "NVIDIA 對 Nebius 投下 20 億美元，合作從 AI factory 架構一路延伸到推論與生產軟體，顯示下一波 AI 基建競賽不只比 GPU，也比誰能更快把完整雲端堆疊擴到 GW 級。",
+      "from_file": "output/2026/04/21.md"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Google 傳與 Pentagon 談 Gemini 機密部署，還想把軍用邊界寫進合約",
+      "url": "https://www.reuters.com/technology/google-pentagon-discuss-classified-ai-deal-information-reports-2026-04-16/",
+      "source": "reuters.com",
+      "company": "Google/DoD",
+      "topic": "Google Pentagon talks for Gemini deployment in classified environments with contractual guardrails",
+      "fingerprint": "Google|pentagon-classified-gemini-talks-guardrails|2026-04-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "Gemini 首度逼近機密環境部署且附軍用限制條款"
+      },
+      "summary": "Reuters 引述 The Information 指出 Google 正和美國國防部談 Gemini 在機密環境的部署，並提議把「不得用於國內大規模監控、不得在無適當人控下用於自主武器」寫進條款，凸顯前沿模型正加速進入國安場景。",
+      "from_file": "output/2026/04/21.md"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Google 把 Gemini 與 NotebookLM 串成 Notebooks，想讓長任務終於有共享記憶",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Notebooks in Gemini sync with NotebookLM as shared project knowledge base",
+      "fingerprint": "Google|gemini-notebooks-notebooklm-shared-knowledge-base|2026-04-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Gemini 開始具備跨對話與跨產品的專案記憶層"
+      },
+      "summary": "Google 推出 Notebooks in Gemini，把聊天、檔案與自訂指令整理成可同步到 NotebookLM 的共享知識庫，讓研究型或長週期任務不再被單次對話切斷。",
+      "from_file": "output/2026/04/21.md"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "GitHub Copilot CLI 開放 BYOK 與本地模型，終端代理可直接跑進 air-gapped 環境",
+      "url": "https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models/",
+      "source": "github.blog",
+      "company": "GitHub",
+      "topic": "Copilot CLI BYOK local models and offline air-gapped operation",
+      "fingerprint": "GitHub|copilot-cli-byok-local-models-offline|2026-04-07",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "BYOK、本地模型與離線模式一次補齊"
+      },
+      "summary": "GitHub 讓 Copilot CLI 可直接改接自家 provider、Ollama、vLLM 等本地模型，還支援完全離線模式與免 GitHub 驗證，讓受管制或內網環境也能用同一套 agentic 終端流程。",
+      "from_file": "output/2026/04/21.md"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Amazon Bedrock 新增細粒度成本歸因，企業終於能把 token 帳單追到人",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-granular-cost-attribution-for-amazon-bedrock/",
+      "source": "aws.amazon.com",
+      "company": "AWS",
+      "topic": "Amazon Bedrock granular cost attribution by IAM principal",
+      "fingerprint": "AWS|bedrock-granular-cost-attribution-iam-principal|2026-04-17",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "finance",
+          "official_source"
+        ],
+        "note": "把 inference 成本直接對到 IAM 與成本中心"
+      },
+      "summary": "Amazon Bedrock 現在可把 inference 成本自動歸到 IAM principal，搭配 cost allocation tags 後能直接做團隊、專案或租戶級別的 chargeback，讓企業治理 AI 成本終於更接近雲端原生做法。",
+      "from_file": "output/2026/04/21.md"
     }
   ],
   "reason_picked_schema": {
