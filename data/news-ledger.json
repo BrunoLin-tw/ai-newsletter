@@ -3134,6 +3134,125 @@
       },
       "summary": "Amazon Bedrock 現在可把 inference 成本自動歸到 IAM principal，搭配 cost allocation tags 後能直接做團隊、專案或租戶級別的 chargeback，讓企業治理 AI 成本終於更接近雲端原生做法。",
       "from_file": "output/2026/04/21.md"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Microsoft 一口氣釋出 3 個 MAI 模型，正式把自研語音與影像能力推進 Foundry",
+      "url": "https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/",
+      "source": "microsoft.ai",
+      "company": "Microsoft",
+      "topic": "MAI model family launch in Foundry with transcribe voice and image generation",
+      "fingerprint": "Microsoft|mai-model-family-foundry-transcribe-voice-image|2026-04-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "一次釋出轉錄、語音、影像三個 MAI 模型並公布價格"
+      },
+      "summary": "Microsoft 同步推出 MAI-Transcribe-1、MAI-Voice-1 與 MAI-Image-2，主打更低延遲、可直接商用，以及能在同一平台上處理轉錄、語音生成與圖像生成。",
+      "from_file": "output/2026/04/22.md"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Google 推出 Deep Research Max，讓 Gemini API 的研究代理開始有真正長任務能力",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Deep Research Max in Gemini API with MCP native charts and long-horizon research workflows",
+      "fingerprint": "Google|deep-research-max-gemini-api-mcp-native-charts|2026-04-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Deep Research Max 首次把 MCP 與原生圖表帶進 Gemini API"
+      },
+      "summary": "新版 Deep Research 與 Deep Research Max 支援 MCP、原生圖表與多資料源編排，研究流程不再只是摘要搜尋，而是更接近可交付的分析工作流。",
+      "from_file": "output/2026/04/22.md"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Meta 在 Tulsa 動工 AI 專用資料中心，下一輪算力擴張直接綁定基建與冷卻系統",
+      "url": "https://about.fb.com/news/2026/04/breaking-ground-new-ai-optimized-data-center-tulsa-oklahoma/",
+      "source": "about.fb.com",
+      "company": "Meta",
+      "topic": "Tulsa AI-optimized Meta data center ground breaking with regional infrastructure investment",
+      "fingerprint": "Meta|tulsa-ai-optimized-data-center-groundbreaking|2026-04-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "AI 專用資料中心正式落地 Tulsa，投資規模逾 10 億美元"
+      },
+      "summary": "這座新設施將成為 Meta 在 Oklahoma 的首座資料中心，總投資超過 10 億美元，也反映 AI 擴產競賽已從晶片採購走向完整電力與資料中心布局。",
+      "from_file": "output/2026/04/22.md"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "OpenAI 啟動 Codex Labs，準備把 Codex 從試點工具推向全球企業軟體團隊",
+      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "Codex Labs and global systems integrator partnerships for enterprise software deployment",
+      "fingerprint": "OpenAI|codex-labs-enterprise-gsi-deployment|2026-04-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Codex 開始透過 GSI 夥伴大規模導入企業軟體團隊"
+      },
+      "summary": "OpenAI 這次不只自己下場做導入，也找來 Accenture、Capgemini、Infosys 等整合商，想把 Codex 直接塞進大型組織的正式開發流程。",
+      "from_file": "output/2026/04/22.md"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Claude Cowork 現在可直接跑在 Amazon Bedrock，企業桌面代理開始更像標準 IT 採購項目",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/",
+      "source": "aws.amazon.com",
+      "company": "AWS/Anthropic",
+      "topic": "Claude Cowork in Amazon Bedrock with enterprise governance and consumption billing",
+      "fingerprint": "AWS Anthropic|claude-cowork-bedrock-enterprise-governance|2026-04-21",
+      "section": "tools",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Claude Cowork 首次以 Bedrock 與 AWS 帳務模式進入企業桌面工作流"
+      },
+      "summary": "AWS 把 Claude Cowork 接進 Bedrock、IAM、CloudTrail 與資料駐留控制，讓知識工作者也能用桌面代理，但仍留在既有 AWS 治理框架裡。",
+      "from_file": "output/2026/04/22.md"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Stability AI 推出 Brand Studio，把品牌規範、模型路由與精準編修整合成創意生產平台",
+      "url": "https://stability.ai/news-updates/brand-studio-by-stability-ai-creative-production-platform-for-brands",
+      "source": "stability.ai",
+      "company": "Stability AI",
+      "topic": "Brand Studio platform for on-brand creative production with model routing and precision editing",
+      "fingerprint": "Stability AI|brand-studio-on-brand-creative-production|2026-04-08",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "把品牌規範、模型路由與精準編修包成同一套平台"
+      },
+      "summary": "對行銷與設計團隊來說，Brand Studio 的重點不只是生成圖片，而是把 Brand ID、Campaign 與編修流程一起制度化，降低「做得出來但不像品牌」的問題。",
+      "from_file": "output/2026/04/22.md"
     }
   ],
   "reason_picked_schema": {
