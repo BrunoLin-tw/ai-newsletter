@@ -3253,6 +3253,106 @@
       },
       "summary": "對行銷與設計團隊來說，Brand Studio 的重點不只是生成圖片，而是把 Brand ID、Campaign 與編修流程一起制度化，降低「做得出來但不像品牌」的問題。",
       "from_file": "output/2026/04/22.md"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "AWS 用 Parakeet-TDT + Batch 把多語轉錄成本壓到近乎零摩擦",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cost-effective-multilingual-audio-transcription-at-scale-with-parakeet-tdt-and-aws-batch/",
+      "source": "aws.amazon.com",
+      "company": "AWS/NVIDIA",
+      "topic": "Parakeet-TDT multilingual transcription pipeline on AWS Batch at ultra-low cost",
+      "fingerprint": "AWS NVIDIA|parakeet-tdt-multilingual-transcription-aws-batch|2026-04-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "把自託管多語 ASR 成本壓到 Spot 每分鐘 0.00005 美元級"
+      },
+      "summary": "AWS 用 Parakeet-TDT、AWS Batch 與 L4 GPU 做出可隨 S3 事件啟動的多語轉錄管線，主打 scale-to-zero 與超低單位成本，讓大量音訊處理更接近基礎設施問題而不是 SaaS 採購問題。",
+      "from_file": "output/2026/04/23.md"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "SageMaker 開始直接幫你試出 GenAI 推理最佳配置",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations/",
+      "source": "aws.amazon.com",
+      "company": "AWS",
+      "topic": "SageMaker automated generative AI inference benchmarking and deployment recommendations",
+      "fingerprint": "AWS|sagemaker-genai-inference-recommendations|2026-04-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "把推理調參從數週手工測試縮到幾小時自動評測"
+      },
+      "summary": "SageMaker 新增 generative AI inference recommendations，能按成本、延遲或吞吐目標自動縮小配置空間、跑 AIPerf 基準，直接回傳可部署的 GPU 推理建議。",
+      "from_file": "output/2026/04/23.md"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Amazon Bedrock AgentCore 想把「第一個可用 agent」時間縮到分鐘級",
+      "url": "https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore/",
+      "source": "aws.amazon.com",
+      "company": "AWS",
+      "topic": "Bedrock AgentCore managed harness CLI durable filesystem and coding skills for agent deployment",
+      "fingerprint": "AWS|bedrock-agentcore-managed-harness-cli-filesystem|2026-04-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "三次 API 呼叫就能起一個 agent，還補上 CLI 與可持久化檔案系統"
+      },
+      "summary": "AWS 為 Bedrock AgentCore 補上 managed harness、CLI、持久化 agent filesystem 與 coding agent skills，讓團隊先驗證 agent 工作流，再視需求往自訂 orchestration 擴展。",
+      "from_file": "output/2026/04/23.md"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "GitHub 把 Copilot for Jira 從接單助手推向可客製的雲端代理",
+      "url": "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements/",
+      "source": "github.blog",
+      "company": "GitHub",
+      "topic": "GitHub Copilot for Jira adds custom agents fields branching rules and space-level instructions",
+      "fingerprint": "GitHub|copilot-for-jira-custom-agents-fields-branching|2026-04-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "workflow_automation",
+          "official_source"
+        ],
+        "note": "這次不是單純整合上架，而是把自訂 agent 與 Jira 規則直接拉進工作流"
+      },
+      "summary": "GitHub 讓 Copilot for Jira 讀取 custom fields、branching rules 與 space-level instructions，也能從 ticket 指定 custom agent，代表 cloud agent 開始更深地吃進既有專案治理規則。",
+      "from_file": "output/2026/04/23.md"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "GitHub 終於把 Copilot code review 的採用數字拆給管理者看",
+      "url": "https://github.blog/changelog/2026-04-22-copilot-code-review-user-counts-now-aggregate-in-usage-metrics-api/",
+      "source": "github.blog",
+      "company": "GitHub",
+      "topic": "Copilot usage metrics API adds aggregated active and passive code review user counts",
+      "fingerprint": "GitHub|copilot-code-review-usage-metrics-active-passive-users|2026-04-23",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation",
+          "official_source"
+        ],
+        "note": "企業管理者終於能分開看 code review 的主動與被動使用量"
+      },
+      "summary": "GitHub 在 Copilot usage metrics API 補上 code review 的 active/passive user counts，讓企業能更精準追蹤自動 code review 到底是被政策推動，還是真的被工程師採用。",
+      "from_file": "output/2026/04/23.md"
     }
   ],
   "reason_picked_schema": {
