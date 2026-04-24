@@ -3353,6 +3353,107 @@
       },
       "summary": "GitHub 在 Copilot usage metrics API 補上 code review 的 active/passive user counts，讓企業能更精準追蹤自動 code review 到底是被政策推動，還是真的被工程師採用。",
       "from_file": "output/2026/04/23.md"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "GPT-5.5 + GB200 正式進入 Codex 企業場景，NVIDIA 已先在內部大規模實戰",
+      "url": "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA/OpenAI",
+      "topic": "GPT-5.5 powered Codex on NVIDIA GB200 NVL72 with enterprise internal deployment",
+      "fingerprint": "NVIDIA OpenAI|gpt-5-5-codex-gb200-enterprise-deployment|2026-04-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "前沿模型推理成本與內部實戰採用一起落地"
+      },
+      "summary": "NVIDIA 表示 GPT-5.5 版 Codex 已跑在 GB200 NVL72 上，內部超過 10,000 名員工開始實際使用，並宣稱相較前代可把每百萬 token 成本壓低 35 倍、每兆瓦輸出速度提升 50 倍。",
+      "from_file": "output/2026/04/24.md"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "GPT-5.4 在座標理解上幾乎補完工程 workaround，Foundry 實測 IoU 直衝 0.997",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/gpt-capability-in-understanding-coordinates-how-gpt-5-4-transforms-spatial-preci/4506726",
+      "source": "techcommunity.microsoft.com",
+      "company": "Microsoft/OpenAI",
+      "topic": "GPT-5.4 spatial coordinate and bounding-box precision leap in Microsoft Foundry benchmark",
+      "fingerprint": "Microsoft OpenAI|gpt-5-4-spatial-coordinate-benchmark-foundry|2026-04-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "空間定位能力從原型級直接逼近可上線水準"
+      },
+      "summary": "Microsoft Foundry 團隊用電力圖面邊界框任務回測 GPT-5.4，指出同一工作在 IoU 上從 GPT-5.2 的 0.765 拉到 0.997，連先前必備的座標格線與多輪修正流程都大幅簡化。",
+      "from_file": "output/2026/04/24.md"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "GitHub 把 PR 對話升級成真正能讀 diff 的 Copilot reviewer",
+      "url": "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests",
+      "source": "github.blog",
+      "company": "GitHub",
+      "topic": "Copilot Chat pull request diff-aware context and review capabilities",
+      "fingerprint": "GitHub|copilot-chat-pull-request-diff-aware-review|2026-04-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "PR 問答正式吃進 diff 與 review 場景上下文"
+      },
+      "summary": "GitHub 讓 Copilot Chat 在 pull request 場景提供更完整的 diff 與 PR 上下文，也新增更貼近 review 流程的建議提示，讓開發者能直接對變更集追問與釐清。",
+      "from_file": "output/2026/04/24.md"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "GitHub 讓雲端代理 session 直接出現在 issue 與 project，代理治理開始內嵌進工作流",
+      "url": "https://github.blog/changelog/2026-04-23-view-and-manage-agent-sessions-from-issues-and-projects",
+      "source": "github.blog",
+      "company": "GitHub",
+      "topic": "Cloud agent session management directly from issues and projects",
+      "fingerprint": "GitHub|cloud-agent-sessions-in-issues-and-projects|2026-04-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把代理執行狀態直接拉回 issue 與 project 主畫面"
+      },
+      "summary": "現在使用者可直接在 issues 與 projects 裡查看、追蹤與引導 GitHub cloud agent session，不用跳離原本的任務管理介面就能掌握代理進度。",
+      "from_file": "output/2026/04/24.md"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Microsoft 把保險事前授權多代理流程做成 Foundry 範本，醫療行政自動化開始可一鍵部署",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/automate-prior-authorization-with-ai-agents---now-available-as-a-foundry-templat/4513432",
+      "source": "techcommunity.microsoft.com",
+      "company": "Microsoft",
+      "topic": "Prior authorization multi-agent solution accelerator as Microsoft Foundry template",
+      "fingerprint": "Microsoft|prior-authorization-multi-agent-foundry-template|2026-04-24",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "healthcare",
+          "workflow_automation"
+        ],
+        "note": "把高摩擦醫療審核流程包成可部署的四代理範本"
+      },
+      "summary": "Microsoft 把醫療保險 prior authorization 流程做成 Foundry template，內建四個專責代理、人工覆核與稽核軌跡，並宣稱在合成案例中可把單案審查壓到 5 分鐘內。",
+      "from_file": "output/2026/04/24.md"
     }
   ],
   "reason_picked_schema": {
