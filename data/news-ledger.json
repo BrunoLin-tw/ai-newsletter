@@ -3454,6 +3454,96 @@
       },
       "summary": "Microsoft 把醫療保險 prior authorization 流程做成 Foundry template，內建四個專責代理、人工覆核與稽核軌跡，並宣稱在合成案例中可把單案審查壓到 5 分鐘內。",
       "from_file": "output/2026/04/24.md"
+    },
+    {
+      "date": "2026-04-25",
+      "title": "GitHub Copilot 正式開放 GPT-5.5",
+      "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+      "source": "github.blog",
+      "company": "GitHub",
+      "topic": "GPT-5.5 general availability in GitHub Copilot",
+      "fingerprint": "GitHub|gpt-5-5-general-availability-copilot|2026-04-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "GPT-5.5 正式進入 Copilot 並鎖定 agentic coding 場景"
+      },
+      "summary": "GitHub 將 GPT-5.5 正式推進 Copilot Pro+、Business 與 Enterprise，主打複雜多步編碼任務與更強代理式工作流，但目前仍採 7.5 倍 premium request multiplier 並需管理員另行開啟政策。",
+      "from_file": "output/2026/04/25.md"
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Thinking Machines 反向從 Meta 挖角，還搶到 Google GB300 算力",
+      "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
+      "source": "techcrunch.com",
+      "company": "Thinking Machines Lab",
+      "topic": "Thinking Machines Lab recruits Meta talent and secures early GB300 cloud capacity",
+      "fingerprint": "Thinking Machines Lab|meta-talent-and-gb300-cloud-capacity|2026-04-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "Meta 挖角戰升級，TML 同步拿到 Google GB300 雲資源"
+      },
+      "summary": "Thinking Machines Lab 持續從 Meta 吸走關鍵研究人才，同時拿下 Google 多十億美元雲端合約與 GB300 早期算力，顯示新前沿實驗室正同步擴張人力與先進 GPU 資源。",
+      "from_file": "output/2026/04/25.md"
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Google 傳將再砸最多 400 億美元投資 Anthropic",
+      "url": "https://www.reuters.com/business/google-plans-invest-up-40-billion-anthropic-bloomberg-news-reports-2026-04-24/",
+      "source": "reuters.com",
+      "company": "Google/Anthropic",
+      "topic": "Google plans up to 40 billion dollar investment in Anthropic",
+      "fingerprint": "Google Anthropic|google-up-to-40b-investment-in-anthropic|2026-04-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "AWS 5GW 合作後再添 Google 分階段巨額資本"
+      },
+      "summary": "Reuters 引述 Bloomberg 指出 Google 擬先投入 100 億美元、後續視績效再加碼 300 億美元，讓 Anthropic 在 Amazon 擴大算力合作後，又疊上另一層 hyperscaler 資本與基礎設施支持。",
+      "from_file": "output/2026/04/25.md"
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Cohere 併購 Aleph Alpha，押注主權 AI 市場",
+      "url": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
+      "source": "techcrunch.com",
+      "company": "Cohere/Aleph Alpha",
+      "topic": "Cohere and Aleph Alpha merger for sovereign enterprise AI",
+      "fingerprint": "Cohere Aleph Alpha|sovereign-enterprise-ai-merger|2026-04-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [],
+        "note": "跨加拿大與德國合併直攻主權 AI 與政府市場"
+      },
+      "summary": "Cohere 將與 Aleph Alpha 合併，鎖定企業與政府對資料主權、在地治理與非矽谷供應商的需求；外部報導稱新公司估值可達 200 億美元，Schwarz Group 也將再加碼 Cohere。",
+      "from_file": "output/2026/04/25.md"
+    },
+    {
+      "date": "2026-04-25",
+      "title": "ComfyUI 估值衝上 5 億美元，生成式創作開始回到可控工作流",
+      "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+      "source": "techcrunch.com",
+      "company": "ComfyUI",
+      "topic": "ComfyUI funding reflects demand for controllable node-based generative media workflows",
+      "fingerprint": "ComfyUI|controllable-node-based-generative-media-workflows|2026-04-25",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "創作者工作流從 prompt 轉向節點式精修工具"
+      },
+      "summary": "ComfyUI 完成 3,000 萬美元融資、估值達 5 億美元，反映生成式內容工作流正從一次性 prompt 轉向可重現、可編修、可控的人在迴圈節點式工具。",
+      "from_file": "output/2026/04/25.md"
     }
   ],
   "reason_picked_schema": {
