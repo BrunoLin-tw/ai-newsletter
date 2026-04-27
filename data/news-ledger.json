@@ -3544,6 +3544,79 @@
       },
       "summary": "ComfyUI 完成 3,000 萬美元融資、估值達 5 億美元，反映生成式內容工作流正從一次性 prompt 轉向可重現、可編修、可控的人在迴圈節點式工具。",
       "from_file": "output/2026/04/25.md"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "DeepSeek V4 支援華為 Ascend 晶片 — 中國 AI 自主可控關鍵一步",
+      "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+      "source": "technologyreview.com",
+      "company": "DeepSeek",
+      "topic": "DeepSeek V4 Huawei Ascend chip support",
+      "fingerprint": "DeepSeek|v4-huawei-ascend-chip|2026-04-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source",
+          "new_market"
+        ],
+        "note": "首個針對華為晶片優化的旗艦模型，支援國產 AI 供應鏈"
+      },
+      "summary": "DeepSeek 發布 V4 模型預覽版，首度針對華為 Ascend 晶片優化，標誌中國 AI 供應鏈擺脫 Nvidia 依賴的重大里程碑。V4-Pro 與 V4-Flash 兩個版本皆開源，支援 100 萬 token 超長上下文，效能與 Claude Opus 4.6、GPT-5.4 與 Gemini 3.1 匹敵。",
+      "from_file": "output/2026/04/27.md"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "SpaceX 宣布 600 億美元收購 Cursor 選擇權",
+      "url": "https://finance.yahoo.com/markets/article/spacex-strikes-60-billion-deal-for-the-right-to-buy-ai-coding-startup-cursor-143350832.html",
+      "source": "finance.yahoo.com",
+      "company": "SpaceX/Cursor",
+      "topic": "SpaceX Cursor $60B acquisition option",
+      "fingerprint": "SpaceX|cursor-60b-acquisition-option|2026-04-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [],
+        "note": "AI 編碼工具史上最大併購談判"
+      },
+      "summary": "SpaceX 與 AI 編碼工具製造商 Cursor 達成協議，獲得今年稍後收購該新創的選擇權，交易價值 600 億美元。若未能收購，SpaceX 將支付 100 億美元與 Cursor 合作開發 AI。",
+      "from_file": "output/2026/04/27.md"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Jeff Bezos AI 實驗室 Project Prometheus 估值 380 億美元",
+      "url": "https://www.reuters.com/technology/jeff-bezos-ai-lab-nears-38-billion-valuation-funding-deal-ft-reports-2026-04-21/",
+      "source": "reuters.com",
+      "company": "Jeff Bezos/Project Prometheus",
+      "topic": "Project Prometheus $38B valuation",
+      "fingerprint": "Jeff Bezos|project-prometheus-38b-valuation|2026-04-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "Bezos 個人 AI 專案估值飆升"
+      },
+      "summary": "亞馬遜創辦人 Jeff Bezos 的 AI 新創 Project Prometheus 即將完成 100 億美元融資，估值達 380 億美元。這是最新一個由科技巨頭創辦人親自出馬的 AI 專案。",
+      "from_file": "output/2026/04/27.md"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Era 募資 1100 萬美元打造 AI 裝置軟體平台",
+      "url": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
+      "source": "techcrunch.com",
+      "company": "Era",
+      "topic": "Era $11M AI gadgets software platform",
+      "fingerprint": "Era|ai-gadgets-software-platform-11m|2026-04-27",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "AI 硬體軟體生態新融資"
+      },
+      "summary": "新創 Era 宣布獲得 1100 萬美元融資，專注為 AI 硬體裝置開發軟體平台。投資者包括 Abstract Ventures、BoxGroup、Collaborative Fund 與 Mozilla Ventures。",
+      "from_file": "output/2026/04/27.md"
     }
   ],
   "reason_picked_schema": {
