@@ -3617,6 +3617,97 @@
       },
       "summary": "新創 Era 宣布獲得 1100 萬美元融資，專注為 AI 硬體裝置開發軟體平台。投資者包括 Abstract Ventures、BoxGroup、Collaborative Fund 與 Mozilla Ventures。",
       "from_file": "output/2026/04/27.md"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Microsoft 與 OpenAI 重修合作關係 — 移除獨家授權與 AGI 條款",
+      "url": "https://openai.com/index/next-phase-of-microsoft-partnership/",
+      "source": "openai.com",
+      "company": "Microsoft/OpenAI",
+      "topic": "Microsoft OpenAI partnership revised non-exclusive",
+      "fingerprint": "Microsoft|OpenAI-partnership-revised|2026-04-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "移除獨家授權，OpenAI 可與 AWS 合作"
+      },
+      "summary": "微軟與 OpenAI 達成重大協議修訂，移除多年獨家授權約束。OpenAI 產品現可透過任何雲端供應商提供，不再局限 Azure。雙方營收分潤改設上限並持續至 2030 年，標誌 AI 產業聯盟格局重大轉變。",
+      "from_file": "output/2026/04/28.md"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "美國國務院下令全球警告 DeepSeek 竊取 AI 機密",
+      "url": "https://www.reuters.com/world/china/us-state-dept-orders-global-warning-about-alleged-china-ai-thefts-by-deepseek-2026-04-24/",
+      "source": "reuters.com",
+      "company": "US State Department",
+      "topic": "US global warning DeepSeek IP theft",
+      "fingerprint": "US State Department|deepseek-ip-theft-warning|2026-04-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "美中 AI 競爭升溫至外交層級"
+      },
+      "summary": "美國國務院下令全球外交機構警告中國企業涉嫌大規模竊取 AI 智財權，重點針對 DeepSeek 等公司。美國指控中國利用數千個代理帳戶從美國 AI 實驗室盜走技術。",
+      "from_file": "output/2026/04/28.md"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "中國否決 Meta 收購 AI 新創 Manus — 國安審查首例",
+      "url": "https://thetechportal.com/2026/04/28/china-rejects-metas-2bn-acquisition-of-ai-startup-manus-after-security-review-by-ndrc",
+      "source": "thetechportal.com",
+      "company": "China/Meta",
+      "topic": "China blocks Meta Manus acquisition",
+      "fingerprint": "China|meta-manus-acquisition-blocked|2026-04-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "首對搬遷新加坡公司進行國安審查"
+      },
+      "summary": "中國國家發改委否決 Meta 以 20 億美元收購 AI 代理新創 Manus，要求雙方終止協議。這是中國首次對已搬遷至新加坡的公司進行外國投資安全審查，理由是擔憂先進 AI 技術轉移與國家安全。",
+      "from_file": "output/2026/04/28.md"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "AI 軟體平台市場 2025 年達 794 億美元",
+      "url": "https://www.globenewswire.com/news-release/2026/04/27/3281500/28/en/artificial-intelligence-software-platforms-global-market-report-2026-google-microsoft-aws-tencent-and-ibm-led-the-79-38-billion-market-in-2025.html",
+      "source": "globenewswire.com",
+      "company": "Industry",
+      "topic": "AI software platforms market $79B 2025",
+      "fingerprint": "Industry|ai-software-platforms-market-79b|2026-04-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "2026 年估計突破千億美元"
+      },
+      "summary": "AI 軟體平台市場從 2025 年的 794 億美元預計增至 2026 年的 1069 億美元，年成長率達 34.7%。Google、微軟、AWS、騰訊與 IBM 領導市場。",
+      "from_file": "output/2026/04/28.md"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "AI 驅動的垂直搜尋正在崛起",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "source": "theguardian.com",
+      "company": "Industry",
+      "topic": "AI vertical search trend",
+      "fingerprint": "Industry|ai-vertical-search-trend|2026-04-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "從關鍵字匹配轉向對話式理解"
+      },
+      "summary": "隨著 AI 助手能力提升，越來越多使用者改用 Perplexity、Claude 等 AI 工具進行研究與資訊查找，而非傳統搜尋引擎。這種垂直搜尋趨勢正在顛覆網路資訊存取方式。",
+      "from_file": "output/2026/04/28.md"
     }
   ],
   "reason_picked_schema": {
