@@ -3817,6 +3817,141 @@
       },
       "summary": "隨著 AI 助手能力提升，越來越多使用者改用 Perplexity、Claude 等 AI 工具進行研究與資訊查找，而非傳統搜尋引擎。這種垂直搜尋趨勢正在顛覆網路資訊存取方式。",
       "from_file": "output/2026/04/29.md"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Anthropic 最新旗艦模型 Opus 發布，強化 coding、agents 與多模態能力",
+      "url": "https://www.anthropic.com/news",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Opus model release",
+      "fingerprint": "Anthropic|opus-model-release|2026-04-30",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools",
+          "workflow_automation"
+        ],
+        "note": "全新 Opus 模型強化 coding/代理/多模態"
+      },
+      "summary": "全新 Opus 模型在 coding、代理、視覺與多步任務上帶來更強性能，更高的一致性與嚴謹度，同時宣布 Claude Design 新產品。",
+      "from_file": "output/2026/04/30.md"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Anthropic 與 OpenAI 赴國會報告 AI 網路威脅",
+      "url": "https://www.axios.com/2026/04/28/openai-anthropic-congress-cyber-briefings",
+      "source": "axios.com",
+      "company": "Anthropic",
+      "topic": "Congressional AI cyber briefing",
+      "fingerprint": "Anthropic|congressional-ai-cyber-briefing|2026-04-30",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "Mythos 不放行引發安全討論"
+      },
+      "summary": "Anthropic 保留 Mythos Preview 不公開發布，因其能快速發現並利用安全漏洞；OpenAI 採用分層釋出策略發布 GPT-5.4-Cyber。",
+      "from_file": "output/2026/04/30.md"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Google 與五角大廈簽約，讓 Gemini AI 進入機密網路",
+      "url": "https://www.nbcnews.com/tech/tech-news/pentagon-inks-deal-google-ai-services-rcna34",
+      "source": "nbcnews.com",
+      "company": "Google",
+      "topic": "Pentagon Gemini deal",
+      "fingerprint": "Google|pentagon-gemini-deal|2026-04-30",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "government",
+          "security_research"
+        ],
+        "note": "Gemini 進入美軍機密網路"
+      },
+      "summary": "五角大廈達成協議，讓 Google Gemini AI 系統進入機密網路。此前 OpenAI 與 xAI 已簽署類似協議。",
+      "from_file": "output/2026/04/30.md"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Anthropic 討論 9000 億美元估值新輪融資",
+      "url": "https://www.digitaltoday.co.kr/en/view/5_2022/anthropic-seeks-funding-at-900-billion-valuation-surpassing-openai",
+      "source": "digitaltoday.co.kr",
+      "company": "Anthropic",
+      "topic": "Anthropic 900B funding",
+      "fingerprint": "Anthropic|900b-funding|2026-04-30",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "finance"
+        ],
+        "note": "估值超越 OpenAI"
+      },
+      "summary": "Anthropic 正在進行新一輪私人募資談判，估值可能達 9000 億美元，超越 OpenAI 成為 AI 產業最高估值公司。",
+      "from_file": "output/2026/04/30.md"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Genspark 與 Microsoft 達成全球戰略合作",
+      "url": "https://sg.finance.yahoo.com/news/genspark-announces-global-strategic-partnership-16",
+      "source": "sg.finance.yahoo.com",
+      "company": "Microsoft",
+      "topic": "Genspark Microsoft partnership",
+      "fingerprint": "Microsoft|genspark-partnership|2026-04-30",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "AI Agents 嵌入 Word/Excel/PowerPoint"
+      },
+      "summary": "Genspark 與 Microsoft 達成全球合作，將其 AI agent 嵌入 Microsoft 365 全系列產品。",
+      "from_file": "output/2026/04/30.md"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Microsoft Copilot 代理能力正式 GA",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "Copilot agent GA",
+      "fingerprint": "Microsoft|copilot-agent-ga|2026-04-30",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Copilot 代理能力全面釋出"
+      },
+      "summary": "Microsoft 宣布 Copilot 在 Word、Excel、PowerPoint 的代理功能全面釋出，從預覽轉正式可用。",
+      "from_file": "output/2026/04/30.md"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "前 Big Tech 員工紛紛出走創立 AI 新創",
+      "url": "https://www.cnbc.com/2026/04/28/meta-google-big-tech-staff-ai-labs-investors.html",
+      "source": "cnbc.com",
+      "company": "Industry",
+      "topic": "Big Tech AI talent exodus",
+      "fingerprint": "Industry|big-tech-ai-talent-exodus|2026-04-30",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "finance"
+        ],
+        "note": "投資人搶進 AI 新創"
+      },
+      "summary": "前 OpenAI、DeepMind、Anthropic、xAI 員工相繼離職創業，數月內即獲數億美元融資。",
+      "from_file": "output/2026/04/30.md"
     }
   ],
   "reason_picked_schema": {
