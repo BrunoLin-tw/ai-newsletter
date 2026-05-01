@@ -3952,6 +3952,96 @@
       },
       "summary": "前 OpenAI、DeepMind、Anthropic、xAI 員工相繼離職創業，數月內即獲數億美元融資。",
       "from_file": "output/2026/04/30.md"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "OpenAI GPT-5.5-Cyber 網路安全模型開放關鍵防御者",
+      "url": "https://www.nextgov.com/artificial-intelligence/2026/04/openai-makes-frontier-model-available-critical-cyber-defenders/413234/",
+      "source": "nextgov.com",
+      "company": "OpenAI",
+      "topic": "GPT-5.5-Cyber cybersecurity model",
+      "fingerprint": "OpenAI|gpt-5.5-cyber-launch|2026-05-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "資安專用模型提供聯邦與關鍵基礎設施"
+      },
+      "summary": "OpenAI 推出專注網路安全的 GPT-5.5-Cyber 模型，將提供給聯邦政府與關鍵基礎設施防御者使用，同時發布《Cybersecurity Action Plan》強調負責任的信任訪問優於嚴格限制。",
+      "from_file": "output/2026/05/01.md"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "DeepSeek V4 開源模型發布：成本僅對手 1/6",
+      "url": "https://mashable.com/article/deepseek-v4-preview-comparison-chatgpt-claude-gemini",
+      "source": "mashable.com",
+      "company": "DeepSeek",
+      "topic": "DeepSeek V4 open source model",
+      "fingerprint": "DeepSeek|v4-open-source-model|2026-05-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source",
+          "benchmark_detail"
+        ],
+        "note": "MIT 開源定價僅 GPT-5.5 的 15%"
+      },
+      "summary": "DeepSeek 發布 V4 Preview，1.6 兆參數 Pro 版與 2840 億 Flash 版全面開源 MIT 許可證。API 定價僅 GPT-5.5 的 15%，約省 85% 成本，效能接近頂級封閉模型。",
+      "from_file": "output/2026/05/01.md"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Big Tech Q1 AI 資本支出狂潮：Google 漲 7%、Meta 跌 6%",
+      "url": "https://fortune.com/2026/04/29/microsoft-meta-google-ai-capex-spending-billions/",
+      "source": "fortune.com",
+      "company": "Microsoft/Meta/Google",
+      "topic": "Big Tech AI capex spending Q1 2026",
+      "fingerprint": "Big Tech|ai-capex-q1-2026|2026-05-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "三大廠全年 AI 支出指引全面升級"
+      },
+      "summary": "微軟、Meta、Google Q1 財報揭示 AI 資本支出狂潮：Google 全年指引增至 $180-190B 股價漲 7%；Meta 增至 $125-145B 股價反跌 6%；微軟預計 $190B。投資人質疑 ROI，但 Google Cloud 營收成長 63% 顯示回收跡象。",
+      "from_file": "output/2026/05/01.md"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Anthropic 估值衝破 $900B 考慮新一輪融資",
+      "url": "https://www.reuters.com/business/retail-consumer/anthropic-weighs-new-funding-round-valuation-exceeding-900-billion-bloomberg-2026-04-29/",
+      "source": "reuters.com",
+      "company": "Anthropic",
+      "topic": "Anthropic $900B valuation funding round",
+      "fingerprint": "Anthropic|900b-valuation-funding|2026-05-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "14 個月估值從 $610B 暴漲至近千億"
+      },
+      "summary": "Anthropic 正在評估新一輪融資，預計 5 月董事会後決定，估值有望超過 $900 億美元。從年初 $610 億到如今僅 14 個月暴漲，反映 AI 產業火熱與 Claude 技術領先，最快 2026 進行 IPO。",
+      "from_file": "output/2026/05/01.md"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "紐時專題：矽谷正在製造 AI 永久底層勞動力？",
+      "url": "https://www.nytimes.com/2026/04/30/opinion/ai-labor-work-force-silicon-valley.html",
+      "source": "nytimes.com",
+      "company": "Industry",
+      "topic": "Silicon Valley AI labor underclass",
+      "fingerprint": "Industry|ai-labor-underclass|2026-05-01",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "三大 AI 實驗室成立團隊評估經濟影響"
+      },
+      "summary": "《紐約時報》專欄指出 OpenAI、Anthropic 與 Google DeepMind 均成立新團隊評估 AI 對經濟影響，三巨頭計劃明年在政策議題上更積極。專題探討 AI 自動化如何衝擊勞動力市場，擔心技術創造永久失業底層。",
+      "from_file": "output/2026/05/01.md"
     }
   ],
   "reason_picked_schema": {
