@@ -4042,6 +4042,23 @@
       },
       "summary": "《紐約時報》專欄指出 OpenAI、Anthropic 與 Google DeepMind 均成立新團隊評估 AI 對經濟影響，三巨頭計劃明年在政策議題上更積極。專題探討 AI 自動化如何衝擊勞動力市場，擔心技術創造永久失業底層。",
       "from_file": "output/2026/05/01.md"
+    },
+    {
+      "date": "2026-05-02",
+      "title": "五角大廈與七大AI公司簽署協議，Anthropic遭排除",
+      "url": "https://news.abplive.com/news/world/pentagon-signs-ai-deals-with-tech-giants-anthropic-left-out-1839939",
+      "source": "abplive.com",
+      "company": "US Pentagon",
+      "topic": "Pentagon AI deals Big Tech Anthropic excluded",
+      "fingerprint": "US Pentagon|pentagon-ai-deals-anthropic-excluded|2026-05-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "國防部與七大AI公司簽署機密網絡協議，Anthropic因供應鏈風險遭排除"
+      },
+      "summary": "美國國防部宣布與OpenAI、Google、Microsoft、Amazon、NVIDIA、SpaceX及Reflection AI簽署協議，將AI系統部署至機密網絡。Anthropic被標記為供應鏈風險並遭排除，CEO Dario Amodei曾與川普政府會面，川普表示Anthropic正在好轉。",
+      "from_file": "output/2026/05/02.md"
     }
   ],
   "reason_picked_schema": {
