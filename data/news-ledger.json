@@ -4288,7 +4288,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["open_source"],
+        "secondary": [
+          "open_source"
+        ],
         "note": "四家同步發布開源編碼模型挑戰西方前沿"
       },
       "summary": "Z.ai GLM-5.1、MiniMax M2.7、Moonshot Kimi K2.6、DeepSeek V4 登陸 Hugging Face，agentic engineering 能力與西方前沿模型相當但推理成本不到三分之一。Zhipo 股價當日大漲 15.92%。",
@@ -4305,7 +4307,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "security_or_incident",
-        "secondary": ["security_research"],
+        "secondary": [
+          "security_research"
+        ],
         "note": "Claude Mythos 首過 32 步 TLO 滲透測試"
       },
       "summary": "Claude Mythos Preview 成為首個通過 32 步企業網路滲透測試的模型，10 次嘗試中完成 3 次 end-to-end 滲透。GPT-5.5 跟進 2/10。機構評估網路進攻能力每 4 個月翻倍。",
@@ -4322,7 +4326,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "partnership_or_integration",
-        "secondary": ["enterprise"],
+        "secondary": [
+          "enterprise"
+        ],
         "note": "與私募巨頭合創企業 AI 服務公司"
       },
       "summary": "與 Blackstone、Hellman & Friedman、Goldman Sachs 共同創立新 AI 原生企業服務公司，將部署 Claude 至數百家企業，目標解決 AI 採用的人才瓶頸問題。",
@@ -4339,7 +4345,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "partnership_or_integration",
-        "secondary": ["official_source"],
+        "secondary": [
+          "official_source"
+        ],
         "note": "在冷落 Anthropic 後重新開放合作"
       },
       "summary": "五角大廈宣布與 SpaceX、OpenAI、Google、Microsoft、Nvidia、AWS、Oracle、Reflection 簽署協議，在機密網路中使用 AI 工具。白宮在 Anthropic 宣布突破後重新開放討論。",
@@ -4356,7 +4364,9 @@
       "section": "tools",
       "reason_picked": {
         "code": "real_world_deployment",
-        "secondary": ["workflow_automation"],
+        "secondary": [
+          "workflow_automation"
+        ],
         "note": "AI agent 需求激增下的大型募資"
       },
       "summary": "AI agent 需求激增推動 Sierra 獲得大型募資，估值達 158 億美元。Sierra 由 Salesforce 前 co-CEO Bret Taylor 創辦。",
@@ -4378,6 +4388,102 @@
       },
       "summary": "Sequoia 領投 1 億美元，總融資達 2.3 億美元，公司專注 AI agent 搜尋服務。Agrawal 在離開 Twitter 後創立的新公司獲得市場關注。",
       "from_file": "output/2026/05/05.md"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "美國 CAISI 擴大 AI 模型測試協議",
+      "url": "https://www.prismnews.com/news/us-expands-ai-model-testing-deals-with-google-deepmind",
+      "source": "prismnews.com",
+      "company": "US Government",
+      "topic": "CAISI expands AI model testing agreements Google Microsoft xAI",
+      "fingerprint": "US Government|caisi-ai-model-testing-expansion|2026-05-06",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "CAISI 協議正式擴展至三大模型供應商"
+      },
+      "summary": "商務部 CAISI 宣布與 Google DeepMind、Microsoft、xAI 簽署新協議，讓政府可在模型公開發布前進行評估，聚焦國家安全風險。",
+      "from_file": "output/2026/05/06.md"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "OpenAI 籌備企業服務合資公司 The Deployment Company",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai",
+      "source": "bloomberg.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Deployment Company 10B joint venture",
+      "fingerprint": "OpenAI|deployment-company-10b-jv|2026-05-06",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "100億美元企業服務合資直接挑戰 Anthropic"
+      },
+      "summary": "OpenAI 計劃推出 The Deployment Company，估值 100 億美元，從多家 PE 籌集超過 40 億美元，與 Anthropic 企業服務直接競爭。",
+      "from_file": "output/2026/05/06.md"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "白宮擬推 AI 監管行政命令",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/923776/the-white-house-reportedly-is-working-on-an-executive-order-about-ai-oversight-and-access",
+      "source": "theverge.com",
+      "company": "US Government",
+      "topic": "White House AI oversight executive order Mythos concerns",
+      "fingerprint": "US Government|ai-oversight-executive-order|2026-05-06",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "因應 Claude Mythos 國安擔憂擬建審查機制"
+      },
+      "summary": "Trump 政府擬成立 AI 工作小組，考慮為新模型建立正式政府審查流程，回應 Claude Mythos 引發的國安擔憂。",
+      "from_file": "output/2026/05/06.md"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Meta 收購 Assured Robot Intelligence 進軍人形機器人",
+      "url": "https://www.arturmarkus.com/meta-acquires-assured-robot-intelligence-ari-for-humanoid-robot-foundation-models-co-founders-join-superintelligence-labs/",
+      "source": "arturmarkus.com",
+      "company": "Meta",
+      "topic": "Meta acquires ARI humanoid robot foundation models",
+      "fingerprint": "Meta|ari-humanoid-robot-acquisition|2026-05-06",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "收購 ARI 強化實體 AI 基礎模型能力"
+      },
+      "summary": "Meta 宣布收購 Assured Robot Intelligence，ARI 聯合創辦人將加入 Superintelligence Labs，此收購強化 Meta 在人形機器人領域的布局。",
+      "from_file": "output/2026/05/06.md"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Wingo ReFiBuy AI 電商新創募資近 1400 萬美元",
+      "url": "https://www.bizjournals.com/triangle/news/2026/05/05/scot-wingo-refibuy-closes-13m-seed-funding.html",
+      "source": "bizjournals.com",
+      "company": "ReFiBuy",
+      "topic": "ReFiBuy AI e-commerce seed funding 13.6M",
+      "fingerprint": "ReFiBuy|ai-ecommerce-seed-funding|2026-05-06",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "資深創業者 AI 電商新創獲青睞"
+      },
+      "summary": "Scot Wingo 的 ReFiBuy 募得 1360 萬美元 seed 資金，利用 AI 優化零售商和品牌的購物體驗，總部位於羅利。",
+      "from_file": "output/2026/05/06.md"
     }
   ],
   "reason_picked_schema": {
