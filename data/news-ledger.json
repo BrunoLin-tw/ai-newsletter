@@ -4577,6 +4577,96 @@
       },
       "summary": "Lucidworks 發布可直接在商品頁面回答技術問題的 AI 代理，基於專利 ultra-precise RAG 技術，可處理圖片、文字、表格、圖表與技術 PDF，解決電商常見的商品資訊不足導致顧客流失問題。Lucidworks 估計可提升 10-25% 轉化率、減少 15-30% 棄購，並可抵達 20-40% 重複售前諮詢。",
       "from_file": "output/2026/05/07.md"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Anthropic 攜手 SpaceX 打造算力新基建",
+      "url": "https://www.aljazeera.com/economy/2026/5/6/spacex-backs-anthropic-with-data-centre-deal-amidst-musks-openai-lawsuit",
+      "source": "aljazeera.com",
+      "company": "Anthropic/SpaceX",
+      "topic": "Anthropic SpaceX Colossus data center deal",
+      "fingerprint": "Anthropic|spacex-colossus-deal|2026-05-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "300MW 新容量，一個月內上線"
+      },
+      "summary": "Anthropic 宣佈使用 SpaceX 位於孟菲斯的 Colossus 1 設施，獲得 220,000 顆 Nvidia 處理器與 300MW 新容量。",
+      "from_file": "output/2026/05/08.md"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Anthropic 發布 Claude dreaming 研究預覽",
+      "url": "https://www.aljazeera.com/economy/2026/5/6/spacex-backs-anthropic-with-data-centre-deal-amidst-musks-openai-lawsuit",
+      "source": "aljazeera.com",
+      "company": "Anthropic",
+      "topic": "Claude dreaming feature research preview",
+      "fingerprint": "Anthropic|claude-dreaming-feature|2026-05-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "會話間審查工作的新能力"
+      },
+      "summary": "在開發者日活動中，Anthropic 揭曉 Claude 全新功能「dreaming」，讓 AI 系統能在會話之間審查工作。",
+      "from_file": "output/2026/05/08.md"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Microsoft Agent 365 正式全面可用",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "Agent 365 general availability enterprise agent governance",
+      "fingerprint": "Microsoft|agent-365-ga|2026-05-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "企業 AI 代理治理安全平台正式 GA"
+      },
+      "summary": "Microsoft 宣佈 Agent 365 正式 GA，提供企業 AI 代理的觀測、治理與安全管理。",
+      "from_file": "output/2026/05/08.md"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "美國政府擴大 AI 模型安全審查",
+      "url": "https://www.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models",
+      "source": "cnn.com",
+      "company": "US Government",
+      "topic": "US government AI model pre-release security testing",
+      "fingerprint": "US Government|ai-model-pre-release-testing|2026-05-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "Google、Microsoft、xAI 同意預先提交模型審查"
+      },
+      "summary": "Google、Microsoft 和 xAI 同意讓政府在新 AI 模型發布前進行安全測試。",
+      "from_file": "output/2026/05/08.md"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Anthropic 大幅調高 Claude Code 配額",
+      "url": "https://www.aljazeera.com/economy/2026/5/6/spacex-backs-anthropic-with-data-centre-deal-amidst-musks-openai-lawsuit",
+      "source": "aljazeera.com",
+      "company": "Anthropic",
+      "topic": "Claude Code rate limits increased",
+      "fingerprint": "Anthropic|claude-code-rate-limits|2026-05-08",
+      "section": "tools",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [],
+        "note": "付費方案速率限制加倍，移除尖峰上限"
+      },
+      "summary": "Anthropic 宣佈加倍 Claude Code 付費方案的速率限制。",
+      "from_file": "output/2026/05/08.md"
     }
   ],
   "reason_picked_schema": {
