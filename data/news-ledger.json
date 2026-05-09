@@ -4667,6 +4667,99 @@
       },
       "summary": "Anthropic 宣佈加倍 Claude Code 付費方案的速率限制。",
       "from_file": "output/2026/05/08.md"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "OpenAI 推出 GPT-5.5-Cyber 網路安全模型",
+      "url": "https://www.politico.com/news/2026/05/07/openai-chatgpt-cyber-ai-model-00910704",
+      "source": "politico.com",
+      "company": "OpenAI",
+      "topic": "GPT-5.5-Cyber cybersecurity model",
+      "fingerprint": "OpenAI|gpt-5.5-cyber-cybersecurity-model|2026-05-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "專門網路安全模型對抗 Anthropic Mythos"
+      },
+      "summary": "OpenAI 推出 GPT-5.5-Cyber，專為漏洞檢測與恶意軟體分析設計，僅提供給受信任合作夥伴。",
+      "from_file": "output/2026/05/09.md"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "NVIDIA 與 IREN 合作部署 5 Gigawatts AI 基礎設施",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+      "source": "nvidianews.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA IREN 5GW AI infrastructure partnership",
+      "fingerprint": "NVIDIA|iren-5gw-ai-infrastructure|2026-05-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "real_world_deployment"
+        ],
+        "note": "5GW 合作案強化 AI 資料中心布局"
+      },
+      "summary": "NVIDIA 與 IREN 達成策略合作，計劃部署最多 5 GW NVIDIA DSX AI 基礎設施，德州 2GW Sweetwater 園區將成旗艦據點。",
+      "from_file": "output/2026/05/09.md"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "Google 推出 $9.99 AI 健康教練",
+      "url": "https://techcrunch.com/2026/05/07/googles-9-99-per-month-ai-health-coach-launches-may-19/",
+      "source": "techcrunch.com",
+      "company": "Google",
+      "topic": "Google AI health coach subscription",
+      "fingerprint": "Google|ai-health-coach-9.99|2026-05-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "healthcare"
+        ],
+        "note": "首個大型科技公司 AI 健康訂閱服務"
+      },
+      "summary": "Google 推出 AI 健康教練，月費 $9.99，整合 Fitbit 數據提供個人化健身、睡眠與營養建議，5月19日上線。",
+      "from_file": "output/2026/05/09.md"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "Cloudflare 裁員 1,100 人因應 AI 轉型",
+      "url": "https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html",
+      "source": "cnbc.com",
+      "company": "Cloudflare",
+      "topic": "Cloudflare AI layoffs 1100",
+      "fingerprint": "Cloudflare|ai-layoffs-1100|2026-05-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "AI 轉型導致大規模裁員"
+      },
+      "summary": "Cloudflare 宣布裁員 1,100 人（20% 員工），執行長稱 AI 已根本改變公司工作方式，股價暴跌 24%。",
+      "from_file": "output/2026/05/09.md"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "Spotify 推出 AI Podcast 創作工具",
+      "url": "https://techbriefly.com/2026/05/08/spotify-launches-ai-podcast-creation-tool-for-developers/",
+      "source": "techbriefly.com",
+      "company": "Spotify",
+      "topic": "Spotify AI podcast creation tool",
+      "fingerprint": "Spotify|ai-podcast-creation-tool|2026-05-09",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "首個允許 AI 代理生成 Podcast 的平台"
+      },
+      "summary": "Spotify 推出命令列工具，允許 Claude Code 與 OpenClaw 等 AI 代理創建並上傳個人化 Podcast 音頻內容。",
+      "from_file": "output/2026/05/09.md"
     }
   ],
   "reason_picked_schema": {
