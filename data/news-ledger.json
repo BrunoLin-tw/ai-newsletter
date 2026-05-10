@@ -4760,6 +4760,82 @@
       },
       "summary": "Spotify 推出命令列工具，允許 Claude Code 與 OpenClaw 等 AI 代理創建並上傳個人化 Podcast 音頻內容。",
       "from_file": "output/2026/05/09.md"
+    },
+    {
+      "date": "2026-05-10",
+      "title": "Nvidia 今年投資破 400 億美元，IREN、Corning 協議金額創新高",
+      "url": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
+      "source": "cnbc.com",
+      "company": "Nvidia",
+      "topic": "Nvidia 40 billion equity investments 2026 IREN Corning",
+      "fingerprint": "Nvidia|40b-equity-investments-2026|2026-05-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "本週兩筆數十億美元協議，投資節奏加速"
+      },
+      "summary": "Nvidia 已在 2026 年達成超過 400 億美元的投資承諾，本週與資料中心運營商 IREN 簽署可高達 21 億美元投資協議，前一天與光學技術商 Corning 達成 32 億美元投資協議。Nvidia 透過投資確保 AI 供應鏈使用其硬體。",
+      "from_file": "output/2026/05/10.md"
+    },
+    {
+      "date": "2026-05-10",
+      "title": "Anthropic 簽署 18 億美元雲端運算協議，Akamai 股價暴漲 25%",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/05/09/anthropic-signs-18-billion-ai-cloud-deal-with-akamai-bloomberg-news-reports",
+      "source": "thestar.com.my",
+      "company": "Anthropic",
+      "topic": "Anthropic 1.8B Akamai cloud deal",
+      "fingerprint": "Anthropic|akamai-1.8b-cloud-deal|2026-05-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "18億美元雲端協議，連續重大佈局"
+      },
+      "summary": "AI 新創 Anthropic 與 Akamai 簽署價值 18 億美元的運算協議。Akamai 在財報中披露該長期雲端協議後，股價單日飆漲 25%，隔日再漲 28% 至 149.05 美元。此為 Anthropic 在與 SpaceX 達成運算合作後的又一重大雲端佈局。",
+      "from_file": "output/2026/05/10.md"
+    },
+    {
+      "date": "2026-05-10",
+      "title": "Meta 開發 OpenClaw 風格 AI 助手「Hatch」強化 Instagram 購物體驗",
+      "url": "https://dataconomy.com/2026/05/08/meta-builds-openclaw-inspired-assistant-for-instagram/",
+      "source": "dataconomy.com",
+      "company": "Meta",
+      "topic": "Meta Hatch AI agent Instagram shopping",
+      "fingerprint": "Meta|hatch-ai-agent-instagram|2026-05-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "OpenClaw 風格 AI agent 年底上線"
+      },
+      "summary": "Meta 正在開發名為「Hatch」的 AI agent，仿效 OpenClaw 設計，旨在 Instagram 上實現智能購物，可幫助用戶在 Reels 中直接購買商品，目標與 TikTok Shop 競爭。預計年底前上線，測試中使用 Anthropic 模型。",
+      "from_file": "output/2026/05/10.md"
+    },
+    {
+      "date": "2026-05-10",
+      "title": "歐洲 AI 翻譯龍頭 DeepL 攜手 AWS，引發資料主權憂慮",
+      "url": "https://www.theguardian.com/technology/2026/may/07/europe-ai-translation-industry-deepl-partnering-us-firms",
+      "source": "theguardian.com",
+      "company": "DeepL",
+      "topic": "DeepL AWS partnership European data sovereignty",
+      "fingerprint": "DeepL|aws-partnership-data-sovereignty|2026-05-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "歐洲翻譯龍頭與 AWS 合作引發爭議"
+      },
+      "summary": "歐洲領先機器翻譯新創 DeepL 宣布與 AWS 合作，不再僅在自有伺服器上處理資料。此舉引發歐洲業界擔憂，認為將強化 Silicon Valley 對數位基礎設施的壟斷。DeepL 回應稱 AWS 不會存取客戶資料。",
+      "from_file": "output/2026/05/10.md"
     }
   ],
   "reason_picked_schema": {
