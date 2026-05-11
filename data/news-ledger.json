@@ -4836,6 +4836,102 @@
       },
       "summary": "歐洲領先機器翻譯新創 DeepL 宣布與 AWS 合作，不再僅在自有伺服器上處理資料。此舉引發歐洲業界擔憂，認為將強化 Silicon Valley 對數位基礎設施的壟斷。DeepL 回應稱 AWS 不會存取客戶資料。",
       "from_file": "output/2026/05/10.md"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Anthropic 推 10 款金融 AI 代理，正式进军华尔街",
+      "url": "https://www.forbes.com/sites/the-prompt/2026/05/05/anthropic-is-now-targeting-finance-after-revolutionizing-coding/",
+      "source": "forbes.com",
+      "company": "Anthropic",
+      "topic": "Anthropic financial AI agents",
+      "fingerprint": "Anthropic|financial-ai-agents|2026-05-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "finance"
+        ],
+        "note": "10 款金融 AI 代理 + 15 億美元合資公司"
+      },
+      "summary": "Anthropic 發布 10 款新型 AI 代理，專攻金融服務工作流程，包含製作投標書、審閱財報、撰寫信用備忘錄與審計報表。同時宣布與 Blackstone、Goldman Sachs 等華爾街巨頭合資 15 億美元成立 AI 原生金融服務公司。",
+      "from_file": "output/2026/05/11.md"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "美國調查 Nvidia 晶片疑似經泰國走私至中國",
+      "url": "https://economictimes.indiatimes.com/news/international/business/us-investigates-alleged-diversion-of-nvidia-ai-chips-through-thailand/articleshow/130998583.cms",
+      "source": "economictimes.indiatimes.com",
+      "company": "Nvidia/Super Micro",
+      "topic": "Nvidia chip Thailand smuggling investigation",
+      "fingerprint": "Nvidia|chip-smuggling-thailand|2026-05-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "25 億美元伺服器涉嫌供應中國"
+      },
+      "summary": "美國檢方起訴 Super Micro 涉嫌與泰國公司 OBON 合作，將價值 25 億美元的伺服器（含 Nvidia 晶片）間接供應給中國客戶，包含阿里巴巴。這是 2022 年出口管制以來最重大的 AI 晶片走私調查。",
+      "from_file": "output/2026/05/11.md"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Google 開發代號「Remy」個人 AI 助理，對標 OpenClaw",
+      "url": "https://www.businessinsider.com/google-ai-agent-openclaw-remy-gemini-assistant-2026-5",
+      "source": "businessinsider.com",
+      "company": "Google",
+      "topic": "Google Remy personal AI agent",
+      "fingerprint": "Google|remy-personal-ai-agent|2026-05-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "24/7 個人代理可執行操作"
+      },
+      "summary": "Google 正在開發代號「Remy」的 24/7 個人 AI 代理，可代表用戶執行操作。深度整合 Google 服務，可監測用戶關注事項、主動處理複雜任務並學習用戶偏好。目前正在員工內測。",
+      "from_file": "output/2026/05/11.md"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Sierra 融資 9.5 億美元估值破 150 億，企業 AI 火力全開",
+      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+      "source": "techcrunch.com",
+      "company": "Sierra",
+      "topic": "Sierra 950M funding enterprise AI",
+      "fingerprint": "Sierra|950m-funding-enterprise-ai|2026-05-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "enterprise"
+        ],
+        "note": "營收 ARR 從 1 億增至 1.5 億美元"
+      },
+      "summary": "Bret Taylor 的 AI 新創 Sierra 完成 9.5 億美元融資，由 Tiger Global 領投，估值超過 150 億美元。聲稱財富 50 大 40% 為客戶，平台代理處理數十億次互動。",
+      "from_file": "output/2026/05/11.md"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Microsoft Agent 365 正式發布企業 AI 代理治理平台",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "Microsoft Agent 365 GA",
+      "fingerprint": "Microsoft|agent-365-ga|2026-05-11",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation",
+          "security_research"
+        ],
+        "note": "企業代理治理控制中心正式 GA"
+      },
+      "summary": "Microsoft 宣布 Agent 365 正式 GA，成為企業 AI 代理的觀測、治理與安全控制中心。新增支持自主運行的代理、發現 Shadow AI、安全的 Windows 365 環境等功能。",
+      "from_file": "output/2026/05/11.md"
     }
   ],
   "reason_picked_schema": {
