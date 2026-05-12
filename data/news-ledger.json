@@ -4932,6 +4932,78 @@
       },
       "summary": "Microsoft 宣布 Agent 365 正式 GA，成為企業 AI 代理的觀測、治理與安全控制中心。新增支持自主運行的代理、發現 Shadow AI、安全的 Windows 365 環境等功能。",
       "from_file": "output/2026/05/11.md"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "OpenAI 成立部署公司，獲 $4B 投資、收購 Tomoro",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Deployment Company $4B Tomoro acquisition",
+      "fingerprint": "OpenAI|deployco-4b-tomoro|2026-05-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "partnership_or_integration"
+        ],
+        "note": "$4B + 19 夥伴 + 收購 Tomoro 150 工程師"
+      },
+      "summary": "OpenAI 啟動 OpenAI Deployment Company，獲 TPG、Advent、Bain Capital、BBVA、McKinsey 等 19 家機構支持，初始投資 $4B。並收購 Tomoro 獲得 150 名部署工程師，協助企業將 AI 整合至營運流程。",
+      "from_file": "output/2026/05/12.md"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "IBM 報告：76% 企業已設立 AI 長（CAIO）職位",
+      "url": "https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html",
+      "source": "cnbc.com",
+      "company": "IBM",
+      "topic": "IBM 76% CAIO appointment study",
+      "fingerprint": "IBM|76-percent-caio|2026-05-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "從 26% 增至 76%，CAIO 成企業標配"
+      },
+      "summary": "IBM 研究顯示超過 2000 家受訪組織中 76% 已設立 CAIO，較 2025 年的 26% 大幅成長。報告指出 AI 正在重塑企業高層決策方式。",
+      "from_file": "output/2026/05/12.md"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Google 首次偵測到駭客用 AI 發現零時差漏洞",
+      "url": "https://www.washingtonpost.com/politics/2026/05/11/trump-ai-regulation-commerce-intelligence/",
+      "source": "washingtonpost.com",
+      "company": "Google",
+      "topic": "Google hackers AI zero-day discovery",
+      "fingerprint": "Google|hackers-ai-zero-day|2026-05-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "首次證實 AI 被用於發現零時差漏洞"
+      },
+      "summary": "Google 資安團隊首次發現駭客使用 AI 模型來發現未知軟體漏洞並發動攻擊，專家稱這是「未來的預覽」。突顯 AI 在網路攻擊中的雙刃劍角色。",
+      "from_file": "output/2026/05/12.md"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "白宮 AI 監管權力鬥爭：情報機構爭取更大影響力",
+      "url": "https://www.washingtonpost.com/politics/2026/05/11/trump-ai-regulation-commerce-intelligence/",
+      "source": "washingtonpost.com",
+      "company": "White House",
+      "topic": "White House AI regulation turf battle intelligence vs commerce",
+      "fingerprint": "White House|ai-regulation-turf-battle|2026-05-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "情報單位與商務部爭奪 AI 監管主導權"
+      },
+      "summary": "川普政府內部對 AI 監管權力出現分歧，商務部與情報機構正在爭奪 AI 模型評估的主導權。情報單位希望在 AI 監管中擁有更大話語權。",
+      "from_file": "output/2026/05/12.md"
     }
   ],
   "reason_picked_schema": {
