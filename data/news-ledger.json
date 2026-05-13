@@ -5004,6 +5004,91 @@
       },
       "summary": "川普政府內部對 AI 監管權力出現分歧，商務部與情報機構正在爭奪 AI 模型評估的主導權。情報單位希望在 AI 監管中擁有更大話語權。",
       "from_file": "output/2026/05/12.md"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "OpenAI 推出 Daybreak 資安平台，對決 Anthropic Mythos",
+      "url": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "topic": "Daybreak cybersecurity platform",
+      "fingerprint": "OpenAI|daybreak-cybersecurity-platform|2026-05-13",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["security_research"],
+        "note": "全新資安平台對決 Anthropic Mythos"
+      },
+      "summary": "OpenAI 發布全新資安平台 Daybreak，整合 GPT-5.5 與 Codex Security，協助企業偵測、修補漏洞。與 Anthropic 的 Project Glasswing/Mythos 直接競爭，目標將資安主動權交还给防禦者。多家資安巨頭已加入 Trusted Access for Cyber 計畫。",
+      "from_file": "output/2026/05/13.md"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Anthropic 與 xAI 簽署 Colossus 超算合作",
+      "url": "https://www.cnet.com/tech/services-and-software/elon-musk-and-anthropic-on-good-enough-terms-to-sign-a-major-data-center-deal/",
+      "source": "cnet.com",
+      "company": "Anthropic",
+      "topic": "xAI Colossus supercomputer partnership",
+      "fingerprint": "Anthropic|xai-colossus-partnership|2026-05-13",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": ["official_source"],
+        "note": "取得 xAI 超算22萬GPU產能"
+      },
+      "summary": "Anthropic 宣布取得 xAI/SpaceX Memphis 超算設施使用權，包含 22 萬顆 NVIDIA GPU 與 300MW 運算容量。此舉打破 Elon Musk 與 Anthropic 過往嫌隙，將直接支援 Claude Pro/Max 訂閱服務與 Claude Code 成長。",
+      "from_file": "output/2026/05/13.md"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Google 背書 Isomorphic 募得 $2.1B 推進 AI 藥物發現",
+      "url": "https://www.reuters.com/legal/litigation/google-backed-isomorphic-raises-21-billion-scale-ai-driven-drug-discovery-2026-05-12/",
+      "source": "reuters.com",
+      "company": "Google",
+      "topic": "Isomorphic $2.1B drug discovery funding",
+      "fingerprint": "Google|isomorphic-2.1b-funding|2026-05-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": ["healthcare"],
+        "note": "AI 藥物發現超大筆融資"
+      },
+      "summary": "由 Google DeepMind 分拆的 Isomorphic Labs 完成 $2.1B 募資，由現有投資者 Thrive Capital 領投。將用於擴大 AI 藥物設計平台，加速新藥研發週期。此輪估值保密，但顯示 AI 生技應用已獲資本市場高度關注。",
+      "from_file": "output/2026/05/13.md"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Anthropic 發布 Claude for Legal，12 項法遵插件搶攻法律市場",
+      "url": "https://www.businessinsider.com/anthropic-expands-legal-ai-tools-claude-cowork-2026-5",
+      "source": "businessinsider.com",
+      "company": "Anthropic",
+      "topic": "Claude for Legal AI tools",
+      "fingerprint": "Anthropic|claude-for-legal-launch|2026-05-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["distribution_expansion"],
+        "note": "法律 AI 專用方案正式發布"
+      },
+      "summary": "Anthropic 推出專屬法務 AI 方案 Claude for Legal，配備 12 項法律專業插件，涵蓋證據開示、文件草擬、案例研究與多種法遵領域。並發布 MCP 連接器整合 Thomson Reuters Westlaw 等主流法律科技平台。",
+      "from_file": "output/2026/05/13.md"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Microsoft Agent 365 正式上線，企業 AI 代理邁向生產部署",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "Agent 365 general availability",
+      "fingerprint": "Microsoft|agent-365-ga|2026-05-13",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["workflow_automation"],
+        "note": "企業級 AI 代理正式 GA"
+      },
+      "summary": "Microsoft 宣布 Agent 365 全面推出，企業可發現並管理 Shadow AI 代理。新功能包括預覽影子 AI 探索、AI 代理儀表板與治理評分，協助企業安全部署 AI 代理工作流。此版本標誌企業級代理從概念驗證正式進入生產階段。",
+      "from_file": "output/2026/05/13.md"
     }
   ],
   "reason_picked_schema": {
