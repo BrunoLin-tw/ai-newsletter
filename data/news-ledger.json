@@ -5016,7 +5016,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["security_research"],
+        "secondary": [
+          "security_research"
+        ],
         "note": "全新資安平台對決 Anthropic Mythos"
       },
       "summary": "OpenAI 發布全新資安平台 Daybreak，整合 GPT-5.5 與 Codex Security，協助企業偵測、修補漏洞。與 Anthropic 的 Project Glasswing/Mythos 直接競爭，目標將資安主動權交还给防禦者。多家資安巨頭已加入 Trusted Access for Cyber 計畫。",
@@ -5033,7 +5035,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "partnership_or_integration",
-        "secondary": ["official_source"],
+        "secondary": [
+          "official_source"
+        ],
         "note": "取得 xAI 超算22萬GPU產能"
       },
       "summary": "Anthropic 宣布取得 xAI/SpaceX Memphis 超算設施使用權，包含 22 萬顆 NVIDIA GPU 與 300MW 運算容量。此舉打破 Elon Musk 與 Anthropic 過往嫌隙，將直接支援 Claude Pro/Max 訂閱服務與 Claude Code 成長。",
@@ -5050,7 +5054,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "real_world_deployment",
-        "secondary": ["healthcare"],
+        "secondary": [
+          "healthcare"
+        ],
         "note": "AI 藥物發現超大筆融資"
       },
       "summary": "由 Google DeepMind 分拆的 Isomorphic Labs 完成 $2.1B 募資，由現有投資者 Thrive Capital 領投。將用於擴大 AI 藥物設計平台，加速新藥研發週期。此輪估值保密，但顯示 AI 生技應用已獲資本市場高度關注。",
@@ -5067,7 +5073,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["distribution_expansion"],
+        "secondary": [
+          "distribution_expansion"
+        ],
         "note": "法律 AI 專用方案正式發布"
       },
       "summary": "Anthropic 推出專屬法務 AI 方案 Claude for Legal，配備 12 項法律專業插件，涵蓋證據開示、文件草擬、案例研究與多種法遵領域。並發布 MCP 連接器整合 Thomson Reuters Westlaw 等主流法律科技平台。",
@@ -5084,11 +5092,100 @@
       "section": "tools",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["workflow_automation"],
+        "secondary": [
+          "workflow_automation"
+        ],
         "note": "企業級 AI 代理正式 GA"
       },
       "summary": "Microsoft 宣布 Agent 365 全面推出，企業可發現並管理 Shadow AI 代理。新功能包括預覽影子 AI 探索、AI 代理儀表板與治理評分，協助企業安全部署 AI 代理工作流。此版本標誌企業級代理從概念驗證正式進入生產階段。",
       "from_file": "output/2026/05/13.md"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "首例 AI 開發零日漏洞！Google 揭露駭客用 AI 生成 2FA 繞過",
+      "url": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
+      "source": "thehackernews.com",
+      "company": "Google",
+      "topic": "AI zero-day 2FA bypass exploit",
+      "fingerprint": "Google|ai-zero-day-2fa-bypass|2026-05-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "史上首例 AI 被用於開發零日漏洞"
+      },
+      "summary": "Google Threat Intelligence 發現史上第一起 AI 模型被用於開發零日漏洞的案例。威脅者使用 AI 生成 Python 腳本，成功繞過熱門開源網管工具的雙重驗證。腳本包含大量教育性質文串與幻觉的 CVSS 分數，明顯為 LLM 生成特徵。",
+      "from_file": "output/2026/05/14.md"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Anthropic 洽談 9500 億美元估值融資",
+      "url": "https://www.nytimes.com/2026/05/12/technology/anthropic-funding-950-billion-valuation.html",
+      "source": "nytimes.com",
+      "company": "Anthropic",
+      "topic": "$950B valuation funding round",
+      "fingerprint": "Anthropic|950b-valuation-funding|2026-05-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "估值從 3800 億躍升至 9500 億"
+      },
+      "summary": "紐約時報報導 Anthropic 正進行新一輪融資談判，估值有望達到 9500 億美元，較此前 3800 億美元大幅攀升。該公司近期發布強大模型 Claude Mythos 並與五角大廈傳出争议，估值飆升顯示 AI 軍備競賽持續升溫。",
+      "from_file": "output/2026/05/14.md"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Google 將 Gemini 打造成 Android 作業系統層",
+      "url": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
+      "source": "cnbc.com",
+      "company": "Google",
+      "topic": "Gemini Android OS layer integration",
+      "fingerprint": "Google|gemini-android-os-layer|2026-05-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "Gemini 從聊天機器人變身 OS 層"
+      },
+      "summary": "Google 宣布將 Gemini 從聊天機器人轉型為跨手機、瀏覽器、汽車和筆電的 AI 作業層。Gemini Intelligence 可跨 App 移動、理解螢幕內容並完成任務。Google 宣稱「從作業系統邁向智慧系統」，首批功能將在三星 Galaxy 與 Google Pixel 夏季更新。",
+      "from_file": "output/2026/05/14.md"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Amazon 放棄 Rufus，推出 Alexa Shopping Agent",
+      "url": "https://www.cnbc.com/2026/05/13/amazon-ditches-rufus-ai-chatbot-in-favor-of-alexa-shopping-agent.html",
+      "source": "cnbc.com",
+      "company": "Amazon",
+      "topic": "Alexa for Shopping agent launch",
+      "fingerprint": "Amazon|alexa-shopping-agent|2026-05-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "Rufus 退役，AI 購物邁向代理時代"
+      },
+      "summary": "Amazon 宣布停止 Rufus AI 購物助手，整合進 Alexa+ 推出全新 Alexa for Shopping。新功能將 Amazon 搜尋列變成 Q&A 引擎，可比較產品、追蹤價格並在低價時自動購買。一週內向全美用戶推出，標誌 AI 購物策略從搜尋轉向代理。",
+      "from_file": "output/2026/05/14.md"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Alibaba 財報樂觀 AI 投資，雲端業務強勁增長",
+      "url": "https://www.cnbc.com/2026/05/13/alibaba-earnings-march-quarter-ai-cloud-growth.html",
+      "source": "cnbc.com",
+      "company": "Alibaba",
+      "topic": "Alibaba AI cloud growth earnings",
+      "fingerprint": "Alibaba|ai-cloud-growth-earnings|2026-05-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "雲端受 AI 需求帶動成長"
+      },
+      "summary": "Alibaba 發布第一季度財報，雖然獲利下滑但對 AI 投資維持樂觀態度。雲端業務受 AI 需求帶動增長，管理層表示將持續加大 AI 基礎設施投入。股價上漲顯示市場對其 AI 策略仍有信心。",
+      "from_file": "output/2026/05/14.md"
     }
   ],
   "reason_picked_schema": {
