@@ -5186,6 +5186,83 @@
       },
       "summary": "Alibaba 發布第一季度財報，雖然獲利下滑但對 AI 投資維持樂觀態度。雲端業務受 AI 需求帶動增長，管理層表示將持續加大 AI 基礎設施投入。股價上漲顯示市場對其 AI 策略仍有信心。",
       "from_file": "output/2026/05/14.md"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Cerebras IPO 定價出爐，估值 564 億美元",
+      "url": "https://www.cnbc.com/2026/05/13/cerebras-prices-ipo-above-expected-range-wall-street-expects-ai-flood.html",
+      "source": "cnbc.com",
+      "company": "Cerebras",
+      "topic": "Cerebras IPO pricing $185 share $5.55B raise",
+      "fingerprint": "Cerebras|ipo-pricing-185-564b-valuation|2026-05-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "IPO定價$185 material follow-up to April申請"
+      },
+      "summary": "Cerebras 以每股 $185 價格上市，募集 55.5 億美元，為近年最大科技 IPO 之一。估值達 564 億美元，並與 OpenAI 簽署 200 億美元雲端運算合約。",
+      "from_file": "output/2026/05/15.md"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Microsoft MDASH 擊敗 Anthropic Mythos，CyberGym 基準奪冠",
+      "url": "https://www.pymnts.com/cybersecurity/2026/microsoft-beats-anthropic-and-openai-on-key-cybersecurity-test/",
+      "source": "pymnts.com",
+      "company": "Microsoft",
+      "topic": "Microsoft MDASH beats Anthropic Mythos CyberGym benchmark",
+      "fingerprint": "Microsoft|mdash-beats-mythos-cybergym|2026-05-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "MDASH得分88.45%超越Mythos的83.1%"
+      },
+      "summary": "Microsoft 推出 MDASH（多模型代理掃描系統），在 CyberGym 基準測試得分 88.45%，超越 Anthropic Mythos 的 83.1% 與 OpenAI GPT-5.5 的 81.8%。MDASH 運用 100 多個專業 AI 代理协同工作，發現 Windows 系統 16 個新漏洞。",
+      "from_file": "output/2026/05/15.md"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Nvidia H200 中國銷售獲批准，十家中國公司準購買",
+      "url": "https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html",
+      "source": "cnbc.com",
+      "company": "Nvidia",
+      "topic": "Nvidia H200 China sales approved 10 companies",
+      "fingerprint": "Nvidia|h200-china-sales-approved|2026-05-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "美批准10家中国企业购买每家最多75,000片"
+      },
+      "summary": "美國商務部已批准約 10 家中國企業（包括 Alibaba、Tencent、ByteDance、JD.com）購買 Nvidia H200 晶片，每家最多 75,000 片。然而截至目前尚無實際出貨，中方因扶植本土晶片產業而遲遲未放行。",
+      "from_file": "output/2026/05/15.md"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Notion Developer Platform 登場，打造 AI 代理工作樞紐",
+      "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
+      "source": "techcrunch.com",
+      "company": "Notion",
+      "topic": "Notion Developer Platform AI agents hub",
+      "fingerprint": "Notion|developer-platform-ai-agents-hub|2026-05-15",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Workers資料庫同步外部代理API全新發布"
+      },
+      "summary": "Notion 發布全新開發者平台，將工作空間變身 AI 代理中心。支援 Workers 自訂程式碼執行、資料庫同步（Salesforce、Zendesk、Postgres 等），以及外部代理 API（支援 Claude Code、Cursor、Codex、Decagon）。",
+      "from_file": "output/2026/05/15.md"
     }
   ],
   "reason_picked_schema": {
