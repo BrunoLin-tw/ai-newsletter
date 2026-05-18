@@ -5443,6 +5443,101 @@
       },
       "summary": "教宗 Leo XIV 成立 AI 研究小組，正準備發布首份以 AI 倫理為重點的 encyclical，強調人性尊嚴與和平。此舉正值 Trump 訪問中國，Musk 與 Nvidia CEO Jensen Huang 隨行，顯示全球 AI 監管話語權竞争升溫。",
       "from_file": "output/2026/05/17.md"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Anthropic 估值將超越 OpenAI，衝 900 億美元",
+      "url": "https://basic-tutorials.com/news/anthropic-overtakes-openai-ai-company-heads-for-900-billion-dollar-valuation/",
+      "source": "basic-tutorials.com",
+      "company": "Anthropic",
+      "topic": "Anthropic 900B valuation overtakes OpenAI",
+      "fingerprint": "Anthropic|900b-valuation-overtake-openai|2026-05-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首次估值超越 OpenAI，Claude Code 企業需求暴漲"
+      },
+      "summary": "Anthropic 正在進行 30 億美元新募資，估值將躍升至 900 億美元，首次超越 OpenAI。年初僅 350 億美元，數月漲近五倍。Claude Code 在企業市場的強勁採用是主要成長動能。",
+      "from_file": "output/2026/05/18.md"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Claude Code 帶動算力擴張，xAI Colossus 1 超算上線",
+      "url": "https://en.wikipedia.org/wiki/Anthropic",
+      "source": "en.wikipedia.org",
+      "company": "Anthropic/xAI",
+      "topic": "Anthropic xAI Colossus 1 compute deal",
+      "fingerprint": "Anthropic|colossus-1-compute-deal|2026-05-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "20萬顆 GPU 算力設施正式上線"
+      },
+      "summary": "Anthropic 宣布使用 xAI/SpaceX 整座 Colossus 1 資料中心，配备超过 20 万颗 NVIDIA GPU，成為全球最大 AI 算力設施之一，解決高速成長帶來的算力瓶頸。",
+      "from_file": "output/2026/05/18.md"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Google I/O 2026 明開跑，Gemini 旗艦版受矚目",
+      "url": "https://www.techtimes.com/articles/316755/20260517/google-i-o-2026-keynote-opens-tuesday-new-gemini-lands-behind-mythos-gpt-55.htm",
+      "source": "techtimes.com",
+      "company": "Google",
+      "topic": "Google I/O 2026 Gemini flagship release",
+      "fingerprint": "Google|io-2026-gemini-flagship|2026-05-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "旗艦版 Gemini 明日發布迎戰 Claude Mythos 與 GPT-5.5"
+      },
+      "summary": "Google I/O 2026 將於明日（5/19-20）登場，預料發布新 Gemini 模型旗艦版。面對 Anthropic Claude Mythos Preview 與 OpenAI GPT-5.5 的強勢競爭，Google 需證明其模型仍站在 AI 前沿。",
+      "from_file": "output/2026/05/18.md"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "OpenAI Greg Brockman 回歸掌管產品策略",
+      "url": "https://winbuzzer.com/2026/05/17/openai-co-founder-greg-brockman-takes-charge-of-pr-xcxwbn/",
+      "source": "winbuzzer.com",
+      "company": "OpenAI",
+      "topic": "Greg Brockman product strategy lead",
+      "fingerprint": "OpenAI|brockman-product-strategy|2026-05-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "共同創辦人回歸強化產品與開發者市場"
+      },
+      "summary": "OpenAI 共同創辦人 Greg Brockman 將重新掌舵產品策略，協助公司在 AI 代理時代鞏固開發者與企業市場。在 Anthropic 與 Google 夾擊下，產品定位成關鍵戰場。",
+      "from_file": "output/2026/05/18.md"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "金融機構搶修資安漏洞！Anthropic Mythos AI 點名數百項弱點",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source": "reuters.com",
+      "company": "Anthropic",
+      "topic": "Banks rushing to fix Mythos-flagged vulnerabilities",
+      "fingerprint": "Anthropic|mythos-banks-vulnerability-fix|2026-05-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "AI 資安工具首次在大規模金融場景發揮實質作用"
+      },
+      "summary": "美國銀行正在趕緊修復 Anthropic 強大的 Mythos AI 工具所發現的數百項 IT 系統弱點，緊急進行系統升級。這是 AI 資安工具首次在大規模金融場景中發揮實質作用。",
+      "from_file": "output/2026/05/18.md"
     }
   ],
   "reason_picked_schema": {
