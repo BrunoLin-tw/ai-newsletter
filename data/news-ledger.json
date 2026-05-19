@@ -5538,6 +5538,80 @@
       },
       "summary": "美國銀行正在趕緊修復 Anthropic 強大的 Mythos AI 工具所發現的數百項 IT 系統弱點，緊急進行系統升級。這是 AI 資安工具首次在大規模金融場景中發揮實質作用。",
       "from_file": "output/2026/05/18.md"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Google I/O 2026 Gemini 強化預約與自動填入功能",
+      "url": "https://www.cnet.com/news-live/google-io-2026-live-news-updates/",
+      "source": "cnet.com",
+      "company": "Google",
+      "topic": "Gemini appointment booking auto-fill I/O 2026",
+      "fingerprint": "Google|gemini-appointment-booking|2026-05-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Gemini 新增預約約會與自動填入功能"
+      },
+      "summary": "Google 在 I/O 2026 宣布 Gemini 新功能，可幫使用者預約約會，並增強自動填入功能，能從手機其他位置擷取個人資訊，大幅提升日常便利性。",
+      "from_file": "output/2026/05/19.md"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Googlebooks 正式揭曉：Android 筆電新時代",
+      "url": "https://www.cnet.com/tech/computing/googlebooks-premium-laptop-gemini-ai-chromebooks-android/",
+      "source": "cnet.com",
+      "company": "Google",
+      "topic": "Googlebooks Android laptop Gemini AI",
+      "fingerprint": "Google|googlebooks-android-laptop|2026-05-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Chromebook 後繼產品運行 Android"
+      },
+      "summary": "Google 發布 Googlebooks，作為 Chromebook 的後繼產品，運行 Android 系統並深度整合 Gemini AI 功能，為筆電市場帶來全新選擇。",
+      "from_file": "output/2026/05/19.md"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "美國 AI 立法碎片化：1200+ 法案無一通過檢驗",
+      "url": "https://fortune.com/2026/05/15/ai-policy-patchwork-state-federal-regulation-framework-sonnenfeld-marcus/",
+      "source": "fortune.com",
+      "company": "US Government",
+      "topic": "US AI legislation 1200 bills no test",
+      "fingerprint": "US Government|ai-legislation-1200-bills|2026-05-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "1200+ AI 法案缺乏有效政策檢驗"
+      },
+      "summary": "Fortune 報導，美國各州在過去九個月提出超過 1200 項 AI 相關法案，但至今沒有一項通過有效的政策檢驗框架。從加州到康乃迪克州，立法者仍在尋找監管與創新間的平衡點。",
+      "from_file": "output/2026/05/19.md"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Samsung AI 智慧眼鏡七月亮相，搶先 Apple",
+      "url": "https://www.ilounge.com/news/samsung-releasing-products-and-ai-smartglasses-ahead-of-apple-next-month",
+      "source": "ilounge.com",
+      "company": "Samsung",
+      "topic": "Samsung AI smart glasses Android XR Gemini",
+      "fingerprint": "Samsung|ai-smart-glasses-android-xr|2026-05-19",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "7/22 發布，採用 Android XR + Gemini"
+      },
+      "summary": "Samsung 宣布將於 7 月 22 日發布 AI 智慧眼鏡，與 Gentle Monster 合作，採用 Android XR 系統並整合 Gemini AI。產品配備 HD 喇叭、麥克風與相機，將在 Apple 之前搶佔智慧眼鏡市場。",
+      "from_file": "output/2026/05/19.md"
     }
   ],
   "reason_picked_schema": {
