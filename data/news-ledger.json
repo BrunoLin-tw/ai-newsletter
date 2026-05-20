@@ -5612,6 +5612,101 @@
       },
       "summary": "Samsung 宣布將於 7 月 22 日發布 AI 智慧眼鏡，與 Gentle Monster 合作，採用 Android XR 系統並整合 Gemini AI。產品配備 HD 喇叭、麥克風與相機，將在 Apple 之前搶佔智慧眼鏡市場。",
       "from_file": "output/2026/05/19.md"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Google Search 迎來 25 年最大變革：AI 驅動智慧搜尋框",
+      "url": "https://www.engadget.com/2176896/everything-google-announced-io-2026-gemini-omni-spark/",
+      "source": "engadget.com",
+      "company": "Google",
+      "topic": "Google AI search box overhaul 25 years",
+      "fingerprint": "Google|ai-search-box-overhaul-25-years|2026-05-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "25年最大搜尋框升級，支援圖影片輸入"
+      },
+      "summary": "Google 宣布推出全新 AI powered 搜尋框，這是 25 年來最大更新。新搜尋框可主動預測用戶意圖、支援圖片/影片/檔案輸入，並整合 Gemini 3.5 Flash 模型。用戶可追問 AI Overview 並直接進入 AI Mode，搜尋結果會根據對話深度動態調整相關性。",
+      "from_file": "output/2026/05/20.md"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "OpenAI 共同創辦人 Andrej Karpathy 加入 Anthropic 預訓練團隊",
+      "url": "https://www.cnbc.com/2026/05/19/anthropic-hires-andrej-karpathy-former-tesla-ai-lead.html",
+      "source": "cnbc.com",
+      "company": "Anthropic",
+      "topic": "Andrej Karpathy joins Anthropic pre-training",
+      "fingerprint": "Anthropic|karpathy-joins-anthropic|2026-05-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "OpenAI 共同創辦人轉向 Anthropic"
+      },
+      "summary": "Karpathy 本週正式加入 Anthropic，領導預訓練團隊進行大型訓練任務。他表示「接下來幾年將是 LLM 前沿發展的關鍵 formation 期」，這位 AI 領域傳奇人物從 OpenAI 轉向 Anthropic，顯示人才競爭加劇。",
+      "from_file": "output/2026/05/20.md"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Meta 宣布裁員 8000 人並重組 7000 人力轉向 AI 團隊",
+      "url": "https://www.newsbytesapp.com/news/business/meta-moves-7-000-employees-to-ai-roles-ahead-of-layoffs/story",
+      "source": "newsbytesapp.com",
+      "company": "Meta",
+      "topic": "Meta layoffs 8000 AI transformation",
+      "fingerprint": "Meta|layoffs-8000-ai-transformation|2026-05-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "8000人裁員+7000人轉AI，規模升級10倍"
+      },
+      "summary": "Meta 於 5 月 20 日啟動大規模裁員，影響全球約 10% 員工。同時將 7000 名員工轉至新 AI 團隊，包括 Applied AI Engineering 與 Agent Transformation Accelerator XFN。CTO Andrew Bosworth 公布這些新團隊正開發能執行人類任務的 AI 代理。",
+      "from_file": "output/2026/05/20.md"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Google I/O 2026 正式發布 Gemini Intelligence",
+      "url": "https://www.androidauthority.com/gemini-intelligence-3665302/",
+      "source": "androidauthority.com",
+      "company": "Google",
+      "topic": "Gemini Intelligence Android agentic AI",
+      "fingerprint": "Google|gemini-intelligence-android-io2026|2026-05-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Gemini Intelligence 登陸 Android"
+      },
+      "summary": "Google 在 I/O 2026 主題演講中正式發布 Gemini Intelligence，為 Android 帶來 agentic AI 能力。新功能包括 Chrome 自動瀏覽、智能表單填充、AI 生成小工具、Gboard 語音清理，以及 Android Auto 可根據郵件/日曆上下文提供智能回復。Googlebooks 筆記本系列也正式發布，運行完整 Android 系統。",
+      "from_file": "output/2026/05/20.md"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Anthropic 將 Claude Code 每週額度提升 50%",
+      "url": "https://pasqualepillitteri.it/en/news/2494/claude-code-weekly-limits-50-percent-anti-codex-anthropic-2026",
+      "source": "pasqualepillitteri.it",
+      "company": "Anthropic",
+      "topic": "Claude Code weekly limits increase 50%",
+      "fingerprint": "Anthropic|claude-code-limits-50-percent|2026-05-20",
+      "section": "tools",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "50%額度提升至7/13，抗衡OpenAI Codex"
+      },
+      "summary": "Anthropic 宣布從 5 月 13 日至 7 月 13 日將 Claude Code 每週額度提高 50%，涵蓋 Pro、Max、Team 與企業方案。這是針對 OpenAI Codex 競爭的直接回應，顯示 AI 程式設計工具市場競爭升溫。",
+      "from_file": "output/2026/05/20.md"
     }
   ],
   "reason_picked_schema": {
