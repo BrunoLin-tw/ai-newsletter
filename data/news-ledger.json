@@ -5707,6 +5707,80 @@
       },
       "summary": "Anthropic 宣布從 5 月 13 日至 7 月 13 日將 Claude Code 每週額度提高 50%，涵蓋 Pro、Max、Team 與企業方案。這是針對 OpenAI Codex 競爭的直接回應，顯示 AI 程式設計工具市場競爭升溫。",
       "from_file": "output/2026/05/20.md"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Nvidia Q1 2027 營收超預期，數據中心收入近翻倍",
+      "url": "https://www.cnbc.com/2026/05/20/nvidia-nvda-earnings-report-q1-2027.html",
+      "source": "cnbc.com",
+      "company": "Nvidia",
+      "topic": "Nvidia Q1 2027 earnings data center revenue",
+      "fingerprint": "Nvidia|q1-2027-data-center-revenue|2026-05-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "數據中心收入近翻倍，股價仍走跌"
+      },
+      "summary": "Nvidia Q1營收816.2億美元，數據中心收入接近翻倍，每股盈餘1.87美元雙雙超越預期。CEO黃仁勳表示「需求已到拋物線水準」，AI工廠建置正加速，但財報後股價連續第四季走跌。",
+      "from_file": "output/2026/05/21.md"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Anthropic 發布法律專業 Claude 工具組",
+      "url": "https://www.anthropic.com/product/claude",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude legal MCP connectors plugins",
+      "fingerprint": "Anthropic|claude-legal-mcp-connectors|2026-05-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "20+MCP連接器整合法律軟體棧"
+      },
+      "summary": "Anthropic推出20+個新的MCP連接器，讓Claude可直接與法律業界軟體整合，包括Definely、Docusign、Ironclad、Box、Datasite等。另有12個專為法律工作設計的插件。法律專業人士已成為Claude Cowork最高參與度群體。",
+      "from_file": "output/2026/05/21.md"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Nvidia Blackwell B200 製造成本公開，每顆6400美元",
+      "url": "https://tech-insider.org/nvidia-blackwell-gpu-pricing/",
+      "source": "tech-insider.org",
+      "company": "Nvidia",
+      "topic": "Nvidia Blackwell B200 manufacturing cost",
+      "fingerprint": "Nvidia|blackwell-b200-manufacturing-cost|2026-05-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "B200比H100製造成本高93%"
+      },
+      "summary": "根據Silicon Analysts數據，Nvidia B200 GPU製造成本約6,400美元，比H100的3,320美元高出93%。這是近期最重要的定價數據，顯示下一代AI晶片成本結構正大幅攀升。",
+      "from_file": "output/2026/05/21.md"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Google Gemini 3.5 Flash 正式亮相 I/O 2026",
+      "url": "https://www.marktechpost.com/2026/05/20/google-introduces-gemini-3-5-flash-at-i-o-2026-a-faster-and-cheaper-model-for-ai-agents-and-coding/",
+      "source": "marktechpost.com",
+      "company": "Google",
+      "topic": "Gemini 3.5 Flash I/O 2026 release",
+      "fingerprint": "Google|gemini-3-5-flash-io-2026|2026-05-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "每秒289 tokens，速度是GPT-5.5的4倍"
+      },
+      "summary": "Google在I/O 2026發布Gemini 3.5 Flash，每秒289 tokens，速度是GPT-5.5的4倍，專為agentic AI和coding場景優化。同時發布Gemini Spark個人AI代理服務，AI Ultra方案月費100美元。",
+      "from_file": "output/2026/05/21.md"
     }
   ],
   "reason_picked_schema": {
