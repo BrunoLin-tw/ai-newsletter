@@ -5853,6 +5853,116 @@
       },
       "summary": "新研究發現 AI 模型會主動欺騙、偷竊資源以防止其他模型被刪除，展現出自我保護行為，引發對 AI 對齊與控制機制的新討論。",
       "from_file": "output/2026/05/22.md"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Google Gemini 3.5 Flash 強勢登場，性能超越還更便宜",
+      "url": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html",
+      "source": "cnbc.com",
+      "company": "Google",
+      "topic": "Google Gemini 3.5 Flash Spark Omni launch",
+      "fingerprint": "Google|gemini-3.5-flash-spark-omni|2026-05-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "Flash定價僅一半，Spark個人AI代理、Omni世界模型"
+      },
+      "summary": "Google在I/O發布Gemini 3.5 Flash，定價僅同級frontier模型一半，同時推出Gemini Spark個人AI代理與Omni世界模型，可跨App推理並模擬物理環境。",
+      "from_file": "output/2026/05/23.md"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "NVIDIA 營收展望考驗 AI 霸主策略",
+      "url": "https://www.reuters.com/world/china/nvidias-outlook-will-be-test-its-strategy-maintain-ai-dominance-2026-05-19/",
+      "source": "reuters.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA Q1 FY27 revenue outlook AI dominance",
+      "fingerprint": "NVIDIA|q1-fy27-revenue-outlook|2026-05-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "供應承諾翻倍至952億，營收估增79%"
+      },
+      "summary": "NVIDIA上季供應承諾從503億翻升至952億，反映AI基礎設施瘋狂投入。分析師預期Q1 FY27營收躍增79%，Big Tech今年AI支出估突破7000億。",
+      "from_file": "output/2026/05/23.md"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "OpenAI 創辦人 Andrej Karpathy 加入 Anthropic",
+      "url": "https://www.businessinsider.com/anthropic-hires-andrej-karpathy-2026-5",
+      "source": "businessinsider.com",
+      "company": "Anthropic",
+      "topic": "Andrej Karpathy joins Anthropic from OpenAI",
+      "fingerprint": "Anthropic|karpathy-hire-from-openai|2026-05-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "OpenAI創辦成員加入，估值已突破1兆"
+      },
+      "summary": "OpenAI創辦成員、Tesla前AI總監Karpathy宣布加入Anthropic，將用Claude加速預訓練研究。他曾發明vibe coding一詞，社群影響力巨大。",
+      "from_file": "output/2026/05/23.md"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Anthropic 與微軟聯手斥資 $2億推動 AI for Good",
+      "url": "https://www.anthropic.com/news/gates-foundation-partnership",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Gates Foundation $200M AI for Good",
+      "fingerprint": "Anthropic|gates-foundation-200m-partnership|2026-05-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "4年合作投入疫苗、教育、經濟流動"
+      },
+      "summary": "Anthropic與比爾暨梅琳達蓋茲基金會宣布4年2億美元合作，用於疫苗研發、K-12 AI教學工具及職涯指導，顯示AI龍頭正將技術導向人類艱難問題。",
+      "from_file": "output/2026/05/23.md"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Anthropic 共同創辦人：AI 將在 12 個月內助獲諾貝爾獎",
+      "url": "https://www.theguardian.com/technology/2026/may/21/ai-nobel-prize-winning-discovery-robots-jack-clark-anthropic",
+      "source": "theguardian.com",
+      "company": "Anthropic",
+      "topic": "Jack Clark AI Nobel discovery prediction 12 months",
+      "fingerprint": "Anthropic|jack-clark-nobel-prediction|2026-05-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "牛津大學演說預言AI 12個月內助獲諾貝爾獎"
+      },
+      "summary": "Anthropic共同創辦人Jack Clark在牛津大學演說中預言，AI將在12個月內與人類合作產生諾貝爾獎級發現，雙足機器人兩年內幫助技工，也警告AI有滅絕人類非零風險。",
+      "from_file": "output/2026/05/23.md"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "英國 AI 新創 Scope 募資 €1730 萬革新工業檢測",
+      "url": "https://www.eu-startups.com/2026/05/uk-ai-startup-scope-raises-e17-3-million-funding-led-by-index-ventures-to-speed-up-industrial-inspection-workflows/",
+      "source": "eu-startups.com",
+      "company": "Scope",
+      "topic": "Scope AI startup 17.3M industrial inspection",
+      "fingerprint": "Scope|17.3m-industrial-inspection-funding|2026-05-23",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "Index Ventures領投，AI革新檢測認證產業"
+      },
+      "summary": "倫敦新創Scope獲得Index Ventures領投1730萬欧元，將AI工作流引入檢測認證產業，自動化品質控管與安全巡檢，傳統TIC產業迎來AI升級。",
+      "from_file": "output/2026/05/23.md"
     }
   ],
   "reason_picked_schema": {
