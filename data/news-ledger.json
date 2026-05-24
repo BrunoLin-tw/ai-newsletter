@@ -5963,6 +5963,99 @@
       },
       "summary": "倫敦新創Scope獲得Index Ventures領投1730萬欧元，將AI工作流引入檢測認證產業，自動化品質控管與安全巡檢，傳統TIC產業迎來AI升級。",
       "from_file": "output/2026/05/23.md"
+    },
+    {
+      "date": "2026-05-24",
+      "title": "Anthropic 推出 Claude for Small Business",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude for Small Business AI agent workflows",
+      "fingerprint": "Anthropic|claude-for-small-business|2026-05-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "15個現成代理工作流整合小型企業常用工具"
+      },
+      "summary": "Anthropic 發布專為小型企業設計的 Claude 產品，整合 QuickBooks、PayPal、HubSpot、Canva、Docusign 等工具，提供 15 個現成可用 AI 代理工作流，涵蓋薪資規劃、月結帳、销售活动、發票催收等。",
+      "from_file": "output/2026/05/24.md"
+    },
+    {
+      "date": "2026-05-24",
+      "title": "AMD 宣布超 $100 億美元投資台灣 AI 產業",
+      "url": "https://www.reuters.com/world/china/nvidia-says-its-forecast-200-billion-cpu-market-includes-china-2026-05-23/",
+      "source": "reuters.com",
+      "company": "AMD",
+      "topic": "AMD Taiwan AI investment $10 billion",
+      "fingerprint": "AMD|taiwan-ai-investment-10b|2026-05-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "投資超過100億美元擴展2nm Venice CPU產能"
+      },
+      "summary": "AMD 宣布將投資超過 100 億美元於台灣 AI 產業，深化策略合作夥伴關係並擴展下一代 2nm Venice CPU 的製造與組裝產能。此舉旨在對抗 NVIDIA 在 AI 晶片市場的主導地位。",
+      "from_file": "output/2026/05/24.md"
+    },
+    {
+      "date": "2026-05-24",
+      "title": "NVIDIA 預測 AI CPU 市場將達 $2000 億美元",
+      "url": "https://www.eteknix.com/nvidia-vera-could-change-the-ai-processor-market-and-challenge-intel-and-amd/",
+      "source": "eteknix.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA CPU market forecast $200 billion Vera",
+      "fingerprint": "NVIDIA|cpu-market-200b-vera|2026-05-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "預測AI資料中心CPU市場達2000億，Vera挑戰Intel/AMD"
+      },
+      "summary": "NVIDIA 執行長黃仁勳在 Computex 2026 前夕表示，AI 資料中心 CPU 市場規模將達 2000 億美元。同時傳出 NVIDIA 將展示基於 ARM 架構的 Vera 處理器，性能有望超越 Intel 與 AMD。",
+      "from_file": "output/2026/05/24.md"
+    },
+    {
+      "date": "2026-05-24",
+      "title": "Anthropic 推出 Claude for Creative Work",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude for Creative Work Adobe Canva connectors",
+      "fingerprint": "Anthropic|claude-for-creative-work|2026-05-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "整合Adobe/Canva等創作工具的connector"
+      },
+      "summary": "Anthropic 發布整合 Adobe Creative Cloud、Canva、Ableton、Blender、SketchUp、Splice 的 connector，讓 Claude 能在創作工具中提供軟體教學、腳本生成、自動化批量處理等功能，同時推出 Claude Design。",
+      "from_file": "output/2026/05/24.md"
+    },
+    {
+      "date": "2026-05-24",
+      "title": "Figma 推出原生 AI Design Agent",
+      "url": "https://www.figma.com/blog/introducing-design-agent/",
+      "source": "figma.com",
+      "company": "Figma",
+      "topic": "Figma native AI Design Agent",
+      "fingerprint": "Figma|design-agent-launch|2026-05-24",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "內建於協作畫布的AI設計代理，beta免費"
+      },
+      "summary": "Figma 推出內建於協作畫布的 AI 設計代理，用戶可透過自然語言描述需求，代理將直接在畫布上執行修改。此代理尊重設計系統、支援多人同時使用，beta 期間免費。",
+      "from_file": "output/2026/05/24.md"
     }
   ],
   "reason_picked_schema": {
