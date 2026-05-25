@@ -6056,6 +6056,97 @@
       },
       "summary": "Figma 推出內建於協作畫布的 AI 設計代理，用戶可透過自然語言描述需求，代理將直接在畫布上執行修改。此代理尊重設計系統、支援多人同時使用，beta 期間免費。",
       "from_file": "output/2026/05/24.md"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "OpenAI 徵求安全研究師迎戰「自我訓練 AI」",
+      "url": "https://www.businessinsider.com/openai-safety-team-ai-self-improvement-challenge-job-2026-5",
+      "source": "businessinsider.com",
+      "company": "OpenAI",
+      "topic": "recursive self-improvement AI safety hiring",
+      "fingerprint": "OpenAI|recursive-self-improvement-safety-hiring|2026-05-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "首次公開招募應對 AI 自我訓練的安全研究師，年薪最高 44.5 萬美元"
+      },
+      "summary": "OpenAI 開出 29.5 萬至 44.5 萬美元年薪招募 Preparedness 團隊成員，應對「遞迴自我改進」AI 的潛在風險。CEO Sam Altman 目標在 2028 年前實現「真正的自動化 AI 研究員」，Demis Hassabis 稱人類正處於 singularity 山麓。",
+      "from_file": "output/2026/05/25.md"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "AMD Lisa Su 揭示 AI 晶片新瓶頸：HBM 記憶體",
+      "url": "https://www.techtimes.com/articles/317078/20260524/ai-memory-shortage-amds-lisa-su-identifies-high-bandwidth-memory-ai-chip-supplys-next-cap.htm",
+      "source": "techtimes.com",
+      "company": "AMD",
+      "topic": "HBM memory shortage AI chip bottleneck",
+      "fingerprint": "AMD|hbm-memory-shortage-bottleneck|2026-05-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "瓶頸從 CoWoS 先進封裝轉向 HBM 記憶體，供應緊張將影響消費級硬體"
+      },
+      "summary": "過去兩年先進封裝（CoWoS）是 AI 晶片瓶頸，現在轉向高頻寬記憶體。生產 1GB HBM3E 消耗的 wafer 产能是 DDR5 的 3 倍，Nvidia B300 每顆需 288GB HBM3E。AMD 與三星簽署 HBM4 供應備忘錄，游戏部门警告下半年記憶體成本上升。",
+      "from_file": "output/2026/05/25.md"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "OpenAI 去年營收 200 億美元却虧損 140 億",
+      "url": "https://blockchainreporter.net/openai-loses-14b-despite-20b-revenue-as-anthropic-and-openai-pledge-1-5t-in-cloud-spending",
+      "source": "blockchainreporter.net",
+      "company": "OpenAI",
+      "topic": "OpenAI $14B loss $20B revenue $1.5T cloud commitment",
+      "fingerprint": "OpenAI|14b-loss-20b-revenue-1.5t-cloud-commitment|2026-05-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "營收公佈後首次披露詳細虧損與雲端支出承諾"
+      },
+      "summary": "OpenAI 去年營收近 200 億美元但預估虧損 140 億，2028 年累計虧損可能達 440 億。Anthropic 年化營收 43 億美元但支出 190 億。兩家公司合計承諾提供 1.5 兆美元雲端支出，佔四大雲端供應商未來營收的 43%-54%。",
+      "from_file": "output/2026/05/25.md"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "Apple 註冊 genai.apple.com 暗示 WWDC 2026 Siri 大升級",
+      "url": "https://www.livemint.com/technology/tech-news/wwdc-2026-apple-registers-new-gen-ai-web-domain-as-siri-gears-up-for-its-biggest-upgrade-in-years-11779584057825.html",
+      "source": "livemint.com",
+      "company": "Apple",
+      "topic": "Apple genai subdomain Siri WWDC 2026 overhaul",
+      "fingerprint": "Apple|genai-subdomain-siri-wwdc-2026|2026-05-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "Apple 首次註冊生成式 AI 網域，預告 iOS 27 Siri 重大更新"
+      },
+      "summary": "距 WWDC 2026 僅剩數週，Apple 悄悄註冊生成式 AI 子網域 genai.apple.com。iOS 27 將帶來更強大的對話式 Siri，支援跨 App 運作並可能推出獨立對話應用，隱私優先的端側 AI 仍是核心策略。",
+      "from_file": "output/2026/05/25.md"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "Roo Code 社群分支 Kilo Code 正式亮相",
+      "url": "https://agentic.ai/best/coding-agents",
+      "source": "agentic.ai",
+      "company": "Independent",
+      "topic": "Kilo Code Roo Code fork open source VS Code extension",
+      "fingerprint": "Independent|kilo-code-roo-code-fork|2026-05-25",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source"
+        ],
+        "note": "開源 VS Code 代理編碼工具社群維護版本正式發布"
+      },
+      "summary": "Kilo Code 是 Roo Code 的社群分支，開源 VS Code 擴展 Apache 2.0 授權，支援多供應商 BYOK，本地端執行作為 IDE 延伸。Roo Code 於 2026 年 5 月 15 日封存後，社群接手維護。",
+      "from_file": "output/2026/05/25.md"
     }
   ],
   "reason_picked_schema": {
