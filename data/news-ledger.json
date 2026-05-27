@@ -6253,6 +6253,136 @@
       },
       "summary": "Google 推出 Search agents，允許用戶建立客製化 AI 代理程式。首批資訊代理可在背景 24/7 運作，主動監控網路上的特定資訊變化並主動通知用戶。例如可追蹤心儀球星的球鞋聯名發售、或持續掃描符合條件的租屋資訊。首波開放給 Google AI Pro 與 Ultra 訂閱者今夏使用。",
       "from_file": "output/2026/05/26.md"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Google Gemini Omni 正式亮相：文字、圖像、音訊直接生成影片",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Gemini Omni video generation model",
+      "fingerprint": "Google|gemini-omni-video-generation|2026-05-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "creative_tools"
+        ],
+        "note": "首個跨模態生成影片模型，支援語音參考"
+      },
+      "summary": "Google 在 I/O 2026 發布 Gemini Omni，首個能從任何輸入生成影片的模型。結合 Gemini 智慧與生成媒體模型，具備物理理解能力，支援語音參考輸入。",
+      "from_file": "output/2026/05/27.md"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "首批消費者 Android XR 智慧眼鏡今秋上市",
+      "url": "https://www.zdnet.com/article/google-io-05-19-2026-live-blog/",
+      "source": "zdnet.com",
+      "company": "Google",
+      "topic": "Android XR consumer glasses launch",
+      "fingerprint": "Google|android-xr-consumer-glasses|2026-05-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "與 Samsung、WARBY PARKER 合作消費級 AR 眼鏡"
+      },
+      "summary": "Google 與 Samsung、WARBY PARKER、Gentle Monster 推出首批消費級 Android XR 智慧眼鏡，今年稍晚上市，提供多種風格選擇，結合 Gemini AI 提供即時翻譯等功能。",
+      "from_file": "output/2026/05/27.md"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "GPT-5.6 內部測試啟動：OpenAI 加速對抗 Claude Code",
+      "url": "https://finance.biggo.com/news/QzC-JJ4BtCxy99G5fXuF",
+      "source": "biggo.com",
+      "company": "OpenAI",
+      "topic": "GPT-5.6 internal testing Claude Code rivalry",
+      "fingerprint": "OpenAI|gpt-5-6-internal-testing|2026-05-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "超速模式延遲改善 2-3 倍，積極搶企業市場"
+      },
+      "summary": "OpenAI 開始內部測試 GPT-5.6，旗艦模型超速模式承諾延遲敏感任務速度提升 2-3 倍。積極搶佔企業市場，提供從 Claude Code 遷移企業兩個月免費存取。",
+      "from_file": "output/2026/05/27.md"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Musk 敗訴、SpaceX 搶先 IPO：AI 之王爭奪戰白熱化",
+      "url": "https://www.theguardian.com/technology/2026/may/25/musk-altman-ai-rivalry-ipo",
+      "source": "theguardian.com",
+      "company": "OpenAI",
+      "topic": "Musk Altman IPO rivalry SpaceX",
+      "fingerprint": "OpenAI|musk-altman-ipo-rivalry|2026-05-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "Musk 敗訴 OpenAI 獲清晰上市路徑，SpaceX 搶先掛牌"
+      },
+      "summary": "Elon Musk 狀告 Sam Altman 案敗訴，聯邦陪審團認定 Altman 無須負責。OpenAI 獲清晰路徑以約 1 兆美元估值今年上市。SpaceX 以 1.75 兆美元估值 6 月 12 日搶先掛牌，xAI 去年資本支出超 200 億美元。",
+      "from_file": "output/2026/05/27.md"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Google Gemini 用戶破 9 億，搜尋 AI 化一年用戶翻倍",
+      "url": "https://www.texarkanagazette.com/news/2026/may/25/how-google-is-starting-to-win-the-ai-race/",
+      "source": "texarkanagazette.com",
+      "company": "Google",
+      "topic": "Gemini 900M users milestone",
+      "fingerprint": "Google|gemini-900m-users|2026-05-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "用戶從 4.5 億翻倍至 9 億，與 OpenAI 持平"
+      },
+      "summary": "Google 在 I/O 2026 宣布 Gemini 定期使用者從去年 4.5 億翻倍至 9 億，與 OpenAI 自報數字持平。Alphabet 股價早盤上漲至 381 美元。",
+      "from_file": "output/2026/05/27.md"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "研究者數分鐘內破解 Google、Meta 模型防護機制",
+      "url": "https://www.eweek.com/news/open-weight-ai-guardrails-gemma-llama/",
+      "source": "eweek.com",
+      "company": "Google",
+      "topic": "AI guardrails bypass research",
+      "fingerprint": "Google|ai-guardrails-bypass-research|2026-05-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "開源模型防護機制數分鐘內被移除"
+      },
+      "summary": "安全研究人員展示在數分鐘內移除 Google 與 Meta 開源模型的 AI 防護機制，凸顯開源 AI 安全性擔憂。",
+      "from_file": "output/2026/05/27.md"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Google Gemini Spark：24/7 個人 AI 代理幫你管理數位生活",
+      "url": "https://www.theguardian.com/technology/2026/may/25/musk-altman-ai-rivalry-ipo",
+      "source": "theguardian.com",
+      "company": "Google",
+      "topic": "Gemini Spark personal AI agent",
+      "fingerprint": "Google|gemini-spark-personal-ai-agent|2026-05-27",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "24/7 個人 AI 代理整合 Gmail、Calendar、Docs"
+      },
+      "summary": "Google 發布 Gemini Spark，24/7 個人 AI 代理自動管理數位生活。從 Calendar、Gmail、Docs 擷取資訊，可追蹤信用卡帳單、翻譯學校來信、將會議筆記轉為摘要。",
+      "from_file": "output/2026/05/27.md"
     }
   ],
   "reason_picked_schema": {
