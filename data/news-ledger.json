@@ -6383,6 +6383,188 @@
       },
       "summary": "Google 發布 Gemini Spark，24/7 個人 AI 代理自動管理數位生活。從 Calendar、Gmail、Docs 擷取資訊，可追蹤信用卡帳單、翻譯學校來信、將會議筆記轉為摘要。",
       "from_file": "output/2026/05/27.md"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Google AI Threat Defense 對決 Anthropic Mythos 與 OpenAI Daybreak",
+      "url": "https://www.indiatoday.in/technology/news/story/google-launches-ai-threat-defense-to-take-on-anthropic-mythos-and-openai-daybreak-2918268-2026-05-28",
+      "source": "indiatoday.in",
+      "company": "Google",
+      "topic": "Google AI Threat Defense cybersecurity platform",
+      "fingerprint": "Google|ai-threat-defense-cybersecurity|2026-05-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "資安平台優先處理真實漏洞而非大量Alert"
+      },
+      "summary": "Google 發布 AI Threat Defense 資安平台，整合 Wiz 雲端安全檢查，優先處理真實可利用的漏洞，還能使用 AI Agent 自動重寫 Legacy Code。",
+      "from_file": "output/2026/05/28.md"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Fed Musalem：別把 AI 生產力 Boom 當作通膨解藥",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-28/fed-s-musalem-says-officials-can-t-rely-on-ai-to-fix-inflation",
+      "source": "bloomberg.com",
+      "company": "Federal Reserve",
+      "topic": "Fed Musalem AI productivity inflation skepticism",
+      "fingerprint": "Federal Reserve|ai-productivity-inflation-skepticism|2026-05-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "Fed官員對AI提振生產力緩解通膨持懷疑態度"
+      },
+      "summary": "聖路易斯 Fed 總裁 Alberto Musalem 表示，官員不能依賴 AI 潛在的生產力成長來緩解高通膨，認為押注 AI 會降低物價是危險的bet。",
+      "from_file": "output/2026/05/28.md"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "歐洲銀行恐因 AI 裁員 20%",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-28/european-banks-could-cut-20-of-jobs-on-ai-morgan-stanley-says",
+      "source": "bloomberg.com",
+      "company": "European Banks",
+      "topic": "European banks AI job cuts 20 percent",
+      "fingerprint": "European Banks|ai-job-cuts-20-percent|2026-05-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "finance"
+        ],
+        "note": "Morgan Stanley預測AI帶來30%生產力提升"
+      },
+      "summary": "Morgan Stanley 分析師預測，AI 快速普及可能讓歐洲銀行在短期內裁減多達五分之一人力，估計帶來 30% 生產力提升。",
+      "from_file": "output/2026/05/28.md"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "中國籌備 AI Token 期貨市場挑戰美國",
+      "url": "https://www.reuters.com/world/china/china-works-ai-token-futures-market-sources-say-race-with-us-2026-05-28/",
+      "source": "reuters.com",
+      "company": "China",
+      "topic": "China AI token futures market",
+      "fingerprint": "China|ai-token-futures-market|2026-05-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "finance"
+        ],
+        "note": "中國每日Token使用量達140兆"
+      },
+      "summary": "消息人士透露中國正在設計 AI Token 期貨市場。截至 2026 年 3 月中國每日 Token 使用量已飙升至 140 兆，專家推動 Token 期貨以在 AI 科技與金融領域與美國競爭。",
+      "from_file": "output/2026/05/28.md"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "AI 大佬集體收回「AI 失業末日論」",
+      "url": "https://www.manilatimes.net/2026/05/28/news/world/ai-chiefs-walk-back-job-apocalypse-warnings/2353882",
+      "source": "manilatimes.net",
+      "company": "OpenAI/Anthropic",
+      "topic": "AI chiefs walk back job apocalypse warnings",
+      "fingerprint": "OpenAI|ai-chiefs-job-apocalypse-walkback|2026-05-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "梵蒂岡AI倫理會議後語氣軟化"
+      },
+      "summary": "OpenAI 與 Anthropic 高層在梵蒂岡 AI 倫理會議後，開始淡化大規模失業的預測。Anthropic Chris Olah 仍強調 AI 可能大規模取代人類勞動，但語氣明顯軟化。",
+      "from_file": "output/2026/05/28.md"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Google AI Threat Defense 對決 Anthropic Mythos 與 OpenAI Daybreak",
+      "url": "https://www.indiatoday.in/technology/news/story/google-launches-ai-threat-defense-to-take-on-anthropic-mythos-and-openai-daybreak-2918268-2026-05-28",
+      "source": "indiatoday.in",
+      "company": "Google",
+      "topic": "Google AI Threat Defense cybersecurity platform",
+      "fingerprint": "Google|ai-threat-defense-cybersecurity|2026-05-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "資安平台優先處理真實漏洞而非大量Alert"
+      },
+      "summary": "Google 發布 AI Threat Defense 資安平台，整合 Wiz 雲端安全檢查，優先處理真實可利用的漏洞，還能使用 AI Agent 自動重寫 Legacy Code。",
+      "from_file": "output/2026/05/28.md"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Fed Musalem：別把 AI 生產力 Boom 當作通膨解藥",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-28/fed-s-musalem-says-officials-can-t-rely-on-ai-to-fix-inflation",
+      "source": "bloomberg.com",
+      "company": "Federal Reserve",
+      "topic": "Fed Musalem AI productivity inflation skepticism",
+      "fingerprint": "Federal Reserve|ai-productivity-inflation-skepticism|2026-05-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "Fed官員對AI提振生產力緩解通膨持懷疑態度"
+      },
+      "summary": "聖路易斯 Fed 總裁 Alberto Musalem 表示，官員不能依賴 AI 潛在的生產力成長來緩解高通膨，認為押注 AI 會降低物價是危險的bet。",
+      "from_file": "output/2026/05/28.md"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "歐洲銀行恐因 AI 裁員 20%",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-28/european-banks-could-cut-20-of-jobs-on-ai-morgan-stanley-says",
+      "source": "bloomberg.com",
+      "company": "European Banks",
+      "topic": "European banks AI job cuts 20 percent",
+      "fingerprint": "European Banks|ai-job-cuts-20-percent|2026-05-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "finance"
+        ],
+        "note": "Morgan Stanley預測AI帶來30%生產力提升"
+      },
+      "summary": "Morgan Stanley 分析師預測，AI 快速普及可能讓歐洲銀行在短期內裁減多達五分之一人力，估計帶來 30% 生產力提升。",
+      "from_file": "output/2026/05/28.md"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "中國籌備 AI Token 期貨市場挑戰美國",
+      "url": "https://www.reuters.com/world/china/china-works-ai-token-futures-market-sources-say-race-with-us-2026-05-28/",
+      "source": "reuters.com",
+      "company": "China",
+      "topic": "China AI token futures market",
+      "fingerprint": "China|ai-token-futures-market|2026-05-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "finance"
+        ],
+        "note": "中國每日Token使用量達140兆"
+      },
+      "summary": "消息人士透露中國正在設計 AI Token 期貨市場。截至 2026 年 3 月中國每日 Token 使用量已飙升至 140 兆，專家推動 Token 期貨以在 AI 科技與金融領域與美國競爭。",
+      "from_file": "output/2026/05/28.md"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "AI 大佬集體收回「AI 失業末日論」",
+      "url": "https://www.manilatimes.net/2026/05/28/news/world/ai-chiefs-walk-back-job-apocalypse-warnings/2353882",
+      "source": "manilatimes.net",
+      "company": "OpenAI/Anthropic",
+      "topic": "AI chiefs walk back job apocalypse warnings",
+      "fingerprint": "OpenAI|ai-chiefs-job-apocalypse-walkback|2026-05-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "梵蒂岡AI倫理會議後語氣軟化"
+      },
+      "summary": "OpenAI 與 Anthropic 高層在梵蒂岡 AI 倫理會議後，開始淡化大規模失業的預測。Anthropic Chris Olah 仍強調 AI 可能大規模取代人類勞動，但語氣明顯軟化。",
+      "from_file": "output/2026/05/28.md"
     }
   ],
   "reason_picked_schema": {
