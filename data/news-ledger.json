@@ -6565,6 +6565,114 @@
       },
       "summary": "OpenAI 與 Anthropic 高層在梵蒂岡 AI 倫理會議後，開始淡化大規模失業的預測。Anthropic Chris Olah 仍強調 AI 可能大規模取代人類勞動，但語氣明顯軟化。",
       "from_file": "output/2026/05/28.md"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Claude Opus 4.8 正式發布，強化編碼與代理任務",
+      "url": "https://www.anthropic.com/news",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude Opus 4.8 coding agentic tasks",
+      "fingerprint": "Anthropic|claude-opus-4-8-coding-agentic-tasks|2026-05-29",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "旗艦模型強化編碼代理、長時程處理，營收470億"
+      },
+      "summary": "Anthropic 發布 Claude Opus 4.8旗艦模型，強化編碼、代理任務與長時程工作處理，營收達470億美元run rate。",
+      "from_file": "output/2026/05/29.md"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "NVIDIA Vera Rubin 揭露：推理成本降90%、GPU需求減75%",
+      "url": "https://www.heygotrade.com/en/news/ai-chip-bullishness-nvidia-on-semiconductor-new-highs/",
+      "source": "heygotrade.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA Vera Rubin inference cost reduction",
+      "fingerprint": "NVIDIA|vera-rubin-inference-cost-90-percent|2026-05-29",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "新平台瞄準代理式AI基礎設施優化"
+      },
+      "summary": "NVIDIA Vera Rubin平台揭露，推理成本降低90%、GPU需求減少75%相比Blackwell，瞄準代理式AI時代。",
+      "from_file": "output/2026/05/29.md"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Anthropic 650億美元融資估值965億美元，超越OpenAI",
+      "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
+      "source": "cnbc.com",
+      "company": "Anthropic",
+      "topic": "Anthropic 65B funding 965B valuation",
+      "fingerprint": "Anthropic|65b-funding-965b-valuation|2026-05-29",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "營收從100億暴增至470億美元run rate"
+      },
+      "summary": "Anthropic宣布650億美元Series H融資，估值965億美元超越OpenAI，由Altimeter、Sequoia等領投，營收從去年100億增至470億。",
+      "from_file": "output/2026/05/29.md"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Meta 首次對AI功能收費，Plus .99/月 Premium 9.99/月",
+      "url": "https://www.cnbc.com/2026/05/27/meta-testing-ai-subscription-services-cheapest-plan-at-7point99-a-month.html",
+      "source": "cnbc.com",
+      "company": "Meta",
+      "topic": "Meta AI subscription pricing .99 9.99",
+      "fingerprint": "Meta|ai-subscription-7.99-19.99|2026-05-29",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [],
+        "note": "首度對AI功能收費，廣告外營收新策略"
+      },
+      "summary": "Meta首次對AI功能收費，測試Plus 7.99/月與Premium 19.99/月訂閱，為廣告以外的AI營收做準備。",
+      "from_file": "output/2026/05/29.md"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "EU AI Act 簡化協議達成，高風險系統延長至2027年12月",
+      "url": "https://www.mishcon.com/news/eu-ai-act-simplified-unpacking-the-ai-omnibus-agreement-of-may-2026",
+      "source": "mishcon.com",
+      "company": "EU",
+      "topic": "EU AI Act omnibus simplification 2027",
+      "fingerprint": "EU|ai-act-omnibus-simplification-2027|2026-05-29",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "新增深偽裸照與CSAM禁令"
+      },
+      "summary": "EU AI Act簡化協議達成，高風險系統合規期限延至2027年12月，新增深偽裸照與AI生成兒少性剝削內容禁令。",
+      "from_file": "output/2026/05/29.md"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Google I/O 2026 亮點：Gemini新介面、Android XR、搜尋自訂儀表板",
+      "url": "https://www.theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini",
+      "source": "theverge.com",
+      "company": "Google",
+      "topic": "Google I/O 2026 Gemini Android XR announcements",
+      "fingerprint": "Google|io-2026-gemini-android-xr|2026-05-29",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "秋季正式推出，AI Pro/Ultra優先體驗"
+      },
+      "summary": "Google I/O 2026發布Gemini新介面「neural expressive」、Android XR、搜尋自訂儀表板，秋季正式推出。",
+      "from_file": "output/2026/05/29.md"
     }
   ],
   "reason_picked_schema": {
