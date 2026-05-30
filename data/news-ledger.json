@@ -6673,6 +6673,82 @@
       },
       "summary": "Google I/O 2026發布Gemini新介面「neural expressive」、Android XR、搜尋自訂儀表板，秋季正式推出。",
       "from_file": "output/2026/05/29.md"
+    },
+    {
+      "date": "2026-05-30",
+      "title": "Claude Code 推出 Dynamic Workflows：可同時啟動數百個並行子代理",
+      "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "source": "claude.com",
+      "company": "Anthropic",
+      "topic": "Claude Code Dynamic Workflows parallel subagents",
+      "fingerprint": "Anthropic|claude-code-dynamic-workflows|2026-05-30",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Claude 可自動編寫協調腳本並行處理大型任務"
+      },
+      "summary": "Claude Code 推出 Dynamic Workflows，Claude 可自動編寫協調腳本，同時啟動數十至數百個並行子代理來處理大型任務。支援 Max、Team、Enterprise 方案，企業版管理員可自行開關。此功能被稱為「ultracode」，可處理整個程式碼庫的 bug 修復、效能優化審計與安全稽核。",
+      "from_file": "output/2026/05/30.md"
+    },
+    {
+      "date": "2026-05-30",
+      "title": "Anthropic 擬再借360億美元租用 Google TPU",
+      "url": "https://www.techloy.com/anthropic-overtakes-openai-at-965-billion-then-seeks-36-billion-to-rent-googles-ai-chips/",
+      "source": "techloy.com",
+      "company": "Anthropic",
+      "topic": "Anthropic $36B TPU rental Google",
+      "fingerprint": "Anthropic|36b-tpu-rental-deal|2026-05-30",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "65億融資後再借36億租用Google TPU強化算力"
+      },
+      "summary": "Anthropic 65億美元融資後擬再借36億美元租用 Google TPU。Apollo 與 Blackstone 正在籌集約 360 億美元債務融資，協助 Anthropic 購買 Google 自訂 AI 晶片 TPU，以擴展 AI 基礎設施。",
+      "from_file": "output/2026/05/30.md"
+    },
+    {
+      "date": "2026-05-30",
+      "title": "OpenRouter 獲1.13億美元B輪融資，估值13億美元",
+      "url": "https://www.techtimes.com/articles/317353/20260529/ai-gateway-openrouter-raises-113m-google-nvidia-route-between-their-models.htm",
+      "source": "techtimes.com",
+      "company": "OpenRouter",
+      "topic": "OpenRouter $113M Series B funding",
+      "fingerprint": "OpenRouter|113m-series-b-funding|2026-05-30",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "NVIDIA/Google等策略投資者參與，token量5倍成長"
+      },
+      "summary": "OpenRouter 獲 1.13 億美元 B 輪融資，估值 13 億美元，由 CapitalG（Alphabet 旗下成長基金）領投，NVIDIA、ServiceNow、MongoDB、Snowflake、Databricks 參與。允許開發者透過單一 API 调用訪問 400 多個 LLM，每週 token 量從 5 兆增長至 25 兆，用戶達 800 萬。",
+      "from_file": "output/2026/05/30.md"
+    },
+    {
+      "date": "2026-05-30",
+      "title": "OpenAI Codex 發布 rust-v0.136.0-alpha.1 更新",
+      "url": "https://github.com/openai/codex/releases",
+      "source": "github.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Codex rust-v0.136.0-alpha.1 release",
+      "fingerprint": "OpenAI|codex-rust-v0.136.0-alpha.1|2026-05-30",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "持續優化 AI 編碼能力"
+      },
+      "summary": "OpenAI Codex 發布更新，5月28日發布 rust-v0.136.0-alpha.1 版本，持續優化 AI 編碼能力。",
+      "from_file": "output/2026/05/30.md"
     }
   ],
   "reason_picked_schema": {
