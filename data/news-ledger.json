@@ -6749,6 +6749,112 @@
       },
       "summary": "OpenAI Codex 發布更新，5月28日發布 rust-v0.136.0-alpha.1 版本，持續優化 AI 編碼能力。",
       "from_file": "output/2026/05/30.md"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Anthropic 完成 65 億美元 Series H 募資，估值達 9650 億美元超越 OpenAI",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-may-30-2026",
+      "source": "aitoolsrecap.com",
+      "company": "Anthropic",
+      "topic": "Anthropic $65B Series H $965B valuation",
+      "fingerprint": "Anthropic|65b-series-h-965b-valuation|2026-05-31",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "65億募資超越OpenAI，ARR達470億"
+      },
+      "summary": "Anthropic 完成 65 億美元 Series H 募資，估值達 9650 億美元，正式超越 OpenAI 成為全球最有價值 AI 公司。同時發布 Claude Opus 4.8，在 SWE-Bench Pro 達 69.2%。",
+      "from_file": "output/2026/05/31.md"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Nvidia 與 Microsoft 將發表首批 Arm 架構 Windows PC",
+      "url": "https://www.pcmag.com/news/nvidia-microsoft-tease-is-arm-powered-windows-pc-chip-coming-computex-2026",
+      "source": "pcmag.com",
+      "company": "Nvidia",
+      "topic": "Nvidia Arm Windows PC Computex",
+      "fingerprint": "Nvidia|arm-windows-pc-computex|2026-05-31",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "首批Nvidia Arm處理器Windows PC下週發表"
+      },
+      "summary": "Nvidia 與 Microsoft 將在下週 Computex 發表首批採用 Nvidia Arm 架構處理器的 Windows PC，挑戰傳統 x86 筆電市場，結合高效能與 AI 運算能力。",
+      "from_file": "output/2026/05/31.md"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "教皇良十四世發布首道通諭呼籲 AI 解除武裝",
+      "url": "https://www.ncronline.org/vatican/vatican-news/pope-leo-calls-disarm-ai-major-document-warns-technologic-threats-humanity",
+      "source": "ncronline.org",
+      "company": "Vatican",
+      "topic": "Pope Leo XIV AI encyclical Magnifica Humanitas",
+      "fingerprint": "Vatican|pope-ai-encyclical-disarm|2026-05-31",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "天主教會最權威AI道德表態，邀Anthropic參與"
+      },
+      "summary": "羅馬教皇良十四世發布首道通諭「Magnifica Humanitas」，呼籲 AI 必須「解除武裝」，反對 AI 競爭的軍備邏輯，批評 AI 權力集中於技術統治階級。",
+      "from_file": "output/2026/05/31.md"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "SpaceX IPO roadshow 6月8日啟動，目標估值1.75-2兆美元",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-may-30-2026",
+      "source": "aitoolsrecap.com",
+      "company": "SpaceX",
+      "topic": "SpaceX IPO roadshow June 8",
+      "fingerprint": "SpaceX|ipo-roadshow-june-8|2026-05-31",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "史上最大IPO，6/18-30掛牌SPCX"
+      },
+      "summary": "SpaceX 將於 6 月 8 日啟動 IPO roadshow，目標估值 1.75-2 兆美元，預計 6 月 18-30 日以 SPCX 代碼在 Nasdaq 掛牌。",
+      "from_file": "output/2026/05/31.md"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Span 與 Nvidia 將小型 AI 運算節點安裝在住宅外牆",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-may-30-2026",
+      "source": "aitoolsrecap.com",
+      "company": "Span",
+      "topic": "Span XFRA distributed AI data centers homes",
+      "fingerprint": "Span|xfra-distributed-data-centers-homes|2026-05-31",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "分散式AI運算進駐住宅，Q3 100節點試點"
+      },
+      "summary": "Span 與 Nvidia、PulteGroup 合作將小型 AI 運算節點安裝在新建住宅外牆，每個節點配備 16 張 Nvidia RTX Pro 6000 Blackwell GPU，利用家庭剩餘電容量創造分散式運算網路。",
+      "from_file": "output/2026/05/31.md"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "施耐德電氣用 AI 提升製造產能而非裁員",
+      "url": "https://www.nytimes.com/2026/05/29/business/economy/ai-jobs-productivity.html",
+      "source": "nytimes.com",
+      "company": "Schneider Electric",
+      "topic": "Schneider Electric AI manufacturing productivity",
+      "fingerprint": "Schneider Electric|ai-manufacturing-productivity|2026-05-31",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "AI成為員工生產力工具的典範案例"
+      },
+      "summary": "法國施耐德電氣選擇用 AI 提升製造產能而非裁員，證明 AI 可以成為員工生產力工具而非失業原因。",
+      "from_file": "output/2026/05/31.md"
     }
   ],
   "reason_picked_schema": {
