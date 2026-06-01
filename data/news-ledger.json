@@ -6855,6 +6855,102 @@
       },
       "summary": "法國施耐德電氣選擇用 AI 提升製造產能而非裁員，證明 AI 可以成為員工生產力工具而非失業原因。",
       "from_file": "output/2026/05/31.md"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "Claude Opus 4.8 發布：誠實度大幅提升，程式碼錯誤偵測能力增強 4 倍",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude Opus 4.8 honesty improvement",
+      "fingerprint": "Anthropic|claude-opus-4-8-honesty|2026-06-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "誠實度提升，寫出未被發現錯誤的機率降4倍"
+      },
+      "summary": "Anthropic 發布 Opus 4.8，主打誠實度改進，模型更願意承認不確定性。內部評測顯示 Opus 4.8 寫出有缺陷程式碼且未被發現的機率比前代低約 4 倍。定價維持 $5/$25 per million tokens，支援百萬 token 上下文。",
+      "from_file": "output/2026/06/01.md"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "Google 發布 Gemini Omni 影片生成，Ultra 訂閱每月 $100 美元",
+      "url": "https://gemini.google/release-notes/",
+      "source": "gemini.google",
+      "company": "Google",
+      "topic": "Gemini Omni video generation Ultra subscription",
+      "fingerprint": "Google|gemini-omni-video-ultra|2026-06-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "影片生成正式上線，Ultra 訂閱$100/月含20TB"
+      },
+      "summary": "Gemini Omni 可透過自然語言指令生成與編輯高品質影片，甚至建立自訂 AI 虛擬化身。3.5 Flash 成為新預設模型，Gemini Live 整合至對話功能。全新 Google AI Ultra 方案定價每月 $100 美元，含 20TB 雲端儲存與 YouTube Premium。",
+      "from_file": "output/2026/06/01.md"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "OpenAI Codex 推出 Pro 5x/20x 收費層",
+      "url": "https://developers.openai.com/codex/pricing",
+      "source": "developers.openai.com",
+      "company": "OpenAI",
+      "topic": "Codex Pro 5x 20x pricing tier",
+      "fingerprint": "OpenAI|codex-pro-pricing-tier|2026-06-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "agentic coding 開始被切成更明確收費層"
+      },
+      "summary": "OpenAI 官方 Codex pricing page 明列 Pro 可選 5x 或 20x 於 Plus 的用量上限，並將 credits 與 token-based rates 說明得更完整，顯示 agentic coding 正被包裝成更獨立的商業產品線。",
+      "from_file": "output/2026/06/01.md"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "Microsoft Copilot Studio 多代理協作正式 GA",
+      "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "Copilot Studio multi-agent orchestration GA",
+      "fingerprint": "Microsoft|copilot-studio-multi-agent-ga|2026-06-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "多代理協作從 preview 轉正式可用"
+      },
+      "summary": "Microsoft 將 Copilot Studio 的多代理能力推向 GA，整合 Fabric、Microsoft 365 Agents SDK 與 A2A 開放協定，讓企業能把跨資料源與跨工具 agent 協作變成正式工作流。",
+      "from_file": "output/2026/06/01.md"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "AWS DevOps Agent 與 Security Agent 正式 GA",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-devops-agent-security-agent-ga-product-lifecycle-updates-and-more-april-6-2026/",
+      "source": "aws.amazon.com",
+      "company": "AWS",
+      "topic": "DevOps Agent Security Agent GA",
+      "fingerprint": "AWS|devops-security-agent-ga|2026-06-01",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation",
+          "security_research"
+        ],
+        "note": "AWS 直接把 SRE 與滲透測試代理化"
+      },
+      "summary": "AWS 宣布 DevOps Agent 與 Security Agent 正式 GA，前者主打自動調查 incident 與降低 MTTR，後者把滲透測試做成可按需啟動的代理流程，顯示高成本運維與資安工作正被平台化成常態服務。",
+      "from_file": "output/2026/06/01.md"
     }
   ],
   "reason_picked_schema": {
