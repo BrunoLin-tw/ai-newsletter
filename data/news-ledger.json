@@ -6951,6 +6951,93 @@
       },
       "summary": "AWS 宣布 DevOps Agent 與 Security Agent 正式 GA，前者主打自動調查 incident 與降低 MTTR，後者把滲透測試做成可按需啟動的代理流程，顯示高成本運維與資安工作正被平台化成常態服務。",
       "from_file": "output/2026/06/01.md"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Nvidia 發表 Vera CPU 與 RTX Spark 超級晶片，將 AI 直接帶入個人電腦",
+      "url": "https://www.benzinga.com/markets/tech/26/06/52895858/nvidia-infrastructure-company-jensen-huang-computex-2026-ai-factory",
+      "source": "benzinga.com",
+      "company": "Nvidia",
+      "topic": "Nvidia Vera CPU RTX Spark AI chip COMPUTEX 2026",
+      "fingerprint": "Nvidia|vera-cpu-rtx-spark-computex-2026|2026-06-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "COMPUTEX 首日發表全新 PC AI 晶片"
+      },
+      "summary": "Nvidia CEO 黃仁勳在 COMPUTEX 2026 展示 Vera CPU 與 RTX Spark 超級晶片，宣稱將 AI 直接帶入個人電腦，重新定義 PC 運算邊界。",
+      "from_file": "output/2026/06/02.md"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Anthropic 秘密提交 IPO 申請，搶先 OpenAI 邁向公開市場",
+      "url": "https://www.reuters.com/business/ai-giant-anthropic-confidentially-files-us-ipo-2026-06-01/",
+      "source": "reuters.com",
+      "company": "Anthropic",
+      "topic": "Anthropic confidential IPO filing",
+      "fingerprint": "Anthropic|confidential-ipo-filing|2026-06-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "首家 AI 實驗室提交 IPO 文件"
+      },
+      "summary": "Anthropic 於 6 月 1 日向美國證交所提交機密 IPO 文件，成為首家具體申請公開上市的領先 AI 實驗室。",
+      "from_file": "output/2026/06/02.md"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Microsoft 與 Google 聯手圍剿 Anthropic/OpenAI 的 AI 編程市場",
+      "url": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+      "source": "cnbc.com",
+      "company": "Microsoft/Google",
+      "topic": "Microsoft Google AI coding market push",
+      "fingerprint": "Microsoft|google-ai-coding-market-push|2026-06-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "兩大雲端廠商同時進攻 AI 編碼"
+      },
+      "summary": "Google 發表 Antigravity 2.0，Microsoft 即將在 Build 大會公布全新編碼模型，雙方均強調低價策略搶市。",
+      "from_file": "output/2026/06/02.md"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Alphabet 宣布發行 80 億美元股票籌資，Berkshire Hathaway 認購 100 億",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/02/google-parent-alphabet-to-raise-us80bil-to-fuel-ai-expansion",
+      "source": "freemalaysiatoday.com",
+      "company": "Alphabet/Google",
+      "topic": "Alphabet $80B stock sale AI expansion",
+      "fingerprint": "Alphabet|80b-stock-sale-ai-expansion|2026-06-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "80億美元集資擴張 AI 基建"
+      },
+      "summary": "Google 母公司計劃集資 800 億美元用於 AI 基礎設施擴張，2026 年資本支出預計達 1800-1900 億美元。",
+      "from_file": "output/2026/06/02.md"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "COMPUTEX 2026 盛大展開，AI 代理人力挺台北國際電腦展",
+      "url": "https://www.nvidia.com/en-tw/gtc/taipei/computex/",
+      "source": "nvidia.com",
+      "company": "COMPUTEX",
+      "topic": "COMPUTEX 2026 AI exhibition Taipei",
+      "fingerprint": "COMPUTEX|2026-ai-exhibition-taipei|2026-06-02",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "年度科技盛會 AI 火力展示"
+      },
+      "summary": "為期四天的 COMPUTEX 2026 匯集全球科技領袖，Nvidia CEO 黃仁勳親自站台，展示最新 AI 技術趨勢。",
+      "from_file": "output/2026/06/02.md"
     }
   ],
   "reason_picked_schema": {
