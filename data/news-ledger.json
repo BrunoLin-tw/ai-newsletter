@@ -7038,6 +7038,98 @@
       },
       "summary": "為期四天的 COMPUTEX 2026 匯集全球科技領袖，Nvidia CEO 黃仁勳親自站台，展示最新 AI 技術趨勢。",
       "from_file": "output/2026/06/02.md"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Anthropic 發布 Claude Opus 4.8 旗艦 AI 模型",
+      "url": "https://finance.yahoo.com/news/anthropic-debuts-flagship-claude-opus-48-ai-model-as-ipo-race-with-openai-heats-up-170000527.html",
+      "source": "finance.yahoo.com",
+      "company": "Anthropic",
+      "topic": "Claude Opus 4.8 flagship AI model launch",
+      "fingerprint": "Anthropic|claude-opus-48-launch|2026-06-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "旗艦模型定價不變，與 OpenAI 競爭加劇"
+      },
+      "summary": "Anthropic 推出旗艦模型 Claude Opus 4.8，定價與 Opus 4.7 相同（輸入 $5/百萬 tokens，輸出 $25/百萬 tokens），在 AI 模型市場與 OpenAI 競爭加劇。",
+      "from_file": "output/2026/06/03.md"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Anthropic 擴大 Claude Mythos 至 15+ 國家關鍵基礎設施",
+      "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
+      "source": "techcrunch.com",
+      "company": "Anthropic",
+      "topic": "Claude Mythos critical infrastructure expansion",
+      "fingerprint": "Anthropic|mythos-critical-infrastructure-expansion|2026-06-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "security_research",
+          "official_source"
+        ],
+        "note": "Project Glasswing 擴展至 150+ 組織，涵蓋關鍵產業"
+      },
+      "summary": "Project Glasswing 扩展至 150+ 組織，涵蓋電力、水資源、醫療、通訊等關鍵產業，保護超過 1 億人次的數位安全。",
+      "from_file": "output/2026/06/03.md"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Anthropic 提交 IPO 申請",
+      "url": "https://www.cbsnews.com/news/anthropic-ipo-confidential-filing-claude-ai/",
+      "source": "cbsnews.com",
+      "company": "Anthropic",
+      "topic": "Anthropic IPO filing",
+      "fingerprint": "Anthropic|ipo-filing|2026-06-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首家 AI 模型公司申請公開上市"
+      },
+      "summary": "Anthropic 週一已向 SEC 秘密提交 IPO 申請，估值預計超過 1 兆美元，成為首間申請公開上市的領先 AI 模型公司。",
+      "from_file": "output/2026/06/03.md"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Gartner：2026 年全球 AI 支出將達 2.59 兆美元",
+      "url": "https://www.businesswire.com/news/home/20260519405832/en/Gartner-Forecasts-Worldwide-AI-Spending-to-Grow-47-in-2026",
+      "source": "businesswire.com",
+      "company": "Gartner",
+      "topic": "global AI spending forecast 2026",
+      "fingerprint": "Gartner|ai-spending-259t-2026|2026-06-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "年增 47%，基礎設施佔比超過 45%"
+      },
+      "summary": "Gartner 預測 2026 年全球 AI 支出達 2.59 兆美元，較 2025 年增長 47%，基礎設施佔比超過 45%，顯示 AI 投資熱潮持續升溫。",
+      "from_file": "output/2026/06/03.md"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Google Gemini CLI 將於 6 月 18 日關閉",
+      "url": "https://www.aibuilderclub.com/blog/google-kills-gemini-cli-june-18-2026",
+      "source": "aibuilderclub.com",
+      "company": "Google",
+      "topic": "Google Gemini CLI shutdown",
+      "fingerprint": "Google|gemini-cli-shutdown|2026-06-03",
+      "section": "tools",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [],
+        "note": "6,000 PR 合併的開源專案被放棄"
+      },
+      "summary": "Google 宣布 Gemini CLI 將於 6 月 18 日終止服務，超過 6,000 個 PR 合併、10 萬 GitHub stars 的開源專案被放棄。替代方案為封閉原始碼的 Antigravity CLI。",
+      "from_file": "output/2026/06/03.md"
     }
   ],
   "reason_picked_schema": {
