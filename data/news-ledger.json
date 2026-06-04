@@ -7130,6 +7130,114 @@
       },
       "summary": "Google 宣布 Gemini CLI 將於 6 月 18 日終止服務，超過 6,000 個 PR 合併、10 萬 GitHub stars 的開源專案被放棄。替代方案為封閉原始碼的 Antigravity CLI。",
       "from_file": "output/2026/06/03.md"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Alphabet 募資 846 億美元投入 AI 基礎設施",
+      "url": "https://www.reuters.com/legal/transactional/alphabet-raise-8475-billion-upsized-equity-offering-fund-ai-ambitions-2026-06-03/",
+      "source": "reuters.com",
+      "company": "Alphabet",
+      "topic": "Alphabet $84.75B equity raise AI infrastructure",
+      "fingerprint": "Alphabet|84b-equity-raise-ai-infrastructure|2026-06-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "史上最大規模集資搶佔算力"
+      },
+      "summary": "Google 母公司 Alphabet 將集資規模從 800 億美元增至 846 億美元，為史上最大規模集資。Berkshire Hathaway 認購 100 億美元，目標搶佔 AI 算力基礎設施，反映投資人對大模型算力需求高度樂觀。",
+      "from_file": "output/2026/06/04.md"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Microsoft 發布 MAI-Code-1-Flash 與 MAI-Thinking-1",
+      "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+      "source": "cnbc.com",
+      "company": "Microsoft",
+      "topic": "MAI-Code-1-Flash MAI-Thinking-1 Microsoft AI models",
+      "fingerprint": "Microsoft|mai-code-thinking-models|2026-06-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "自研編碼與推理模型降低依賴"
+      },
+      "summary": "Build 2026 宣布首款自研編碼模型 MAI-Code-1-Flash 已整合至 GitHub Copilot 與 VS Code。MAI-Thinking-1 推理模型經 McKinsey 調優後，準確率超越 GPT-5.5 且成本僅 1/10，大幅降低對 OpenAI 依賴。",
+      "from_file": "output/2026/06/04.md"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Microsoft Majorana 2 量子晶片亮相",
+      "url": "https://www.cnet.com/news-live/microsoft-build-2026-news-ai-copilot/",
+      "source": "cnet.com",
+      "company": "Microsoft",
+      "topic": "Majorana 2 quantum chip",
+      "fingerprint": "Microsoft|majorana-2-quantum-chip|2026-06-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "量子運算硬體重大突破"
+      },
+      "summary": "Nadella 在 Build 2026 展示全新量子運算晶片 Majorana 2，標誌 Microsoft 在量子 AI 硬體領域重大突破，為未來高效能運算與 AI 模擬鋪路。",
+      "from_file": "output/2026/06/04.md"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Microsoft Scout 首款 Autopilot 等級 AI 代理正式發布",
+      "url": "https://www.aguidetocloud.com/blog/microsoft-build-2026-recap/",
+      "source": "aguidetocloud.com",
+      "company": "Microsoft",
+      "topic": "Microsoft Scout Autopilot AI agent",
+      "fingerprint": "Microsoft|scout-autopilot-agent|2026-06-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "首創 always-on 代理類別"
+      },
+      "summary": "被稱為 always-on agents，具備自有身份代表用戶長期行事，開創全新人機協作類別，標誌 AI 從工具走向長期代理角色的關鍵轉變。",
+      "from_file": "output/2026/06/04.md"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "OpenAI 升級 GPT-5.5 Instant，確認淘汰 o3 與 GPT-4.5",
+      "url": "https://www.ghacks.net/2026/06/03/openai-upgrades-gpt-5-5-instant-and-confirms-retirement-of-o3-and-gpt-4-5-models/",
+      "source": "ghacks.net",
+      "company": "OpenAI",
+      "topic": "GPT-5.5 Instant upgrade o3 GPT-4.5 retirement",
+      "fingerprint": "OpenAI|gpt-5-5-instant-upgrade-retirement|2026-06-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "模型加速迭代清理舊版本"
+      },
+      "summary": "GPT-5.5 Instant 獲得更新，響應更精確、寫作風格改善。OpenAI 確認將於 8 月 26 日淘汰 GPT-4.5，6 月 27 日下線 o3，顯示模型迭代加速並清理舊版本以聚焦新架構。",
+      "from_file": "output/2026/06/04.md"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Claude Code 6 月更新強化開發者體驗",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "source": "releasebot.io",
+      "company": "Anthropic",
+      "topic": "Claude Code June 2026 update",
+      "fingerprint": "Anthropic|claude-code-june-2026-update|2026-06-04",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "開發工具穩定性與易用性提升"
+      },
+      "summary": "新增背景子代理完成通知顯示耗時、/plugin 顯示更新時間、/model 改為僅變更當前對話模型、API 逾時最佳化至 15 秒，提升離線與防火牆環境穩定性。",
+      "from_file": "output/2026/06/04.md"
     }
   ],
   "reason_picked_schema": {
