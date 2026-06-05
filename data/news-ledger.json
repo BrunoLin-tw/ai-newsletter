@@ -7238,6 +7238,91 @@
       },
       "summary": "新增背景子代理完成通知顯示耗時、/plugin 顯示更新時間、/model 改為僅變更當前對話模型、API 逾時最佳化至 15 秒，提升離線與防火牆環境穩定性。",
       "from_file": "output/2026/06/04.md"
+    },
+    {
+      "date": "2026-06-05",
+      "title": "OpenAI o3 將退役，8月底退出 ChatGPT",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "source": "help.openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI o3 model retirement",
+      "fingerprint": "OpenAI|o3-model-retirement|2026-06-05",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "o3退役由o3-pro接替，加速模型迭代"
+      },
+      "summary": "OpenAI 宣布 o3 模型將於 2026年8月26日從 ChatGPT 退役，取而代之的是更強大的 o3-pro。此舉標誌著 OpenAI 加速模型迭代，o 系列推理模型正在快速取代早期版本。",
+      "from_file": "output/2026/06/05.md"
+    },
+    {
+      "date": "2026-06-05",
+      "title": "NVIDIA RTX Spark 正式登陸 PC，史上最小 AI 超算",
+      "url": "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
+      "source": "cnbc.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA RTX Spark N1X PC launch",
+      "fingerprint": "NVIDIA|rtx-spark-n1x-pc-launch|2026-06-05",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "Blackwell GPU + MediaTek CPU 進軍 PC 市場"
+      },
+      "summary": "NVIDIA 在 Computex 2026 發布 RTX Spark（N1X）晶片，由 Blackwell GPU + MediaTek CPU 組成，支援 128GB 統一記憶體。Microsoft、Dell、HP、ASUS、Lenovo、MSI 將推出首批搭載此晶片的 Windows PC。",
+      "from_file": "output/2026/06/05.md"
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Anthropic 正式遞交 IPO 申請，估值近兆美元搶先 OpenAI",
+      "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+      "source": "techcrunch.com",
+      "company": "Anthropic",
+      "topic": "Anthropic confidential S-1 IPO filing",
+      "fingerprint": "Anthropic|confidential-s1-ipo-filing|2026-06-05",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "秘密提交 S-1，搶在 OpenAI 之前上市"
+      },
+      "summary": "Anthropic 於 6月1日秘密向 SEC 提交 S-1 草案，準備公開發行股票。不到一週前完成 65 億美元融資，估值達 9650 億美元超越 OpenAI。若成功上市，將成為史上最大規模 AI IPO 之一。",
+      "from_file": "output/2026/06/05.md"
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Google CEO 坦言：編碼代理落後 Anthropic 與 OpenAI",
+      "url": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+      "source": "cnbc.com",
+      "company": "Google",
+      "topic": "Google CEO admits behind in agentic coding",
+      "fingerprint": "Google|ceo-admits-behind-agentic-coding|2026-06-05",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "Pichai 公開承認落後，Google 加速反攻"
+      },
+      "summary": "Sundar Pichai 在「Hard Fork」Podcast 專訪中承認：「在具有工具使用、指令遵循和長時程任務的代理式編碼方面，我們目前有點落後。」Google 已推出 Antigravity 2.0 和每月 100 美元開發者訂閱方案。",
+      "from_file": "output/2026/06/05.md"
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Cursor 獲 SpaceX 收購選擇權，600億美元",
+      "url": "https://www.cnbc.com/2026/04/21/spacex-says-it-can-buy-cursor-later-this-year-for-60-billion-or-pay-10-billion-for-our-work-together.html",
+      "source": "cnbc.com",
+      "company": "Cursor",
+      "topic": "Cursor SpaceX acquisition option $60B",
+      "fingerprint": "Cursor|spacex-acquisition-option-60b|2026-06-05",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "AI 編碼新創獲大廠青睞"
+      },
+      "summary": "SpaceX 給予 Cursor 收購選擇權，可在今年稍後以 600 億美元收購該 AI 編碼新創，或選擇支付 100 億美元作為雙方合作費用。",
+      "from_file": "output/2026/06/05.md"
     }
   ],
   "reason_picked_schema": {
