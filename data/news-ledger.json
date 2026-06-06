@@ -7323,6 +7323,108 @@
       },
       "summary": "SpaceX 給予 Cursor 收購選擇權，可在今年稍後以 600 億美元收購該 AI 編碼新創，或選擇支付 100 億美元作為雙方合作費用。",
       "from_file": "output/2026/06/05.md"
+    },
+    {
+      "date": "2026-06-06",
+      "title": "白宮發布 AI 行政命令 — 自願性模型預審機制",
+      "url": "https://www.federalregister.gov/documents/2026/06/05/2026-11415/promoting-advanced-artificial-intelligence-innovation-and-security",
+      "source": "federalregister.gov",
+      "company": "US-Government",
+      "topic": "Voluntary model pre-review executive order",
+      "fingerprint": "US-Government|voluntary-model-pre-review|2026-06-06",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "政府建立自願性前沿模型審查機制"
+      },
+      "summary": "美國總統川普於 6月2日簽署新的 AI 行政命令，建立自願性的前沿模型預發布審查機制。政府可在模型正式發布前最多 30 天取得早期訪問權限。",
+      "from_file": "output/2026/06/06.md"
+    },
+    {
+      "date": "2026-06-06",
+      "title": "Microsoft 發布 Aion 1.0 — 全新 On-Device SLM",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/06/02/build-2026-furthering-windows-as-the-trusted-platform-for-development/",
+      "source": "blogs.windows.com",
+      "company": "Microsoft",
+      "topic": "Aion 1.0 SLM launch",
+      "fingerprint": "Microsoft|aion-1-0-slm-launch|2026-06-06",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "發布支援本地運行的代理式 AI 模型"
+      },
+      "summary": "Microsoft 在 Build 2026 發布 Aion 1.0 Instruct 和 Aion 1.0 Plan 兩款小型語言模型，支援完全本地運行的代理式 AI。",
+      "from_file": "output/2026/06/06.md"
+    },
+    {
+      "date": "2026-06-06",
+      "title": "美國眾議員提出 The Great American AI Act",
+      "url": "https://www.govtech.com/artificial-intelligence/proposed-federal-ai-bill-would-pre-empt-states-for-3-years",
+      "source": "govtech.com",
+      "company": "US-Congress",
+      "topic": "Great American AI Act draft bill",
+      "fingerprint": "US-Congress|great-american-ai-act|2026-06-06",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "擬禁用州級 AI 監管三年"
+      },
+      "summary": "眾議員 Jay Obernolte 與 Lori Trahan提出長達 269 頁的 AI 監管草案，重點包括建立三年的州級 AI 法規先占原則。",
+      "from_file": "output/2026/06/06.md"
+    },
+    {
+      "date": "2026-06-06",
+      "title": "Apple WWDC 2026 進入倒數 — Gemini 驅動新 Siri 即將亮相",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-05/wwdc-2026-preview-ios-27-siri-ai-features-macos-27-more-apple-will-announce",
+      "source": "bloomberg.com",
+      "company": "Apple",
+      "topic": "WWDC 2026 Gemini Siri announcement",
+      "fingerprint": "Apple|wwdc-2026-gemini-siri|2026-06-06",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "6/8 發布 Gemini 驅動全新 Siri"
+      },
+      "summary": "Apple 將於 6月8日舉辦 WWDC 2026，發布採用 Google Gemini 的全新 AI 驅動 Siri，以及 iOS 27 和 Apple Intelligence 2.0。",
+      "from_file": "output/2026/06/06.md"
+    },
+    {
+      "date": "2026-06-06",
+      "title": "Meta 考慮增發股票 — 數十億美元融資 AI 野心",
+      "url": "https://www.reuters.com/technology/",
+      "source": "reuters.com",
+      "company": "Meta",
+      "topic": "Stock offering for AI funding",
+      "fingerprint": "Meta|stock-offering-ai-funding|2026-06-06",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "增發股票數十億美元擴張 AI"
+      },
+      "summary": "根據 Financial Times 報導，Meta 正在考慮增發股票數十億美元，為其 AI 發展籌集新資金。",
+      "from_file": "output/2026/06/06.md"
+    },
+    {
+      "date": "2026-06-06",
+      "title": "Supabase 融資 $500M — 估值飆升至 $105億",
+      "url": "https://www.cnbc.com/2026/06/04/database-startup-supabase-raises-500-million-10point5-billion-valuation.html",
+      "source": "cnbc.com",
+      "company": "Supabase",
+      "topic": "500M funding 10.5B valuation",
+      "fingerprint": "Supabase|500m-funding-10-5b-valuation|2026-06-06",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "開源資料庫新創估值翻倍"
+      },
+      "summary": "Supabase 完成 5 億美元融資，估值達 105 億美元，受益於 AI 輔助編碼風潮，超過 25 萬開發者使用。",
+      "from_file": "output/2026/06/06.md"
     }
   ],
   "reason_picked_schema": {
