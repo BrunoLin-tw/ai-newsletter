@@ -7425,6 +7425,116 @@
       },
       "summary": "Supabase 完成 5 億美元融資，估值達 105 億美元，受益於 AI 輔助編碼風潮，超過 25 萬開發者使用。",
       "from_file": "output/2026/06/06.md"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "Anthropic 呼籲全球 AI 暫停機制",
+      "url": "https://www.aljazeera.com/economy/2026/6/5/anthropic-urges-ai-labs-to-pause-warns-humans-risk-losing-control",
+      "source": "aljazeera.com",
+      "company": "Anthropic",
+      "topic": "coordinated AI pause mechanism proposal",
+      "fingerprint": "Anthropic|coordinated-ai-pause-mechanism|2026-06-07",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "首度正式提議全球協調暫停機制作為風險管控"
+      },
+      "summary": "Anthropic 在部落格文章中提議全球主要 AI 實驗室協調暫停開發進階 AI 系統，警告 AI 技術進展快速，存在人類失去控制的風險。該公司表示將舉辦政策制定者會議討論「遞歸自我改進」的風險。",
+      "from_file": "output/2026/06/07.md"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "Claude Code 已撰寫超過 80% Anthropic 代碼",
+      "url": "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks",
+      "source": "theguardian.com",
+      "company": "Anthropic",
+      "topic": "Claude 80% code authorship",
+      "fingerprint": "Anthropic|claude-80-percent-code-authorship|2026-06-07",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "AI 主力開發者里程碑數據"
+      },
+      "summary": "Anthropic 透露截至 2026 年 5 月，超過 80% 合併至自家程式碼庫的程式碼由 Claude 撰寫，顯示 AI 在軟體開發中的角色已從輔助工具轉變為主力開發者。",
+      "from_file": "output/2026/06/07.md"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "四大 AI CEO 聯署國會 要求強制篩檢合成 DNA",
+      "url": "https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter",
+      "source": "yellow.com",
+      "company": "OpenAI/Anthropic/Google/Microsoft",
+      "topic": "synthetic DNA screening joint letter",
+      "fingerprint": "OpenAI|synthetic-dna-screening-joint-letter|2026-06-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "首度四大AI廠聯合向國會提出政策請求"
+      },
+      "summary": "OpenAI、Anthropic、Google DeepMind 與 Microsoft AI 執行長於 2026 年 6 月 5 日聯合致函美國國會，要求對合成 DNA 提供商實施強制生物安全篩檢，警告 AI 進步正在削弱生物材料武器化的技術障礙。",
+      "from_file": "output/2026/06/07.md"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "FIFA 擴大 AI 使用 減少世界盃網路霸凌",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "source": "theguardian.com",
+      "company": "FIFA",
+      "topic": "FIFA World Cup AI abuse detection",
+      "fingerprint": "FIFA|world-cup-ai-abuse-detection|2026-06-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "AI 首次大規模應用於大型體育賽事內容審核"
+      },
+      "summary": "FIFA 將擴大 AI 在世界盃的使用，以減少球隊和球員在社群媒體上收到的仇恨言論和霸凌訊息，這是 AI 首次被大規模應用於大型體育賽事的內容審核。",
+      "from_file": "output/2026/06/07.md"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "紐約、西雅圖、蒙特羅公園市擬禁新建資料中心",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "source": "theguardian.com",
+      "company": "US-Cities",
+      "topic": "datacenter moratorium bills",
+      "fingerprint": "US-Cities|datacenter-moratorium-bills|2026-06-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "美國多地出現資料中心禁令浪潮"
+      },
+      "summary": "美國多個城市與州提出暫時禁止新建大型資料中心的法案。紐約州法案瞄準超過 20MW 的超大規模資料中心；西雅圖擬全面禁止新資料中心；蒙特羅公園市成為首個由居民投票決定永久禁止資料中心的城市。",
+      "from_file": "output/2026/06/07.md"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "FAU 成立 AI 工程實驗室 推動應用 AI",
+      "url": "https://science-technology.news-articles.net/content/2026/06/06/fau-launches-ai-engineering-lab-to-advance-applied-artificial-intelligence.html",
+      "source": "science-technology.news-articles.net",
+      "company": "FAU",
+      "topic": "FAU AI Engineering Lab launch",
+      "fingerprint": "FAU|ai-engineering-lab-launch|2026-06-07",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "education"
+        ],
+        "note": "學術界推動 AI 工程教育"
+      },
+      "summary": "佛羅里達大西洋大學（FAU）成立 AI 工程實驗室，專注於將 AI 從理論演算法轉化為可解決實際物理問題的工程工具，目標培養結合傳統工程與 AI 技能的 AI 就緒工程師。",
+      "from_file": "output/2026/06/07.md"
     }
   ],
   "reason_picked_schema": {
