@@ -7535,6 +7535,91 @@
       },
       "summary": "佛羅里達大西洋大學（FAU）成立 AI 工程實驗室，專注於將 AI 從理論演算法轉化為可解決實際物理問題的工程工具，目標培養結合傳統工程與 AI 技能的 AI 就緒工程師。",
       "from_file": "output/2026/06/07.md"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Apple WWDC 2026：Siri 2.0 正式亮相，Gemini 驅動的 AI 助手來襲",
+      "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "source": "techcrunch.com",
+      "company": "Apple",
+      "topic": "WWDC 2026 Siri 2.0 Gemini official announcement",
+      "fingerprint": "Apple|wwdc-2026-siri-2-gemini-official|2026-06-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "WWDC 正式發布 Gemini 驅動全新 Siri"
+      },
+      "summary": "Apple 在 WWDC 2026 正式發布採用 Google Gemini 技術的全新 Siri，支援多步驟指令、獨立 App 生態與 Dynamic Island 整合，並開放第三方 AI 聊天機器人選擇。iOS 27 與 Apple Intelligence 2.0 同步登場。",
+      "from_file": "output/2026/06/08.md"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Anthropic 發布旗艦模型 Claude Opus 4.8",
+      "url": "https://finance.yahoo.com/news/anthropic-debuts-flagship-claude-opus-48-ai-model-as-ipo-race-with-openai-heats-up-170000527.html",
+      "source": "finance.yahoo.com",
+      "company": "Anthropic",
+      "topic": "Claude Opus 4.8 flagship model debut",
+      "fingerprint": "Anthropic|opus-4-8-flagship-model|2026-06-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "新旗艦模型對標 GPT-5"
+      },
+      "summary": "Anthropic 推出全新旗艦 AI 模型 Opus 4.8，在 IPO 競賽中與 OpenAI 正面交鋒。這款新模型代表 Anthropic 在基礎模型能力上的最新突破。",
+      "from_file": "output/2026/06/08.md"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Anthropic 提交 IPO 申請，擬成為首家公開上市的 AI 獨角獸",
+      "url": "https://www.kucoin.com/blog/anthropic-ipo-filing-signals-a-new-era-for-ai-investing",
+      "source": "kucoin.com",
+      "company": "Anthropic",
+      "topic": "Anthropic IPO filing",
+      "fingerprint": "Anthropic|ipo-filing|2026-06-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "首家上市 AI 模型公司"
+      },
+      "summary": "Anthropic 已向 SEC 提交 IPO 申請，正式啟動上市流程，挑戰 OpenAI 的上市野心。Morgan Stanley 和 Goldman Sachs 預計領銜此次交易。",
+      "from_file": "output/2026/06/08.md"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "AI 公司互相入侵市場：從垂直分工走向全面競爭",
+      "url": "https://www.businessinsider.com/everyone-is-building-everything-openai-anthropic-lovable-cursor-canva-2026-6",
+      "source": "businessinsider.com",
+      "company": "OpenAI/Anthropic",
+      "topic": "AI companies market expansion competition",
+      "fingerprint": "OpenAI|ai-companies-market-expansion|2026-06-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "全棧 AI 競爭趨勢分析"
+      },
+      "summary": "AI 產業正從垂直分工走向全面競爭。Anthropic 推出 Claude Code 與 Cursor 競爭，OpenAI 收購 OpenClaw 創辦人進軍 agentic 領域。分析師指出這種全方位策略可能在 IPO 後面臨獲利壓力。",
+      "from_file": "output/2026/06/08.md"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Agentic AI 平台戰爭：誰掌控企業記憶與上下文",
+      "url": "https://windowsnews.ai/article/agentic-ai-platform-war-who-controls-enterprise-memory-context-and-action-in-june-2026.423571",
+      "source": "windowsnews.ai",
+      "company": "Industry",
+      "topic": "Agentic AI platform war enterprise context",
+      "fingerprint": "Industry|agentic-ai-platform-war|2026-06-08",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "企業 agentic 介面成新戰場"
+      },
+      "summary": "2026 年 6 月的 AI 競爭已從基礎模型排行榜轉向誰掌控 agentic client。這個員工與 AI 互動的薄層介面已成為新的戰場，各平台正激烈爭奪企業工作流程的控制權。",
+      "from_file": "output/2026/06/08.md"
     }
   ],
   "reason_picked_schema": {
