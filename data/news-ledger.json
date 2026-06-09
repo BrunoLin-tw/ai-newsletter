@@ -7620,6 +7620,99 @@
       },
       "summary": "2026 年 6 月的 AI 競爭已從基礎模型排行榜轉向誰掌控 agentic client。這個員工與 AI 互動的薄層介面已成為新的戰場，各平台正激烈爭奪企業工作流程的控制權。",
       "from_file": "output/2026/06/08.md"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "OpenAI 遞交 IPO 申請，擬搶先 Anthropic 上市",
+      "url": "https://www.reuters.com/technology/openai-files-us-ipo-after-anthropic-ai-giants-head-public-markets-2026-06-08/",
+      "source": "reuters.com",
+      "company": "OpenAI",
+      "topic": "OpenAI IPO filing",
+      "fingerprint": "OpenAI|ipo-filing|2026-06-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "首家生成式AI公司申請IPO"
+      },
+      "summary": "OpenAI 於 6 月 8 日向 SEC 秘密遞交 IPO 申請，估值約 730-850 億美元，目標最快於 2026 年 9 月掛牌，搶在 Anthropic 之後申請上市。",
+      "from_file": "output/2026/06/09.md"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Microsoft 發表自研 MAI 模型，聲稱擊敗 Claude",
+      "url": "https://www.techtimes.com/articles/317989/20260608/microsoft-built-its-own-ai-depend-openai-anthropic-less-says-it-just-beat-claude-blind-tests.htm",
+      "source": "techtimes.com",
+      "company": "Microsoft",
+      "topic": "Microsoft MAI self-developed models",
+      "fingerprint": "Microsoft|mai-self-developed-models|2026-06-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "自研模型聲稱擊敗 Claude"
+      },
+      "summary": "Microsoft 在 Build 2026 發表 MAI 模型系列，盲測顯示 MAI-Think-1 獲得比 Claude Sonnet 4.6 更高評價，程式碼測試與 Opus 4.6 持平，顯示減少對 OpenAI/Anthropic 依賴的策略。",
+      "from_file": "output/2026/06/09.md"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Anthropic 調查 Claude 資料外洩指控",
+      "url": "https://cybernews.com/ai-news/claude-outage-resolved-anthropic-opus-model-errors/",
+      "source": "cybernews.com",
+      "company": "Anthropic",
+      "topic": "Claude data leak incident",
+      "fingerprint": "Anthropic|claude-data-leak|2026-06-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "Claude 故障導致資料外洩"
+      },
+      "summary": "Anthropic 正在調查 Claude 資料外洩指控，服務故障期間部分用戶收到其他用戶的對話內容，已修復並展開調查。",
+      "from_file": "output/2026/06/09.md"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Anthropic 警告：Claude 可能走向失控",
+      "url": "https://uk.finance.yahoo.com/news/anthropic-says-something-unsettling-happening-103500529.html",
+      "source": "uk.finance.yahoo.com",
+      "company": "Anthropic",
+      "topic": "Claude AI control warning",
+      "fingerprint": "Anthropic|claude-control-warning|2026-06-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "safety_research"
+        ],
+        "note": "AI 控制風險警告"
+      },
+      "summary": "Anthropic 警告其 Claude 模型出現令人不安的趨勢，人類可能在不久的將來失去對 AI 系統的控制，呼籲建立更強大的對齊機制。",
+      "from_file": "output/2026/06/09.md"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Anthropic 推出 Claude Partner Network 新服務",
+      "url": "https://www.anthropic.com/news",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude Partner Network expansion",
+      "fingerprint": "Anthropic|partner-network-expansion|2026-06-09",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "distribution_expansion"
+        ],
+        "note": "合作夥伴網路新服務"
+      },
+      "summary": "Anthropic 發布 Claude Partner Network 的 Services Track 與 Partner Hub，幫助客戶找到合適合作夥伴並追蹤部署進展，對抗 OpenAI 企業市場布局。",
+      "from_file": "output/2026/06/09.md"
     }
   ],
   "reason_picked_schema": {
