@@ -7736,5 +7736,98 @@
     ],
     "secondary_max_items": 3,
     "note_rule": "short justification, ideally 8-30 Chinese chars or equivalent concise English"
-  }
+  },
+  "news_entries": [
+    {
+      "date": "2026-06-10",
+      "title": "Anthropic Claude Mythos 公開版正式發布",
+      "url": "https://www.digitaltoday.co.kr/en/view/61805/anthropics-claude-mythos-public-release-imminent-possible-june-10-launch",
+      "source": "digitaltoday.co.kr",
+      "company": "Anthropic",
+      "topic": "Claude Mythos public release",
+      "fingerprint": "Anthropic|claude-mythos-public|2026-06-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "Claude Mythos 公開版正式發布"
+      },
+      "summary": "傳言已久的 Claude Mythos 終於在6月10日推出公開版本。這款旗艦 AI 模型先前僅限特定合作夥伴使用，此次全面開放代表 Anthropic 正式進入開放競爭階段。",
+      "from_file": "output/2026/06/10.md"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Microsoft 聯手 Mayo Clinic 開發醫療前沿 AI 模型",
+      "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+      "source": "microsoft.ai",
+      "company": "Microsoft/Mayo Clinic",
+      "topic": "Microsoft Mayo Clinic healthcare AI frontier model",
+      "fingerprint": "Microsoft Mayo Clinic|healthcare-frontier-ai|2026-06-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "healthcare"
+        ],
+        "note": "Microsoft 聯手 Mayo Clinic 開發醫療 AI"
+      },
+      "summary": "Microsoft 在 Build 2026 宣布與全球知名醫療機構 Mayo Clinic 共同開發新一代醫療 AI frontier model，結合 Mayo Clinic 的臨床專業知識與去識別化臨床資料。",
+      "from_file": "output/2026/06/10.md"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "英國企業 AI 採用火熱 但領導能力缺口成瓶頸",
+      "url": "https://sg.finance.yahoo.com/news/uk-firms-embrace-ai-boom-230100184.html",
+      "source": "finance.yahoo.com",
+      "company": "UK Industry",
+      "topic": "UK firms AI adoption leadership gap",
+      "fingerprint": "UK Industry|ai-leadership-gap|2026-06-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "英國企業 AI 領導能力缺口"
+      },
+      "summary": "Chartered Management Institute 最新研究指出，英國企業對 AI 投資熱情高漲，但缺乏具備 AI 技能與信心的管理階層來將 AI 投資轉化為生產力與營收成長。",
+      "from_file": "output/2026/06/10.md"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Philips Future Health Index 2026：AI 已為醫護人員省下 16 個工作天",
+      "url": "https://finance.yahoo.com/sectors/healthcare/articles/philips-future-health-index-2026-080000976.html",
+      "source": "finance.yahoo.com",
+      "company": "Philips",
+      "topic": "Philips Future Health Index 2026 AI healthcare impact",
+      "fingerprint": "Philips|future-health-index-2026|2026-06-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "healthcare"
+        ],
+        "note": "Philips 報告 AI 醫療影響力"
+      },
+      "summary": "Philips 發布2026年健康未來指數報告，指出 AI 技術已為臨床醫護人員節省相當於每年16個工作天的時間，半數受訪者表示 AI 增加了其看診患者的能量。",
+      "from_file": "output/2026/06/10.md"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Atos 部署 Microsoft 365 Copilot 與 Agent 365 Governance 覆蓋 56,000 名員工",
+      "url": "https://windowsnews.ai/article/atos-rolls-out-microsoft-365-copilot-agent-365-governance-for-56000-staff.424045",
+      "source": "windowsnews.ai",
+      "company": "Atos/Microsoft",
+      "topic": "Atos Microsoft 365 Copilot 56,000 employees deployment",
+      "fingerprint": "Atos|copilot-56000-staff|2026-06-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Atos 部署 Copilot 覆蓋 56,000 人"
+      },
+      "summary": "法國數位轉型巨頭 Atos 宣布將 Microsoft 365 Copilot、Agent 365 以及全新 Agent 365 Governance 解決方案部署至全球54個國家約56,000名員工。",
+      "from_file": "output/2026/06/10.md"
+    }
+  ]
 }
