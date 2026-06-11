@@ -7713,6 +7713,115 @@
       },
       "summary": "Anthropic 發布 Claude Partner Network 的 Services Track 與 Partner Hub，幫助客戶找到合適合作夥伴並追蹤部署進展，對抗 OpenAI 企業市場布局。",
       "from_file": "output/2026/06/09.md"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Microsoft 發布 7 款 MAI 新模型，推 Frontier Tuning 企業自定義訓練",
+      "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+      "source": "microsoft.ai",
+      "company": "Microsoft",
+      "topic": "MAI 7 models Frontier Tuning enterprise customization",
+      "fingerprint": "Microsoft|mai-7-models-frontier-tuning|2026-06-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation",
+          "benchmark_detail"
+        ],
+        "note": "7款MAI模型加Frontier Tuning，企業可用自身資料微調"
+      },
+      "summary": "Microsoft AI 發布新一代 MAI 模型家族，包含 MAI-Code-1-Flash 推理編碼模型，並推出 Frontier Tuning 讓企業可用自身資料微調模型。MAI Excel 調整版本效能匹敵 GPT 5.4 但效率提升 10 倍。同時宣布與 Mayo Clinic 合作開發醫療領域專用 AI 模型。",
+      "from_file": "output/2026/06/11.md"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Anthropic 發布 Claude Fable 5，首個公開的 Mythos-class 模型",
+      "url": "https://jang.com.pk/en/67306-anthropic-launches-claude-fable-5-the-new-benchmark-for-ai-performance-news",
+      "source": "jang.com.pk",
+      "company": "Anthropic",
+      "topic": "Claude Fable 5 Mythos-class public release",
+      "fingerprint": "Anthropic|claude-fable-5-mythos-public|2026-06-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "首個公開的Mythos-class模型，代理編碼重大進展"
+      },
+      "summary": "Anthropic 於 6/9 推出 Claude Fable 5，為其首個向大眾開放的 Mythos-class 模型。產品長 Mario Rodriguez 表示這是代理編碼的重大進展。為平衡能力與安全，敏感領域查詢會自動導向 Claude Opus 4.8。同時發布 Claude Mythos 5 僅提供給經過審查的合作夥伴。",
+      "from_file": "output/2026/06/11.md"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "OpenAI 正式提交 IPO 申請，估值 8520 億美元",
+      "url": "https://www.bbc.com/news/articles/cd958eqg1n5o",
+      "source": "bbc.com",
+      "company": "OpenAI",
+      "topic": "OpenAI IPO filing SEC",
+      "fingerprint": "OpenAI|ipo-filing-852b-valuation|2026-06-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "向SEC提交機密IPO文件，估值8520億"
+      },
+      "summary": "OpenAI 週一宣布已向 SEC 提交機密文件，準備公開發行股票。目前私募估值 8520 億美元，略低於 Anthropic 的 9650 億。OpenAI 表示「時機尚未確定」，因為作為私營公司有些事情更容易進行。這是繼 Anthropic 上週提交 IPO 申請後的最新進展。",
+      "from_file": "output/2026/06/11.md"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Anthropic 承諾投資 2 億美元研究 AI 經濟影響，提議 UBI",
+      "url": "https://thebusinessjournal.com/anthropic-openai-push-plans-to-share-ai-gains-amid-job-disruption-fears/",
+      "source": "thebusinessjournal.com",
+      "company": "Anthropic",
+      "topic": "Anthropic 200M economic research UBI proposal",
+      "fingerprint": "Anthropic|200m-economic-research-ubi|2026-06-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "2億美元經濟未來研究基金，提議UBI應對AI失業"
+      },
+      "summary": "Anthropic 宣布投入 2 億美元成立經濟未來研究基金，資助 AI 對就業影響的研究。同時發布政策提案，建議政府在失業率達 5%、10% 及「前所未有」水準時分別應對，考慮包括基本收入在內的機制。CEO Dario Amodei 表示 AI 造成的勞動市場衝擊可能比過往技術變革更大且持續更久。",
+      "from_file": "output/2026/06/11.md"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Google Gemini 進駐 2026 世界盃，與阿根廷合作推出 AI 球迷功能",
+      "url": "https://www.techtimes.com/articles/318174/20260610/google-gemini-heads-2026-world-cup-argentina-partnership-new-ai-fan-features-go-live.htm",
+      "source": "techtimes.com",
+      "company": "Google",
+      "topic": "Google Gemini World Cup 2026 AI fan features",
+      "fingerprint": "Google|gemini-world-cup-2026-fan-features|2026-06-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "世界盃AI球迷功能上線，即時比分與AI生成回顧"
+      },
+      "summary": "Google 將 Gemini 置於 2026 世界盃核心，球迷可透過手機鎖定螢幕即時比分、AI 生成的即時回顧與預測。墨西哥對南非的比賽於 6/11 在墨西哥城 Estadio Azteca 開踢。",
+      "from_file": "output/2026/06/11.md"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "OpenAI 更新 GPT-Rosalind 強化生命科學研究",
+      "url": "https://releasebot.io/updates/openai",
+      "source": "releasebot.io",
+      "company": "OpenAI",
+      "topic": "GPT-Rosalind life sciences research update",
+      "fingerprint": "OpenAI|gpt-rosalind-life-sciences-update|2026-06-11",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "healthcare"
+        ],
+        "note": "強化代理編碼、藥物發現與基因組效能"
+      },
+      "summary": "OpenAI 發布更新後的 GPT-Rosalind，增強代理編碼、藥物發現與基因組效能，並新增證據檢索與生物資訊學工作流外掛。該模型旨在加速科學發現，同時確保強大生物能力在適當保障下部署。",
+      "from_file": "output/2026/06/11.md"
     }
   ],
   "reason_picked_schema": {
