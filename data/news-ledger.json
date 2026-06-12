@@ -7822,6 +7822,98 @@
       },
       "summary": "OpenAI 發布更新後的 GPT-Rosalind，增強代理編碼、藥物發現與基因組效能，並新增證據檢索與生物資訊學工作流外掛。該模型旨在加速科學發現，同時確保強大生物能力在適當保障下部署。",
       "from_file": "output/2026/06/11.md"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Google DiffusionGemma 發布：首個區塊擴散文字生成模型",
+      "url": "https://yellow.com/news/google-diffusiongemma-1000-tokens-nvidia-gpu",
+      "source": "yellow.com",
+      "company": "Google",
+      "topic": "DiffusionGemma diffusion-based text generation model",
+      "fingerprint": "Google|diffusiongemma-text-generation|2026-06-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "首個區塊擴散架構文字生成模型，4倍速度提升達1000 tokens/s"
+      },
+      "summary": "Google DeepMind 發布 DiffusionGemma，採用區塊擴散架構一次生成整個文字區塊，達到 1000 tokens/s 速度，是過往自迴歸模型的 4 倍。針對代碼助理與文件工具優化，支援 Nvidia RTX 與 DGX 部署。",
+      "from_file": "output/2026/06/12.md"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "OpenAI 發布 GPT-5.2-Codex：地表最強代理編碼模型",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "GPT-5.2-Codex agentic coding model",
+      "fingerprint": "OpenAI|gpt-5-2-codex-agentic-coding|2026-06-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "SWE-Bench Pro與Terminal-Bench 2.0創SOTA，網安能力可發現真實漏洞"
+      },
+      "summary": "GPT-5.2-Codex 是 OpenAI 最新代理編碼模型，在 SWE-Bench Pro 與 Terminal-Bench 2.0 創下 SOTA 成績。強化長上下文、工具調用、Windows 環境與網路安全能力，可發現 React 函式庫真實漏洞。先行開放付費使用者，API 稍後跟上。",
+      "from_file": "output/2026/06/12.md"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Google DeepMind 砸 10M 美元推動多代理 AI 安全研究",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "source": "deepmind.google",
+      "company": "Google",
+      "topic": "multi-agent AI safety research funding call",
+      "fingerprint": "Google|multi-agent-ai-safety-funding|2026-06-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "攜手Schmidt Sciences/Cooperative AI Foundation/ARIA提供10M研究資助"
+      },
+      "summary": "Google DeepMind 攜手 Schmidt Sciences、Cooperative AI Foundation、ARIA 與 Google.org，宣布提供最多 1000 萬美元研究資助，聚焦多代理系統集體行為、風險框架與安全機制。隨著數百萬 AI 代理即將互動，這是建立安全基礎的關鍵時刻。申請截止 2026 年 8 月 8 日。",
+      "from_file": "output/2026/06/12.md"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "OpenAI 宣布收購 Ona Company",
+      "url": "https://openai.com/news/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI acquires Ona Company",
+      "fingerprint": "OpenAI|ona-acquisition|2026-06-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [],
+        "note": "最新企業併購動作"
+      },
+      "summary": "OpenAI 宣布收購 Ona Company，這是 OpenAI 近期一系列企業併購的最新動作。具體細節與 Ona 專長領域待後續公布。",
+      "from_file": "output/2026/06/12.md"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "OpenAI 擴大雲端合作：透過 Oracle Cloud 存取模型與 Codex",
+      "url": "https://openai.com/news/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Oracle Cloud partnership",
+      "fingerprint": "OpenAI|oracle-cloud-partnership|2026-06-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [],
+        "note": "繼Microsoft Azure後第二個主要雲端合作夥伴"
+      },
+      "summary": "企業現在可以透過 Oracle cloud commitment 直接存取 OpenAI 模型與 Codex 工具，進一步拓寬雲端供應鏈布局。這是 OpenAI 繼 Microsoft Azure 之後的第二個主要雲端合作夥伴。",
+      "from_file": "output/2026/06/12.md"
     }
   ],
   "reason_picked_schema": {
