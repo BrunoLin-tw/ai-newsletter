@@ -8200,6 +8200,97 @@
       },
       "summary": "法國數位轉型巨頭 Atos 宣布將 Microsoft 365 Copilot、Agent 365 以及全新 Agent 365 Governance 解決方案部署至全球54個國家約56,000名員工。",
       "from_file": "output/2026/06/10.md"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "OpenAI Daybreak 資安計畫上線",
+      "url": "https://dentro.de/ai/news/",
+      "source": "dentro.de",
+      "company": "OpenAI",
+      "topic": "OpenAI Daybreak cybersecurity initiative",
+      "fingerprint": "OpenAI|daybreak-cybersecurity-initiative|2026-06-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "GPT-5.5 + Codex Security 自動化威脅管理"
+      },
+      "summary": "OpenAI 推出 Daybreak 資安計畫，結合 GPT-5.5 與 Codex Security 自動化威脅建模、漏洞識別、修補與修復工作流，提供從發現到修復的端到端資安代理方案。",
+      "from_file": "output/2026/06/15.md"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "各州無視 Trump 警告持續推進 AI 監管立法",
+      "url": "https://apnews.com/article/trump-artificial-intelligence-chatbots-ai-23a0e44ab05402ddfe9cdfd0bffa0ade",
+      "source": "apnews.com",
+      "company": "US States",
+      "topic": "states AI regulations despite Trump",
+      "fingerprint": "US States|ai-regulations-despite-trump|2026-06-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "州立法持續增加，伊利諾要求獨立稽核"
+      },
+      "summary": "尽管 Trump 警告各州勿监管 AI，州立法机构今年提出的 AI 法案数量仍比去年多。伊利诺州要求 AI 开发商必须由独立稽核员审查合规，显示监管走向更严格方向。",
+      "from_file": "output/2026/06/15.md"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "OpenAI 發布合作夥伴網路，投入 1.5 億美元生態系",
+      "url": "https://openai.com/index/introducing-openai-partner-network/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Partner Network $150M ecosystem",
+      "fingerprint": "OpenAI|partner-network-150m|2026-06-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "distribution_expansion"
+        ],
+        "note": "目標 2026 年底培訓 30 萬認證顧問"
+      },
+      "summary": "OpenAI 宣布合作夥伴網路計畫，投入 1.5 億美元支持生態系，目標 2026 年底前培訓 30 萬名認證顧問。合作夥伴分 Select、Advanced、Elite 三級，並提供 Codex、網路安全與代理等專業認證。",
+      "from_file": "output/2026/06/15.md"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "OpenAI 向 SEC 提交機密 S-1 文件",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI confidential S-1 filing",
+      "fingerprint": "OpenAI|confidential-s1-filing|2026-06-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "保留 IPO 選項但尚未決定時機"
+      },
+      "summary": "OpenAI 近期向 SEC 提交機密 S-1 草案，保留選擇空間但尚未決定時機。聲明指出有些目標可能更适合私营公司完成，但 IPO 可提供更灵活的选项。",
+      "from_file": "output/2026/06/15.md"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "天體物理學家使用 Codex 模擬黑洞",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "astrophysicist Codex black hole simulation",
+      "fingerprint": "OpenAI|codex-black-hole-simulation|2026-06-15",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "scientific_research"
+        ],
+        "note": "AI 輔助科學研究實際案例"
+      },
+      "summary": "OpenAI 部落格分享天文學家如何利用 Codex 協助模擬黑洞，展現 AI 在科學研究中的實際應用潛力。",
+      "from_file": "output/2026/06/15.md"
     }
   ]
 }
