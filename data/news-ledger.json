@@ -8085,6 +8085,82 @@
       },
       "summary": "新一波 AI 編碼工具崛起，Atoms 推出多代理協作系統，可透過自然語言描述產生完整可部署應用；Devin 代表完全自主軟體開發的最激進願景；Cursor 持續作為最受歡迎的 AI 原生 IDE。",
       "from_file": "output/2026/06/14.md"
+    },
+    {
+      "date": "2026-06-16",
+      "title": "美國下令封鎖 Anthropic 資安模型",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/15/us-clampdown-on-anthropic-models-sends-eu-sovereignty-surge-into-overdrive/5255487",
+      "source": "theregister.com",
+      "company": "US Government",
+      "topic": "US export control Anthropic Mythos Fable models",
+      "fingerprint": "US Government|anthropic-export-control|2026-06-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "白宮出口管制直接暫停所有人存取資安模型"
+      },
+      "summary": "白宮對 Anthropic 的 Mythos 5 和 Fable 5 發布出口管制，禁止任何非美國公民訪問。理由是政府得知可能存在繞過安全防護的越獄方法。Anthropic 為確保合規，直接暫停所有人存取這兩個模型。",
+      "from_file": "output/2026/06/16.md"
+    },
+    {
+      "date": "2026-06-16",
+      "title": "NVIDIA N1X 處理器 Computex 亮相",
+      "url": "https://polymarket.com/event/largest-company-end-of-june-712",
+      "source": "polymarket.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA N1X processor Computex 2026",
+      "fingerprint": "NVIDIA|n1x-processor-computex-2026|2026-06-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "hardware_evolution"
+        ],
+        "note": "NVIDIA 與 Microsoft、MediaTek 共同開發的 AI PC 處理器"
+      },
+      "summary": "NVIDIA 在 Computex 2026 發布 N1X 處理器，由 NVIDIA 與 Microsoft、MediaTek 共同開發，專為 Windows AI PC 設計，融合 RTX 顯示與 AI 運算於單一晶片。",
+      "from_file": "output/2026/06/16.md"
+    },
+    {
+      "date": "2026-06-16",
+      "title": "Satya Nadella：前沿模型不是未來",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/as-openai-and-anthropic-ipos-near-microsofts-satya-nadella-tells-every-company-why-frontier-ai-models-arent-the-future/articleshow/131740151.cms",
+      "source": "timesofindia.indiatimes.com",
+      "company": "Microsoft",
+      "topic": "Nadella frontier models not the future",
+      "fingerprint": "Microsoft|nadella-frontier-models-future|2026-06-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "挑戰 OpenAI/Anthropic IPO 核心敘事"
+      },
+      "summary": "OpenAI 與 Anthropic IPO 在即，Microsoft CEO Satya Nadella 指出 AI 時代贏家不是選擇最佳前沿模型的公司，而是建立專屬「學習系統」的公司。他強調人類資本不會因 AI 增長而貶值，並警告若所有價值都由少數模型累積，政治經濟將無法容忍。",
+      "from_file": "output/2026/06/16.md"
+    },
+    {
+      "date": "2026-06-16",
+      "title": "Anthropic 封鎖助攻 Mistral AI 機會",
+      "url": "https://www.businessinsider.com/anthropic-model-access-mistral-opportunity-ai-sovereignty-2026-6",
+      "source": "businessinsider.com",
+      "company": "Mistral AI",
+      "topic": "Mistral AI opportunity from Anthropic restrictions",
+      "fingerprint": "Mistral AI|anthropic-restriction-opportunity|2026-06-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "歐洲 AI 主權呼聲再起"
+      },
+      "summary": "美國對 Anthropic 資安模型的限制可能為歐洲 AI 領袖 Mistral AI 帶來意外機會。Mistral 長期倡議 AI 主權，其 CEO Arthur Mensch 多次警告歐洲必須在兩年內建立自家 AI 基礎設施，避免永久依賴美國巨頭。",
+      "from_file": "output/2026/06/16.md"
     }
   ],
   "reason_picked_schema": {
