@@ -8161,6 +8161,93 @@
       },
       "summary": "美國對 Anthropic 資安模型的限制可能為歐洲 AI 領袖 Mistral AI 帶來意外機會。Mistral 長期倡議 AI 主權，其 CEO Arthur Mensch 多次警告歐洲必須在兩年內建立自家 AI 基礎設施，避免永久依賴美國巨頭。",
       "from_file": "output/2026/06/16.md"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Anthropic 發布 Claude Fable 5",
+      "url": "https://releasebot.io/updates/anthropic",
+      "source": "releasebot.io",
+      "company": "Anthropic",
+      "topic": "Claude Fable 5 launch and government block",
+      "fingerprint": "Anthropic|claude-fable-5-launch-block|2026-06-17",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "Fable 5 發布後遭美國政府出口管制阻斷"
+      },
+      "summary": "Anthropic 於 6 月 9 日推出 Claude Fable 5，主打更安全的通用用途與更強編碼能力，但 6 月 12 日美國政府發布出口管制，禁止非美國公民訪問，Anthropic 為合規暫停所有人存取。",
+      "from_file": "output/2026/06/17.md"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Anthropic 提交 IPO 申請",
+      "url": "https://www.latimes.com/business/story/2026-06-01/ai-company-anthropic-files-to-list-shares-heating-up-race-with-openai",
+      "source": "latimes.com",
+      "company": "Anthropic",
+      "topic": "Anthropic IPO filing",
+      "fingerprint": "Anthropic|ipo-filing|2026-06-17",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "挑戰 OpenAI 領導地位的上市申請"
+      },
+      "summary": "Anthropic 已提交股票上市申請，進一步挑戰 OpenAI 的領導地位。據報導 OpenAI 也聘請了高盛作為承銷商，兩家 AI 獨角獸的 IPO 競爭加速。",
+      "from_file": "output/2026/06/17.md"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "SpaceX 以 $60B 收購 Cursor",
+      "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html",
+      "source": "cnbc.com",
+      "company": "SpaceX",
+      "topic": "SpaceX Cursor acquisition 60B",
+      "fingerprint": "SpaceX|cursor-acquisition-60b|2026-06-17",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [],
+        "note": "SpaceX 上市後首個大型收購強化 AI 編碼能力"
+      },
+      "summary": "SpaceX 於 6 月 16 日宣布以 600 億美元全股票交易收購 AI 編碼新創 Cursor，這是 SpaceX 上市後僅 4 天的大手筆收購。Cursor 去年 11 月達到 10 億美元年度經常性收入。",
+      "from_file": "output/2026/06/17.md"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Anthropic 承諾投入 $2 億美元研究 AI 經濟影響",
+      "url": "https://apnews.com/article/anthropic-dario-amodei-ai-afeb5279eef406980dffa46ff91495e0",
+      "source": "apnews.com",
+      "company": "Anthropic",
+      "topic": "Anthropic 200M AI economic impact research",
+      "fingerprint": "Anthropic|200m-economic-research|2026-06-17",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "AI 產業最大規模就業影響研究投資之一"
+      },
+      "summary": "Anthropic 宣布投入 2 億美元研究 AI 對就業和經濟的影響，並提出解決方案應對 AI 帶來的勞動力 disruption。CEO Dario Amodei 呼籲技術與政策制定者之間的合作。",
+      "from_file": "output/2026/06/17.md"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "紐約實施 AI 合成演員標籤法",
+      "url": "https://www.explainx.ai/blog/new-york-ai-video-disclosure-law-synthetic-performers-2026",
+      "source": "explainx.ai",
+      "company": "New York",
+      "topic": "New York synthetic performer labeling law",
+      "fingerprint": "New York|synthetic-performer-labeling|2026-06-17",
+      "section": "tools",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "全國首個 AI 生成的演員標籤法規生效"
+      },
+      "summary": "紐約於 6 月 9 日生效新法律，要求在廣告中使用 AI 生成的「合成演員」時必須明確標籤。適用於 Meta、Google、YouTube、TikTok 等所有付費廣告渠道。",
+      "from_file": "output/2026/06/17.md"
     }
   ],
   "reason_picked_schema": {
