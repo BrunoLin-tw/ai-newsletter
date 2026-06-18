@@ -8248,6 +8248,83 @@
       },
       "summary": "紐約於 6 月 9 日生效新法律，要求在廣告中使用 AI 生成的「合成演員」時必須明確標籤。適用於 Meta、Google、YouTube、TikTok 等所有付費廣告渠道。",
       "from_file": "output/2026/06/17.md"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "AI 漏洞發現狂飆！2026 年 CVE 恐破 66,000 大關",
+      "url": "https://www.helpnetsecurity.com/2026/06/15/first-2026-cve-forecast/",
+      "source": "helpnetsecurity.com",
+      "company": "FIRST",
+      "topic": "CVE 2026 forecast 66000 AI vulnerability discovery",
+      "fingerprint": "FIRST|cve-2026-forecast-66000|2026-06-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "AI 自動化漏洞挖掘導致 CVE 披露數暴增 46%，Anthropric Mythos 與 OpenAI GPT-5.4-Cyber 成主力"
+      },
+      "summary": "FIRST 預測 2026 年漏洞披露將達 66,000 件，AI autonomous discovery agents 已成為漏洞發現主力，Anthropic Mythos 與 OpenAI GPT-5.4-Cyber 大量提升 flaw 發現量，但高風險漏洞比例維持不變。",
+      "from_file": "output/2026/06/18.md"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Google 傳攜手三星打造下一代 TPU Icefish",
+      "url": "https://www.indiatoday.in/amp/technology/news/story/google-may-turn-to-samsung-for-its-next-big-ai-chip-2925607-2026-06-12",
+      "source": "indiatoday.in",
+      "company": "Google/Samsung",
+      "topic": "Google Samsung TPU Icefish partnership",
+      "fingerprint": "Google|samsung-tpu-icefish-partnership|2026-06-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "hardware_evolution"
+        ],
+        "note": "Google 與三星洽谈 Icefish TPU 生產，分散晶片供應鏈"
+      },
+      "summary": "Google 與三星電子洽谈生產下一代 AI 處理器 Icefish，三星將使用 2nm 製程生產記憶體 I/O die，預計 2028 量產。Google 同時與 TSMC 和 MediaTek 合作，顯示分散晶片供應鏈策略。",
+      "from_file": "output/2026/06/18.md"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Microsoft Copilot Cowork 正式 GA 企業級 AI 代理進駐 M365",
+      "url": "https://windowsnews.ai/article/microsoft-copilot-cowork-hits-ga-autonomous-ai-agents-now-available-for-m365but-it-leaders-brace-for.427276",
+      "source": "windowsnews.ai",
+      "company": "Microsoft",
+      "topic": "Copilot Cowork GA usage-based AI agents M365",
+      "fingerprint": "Microsoft|copilot-cowork-ga-usage-based|2026-06-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "首個進入 Microsoft 365 的自主 AI 代理正式 GA，用量計費"
+      },
+      "summary": "Copilot Cowork 於 6 月 16 日全面上線，可跨 Word/Excel/Teams/Outlook 執行長時工作流，採用 AI units 用量計費（每單位 $0.04）。IT 面臨 Purview DLP 與 Agent Session Control 新治理挑戰。",
+      "from_file": "output/2026/06/18.md"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "NewCore 融資 $66M 為 AI 代理建立身份管理",
+      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+      "source": "techcrunch.com",
+      "company": "NewCore",
+      "topic": "NewCore 66M AI agent identity management",
+      "fingerprint": "NewCore|66m-ai-agent-identity-management|2026-06-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "專為 AI 代理打造的身份管理平台獲大額融資"
+      },
+      "summary": "資安新創 NewCore 獲 $66M 融資（估值 $300M），專解決 AI 代理的身份認證與治理。平台將 AI 代理視為一級身份，提供分離式金鑰架構與 Agentic Skill 整合包，讓 Claude Code、Codex、Cursor 以受管身份存取企業系統。",
+      "from_file": "output/2026/06/18.md"
     }
   ],
   "reason_picked_schema": {
