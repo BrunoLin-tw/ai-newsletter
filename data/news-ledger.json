@@ -8325,6 +8325,106 @@
       },
       "summary": "資安新創 NewCore 獲 $66M 融資（估值 $300M），專解決 AI 代理的身份認證與治理。平台將 AI 代理視為一級身份，提供分離式金鑰架構與 Agentic Skill 整合包，讓 Claude Code、Codex、Cursor 以受管身份存取企業系統。",
       "from_file": "output/2026/06/18.md"
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Microsoft Build 2026 發布 MAI 家族七款新模型",
+      "url": "https://microsoft.ai/news/microsoft-build-2026-mai-keynote-transcript/",
+      "source": "microsoft.ai",
+      "company": "Microsoft",
+      "topic": "MAI model family seven new models Build 2026",
+      "fingerprint": "Microsoft|mai-model-family-build-2026|2026-06-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "official_source"
+        ],
+        "note": "七款新模型涵蓋推理/編碼/圖像/語音/轉錄，未用蒸餾以商業資料訓練"
+      },
+      "summary": "Microsoft 在 Build 2026 發表七款自研 AI 模型，包含首個推理模型 MAI-Thinking-1（35B 參數、256K 上下文，在 SWE-Bench Pro 達 53% 與 Opus 4.6 持平）、MAI-Code-1-Flash（5B 參數達 51% SWE-Bench Pro）、MAI-Image-2.5、MAI-Voice-2、MAI-Transcribe-1.5。所有模型均未使用蒸餾，以商業授權資料訓練。",
+      "from_file": "output/2026/06/19.md"
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Anthropic Claude Design 大翻新 — 設計系統導入企業合規新標準",
+      "url": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+      "source": "venturebeat.com",
+      "company": "Anthropic",
+      "topic": "Claude Design overhaul design system imports",
+      "fingerprint": "Anthropic|claude-design-overhaul|2026-06-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation",
+          "official_source"
+        ],
+        "note": "設計系統匯入+Claude Code整合，企業合規與設計到程式碼無縫交付"
+      },
+      "summary": "Anthropic 推出 Claude Design 重大更新，支援從 GitHub 匯入品牌設計系統，自動驗證輸出是否符合企業規範並加入 admin 鎖定功能。同時推出 Claude Code 雙向整合，開發者執行 /design-sync 即可同步設計系統，實現設計到程式碼的無縫交接。",
+      "from_file": "output/2026/06/19.md"
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Apple WWDC 2026 推出新智慧框架 — 第三方 AI 正式進駐 Apple 生態",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/",
+      "source": "apple.com",
+      "company": "Apple",
+      "topic": "Apple WWDC 2026 intelligence frameworks Claude integration",
+      "fingerprint": "Apple|wwdc-2026-intelligence-frameworks|2026-06-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Foundation Models Framework 允許 Claude 直接整合進 iOS app，Siri Extensions 支援第三方 AI"
+      },
+      "summary": "Apple 發布 Foundation Models Framework，全新 LanguageModel 協議允許開發者將 Claude 等第三方模型直接整合進 iOS 27 app。iOS 27 的 Siri Extensions 讓使用者可選擇偏好的 AI 驅動 Siri，ChatGPT 與 Claude 皆為首發夥伴。Xcode 27 也整合 Anthropic 模型支援代理編程。",
+      "from_file": "output/2026/06/19.md"
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Novartis CEO Vas Narasimhan 加入 Anthropic 董事会",
+      "url": "https://www.anthropic.com/news/narasimhan-board",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Vas Narasimhan Anthropic board of directors",
+      "fingerprint": "Anthropic|vas-narasimhan-board|2026-06-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source",
+          "healthcare"
+        ],
+        "note": "Novartis CEO 加入，帶來醫藥產業監管與安全部署經驗"
+      },
+      "summary": "Anthropic Long-Term Benefit Trust 任命 Novartis 執行長 Vas Narasimhan 進入董事，他曾主導 35 種新藥開發與審批，是醫藥產業監管與安全部署專家。此任命代表 Trust 任命董事在 Anthropic 董事佔多數，顯示公司治理持續朝公共利益使命傾斜。",
+      "from_file": "output/2026/06/19.md"
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Claude Code 使用者每週平均 20 小時 — 研究揭 domain expertise 才是成功關鍵",
+      "url": "https://www.anthropic.com/research/claude-code-expertise",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude Code expertise research domain knowledge",
+      "fingerprint": "Anthropic|claude-code-expertise-research|2026-06-19",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "40萬セッション分析顯示領域專業而非編程熟練度是成功關鍵"
+      },
+      "summary": "Anthropic 發布約 40 萬次 Claude Code セッション分析，顯示領域專業知識而非編程熟練度是成功的主要驅動因素。各主要職業別在編程任務成功率幾乎與軟體工程師持平，證明 AI 代理可讓非工程師高效完成技術任務。",
+      "from_file": "output/2026/06/19.md"
     }
   ],
   "reason_picked_schema": {
