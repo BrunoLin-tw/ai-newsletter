@@ -8425,6 +8425,122 @@
       },
       "summary": "Anthropic 發布約 40 萬次 Claude Code セッション分析，顯示領域專業知識而非編程熟練度是成功的主要驅動因素。各主要職業別在編程任務成功率幾乎與軟體工程師持平，證明 AI 代理可讓非工程師高效完成技術任務。",
       "from_file": "output/2026/06/19.md"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "AI 漏洞發現狂飆！2026 年 CVE 恐破 66,000 大關",
+      "url": "https://www.helpnetsecurity.com/2026/06/15/first-2026-cve-forecast/",
+      "source": "helpnetsecurity.com",
+      "company": "FIRST",
+      "topic": "CVE 2026 forecast 66000 AI vulnerability discovery",
+      "fingerprint": "FIRST|cve-2026-forecast-66000|2026-06-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "AI 自動化漏洞挖掘導致 CVE 披露數暴增 46%"
+      },
+      "summary": "FIRST 預測 2026 年漏洞披露將達 66,000 件，AI autonomous discovery agents 已成為漏洞發現主力，Anthropic Mythos 與 OpenAI GPT-5.4-Cyber 大幅提升 flaw 發現量，但高風險漏洞比例維持不變。",
+      "from_file": "output/2026/06/20.md"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Anthropic 與韓國政府簽署 AI 安全 MOU",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Korea government AI safety MOU",
+      "fingerprint": "Anthropic|korea-government-ai-safety-mou|2026-06-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "首個由 AI 公司發起的國家級 AI 安全合作"
+      },
+      "summary": "Anthropic 與韓國科學與資訊通信技術部簽署合作備忘錄，共同推進 AI 安全與網路安全評估，包括與韓國 AI 安全研究所合作評估韓語模型安全性及交換 AI 網路威脅情資。",
+      "from_file": "output/2026/06/20.md"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "科技巨頭 AI 支出將達 3 兆美元！",
+      "url": "https://247wallst.com/investing/2026/06/19/google-spacex-microsoft-and-amazon-are-about-to-spend-twice-the-entire-u-s-defense-budget-on-ai/",
+      "source": "247wallst.com",
+      "company": "Hyperscalers",
+      "topic": "hyperscaler AI spending 3 trillion 2x US defense budget",
+      "fingerprint": "Hyperscalers|3-trillion-ai-spending|2026-06-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "3年3兆美元支出相當於美國國防預算兩倍"
+      },
+      "summary": "Everpure 執行長透露，超大規模雲端商未來三年資本支出總額將達 3 兆美元，相當於美國國防預算的兩倍。Google Q1 支出 357 億美元全年指引 1800-1900 億，Microsoft 指引約 1900 億，Amazon Q1 現金資本支出 432 億。",
+      "from_file": "output/2026/06/20.md"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Amazon 洽談銷售 AI 晶片直接挑戰 Nvidia",
+      "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+      "source": "techcrunch.com",
+      "company": "Amazon",
+      "topic": "Amazon selling AI chips to challenge Nvidia",
+      "fingerprint": "Amazon|ai-chips-nvidia-challenge|2026-06-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "hardware_evolution"
+        ],
+        "note": "首次直接向第三方出售 AI 晶片機架"
+      },
+      "summary": "Amazon 正在洽談向其他公司出售其自製 AI 晶片，直接挑戰 Nvidia 的市場主導地位。CEO Andy Jassy 表示未來可能會向第三方出售整機架，這將開闢 500 億美元的市場。",
+      "from_file": "output/2026/06/20.md"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Apple 與 Google、Nvidia 合作確認 Apple Intelligence",
+      "url": "https://www.cnbc.com/2026/06/08/apple-google-nvidia-ai-chips.html",
+      "source": "cnbc.com",
+      "company": "Apple",
+      "topic": "Apple Google Nvidia partnership confirmed Apple Intelligence",
+      "fingerprint": "Apple|google-nvidia-partnership-apple-intelligence|2026-06-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首次確認 Nvidia 晶片支援 Apple Intelligence"
+      },
+      "summary": "Apple 在 WWDC 後首次確認其最強大的 Apple Foundation Model Cloud Pro 將在 Google 雲端上使用 Nvidia GPU 運行，這是與 Google 和 Nvidia 打造的自訂模型，與市面上的 Gemini 不同。",
+      "from_file": "output/2026/06/20.md"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "AI 打造 GTA 6 意外建錯城市",
+      "url": "https://wccftech.com/dev-building-gta-6-ai-wrong-city-unreal-engine-5-8/",
+      "source": "wccftech.com",
+      "company": "Independent",
+      "topic": "AI building GTA 6 wrong city Godot engine",
+      "fingerprint": "Independent|ai-gta-6-wrong-city|2026-06-20",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "展示 AI 遊戲開發的潛力與局限性"
+      },
+      "summary": "開發者 Ziwen Xu 嘗試使用 AI 代理在 Godot 引擎上開發 GTA 6，但不小心建錯了城市。這展示了 AI 遊戲開發的潛力與當前局限性。",
+      "from_file": "output/2026/06/20.md"
     }
   ],
   "reason_picked_schema": {
