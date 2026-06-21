@@ -8541,6 +8541,97 @@
       },
       "summary": "開發者 Ziwen Xu 嘗試使用 AI 代理在 Godot 引擎上開發 GTA 6，但不小心建錯了城市。這展示了 AI 遊戲開發的潛力與當前局限性。",
       "from_file": "output/2026/06/20.md"
+    },
+    {
+      "date": "2026-06-21",
+      "title": "LLM Stats 排行榜：Claude Opus 4.6 編程稱王",
+      "url": "https://intuitionlabs.ai/articles/claude-vs-chatgpt-vs-copilot-vs-gemini-enterprise-comparison",
+      "source": "intuitionlabs.ai",
+      "company": "Anthropic",
+      "topic": "Claude Opus 4.6 beats Gemini 3 Pro coding benchmark",
+      "fingerprint": "Anthropic|claude-opus-4-6-coding-benchmark|2026-06-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "編程測驗創新紀錄，超越 Gemini 3 Pro"
+      },
+      "summary": "獨立評測機構 Itpro 顯示，Claude Opus 4.6 在編程測驗中創下新紀錄，超越 Google Gemini 3 Pro。ChatGPT (GPT-5.2) 在一般智商測驗仍領先。模型評測正走向「專精化」趨勢。",
+      "from_file": "output/2026/06/21.md"
+    },
+    {
+      "date": "2026-06-21",
+      "title": "Google AI 人才大流失：諾貝爾得主與 Transformer 發明者雙雙出走",
+      "url": "https://fourweekmba.com/ai-talent-wars-weekly-june-20-2026/",
+      "source": "fourweekmba.com",
+      "company": "Google",
+      "topic": "Google AI talent exodus Jumper Shazeer",
+      "fingerprint": "Google|ai-talent-exodus-jumper-shazeer|2026-06-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "諾貝爾得主與 Transformer 共同發明者同週出走"
+      },
+      "summary": "John Jumper（諾貝爾得主、AlphaFold 發明者）離開 DeepMind 加入 Anthropic，Noam Shazeer（Transformer 共同發明者）離開 Google 加入 OpenAI。「Attention Is All You Need」論文的 8 位作者如今僅剩 1 人仍在 Google。",
+      "from_file": "output/2026/06/21.md"
+    },
+    {
+      "date": "2026-06-21",
+      "title": "Anthropic 遭遇出口禁令：美國政府首度關閉前沿 AI 模型",
+      "url": "https://cryptobriefing.com/anthropic-us-export-ban-national-security/",
+      "source": "cryptobriefing.com",
+      "company": "Anthropic",
+      "topic": "Anthropic export ban foreign nationals",
+      "fingerprint": "Anthropic|export-ban-foreign-nationals|2026-06-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "史上首次由出口管制迫使 AI 實驗室關閉前沿模型"
+      },
+      "summary": "美國政府 6/12 發布指令，要求 Anthropic 立即停止對所有外國人提供最新 AI 模型的存取權限。禁令針對 Fable 5 和 Mythos 5，先前傳出的「越獄」漏洞引發國安疑慮。這是史上首次由出口管制迫使主要 AI 實驗室關閉其前沿模型。",
+      "from_file": "output/2026/06/21.md"
+    },
+    {
+      "date": "2026-06-21",
+      "title": "Polymarket 預測：Anthropic 94.8% 機率奪冠",
+      "url": "https://fourweekmba.com/ai-model-race-weekly-june-20-2026/",
+      "source": "fourweekmba.com",
+      "company": "Anthropic",
+      "topic": "Polymarket Anthropic 94.8% model race",
+      "fingerprint": "Anthropic|polymarket-94-8-percent|2026-06-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "市場預期 Anthropic 將占據 top 2 席位"
+      },
+      "summary": "投注市場顯示 Anthropic 有 94.8% 機率成為第一大模型，90.5% 機率占據第二名。Google 僅 3.2%，OpenAI 1.8%。若此趨勢持續，一家公司將同時擁有 top 2 席位，創下史無前例的集中度。",
+      "from_file": "output/2026/06/21.md"
+    },
+    {
+      "date": "2026-06-21",
+      "title": "AI Agent Store 正式上線",
+      "url": "https://aiagentstore.ai/",
+      "source": "aiagentstore.ai",
+      "company": "Independent",
+      "topic": "AI Agent Store launch monetization",
+      "fingerprint": "Independent|ai-agent-store-launch|2026-06-21",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "AI 代理經濟基礎設施里程碑"
+      },
+      "summary": "平台可讓開發者發布、發現與變現 AI 代理，並支援 OpenClaw 和 Hermes 代理的托管部署。這是 AI 代理經濟的重要基礎設施里程碑。",
+      "from_file": "output/2026/06/21.md"
     }
   ],
   "reason_picked_schema": {
