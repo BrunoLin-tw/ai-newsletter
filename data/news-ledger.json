@@ -8838,6 +8838,125 @@
       },
       "summary": "OpenAI 部落格分享天文學家如何利用 Codex 協助模擬黑洞，展現 AI 在科學研究中的實際應用潛力。",
       "from_file": "output/2026/06/15.md"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "Anthropic Fable 5 全球禁閉：SK Telecom 與 Amazon 雙觸發",
+      "url": "https://www.wired.com/story/anthropic-mythos-fable-export-controls-sktelecom/",
+      "source": "wired.com",
+      "company": "Anthropic",
+      "topic": "Fable 5 Mythos 5 global export control ban",
+      "fingerprint": "Anthropic|fable-5-global-ban-sktelecom|2026-06-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": ["security_research"],
+        "note": "出口管制升級至全面封鎖，史上首次針對前沿模型"
+      },
+      "summary": "6月12日美國商務部發布出口管制令，全面暫停 Fable 5 和 Mythos 5 對外國人訪問。起因是白宮認定韓國最大電信商 SK Telecom（Anthropic 1億美元投資者）與中國有關聯，隨後 Amazon 研究人員報告漏洞，導致升級封鎖。Anthropic 首爾辦公室開幕，Chris Ciauri 表示有信心在未來幾天內恢復。",
+      "from_file": "output/2026/06/22.md"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "OpenAI 收購 Astral：Python 開發工具龍頭加入 Codex",
+      "url": "https://openai.com/index/openai-acquires-astral/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "Astral uv ruff acquisition Codex",
+      "fingerprint": "OpenAI|astral-uv-ruff-acquisition|2026-06-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": ["workflow_automation"],
+        "note": "收購 Python 生態最受歡迎開發工具"
+      },
+      "summary": "OpenAI 宣布收購 Astral，獲得 uv（Rust 編寫的高速 Python 包管理器）和 ruff（Python linter/formatter）。這兩個工具已成為 Python 生態主流。策略邏輯是 Codex 與 Python 開發工作流高度互補，但可能引發開源社群對工具掌控權的疑慮。",
+      "from_file": "output/2026/06/22.md"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "Google 發布六年來首款智慧音箱，Gemini 內建",
+      "url": "https://blog.google/products/google-home/smart-speaker-gemini-ai/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Google smart speaker Gemini built-in",
+      "fingerprint": "Google|gemini-smart-speaker-2026|2026-06-22",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["new_market"],
+        "note": "六年來首款新智慧音箱，前沿模型首嵌入大眾市場"
+      },
+      "summary": "Google 推出六年來首款新智慧音箱，內建 Gemini AI 助理，支援自然對話和先進語音互動。前一版為 2020 年發布的 Nest Audio。此發布標誌 Google 重返智慧家庭音頻市場，也是首個將前沿 AI 模型嵌入大眾市場智慧音箱的案例。",
+      "from_file": "output/2026/06/22.md"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "Anthropic 首爾辦公室開幕：韓國企業巨頭全面採用 Claude",
+      "url": "https://www.anthropic.com/news/office-seoul",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Seoul office Korean enterprise deployment",
+      "fingerprint": "Anthropic|seoul-office-korean-enterprise-wave|2026-06-22",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": ["official_source"],
+        "note": "單日最大亞太企業浪潮，NAVER/Samsung/LG/Hanwha/Nexon 全面部署"
+      },
+      "summary": "Anthropic 正式啟用首爾辦公室，同日宣布韓國企業大規模採用：NAVER 數千名工程師部署 Claude Code；Samsung SDS 部署 Claude Cowork 和 Codex；LG CNS 為數千名員工部署；Hanwha Solutions 通過 AWS Bedrock 全球部署；Nexon 為遊戲工程部署。此波是 Anthropic 亞太史上最大單日企業浪潮。",
+      "from_file": "output/2026/06/22.md"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "Microsoft Build 2026：Polaris、Windows Agent Framework、Azure Agent Mesh",
+      "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+      "source": "cnbc.com",
+      "company": "Microsoft",
+      "topic": "Microsoft Build 2026 AI platform announcements",
+      "fingerprint": "Microsoft|build-2026-polaris-agent-framework|2026-06-22",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["workflow_automation"],
+        "note": "發布 Project Polaris、Windows Agent Framework、Azure Agent Mesh"
+      },
+      "summary": "Microsoft 在 Build 2026 發布一系列 AI 平台更新，包括 Project Polaris、Windows Agent Framework、Azure Agent Mesh 及 Office 365 的 Agent Mode。Foundry 模型目錄現已包含 11,000+ 模型，同時宣布推出自主 AI 模型以減少對 OpenAI 的依賴。",
+      "from_file": "output/2026/06/22.md"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "Epic Games 宣布 Unreal Engine 6 原生整合 Claude 和 Gemini",
+      "url": "https://videogameschronicle.com/news/epic-games-unreal-engine-6-ai-integration/",
+      "source": "videogameschronicle.com",
+      "company": "Epic Games",
+      "topic": "Unreal Engine 6 Claude Gemini AI integration",
+      "fingerprint": "Epic Games|unreal-engine-6-ai-integration|2026-06-22",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["creative_tools"],
+        "note": "遊戲引擎原生整合 AI 代理，自動執行開發任務"
+      },
+      "summary": "Epic Games 透露 Unreal Engine 6 將原生整合 Claude 和 Gemini AI 模型，自動執行遊戲開發任務。這標誌著遊戲引擎與 AI 代理的深度整合，為遊戲開發工作流帶來自動化變革。",
+      "from_file": "output/2026/06/22.md"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "Cohere 報告 Fable 5 禁令後企業和政府詢問量大增",
+      "url": "https://aiweekly.co/ai-news-today/anthropic-news",
+      "source": "aiweekly.co",
+      "company": "Cohere",
+      "topic": "Cohere inbound surge after Anthropic ban",
+      "fingerprint": "Cohere|inbound-surge-anthropic-ban|2026-06-22",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": ["enterprise"],
+        "note": "市場尋求 AI 供應商多元化"
+      },
+      "summary": "在美國封鎖 Anthropic 的 Fable 5 和 Mythos 5 後，Cohere 報告來自企業和政府機構的詢問量激增。分析師認為這顯示市場正在尋求 AI 供應商的多元化，避免過度依賴單一來源。",
+      "from_file": "output/2026/06/22.md"
     }
   ]
 }
