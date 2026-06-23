@@ -8632,6 +8632,102 @@
       },
       "summary": "平台可讓開發者發布、發現與變現 AI 代理，並支援 OpenClaw 和 Hermes 代理的托管部署。這是 AI 代理經濟的重要基礎設施里程碑。",
       "from_file": "output/2026/06/21.md"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "白宮發布 AI 創新與安全行政命令",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "source": "whitehouse.gov",
+      "company": "White House",
+      "topic": "AI innovation security executive order",
+      "fingerprint": "White House|ai-innovation-security-executive-order|2026-06-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "新 AI 政策框架發布，涵蓋國安系統保護與自願性前沿模型規範"
+      },
+      "summary": "川普政府發布促進先進 AI 創新與安全行政命令，要求 30 天內優先保護國安與國防部資訊系統，成立 AI 網路安全資訊交換所，建立covered frontier models自願性框架，明定不會建立強制許可制度。",
+      "from_file": "output/2026/06/23.md"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "Microsoft Build 2026 全面揭露 AI 時代作業系統",
+      "url": "https://windowsnews.ai/article/microsoft-build-2026-windows-ai-agents-and-nvidia-rtx-spark-usher-in-a-new-computing-era.428939",
+      "source": "windowsnews.ai",
+      "company": "Microsoft",
+      "topic": "Microsoft Build 2026 Windows AI Agents RTX Spark MAI Majorana",
+      "fingerprint": "Microsoft|build-2026-windows-ai-agents-rtx-spark|2026-06-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "hardware_evolution"
+        ],
+        "note": "Windows AI Agents、RTX Spark、MAI 開源、Majorana 2 量子晶片同時發布"
+      },
+      "summary": "Microsoft Build 2026 發布三大核心：Windows AI Agents 整合进 Windows 11 26H2 可跨應用程式執行任務；聯手 NVIDIA 推出 RTX Spark 顯示卡提供 200 TOPS 算力；MAI 模型家族開源 7B 與 34B 版本；驚喜發布 Majorana 2 量子處理器原型。",
+      "from_file": "output/2026/06/23.md"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "OpenAI GPT-5.6 傳言本週發布，轉型可執行代理",
+      "url": "https://pasqualepillitteri.it/en/news/5098/gpt-5-6-june-23-vs-claude-fable-5-rumor",
+      "source": "pasqualepillitteri.it",
+      "company": "OpenAI",
+      "topic": "GPT-5.6 launch rumor executable agents",
+      "fingerprint": "OpenAI|gpt-5-6-executable-agents-rumor|2026-06-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "傳言 GPT-5.6 將從模型轉向可執行代理，定價僅競爭對手 1/3"
+      },
+      "summary": "社群傳言 GPT-5.6 將於 6 月 23 日發布，標誌從模型到可執行代理的轉變，定價可能僅為競爭對手三分之一，上下文窗口達 150 萬 token。若屬實將是近六週內第二度重大更新。",
+      "from_file": "output/2026/06/23.md"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "Anthropic 提交 IPO 申請，秋季有望掛牌",
+      "url": "https://en.wikipedia.org/wiki/Anthropic",
+      "source": "wikipedia.org",
+      "company": "Anthropic",
+      "topic": "Anthropic IPO filing SEC",
+      "fingerprint": "Anthropic|ipo-filing-sec-2026|2026-06-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "繼 OpenAI 後第二家尋求上市的生成式 AI 大廠"
+      },
+      "summary": "Anthropic 已向 SEC 提交機密 IPO 申請，目標在 2026 年秋季上市，成為繼 OpenAI 之後第二家尋求公開上市的生成式 AI 大廠，顯示 AI 產業正從私募走向公開市場。",
+      "from_file": "output/2026/06/23.md"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "量子計算進入應用衝刺階段",
+      "url": "https://finance.yahoo.com/markets/article/trump-signs-executive-orders-to-drive-development-of-commercially-relevant-quantum-computer-by-2028-205201485.html",
+      "source": "finance.yahoo.com",
+      "company": "US Government",
+      "topic": "quantum computing executive order 2028",
+      "fingerprint": "US Government|quantum-computing-2028-executive-order|2026-06-23",
+      "section": "tools",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "行政命令目標 2028 年實現商業可行量子電腦，結合 AI 發展加速"
+      },
+      "summary": "川普政府發布量子計算行政命令，目標在 2028 年前開發商業可行量子電腦，成立 QC-ADDS 計畫。結合 Microsoft Majorana 2 與 NVIDIA CUDA-Q 平台進展，AI 與量子融合正在加速。",
+      "from_file": "output/2026/06/23.md"
     }
   ],
   "reason_picked_schema": {
@@ -8850,7 +8946,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "policy_or_regulatory_change",
-        "secondary": ["security_research"],
+        "secondary": [
+          "security_research"
+        ],
         "note": "出口管制升級至全面封鎖，史上首次針對前沿模型"
       },
       "summary": "6月12日美國商務部發布出口管制令，全面暫停 Fable 5 和 Mythos 5 對外國人訪問。起因是白宮認定韓國最大電信商 SK Telecom（Anthropic 1億美元投資者）與中國有關聯，隨後 Amazon 研究人員報告漏洞，導致升級封鎖。Anthropic 首爾辦公室開幕，Chris Ciauri 表示有信心在未來幾天內恢復。",
@@ -8867,7 +8965,9 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "partnership_or_integration",
-        "secondary": ["workflow_automation"],
+        "secondary": [
+          "workflow_automation"
+        ],
         "note": "收購 Python 生態最受歡迎開發工具"
       },
       "summary": "OpenAI 宣布收購 Astral，獲得 uv（Rust 編寫的高速 Python 包管理器）和 ruff（Python linter/formatter）。這兩個工具已成為 Python 生態主流。策略邏輯是 Codex 與 Python 開發工作流高度互補，但可能引發開源社群對工具掌控權的疑慮。",
@@ -8884,7 +8984,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["new_market"],
+        "secondary": [
+          "new_market"
+        ],
         "note": "六年來首款新智慧音箱，前沿模型首嵌入大眾市場"
       },
       "summary": "Google 推出六年來首款新智慧音箱，內建 Gemini AI 助理，支援自然對話和先進語音互動。前一版為 2020 年發布的 Nest Audio。此發布標誌 Google 重返智慧家庭音頻市場，也是首個將前沿 AI 模型嵌入大眾市場智慧音箱的案例。",
@@ -8901,7 +9003,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "distribution_expansion",
-        "secondary": ["official_source"],
+        "secondary": [
+          "official_source"
+        ],
         "note": "單日最大亞太企業浪潮，NAVER/Samsung/LG/Hanwha/Nexon 全面部署"
       },
       "summary": "Anthropic 正式啟用首爾辦公室，同日宣布韓國企業大規模採用：NAVER 數千名工程師部署 Claude Code；Samsung SDS 部署 Claude Cowork 和 Codex；LG CNS 為數千名員工部署；Hanwha Solutions 通過 AWS Bedrock 全球部署；Nexon 為遊戲工程部署。此波是 Anthropic 亞太史上最大單日企業浪潮。",
@@ -8918,7 +9022,9 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["workflow_automation"],
+        "secondary": [
+          "workflow_automation"
+        ],
         "note": "發布 Project Polaris、Windows Agent Framework、Azure Agent Mesh"
       },
       "summary": "Microsoft 在 Build 2026 發布一系列 AI 平台更新，包括 Project Polaris、Windows Agent Framework、Azure Agent Mesh 及 Office 365 的 Agent Mode。Foundry 模型目錄現已包含 11,000+ 模型，同時宣布推出自主 AI 模型以減少對 OpenAI 的依賴。",
@@ -8935,7 +9041,9 @@
       "section": "tools",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["creative_tools"],
+        "secondary": [
+          "creative_tools"
+        ],
         "note": "遊戲引擎原生整合 AI 代理，自動執行開發任務"
       },
       "summary": "Epic Games 透露 Unreal Engine 6 將原生整合 Claude 和 Gemini AI 模型，自動執行遊戲開發任務。這標誌著遊戲引擎與 AI 代理的深度整合，為遊戲開發工作流帶來自動化變革。",
@@ -8952,7 +9060,9 @@
       "section": "tools",
       "reason_picked": {
         "code": "real_world_deployment",
-        "secondary": ["enterprise"],
+        "secondary": [
+          "enterprise"
+        ],
         "note": "市場尋求 AI 供應商多元化"
       },
       "summary": "在美國封鎖 Anthropic 的 Fable 5 和 Mythos 5 後，Cohere 報告來自企業和政府機構的詢問量激增。分析師認為這顯示市場正在尋求 AI 供應商的多元化，避免過度依賴單一來源。",
