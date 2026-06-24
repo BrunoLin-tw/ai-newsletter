@@ -8728,6 +8728,101 @@
       },
       "summary": "川普政府發布量子計算行政命令，目標在 2028 年前開發商業可行量子電腦，成立 QC-ADDS 計畫。結合 Microsoft Majorana 2 與 NVIDIA CUDA-Q 平台進展，AI 與量子融合正在加速。",
       "from_file": "output/2026/06/23.md"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "AlphaFold 諾貝爾得主 John Jumper 離開 Google DeepMind 加入 Anthropic",
+      "url": "https://www.thehindu.com/sci-tech/technology/us-scientist-john-jumper-to-leave-google-deepmind-for-anthropic/article71131626.ece",
+      "source": "thehindu.com",
+      "company": "Google/Anthropic",
+      "topic": "John Jumper AlphaFold Nobel leaves DeepMind for Anthropic",
+      "fingerprint": "Google|jumper-deepmind-anthropic-2026-06-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Nobel 獎得主、AlphaFold 共同發明人加盟 Anthropic，頂級 AI 研究者持續從 Google 流失"
+      },
+      "summary": "John Jumper 宣布離開 Google DeepMind 加入 Anthropic，他是 2024 年與 Demis Hassabis 共同獲得諾貝爾獎的 AlphaFold 共同發明人。Noam Shazeer（Gemini 共同負責人）近期也加入 OpenAI，顯示 Google AI 人才持續流失。",
+      "from_file": "output/2026/06/24.md"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Forrester：Google 擊敗 OpenAI 成為美國行銷代理首選 AI 合作夥伴",
+      "url": "https://www.forrester.com/blogs/google-dethrones-openai-as-agencies-preferred-ai-partner/",
+      "source": "forrester.com",
+      "company": "Google",
+      "topic": "Google preferred AI partner agencies Forrester 2026",
+      "fingerprint": "Google|forrester-preferred-agency-partner|2026-06-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首次超越 OpenAI 成為代理商首選，生態系統整合能力決定市場"
+      },
+      "summary": "Forrester 與 4As 研究顯示 Google 首次在 2024 年後擊敗 Adobe、Anthropic、Microsoft 和 OpenAI，成為美國行銷代理首選 AI 合作夥伴。代理商選擇生態系統而非最新模型，Google 完整堆疊整合數據、創意、媒體和商務是其勝出關鍵。",
+      "from_file": "output/2026/06/24.md"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "美國政府施壓 Meta 同意 AI 模型安全審查",
+      "url": "https://www.yahoo.com/news/politics/articles/us-presses-meta-agree-ai-213807210.html",
+      "source": "yahoo.com",
+      "company": "Meta",
+      "topic": "US government presses Meta AI model security review",
+      "fingerprint": "Meta|us-government-ai-review-2026-06-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Meta 是唯一尚未同意自願政府審查的主要美國 AI 開發商"
+      },
+      "summary": "Trump 政府施壓 Meta 提交 AI 模型進行自願審查，Meta 是唯一尚未同意與聯邦政府分享模型的主要開發商。OpenAI、Anthropic、Google DeepMind、Microsoft 和 xAI 都已同意政府早期訪問權。",
+      "from_file": "output/2026/06/24.md"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Meta 員工資料外洩，AI 訓練計畫暫停",
+      "url": "https://www.businessinsider.com/meta-ai-training-data-leak-exposed-employee-activity-across-company-2026-6",
+      "source": "businessinsider.com",
+      "company": "Meta",
+      "topic": "Meta MCI employee data leak AI training pause",
+      "fingerprint": "Meta|mci-employee-data-leak-2026-06-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "員工敏感數據可在公司內部存取，等級 SEV 2"
+      },
+      "summary": "Meta 暫停 Model Capability Initiative（MCI）AI 訓練計畫，該計畫使用員工鍵盤和滑鼠移動作為訓練數據此前敏感數據（包括私人對話、績效數據和轉錄稿）被發現可被整個公司存取，引發員工強烈不滿。",
+      "from_file": "output/2026/06/24.md"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Nous Research 推出 Hermes Desktop 原生桌面 AI 代理應用",
+      "url": "https://thursdai.news/releases/2026-06",
+      "source": "thursdai.news",
+      "company": "Nous Research",
+      "topic": "Nous Research Hermes Desktop agent app launch",
+      "fingerprint": "Nous Research|hermes-desktop-launch|2026-06-24",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "將 AI 代理封裝成原生桌面應用程式，方便小團隊部署"
+      },
+      "summary": "Nous Research 發布 Hermes Desktop，將 Hermes Agent 工具包裝成 Mac、Windows 和 Linux 的原生桌面應用，支援聊天、權限控制、工具調用可視性和推理追蹤，專為小團隊設計。",
+      "from_file": "output/2026/06/24.md"
     }
   ],
   "reason_picked_schema": {
