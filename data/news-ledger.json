@@ -8823,6 +8823,114 @@
       },
       "summary": "Nous Research 發布 Hermes Desktop，將 Hermes Agent 工具包裝成 Mac、Windows 和 Linux 的原生桌面應用，支援聊天、權限控制、工具調用可視性和推理追蹤，專為小團隊設計。",
       "from_file": "output/2026/06/24.md"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "OpenAI 發布首款自研 AI 晶片 Jalapeño",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
+      "source": "theverge.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Jalapeño custom AI inference chip",
+      "fingerprint": "OpenAI|jalapeno-custom-ai-chip|2026-06-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "hardware_evolution"
+        ],
+        "note": "首款自研 ASIC 推理晶片，攜手 Broadcom 開發"
+      },
+      "summary": "OpenAI 發布首款自研 AI 處理器晶片 Jalapeño，與 Broadcom 合作開發的 ASIC，專為 AI 推理設計。預計 2026 年底部署，早期測試顯示每瓦效能超越目前最新技術。",
+      "from_file": "output/2026/06/25.md"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Google AI Studio Interactions API 正式 GA",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/interactions-api-general-availability/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Google Interactions API general availability",
+      "fingerprint": "Google|interactions-api-ga|2026-06-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "與 Gemini models 和 agents 互動的主要 API 正式上線"
+      },
+      "summary": "Google 宣布 Interactions API 正式普遍可用，自 2025 年 12 月公開測試上線以來，已成為與 Gemini 模型和 agents 互動的主要 API。",
+      "from_file": "output/2026/06/25.md"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "AI 產業砸 4330 萬美元介入美國期中選舉",
+      "url": "https://www.npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election",
+      "source": "npr.org",
+      "company": "AI Industry",
+      "topic": "AI companies campaign spending midterms",
+      "fingerprint": "AI Industry|midterms-campaign-spending|2026-06-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "AI 超級 PAC 砸重金影響 AI 監管法規走向"
+      },
+      "summary": "AI 相關超級 PAC 已在本次選舉週期支出 4330 萬美元，OpenAI 與 Anthropic 合計在紐約國會初選砸下超過 2300 萬美元，成為影響 AI 監管法規的代理人戰爭。",
+      "from_file": "output/2026/06/25.md"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Google Gemini 3.5 Pro 推遲至 2026 年 7 月發布",
+      "url": "https://news.az/news/google-postpones-gemini-35-pro-until-july-2026",
+      "source": "news.az",
+      "company": "Google",
+      "topic": "Google Gemini 3.5 Pro delay July 2026",
+      "fingerprint": "Google|gemini-3.5-pro-delay|2026-06-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "旗艦模型延後一個月發布以優化效能"
+      },
+      "summary": "Google 旗艦模型 Gemini 3.5 Pro 原本預定 6 月發布，現推遲至 7 月，據悉是為了進一步優化模型效能。",
+      "from_file": "output/2026/06/25.md"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Anthropic 推出 Claude Tag：Slack 裡的永續 AI 隊友",
+      "url": "https://venturebeat.com/technology/anthropic-launches-claude-tag-replacing-its-slack-app-with-a-persistent-ai-teammate-that-learns-monitors-and-works-autonomously",
+      "source": "venturebeat.com",
+      "company": "Anthropic",
+      "topic": "Claude Tag persistent AI teammate Slack",
+      "fingerprint": "Anthropic|claude-tag-slack-ai-teammate|2026-06-25",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "取代 Slack App，成為可持續學習的團隊 AI 隊友"
+      },
+      "summary": "Anthropic 推出 Claude Tag，取代原有 Slack App，成為團隊中可持續學習、監控並自主工作的 AI 隊友。任何人可透過 @Claude 指派任務，Anthropic 聲稱自家產品團隊 65% 程式碼已由內部 Claude Tag 生成。",
+      "from_file": "output/2026/06/25.md"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "ChatGPT 模型選擇器大改版",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "help.openai.com",
+      "company": "OpenAI",
+      "topic": "ChatGPT model picker simplified controls",
+      "fingerprint": "OpenAI|chatgpt-model-picker-update|2026-06-25",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "簡化為四個等級，全球推播"
+      },
+      "summary": "ChatGPT 模型選擇器簡化為 Instant、Medium、High、Extra High 四個等級，Pro 用戶另有 Pro Standard 與 Pro Extended 選項，即日起全球推播。",
+      "from_file": "output/2026/06/25.md"
     }
   ],
   "reason_picked_schema": {
