@@ -9270,6 +9270,102 @@
       },
       "summary": "在美國封鎖 Anthropic 的 Fable 5 和 Mythos 5 後，Cohere 報告來自企業和政府機構的詢問量激增。分析師認為這顯示市場正在尋求 AI 供應商的多元化，避免過度依賴單一來源。",
       "from_file": "output/2026/06/22.md"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "OpenAI 內部數據：Codex 佔輸出tokens達99.8%",
+      "url": "https://openai.com/index/how-agents-are-transforming-work/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Codex internal adoption 99.8% tokens",
+      "fingerprint": "OpenAI|codex-99.8-percent-tokens|2026-06-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "benchmark_detail",
+          "workflow_automation"
+        ],
+        "note": "Codex已成為公司主要AI工具，非技術部門使用量飆升56倍"
+      },
+      "summary": "OpenAI 研究顯示，截至2026年6月，Codex 已成為公司內部主要AI工具，產生99.8%的每週輸出tokens。非技術部門（法務、招募）於2026年4月也大幅轉向Codex，研究部門使用量較2025年11月飆升56倍，顯示agentic AI正全面改變工作模式。",
+      "from_file": "output/2026/06/26.md"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "AMD 獲 Gartner 評為企業 AI 伺服器 CPU 領導者",
+      "url": "https://www.amd.com/en/blogs/2026/amd-named-current-company-to-beat-in-gartner-ai-vendor.html",
+      "source": "amd.com",
+      "company": "AMD",
+      "topic": "AMD Gartner leader enterprise AI server CPU",
+      "fingerprint": "AMD|gartner-ai-server-cpu-leader|2026-06-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "Gartner肯定AMD在agentic AI編排和CPU效能的領先地位"
+      },
+      "summary": "Gartner 2026年6月報告將AMD列為企業AI伺服器CPU領域的領導者，肯定其在agentic AI編排、I/O頻寬和伺服器整合能力。報告指出隨著企業AI轉向動態agentic系統，CPU效能正成為關鍵因素，EPYC處理器提供彈性基礎設施。",
+      "from_file": "output/2026/06/26.md"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Google AI 人才大出走：諾貝爾得主 John Jumper 轉投 Anthropic",
+      "url": "https://theaiinsider.tech/2026/06/25/google-loses-more-top-ai-researchers-to-anthropic-and-openai/",
+      "source": "theaiinsider.tech",
+      "company": "Google",
+      "topic": "Google DeepMind brain drain Anthropic OpenAI",
+      "fingerprint": "Google|deepmind-brain-drain-anthropic-openai|2026-06-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "諾貝爾得主John Jumper、Noam Shazeer等關鍵研究人员集體出走"
+      },
+      "summary": "Google DeepMind 面臨重大人才流失。諾貝爾化學獎得主John Jumper（AlphaFold發明者）宣布加入Anthropic，Noam Shazeer回歸OpenAI，另有Jonas Adler與Alexander Pritzel等關鍵Gemini研究人員跳槽。分析師預估隨著Anthropic與OpenAI準備IPO，人才流失將加速。",
+      "from_file": "output/2026/06/26.md"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "SoundHound AI 獲選年度最佳Agentic AI公司",
+      "url": "https://www.globenewswire.com/news-release/2026/06/25/3317686/0/en/soundhound-ai-named-overall-agentic-ai-company-of-the-year-in-2026-ai-breakthrough-awards-program.html",
+      "source": "globenewswire.com",
+      "company": "SoundHound AI",
+      "topic": "SoundHound AI agentic AI company of the year award",
+      "fingerprint": "SoundHound AI|agentic-ai-company-of-year|2026-06-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "OASYS自學習AI系統獲業界肯定"
+      },
+      "summary": "SoundHound AI 在2026年AI Breakthrough Awards中獲選「年度最佳Agentic AI公司」。其OASYS平台是首個自學習AI系統，能自主創建、編排、評估並改進對話AI代理，將數月開發工作壓縮至數分鐘完成，支援多管道部署。",
+      "from_file": "output/2026/06/26.md"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "調查：98%企業曾遭遇Agent相關事故，但仍加速部署",
+      "url": "https://www.prnewswire.com/news-releases/ai-agents-are-breaking-things-and-organisations-know-it-they-are-deploying-more-anyway-302810480.html",
+      "source": "prnewswire.com",
+      "company": "Economist Enterprise",
+      "topic": "AI agents incidents 98% organizations survey",
+      "fingerprint": "Economist|ai-agents-incidents-98-percent|2026-06-26",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "90%企業以超越安全評估的速度部署，但仍持續前進"
+      },
+      "summary": "Economist Enterprise研究顯示，90%企業正以超越安全團隊評估的速度部署AI Agent。98%受訪組織已發生過至少一次擾亂性Agent事故，88%認為Agent帶來現有控制機制無法管理的新風險類型，但部署仍持續加速，顯示風險已成為需管理的現實而非需防止的問題。",
+      "from_file": "output/2026/06/26.md"
     }
   ]
 }
