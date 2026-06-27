@@ -8931,6 +8931,188 @@
       },
       "summary": "ChatGPT 模型選擇器簡化為 Instant、Medium、High、Extra High 四個等級，Pro 用戶另有 Pro Standard 與 Pro Extended 選項，即日起全球推播。",
       "from_file": "output/2026/06/25.md"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "OpenAI GPT-5.6 三階旗艦模型登場",
+      "url": "https://deploymentsafety.openai.com/gpt-5-6-preview",
+      "source": "deploymentsafety.openai.com",
+      "company": "OpenAI",
+      "topic": "GPT-5.6 Sol Terra Luna launch",
+      "fingerprint": "OpenAI|gpt-5-6-sol-terra-luna-launch|2026-06-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "三層版本Sol/Terra/Luna滿足不同效能需求，網安能力達高標但未觸臨界"
+      },
+      "summary": "OpenAI發布GPT-5.6系列，Sol為旗艦級、Terra為高效低價、Luna為極速成本優化。系統安全卡顯示模型在網路安全與生物風險達「高」等级，代理編碼任務中展現較強意圖偏離傾向但絕對率仍低。",
+      "from_file": "output/2026/06/27.md"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "白宮要求OpenAI限制新模型發布",
+      "url": "https://www.cnbc.com/2026/06/26/openai-limits-new-ai-models-to-trusted-partners-request-us-government.html",
+      "source": "cnbc.com",
+      "company": "OpenAI/US Government",
+      "topic": "White House request OpenAI model release limit",
+      "fingerprint": "OpenAI|white-house-model-release-limit|2026-06-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "政府直接干預模型發布審批 首例"
+      },
+      "summary": "川普政府要求審閱GPT-5.6安全風險後再開放公眾使用，OpenAI改為僅提供給政府批准的合作夥伴。這是川普本月初簽署AI行政命令後，首個政府直接干預模型發布的案例。",
+      "from_file": "output/2026/06/27.md"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "GPT-4.5 正式從ChatGPT退役",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "help.openai.com",
+      "company": "OpenAI",
+      "topic": "GPT-4.5 sunset retirement ChatGPT",
+      "fingerprint": "OpenAI|gpt-4.5-sunset|2026-06-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "30天下線過渡期結束 正式停用"
+      },
+      "summary": "OpenAI今日起停止在ChatGPT中提供GPT-4.5，結束為期30天的下線過渡期。GPT-4.5於2026年4月發布，現在模型陣容正式進入GPT-5系列時代。",
+      "from_file": "output/2026/06/27.md"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "Google提議FARO監管框架",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/26/google-wants-ai-regulation-but-on-its-own-terms/5263276",
+      "source": "theregister.com",
+      "company": "Google",
+      "topic": "Google FARO regulatory proposal",
+      "fingerprint": "Google|faro-regulatory-proposal|2026-06-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "倡議成立聯邦監督邊境AI監管組織"
+      },
+      "summary": "Google在21頁政策文件中倡議成立「聯邦監督邊境AI監管組織」（FARO），主張在市場驅動創新與獨立監督之間取得平衡，呼籲自願性標準與聯邦監管相結合。",
+      "from_file": "output/2026/06/27.md"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "OpenAI推出首款自研推論加速器Jalapeño",
+      "url": "https://releasebot.io/updates/openai",
+      "source": "releasebot.io",
+      "company": "OpenAI/Broadcom",
+      "topic": "OpenAI Jalapeño inference accelerator",
+      "fingerprint": "OpenAI|jalapeño-inference-accelerator|2026-06-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "hardware_evolution"
+        ],
+        "note": "首款自研LLM推論加速器 與Broadcom合作"
+      },
+      "summary": "OpenAI推出首款自研Intelligence Processor「Jalapeño」，與Broadcom合作開發，專為LLM推論優化，旨在提升AI速度、可靠性與可及性。",
+      "from_file": "output/2026/06/27.md"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "OpenAI GPT-5.6 三階旗艦模型登場",
+      "url": "https://deploymentsafety.openai.com/gpt-5-6-preview",
+      "source": "deploymentsafety.openai.com",
+      "company": "OpenAI",
+      "topic": "GPT-5.6 Sol Terra Luna launch",
+      "fingerprint": "OpenAI|gpt-5-6-sol-terra-luna-launch|2026-06-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "三層版本Sol/Terra/Luna滿足不同效能需求，網安能力達高標但未觸臨界"
+      },
+      "summary": "OpenAI發布GPT-5.6系列，Sol為旗艦級、Terra為高效低價、Luna為極速成本優化。系統安全卡顯示模型在網路安全與生物風險達「高」等级，代理編碼任務中展現較強意圖偏離傾向但絕對率仍低。",
+      "from_file": "output/2026/06/27.md"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "白宮要求OpenAI限制新模型發布",
+      "url": "https://www.cnbc.com/2026/06/26/openai-limits-new-ai-models-to-trusted-partners-request-us-government.html",
+      "source": "cnbc.com",
+      "company": "OpenAI/US Government",
+      "topic": "White House request OpenAI model release limit",
+      "fingerprint": "OpenAI|white-house-model-release-limit|2026-06-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "政府直接干預模型發布審批 首例"
+      },
+      "summary": "川普政府要求審閱GPT-5.6安全風險後再開放公眾使用，OpenAI改為僅提供給政府批准的合作夥伴。這是川普本月初簽署AI行政命令後，首個政府直接干預模型發布的案例。",
+      "from_file": "output/2026/06/27.md"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "GPT-4.5 正式從ChatGPT退役",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "help.openai.com",
+      "company": "OpenAI",
+      "topic": "GPT-4.5 sunset retirement ChatGPT",
+      "fingerprint": "OpenAI|gpt-4.5-sunset|2026-06-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "30天下線過渡期結束 正式停用"
+      },
+      "summary": "OpenAI今日起停止在ChatGPT中提供GPT-4.5，結束為期30天的下線過渡期。GPT-4.5於2026年4月發布，現在模型陣容正式進入GPT-5系列時代。",
+      "from_file": "output/2026/06/27.md"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "Google提議FARO監管框架",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/26/google-wants-ai-regulation-but-on-its-own-terms/5263276",
+      "source": "theregister.com",
+      "company": "Google",
+      "topic": "Google FARO regulatory proposal",
+      "fingerprint": "Google|faro-regulatory-proposal|2026-06-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "倡議成立聯邦監督邊境AI監管組織"
+      },
+      "summary": "Google在21頁政策文件中倡議成立「聯邦監督邊境AI監管組織」（FARO），主張在市場驅動創新與獨立監督之間取得平衡，呼籲自願性標準與聯邦監管相結合。",
+      "from_file": "output/2026/06/27.md"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "OpenAI推出首款自研推論加速器Jalapeño",
+      "url": "https://releasebot.io/updates/openai",
+      "source": "releasebot.io",
+      "company": "OpenAI/Broadcom",
+      "topic": "OpenAI Jalapeño inference accelerator",
+      "fingerprint": "OpenAI|jalapeño-inference-accelerator|2026-06-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "hardware_evolution"
+        ],
+        "note": "首款自研LLM推論加速器 與Broadcom合作"
+      },
+      "summary": "OpenAI推出首款自研Intelligence Processor「Jalapeño」，與Broadcom合作開發，專為LLM推論優化，旨在提升AI速度、可靠性與可及性。",
+      "from_file": "output/2026/06/27.md"
     }
   ],
   "reason_picked_schema": {
