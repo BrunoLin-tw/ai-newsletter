@@ -9113,6 +9113,97 @@
       },
       "summary": "OpenAI推出首款自研Intelligence Processor「Jalapeño」，與Broadcom合作開發，專為LLM推論優化，旨在提升AI速度、可靠性與可及性。",
       "from_file": "output/2026/06/27.md"
+    },
+    {
+      "date": "2026-06-28",
+      "title": "OpenAI 發表首款自研 AI 晶片 Jalapeño",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "source": "openai.com",
+      "company": "OpenAI/Broadcom",
+      "topic": "OpenAI Jalapeño LLM inference chip",
+      "fingerprint": "OpenAI|jalapeno-llm-inference-chip|2026-06-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "hardware_evolution"
+        ],
+        "note": "首款自研 LLM 推論加速器，9個月完成設計到樣片"
+      },
+      "summary": "OpenAI 與 Broadcom 共同發表 Jalapeño AI 加速器，專為 LLM 推論優化，初步測試顯示每瓦效能超越現有方案，將於 2026 年部署千兆瓦規模資料中心。",
+      "from_file": "output/2026/06/28.md"
+    },
+    {
+      "date": "2026-06-28",
+      "title": "OpenAI GPT-5.6 Sol 有限預覽：三版本策略",
+      "url": "https://www.engadget.com/2203102/openai-starts-previewing-gpt-56-and-its-three-variants/",
+      "source": "engadget.com",
+      "company": "OpenAI",
+      "topic": "GPT-5.6 Sol Terra Luna variants",
+      "fingerprint": "OpenAI|gpt-56-sol-terra-luna|2026-06-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "Sol 為最高階網安模型，Terra 成本僅 GPT-5.5 的一半"
+      },
+      "summary": "OpenAI 發布 GPT-5.6 系列三版本：Sol 為最強網安模型，Terra 效能接近 GPT-5.5 但成本減半，Luna 為最低價選項。為配合政府審查僅開放 Trump 批准的合作夥伴，數週後全面釋出。",
+      "from_file": "output/2026/06/28.md"
+    },
+    {
+      "date": "2026-06-28",
+      "title": "OpenAI 與 Anthropic 新模型受限政府審查",
+      "url": "https://apnews.com/article/trump-ai-openai-gpt56-sol-cybersecurity-mythos-065d5398baac7f16c8265c2cb8ba2baa",
+      "source": "apnews.com",
+      "company": "OpenAI/Anthropic",
+      "topic": "government AI model restrictions Trump approval",
+      "fingerprint": "OpenAI|government-model-restrictions-trump|2026-06-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "GPT-5.6 Sol 僅供 Trump 批准夥伴，Mythos 獲有限釋出"
+      },
+      "summary": "OpenAI GPT-5.6 Sol 僅開放 Trump 政府批准的合作夥伴；Anthropic Mythos 在被 block 兩週後獲准釋出給少數網路防禦組織。專家批評此政策可能損害美國 AI 競爭力。",
+      "from_file": "output/2026/06/28.md"
+    },
+    {
+      "date": "2026-06-28",
+      "title": "Microsoft Nadella：每家公司都應該擁有自建 AI 模型",
+      "url": "https://www.businessinsider.com/satya-nadella-said-every-company-should-build-own-ai-model-2026-6",
+      "source": "businessinsider.com",
+      "company": "Microsoft",
+      "topic": "every company should build own AI model",
+      "fingerprint": "Microsoft|every-company-own-ai-model|2026-06-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "明確反對 AI 集中化，強調公司不應外包學習"
+      },
+      "summary": "Nadella 明確表態世上應該有多少模型就有多少公司，強調 AI 集中化帶來長期經濟風險。Microsoft 已在 Azure AI Foundry 採用多模型策略。",
+      "from_file": "output/2026/06/28.md"
+    },
+    {
+      "date": "2026-06-28",
+      "title": "Samsung 全球部署 ChatGPT Enterprise 與 Codex",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment/",
+      "source": "openai.com",
+      "company": "Samsung",
+      "topic": "Samsung ChatGPT Enterprise Codex global deployment",
+      "fingerprint": "Samsung|chatgpt-enterprise-codex-deployment|2026-06-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "OpenAI 最大規模企業部署，韓國 Codex 使用者飆升 800%"
+      },
+      "summary": "Samsung 宣布向韓國全體員工及全球 DX 部門部署 ChatGPT Enterprise 和 Codex，涵蓋軟體開發、行銷、產品開發與製造，成為 OpenAI 最大規模企業部署之一。",
+      "from_file": "output/2026/06/28.md"
     }
   ],
   "reason_picked_schema": {
