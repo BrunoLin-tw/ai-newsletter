@@ -9293,6 +9293,125 @@
       },
       "summary": "Anthropic 的 Claude 在募資場景中表現超越人類，展現 AI 令人驚嘆的說服與溝通能力，顯示 AI 在商業應用的新突破。",
       "from_file": "output/2026/06/29.md"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Anthropic CEO Dario Amodei 表態：不追求開源模型禁令，但支持晶片出口管制與蒸餾限制",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "open-weights model policy position",
+      "fingerprint": "Anthropic|open-weights-model-policy-position|2026-07-29",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "明確反對全面禁令但強調國安威脅在晶片與蒸餾"
+      },
+      "summary": "Dario Amodei 澄清 Anthropic 從未倡議全面禁止開源模型，強調真正的國安威脅來自獨裁政權取得強大 AI 模型，支持晶片出口管制、打擊大規模蒸餾、強制安全測試三項具體措施。",
+      "from_file": "output/2026/07/29.md"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Microsoft 發布 Project Perception：全新代理式資安系統，Mai-Cyber-1-Flash 效能勝過 Anthropic",
+      "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+      "source": "blogs.microsoft.com",
+      "company": "Microsoft",
+      "topic": "Project Perception agentic security system",
+      "fingerprint": "Microsoft|project-perception-agentic-security|2026-07-29",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "security_research",
+          "benchmark_detail"
+        ],
+        "note": "三類代理閉環防禦，MAI-Cyber-1-Flash 成本僅一半"
+      },
+      "summary": "Microsoft 推出 Project Perception，結合紅隊、藍隊、綠隊三類專業代理形成閉環防禦。首個場景軟體漏洞管理使用 MAI-Cyber-1-Flash 模型，在 CyberGym 基準達 96%，比 Anthropic Mythos 高 12 分，成本僅一半，8/3 公開預覽。",
+      "from_file": "output/2026/07/29.md"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Meta 簽署 EU AI Act 自願性標籤守則，承諾解決 AI 標籤問題",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
+      "source": "digital-strategy.ec.europa.eu",
+      "company": "Meta",
+      "topic": "EU AI Act code of practice AI-generated content labeling",
+      "fingerprint": "Meta|eu-ai-act-code-practice-labeling|2026-07-29",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "響應 EU AI Act 8/2 標籤義務諷刺意味浓厚"
+      },
+      "summary": "Meta 簽署歐盟 AI Act 自願性守則，將依規定在 8 月 2 日前標記 AI 生成內容。在此之前 Meta 剛推出自己的 AI 偵測與標籤系統，現在卻又加入歐盟守則，顯示大廠在全球監管壓力下正面臨標籤政策混戰。",
+      "from_file": "output/2026/07/29.md"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Nvidia 投資 Ilya Sutskever 的 Safe Superintelligence Inc. 50 億美元",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-makes-substantial-investment-in-sutskever-s-ai-startup",
+      "source": "bloomberg.com",
+      "company": "Nvidia",
+      "topic": "Nvidia invests 5B in SSI Ilya Sutskever",
+      "fingerprint": "Nvidia|ssi-5-billion-investment|2026-07-29",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "SSI 未來 12 個月算力擴大 10 倍"
+      },
+      "summary": "Ilya Sutskever 創立的 SSI 宣布與 Nvidia 達成長期策略合作夥伴關係，金額約 50 億美元。SSI 表示這將讓公司未來 12 個月算力擴大 10 倍，是 Nvidia 在 AI 產業的最新重大布局。",
+      "from_file": "output/2026/07/29.md"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Yelp Host 語音 AI 突破百萬電話里程碑，支援 OpenTable 訂位與外賣點餐",
+      "url": "https://blog.yelp.com/news/yelp-host-voice-ai-adds-opentable-reservations-and-takeout-ordering-for-restaurants/",
+      "source": "blog.yelp.com",
+      "company": "Yelp",
+      "topic": "Yelp Host 1M calls OpenTable integration takeout ordering",
+      "fingerprint": "Yelp|host-voice-ai-million-calls|2026-07-29",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "百萬電話里程碑，母親節週末 4 萬通，首次支援非桌餐餐廳"
+      },
+      "summary": "Yelp Host 語音 AI 服務已處理超過 100 萬通電話，相當於近 2 年的電話對話量。母親節週末單日就處理超過 4 萬通。現在更整合 OpenTable 自動處理訂位，並支援外賣電話點餐，首度向非桌餐餐廳拓展市場。",
+      "from_file": "output/2026/07/29.md"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Grok 推出 Build Mode：用 AI prompt 就能開發應用",
+      "url": "https://x.com/grok/status/2082134072793637196",
+      "source": "x.com",
+      "company": "xAI",
+      "topic": "Grok Build Mode AI prompt app development",
+      "fingerprint": "xAI|grok-build-mode-launch|2026-07-29",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "SuperGrok Heavy 訂閱用戶專屬，編碼代理驅動"
+      },
+      "summary": "xAI 為 SuperGrok Heavy 訂閱用戶（每月 $300）推出 Grok Build Mode，可透過 AI prompt 自動生成應用程式。該功能由 Grok Build 編碼代理驅動，在 Grok 網站與手機 App 皆可使用，這是又一家 AI 公司將代理式開發能力產品化。",
+      "from_file": "output/2026/07/29.md"
     }
   ],
   "reason_picked_schema": {
