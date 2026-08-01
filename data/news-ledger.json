@@ -9412,6 +9412,120 @@
       },
       "summary": "xAI 為 SuperGrok Heavy 訂閱用戶（每月 $300）推出 Grok Build Mode，可透過 AI prompt 自動生成應用程式。該功能由 Grok Build 編碼代理驅動，在 Grok 網站與手機 App 皆可使用，這是又一家 AI 公司將代理式開發能力產品化。",
       "from_file": "output/2026/07/29.md"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "OpenAI 大砍 GPT-5.6 Luna 價格 80%，正面迎擊價格戰",
+      "url": "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost/",
+      "source": "venturebeat.com",
+      "company": "OpenAI",
+      "topic": "GPT-5.6 Luna 80% price cut AI price war",
+      "fingerprint": "OpenAI|gpt-5-6-luna-price-cut-80|2026-08-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "Frontier 模型進入低價競爭區，直接對尬 Gemini/DeepSeek Flash"
+      },
+      "summary": "OpenAI 宣布 GPT-5.6 Luna 輸入tokens降至 $0.20/百萬，輸出降至 $1.20/百萬（降幅80%），讓這個 frontier 系列模型進入低價競爭區，直接對尬 Google Gemini 3.6 Flash 與 DeepSeek V4 Flash。",
+      "from_file": "output/2026/08/01.md"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Thinking Machines 推出 Inkling Small：仅 1/4 大小卻逼近旗艦效能",
+      "url": "https://venturebeat.com/technology/thinking-machines-debuts-inkling-small-open-source-ai-model-nearing-performance-of-predecessor-at-about-1-4-size/",
+      "source": "venturebeat.com",
+      "company": "Thinking Machines",
+      "topic": "Inkling Small 276B MoE open source model",
+      "fingerprint": "Thinking Machines|inkling-small-276b-moe|2026-08-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source",
+          "benchmark_detail"
+        ],
+        "note": "276B 參數 active 12B，Apache 2.0 開源，逼近 975B 旗艦效能"
+      },
+      "summary": "由前 OpenAI CTO Mira Murati 創立的新創 Thinking Machines 發布 Inkling Small，僅 276B 參數（active 12B）卻在 Artificial Analysis Intelligence Index 達 41 分，與 975B 的旗艦 Inkling 僅差 1 分。",
+      "from_file": "output/2026/08/01.md"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "DataFlow-Harness：結構化資料管線不再輸給自由編碼",
+      "url": "https://venturebeat.com/orchestration/structured-ai-data-pipelines-score-10-9-points-below-free-form-code-dataflow-harness-closes-the-gap/",
+      "source": "venturebeat.com",
+      "company": "Peking University/Zhongguancun Academy",
+      "topic": "DataFlow-Harness structured data pipeline AI framework",
+      "fingerprint": "Peking University|dataflow-harness-structured-pipeline|2026-08-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "93.3% 通過率，API 成本降 72.5%，企業 RAG 資料工程可治理 AI 方案"
+      },
+      "summary": "北京大學與中關村研究團隊發布 DataFlow-Harness，透過 MCP 讓 AI agent 逐步建構可視化資料處理流程，而非直接吐一次性腳本。",
+      "from_file": "output/2026/08/01.md"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "OpenAI 週活躍用戶突破 10 億大關",
+      "url": "https://openai.com/blog",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI 1 billion weekly active users",
+      "fingerprint": "OpenAI|1-billion-weekly-active-users|2026-08-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "里程碑用戶數據，配合降價策略雙軌並進"
+      },
+      "summary": "OpenAI 在官方部落格宣布其模型已服務超過 10 億週活躍用戶，目標是「讓更多人有用的智慧垂手可得」。",
+      "from_file": "output/2026/08/01.md"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Enterprise AI Agent 信任缺口浮現，5 家新創各自出招",
+      "url": "https://venturebeat.com/orchestration/enterprise-ai-agents-cant-talk-to-each-other-cant-be-trusted-with-permissions-and-cant-be-audited-5-startups-are-already-fixing-that/",
+      "source": "venturebeat.com",
+      "company": "BAND/Conifers/Raindrop AI/Arcade/Omilia",
+      "topic": "Enterprise AI agent trust gap solutions",
+      "fingerprint": "Independent|enterprise-ai-agent-trust-gap|2026-08-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation",
+          "security_research"
+        ],
+        "note": "多代理協調、資安自動化、審計日誌、安全執行期、客服引擎，五路出擊"
+      },
+      "summary": "VB Transform 2026 揭示企業 AI 代理面臨的三大困境：無法互溝通、無法信任權限管理、無法審計。5 家新創提出解方。",
+      "from_file": "output/2026/08/01.md"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "DeepSeek V4 Flash 0731 評測出爐：性價比王座易主？",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
+      "source": "artificialanalysis.ai",
+      "company": "DeepSeek",
+      "topic": "DeepSeek V4 Flash 0731 analysis",
+      "fingerprint": "DeepSeek|v4-flash-0731-analysis|2026-08-01",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "528 points Hacker News 熱議，開發者社群高度關注"
+      },
+      "summary": "Hacker News 熱議 DeepSeek V4 Flash 分析，528 points 顯示開發者社群對這個中國模型的高度關注。",
+      "from_file": "output/2026/08/01.md"
     }
   ],
   "reason_picked_schema": {
