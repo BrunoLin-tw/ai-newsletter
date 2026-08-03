@@ -9636,6 +9636,108 @@
       },
       "summary": "Google將Nano Banana 2模型整合到Google Earth，讓用戶可用衛星與3D影像生成AI圖像，可為建築物虛擬改造、視覺化專案或建立資訊圖表。",
       "from_file": "output/2026/08/02.md"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "法官駁回 xAI 請求，明尼蘇達「nudify」禁令生效",
+      "url": "https://www.engadget.com/ai/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
+      "source": "engadget.com",
+      "company": "xAI",
+      "topic": "xAI Minnesota nudify ban lawsuit",
+      "fingerprint": "xAI|minnesota-nudify-ban|2026-08-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "首個州級禁止AI生成非自願親密影像禁令生效"
+      },
+      "summary": "xAI嘗試阻止明尼蘇達州禁止「deepnude」應用的法律，但法官駁回請求。該法律於8月1日生效，成為首個明確針對AI生成非自願親密影像的州級禁令。",
+      "from_file": "output/2026/08/03.md"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Google DeepMind 解散諾貝爾獎得主 AlphaFold 團隊",
+      "url": "https://www.engadget.com/ai/2225849/google-shuts-down-alphafold/",
+      "source": "engadget.com",
+      "company": "Google DeepMind",
+      "topic": "AlphaFold team disbanded",
+      "fingerprint": "Google DeepMind|alphafold-team-disbanded|2026-08-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "諾貝爾獎團隊解散，Google AI部門重組"
+      },
+      "summary": "DeepMind宣布解散諾貝爾獎獲獎的AlphaFold團隊，該團隊因成功預測蛋白質結構而聞名。John Jumper於2023年獲得諾貝爾化學獎。此為Google重組AI研究部門的一部分。",
+      "from_file": "output/2026/08/03.md"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "EU 強制標籤 AI 內容昨日生效",
+      "url": "https://www.engadget.com/ai/2227966/eu-mandate-labels-on-authentic-looking-ai-content/",
+      "source": "engadget.com",
+      "company": "EU",
+      "topic": "EU AI content labeling mandate",
+      "fingerprint": "EU|ai-content-labeling-mandate|2026-08-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "歐盟強制AI生成內容標籤正式實施"
+      },
+      "summary": "歐盟新規定要求AI生成的逼真內容必須加上標籤，於8月2日正式實施。此舉被稱為「不僅是消費者保護，也是民主保護」。平台需對合成內容加上可見標記。",
+      "from_file": "output/2026/08/03.md"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "LinkedIn 測試「疑似 AI 生成內容」檢舉工具",
+      "url": "https://www.engadget.com/ai/2227188/linkedin-testing-seems-like-ai-slop-reporting-tool/",
+      "source": "engadget.com",
+      "company": "LinkedIn",
+      "topic": "LinkedIn AI slop reporting tool",
+      "fingerprint": "LinkedIn|ai-slop-reporting-tool|2026-08-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "用戶可檢舉AI生成內容，平台移除AI寫作工具"
+      },
+      "summary": "LinkedIn正在測試新功能，讓用戶可以檢舉「看似AI生成的內容」。公司同時移除部分自家AI寫作工具，回應平台上AI內容氾濫的問題。",
+      "from_file": "output/2026/08/03.md"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "OpenAI 將向研究人員提供免費 AI 模型",
+      "url": "https://www.engadget.com/ai/2226656/openai-will-provide-free-ai-models-to-select-researchers/",
+      "source": "engadget.com",
+      "company": "OpenAI",
+      "topic": "OpenAI free AI models for researchers",
+      "fingerprint": "OpenAI|free-models-researchers|2026-08-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [],
+        "note": "ChatGPT for Academic Researchers 計畫啟動"
+      },
+      "summary": "OpenAI推出「ChatGPT for Academic Researchers」計畫，今夏將向10,000名研究人員提供免費AI模型。此舉旨在促進學術研究與AI發展。",
+      "from_file": "output/2026/08/03.md"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Scale AI 新執行長出爐",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "source": "theverge.com",
+      "company": "Scale AI",
+      "topic": "Scale AI new CEO",
+      "fingerprint": "Scale AI|new-ceo-francis-desouza|2026-08-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "Google Cloud營運長接任，營收上看10億美元"
+      },
+      "summary": "Google Cloud現任營運長Francis deSouza將於8月10日接任Scale AI執行長。Scale AI預估2026年營收將超過10億美元，顯示企業AI應用市場持續成長。",
+      "from_file": "output/2026/08/03.md"
     }
   ],
   "reason_picked_schema": {
