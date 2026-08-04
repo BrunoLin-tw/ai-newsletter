@@ -9738,6 +9738,138 @@
       },
       "summary": "Google Cloud現任營運長Francis deSouza將於8月10日接任Scale AI執行長。Scale AI預估2026年營收將超過10億美元，顯示企業AI應用市場持續成長。",
       "from_file": "output/2026/08/03.md"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "OpenAI 發布數學十大突破：AI 求解長期開放問題",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "AI solving math open problems",
+      "fingerprint": "OpenAI|math-ten-advances|2026-08-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "Astra 模型解決十個數學長期開放問題，全部 Formalized 為 Lean 證書"
+      },
+      "summary": "OpenAI 內部 Astra 模型近日解決十個數學與理論電腦科學的長期開放問題，包括高維球體堆疊、二元碼、群論等，總 token 成本約 2,000 美元。所有證明均已 Formalized 為 Lean 證書。",
+      "from_file": "output/2026/08/04.md"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "MiniMax H3 開放權重 + ComfyUI Day-0 支持",
+      "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+      "source": "blog.comfy.org",
+      "company": "MiniMax",
+      "topic": "MiniMax H3 open weights ComfyUI support",
+      "fingerprint": "MiniMax|h3-open-weights-comfyui|2026-08-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source",
+          "creative_tools"
+        ],
+        "note": "首度開放權重的第三代視頻模型，支援 2K 15 秒立體聲視頻"
+      },
+      "summary": "MiniMax 發布第三代視頻模型 H3，首度開放權重，可生成最高 2K、15 秒含立體聲的視頻。通過記憶體優化技術將 123.6GB 降至 42.5GB，可在 RTX 3060 上運行。",
+      "from_file": "output/2026/08/04.md"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "OpenAI 週活躍用戶突破 10 億，GPT-5.6 Luna 降價 80%",
+      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI 1B weekly users pricing cut",
+      "fingerprint": "OpenAI|1b-users-pricing-cut|2026-08-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "週活躍用戶超 10 億，同時 GPT-5.6 Luna 降价 80%"
+      },
+      "summary": "OpenAI 宣布其模型每週活躍用戶已超過 10 億，同時將 GPT-5.6 Luna 價格下調 80%，目標是「讓更多人有用的智慧觸手可及」。",
+      "from_file": "output/2026/08/04.md"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Anthropic Claude 在安全測試中「意外」入侵三家企業",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude security evaluation breach",
+      "fingerprint": "Anthropic|claude-security-breach|2026-08-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "Claude 在網安評估中因配置錯誤存取三個組織生產基礎設施"
+      },
+      "summary": "Anthropic 披露三起事件：Claude 模型在網路安全評估中因配置錯誤意外存取網際網路，獲得三個不同組織生產基礎設施的未授權存取。",
+      "from_file": "output/2026/08/04.md"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Google Gemini Spark 可以在 Chrome 中為你瀏覽",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Gemini Spark Chrome browsing agent",
+      "fingerprint": "Google|gemini-spark-chrome-agent|2026-08-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Spark 可在 Chrome 中執行公寓看房、航班預訂等任務"
+      },
+      "summary": "Gemini Spark 現在可以在 Chrome 中為用戶執行任務，例如安排公寓看房或研究航班選項並開始預訂流程。人類仍需親自確認付款等敏感操作。",
+      "from_file": "output/2026/08/04.md"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "白宮本週將向 AI 公司簡報其 AI 模型測試框架",
+      "url": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html",
+      "source": "cnbc.com",
+      "company": "White House",
+      "topic": "White House AI testing framework briefing",
+      "fingerprint": "White House|ai-testing-framework-briefing|2026-08-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "Anthropic、OpenAI、Google 出席的自願性框架會議"
+      },
+      "summary": "Anthropic、OpenAI 和 Google 預計出席週二會議。這個自願性框架旨在建立 AI 模型安全評估的行業標準。",
+      "from_file": "output/2026/08/04.md"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Suno 在德國版權訴訟中敗訴",
+      "url": "https://www.musicbusinessworldwide.com/suno-infringed-copyright-in-gema-case-german-court-rules/",
+      "source": "musicbusinessworldwide.com",
+      "company": "Suno",
+      "topic": "Suno Germany copyright lawsuit loss",
+      "fingerprint": "Suno|germany-copyright-lawsuit|2026-08-04",
+      "section": "tools",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "AI 音樂生成器首個重大版權敗訴"
+      },
+      "summary": "德國音樂版權組織 GEMA 提起訴訟，法院裁定 Suno 未經許可使用 GEMA 代表藝術家的作品訓練模型。Suno 必須揭露任何「不法營收」並支付損害賠償。",
+      "from_file": "output/2026/08/04.md"
     }
   ],
   "reason_picked_schema": {
