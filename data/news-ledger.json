@@ -9870,6 +9870,99 @@
       },
       "summary": "德國音樂版權組織 GEMA 提起訴訟，法院裁定 Suno 未經許可使用 GEMA 代表藝術家的作品訓練模型。Suno 必須揭露任何「不法營收」並支付損害賠償。",
       "from_file": "output/2026/08/04.md"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Neon + Castform 擊敗前沿模型 100 倍性價比",
+      "url": "https://www.neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+      "source": "neon.com",
+      "company": "Neon",
+      "topic": "Castform Neon RL post-training retrieval",
+      "fingerprint": "Neon|castform-rl-post-training-retrieval|2026-08-06",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "RL 後訓練開源模型打敗封閉模型，成本僅 1%"
+      },
+      "summary": "Castform 結合 Neon Lakebase Search，用 RL 後訓練讓開源模型在檢索任務打敗封閉模型，每 request 成本僅 GPT-4o 的 1%。展示 AI 推理成本結構根本性改變。",
+      "from_file": "output/2026/08/06.md"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Prime Agent：自改進 RLM 代理框架",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "source": "primeintellect.ai",
+      "company": "PrimeIntellect",
+      "topic": "Prime Agent self-improving RLM agent",
+      "fingerprint": "PrimeIntellect|prime-agent-rlm-framework|2026-08-06",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "遞歸語言模型與持續性 Harness 雙重抽象"
+      },
+      "summary": "PrimeIntellect 發布 Prime Agent，採用遞歸語言模型（RLM）和持續性 Harness 兩大抽象。模型可在 IPython REPL 中以函式呼叫方式 delegating 子代理，動態 CRUD 自己的提示詞、記憶與子代理。開源且支援長程自主評估。",
+      "from_file": "output/2026/08/06.md"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Meta Muse Code 與 Muse Spark 1.2 登場",
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "source": "research.meta.ai",
+      "company": "Meta",
+      "topic": "Muse Code Muse Spark 1.2 coding agent",
+      "fingerprint": "Meta|muse-code-spark-1-2-coding-agent|2026-08-06",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "非同步背景代理 + 自我改進訓練迴圈"
+      },
+      "summary": "Meta 發布 Muse Code 終端編碼代理，由 Muse Spark 1.2 驅動。模型支援非同步背景代理、事件日誌重啟精確恢復、1,000+ 工具呼叫 GPU 核心優化。透過自我改進迴圈生成挑戰環境並評分解決方案。",
+      "from_file": "output/2026/08/06.md"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Google DeepMind 變天：Demis 轉任董事長兼 Alphabet 首席科學家",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Demis Hassabis Chair GDM Chief Scientist Alphabet",
+      "fingerprint": "Google|demis-hassabis-chair-gdm-chief-scientist|2026-08-06",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "Jeff Dean 與 Sanjay Ghemawat 離開創業，Koray 接手 GDM"
+      },
+      "summary": "Sundar Pichai 宣布 Demis Hassabis 卸下日常營運職務，專注 AGI 與科學的未來規劃。Jeff Dean 與 Sanjay Ghemawat 將離開 Google，創立獨立公益公司。Koray Kavukcuoglu 升任 GDM 高級副總裁。Gemini App 已達 950M+ 月活躍用戶。",
+      "from_file": "output/2026/08/06.md"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Cloudflare OS：開放代理與應用平台",
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
+      "source": "blog.cloudflare.com",
+      "company": "Cloudflare",
+      "topic": "Cloudflare OS open agent app platform",
+      "fingerprint": "Cloudflare|cloudflare-os-open-platform|2026-08-06",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "企業級代理工作空間開源，數千人內部已使用"
+      },
+      "summary": "Cloudflare 開源 Cloudflare OS，為企業提供代理工作空間、安全治理框架與個人化應用平台。內部已數千人使用，涵蓋非工程部門文件、簡報建立與流程自動化。平台內建 MCP 伺服器整合與資源級存取控制。",
+      "from_file": "output/2026/08/06.md"
     }
   ],
   "reason_picked_schema": {
