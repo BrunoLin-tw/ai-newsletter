@@ -9963,6 +9963,119 @@
       },
       "summary": "Cloudflare 開源 Cloudflare OS，為企業提供代理工作空間、安全治理框架與個人化應用平台。內部已數千人使用，涵蓋非工程部門文件、簡報建立與流程自動化。平台內建 MCP 伺服器整合與資源級存取控制。",
       "from_file": "output/2026/08/06.md"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Google DeepMind WeatherNext Cyclones tropical cyclone prediction",
+      "url": "https://www.nature.com/articles/s41586-026-10953-2",
+      "source": "nature.com",
+      "company": "Google DeepMind",
+      "topic": "WeatherNext Cyclones AI tropical cyclone forecasting",
+      "fingerprint": "Google DeepMind|weathernext-cyclones-tropical-cyclone|2026-08-07",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "Nature 論文首次發表，預測準度領先營運模型一天以上"
+      },
+      "summary": "Google DeepMind 發表 WeatherNext Cyclones 營運級 AI 天氣模型，可預測熱帶氣旋路徑、強度與風場至 15 天，比主流營運模型多出一天以上的提前量，並支援最高 1,000 條系集預報。",
+      "from_file": "output/2026/08/07.md"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Anthropic confirms in-house custom AI chip team for Claude",
+      "url": "https://www.businessinsider.com/anthropic-in-house-silicon-chip-team-claude-2026-8",
+      "source": "businessinsider.com",
+      "company": "Anthropic",
+      "topic": "Anthropic custom silicon team for Claude",
+      "fingerprint": "Anthropic|custom-silicon-team-claude|2026-08-07",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Anthropic 首度公開確認自研客製 AI 晶片計畫"
+      },
+      "summary": "Anthropic 首度證實組建 in-house silicon 團隊，為 Claude 設計客製晶片並與模型協同設計，以提升速度與效率，同時維持 AWS、Google、Nvidia、AMD 的多晶片策略。",
+      "from_file": "output/2026/08/07.md"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Adobe unifies ChatGPT apps into single plugin",
+      "url": "https://www.theverge.com/tech/976113/adobe-unified-its-chatgpt-apps",
+      "source": "theverge.com",
+      "company": "Adobe",
+      "topic": "Adobe for ChatGPT unified plugin",
+      "fingerprint": "Adobe|adobe-for-chatgpt-unified-plugin|2026-08-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "Adobe 把分散的 ChatGPT 連接器整合為單一插件"
+      },
+      "summary": "Adobe 將 Photoshop、Acrobat、Express 的 ChatGPT 連接器整合為單一「Adobe for ChatGPT」插件，可用對話指令操作 Firefly 與 Creative Cloud 工具生成或編輯影像、影片與文件。",
+      "from_file": "output/2026/08/07.md"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "OpenAI gives ChatGPT free users unlimited text chats",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+      "source": "theverge.com",
+      "company": "OpenAI",
+      "topic": "ChatGPT free unlimited text chats and Think button",
+      "fingerprint": "OpenAI|chatgpt-free-unlimited-text-chats|2026-08-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [],
+        "note": "免費與 Go 層級下週起無限量文字對話並新增 Think 按鈕"
+      },
+      "summary": "OpenAI 宣布下週起 ChatGPT 免費與 Go 層級取消純文字對話速率限制，並新增「Think」按鈕處理更難的問題；Plus/Pro 的 GPT-5.6 Sol 也更新為更注重事實與直接回應。",
+      "from_file": "output/2026/08/07.md"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Spotify adds indie labels to AI remix program via Merlin",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975789/spotify-adds-a-bunch-of-indie-labels-to-its-ai-remix-program",
+      "source": "theverge.com",
+      "company": "Spotify",
+      "topic": "Spotify AI remix program indie labels Merlin",
+      "fingerprint": "Spotify|ai-remix-program-indie-labels-merlin|2026-08-07",
+      "section": "tools",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "Merlin 合作把 AI remix 擴及獨立廠牌"
+      },
+      "summary": "Spotify 與授權商 Merlin 合作，讓 Sub Pop、Warp、Epitaph、Domino、Ninja Tune 等獨立廠牌藝人可選擇參與「superfan」AI 混音工具，擴大 5 月與 UMG 首發的規模。",
+      "from_file": "output/2026/08/07.md"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Suno unveils watermarking and download policy against AI music spam",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
+      "source": "theverge.com",
+      "company": "Suno",
+      "topic": "Suno watermarking and download policy AI music spam",
+      "fingerprint": "Suno|watermarking-download-policy-ai-music-spam|2026-08-07",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Suno 推出浮水印與下載新政策打擊 AI 音樂垃圾"
+      },
+      "summary": "Suno 宣布導入全新浮水印與指紋技術並調整下載政策，以限制大量 AI 音軌氾濫並增加透明度，宣示朝向符合歐盟標籤標準的產業規範前進。",
+      "from_file": "output/2026/08/07.md"
     }
   ],
   "reason_picked_schema": {
