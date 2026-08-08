@@ -10076,6 +10076,131 @@
       },
       "summary": "Suno 宣布導入全新浮水印與指紋技術並調整下載政策，以限制大量 AI 音軌氾濫並增加透明度，宣示朝向符合歐盟標籤標準的產業規範前進。",
       "from_file": "output/2026/08/07.md"
+    },
+    {
+      "date": "2026-08-08",
+      "title": "AMD 收購 Taalas 加速 AI 工作負載最佳化",
+      "url": "https://futurumgroup.com/insights/amd-acquires-taalas-to-advance-ai-workload-optimization",
+      "source": "futurumgroup.com",
+      "company": "AMD",
+      "topic": "AMD acquires Taalas AI workload optimization",
+      "fingerprint": "AMD|acquires-taalas-ai-workload-optimization|2026-08-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [],
+        "note": "收購 Taalas 導入 model-to-silicon 與 agentic EDA 設計流程"
+      },
+      "summary": "AMD 宣布收購 Taalas，導入其 model-to-silicon 設計流程與 agentic EDA，讓模型到晶片設計縮短至兩週內完成，針對 AI 推論工作負載最佳化。",
+      "from_file": "output/2026/08/08.md"
+    },
+    {
+      "date": "2026-08-08",
+      "title": "Claude Fable 5 用極簡公式推翻 87 年數學猜想",
+      "url": "http://www.sciencedaily.com/releases/2026/08/260804034634.htm",
+      "source": "sciencedaily.com",
+      "company": "Anthropic",
+      "topic": "Claude Fable 5 Jacobian conjecture counterexample",
+      "fingerprint": "Anthropic|fable5-jacobian-conjecture-counterexample|2026-08-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "Anthropic 模型首次在代數幾何領域推翻長達 87 年的 Jacobian 猜想"
+      },
+      "summary": "任職 Anthropic 的數學家 Alpöge 使用 Claude Fable 5 找到 Jacobian 猜想的反例，推翻這個存在已久、跨越多維度的代數幾何開放問題。",
+      "from_file": "output/2026/08/08.md"
+    },
+    {
+      "date": "2026-08-08",
+      "title": "SK hynix 投資 54 兆韓元擴建 AI 記憶體產能",
+      "url": "https://news.skhynix.com/en/fab-facility-investment-2026",
+      "source": "news.skhynix.com",
+      "company": "SK hynix",
+      "topic": "SK hynix 54 trillion won AI memory fab investment",
+      "fingerprint": "SK hynix|54t-won-ai-memory-fab-investment|2026-08-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "宣布 54 兆韓元興建龍仁 Y2 與清州 M17 兩座新廠擴充 DRAM/NAND 產能"
+      },
+      "summary": "SK hynix 宣布投資 35.2 兆韓元於龍仁 Y2、19.1 兆韓元於清州 M17 興建新廠，預計 2028-2029 年啟用，強化 AI 記憶體供給與全球 AI 半導體供應鏈穩定。",
+      "from_file": "output/2026/08/08.md"
+    },
+    {
+      "date": "2026-08-08",
+      "title": "OpenAI 首度警示 Astra 達最高資安風險等級並暫緩部分開發",
+      "url": "https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time",
+      "source": "the-decoder.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Astra critical cybersecurity risk level pause",
+      "fingerprint": "OpenAI|astra-critical-cyber-risk-pause|2026-08-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "OpenAI 首次對自家模型標註無法排除 Critical 資安等級並暫停部分 Astra 開發"
+      },
+      "summary": "OpenAI 內部評估顯示代號 Astra 的新模型在 agentic coding 與網路安全能力上顯著提升，依自家 Preparedness Framework「無法排除 Critical」最高風險等級，並因此暫停部分開發，屬公司首次觸發此警戒。",
+      "from_file": "output/2026/08/08.md"
+    },
+    {
+      "date": "2026-08-08",
+      "title": "阿里巴巴為 Qwen 開源模型測試營收分潤新商業模式",
+      "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing",
+      "source": "artificialintelligence-news.com",
+      "company": "Alibaba",
+      "topic": "Alibaba Qwen open-source revenue-sharing model",
+      "fingerprint": "Alibaba|qwen-open-source-revenue-sharing|2026-08-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [],
+        "note": "下一代開源 Qwen 模型擬對商用大型企業引入營收分潤條款"
+      },
+      "summary": "據 Reuters 報導，阿里巴巴計畫對下一代開源 Qwen 模型引入營收分潤條款，要求將模型以服務形式變現的大型企業與其簽署商業協議，具體分潤比例尚未定案。",
+      "from_file": "output/2026/08/08.md"
+    },
+    {
+      "date": "2026-08-08",
+      "title": "Cloudflare 推出 Radar Researcher 自然語言探索網路數據工具",
+      "url": "https://blog.cloudflare.com/introducing-radar-researcher",
+      "source": "blog.cloudflare.com",
+      "company": "Cloudflare",
+      "topic": "Cloudflare Radar Researcher plain-language internet data AI tool",
+      "fingerprint": "Cloudflare|radar-researcher-internet-data-tool|2026-08-08",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Agents Week 推出 Radar Researcher，以自然語言查詢網路流量並產生互動圖表"
+      },
+      "summary": "Cloudflare 於 Agents Week 推出 Radar Researcher，這個建於 Developer Platform 的 AI 工具讓使用者用自然語言查詢全球網路流量趨勢，並即時轉成可互動圖表，降低研究門檻。",
+      "from_file": "output/2026/08/08.md"
+    },
+    {
+      "date": "2026-08-08",
+      "title": "xAI 釋出 Grok Build V1.0 終端 AI 寫碼工具",
+      "url": "https://www.basenor.com/blogs/news/tesla-update-1-0-0",
+      "source": "basenor.com",
+      "company": "xAI",
+      "topic": "xAI Grok Build V1.0 terminal AI coding tool",
+      "fingerprint": "xAI|grok-build-v1-terminal-coding-tool|2026-08-08",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "Grok Build 里程碑 V1.0 發布，並規劃面向非技術使用者的簡化介面"
+      },
+      "summary": "xAI 發布里程碑版本 Grok Build V1.0 終端 AI 寫碼工具，透過 x.ai/cli/install.sh 安裝並以 grok update 升級，同時已著手開發面向非技術使用者的簡化介面。",
+      "from_file": "output/2026/08/08.md"
     }
   ],
   "reason_picked_schema": {
