@@ -10201,6 +10201,122 @@
       },
       "summary": "xAI 發布里程碑版本 Grok Build V1.0 終端 AI 寫碼工具，透過 x.ai/cli/install.sh 安裝並以 grok update 升級，同時已著手開發面向非技術使用者的簡化介面。",
       "from_file": "output/2026/08/08.md"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Lumilens 走出隱身募逾 7 億美元，用光取代銅線解決 AI 接線瓶頸",
+      "url": "https://thenextweb.com/news/lumilens-700m-stealth-5-51bn-ai-optical-interconnect",
+      "source": "thenextweb.com",
+      "company": "Lumilens",
+      "topic": "Lumilens optical interconnect AI wiring",
+      "fingerprint": "Lumilens|optical-interconnect-ai-wiring|2026-08-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "走出隱身募資，估值 55 億美元並已進超大規模資料中心產線"
+      },
+      "summary": "AI 瓶頸從晶片轉向晶片間接線。Lumilens 累計募資逾 9 億美元、估值 55.1 億美元，宣稱首款光互連產品已進入超大型資料中心實際產線，直攻 co-packaged optics 戰場。",
+      "from_file": "output/2026/08/10.md"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "ByteDance 傳訓練最高 10 兆參數巨型模型，直逼 Anthropic Mythos",
+      "url": "https://www.timesnownews.com/technology-science/this-chinese-company-is-building-a-mega-ai-model-to-rival-anthropics-mythos-article-155360845",
+      "source": "timesnownews.com",
+      "company": "ByteDance",
+      "topic": "ByteDance 10-trillion-parameter mega model",
+      "fingerprint": "ByteDance|10t-parameter-mega-model|2026-08-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "FT 報導 ByteDance 預訓練可達 10 兆參數模型，規模逼近 Mythos"
+      },
+      "summary": "據 Financial Times，TikTok 母公司 ByteDance 正預訓練一個可能達 10 兆參數的模型，預計接近 Anthropic Mythos（估 8 兆參數）規模，凸顯中美 AI 軍備競賽升溫。",
+      "from_file": "output/2026/08/10.md"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Meta 推出 Muse Code AI 寫碼代理，直攻大規模 codebase",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "source": "techcrunch.com",
+      "company": "Meta",
+      "topic": "Meta Muse Code AI coding agent",
+      "fingerprint": "Meta|muse-code-ai-coding-agent|2026-08-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Meta 首個終端寫碼代理 beta 上線，主打成本優勢"
+      },
+      "summary": "Meta 發布首個終端型 AI 寫碼代理 Muse Code，可在大型 repo 上規劃、寫碼與驗證，並以平行 sub-agents 分工；主打成本，對決 OpenAI Codex 與 Anthropic Claude Code。",
+      "from_file": "output/2026/08/10.md"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "OpenAI 收購簡報新創 NextSlide，整併進 ChatGPT",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "source": "techcrunch.com",
+      "company": "OpenAI",
+      "topic": "OpenAI acquires NextSlide presentation startup",
+      "fingerprint": "OpenAI|acquires-nextslide-presentation|2026-08-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "NextSlide 團隊整併進 ChatGPT，強化簡報視覺生成能力"
+      },
+      "summary": "簡報新創 NextSlide 加入 OpenAI，團隊併入 ChatGPT 開發，目標把提示詞/筆記/文件轉成可編輯簡報；交易金額未揭露。",
+      "from_file": "output/2026/08/10.md"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "OpenAI 於 8/9 正式關閉 AI 瀏覽器 ChatGPT Atlas",
+      "url": "https://www.notebookcheck.net/ChatGPT-Atlas-ends-on-August-9-Here-s-how-to-save-your-data.1358764.0.html",
+      "source": "notebookcheck.net",
+      "company": "OpenAI",
+      "topic": "ChatGPT Atlas browser shutdown",
+      "fingerprint": "OpenAI|chatgpt-atlas-browser-shutdown|2026-08-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Atlas 正式下線（8/9），agentic 瀏覽功能移轉至 ChatGPT 桌面應用"
+      },
+      "summary": "上線不到十個月的 ChatGPT Atlas 於 8/9 正式關閉，agentic 瀏覽功能移轉至新版 ChatGPT 桌面應用；用戶需先匯出書籤與歷史資料。",
+      "from_file": "output/2026/08/10.md"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Black Hat 揭露 PleaseFix：一封 Email 就能劫持五大 AI 瀏覽器",
+      "url": "https://www.notebookcheck.net/Claude-Gemini-Comet-five-AI-browsers-hijacked-by-a-single-email.1362568.0.html",
+      "source": "notebookcheck.net",
+      "company": "Zenity Labs",
+      "topic": "PleaseFix AI browser zero-click hijack",
+      "fingerprint": "Zenity Labs|pleasefix-ai-browser-hijack|2026-08-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "Black Hat 揭露可劫持五大 AI 瀏覽器的零點擊 PleaseFix 攻擊"
+      },
+      "summary": "Zenity Labs 於 Black Hat 揭露 Intent Collision 缺陷：攻擊者只需在 Email、行事曆或社群連結埋指令，即可讓 Claude、Gemini、Comet、ChatGPT Atlas 與 Copilot Edge 洩漏資料甚至被遠端控制，零點擊且難以修補。",
+      "from_file": "output/2026/08/10.md"
     }
   ],
   "reason_picked_schema": {
