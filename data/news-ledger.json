@@ -10317,6 +10317,134 @@
       },
       "summary": "Zenity Labs 於 Black Hat 揭露 Intent Collision 缺陷：攻擊者只需在 Email、行事曆或社群連結埋指令，即可讓 Claude、Gemini、Comet、ChatGPT Atlas 與 Copilot Edge 洩漏資料甚至被遠端控制，零點擊且難以修補。",
       "from_file": "output/2026/08/10.md"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "OpenAI 推出 GPT-5.6-Cyber 專用資安模型，Daybreak 拆分為 Blue/Red 兩層",
+      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model",
+      "source": "techcrunch.com",
+      "company": "OpenAI",
+      "topic": "OpenAI GPT-5.6-Cyber cybersecurity model Daybreak tiers",
+      "fingerprint": "OpenAI|gpt-5-6-cyber-daybreak-tiers|2026-08-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research",
+          "benchmark_detail"
+        ],
+        "note": "首款專用資安模型，進階任務完成率 95%"
+      },
+      "summary": "OpenAI 將 Daybreak 資安計畫拆分為 Blue/Red 兩層，Red 提供專屬 GPT-5.6-Cyber 模型，在進階資安任務上完成率高達 95%，回應日益猖獗的 AI 攻擊。",
+      "from_file": "output/2026/08/11.md"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Nvidia 最高投資 30 億美元入股 Lancium，插旗 Stargate 電力基礎設施",
+      "url": "https://www.reuters.com/business/nvidia-invest-up-3-billion-lancium-information-reports-2026-08-08",
+      "source": "reuters.com",
+      "company": "Nvidia",
+      "topic": "Nvidia Lancium Stargate data center power infrastructure investment",
+      "fingerprint": "Nvidia|lancium-stargate-power-investment|2026-08-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "從賣晶片跨足電力與基礎設施層"
+      },
+      "summary": "Nvidia 計畫投資最高 30 億美元入股 Lancium，將 200MW 德州 AI 資料中心納入自家硬體生態，從賣晶片跨足 AI 電力與基礎設施層。",
+      "from_file": "output/2026/08/11.md"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Meta 開源最強模型 Muse Glimmer，Zuckerberg 發文力推開放策略並注資 10 億美元",
+      "url": "https://apnews.com/article/meta-ai-mark-zuckerberg-artificial-intelligence-df8a4e7d7825470d09e8090367457c2c",
+      "source": "apnews.com",
+      "company": "Meta",
+      "topic": "Meta open-source Muse Glimmer model Zuckerberg manifesto",
+      "fingerprint": "Meta|muse-glimmer-open-source-manifesto|2026-08-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "開源最強模型並批美企集中權力"
+      },
+      "summary": "Meta 開源旗艦模型 Muse Glimmer，Zuckerberg 發表長文宣言力推開源、批評美企集中權力，並為開放式 AI 研究注資 10 億美元，劍指中國開源實驗室。",
+      "from_file": "output/2026/08/11.md"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "中國開源模型壓境，OpenAI 輕量模型 Luna 降價 80%、Anthropic 推半價模型",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/11/2003862305",
+      "source": "taipeitimes.com",
+      "company": "OpenAI/Anthropic",
+      "topic": "Chinese open-source AI price competition Luna price cut",
+      "fingerprint": "OpenAI|china-price-competition-luna-cut|2026-08-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "中國開源模型壓境迫使降價"
+      },
+      "summary": "中國開源模型競爭加劇，OpenAI 將輕量模型 Luna 價格下殺 80%，Anthropic 推出僅半價、逼近旗艦效能的新模型，掀起 AI 價格競爭。",
+      "from_file": "output/2026/08/11.md"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Moonshot AI（KIMI）Pre-IPO 啟動，隱含估值約 500 億美元",
+      "url": "https://beincrypto.com/gate-pre-ipos-phase-3-launches-moonshot-ai-kimi",
+      "source": "beincrypto.com",
+      "company": "Moonshot AI",
+      "topic": "Moonshot AI KIMI pre-IPO launch valuation",
+      "fingerprint": "Moonshot AI|kimi-pre-ipo-launch|2026-08-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [],
+        "note": "中國 AI 獨角獸 Pre-IPO 起跑"
+      },
+      "summary": "Gate 開放 Moonshot AI（KIMI）資產憑證認購，價格落在每股 105–115 美元，隱含估值約 500 億美元，讓投資人提前押注這家中國 AI 獨角獸。",
+      "from_file": "output/2026/08/11.md"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Xsolla 推出 AI Toolkit，把遊戲內購 API 整合直接編進 AI 編碼工具",
+      "url": "https://www.latimes.com/b2b/ai-technology/story/2026-08-10/xsolla-launches-ai-toolkit",
+      "source": "latimes.com",
+      "company": "Xsolla",
+      "topic": "Xsolla AI Toolkit game commerce API integration",
+      "fingerprint": "Xsolla|ai-toolkit-game-commerce|2026-08-11",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "開發者一次到位完成商店建置"
+      },
+      "summary": "Xsolla 推出 AI Toolkit，把正確的遊戲內購 API 整合路徑直接編進 AI 編碼工具，讓開發者能一次到位完成商店建置，減少反覆除錯。",
+      "from_file": "output/2026/08/11.md"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "AI 代理新創 June 募得 2,000 萬美元 pre-seed",
+      "url": "https://www.panewslab.com/en/articles/019fe989-157c-771e-bc3a-e5fd4451ef53",
+      "source": "panewslab.com",
+      "company": "June",
+      "topic": "June AI agents enterprise pre-seed funding",
+      "fingerprint": "June|enterprise-ai-agents-pre-seed|2026-08-11",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "企業部署 AI agents 的基礎層融資"
+      },
+      "summary": "June 獲 Time Ventures 領投 2,000 萬美元 pre-seed，邀集 Dell、Levie 等科技巨頭參投，專攻讓企業在既有複雜系統上部署與管理 AI agents。",
+      "from_file": "output/2026/08/11.md"
     }
   ],
   "reason_picked_schema": {
