@@ -10445,6 +10445,120 @@
       },
       "summary": "June 獲 Time Ventures 領投 2,000 萬美元 pre-seed，邀集 Dell、Levie 等科技巨頭參投，專攻讓企業在既有複雜系統上部署與管理 AI agents。",
       "from_file": "output/2026/08/11.md"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Nvidia 推出 Nemotron 3.5 Lightning + NeMo Switchyard，AI 代理成本砍到三分之一",
+      "url": "https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests",
+      "source": "venturebeat.com",
+      "company": "Nvidia",
+      "topic": "Nemotron 3.5 Lightning open MoE model NeMo Switchyard router",
+      "fingerprint": "Nvidia|nemotron-3-5-lightning-switchyard|2026-08-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "開源 30B MoE 模型搭配路由庫，agentic 成本可降至三分之一"
+      },
+      "summary": "Nvidia 發布 30B 開源 MoE 模型 Nemotron 3.5 Lightning，專攻高頻量的特化 agent 任務，搭配開源 NeMo Switchyard 路由庫自動分流工作，官方稱組合可在相近準確度下把 agentic 任務成本降到單跑 Opus 4.8 的三分之一，並比同級模型快 4 倍。",
+      "from_file": "output/2026/08/12.md"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Mistral 宣布 2030 年在歐洲打造 1GW AI 算力，並首度代管第三方開源模型",
+      "url": "https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now",
+      "source": "venturebeat.com",
+      "company": "Mistral AI",
+      "topic": "Mistral 1GW European compute regional inference hosting open models",
+      "fingerprint": "Mistral AI|1gw-european-compute-regional-inference|2026-08-11",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "三階段基礎設施擴張，把 AI 主權落地成有 SLA 的產品"
+      },
+      "summary": "Mistral 宣布三部分基礎設施擴張：歐美區域推理端點、具備運轉保證的 Priority Tier，以及歐洲企業多年算力承諾，目標 2027 年 200MW、2030 年達 1GW；並首度開始代管中國 Z.ai 的 GLM-5.2 等第三方開源模型。",
+      "from_file": "output/2026/08/12.md"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "中國阻擋交易後，Manus 宣布與 Meta 拆分恢復獨立運作",
+      "url": "https://www.cnbc.com/2026/08/11/manus-china-meta-acquisition.html",
+      "source": "cnbc.com",
+      "company": "Manus",
+      "topic": "Manus returns independent after China blocks Meta acquisition",
+      "fingerprint": "Manus|return-independent-after-meta-block|2026-08-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "官方確認 Manus 以獨立公司身分回歸，補上中國封殺交易後的後續"
+      },
+      "summary": "中國監管機構封殺 Meta 收購後，通用 AI 代理新創 Manus 正式宣布將「回歸獨立公司」運作。Meta 去年以 20 億美元收購該公司，部分 Manus 工具已整合進 Meta 平台。",
+      "from_file": "output/2026/08/12.md"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "OpenAI 推出 Linux 原生 ChatGPT 桌面應用",
+      "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+      "source": "techcrunch.com",
+      "company": "OpenAI",
+      "topic": "ChatGPT native Linux desktop app preview",
+      "fingerprint": "OpenAI|chatgpt-linux-desktop-app|2026-08-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首次為 Linux 發布原生桌面應用，拓展桌面端覆蓋"
+      },
+      "summary": "OpenAI 推出 Linux 原生 ChatGPT 桌面應用預覽版，支援 Ubuntu、Debian 與 Fedora，整合 ChatGPT、Work 與 Codex，把原本僅限 macOS/Windows 的桌面體驗帶到開源平台。",
+      "from_file": "output/2026/08/12.md"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "LTX-2.5 開源影片/世界模型登場，ComfyUI 首日原生整合",
+      "url": "https://venturebeat.com/technology/ltx-2-5-can-generate-a-10-second-ai-video-from-an-image-in-just-6-8-seconds-on-nvidia-superchips-and-its-open-weights",
+      "source": "venturebeat.com",
+      "company": "LTX",
+      "topic": "LTX-2.5 open-weights video world model ComfyUI day-one",
+      "fingerprint": "LTX|ltx-2-5-open-weights-comfyui|2026-08-11",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools",
+          "open_source"
+        ],
+        "note": "開源世界模型全新大版本，ComfyUI 首日整合"
+      },
+      "summary": "Lightricks 旗下的開源世界模型公司 LTX 發布 LTX-2.5，可從單張圖在 Nvidia superchip 上約 6.8 秒生成 10 秒影片，支援多鏡頭與擴散解碼器，並與 ComfyUI 建立首日整合夥伴關係；開放權重免費供年營收千萬美元以下組織使用。",
+      "from_file": "output/2026/08/12.md"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Spotify 推出 AI Persona 標籤，提醒聽眾藝人是否為真人",
+      "url": "https://www.engadget.com/2234144/spotify-launches-ai-persona-labels/",
+      "source": "engadget.com",
+      "company": "Spotify",
+      "topic": "Spotify AI Persona labels for non-human artists",
+      "fingerprint": "Spotify|ai-persona-labels|2026-08-11",
+      "section": "tools",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "以標籤增加 AI 生成音樂透明度，附申訴機制"
+      },
+      "summary": "Spotify 宣布將為非真人藝人帳號加上 AI Persona 標籤，8/11 起可在 Spotify for Artists 自願申報，平台也會以人工+AI 判定貼上 Likely AI Persona 標籤並提供申訴；9 月中起於行動版顯示，預設不納入個人化推薦。",
+      "from_file": "output/2026/08/12.md"
     }
   ],
   "reason_picked_schema": {
