@@ -10794,6 +10794,142 @@
       },
       "summary": "Writer 推出接班人 X6 的旗艦模型 Palmyra X6，在 GLM 5.2 上後訓練，平均評分 0.87 超越 Claude Opus 4.8（0.86）；搭配 Agent 平台可降低 52% 成本、提升 48% 速度，並能連續八小時自主推進長程目標。",
       "from_file": "output/2026/08/14.md"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Cerebras 驅動 OpenAI GPT-5.6 Sol Ultrafast 新模式",
+      "url": "https://www.hpcwire.com/aiwire/2026/08/14/cerebras-powers-openais-gpt-5-6-sol-ultrafast-mode",
+      "source": "HPCwire",
+      "company": "Cerebras/OpenAI",
+      "topic": "Cerebras powers OpenAI GPT-5.6 Sol Ultrafast inference mode",
+      "fingerprint": "Cerebras/OpenAI|gpt-5.6-sol-ultrafast-inference|2026-08-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "Cerebras 晶圓級引擎為 GPT-5.6 Sol 提供達 14 倍加速的 Ultrafast 服務層，含基準細節"
+      },
+      "summary": "Cerebras 宣布以晶圓級引擎驅動 OpenAI API 中 GPT-5.6 Sol 的 Ultrafast 新模式，輸出上看每秒 750 tokens、較 Standard 快最多 14 倍，且在 Humanity's Last Exam 等基準上保持同等水準，突破 GPU 記憶體頻寬瓶頸。",
+      "from_file": "output/2026/08/15.md"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "MIT 與清華推出 GeoPT 物理模擬預訓練模型",
+      "url": "https://www.hpcwire.com/aiwire/2026/08/14/mit-researchers-develop-ai-model-for-faster-physics-simulations",
+      "source": "HPCwire",
+      "company": "MIT CSAIL",
+      "topic": "MIT/Tsinghua GeoPT pretraining physics simulation model",
+      "fingerprint": "MIT CSAIL|geopt-physics-simulation|2026-08-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "research_benchmark"
+        ],
+        "note": "GeoPT 用合成動力學預訓練，訓練資料可減 60%、收斂快一倍，朝物理基礎模型邁進"
+      },
+      "summary": "MIT CSAIL 與清華大學推出 GeoPT 預訓練方法，以 130 萬筆合成動力學樣本教會模型理解物理，訓練資料最多可減少 60%、收斂快一倍，未來可望成為物理基礎模型。",
+      "from_file": "output/2026/08/15.md"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "DeepSeek 開源 Harness agent 建構框架",
+      "url": "https://www.hpcwire.com/2026/08/14/deepseek-open-sources-the-missing-layer-between-ai-models-and-agents",
+      "source": "HPCwire",
+      "company": "DeepSeek",
+      "topic": "DeepSeek open-sources Harness agent-building framework",
+      "fingerprint": "DeepSeek|harness-open-source-agent-framework|2026-08-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source",
+          "workflow_automation"
+        ],
+        "note": "DeepSeek 開源 Harness 框架，補足模型與可執行 agent 之間的環節，強調元件可替換"
+      },
+      "summary": "DeepSeek 開源 Harness 框架，定位為連結 AI 模型與真正可執行 agent 的缺失環節；模型、工具、儲存與沙盒都可替換或修改，偏向一套 agent 建構套件而非單一成品。",
+      "from_file": "output/2026/08/15.md"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "蘋果攜手阿里巴巴為中國市場訓練自有 AI 模型",
+      "url": "https://www.reuters.com/business/retail-consumer/apple-trains-its-own-ai-model-china-market-with-alibabas-support-sources-say-2026-08-14",
+      "source": "Reuters",
+      "company": "Apple",
+      "topic": "Apple trains own LLM for China market with Alibaba support",
+      "fingerprint": "Apple|china-market-own-llm-alibaba|2026-08-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "蘋果一反第三方模型策略，為中國市場自研 LLM，屬策略性轉向的重大進展"
+      },
+      "summary": "三位知情人士透露，蘋果已攜手阿里巴巴為中國市場訓練自有大語言模型，一反過去仰賴第三方模型的路線，改走自研，反映蘋果在中國 AI 布局的關鍵轉向。",
+      "from_file": "output/2026/08/15.md"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Uber 與 Pony.ai 將 2,000 台機器人計程車導入歐洲四城",
+      "url": "https://techcrunch.com/2026/08/14/uber-and-pony-ai-plan-to-bring-2000-robotaxis-to-europe/",
+      "source": "TechCrunch",
+      "company": "Uber/Pony.ai",
+      "topic": "Uber and Pony.ai expand partnership to deploy 2000 robotaxis in Europe",
+      "fingerprint": "Uber/Pony.ai|2000-robotaxis-europe-expansion|2026-08-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "雙方擴大合作，將 2000 台機器人計程車導入歐洲四城，Pony.ai 供自駕技術、Uber 供平台"
+      },
+      "summary": "中國自駕車商 Pony.ai 與 Uber 擴大合作，計畫將 2,000 台機器人計程車導入歐洲四城；Pony.ai 供應自駕技術、Uber 提供叫車平台，城市與時程將分階段公布。",
+      "from_file": "output/2026/08/15.md"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Databricks 營收 run-rate 破 70 億美元，完成 50 億美元融資估值 1900 億",
+      "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-80-yoy-surpasses-7b-revenue-run-rate-scales",
+      "source": "Databricks",
+      "company": "Databricks",
+      "topic": "Databricks $7B revenue run-rate and $5B funding at $190B valuation",
+      "fingerprint": "Databricks|7b-revenue-5b-funding-190b-valuation|2026-08-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "營收 run-rate 破 70 億美元、年成長逾 80%，完成 50 億美元融資並以 1900 億美元估值擴張"
+      },
+      "summary": "Databricks 跨越 70 億美元營收 run-rate，年成長逾 80%，並完成由 Coatue 領投的 50 億美元戰略融資、估值達 1,900 億美元，資金將投資於 Lakebase、Genie 與 Unity AI Gateway。",
+      "from_file": "output/2026/08/15.md"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Anthropic 將 Claude Code Auto Mode 設定為預設",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "source": "Anthropic",
+      "company": "Anthropic",
+      "topic": "Claude Code auto mode becomes default for Pro/Max/Team plans",
+      "fingerprint": "Anthropic|claude-code-auto-mode-default|2026-08-14",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Claude Code Auto Mode 改為預設，背景分類器攔截率 89% 對比舊流程 14%"
+      },
+      "summary": "Anthropic 自 8/14 起將 Claude Code 的 Auto Mode 設為 Pro、Max、Team 方案的預設，由背景分類器即時判斷哪些動作可安全自動執行，實測攔截 89% 危險指令，遠高於舊手動審核流程的 14%。",
+      "from_file": "output/2026/08/15.md"
     }
   ],
   "reason_picked_schema": {
