@@ -10930,6 +10930,120 @@
       },
       "summary": "Anthropic 自 8/14 起將 Claude Code 的 Auto Mode 設為 Pro、Max、Team 方案的預設，由背景分類器即時判斷哪些動作可安全自動執行，實測攔截 89% 危險指令，遠高於舊手動審核流程的 14%。",
       "from_file": "output/2026/08/15.md"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "xAI 推出 Grok 4.6，標榜半價就能用上前沿模型",
+      "url": "https://www.basenor.com/blogs/news/xai-launches-grok-4-6-1753-elo-half-the-price-of-rival-frontier-models",
+      "source": "xAI / BASENOR",
+      "company": "xAI",
+      "topic": "Grok 4.6 frontier model launch at half price of rivals",
+      "fingerprint": "xAI|grok-4-6-frontier-model-half-price-launch|2026-08-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "Grok 4.6 正式發布，1753 ELO 且 API 定價砍半"
+      },
+      "summary": "xAI 發布 Grok 4.6，號稱 1753 ELO、API 輸入每百萬 token $2，定價約為 rival 前沿模型一半，並登上 Cursor、Grok Build、OpenRouter 等平台，還拿下 Databricks 排行榜第一名。",
+      "from_file": "output/2026/08/16.md"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "中國 Z.ai 發表 GLM-5.3，宣稱能抗衡 Anthropic 的 Mythos",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/china-s-z.ai-launches-model-it-says-rivals-anthropic-s-mythos",
+      "source": "Nikkei Asia",
+      "company": "Z.ai",
+      "topic": "GLM-5.3 launch rivaling Anthropic Mythos in coding and security",
+      "fingerprint": "Zai|glm-5-3-coding-security-model-launch|2026-08-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "中國新前沿模型發布，鎖定 coding/資安能力"
+      },
+      "summary": "中國 AI 新創 Z.ai 發布 GLM-5.3，在程式碼與資安能力上宣稱可對標 Anthropic 的 Claude Mythos，是中國陣營最新的前沿模型出擊。",
+      "from_file": "output/2026/08/16.md"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "OpenAI 企業營收首度超越消費端，年化營收突破 400 億美元",
+      "url": "https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html",
+      "source": "CNBC",
+      "company": "OpenAI",
+      "topic": "OpenAI enterprise revenue surpasses consumer, $40B run rate",
+      "fingerprint": "OpenAI|enterprise-revenue-exceeds-consumer-40b-run-rate|2026-08-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "企業營收超越消費端，超乎原本年底目標但財務長親自證實"
+      },
+      "summary": "OpenAI 財務長 Sarah Friar 向投資人表示，企業營收已超越 ChatGPT 消費端並單月成長約 32%，大幅超前原本設定要年底達成的目標，年化營收突破 400 億美元。",
+      "from_file": "output/2026/08/16.md"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Sergey Brin 敦促 Google 全力押注 Gemini，追趕 OpenAI 與 Anthropic",
+      "url": "https://www.calcalistech.com/ctechnews/article/byfa8qn8zg",
+      "source": "Calcalist / Reuters",
+      "company": "Google",
+      "topic": "Sergey Brin urges Google to go all-in on Gemini AI race",
+      "fingerprint": "Google|brin-pushes-all-in-gemini-ai-race|2026-08-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "Brin 明確要求團隊聚焦縮短與競爭對手差距"
+      },
+      "summary": "Google 共同創辦人 Sergey Brin 近月持續敦促團隊全力投入 Gemini，試圖縮短與 OpenAI 和 Anthropic 的差距，並在 DeepMind 高層多番變動後強化商業化主導的布局。",
+      "from_file": "output/2026/08/16.md"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Anthropic 將為 AI 生成文字加入浮水印，配合歐盟透明度規範",
+      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models",
+      "source": "TechCrunch",
+      "company": "Anthropic",
+      "topic": "Anthropic watermarks AI-generated text for EU transparency compliance",
+      "fingerprint": "Anthropic|ai-text-watermarking-eu-transparency|2026-08-11",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "配合歐盟透明度行為準則，屬政策合規新進展"
+      },
+      "summary": "Anthropic 宣布 8/2 之後發布的模型，AI 生成的文字與檔案將自動嵌入可偵測浮水印（檔案採 C2PA 標準），舊模型也將陸續支援，以配合歐盟 AI 透明度規範。",
+      "from_file": "output/2026/08/16.md"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Matimo 推出 AI Agent 治理與執行平台，全球正式上線",
+      "url": "https://natlawreview.com/press-releases/matimo-platform-ai-agent-governance-and-execution-system-launches-worldwide",
+      "source": "National Law Review",
+      "company": "ROAIQ / Matimo",
+      "topic": "Matimo AI agent governance and execution platform general availability",
+      "fingerprint": "Matimo|ai-agent-governance-execution-platform-ga|2026-08-15",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Agent 治理平台全球一般可用上線"
+      },
+      "summary": "Matimo 平台正式全球上線，結合 Workbench、視覺化 Studio 與 Governance 治理層，內建身分、稽核、政策執行與一鍵緊急停止，並提供 SOC2/HIPAA/GDPR 稽核輸出，補上企業 AI Agent 的治理缺口。",
+      "from_file": "output/2026/08/16.md"
     }
   ],
   "reason_picked_schema": {
