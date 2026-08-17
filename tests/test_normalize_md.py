@@ -8,6 +8,9 @@ SCRIPT = Path(__file__).parents[1] / "scripts" / "normalize-md.sh"
 
 
 class NormalizeMarkdownTest(unittest.TestCase):
+    def test_does_not_use_nonportable_in_place_sed(self):
+        self.assertNotIn("sed -i", SCRIPT.read_text(encoding="utf-8"))
+
     def test_normalizes_titles_without_changing_bodies(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
@@ -25,9 +28,9 @@ class NormalizeMarkdownTest(unittest.TestCase):
                     "Wrong title\nBody three\n",
                     "# 📰 AI Daily Newsletter — 2026年08月08日 09:00\nBody three\n",
                 ),
-                "output/2026/02/17.md": (
+                "output/2026/08/09.md": (
                     "---\n📰 AI Daily Newsletter — old date 9:05\n---\n\nBody four\n",
-                    "# 📰 AI Daily Newsletter — 2026年02月17日 09:05\n\nBody four\n",
+                    "# 📰 AI Daily Newsletter — 2026年08月09日 09:05\n\nBody four\n",
                 ),
             }
             for relative, (before, _) in cases.items():

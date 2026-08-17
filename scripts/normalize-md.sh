@@ -38,14 +38,31 @@ find output -name "*.md" -type f -print0 | while IFS= read -r -d '' md_file; do
   new_title="# 📰 AI Daily Newsletter — $date_str $time"
 
   old_first="$first_line"
-  if [[ "$md_file" == "output/2026/02/17.md" &&
-        "${first_lines[0]:-}" == "---" &&
+  body_start=2
+  legacy_title=false
+  if [[ "${first_lines[0]:-}" == "---" &&
         "${first_lines[1]:-}" == *"AI Daily Newsletter"* &&
         "${first_lines[2]:-}" == "---" ]]; then
-    sed -i "1,3c$new_title" "$md_file"
+    body_start=4
+    legacy_title=true
+  fi
+
+  if [[ "$legacy_title" == true || "$old_first" != "$new_title" ]]; then
+    tmp_file=$(mktemp "${md_file}.tmp.XXXXXX")
+    trap 'rm -f "$tmp_file"' EXIT
+    trap 'rm -f "$tmp_file"; exit 1' HUP INT TERM
+    cp -p "$md_file" "$tmp_file"
+    {
+      printf '%s\n' "$new_title"
+      tail -n "+$body_start" "$md_file"
+    } > "$tmp_file"
+    mv "$tmp_file" "$md_file"
+    trap - EXIT HUP INT TERM
+  fi
+
+  if [[ "$legacy_title" == true ]]; then
     echo "✅ Fixed legacy title: $md_file"
   elif [[ "$old_first" != "$new_title" ]]; then
-    sed -i "1c$new_title" "$md_file"
     echo "✅ Fixed: $md_file"
     echo "   $old_first → $new_title"
   else
