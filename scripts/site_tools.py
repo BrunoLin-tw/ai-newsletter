@@ -69,7 +69,16 @@ def validate_source(output_dir, ledger_path):
         errors.append(f"invalid ledger JSON: {error}")
 
     output_dir = Path(output_dir)
-    for md_file in markdown_files(output_dir):
+    if not output_dir.exists():
+        errors.append(f"output directory does not exist: {output_dir}")
+        return errors
+    if not output_dir.is_dir():
+        errors.append(f"output is not a directory: {output_dir}")
+        return errors
+    files = markdown_files(output_dir)
+    if not files:
+        errors.append(f"no Markdown files in output: {output_dir}")
+    for md_file in files:
         try:
             year, month, day = path_date(md_file, output_dir)
         except ValueError as error:
@@ -143,14 +152,37 @@ def validate_site(output_dir, site_dir):
                 if len(records) != len(expected_reports):
                     errors.append("search JSON count does not match reports")
                 dates = []
+                seen_dates = set()
+                duplicate_dates = set()
                 for record in records:
-                    date = record.get("date") if isinstance(record, dict) else None
-                    if not isinstance(date, str) or not DATE_PATTERN.fullmatch(date):
+                    if not isinstance(record, dict):
+                        errors.append("search record must be an object")
+                        continue
+                    for field in ("title", "url", "content", "date"):
+                        if not isinstance(record.get(field), str):
+                            errors.append(f"search record {field} must be a string")
+                    date = record.get("date")
+                    if not isinstance(date, str):
+                        continue
+                    if not DATE_PATTERN.fullmatch(date):
                         errors.append("search JSON date must use YYYY/MM/DD")
                     else:
+                        if date in seen_dates:
+                            duplicate_dates.add(date)
+                        seen_dates.add(date)
                         dates.append(date)
                 if dates != sorted(dates, reverse=True):
                     errors.append("search JSON is not newest-first")
+                expected_dates = {
+                    report.removesuffix(".html") for report in expected_reports
+                }
+                actual_dates = set(dates)
+                for date in sorted(expected_dates - actual_dates):
+                    errors.append(f"missing search date: {date}")
+                for date in sorted(actual_dates - expected_dates):
+                    errors.append(f"unrelated search date: {date}")
+                for date in sorted(duplicate_dates):
+                    errors.append(f"duplicate search date: {date}")
 
     search_path = required["search"]
     if search_path.is_file():

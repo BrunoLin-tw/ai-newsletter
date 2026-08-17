@@ -134,6 +134,26 @@ class SiteToolsTest(unittest.TestCase):
 
             self.assertTrue(any("invalid newsletter path" in error for error in errors))
 
+    def test_validate_source_rejects_missing_file_and_empty_output(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            ledger = root / "ledger.json"
+            ledger.write_text("{}", encoding="utf-8")
+            output_file = root / "output-file"
+            output_file.write_text("not a directory", encoding="utf-8")
+            empty_output = root / "empty-output"
+            empty_output.mkdir()
+
+            cases = (
+                (root / "missing-output", "output directory does not exist"),
+                (output_file, "output is not a directory"),
+                (empty_output, "no Markdown files"),
+            )
+            for output, expected in cases:
+                with self.subTest(output=output):
+                    errors = site_tools.validate_source(output, ledger)
+                    self.assertTrue(any(expected in error for error in errors))
+
     def test_validate_site_reports_incomplete_unbalanced_site(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
@@ -178,6 +198,62 @@ class SiteToolsTest(unittest.TestCase):
             self.assertTrue(
                 any("stale report" in error for error in site_tools.validate_site(output, site))
             )
+
+    def test_validate_site_rejects_malformed_search_record_schema(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            output, site = root / "output", root / "site"
+            self.write_report(output, "2026/08/17")
+            site.mkdir()
+            self.make_complete_site(output, site)
+            records = [
+                42,
+                {"title": 1, "url": None, "content": [], "date": 20260817},
+            ]
+            (site / "assets/search_data.json").write_text(
+                json.dumps(records), encoding="utf-8"
+            )
+
+            errors = site_tools.validate_site(output, site)
+
+            self.assertTrue(any("search record must be an object" in error for error in errors))
+            for field in ("title", "url", "content", "date"):
+                self.assertTrue(
+                    any(f"search record {field} must be a string" in error for error in errors)
+                )
+
+    def test_validate_site_rejects_search_date_parity_errors(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            output, site = root / "output", root / "site"
+            self.write_report(output, "2026/08/16")
+            self.write_report(output, "2026/08/17")
+            site.mkdir()
+            self.make_complete_site(output, site)
+            destination = site / "assets/search_data.json"
+            valid = site_tools.create_search_records(output, "")
+            cases = (
+                (
+                    [valid[0], {**valid[1], "date": "2026/08/17"}],
+                    ("duplicate search date", "missing search date"),
+                ),
+                (
+                    [valid[0], {**valid[1], "date": "2026/08/15"}],
+                    ("unrelated search date", "missing search date"),
+                ),
+                ([valid[0]], ("missing search date",)),
+                (
+                    [valid[0], {**valid[1], "date": "2026/8/16"}],
+                    ("date must use YYYY/MM/DD", "missing search date"),
+                ),
+                ([valid[1], valid[0]], ("not newest-first",)),
+            )
+            for records, expected_errors in cases:
+                with self.subTest(expected_errors=expected_errors):
+                    destination.write_text(json.dumps(records), encoding="utf-8")
+                    errors = site_tools.validate_site(output, site)
+                    for expected in expected_errors:
+                        self.assertTrue(any(expected in error for error in errors))
 
     def test_validate_site_rejects_inner_html_and_cli_reports_errors(self):
         with tempfile.TemporaryDirectory() as temporary:
