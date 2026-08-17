@@ -22,7 +22,7 @@ class BuildHtmlContractTest(unittest.TestCase):
         self.assertIn('SCRIPT_DIR=', self.script)
         self.assertIn('cd "$PROJECT_ROOT"', self.script)
         self.assertIn("validate-source --output output --ledger data/news-ledger.json", self.script)
-        self.assertIn("validate-site --output output --site docs", self.script)
+        self.assertIn('validate-site --output output --site "$SITE_DIR"', self.script)
         self.assertNotIn("normalize-md.sh", self.script)
 
     def make_project(self, root, extra_body="Body", pandoc_exit=0):
@@ -158,17 +158,41 @@ class BuildHtmlContractTest(unittest.TestCase):
                 "stale-generated\n",
             )
 
-    def test_failed_pandoc_cleans_dedicated_build_temp_directory(self):
+    def test_failed_pandoc_preserves_generated_site_and_cleans_staging(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary) / "project"
             root.mkdir()
             bin_dir = self.make_project(root, pandoc_exit=1)
+            generated = {
+                "index.html": "previous-index\n",
+                "archive.html": "previous-archive\n",
+                "search.html": "previous-search\n",
+                "assets/search_data.json": '[{"previous": true}]\n',
+                "reports/2025/01/01.html": "previous-report\n",
+            }
+            for relative, content in generated.items():
+                path = root / "docs" / relative
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(content, encoding="utf-8")
             tmp_dir = root / "tmp"
             tmp_dir.mkdir()
 
             result = self.run_build(root, bin_dir, "/ai-newsletter", tmp_dir)
 
             self.assertNotEqual(result.returncode, 0)
+            for relative, content in generated.items():
+                with self.subTest(relative=relative):
+                    path = root / "docs" / relative
+                    self.assertTrue(path.is_file())
+                    self.assertEqual(path.read_text(encoding="utf-8"), content)
+            self.assertEqual(
+                (root / "docs/assets/style.css").read_text(encoding="utf-8"),
+                "authored-style\n",
+            )
+            self.assertEqual(
+                (root / "docs/README.md").read_text(encoding="utf-8"),
+                "authored-readme\n",
+            )
             self.assertEqual(list(tmp_dir.iterdir()), [])
 
     def test_archive_loop_preserves_final_month_state(self):

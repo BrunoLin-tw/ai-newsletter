@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$PROJECT_ROOT"
 
-SITE_DIR="docs"
+PUBLISH_DIR="docs"
 BASE_PATH="${BASE_PATH-/ai-newsletter}"
 BASE_PATH="${BASE_PATH%/}"
 while [[ "$BASE_PATH" == */ ]]; do
@@ -25,11 +25,9 @@ fi
 
 BUILD_TMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/ai-newsletter-build.XXXXXX")"
 trap 'rm -rf "$BUILD_TMP_DIR"' EXIT
+SITE_DIR="$BUILD_TMP_DIR/site"
 
-rm -rf "$SITE_DIR/reports"
 mkdir -p "$SITE_DIR/reports" "$SITE_DIR/assets"
-rm -f "$SITE_DIR/index.html" "$SITE_DIR/archive.html" \
-    "$SITE_DIR/search.html" "$SITE_DIR/assets/search_data.json"
 
 while IFS= read -r md_file; do
     echo "Processing: $md_file"
@@ -370,5 +368,13 @@ python3 scripts/site_tools.py generate-search --output output \
     --destination "$SITE_DIR/assets/search_data.json" --base-path "$BASE_PATH"
 generate_search_page
 
-python3 scripts/site_tools.py validate-site --output output --site docs
+python3 scripts/site_tools.py validate-site --output output --site "$SITE_DIR"
+
+mkdir -p "$PUBLISH_DIR/assets"
+rm -rf "$PUBLISH_DIR/reports"
+mv "$SITE_DIR/reports" "$PUBLISH_DIR/reports"
+mv "$SITE_DIR/index.html" "$PUBLISH_DIR/index.html"
+mv "$SITE_DIR/archive.html" "$PUBLISH_DIR/archive.html"
+mv "$SITE_DIR/search.html" "$PUBLISH_DIR/search.html"
+mv "$SITE_DIR/assets/search_data.json" "$PUBLISH_DIR/assets/search_data.json"
 echo "Build complete: generated site validated successfully."
