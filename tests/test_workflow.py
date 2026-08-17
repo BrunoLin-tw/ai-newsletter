@@ -5,6 +5,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKFLOW = ROOT / ".github/workflows/ai-newsletter.yml"
+ACTION_VERSIONS = {
+    "actions/checkout": "v4",
+    "r-lib/actions/setup-pandoc": "v2",
+    "actions/configure-pages": "v4",
+    "actions/upload-pages-artifact": "v3",
+    "actions/deploy-pages": "v4",
+}
 
 
 def indented_block(text, header, indent=0):
@@ -65,8 +72,8 @@ class WorkflowContractTest(unittest.TestCase):
         self.assertRegex(env, r"(?m)^\s+BASE_PATH:\s*['\"]?/ai-newsletter['\"]?\s*$")
 
     def test_build_uses_pinned_pandoc_tests_and_validated_build(self):
-        self.assertIn("uses: actions/checkout@v4", self.build)
-        self.assertIn("uses: r-lib/actions/setup-pandoc@v2", self.build)
+        self.assertIn("uses: actions/checkout@", self.build)
+        self.assertIn("uses: r-lib/actions/setup-pandoc@", self.build)
         self.assertRegex(self.build, r"(?m)^\s+pandoc-version:\s*['\"]3\.8\.3['\"]\s*$")
         test_step = "run: python3 -m unittest discover -s tests -v"
         build_step = "run: bash scripts/build-html.sh"
@@ -74,20 +81,34 @@ class WorkflowContractTest(unittest.TestCase):
         self.assertIn(build_step, self.build)
         self.assertLess(self.build.index(test_step), self.build.index(build_step))
 
+    def test_executable_actions_are_pinned_to_full_commit_shas(self):
+        references = []
+        for value in re.findall(r"(?m)^\s+uses:\s+(.+?)\s*$", self.workflow):
+            reference = re.fullmatch(
+                r"([^@\s]+)@([0-9a-f]{40})\s+#\s+(v\d+)", value
+            )
+            self.assertIsNotNone(reference, f"action is not SHA-pinned: {value}")
+            references.append(reference.groups())
+        self.assertEqual(
+            {name: version for name, _, version in references}, ACTION_VERSIONS
+        )
+        self.assertEqual(len(references), len(ACTION_VERSIONS))
+        self.assertNotIn("r-lib/actions/setup-pandoc@v2", self.workflow)
+
     def test_pull_requests_cannot_upload_or_deploy(self):
         condition = "if: github.event_name != 'pull_request'"
-        for action in ("actions/configure-pages@v4", "actions/upload-pages-artifact@v3"):
-            with self.subTest(action=action):
-                step = re.search(
-                    rf"(?ms)^\s+- name: [^\n]+\n(?P<body>(?:\s{{8,}}[^\n]*\n)*?\s+uses: {re.escape(action)}(?:\n|$))",
-                    self.build,
-                )
-                self.assertIsNotNone(step, f"missing {action} step")
-                self.assertIn(condition, step.group("body"))
+        upload_step = re.search(
+            r"(?ms)^\s+- name: [^\n]+\n(?P<body>(?:\s{8,}[^\n]*\n)*?\s+uses: actions/upload-pages-artifact@[0-9a-f]{40}[^\n]*(?:\n|$))",
+            self.build,
+        )
+        self.assertIsNotNone(upload_step, "missing upload-pages-artifact step")
+        self.assertIn(condition, upload_step.group("body"))
         self.assertRegex(
             self.build,
-            r"(?ms)uses: actions/upload-pages-artifact@v3.*?\n\s+with:\s*\n\s+path:\s*docs/\s*$",
+            r"(?ms)uses: actions/upload-pages-artifact@[0-9a-f]{40}.*?\n\s+with:\s*\n\s+path:\s*docs/\s*$",
         )
+        self.assertNotIn("actions/configure-pages@", self.build)
+        self.assertEqual(indented_block(self.build, "permissions", 4), "")
 
         self.assertRegex(self.deploy, rf"(?m)^\s+{re.escape(condition)}\s*$")
         self.assertRegex(self.deploy, r"(?m)^\s+needs:\s*build\s*$")
@@ -99,7 +120,16 @@ class WorkflowContractTest(unittest.TestCase):
         environment = indented_block(self.deploy, "environment", 4)
         self.assertIn("name: github-pages", environment)
         self.assertIn("url: ${{ steps.deployment.outputs.page_url }}", environment)
-        self.assertIn("uses: actions/deploy-pages@v4", self.deploy)
+        configure = "uses: actions/configure-pages@"
+        deploy = "uses: actions/deploy-pages@"
+        self.assertIn(configure, self.deploy)
+        self.assertIn(deploy, self.deploy)
+        self.assertLess(self.deploy.index(configure), self.deploy.index(deploy))
+
+    def test_deployments_are_serialized_without_cancelling_in_progress(self):
+        concurrency = indented_block(self.deploy, "concurrency", 4)
+        self.assertRegex(concurrency, r"(?m)^\s+group:\s*pages\s*$")
+        self.assertRegex(concurrency, r"(?m)^\s+cancel-in-progress:\s*false\s*$")
 
 
 if __name__ == "__main__":
