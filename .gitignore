@@ -1,1 +1,8 @@
 /.worktrees/
+/docs/reports/
+/docs/index.html
+/docs/archive.html
+/docs/search.html
+/docs/assets/search_data.json
+__pycache__/
+*.py[cod]
