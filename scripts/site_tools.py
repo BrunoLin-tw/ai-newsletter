@@ -71,17 +71,17 @@ def validate_source(output_dir, ledger_path):
     output_dir = Path(output_dir)
     for md_file in markdown_files(output_dir):
         try:
+            year, month, day = path_date(md_file, output_dir)
+        except ValueError as error:
+            errors.append(str(error))
+            continue
+        try:
             first_line = md_file.read_text(encoding="utf-8").splitlines()[0]
         except (IndexError, OSError, UnicodeError):
             first_line = ""
         match = TITLE_PATTERN.fullmatch(first_line)
         if not match:
             errors.append(f"invalid title: {md_file}")
-            continue
-        try:
-            year, month, day = path_date(md_file, output_dir)
-        except ValueError as error:
-            errors.append(str(error))
             continue
         if match.groups()[:3] != (year, month, day):
             errors.append(f"title does not match path date: {md_file}")

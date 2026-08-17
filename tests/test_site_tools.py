@@ -126,10 +126,7 @@ class SiteToolsTest(unittest.TestCase):
             output = root / "output"
             report = output / "2026/8/17.md"
             report.parent.mkdir(parents=True)
-            report.write_text(
-                "# 📰 AI Daily Newsletter — 2026年08月17日 08:30\nBody\n",
-                encoding="utf-8",
-            )
+            report.write_text("# Wrong title\nBody\n", encoding="utf-8")
             ledger = root / "ledger.json"
             ledger.write_text("{}", encoding="utf-8")
 
