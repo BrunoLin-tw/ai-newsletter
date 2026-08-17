@@ -120,6 +120,23 @@ class SiteToolsTest(unittest.TestCase):
 
             self.assertTrue(any("title does not match path date" in error for error in errors))
 
+    def test_validate_source_reports_invalid_newsletter_path(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            output = root / "output"
+            report = output / "2026/8/17.md"
+            report.parent.mkdir(parents=True)
+            report.write_text(
+                "# 📰 AI Daily Newsletter — 2026年08月17日 08:30\nBody\n",
+                encoding="utf-8",
+            )
+            ledger = root / "ledger.json"
+            ledger.write_text("{}", encoding="utf-8")
+
+            errors = site_tools.validate_source(output, ledger)
+
+            self.assertTrue(any("invalid newsletter path" in error for error in errors))
+
     def test_validate_site_reports_incomplete_unbalanced_site(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
@@ -134,6 +151,19 @@ class SiteToolsTest(unittest.TestCase):
             self.assertTrue(any("search" in error for error in errors))
             self.assertTrue(any("missing report" in error for error in errors))
             self.assertTrue(any("unbalanced" in error for error in errors))
+
+    def test_validate_site_reports_invalid_newsletter_path(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            output, site = root / "output", root / "site"
+            report = output / "2026/8/17.md"
+            report.parent.mkdir(parents=True)
+            report.write_text("# Report\n", encoding="utf-8")
+            site.mkdir()
+
+            errors = site_tools.validate_site(output, site)
+
+            self.assertTrue(any("invalid newsletter path" in error for error in errors))
 
     def test_validate_site_accepts_complete_site_and_rejects_stale_report(self):
         with tempfile.TemporaryDirectory() as temporary:

@@ -78,7 +78,11 @@ def validate_source(output_dir, ledger_path):
         if not match:
             errors.append(f"invalid title: {md_file}")
             continue
-        year, month, day = path_date(md_file, output_dir)
+        try:
+            year, month, day = path_date(md_file, output_dir)
+        except ValueError as error:
+            errors.append(str(error))
+            continue
         if match.groups()[:3] != (year, month, day):
             errors.append(f"title does not match path date: {md_file}")
     return errors
@@ -98,11 +102,14 @@ def validate_site(output_dir, site_dir):
         if not path.is_file():
             errors.append(f"missing {name}: {path}")
 
-    expected_reports = {
-        f"{year}/{month}/{day}.html"
-        for md_file in markdown_files(output_dir)
-        for year, month, day in [path_date(md_file, output_dir)]
-    }
+    expected_reports = set()
+    for md_file in markdown_files(output_dir):
+        try:
+            year, month, day = path_date(md_file, output_dir)
+        except ValueError as error:
+            errors.append(str(error))
+            continue
+        expected_reports.add(f"{year}/{month}/{day}.html")
     reports_dir = site_dir / "reports"
     actual_reports = (
         {path.relative_to(reports_dir).as_posix() for path in reports_dir.rglob("*.html")}
