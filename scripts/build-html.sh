@@ -12,12 +12,19 @@ while [[ "$BASE_PATH" == */ ]]; do
     BASE_PATH="${BASE_PATH%/}"
 done
 
-if [ -n "$BASE_PATH" ] && [[ "$BASE_PATH" != /* ]]; then
-    echo "ERROR: BASE_PATH must be empty or start with /: $BASE_PATH" >&2
+if [[ ! "$BASE_PATH" =~ ^(/[A-Za-z0-9._~-]+)*$ ]]; then
+    echo "ERROR: BASE_PATH must contain only safe URL path segments: $BASE_PATH" >&2
     exit 1
 fi
 
 python3 scripts/site_tools.py validate-source --output output --ledger data/news-ledger.json
+if ! command -v pandoc >/dev/null 2>&1; then
+    echo "ERROR: pandoc is required to build the site" >&2
+    exit 1
+fi
+
+BUILD_TMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/ai-newsletter-build.XXXXXX")"
+trap 'rm -rf "$BUILD_TMP_DIR"' EXIT
 
 rm -rf "$SITE_DIR/reports"
 mkdir -p "$SITE_DIR/reports" "$SITE_DIR/assets"
@@ -30,9 +37,9 @@ while IFS= read -r md_file; do
     html_path="$SITE_DIR/reports/${rel_path%.md}.html"
     mkdir -p "$(dirname "$html_path")"
 
-    title="$(sed -n 's/^# //p' "$md_file" | head -n 1)"
+    title="$(sed -n '1{s/^# //;p;q;}' "$md_file")"
     title="${title:-AI Daily Newsletter}"
-    temp_file="$(mktemp)"
+    temp_file="$BUILD_TMP_DIR/report.html"
 
     cat > "$temp_file" <<EOF
 <!DOCTYPE html>
@@ -78,8 +85,7 @@ done < <(find output -name "*.md" -type f | sort)
 
 generate_index() {
     local index="$SITE_DIR/index.html"
-    local tmp
-    tmp="$(mktemp)"
+    local tmp="$BUILD_TMP_DIR/index.html"
 
     cat > "$tmp" <<EOF
 <!DOCTYPE html>
@@ -119,7 +125,7 @@ EOF
             break
         fi
         rel="${f#$SITE_DIR/}"
-        title="$(sed -n 's:.*<title>\(.*\)</title>.*:\1:p' "$f" | head -n 1)"
+        title="$(sed -n '/<title>/{s:.*<title>\(.*\)</title>.*:\1:p;q;}' "$f")"
         title="${title:-$(basename "$f")}"
         cat >> "$tmp" <<EOF
         <div class="newsletter-card glass-effect">
@@ -150,8 +156,7 @@ EOF
 
 generate_archive() {
     local archive="$SITE_DIR/archive.html"
-    local tmp
-    tmp="$(mktemp)"
+    local tmp="$BUILD_TMP_DIR/archive.html"
 
     cat > "$tmp" <<EOF
 <!DOCTYPE html>
@@ -199,7 +204,7 @@ EOF
             last_month="$month"
         fi
 
-        title="$(sed -n 's:.*<title>\(.*\)</title>.*:\1:p' "$f" | head -n 1)"
+        title="$(sed -n '/<title>/{s:.*<title>\(.*\)</title>.*:\1:p;q;}' "$f")"
         title="${title:-$(basename "$f")}"
         echo "          <li><span class='date'>$nice_date</span> - <a href=\"${BASE_PATH}/${rel}\">$title</a></li>" >> "$tmp"
     done < <(find "$SITE_DIR/reports" -name "*.html" -type f | sort -r)
