@@ -1,7 +1,7 @@
 #!/bin/bash
 # Render Markdown to HTML using pandoc
 
-set -e
+set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
@@ -112,7 +112,7 @@ EOF
         date_part="${rel#reports/}"          # 2026/02/11.html
         nice_date="${date_part%.html}"       # 2026/02/11
         # extract title from html <title>
-        title=$(sed -n 's:.*<title>\(.*\)</title>.*:\1:p' "$f" | head -n1)
+        title=$(sed -n 's:.*<title>\(.*\)</title>.*:\1:p;T;q' "$f")
         title=${title:-$(basename "$f")}
         echo "        <li><a href=\"/$PROJECT_NAME/${rel}\">$title</a> <small>($nice_date)</small></li>" >> "$tmp"
     done

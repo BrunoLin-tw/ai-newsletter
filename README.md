@@ -13,22 +13,29 @@ ai-newsletter/
 │   └── 2026/
 │       └── 02/
 │           └── 11.md            # YYYY/MM/DD.md 格式
-├── docs/                         # GitHub Pages 靜態網站 (原 site/)
+├── docs/                         # GitHub Pages 靜態網站
 │   ├── assets/
-│   │   └── style.css            # 網站樣式
+│   │   ├── style.css            # 網站樣式（追蹤）
+│   │   └── search_data.json     # 搜尋資料（建置產物）
 │   ├── templates/
 │   │   ├── header.html          # HTML 樣板頭部
 │   │   └── footer.html          # HTML 樣板尾部
-│   ├── index.html               # 首頁
-│   └── reports/                 # 生成的 HTML 報告
-│       └── 2026/
-│           └── 02/
-│               └── 11.html
+│   ├── index.html               # 最新報告頁（建置產物）
+│   ├── archive.html             # 歷史存檔頁（建置產物）
+│   ├── search.html              # 搜尋頁（建置產物）
+│   └── reports/                 # 報告 HTML（建置產物）
 ├── scripts/                      # 自動化腳本
-│   ├── render.sh                # Markdown → HTML 轉換
+│   ├── build-html.sh            # 正式 Markdown → HTML／網站建置入口
+│   ├── site_tools.py            # 來源、網站驗證與搜尋資料工具
+│   ├── render.sh                # 舊版轉換腳本
 │   └── publish.sh               # Git 推送腳本
+├── tests/                        # stdlib unittest 測試
 └── README.md
 ```
+
+`scripts/build-html.sh` 是 Markdown → HTML 與網站建置的唯一正式入口。
+`docs/reports/`、`docs/index.html`、`docs/archive.html`、`docs/search.html` 與
+`docs/assets/search_data.json` 都是建置產物，不納入 Git 追蹤。
 
 ## 🚀 自動部署流程
 
@@ -107,20 +114,26 @@ AI Daily Newsletter 現在不是單純「每天搜尋新聞後直接寫出來」
 
 這套流程的目的，是讓電子報從「每日搜尋摘要」升級成**有記憶、有編輯判斷、可持續學習的選題系統**。
 
-## 📝 手動操作
+## 📝 驗證與建置
 
 ```bash
-# 轉換 Markdown 為 HTML
-./scripts/render.sh
+# 執行完整測試
+python3 -m unittest discover -s tests -v
 
-# 推送更新
-./scripts/publish.sh
+# 驗證 Markdown 與新聞台帳
+python3 scripts/site_tools.py validate-source --output output --ledger data/news-ledger.json
+
+# 建置 GitHub Pages 專案路徑版本
+BASE_PATH=/ai-newsletter bash scripts/build-html.sh
+
+# 建置部署在網域根目錄的版本
+BASE_PATH= bash scripts/build-html.sh
 ```
 
 ## 🌐 網站連結
 
 - GitHub Pages: `https://brunolin-tw.github.io/ai-newsletter/`
-- 最新一期: `/reports/2026/02/11.html`
+- 最新一期: GitHub Pages 首頁會自動列出最新 3 期
 
 ---
 
