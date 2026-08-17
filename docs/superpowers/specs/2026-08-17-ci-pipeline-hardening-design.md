@@ -55,7 +55,7 @@
 
 ## 標題正規化遷移
 
-- 一次性修正全部 154 篇 Markdown 首行為 `# 📰 AI Daily Newsletter — YYYY年MM月DD日 HH:MM`（月、日、時、分不足兩位補零），時間取現有首行末段時間，無時間時預設 `09:00`。
+- 一次性修正全部 154 篇 Markdown 首行為 `# 📰 AI Daily Newsletter — YYYY年MM月DD日 HH:MM`（月、日、時、分不足兩位補零）。時間優先取檔案前三行中的既有 newsletter 標題，無時間時預設 `09:00`；若舊標題包在前三行的 `---` front matter 內，遷移時折疊為單一首行標題，避免重複。
 - 修正後移除建置流程中的 `normalize-md.sh` 呼叫，改為驗證步驟；驗證失敗即建置失敗。
 
 ## CI 流程
