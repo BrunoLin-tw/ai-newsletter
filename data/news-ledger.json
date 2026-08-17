@@ -11044,6 +11044,114 @@
       },
       "summary": "Matimo 平台正式全球上線，結合 Workbench、視覺化 Studio 與 Governance 治理層，內建身分、稽核、政策執行與一鍵緊急停止，並提供 SOC2/HIPAA/GDPR 稽核輸出，補上企業 AI Agent 的治理缺口。",
       "from_file": "output/2026/08/16.md"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Nvidia 揭露持有 SpaceX 約 210 億美元股份",
+      "source": "cnbc.com",
+      "company": "Nvidia",
+      "topic": "Nvidia discloses SpaceX stake 21B",
+      "fingerprint": "Nvidia|spacex-21b-stake|2026-08-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "季末申報首次揭露 SpaceX 2.1 億美元規模持股"
+      },
+      "summary": "Nvidia 在季末 SEC 申報中披露持有 122.8 萬股 SpaceX Class A，價值約 210 億美元，為僅次於 Intel 的第二大持倉，反映其對 AI 算力與火箭巨頭生態的深度布局。",
+      "from_file": "output/2026/08/17.md"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "美國法院首見：男子在訴訟狀紙藏 AI 提示注入",
+      "source": "arstechnica.com",
+      "company": "US court system",
+      "topic": "court AI prompt injection hidden in filings",
+      "fingerprint": "US court system|court-ai-prompt-injection-filing|2026-08-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "首次試圖用隱形文字操控法院 AI 系統讀取"
+      },
+      "summary": "康乃狄克州法官確認訴訟人將人眼不可見、僅 AI 可讀的提示注入狀紙，企圖操控任何審閱文件的 AI 系統，法官稱此舉樹立危險先例，顯示法庭 AI 化的新風險。",
+      "from_file": "output/2026/08/17.md"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Stripe 據報導以逾 70 億美元收購 OpenRouter",
+      "source": "techcrunch.com",
+      "company": "Stripe",
+      "topic": "Stripe acquires OpenRouter AI gateway",
+      "fingerprint": "Stripe|acquire-openrouter-ai-gateway|2026-08-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "從傳聞進展到敲定逾 70 億美元收購價"
+      },
+      "summary": "據 Bloomberg，支付巨頭 Stripe 以逾 70 億美元收購 AI 模型閘道新創 OpenRouter，後者提供單一入口存取逾 400 個模型、約 800 萬使用者，被稱為「AI 界的 Stripe」，收購標誌支付與 AI 基礎設施加速整合。",
+      "from_file": "output/2026/08/17.md"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "OpenAI 據報導解散 preparedness 安全團隊",
+      "source": "theverge.com",
+      "company": "OpenAI",
+      "topic": "OpenAI disbands preparedness team",
+      "fingerprint": "OpenAI|disband-preparedness-team|2026-08-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "FT 報導上月底解散負責模型風險評估的團隊"
+      },
+      "summary": "據金融時報，OpenAI 上月底解散其 preparedness 團隊，該團隊負責評估模型是否構成嚴重風險並制定緩解方案；職責被拆散分入 bio、cyber 等既有團隊，是 OpenAI 在 IPO 前持續人事重整的最新一步。",
+      "from_file": "output/2026/08/17.md"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Anthropic 單季營收跳升至逾 115 億美元",
+      "source": "cnbc.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Q2 revenue 11.5B",
+      "fingerprint": "Anthropic|q2-revenue-11-5b|2026-08-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Bloomberg 揭露季營收年增 14 倍財務數據"
+      },
+      "summary": "據 Bloomberg 閱覽文件，Anthropic 第二季初步營收逾 115 億美元，較去年同期 7.87 億美元年增逾 14 倍，並首度轉正調整後營業利益，為潛在大型 IPO 鋪路。",
+      "from_file": "output/2026/08/17.md"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "ChatGPT macOS 新增 Computer History 追蹤操作",
+      "source": "theverge.com",
+      "company": "OpenAI",
+      "topic": "ChatGPT Computer History macOS feature",
+      "fingerprint": "OpenAI|chatgpt-computer-history-macos|2026-08-16",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "opt-in 記錄操作並建議自動化的新桌面部份"
+      },
+      "summary": "ChatGPT 在 macOS 桌面版推出 opt-in 的 Computer History，記錄使用者點擊與鍵盤操作建出時間軸，供 ChatGPT 與 Codex 在請求時參考、建議自動化並接手未完成任務，且不擷取螢幕、影像或音訊。",
+      "from_file": "output/2026/08/17.md"
     }
   ],
   "reason_picked_schema": {
