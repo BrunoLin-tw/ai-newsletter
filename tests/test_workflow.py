@@ -65,11 +65,14 @@ class WorkflowContractTest(unittest.TestCase):
     def test_global_security_and_build_environment_contract(self):
         permissions = indented_block(self.workflow, "permissions")
         self.assertEqual(permissions.strip(), "contents: read")
-        concurrency = indented_block(self.workflow, "concurrency")
-        self.assertRegex(concurrency, r'(?m)^\s+group:\s*["\']?pages-\$\{\{ github\.ref \}\}["\']?\s*$')
-        self.assertRegex(concurrency, r"(?m)^\s+cancel-in-progress:\s*true\s*$")
+        self.assertEqual(indented_block(self.workflow, "concurrency"), "")
         env = indented_block(self.workflow, "env")
         self.assertRegex(env, r"(?m)^\s+BASE_PATH:\s*['\"]?/ai-newsletter['\"]?\s*$")
+
+    def test_builds_cancel_only_older_runs_for_the_same_ref(self):
+        concurrency = indented_block(self.build, "concurrency", 4)
+        self.assertRegex(concurrency, r'(?m)^\s+group:\s*["\']?pages-\$\{\{ github\.ref \}\}["\']?\s*$')
+        self.assertRegex(concurrency, r"(?m)^\s+cancel-in-progress:\s*true\s*$")
 
     def test_build_uses_pinned_pandoc_tests_and_validated_build(self):
         self.assertIn("uses: actions/checkout@", self.build)
