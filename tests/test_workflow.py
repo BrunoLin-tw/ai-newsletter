@@ -9,7 +9,7 @@ ACTION_VERSIONS = {
     "actions/checkout": "v4",
     "r-lib/actions/setup-pandoc": "v2",
     "actions/configure-pages": "v4",
-    "actions/upload-pages-artifact": "v3",
+    "actions/upload-pages-artifact": "v4",
     "actions/deploy-pages": "v4",
 }
 
