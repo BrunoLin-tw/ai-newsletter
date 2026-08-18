@@ -6,11 +6,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WORKFLOW = ROOT / ".github/workflows/ai-newsletter.yml"
 ACTION_VERSIONS = {
-    "actions/checkout": "v4",
+    "actions/checkout": "v5",
     "r-lib/actions/setup-pandoc": "v2",
-    "actions/configure-pages": "v4",
-    "actions/upload-pages-artifact": "v4",
-    "actions/deploy-pages": "v4",
+    "actions/configure-pages": "v6",
+    "actions/upload-pages-artifact": "v5",
+    "actions/deploy-pages": "v5",
 }
 
 
