@@ -11152,6 +11152,144 @@
       },
       "summary": "ChatGPT 在 macOS 桌面版推出 opt-in 的 Computer History，記錄使用者點擊與鍵盤操作建出時間軸，供 ChatGPT 與 Codex 在請求時參考、建議自動化並接手未完成任務，且不擷取螢幕、影像或音訊。",
       "from_file": "output/2026/08/17.md"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Nvidia invests $1.5B in SB Energy to back OpenAI Ohio data center",
+      "url": "https://pureai.com/articles/2026/08/17/invests-1dot5-billion-in-sb-energy-to-back-massive-openai-ohio-data-center.aspx",
+      "source": "pureai.com",
+      "company": "Nvidia",
+      "topic": "Nvidia SB Energy Ohio data center for OpenAI",
+      "fingerprint": "Nvidia|sb-energy-ohio-data-center-openai|2026-08-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "partnership_or_integration",
+          "official_source"
+        ],
+        "note": "Nvidia 以 15 億美元入股並提供信用支持，成為 OpenAI 俄亥俄大型資料中心的獨家 AI 運算基礎設施供應商"
+      },
+      "summary": "Nvidia 投資 15 億美元入股 SB Energy，並為其 PORTS-Pike Technology Campus 提供信用支持，以獨家 AI 算力供應商身分支援 OpenAI 預計租用的 8 IT-GW 大型資料中心，採用 DSX AI 工廠平台。",
+      "from_file": "output/2026/08/18.md"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "KAIST launches AI-LOVI loneliness index framework",
+      "url": "https://www.techtimes.com/articles/324072/20260812/kaist-launches-ai-lovi-august-18-loneliness-index-exposes-unenforceable-companion-ai-laws.htm",
+      "source": "techtimes.com",
+      "company": "KAIST",
+      "topic": "AI-LOVI loneliness measurement framework",
+      "fingerprint": "KAIST|ai-lovi-loneliness-index|2026-08-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "policy_or_regulatory_change",
+          "official_source"
+        ],
+        "note": "首次提出國際量測 AI 對孤獨感影響的標準框架，補足泡伴式 AI 監管缺乏量測基準的缺口"
+      },
+      "summary": "KAIST 於 8/18 發布 AI-LOVI：首套結合自我報告、對話語音特徵與穿戴式生理訊號的孤獨感量測標準，並與 OECD、WHO 於大田會議發表孤獨感治理宣言。",
+      "from_file": "output/2026/08/18.md"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Alibaba launches Qwen3.8-27B laptop model, opens Qwen3.8 Max weights",
+      "url": "https://www.cnbc.com/2026/08/17/alibaba-meta-qwen-open-weight-ai-laptop-models.html",
+      "source": "cnbc.com",
+      "company": "Alibaba",
+      "topic": "Qwen3.8 laptop model and open weights vs Meta",
+      "fingerprint": "Alibaba|qwen3.8-laptop-open-weights-vs-meta|2026-08-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "發布可運行於筆電等消費硬體的 Qwen3.8-27B 並開源 Qwen3.8 Max 權重，正面迎戰 Meta 開源 AI 布局"
+      },
+      "summary": "Alibaba 推出適用於消費級硬體的 Qwen3.8-27B，並開源其最強模型 Qwen3.8 Max 權重；Qwen 衍生模型數量為 Meta 生態系 2.6 倍，邊緣裝置成為開源 AI 新戰場。",
+      "from_file": "output/2026/08/18.md"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Groq raises $350M Series A at $3.5B valuation for AI inference cloud",
+      "url": "https://pulse2.com/groq-raises-350-million-series-a-at-3-5-billion-valuation-as-ai-compute-footprint-targets-200-mw",
+      "source": "pulse2.com",
+      "company": "Groq",
+      "topic": "Groq $350M Series A inference expansion",
+      "fingerprint": "Groq|350m-series-a-inference-expansion|2026-08-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "完成 3.5 億美元 A 輪，計劃將算力由 54 MW 擴至 2027 年逾 200 MW，聚焦全球分布式 AI 推論雲"
+      },
+      "summary": "Groq 完成由 Disruptive 領投、Nvidia 參與的 3.5 億美元 A 輪，估值 35 億美元，計劃於 2027 年將算力從 54 MW 擴張至逾 200 MW，成為全球分布式 AI 推論雲。",
+      "from_file": "output/2026/08/18.md"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Jeff Dean's Discovery Loop in talks for $1B at $10B valuation",
+      "url": "https://www.businessinsider.com/former-google-exec-jeff-dean-valuation-for-new-ai-startup-2026-8",
+      "source": "businessinsider.com",
+      "company": "Google",
+      "topic": "Jeff Dean Discovery Loop funding talks",
+      "fingerprint": "Google|jeff-dean-discovery-loop-funding|2026-08-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Jeff Dean 新創 Discovery Loop 以約 100 億美元估值洽談首輪 10 億美元融資"
+      },
+      "summary": "據 Business Insider 獨家報導，前 Google 首席科學家 Jeff Dean 的新創 Discovery Loop 正以約 100 億美元估值洽談 10 億美元融資，由 Radical Ventures 與 Khosla Ventures 領投。",
+      "from_file": "output/2026/08/18.md"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Higgsfield raises $400M Series B at $5.4B valuation",
+      "url": "https://www.prnewswire.com/news-releases/higgsfield-raises-400-million-series-b-financing-at-5-4-billion-valuation-with-annualized-revenue-reaching-700-million-302852430.html",
+      "source": "prnewswire.com",
+      "company": "Higgsfield",
+      "topic": "Higgsfield $400M Series B AI video platform",
+      "fingerprint": "Higgsfield|400m-series-b-ai-video-platform|2026-08-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "AI 影像創作平台以 54 億美元估值完成 4 億美元 B 輪，年化營收達 7 億美元"
+      },
+      "summary": "Higgsfield 完成 DST Global 領投的 4 億美元 B 輪，估值 54 億美元，年化營收達 7 億美元，代理式產品使用者三個月成長 42 倍，服務 Fortune 500 中 390 家企業。",
+      "from_file": "output/2026/08/18.md"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "TCS launches ADD AgentHub agentic AI for drug development",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-agentic-ai-platform-transform-drug-development",
+      "source": "tcs.com",
+      "company": "TCS",
+      "topic": "TCS ADD AgentHub agentic AI drug development",
+      "fingerprint": "TCS|add-agenhub-agentic-ai-drug-development|2026-08-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "發布企業級代理式 AI 平台，讓製藥業在受監管環境規模化部署 AI 於臨床研發與藥物警戒"
+      },
+      "summary": "TCS 發布 ADD AgentHub，提供角色制、可稽核的代理式 AI 平台，協助製藥業於臨床試驗與藥物警戒規模化部署 AI，宣稱可於臨床資料管理提升最多 40% 效率。",
+      "from_file": "output/2026/08/18.md"
     }
   ],
   "reason_picked_schema": {
