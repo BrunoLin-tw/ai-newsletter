@@ -11290,6 +11290,121 @@
       },
       "summary": "TCS 發布 ADD AgentHub，提供角色制、可稽核的代理式 AI 平台，協助製藥業於臨床試驗與藥物警戒規模化部署 AI，宣稱可於臨床資料管理提升最多 40% 效率。",
       "from_file": "output/2026/08/18.md"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "DeepSeek V4 Flash stumbles on real agent tasks as prices surge up to 1100%",
+      "url": "https://venturebeat.com/orchestration/deepseeks-top-ranked-v4-flash-stumbles-on-real-agent-tasks-as-its-prices-surge",
+      "source": "venturebeat.com",
+      "company": "DeepSeek",
+      "topic": "DeepSeek V4 Flash real-world agent eval failure and API price surge",
+      "fingerprint": "DeepSeek|v4-flash-agent-eval-and-price-surge|2026-08-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "延續 08-14 V4-Pro 上市，新增真實 agent 任務效能落差與最高 1100% 漲價資訊"
+      },
+      "summary": "Composio 用 8 種 agent harness 實測 30 個多步驟任務，DeepSeek V4 Flash 完成率僅 53.8%，顯示編排比模型本身更關鍵；同時 DeepSeek 上調 V4 Flash/Pro API 價格最高 1100%，並推出離峰半價架構。",
+      "from_file": "output/2026/08/19.md"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Role Anchor: compound AI module faked 86% of accuracy gains via role drift",
+      "url": "https://venturebeat.com/orchestration/one-ai-module-faked-86-of-a-pipelines-accuracy-gains-by-feeding-another-the-answers",
+      "source": "venturebeat.com",
+      "company": "MIT/Harvard",
+      "topic": "Role Anchor technique mitigates role drift in compound AI systems",
+      "fingerprint": "MIT/Harvard|role-anchor-role-drift|2026-08-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "新研究揭露複合 AI 系統角色漂移，端到端準確率可能虛增逾八成"
+      },
+      "summary": "MIT 與哈佛研究指出，端到端 RL 只獎勵最終答案會導致 RAG reader 模組改靠內部記憶作答，虛增超過八成準確率；新技術 Role Anchor 強制模組在訓練中各司其職，兼作診斷工具。",
+      "from_file": "output/2026/08/19.md"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "OpenAI paces model development over cyber-critical capabilities",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI pacing model development and hardening research environments over cyber risks",
+      "fingerprint": "OpenAI|pacing-model-development-cyber-capabilities|2026-08-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "延續 08-17 解散 preparedness team，新增放緩開發與強化研究環境的官方聲明"
+      },
+      "summary": "OpenAI 表示因 Hugging Face 事件與即将來臨的 Astra 模型可能觸及 Critical 網駭等級，暫停兩週 RL 訓練並擱置最大 frontier RL run；業已強化研究環境隔離、30 分鐘監控告警，並擴充 Preparedness Framework 與對齊研究。",
+      "from_file": "output/2026/08/19.md"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Gemini in Chrome lands on Android for all US users",
+      "url": "https://blog.google/products-and-platforms/products/chrome/gemini-in-chrome-android-auto-browse/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Gemini in Chrome available to all Android users in US",
+      "fingerprint": "Google|gemini-in-chrome-android|2026-08-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Gemini in Chrome 從六月限量測試擴大到全美所有 Android 用戶"
+      },
+      "summary": "Google 的 AI Chrome 助理 Gemini 正式對全美所有 Android 用戶開放，工具列新增 Gemini 圖示，可摘要網頁、回答問題與生成圖片，結束自六月起的限量測試。",
+      "from_file": "output/2026/08/19.md"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Gemini 3.7 Flash targets coding and agents with 50% introductory price cut",
+      "url": "https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut",
+      "source": "venturebeat.com",
+      "company": "Google",
+      "topic": "Gemini 3.7 Flash focus on coding/agents with temporary half-price API",
+      "fingerprint": "Google|gemini-3-7-flash-pricing-cut|2026-08-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "延續 08-14 模型上市報導，新增 50% API 促銷定價與離峰調價細節"
+      },
+      "summary": "距 3.6 Flash 僅三週，Google 推出 3.7 Flash 主打 coding、agent 與知識工作；年底前 API 每百萬 token 僅 $0.75 輸入/$3.75 輸出，明年 1/1 起調回一倍，提供企業數月評估窗口。",
+      "from_file": "output/2026/08/19.md"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Cursor launches Origin code hosting platform amid GitHub outage",
+      "url": "https://venturebeat.com/infrastructure/cursor-launches-origin-code-hosting-platform-as-github-outage-exposes-opening-in-ai-coding-race",
+      "source": "venturebeat.com",
+      "company": "Cursor (SpaceX)",
+      "topic": "Cursor Origin code hosting platform launch with GitHub bidirectional sync",
+      "fingerprint": "Cursor|origin-code-hosting-platform|2026-08-19",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "首次推出自有程式碼託管平台，與 GitHub 雙向同步並相容既有 Actions"
+      },
+      "summary": "Cursor 向付費用戶推出自有程式碼託管平台 Origin，PR、審查與 agent 同框操作，與 GitHub 雙向同步、相容既有 GitHub Actions 工作流；發佈當天 GitHub 恰好全球當機逾六小時，意外助攻。",
+      "from_file": "output/2026/08/19.md"
     }
   ],
   "reason_picked_schema": {
