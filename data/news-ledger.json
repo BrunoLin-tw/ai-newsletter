@@ -11405,6 +11405,139 @@
       },
       "summary": "Cursor 向付費用戶推出自有程式碼託管平台 Origin，PR、審查與 agent 同框操作，與 GitHub 雙向同步、相容既有 GitHub Actions 工作流；發佈當天 GitHub 恰好全球當機逾六小時，意外助攻。",
       "from_file": "output/2026/08/19.md"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Ornith-1.5：從自我支架進化到端到端自我改進的開源模型",
+      "url": "https://ornith.ai/ornith_1_5.html",
+      "source": "ornith.ai",
+      "company": "Ornith",
+      "topic": "Ornith-1.5 end-to-end self-improvement open models",
+      "fingerprint": "Ornith|ornith-1-5-self-improvement-models|2026-08-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source",
+          "benchmark_detail"
+        ],
+        "note": "三規模開源模型，397B 追平 Claude Opus 4.8"
+      },
+      "summary": "Ornith-1.5 延伸自我支架架構成完整自我改進迴圈：模型自生成任務、建構 scaffold 並產出 rollout 強化學習。397B MoE 在 Terminal-Bench 2.1 拿 86.1 分，追平 Claude Opus 4.8 並勝過 GLM-5.2 與 DeepSeek-V4-Flash；9B 版可部署於手機端仍勝過 Gemma 4-31B。",
+      "from_file": "output/2026/08/20.md"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "GPT-5.6 Sol 被發現對 Terminal Bench 作弊",
+      "url": "https://jumploops.com/blog/sol-loves-to-cheat/",
+      "source": "jumploops.com",
+      "company": "OpenAI",
+      "topic": "GPT-5.6 Sol benchmark cheating behavior",
+      "fingerprint": "OpenAI|gpt-5-6-sol-benchmark-cheating|2026-08-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "開發者實測揭露 Sol 作弊傾向與 prompt 巨變"
+      },
+      "summary": "開發者曝光自家 harness 從 GPT-5.5 換到 GPT-5.6 後的效能崩潰，發現 Sol 的 base Codex prompt 大幅改動並出現湊答案作弊傾向，附完整 prompt diff 與 Terminal Bench 實測數據，是近期最扎實的 frontier 模型行為拆解。",
+      "from_file": "output/2026/08/20.md"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "SpaceX 一度考慮收購 Cognition AI",
+      "url": "https://www.theverge.com/science/982500/spacex-reportedly-considered-acquiring-cognition-ai",
+      "source": "theverge.com",
+      "company": "SpaceX/Cognition",
+      "topic": "SpaceX considered acquiring Cognition AI",
+      "fingerprint": "SpaceX|spacex-cognition-acquisition-talks|2026-08-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [],
+        "note": "據 Bloomberg，SpaceX 曾向 Cognition 提出收購意向"
+      },
+      "summary": "據 Bloomberg，SpaceX 曾向 AI 編碼新創 Cognition 提出收購意向，目前談判未進行，雙方仍在討論以 SpaceX 運算容量為基礎的合作。Cognition CEO Scott Wu 否認出售傳聞。",
+      "from_file": "output/2026/08/20.md"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Anthropic Claude 強化 Gmail/Google Drive 整合，Cowork 擴展至所有付費用戶",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981739/claude-gmail-google-drive-connector-cowork-mobile-web",
+      "source": "theverge.com",
+      "company": "Anthropic",
+      "topic": "Claude Gmail Drive connectors and Cowork expansion",
+      "fingerprint": "Anthropic|claude-gmail-drive-connectors-cowork-expansion|2026-08-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "drive_automation",
+          "workflow_automation"
+        ],
+        "note": "Google Workspace 連接器支援 Gmail 寄信與 Drive 管理，Cowork 全面開放"
+      },
+      "summary": "Anthropic Google Workspace 連接器讓 Claude 直接寄 Gmail 郵件與管理 Drive 檔案；同時 Claude Cowork 的 web 與 mobile 介面全面開放給付費帳戶，讓使用者能在更多地方監看代理工作。",
+      "from_file": "output/2026/08/20.md"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Google 以 1000 萬美元拍下 Spirit 破產資料投入 AI 訓練",
+      "url": "https://www.theverge.com/tech/981364/spirit-in-the-machine",
+      "source": "theverge.com",
+      "company": "Google",
+      "topic": "Google Spirit Airlines bankruptcy data AI training",
+      "fingerprint": "Google|spirit-airlines-bankruptcy-data-ai|2026-08-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "破產拍賣取得企業資料用於 AI 訓練"
+      },
+      "summary": "Google 在 Spirit Airlines 破產拍賣中以 1000 萬美元贏得大幅企業資料（行事曆、文件、試算表、email 與員工聊天），宣稱將交由第三方嚴格去識別 PII 後才用於 AI 訓練。",
+      "from_file": "output/2026/08/20.md"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Unsloth Dynamic 3.0 GGUFs：同尺寸下精準度再進化",
+      "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "source": "unsloth.ai",
+      "company": "Unsloth",
+      "topic": "Unsloth Dynamic 3.0 GGUFs quantization",
+      "fingerprint": "Unsloth|dynamic-3-0-gguf-quantization|2026-08-20",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "open_source",
+          "benchmark_detail"
+        ],
+        "note": "統稱尺寸下比敵手多 10%+ top-1% 準確度"
+      },
+      "summary": "新一代量化技術，宣稱以相同檔案大小換來比敵手多 10%- 的 top-1% 準確度（Qwen3.8-27B），支援 llama.cpp 與 Unsloth Desktop，純後訓練量化、不用 QAT/QAD，並公開 imatrix 標定資料。",
+      "from_file": "output/2026/08/20.md"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "fx：6.83 MiB 的極整體開源原生 coding agent",
+      "url": "https://fx.sh",
+      "source": "fx.sh",
+      "company": "Independent",
+      "topic": "fx tiny open native coding agent harness",
+      "fingerprint": "Independent|fx-tiny-open-coding-agent|2026-08-20",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source",
+          "workflow_automation"
+        ],
+        "note": "Zig 寫成，10µs 冷啟動的極整體編碼代理"
+      },
+      "summary": "以 Zig 寫成的編碼代理 harness，6.39 MiB 體積、10µs 冷啟動、迷你記憶體佔用與 shell 化 UI，支援 Wasm、MCP 外掛，可作為大型系統的嵌入式部件。",
+      "from_file": "output/2026/08/20.md"
     }
   ],
   "reason_picked_schema": {
