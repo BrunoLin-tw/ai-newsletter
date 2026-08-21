@@ -11538,6 +11538,122 @@
       },
       "summary": "以 Zig 寫成的編碼代理 harness，6.39 MiB 體積、10µs 冷啟動、迷你記憶體佔用與 shell 化 UI，支援 Wasm、MCP 外掛，可作為大型系統的嵌入式部件。",
       "from_file": "output/2026/08/20.md"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "MLPerf Client v2.0 加入 Agentic AI 與影像生成測試",
+      "url": "https://www.globenewswire.com/news-release/2026/08/18/3347106/0/en/mlperf-client-v2-0-expands-ai-pc-benchmarking-with-image-generation-and-agentic-ai.html",
+      "source": "globenewswire.com",
+      "company": "MLCommons",
+      "topic": "MLPerf Client v2.0 adds Agentic AI and image generation benchmarks",
+      "fingerprint": "MLCommons|mlperf-client-v2-0-agentic-image-gen-benchmarks|2026-08-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "MLPerf Client v2.0 正式發布，新增 Agentic AI 與影像生成測試情境"
+      },
+      "summary": "MLCommons 推出桌上型 AI 效能標竿新版本，新增 SWE Agent 與 Data Analyst Agent 情境，並導入 Flux.2 klein 4B 影像生成測試及 Qwen 3 8B 實驗項目，涵蓋端到端延遲與吞吐量評估。",
+      "from_file": "output/2026/08/21.md"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "韓國 KT 推出全本土 NPU LLM Station「主權 AI」伺服器",
+      "url": "https://rcrwireless.com/20260820/ai/kt-npu-llm-station",
+      "source": "rcrwireless.com",
+      "company": "KT",
+      "topic": "KT sovereign AI NPU LLM Station server with Rebellions ATOM-MAX",
+      "fingerprint": "KT|sovereign-ai-npu-llm-station|2026-08-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "韓國首款商用主權 AI 伺服器正式發表，全本土 NPU 堆疊"
+      },
+      "summary": "單一機架整合 Rebellions 的韓國設計 ATOM-MAX NPU、KT 自家 Mi:dm 語言模型與維運平台，完全離線運行，鎖定政府、金融與國防等受網路分離法規限制的封閉環境。",
+      "from_file": "output/2026/08/21.md"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "OpenAI 推出 Private Safety Processing 隱私工具，對抗 Anthropic 的 ZDR 落差",
+      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
+      "source": "techcrunch.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Private Safety Processing zero-data-retention misuse monitoring",
+      "fingerprint": "OpenAI|private-safety-processing-zero-retention|2026-08-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "預覽零資料保留的濫用監控服務，直接回應 Anthropic 30 天保留政策爭議"
+      },
+      "summary": "這套自動化系統在完全不保留客戶資料的前提下監控潛在濫用，能跨多段對話偵測惡意行為，直接回應 Anthropic 對「covered models」保留 30 天資料的政策爭議。",
+      "from_file": "output/2026/08/21.md"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Google Gemma 開源模型突破 10 億下載，開發者打造逾 10 萬種變體",
+      "url": "https://www.tradingview.com/news/stocktwits:fe737c19f094b:0-google-s-gemma-ai-models-surpass-1-billion-downloads-as-developers-build-over-100-000-variants-googl-stock-slips",
+      "source": "tradingview.com",
+      "company": "Google",
+      "topic": "Google Gemma open models surpass 1 billion downloads milestone",
+      "fingerprint": "Google|gemma-1-billion-downloads-milestone|2026-08-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "open_source"
+        ],
+        "note": "Gemma 下載量破 10 億、變體逾 10 萬的里程碑數據，並推出 Awesome Gemma 生態目錄"
+      },
+      "summary": "兩年內從 NASA 軌道影像分析、癌症治療路徑發現到 DolphinGemma 海豚叫聲研究都派上用場，Google 同步推出 Awesome Gemma GitHub 生態目錄。",
+      "from_file": "output/2026/08/21.md"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Slack 推出 Slack Code，打造協作式 vibe-coding 頻道",
+      "url": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "source": "theverge.com",
+      "company": "Slack",
+      "topic": "Slack Code collaborative vibe-coding channels with coding agents",
+      "fingerprint": "Slack|slack-code-vibe-coding-channels|2026-08-21",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Slack 正式推出可協作審查的 vibe-coding 頻道，整合多種 coding agent"
+      },
+      "summary": "團隊能在專屬代碼頻道直接 tag Claude、Devin、GitHub Copilot 等 coding agent，檢視 code diff、即時預覽輸出並審核後再上線，自動歸檔並保留稽核紀錄。",
+      "from_file": "output/2026/08/21.md"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Adobe Firefly AI 音訊工具正式上市，生成配音、配樂與音效",
+      "url": "https://www.cnet.com/tech/services-and-software/adobe-ai-audio-soundtrack-music-speech-general-release-2026/",
+      "source": "cnet.com",
+      "company": "Adobe",
+      "topic": "Adobe Firefly AI audio tools general availability",
+      "fingerprint": "Adobe|firefly-ai-audio-tools-ga|2026-08-21",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "Firefly AI 音訊工具正式全面上市，商用授權無版權疑慮"
+      },
+      "summary": "專業導向的 AI 音訊從腳本轉語音、情緒標籤到 20 種語言翻譯，配樂全數附帶通用授權，商用無版權疑慮，鎖定創作者與影音工作流程。",
+      "from_file": "output/2026/08/21.md"
     }
   ],
   "reason_picked_schema": {
