@@ -11654,6 +11654,120 @@
       },
       "summary": "專業導向的 AI 音訊從腳本轉語音、情緒標籤到 20 種語言翻譯，配樂全數附帶通用授權，商用無版權疑慮，鎖定創作者與影音工作流程。",
       "from_file": "output/2026/08/21.md"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Nvidia research shows agent harness matters more than the model itself",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "source": "techcrunch.com",
+      "company": "Nvidia",
+      "topic": "Nvidia AVO harness research ARC-AGI-3 100% score",
+      "fingerprint": "Nvidia|avo-harness-arc-agi-3-100-score|2026-08-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "Nvidia 發布 AVO 研究，harness 讓 Claude Opus 5 在 ARC-AGI-3 達 100%，首次證明 harness 是長時程 agent 關鍵"
+      },
+      "summary": "Nvidia 發布 Agentic Variation Operators (AVO) 研究：自訂 harness（記憶管理 + supervisor 監督 agent）讓 Claude Opus 5 在 ARC-AGI-3 互動推理基準拿下 100% 滿分，而同模型裸跑只有 30%，顯示長時程 agent 任務中 harness 比模型本身更關鍵。",
+      "from_file": "output/2026/08/22.md"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Starcloud raises $250M extension for orbital data centers",
+      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "source": "techcrunch.com",
+      "company": "Starcloud",
+      "topic": "Starcloud orbital data center $250M extension funding",
+      "fingerprint": "Starcloud|orbital-data-center-250m-extension|2026-08-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "太空 AI 推論新創估值 23 億美元，Nvidia/Cisco 參投，鎖定 Starship 發射"
+      },
+      "summary": "太空 AI 推論新創 Starcloud 在 1.7 億美元 Series A 後加碼 2.5 億美元 extension，估值 23 億美元，Nvidia（出資 2500 萬美元）與 Cisco 參與。資金用於擴建製造設施、推進 Starcloud-3 並提前鎖定 SpaceX Starship 發射量能。",
+      "from_file": "output/2026/08/22.md"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "ChatGPT launches Apple Messages plugin to send texts for you",
+      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+      "source": "techcrunch.com",
+      "company": "OpenAI",
+      "topic": "ChatGPT Apple Messages plugin",
+      "fingerprint": "OpenAI|chatgpt-apple-messages-plugin|2026-08-22",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "ChatGPT 正式推出 Apple Messages 外掛，可代擬代發簡訊"
+      },
+      "summary": "OpenAI 推出 ChatGPT 的 Apple Messages 外掛，可整理、分析、編輯訊息，甚至代擬與代發簡訊、刪除訊息或搜尋歷史。處理預設在本地裝置進行，OpenAI 警告開啟「持續批准」將失去送出前的把關機會。",
+      "from_file": "output/2026/08/22.md"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Anthropic Claude Opus 4.6 easily bypassed for explicit content",
+      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+      "source": "techcrunch.com",
+      "company": "Anthropic",
+      "topic": "Claude Opus 4.6 safety bypass explicit content jailbreak",
+      "fingerprint": "Anthropic|opus-4-6-safety-bypass-explicit-content|2026-08-22",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "TechCrunch 測試顯示 Opus 4.6 等未下架模型可被多輪誘導繞過內容限制"
+      },
+      "summary": "TechCrunch 測試發現，用多輪角色扮演誘導技巧即可讓 Claude Opus 4.6、Opus 3、Haiku 4.5 產生禁止的色情內容（10/10 次直接成功），而這類模型仍在 API、Azure Foundry 與 Amazon Bedrock 上線。Anthropic 表示將持續強化防護。",
+      "from_file": "output/2026/08/22.md"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Meta brings vibe-coding game app Pocket to US users",
+      "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+      "source": "techcrunch.com",
+      "company": "Meta",
+      "topic": "Meta Pocket vibe-coding game app US launch",
+      "fingerprint": "Meta|pocket-vibe-coding-game-us-launch|2026-08-22",
+      "section": "tools",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "Pocket 從巴西測試市場正式推向美國使用者"
+      },
+      "summary": "Meta 的實驗性 vibe-coding 遊戲 App《Pocket》正式開放給全美用戶，可用 AI 提示詞生成互動小遊戲並分享、混音重製，同時關閉原本收購的 Gizmo App。這是 Meta 讓 AI 創作工具主流化的最新一步。",
+      "from_file": "output/2026/08/22.md"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Binance Agent OS lets AI agents trade on users' behalf",
+      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "source": "techcrunch.com",
+      "company": "Binance",
+      "topic": "Binance Agent OS AI trading launch",
+      "fingerprint": "Binance|agent-os-ai-trading-launch|2026-08-22",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "finance"
+        ],
+        "note": "全球最大加密交易所開放 AI agent 串接下單，首見 MCP 支援"
+      },
+      "summary": "Binance 推出 Agent OS，讓 AI agent 分析市場並代用戶執行交易，支援 ChatGPT、Claude Code、Cursor 等工具與 MCP 協定。用戶可用專屬子帳戶設限（預設封鎖提款）並選擇逐筆批准或自主執行。",
+      "from_file": "output/2026/08/22.md"
     }
   ],
   "reason_picked_schema": {
