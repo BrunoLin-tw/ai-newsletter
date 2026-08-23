@@ -11768,6 +11768,116 @@
       },
       "summary": "Binance 推出 Agent OS，讓 AI agent 分析市場並代用戶執行交易，支援 ChatGPT、Claude Code、Cursor 等工具與 MCP 協定。用戶可用專屬子帳戶設限（預設封鎖提款）並選擇逐筆批准或自主執行。",
       "from_file": "output/2026/08/22.md"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Nvidia customers notified about AI-related price hikes above 15%",
+      "url": "https://fortune.com/2026/08/22/nvidia-customers-ai-related-price-hikes-15-percent-vera-rubin-grace-blackwell-chips",
+      "source": "fortune.com",
+      "company": "Nvidia",
+      "topic": "Nvidia AI server price hikes due to memory costs",
+      "fingerprint": "Nvidia|ai-server-price-hikes-memory-costs|2026-08-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [],
+        "note": "Nvidia 大客戶接獲 AI 伺服器漲價逾 15% 通知，反映記憶體成本壓力"
+      },
+      "summary": "多家伺服器代工廠已通知微軟、Google、Oracle 等大型雲端客戶，搭載 Vera Rubin 與 Grace Blackwell 晶片的系統明年出貨將漲價逾 15%，顯示三星、SK 海力士與美光在 AI 記憶體需求下的定價話語權。",
+      "from_file": "output/2026/08/23.md"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Inherent's AI 'teammate' Faraday outperforms Anthropic and OpenAI at replicating research",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
+      "source": "techcrunch.com",
+      "company": "Inherent",
+      "topic": "Inherent Faraday paper-replication agent on 27B model",
+      "fingerprint": "Inherent|faraday-paper-replication-agent|2026-08-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "DeepMind 校友新創首次公開 Faraday 結果，27B 模型在論文重現任務上擊敗 frontier 模型"
+      },
+      "summary": "倫敦 AI 新創 Inherent（DeepMind 校友創辦，5 億美元種子輪）發表 AI agent Faraday，以僅 27B 參數的 Qwen 3.6 模型，在不預先給出答案下獨立重現已發表科學論文結果，超越 Claude Opus 4.8 與 GPT-5.5。",
+      "from_file": "output/2026/08/23.md"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Mysterious free AI model Ox Alpha impresses developers on OpenRouter",
+      "url": "https://thenextweb.com/news/ox-alpha-stealth-model-openrouter-anonymous-provider",
+      "source": "thenextweb.com",
+      "company": "Ox Alpha",
+      "topic": "Anonymous Ox Alpha stealth model on OpenRouter",
+      "fingerprint": "Ox Alpha|stealth-model-openrouter|2026-08-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [],
+        "note": "匿名供應商免費釋出百萬 token 模型，開發者評價高但身分成連續兩週話題"
+      },
+      "summary": "代號 Ox Alpha 的免費模型上週四悄然出現在 OpenRouter，提供超過百萬 token 上下文、號稱每日 100 兆 token 容量，Stripe CEO 公開稱讚；身分傳言從 Z.ai 到微軟 MAI 均有，但無人證實。",
+      "from_file": "output/2026/08/23.md"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Claude Mythos 5 now available in Claude Security for vulnerability scanning",
+      "url": "https://cybersecuritynews.com/mythos-5-claude-security-scanning",
+      "source": "cybersecuritynews.com",
+      "company": "Anthropic",
+      "topic": "Claude Mythos 5 in Claude Security with Defender Advantage Fund",
+      "fingerprint": "Anthropic|claude-mythos-5-claude-security-scanning|2026-08-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "Mythos 5 首次進入企業資安產品線，並推出 3,500 萬美元開源資安基金"
+      },
+      "summary": "Anthropic 將先前僅供受核可防禦者的 Mythos-class 模型 Claude Mythos 5 導入 Claude Security，企業客戶可掃描程式庫取得含 CWE 分類、嚴重度與修補建議的報告；同步成立 Defender Advantage Fund（0xDAF），提供 3,500 萬美元 Claude 額度並資助開源軟體安全專案。",
+      "from_file": "output/2026/08/23.md"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Frontier AI labs still won't say how they'd contain a rogue model",
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model",
+      "source": "techcrunch.com",
+      "company": "Guidelight AI Standards",
+      "topic": "Guidelight assessment of frontier labs rogue-model containment",
+      "fingerprint": "Guidelight|frontier-lab-rogue-model-containment|2026-08-22",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "獨立評比五大前沿實驗室的失控模型應變計畫，在監管揭露要求前夕發布"
+      },
+      "summary": "Guidelight AI Standards 評比 Anthropic、Google、OpenAI、Meta 與 xAI 的公開「失控模型封鎖計畫」，結果 OpenAI 居首、Anthropic 與 Meta 墊底；多數實驗室未有完整應變方案，正值加州與紐約擬要求揭露之際。",
+      "from_file": "output/2026/08/23.md"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Meta AI's new Mac app wants you to talk to your apps",
+      "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+      "source": "techcrunch.com",
+      "company": "Meta",
+      "topic": "Meta AI Mac app with system-wide dictation",
+      "fingerprint": "Meta|meta-ai-mac-app-dictation|2026-08-20",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Meta AI 首次登陸 Mac 並提供系統級聽寫，串連商家行銷數據查詢"
+      },
+      "summary": "Meta 推出 Meta AI 專屬 Mac app，內建跨 app 系統級語音聽寫，可用 Muse Spark 模型看畫面即時回答；同時開放商家連接 Instagram/Facebook 廣告帳號與 Google Workspace，用自然語言查詢行銷成效。",
+      "from_file": "output/2026/08/23.md"
     }
   ],
   "reason_picked_schema": {
