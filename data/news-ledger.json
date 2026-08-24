@@ -11878,6 +11878,117 @@
       },
       "summary": "Meta 推出 Meta AI 專屬 Mac app，內建跨 app 系統級語音聽寫，可用 Muse Spark 模型看畫面即時回答；同時開放商家連接 Instagram/Facebook 廣告帳號與 Google Workspace，用自然語言查詢行銷成效。",
       "from_file": "output/2026/08/23.md"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "DeepSeek 推出 V4-Flash-Vision-Exp 多模態模型",
+      "url": "https://dataconomy.com/2026/08/21/deepseek-unveils-vision-model-challenging-anthropics-opus/",
+      "source": "dataconomy.com",
+      "company": "DeepSeek",
+      "topic": "DeepSeek V4-Flash-Vision-Exp multimodal model",
+      "fingerprint": "DeepSeek|v4-flash-vision-exp-multimodal|2026-08-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "official_source"
+        ],
+        "note": "DeepSeek 首款多模態模型，官方宣稱逼近 Opus 4.8"
+      },
+      "summary": "DeepSeek 首次推出多模態模型 V4-Flash-Vision-Exp，為 V4-Flash 加上影像理解，官方宣稱在 Agents' Last Exam、ZeroBench 等指標上逼近甚至超越 Anthropic Opus 4.8，並以低成本定價主打競賽。",
+      "from_file": "output/2026/08/24.md"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "NVIDIA 攜手 LG 打造下一代人形機器人",
+      "url": "https://ts2.tech/en/nvidias-lg-humanoid-robot-push-extends-its-ai-stack-beyond-data-centers/",
+      "source": "ts2.tech",
+      "company": "NVIDIA/LG",
+      "topic": "NVIDIA LG humanoid robot collaboration",
+      "fingerprint": "NVIDIA/LG|humanoid-robot-collaboration|2026-08-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "NVIDIA 首度與 LG 合作跨入人形機器人硬體生態"
+      },
+      "summary": "NVIDIA 與 LG 合作開發下一代雙足人形機器人，採用 Isaac GR00T 基礎模型、Jetson Thor 運算平台與 Halos for Robotics 安全系統，LG 提供致動器、感測器等硬體，預計 2027 年初 CES 亮相。",
+      "from_file": "output/2026/08/24.md"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "OpenAI 砍 GPT-5.6 Sol 開發者價格逾 20%",
+      "url": "https://www.deccanchronicle.com/amp/technology/openai-cuts-developer-pricing-for-frontier-gpt-56-sol-model-by-more-than-20-1981535/",
+      "source": "deccanchronicle.com",
+      "company": "OpenAI",
+      "topic": "OpenAI GPT-5.6 Sol price cut",
+      "fingerprint": "OpenAI|gpt-5.6-sol-price-cut|2026-08-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "因應 Anthropic 與中國模型競爭，主動降旗艦價格"
+      },
+      "summary": "OpenAI 宣布未來三個月下調旗艦 GPT-5.6 Sol 的 API 定價，輸入每百萬 tokens 從 $5 降至 $4、輸出從 $30 降至 $20，並涵蓋 ChatGPT Work 與 Codex 額度，因應與 Anthropic 及中國模型的競爭壓力。",
+      "from_file": "output/2026/08/24.md"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Anthropic 可能月底公開 IPO 文件，目標超越 SpaceX",
+      "url": "https://www.ndtv.com/world-news/anthropic-may-go-public-this-month-aims-to-top-spacexs-record-ipo-size-11945565",
+      "source": "ndtv.com",
+      "company": "Anthropic",
+      "topic": "Anthropic mega IPO filing",
+      "fingerprint": "Anthropic|mega-ipo-filing|2026-08-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [],
+        "note": "IPO 籌備加劇，目標規模超越 SpaceX，恐搶先 OpenAI 上市"
+      },
+      "summary": "報導指出 Anthropic 準備以約 $100B 規模的 IPO 超越 SpaceX 史上最大首日 IPO，可能在本月底公開文件，並有望搶在 OpenAI 之前於今年上市。",
+      "from_file": "output/2026/08/24.md"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Hugging Face 據報以 $130 億估值考慮出售",
+      "url": "https://siliconangle.com/2026/08/23/report-ai-model-hub-hugging-face-exploring-sale-at-13b-valuation/",
+      "source": "siliconangle.com",
+      "company": "Hugging Face",
+      "topic": "Hugging Face potential sale at 13B valuation",
+      "fingerprint": "Hugging Face|potential-sale-13b|2026-08-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "傳出考慮出售，延續 AI 資產收購熱潮"
+      },
+      "summary": "據 Business Insider 報導，Hugging Face 已聘請銀行探詢潛在買家，考慮以 $130 億以上估值出售，目前談判仍在早期階段，反映 AI 基礎設施與模型資產收購熱潮升溫。",
+      "from_file": "output/2026/08/24.md"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Ramp 推出自家 AI 模型路由服務 Router",
+      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+      "source": "techcrunch.com",
+      "company": "Ramp",
+      "topic": "Ramp AI model router service",
+      "fingerprint": "Ramp|ai-model-router-service|2026-08-24",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "財務平台複製 OpenRouter 模式，切入 AI 推論路由市場"
+      },
+      "summary": "Ramp 推出自有 AI 模型路由服務 Router，可切換 OpenAI、Anthropic、DeepSeek、xAI 等多家模型，提供儀表板追蹤 token 花費、延遲等，2026 年底前免費，並提供 $26 額度。",
+      "from_file": "output/2026/08/24.md"
     }
   ],
   "reason_picked_schema": {
