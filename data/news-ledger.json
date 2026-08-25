@@ -11989,6 +11989,123 @@
       },
       "summary": "Ramp 推出自有 AI 模型路由服務 Router，可切換 OpenAI、Anthropic、DeepSeek、xAI 等多家模型，提供儀表板追蹤 token 花費、延遲等，2026 年底前免費，並提供 $26 額度。",
       "from_file": "output/2026/08/24.md"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "IBM 發表首顆雙架構主機晶片，原生支援 Arm 與 Z 指令集",
+      "url": "https://venturebeat.com/infrastructure/ibms-next-gen-mainframe-chip-is-the-first-to-run-arm-and-z-workloads-on-the-same-cores",
+      "source": "venturebeat.com",
+      "company": "IBM",
+      "topic": "IBM dual-architecture mainframe chip Arm+Z",
+      "fingerprint": "IBM|dual-architecture-mainframe-chip-arm-z|2026-08-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "hardware"
+        ],
+        "note": "Hot Chips 首見雙架構主機晶片，可原生跑 Arm AI 與 z/OS"
+      },
+      "summary": "IBM 在 Hot Chips 發表首顆雙架構主機處理器，單一核心奈秒級切換執行自家 Z 指令集與 Arm，讓 Arm 原生 Linux／AI 框架與 z/OS 交易負載可在同機運行。",
+      "from_file": "output/2026/08/25.md"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "阿里正式推出 Wan3.0 影片模型，支援多模態輸入",
+      "url": "https://www.alizila.com/alibaba-unveils-wan3-0-with-twice-as-long-video-outputs-from-a-richer-variety-of-inputs/",
+      "source": "alizila.com",
+      "company": "Alibaba",
+      "topic": "Alibaba Wan3.0 video model GA",
+      "fingerprint": "Alibaba|wan3-0-video-model-ga|2026-08-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "Wan3.0 正式 GA，輸出長度為前代兩倍、支援更多輸入"
+      },
+      "summary": "Alibaba 的 Wan3.0 影片模型正式 GA，可依文字、圖片、影片與音訊（含網頁、PDF、簡報）生成長達 30 秒片段，輸出長度為前代兩倍。",
+      "from_file": "output/2026/08/25.md"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Pew 研究：逾三分之一新網頁疑似由 AI 撰寫",
+      "url": "https://www.pewresearch.org/data-labs/2026/08/20/how-much-of-the-internet-is-written-with-ai/",
+      "source": "pewresearch.org",
+      "company": "Pew Research",
+      "topic": "Pew data on AI-written webpages",
+      "fingerprint": "Pew Research|ai-written-webpages-share|2026-08-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "policy_or_regulatory_change"
+        ],
+        "note": "量化 ChatGPT 發布後 AI 撰寫網頁占比的權威數據"
+      },
+      "summary": "Pew 以 Common Crawl 分析近 50 萬個英文網頁，發現 ChatGPT 發布後新增頁面逾三分之一疑似由 AI 撰寫或大幅編輯；.com 網域約一成有 AI 痕跡。",
+      "from_file": "output/2026/08/25.md"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Anthropic 升級 Claude Tag Slack 代理，可讀全文並主動插話",
+      "url": "https://venturebeat.com/orchestration/anthropics-new-claude-tag-update-lets-its-slack-agent-read-the-full-conversation-and-jump-in-unprompted",
+      "source": "venturebeat.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Claude Tag Slack agent full-context update",
+      "fingerprint": "Anthropic|claude-tag-slack-full-context|2026-08-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Claude Tag 升級讀全文並主動介入，判斷時機準確度提高約 30%"
+      },
+      "summary": "Anthropic 更新 Claude Tag，讓 Slack 代理讀取整段對話脈絡並主動插話，判斷介入時機的準確度提升約 30%，象徵 AI 走向團隊協作的組織級部署。",
+      "from_file": "output/2026/08/25.md"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Apple Music 今年稍晚為 AI 歌曲加註標籤",
+      "url": "https://www.hollywoodreporter.com/music/music-industry-news/apple-music-to-launch-labels-on-ai-tracks-1236677791/",
+      "source": "hollywoodreporter.com",
+      "company": "Apple",
+      "topic": "Apple Music AI transparency labels",
+      "fingerprint": "Apple|apple-music-ai-transparency-labels|2026-08-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "Apple Music 將 AI Transparency Tags 對用戶可見，規範 AI 生成內容標註"
+      },
+      "summary": "Apple Music 通知合作夥伴將「今年稍晚」推出 AI 音樂標籤，讓三月上線的 AI Transparency Tags 對用戶可見，實質由 AI 生成的內容都需加註。",
+      "from_file": "output/2026/08/25.md"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Similarweb 推出內部對話式 AI 廣告追蹤",
+      "url": "https://www.similarweb.com/corp/web/ai-ads/",
+      "source": "similarweb.com",
+      "company": "Similarweb",
+      "topic": "Similarweb conversational AI ads tracking",
+      "fingerprint": "Similarweb|conversational-ai-ads-tracking|2026-08-25",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "新增 ChatGPT／Google AI Mode 廣告追蹤資料集，改用匿名使用資料"
+      },
+      "summary": "Similarweb 推出 AI Ads 追蹤資料集，為 ChatGPT、Google AI Mode 與 AI Overviews 的廣告動向提供洞察，改用匿名網頁使用資料而非合成 prompt。",
+      "from_file": "output/2026/08/25.md"
     }
   ],
   "reason_picked_schema": {
