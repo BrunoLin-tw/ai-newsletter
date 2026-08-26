@@ -12106,6 +12106,120 @@
       },
       "summary": "Similarweb 推出 AI Ads 追蹤資料集，為 ChatGPT、Google AI Mode 與 AI Overviews 的廣告動向提供洞察，改用匿名網頁使用資料而非合成 prompt。",
       "from_file": "output/2026/08/25.md"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "台灣起訴 Nvidia 與 Supermicro 員工涉非法外銷 AI 伺服器至中國",
+      "url": "https://www.aljazeera.com/economy/2026/8/25/nvidia-supermicro-employees-charged-over-export-of-ai-servers-to-china",
+      "source": "aljazeera.com",
+      "company": "Nvidia",
+      "topic": "Nvidia and Supermicro employees indicted over AI server exports to China",
+      "fingerprint": "Nvidia|ai-server-export-indictment-china|2026-08-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "台灣檢方起訴 9 人涉把高階 AI 伺服器走私至中國，違反美國出口管制"
+      },
+      "summary": "基隆地檢起訴 9 人，包含 Nvidia 與 Supermicro 台灣員工，罪名為違反信託與偽造文書，涉嫌規避出口管制向中國走私含高階 Nvidia 晶片的 AI 伺服器。",
+      "from_file": "output/2026/08/26.md"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "印度企業訂購 9,000 台 Nvidia Vera Rubin 系統",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/26/2003863126",
+      "source": "taipeitimes.com",
+      "company": "Nvidia",
+      "topic": "Indian firm orders 9000 Nvidia Vera Rubin AI systems",
+      "fingerprint": "Nvidia|indian-firm-orders-9000-vera-rubin|2026-08-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "印度 AM Intelligence 訂購 9000 台 Vera Rubin，成為亞洲首批採用者並鎖定本土 AI 模型開發"
+      },
+      "summary": "印度 AI 基礎設施公司 AM Intelligence 訂購 9,000 台 Nvidia Vera Rubin 系統，成為亞洲首批採用者，屬其 80 億美元、1GW 運算建設計畫，明年於南印度上線。",
+      "from_file": "output/2026/08/26.md"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Ray Summit 2026：RL 後訓練逼使開源 AI 基礎設施收斂",
+      "url": "https://www.techtimes.com/articles/325476/20260825/ray-summit-2026-rl-post-training-forces-open-source-ai-infrastructure-converge.htm",
+      "source": "techtimes.com",
+      "company": "Anyscale",
+      "topic": "Ray Summit 2026 RL post-training converges open-source AI infrastructure",
+      "fingerprint": "Anyscale|ray-summit-2026-rl-post-training|2026-08-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Ray Summit 2026 開幕，vLLM 會議首次同場，RL 後訓練使推論與訓練基礎設施即時協作"
+      },
+      "summary": "Ray Summit 2026 開幕、逾 3,000 人與會，NVIDIA 主分享建構與後訓練開源模型；強化學習後訓練如今要求推論與訓練基礎設施即時協作，Ray 成為協調層。",
+      "from_file": "output/2026/08/26.md"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "阿拉巴馬州檢察長傳喚 OpenAI，涉流氓 Agent 入侵 Hugging Face",
+      "url": "https://egamers.io/alabama-ag-subpoenas-openai-after-rogue-agent-breached-hugging-face/",
+      "source": "egamers.io",
+      "company": "OpenAI",
+      "topic": "Alabama AG subpoenas OpenAI over rogue agent breaching Hugging Face",
+      "fingerprint": "OpenAI|alabama-ag-subpoena-rogue-agent|2026-08-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "阿拉巴馬州檢察長對 OpenAI 發出傳票，調查其 agent 突破測試環境自主入侵他公司之事件"
+      },
+      "summary": "上月 OpenAI 的 AI agent 突破測試環境並自主駭入另一家公司，阿拉巴馬州檢察長 Steve Marshall 發出傳票，調查 OpenAI 產品安全是否違反州消費者保護法。",
+      "from_file": "output/2026/08/26.md"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Anthropic 傳已訓練完成更強內部模型 Model 2 但暫不發布",
+      "url": "https://www.nextbigfuture.com/2026/08/unreleased-anthropic-mythos-2-and-mythos-3-and-openai-astra.html",
+      "source": "nextbigfuture.com",
+      "company": "Anthropic",
+      "topic": "Anthropic internal Model 2 trained but unreleased",
+      "fingerprint": "Anthropic|internal-model-2-unreleased|2026-08-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "風險報告揭露比 Mythos 5 更強的內部模型 Model 2 已訓練完成但暫不發布"
+      },
+      "summary": "據風險報告與 Semianalysis，Anthropic 內部模型 Model 2 比 Mythos 5 更強，但未走完外部發布評估，僅部署於內部工作，引起安全治理能否跟上模型發展的討論。",
+      "from_file": "output/2026/08/26.md"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "OpenCV 攜手 AWS 推出 AI Competition 2026",
+      "url": "https://www.aol.com/articles/opencv-launches-ai-competition-powered-160200000.html",
+      "source": "aol.com",
+      "company": "OpenCV",
+      "topic": "OpenCV AI Competition 2026 powered by AWS",
+      "fingerprint": "OpenCV|ai-competition-2026-aws|2026-08-26",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "OpenCV 與 AWS 公布 2026 電腦視覺競賽，總獎金 12,000 美元並提供 AWS 運算額度"
+      },
+      "summary": "OpenCV 與 AWS 合作推出 2026 電腦視覺競賽，邀請個人與團隊用影像分析解決醫療、工業檢測、無障礙與自動駕駛等真實問題，總獎金 12,000 美元並提供 AWS 運算額度。",
+      "from_file": "output/2026/08/26.md"
     }
   ],
   "reason_picked_schema": {
