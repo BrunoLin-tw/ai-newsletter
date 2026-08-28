@@ -12335,6 +12335,139 @@
       },
       "summary": "由 Spear Street Technology 打造的生活管理 AI agent Instinct 完成 B 輪，由 Index Ventures 與 Benchmark 領投，累計募資 3.5 億美元、估值 25 億，私人測試中，可串接 app 與裝置並透過簡訊來電溝通。",
       "from_file": "output/2026/08/27.md"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Anthropic 推 Model Hardware Standard 攻進實體世界",
+      "url": "https://www.cnbc.com/2026/08/27/anthropic-pushes-into-physical-world-with-new-standard-to-help-ai-agents-operate-machines.html",
+      "source": "cnbc.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Model Hardware Standard physical AI",
+      "fingerprint": "Anthropic|model-hardware-standard-physical-ai|2026-08-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首次發布 MHS 研究預覽，進軍實體 AI 硬體領域"
+      },
+      "summary": "Anthropic 推出 Model Hardware Standard（MHS），讓 AI 代理能操作並與可程式化儀器、先進製造設備溝通，初期研究預覽、未來計劃開源，並籌建自研晶片團隊。",
+      "from_file": "output/2026/08/28.md"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Z.ai 釋出 GLM-5.3-Flash，號稱全中國晶片運作",
+      "url": "https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html",
+      "source": "cnbc.com",
+      "company": "Z.ai",
+      "topic": "GLM-5.3-Flash domestic chip model launch",
+      "fingerprint": "Z.ai|glm-5.3-flash-domestic-chip-model|2026-08-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "正式發布 GLM-5.3-Flash，含 benchmark 排名與國產晶片新意"
+      },
+      "summary": "Z.ai 發布 GLM-5.3-Flash，宣稱以 10 萬顆中國晶片支撐全部線上請求，在 Artificial Analysis 排名第 10 超前 DeepSeek V4 Pro Max，港股一度漲逾 8%。",
+      "from_file": "output/2026/08/28.md"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Architect Labs 宣稱用 AI 兩週設計出客製晶片",
+      "url": "https://www.businessinsider.com/architect-labs-ai-redwood-chip-design-2026-8",
+      "source": "businessinsider.com",
+      "company": "Architect Labs",
+      "topic": "AI-driven custom chip design in two weeks",
+      "fingerprint": "Architect Labs|ai-chip-design-redwood|2026-08-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "新創宣稱 AI 兩週完成客製晶片設計，挑戰傳統數年時程"
+      },
+      "summary": "Architect Labs 宣稱用 AI 兩週設計出 Redwood 客製晶片，押注設計自動化，已募 $24M seed 與 Broadcom、Marvell 競爭客製晶片市場。",
+      "from_file": "output/2026/08/28.md"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "逾百家企業聯署呼籲強化 AI 網路防禦",
+      "url": "https://www.bbc.com/news/articles/cwyz11475l1o",
+      "source": "bbc.com",
+      "company": "Multiple",
+      "topic": "100 firms open letter AI cyber defense",
+      "fingerprint": "Multiple|ai-cyber-defense-open-letter|2026-08-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "OpenAI、Google、Microsoft、Anthropic 等 100 家公司聯署公開信"
+      },
+      "summary": "逾 100 家包括 OpenAI、Google、Microsoft、Anthropic 的企業簽署公開信，警告 AI 攻擊數月內將更普及更精密，呼籲各國在窗口關閉前強化關鍵基礎設施防禦。",
+      "from_file": "output/2026/08/28.md"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Barret Zoph 重返 Google DeepMind 任研究副總裁",
+      "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+      "source": "techcrunch.com",
+      "company": "Google",
+      "topic": "Barret Zoph rejoins Google DeepMind VP research",
+      "fingerprint": "Google|zoph-rejoins-deepmind-vp-research|2026-08-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Thinking Machines 共同創辦人 Zoph 重返 Google 任研究副總裁"
+      },
+      "summary": "Thinking Machines Lab 共同創辦人、曾短暫待過 OpenAI 的 Barret Zoph 重返 Google DeepMind 任研究副總裁，將投入增強學習與後訓練。",
+      "from_file": "output/2026/08/28.md"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Revolut 成立 AI 研究部門，用自家模型防詐騙",
+      "url": "https://www.fintechfutures.com/ai-in-fintech/revolut-launches-self-learning-intelligence-engine-to-accelerate-ai-deployment",
+      "source": "fintechfutures.com",
+      "company": "Revolut",
+      "topic": "Revolut Research in-house AI models for banking",
+      "fingerprint": "Revolut|revolut-research-in-house-ai-models|2026-08-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "finance"
+        ],
+        "note": "Revolut 新設 AI 研究部門，以自家模型驅動金融應用"
+      },
+      "summary": "Revolut 推出 Revolut Research，以 8000 萬客戶資料打造專屬 AI 模型，應用於詐騙偵測、風險評估與個人化金融功能。",
+      "from_file": "output/2026/08/28.md"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "現代摩比斯展出 40 項 AI 與機器人製造技術",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=13396",
+      "source": "thelec.net",
+      "company": "Hyundai Mobis",
+      "topic": "Hyundai Mobis M-Sphere 2026 manufacturing AI",
+      "fingerprint": "Hyundai Mobis|m-sphere-2026-manufacturing-ai|2026-08-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "M-Sphere 2026 展出 40 項數位孿生與 physical AI 製造技術"
+      },
+      "summary": "現代摩比斯在 M-Sphere 2026 展出約 40 項以 AI 打造的製造技術，聚焦數位孿生與 physical AI 生產應用，展現製造業 AI 落地進展。",
+      "from_file": "output/2026/08/28.md"
     }
   ],
   "reason_picked_schema": {
