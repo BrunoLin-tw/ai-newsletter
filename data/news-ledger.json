@@ -12468,6 +12468,156 @@
       },
       "summary": "現代摩比斯在 M-Sphere 2026 展出約 40 項以 AI 打造的製造技術，聚焦數位孿生與 physical AI 生產應用，展現製造業 AI 落地進展。",
       "from_file": "output/2026/08/28.md"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Google DeepMind 首創雙盲 AI 評測",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "source": "deepmind.google",
+      "company": "Google DeepMind",
+      "topic": "world's first double-blind AI evaluation with encrypted enclave",
+      "fingerprint": "Google DeepMind|double-blind-ai-evaluation|2026-08-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "全球首次雙盲 AI 評測 pilot 正式公布"
+      },
+      "summary": "DeepMind 與新加坡 AISI、OpenMined、MLCommons、AVERI 合作，以硬體加密 enclave 同時密封 Gemini 權重與外部評測題目，完成史上首次雙盲評測，杜絕 benchmark 污染與洩題。",
+      "from_file": "output/2026/08/29.md"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Kimi K3 登頂 Groundtruth 地質推理榜",
+      "url": "https://natlawreview.com/press-releases/kimi-k3-tops-new-benchmark-ai-models-geological-reasoning",
+      "source": "natlawreview.com",
+      "company": "Moonshot AI",
+      "topic": "Groundtruth geological reasoning benchmark results",
+      "fingerprint": "Moonshot AI|groundtruth-geological-benchmark|2026-08-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "新地質領域 benchmark 首評，Kimi K3 91% 居冠、Ox Alpha 免費 CP 值最高"
+      },
+      "summary": "Eigenform 推出用真實地質資料即時出題的 Groundtruth benchmark，Kimi K3 以 91% 總分居冠，Claude、GPT 緊追；Ox Alpha (GLM 5.3 Flash) 免費且 CP 值最高，凸顯通用 benchmark 對專業領域的評估侷限。",
+      "from_file": "output/2026/08/29.md"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Anthropic 展示自動化對齊研究員論文",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "source": "techcrunch.com",
+      "company": "Anthropic",
+      "topic": "automated alignment researcher self-improving AI",
+      "fingerprint": "Anthropic|automated-alignment-researcher|2026-08-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "AAR 論文首發：6 小時勝人類、成本 4 vs 150 美元，遞歸自我改進早期證據"
+      },
+      "summary": "Anthropic Fellow Chen Yueh-Han 論文顯示自動化系統能自行搜文獻、提方法並訓練模型，在 10 個對齊 benchmark 全數改善且不損整體表現；AAR 每小時成本約 4 美元，遠低於人類研究員的 150 美元。",
+      "from_file": "output/2026/08/29.md"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "OpenAI 印度開跑 ChatGPT 廣告、挖角 Meta 亞太高管",
+      "url": "https://theaiinsider.tech/2026/08/28/openai-expands-india-push-with-chatgpt-ads-launch-and-senior-meta-executive-hire",
+      "source": "theaiinsider.tech",
+      "company": "OpenAI",
+      "topic": "ChatGPT ads launch in India and Meta APAC exec hire",
+      "fingerprint": "OpenAI|chatgpt-ads-india-meta-exec-hire|2026-08-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "印度廣告正式上線並挖角 Meta 亞太區副總裁，商業化加速"
+      },
+      "summary": "ChatGPT 免費版與 Go 版在印度向 50 個品牌投放廣告（WPP、Omnicom 合作），下月推廣告管理平台；同時延攬 Meta 印度與東南亞副總裁 Sandhya Devanathan 掌管東南亞與澳洲市場。印度 WAU 已破 1 億。",
+      "from_file": "output/2026/08/29.md"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "DeepSeek 傳 74 億美元融資、估值衝 740 億美元",
+      "url": "https://finance.biggo.com/news/af564e56-b3b6-4f8b-9663-4c6308ac640a",
+      "source": "finance.biggo.com",
+      "company": "DeepSeek",
+      "topic": "DeepSeek 7.4B funding round 74B valuation targeting 2027 IPO",
+      "fingerprint": "DeepSeek|7.4b-funding-round-74b-valuation|2026-08-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [],
+        "note": "新一輪融資估值從 50B 翻到 74B，首度開放直接持股，瞄準 2027 上海 IPO"
+      },
+      "summary": "據 WSJ，DeepSeek 新一輪目標 74 億美元、估值升至 740 億美元；CATL、Monolith、Shixiang 續投，並首度開放直接持股，已聘銀行顧問規劃 2027 年上海 IPO。ARR 約 5 億美元，仍處燒錢擴張階段。",
+      "from_file": "output/2026/08/29.md"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "AWS × NVIDIA 擴展合作：加碼 200 萬顆 GPU 與美國政府 AI 工廠",
+      "url": "https://www.aboutamazon.com/news/aws/aws-nvidia-2-million-gpus-ai",
+      "source": "aboutamazon.com",
+      "company": "AWS/NVIDIA",
+      "topic": "AWS NVIDIA 2 million GPU expansion and federal AI factories",
+      "fingerprint": "AWS/NVIDIA|2m-gpu-expansion-ai-factories|2026-08-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "再追加 200 萬 GPU、導入 Vera CPU，並為美國政府建 10 萬 GPU 機密 AI 工廠"
+      },
+      "summary": "AWS 與 NVIDIA 宣布 2027-2028 加碼部署 200 萬顆 Blackwell Ultra / Rubin / Rubin Ultra GPU，並導入 NVIDIA Vera CPU；另為美國政府打造含 10 萬顆 GPU 的機密級 AI 工廠，鎖定 agentic AI 與物理 AI 需求。",
+      "from_file": "output/2026/08/29.md"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Harness 推出 Agent-Ready 程式碼庫與 AI Code Review",
+      "url": "https://aithority.com/machine-learning/harness-launches-code-repository-with-ai-code-review-for-agent-ready-development",
+      "source": "aithority.com",
+      "company": "Harness",
+      "topic": "agent-ready code repository and AI code review launch",
+      "fingerprint": "Harness|agent-ready-code-repository|2026-08-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "為 AI agent 大量寫碼設計的 repo + 審查系統正式發布"
+      },
+      "summary": "Harness 推出 Agent-Ready Code Repository 與 AI Code Review：可扛住數千並行 PR/commit，AI agent 有專屬 RBAC/OPA 權限，審查理解每個變更風險；附免費企業版與一鍵遷移，直接挑戰 Git 世代設計的 GitHub。",
+      "from_file": "output/2026/08/29.md"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "JFrog Traffic Controller 在網路層控管 AI agent 套件下載",
+      "url": "https://technode.global/2026/08/28/jfrog-traffic-controller-software-package-downloads-ai-agents",
+      "source": "technode.global",
+      "company": "JFrog",
+      "topic": "software supply chain traffic controller for AI coding agents",
+      "fingerprint": "JFrog|traffic-controller-supply-chain|2026-08-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "網路層攔截開發者與 AI agent 的套件下載，補足供應鏈控管缺口"
+      },
+      "summary": "JFrog 推出 Traffic Controller，在網路層把開發者、自動化工具與 AI coding agent 的套件請求導向 Artifactory 做資安/授權/品質檢查；支援 Zscaler、Cloudflare、Netskope，回應惡意套件年增 451% 的威脅。",
+      "from_file": "output/2026/08/29.md"
     }
   ],
   "reason_picked_schema": {
