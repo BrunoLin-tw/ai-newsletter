@@ -12618,6 +12618,143 @@
       },
       "summary": "JFrog 推出 Traffic Controller，在網路層把開發者、自動化工具與 AI coding agent 的套件請求導向 Artifactory 做資安/授權/品質檢查；支援 Zscaler、Cloudflare、Netskope，回應惡意套件年增 451% 的威脅。",
       "from_file": "output/2026/08/29.md"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Apple 發表 M6 與 M5 Ultra：首顆 2nm 晶片與四晶粒架構",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "source": "apple.com",
+      "company": "Apple",
+      "topic": "Apple M6 and M5 Ultra chips 2nm quad-die AI compute",
+      "fingerprint": "Apple|m6-m5-ultra-2nm|2026-08-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "M6 首顆 2nm 晶片、M5 Ultra 首度四晶粒架構，官方新聞稿確認"
+      },
+      "summary": "Apple 發表 M6（首款 2nm 製程，雙 16 核 Neural Engine）與 M5 Ultra（UltraFusion 四晶粒 SoC，1.2TB/s 統一記憶體頻寬），主打 AI 工作負載的效能躍進。",
+      "from_file": "output/2026/08/30.md"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "NVIDIA 發表 Jetson Orin Nano 2：入門邊緣 AI 效能翻倍",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai",
+      "source": "nvidianews.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA Jetson Orin Nano 2 robotics computer edge AI launch",
+      "fingerprint": "NVIDIA|jetson-orin-nano-2|2026-08-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "real_world_deployment"
+        ],
+        "note": "官方新聞稿；推論效能 2 倍、功耗 -40%，Cognex 等首批採用"
+      },
+      "summary": "NVIDIA 發表 Jetson Orin Nano 2 機器人電腦，推論效能較前代增 2 倍、同效能功耗降 40%，鎖定機器人、物流無人機與視覺 AI 等入門級邊緣應用。",
+      "from_file": "output/2026/08/30.md"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "a16z 募得 11 億美元 Machine Age 基金押注 AI 硬體基礎設施",
+      "url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
+      "source": "techcrunch.com",
+      "company": "a16z",
+      "topic": "a16z Machine Age Fund AI hardware infrastructure investment",
+      "fingerprint": "a16z|machine-age-fund-ai-infrastructure|2026-08-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "新基金轉向 AI 硬體/基礎設施，規模 11 億美元，為產業資金動向指標"
+      },
+      "summary": "Andreessen Horowitz 募得 11 億美元 Machine Age Fund，投資晶片、記憶體、資料中心、機器人與邊緣裝置，加速 AI 實體基礎建設。",
+      "from_file": "output/2026/08/30.md"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "OpenAI 因 SpaceX 收購 Cursor 終止模型授權",
+      "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+      "source": "cnbc.com",
+      "company": "OpenAI",
+      "topic": "OpenAI terminates Cursor model access after SpaceX acquisition",
+      "fingerprint": "OpenAI|cursor-model-access-termination|2026-08-29",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "因 SpaceX 收購 Cursor 終止模型供應，11/12 斷供；Anthropic 趁勢加碼"
+      },
+      "summary": "OpenAI 宣布終止 Cursor 的模型存取，理由是無法信任 SpaceX 遵守服務條款，預定 11/12 斷供；Cursor 稱 OpenAI 模型僅佔其流量 5%，Anthropic 承諾加碼 Claude 算力。",
+      "from_file": "output/2026/08/30.md"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Sony Music 與 Warner Chappell 控告 Anthropic 大規模侵權",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "source": "techcrunch.com",
+      "company": "Anthropic",
+      "topic": "Sony Music Warner Chappell sue Anthropic copyright infringement",
+      "fingerprint": "Anthropic|sony-warner-copyright-lawsuit|2026-08-29",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "兩大音樂出版商聯合提告，指控非法下載/爬取受版權保護歌曲訓練 Claude"
+      },
+      "summary": "Sony Music Publishing 與 Warner Chappell 等出版商控告 Anthropic 及共同創辦人，指控其透過非法下載、爬取與抓取受版權保護的作品訓練 Claude；Anthropic 表示將強力辯護。",
+      "from_file": "output/2026/08/30.md"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Cohere 推出 Parse：企業文件結構化專用視覺模型",
+      "url": "https://cohere.com/blog/parse",
+      "source": "cohere.com",
+      "company": "Cohere",
+      "topic": "Cohere Parse vision model enterprise document structuring",
+      "fingerprint": "Cohere|parse-document-vlm|2026-08-27",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "官方部落格發布；專用文件解析 VLM，支援 9 種語言與私有部署"
+      },
+      "summary": "Cohere 推出 Parse，一款將複雜企業文件轉為結構化資料的視覺語言模型，支援表格、圖表與掃描圖片解析，輸出乾淨 Markdown 供 RAG 與 agentic 檢索使用。",
+      "from_file": "output/2026/08/30.md"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "DBS 與 Stripe 合作打造亞洲 AI agent 支付軌道",
+      "url": "https://www.dbs.com/newsroom/DBS_and_Stripe_partner_to_accelerate_the_digital_and_AI_powered_economy_in_Asia",
+      "source": "dbs.com",
+      "company": "DBS",
+      "topic": "DBS Stripe partnership agentic commerce AI payment rails Asia",
+      "fingerprint": "DBS|stripe-agentic-commerce-payments|2026-08-27",
+      "section": "tools",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "finance"
+        ],
+        "note": "官方新聞稿；銀行與支付業者攜手打造 AI agent 支付基礎設施"
+      },
+      "summary": "DBS 與 Stripe 宣布策略合作，結合 DBS 泛亞銀行網絡與 Stripe 可程式化金融服務，支援 agentic commerce 與跨境支付，讓 AI agent 自主完成交易與收款。",
+      "from_file": "output/2026/08/30.md"
     }
   ],
   "reason_picked_schema": {
