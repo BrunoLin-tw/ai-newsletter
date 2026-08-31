@@ -12755,6 +12755,143 @@
       },
       "summary": "DBS 與 Stripe 宣布策略合作，結合 DBS 泛亞銀行網絡與 Stripe 可程式化金融服務，支援 agentic commerce 與跨境支付，讓 AI agent 自主完成交易與收款。",
       "from_file": "output/2026/08/30.md"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "NVIDIA Groq 3 LPX 正式量產：Vera Rubin 平台推論加速器",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-groq-3-lpx-now-in-full-production-with-world-class-speed-for-agentic-ai",
+      "source": "nvidianews.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA Groq 3 LPX full production inference accelerator",
+      "fingerprint": "NVIDIA|groq-3-lpx-full-production|2026-08-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "Hot Chips 正式宣布量產，附 Artificial Analysis 基準與 Nebius 採用"
+      },
+      "summary": "NVIDIA 在 Hot Chips 宣布 Groq 3 LPX 進入全量產，作為 Vera Rubin 平台的互動式推論加速器，單機架 256 顆 LP30、100K context 每秒 3,400 tokens，Nebius 首家採用。",
+      "from_file": "output/2026/08/31.md"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Google DeepMind Co-Scientist 升級：規劃實驗、操作設備、撰寫論文",
+      "url": "https://the-decoder.com/google-deepminds-ai-co-scientist-now-plans-experiments-runs-lab-equipment-and-writes-scientific-papers/",
+      "source": "the-decoder.com",
+      "company": "Google DeepMind",
+      "topic": "Co-Scientist lab-integrated closed-loop research partner",
+      "fingerprint": "Google DeepMind|co-scientist-lab-integration|2026-08-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "從假設生成器擴展為閉迴路實驗室研究夥伴，三領域實驗驗證"
+      },
+      "summary": "Google DeepMind 把 Co-Scientist 從假設生成器升級為整合實驗室的研究夥伴：能規劃實驗、寫程式、控制設備並產出論文，已在材料科學、生物學與電腦科學取得實驗驗證成果。",
+      "from_file": "output/2026/08/31.md"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Tencent 開源 Hy4 preview：770B 參數旗艦 MoE 模型",
+      "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "source": "tencent.com",
+      "company": "Tencent",
+      "topic": "Tencent Hy4 preview open-source 770B MoE model",
+      "fingerprint": "Tencent|hy4-preview-open-source|2026-08-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "官方開源 770B 旗艦模型，百萬 context，內部盲測領先 GLM-5.3 與 Kimi K3"
+      },
+      "summary": "Tencent 開源 Hy4 preview：770B 總參數、49B 活躍參數、逾百萬 token context，主打 coding、辦公與科學研究；WorkBuddy/CodeBuddy 兩週免費，支援 TokenHub 與 OpenRouter API。",
+      "from_file": "output/2026/08/31.md"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Salesforce × Anthropic 宣布 Claudeforce 策略合作",
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+      "source": "salesforce.com",
+      "company": "Salesforce/Anthropic",
+      "topic": "Claudeforce partnership Salesforce in Claude plugin",
+      "fingerprint": "Salesforce/Anthropic|claudeforce-partnership|2026-08-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "擴大策略合作，首發 Salesforce in Claude 外掛含 37 個銷售技能"
+      },
+      "summary": "Salesforce 與 Anthropic 宣布 Claudeforce 擴大的策略合作，首發 Salesforce in Claude 外掛內建 37 個銷售技能，讓賣家與 agent 直接在 Claude 讀取即時營收資料並執行受治理的銷售動作。",
+      "from_file": "output/2026/08/31.md"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Anthropic 開放 10,000 個科學家席位免費/折扣使用 Claude",
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude team plan for scientists 10000 seats",
+      "fingerprint": "Anthropic|scientist-team-plan-10000-seats|2026-08-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "education"
+        ],
+        "note": "開放 10,000 席科學家方案，AI for Science 計畫擴大範疇"
+      },
+      "summary": "Anthropic 推出 Claude team plan for scientists：學術與非營利機構 PI 可獲免費標準席位，5 倍用量 premium 每月 $15，並把 AI for Science 計畫擴大到生物以外的運算密集型研究領域。",
+      "from_file": "output/2026/08/31.md"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "WSJ：Google 將 DeepMind AI 責任團隊移往 Global Affairs",
+      "url": "https://www.wsj.com/tech/ai/google-moves-ai-responsibility-team-out-of-deepmind-lab-in-latest-shake-up-ed01e40c",
+      "source": "wsj.com",
+      "company": "Google",
+      "topic": "AI responsibility team moved from DeepMind to Global Affairs",
+      "fingerprint": "Google|ai-responsibility-team-global-affairs|2026-08-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "約 90 人 AI 責任團隊從 DeepMind 移出，屬高層改組一環，內部憂心獨立性"
+      },
+      "summary": "WSJ 報導 Google 將約 90 人的 AI responsibility 團隊從 DeepMind 移至 Global Affairs 部門，研究人員憂心獨立性與模型開發者接觸受影響；此為 Hassabis 淡出日常管理後的高層改組一部分。",
+      "from_file": "output/2026/08/31.md"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Hugging Face 開賣 $399 開源鴨子機器人 Microduck",
+      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "source": "techcrunch.com",
+      "company": "Hugging Face",
+      "topic": "Microduck open-source affordable biped robot",
+      "fingerprint": "Hugging Face|microduck-open-source-robot|2026-08-27",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Pollen Robotics 開源雙足機器人開放預購，$399 切入平民化實體 AI"
+      },
+      "summary": "Hugging Face 旗下 Pollen Robotics 開賣 $399 開源鴨子機器人 Microduck：25 公分高、內建相機/LiDAR/雙 IMU，會走路、跌倒爬起、撿物甚至溜冰，行為可在模擬中訓練直接部署。",
+      "from_file": "output/2026/08/31.md"
     }
   ],
   "reason_picked_schema": {
