@@ -12892,6 +12892,160 @@
       },
       "summary": "Hugging Face 旗下 Pollen Robotics 開賣 $399 開源鴨子機器人 Microduck：25 公分高、內建相機/LiDAR/雙 IMU，會走路、跌倒爬起、撿物甚至溜冰，行為可在模擬中訓練直接部署。",
       "from_file": "output/2026/08/31.md"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "NVIDIA 砸 35 億美元投資聯發科，綁定客製 AI 晶片生態",
+      "url": "https://www.storagereview.com/news/nvidia-mediatek-partnership-deepens-with-3-5-billion-investment-nvlink-fusion-xpus-and-rtx-spark-pcs",
+      "source": "storagereview.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA MediaTek 3.5B investment NVLink Fusion custom XPU",
+      "fingerprint": "NVIDIA|mediatek-3-5b-investment-nvlink-fusion|2026-09-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "NVIDIA 對非美企業最大直接投資，NVLink Fusion 綁定客製晶片生態"
+      },
+      "summary": "NVIDIA 以 35 億美元可轉債投資聯發科，聯發科將採用 NVLink Fusion 為雲端客戶設計客製 XPU，並合作 RTX Spark PC 與車用平台，鞏固 NVIDIA 在客製 AI 晶片時代的基礎設施主導權。",
+      "from_file": "output/2026/09/01.md"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Meta 自研 Iris AI 晶片本月量產，降低對 NVIDIA 依賴",
+      "url": "https://www.briefs.co/news/meta-to-start-producing-custom-ai-processors-in-fall-2026/",
+      "source": "briefs.co",
+      "company": "Meta",
+      "topic": "Meta Iris AI chip production start",
+      "fingerprint": "Meta|iris-ai-chip-production-start|2026-09-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "MTIA 自研晶片正式進入量產，目標倍增 AI 運算能力"
+      },
+      "summary": "Meta 的 MTIA 自研 AI 晶片 Iris 於 9 月正式量產，由 Broadcom 設計、台積電代工，目標倍增 AI 運算能力並降低對外購 GPU 的依賴。",
+      "from_file": "output/2026/09/01.md"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Cerebras 攜手芬蘭 Compute Nordic 打造 165MW AI 資料中心",
+      "url": "https://markets.businessinsider.com/news/stocks/cerebras-and-compute-nordic-finland-announce-new-165-mw-ai-data-centre-in-mikkeli-finland-1036509897",
+      "source": "businessinsider.com",
+      "company": "Cerebras",
+      "topic": "Cerebras Mikkeli Finland 165MW AI data centre",
+      "fingerprint": "Cerebras|mikkeli-finland-165mw-data-centre|2026-09-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "165MW 分階段擴建，首期 50MW 已動工，七年合約鎖定需求"
+      },
+      "summary": "Cerebras 與 Compute Nordic Finland 宣布在芬蘭 Mikkeli 打造 165MW AI 資料中心，首期 50MW 已動工，採封閉循環冷卻與廢熱回收設計，以七年合約鎖定長期 AI 運算需求。",
+      "from_file": "output/2026/09/01.md"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "John Ternus 接任 Apple CEO，迎戰 AI 落後局面",
+      "url": "https://www.aljazeera.com/economy/2026/9/1/john-ternus-to-lead-apple-into-the-age-of-ai",
+      "source": "aljazeera.com",
+      "company": "Apple",
+      "topic": "John Ternus Apple CEO handover",
+      "fingerprint": "Apple|ternus-ceo-handover|2026-09-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "Tim Cook 卸任，硬體工程出身的 Ternus 接掌 Apple 並面對 AI 落後挑戰"
+      },
+      "summary": "John Ternus 正式接任 Apple CEO，結束 Tim Cook 15 年任期。硬體工程出身的他將在 9 月 9 日 iPhone 發表會迎來首場大考，外界預期以硬體創新為主軸補足 Apple 的 AI 戰力。",
+      "from_file": "output/2026/09/01.md"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "OpenAI 擴大 Daybreak 防禦計畫，推出 GPT-5.6-Cyber",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Daybreak expansion GPT-5.6-Cyber",
+      "fingerprint": "OpenAI|daybreak-expansion-gpt-5-6-cyber|2026-09-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "Daybreak Blue/Red 兩級存取與 GPT-5.6-Cyber 正式推出，進階資安任務完成率 95%"
+      },
+      "summary": "OpenAI 擴大 Daybreak 防禦計畫，新增 Blue/Red 兩級存取權限，Red 級提供專訓的 GPT-5.6-Cyber 模型，在進階資安任務完成率達 95%，要在攻擊者大規模部署攻擊型 AI 前強化防禦。",
+      "from_file": "output/2026/09/01.md"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Anthropic 簽下 350 億美元雲端運算大單，攜手 NVIDIA 系 Lambda",
+      "url": "https://www.aol.com/articles/anthropic-signs-35-billion-cloud-235939000.html",
+      "source": "aol.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Lambda 35B cloud deal Texas data center",
+      "fingerprint": "Anthropic|lambda-35b-cloud-deal-texas|2026-09-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "與 Hut 8 在德州開發 350MW 資料中心，為 Claude 擴充 GPU 基礎設施"
+      },
+      "summary": "Anthropic 與 NVIDIA 支持的 Lambda 簽下 350 億美元雲端運算合約，由 Hut 8 在德州 Nueces County 開發約 350MW 資料中心，為 Claude 擴充 GPU 基礎設施。",
+      "from_file": "output/2026/09/01.md"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Google Antigravity 新增 /boost 指令，多代理深度推理管線",
+      "url": "https://antigravity.google/docs/boost/",
+      "source": "antigravity.google",
+      "company": "Google",
+      "topic": "Antigravity /boost multi-agent reasoning pipeline",
+      "fingerprint": "Google|antigravity-boost-multi-agent-pipeline|2026-09-01",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Antigravity 2.0 新增 /boost 多代理深度推理管線，針對硬核編程任務"
+      },
+      "summary": "Google Antigravity 新增 /boost 指令，啟動多代理深度推理管線，針對併發 bug、深度重構等硬核任務，由主編排器拆解子任務、隔離子代理實作與驗證，最後對測試套件整體驗證。",
+      "from_file": "output/2026/09/01.md"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "ByteDance 發表 Lucida：影片一鍵轉成可編輯 3D 場景",
+      "url": "https://aiweekly.co/alerts/lucida-rebuilds-indoor-scenes-as-editable-assets-from-video",
+      "source": "aiweekly.co",
+      "company": "ByteDance",
+      "topic": "ByteDance Lucida video to editable 3D scene",
+      "fingerprint": "ByteDance|lucida-video-to-editable-3d-scene|2026-09-01",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "Lucida 三階段管線將室內影片重建為可編輯 3D 資產，R2S-Scene mAP 提升 69%"
+      },
+      "summary": "ByteDance Seed 發表 Lucida，將雜亂室內影片解析成逐物件場景圖、生成資產，再用 VLM 策略 GizmoAct 以多輪 GUI 操作完成擺放，R2S-Scene 上 mAP 提升 69%。",
+      "from_file": "output/2026/09/01.md"
     }
   ],
   "reason_picked_schema": {
