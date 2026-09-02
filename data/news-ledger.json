@@ -13046,6 +13046,118 @@
       },
       "summary": "ByteDance Seed 發表 Lucida，將雜亂室內影片解析成逐物件場景圖、生成資產，再用 VLM 策略 GizmoAct 以多輪 GUI 操作完成擺放，R2S-Scene 上 mAP 提升 69%。",
       "from_file": "output/2026/09/01.md"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Anthropic 發布 Claude Fable 5.1 與 Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude Fable 5.1 and Mythos 5.1 launch",
+      "fingerprint": "Anthropic|claude-fable-mythos-5-1-launch|2026-09-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "新一代旗艦模型正式發布，Terminal-Bench-Science 52.6% 為前代兩倍，另降 cache 價格 25-45%"
+      },
+      "summary": "Anthropic 推出 Claude Fable 5.1 與 Mythos 5.1（本質同一模型、防護等級不同），號稱世界最強編碼與知識工作模型；Fable 5.1 在 Terminal-Bench-Science 0.1 達 52.6%（前代 24.7% 兩倍）、Terminal-Bench 4.0 55.8%，並調降 cache read 價格約 25-45%，推出 Enterprise Frontier Safeguards（EFS）讓企業自控資料儲存。",
+      "from_file": "output/2026/09/02.md"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "OpenAI 宣布 Astra 跨越 Critical 網路安全門檻",
+      "url": "https://openai.com/index/path-to-astra/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "Astra critical cybersecurity threshold ExploitBench 100%",
+      "fingerprint": "OpenAI|astra-critical-cyber-threshold|2026-09-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "security_research",
+          "benchmark_detail"
+        ],
+        "note": "首次認定達 Critical 門檻，ExploitBench 100% 且自主發現兩個 zero-day；相對 8/27 Astra 預覽為實質新進展"
+      },
+      "summary": "OpenAI 表示 Astra 已達其 Preparedness Framework 的 Critical 網路安全門檻，成為第一個被貼此標籤的模型；在 ExploitBench 拿下 100%，內部 20 個新 V8 漏洞測試中自主發現並利用兩個 zero-day。最強網路安全功能初期僅限受信任測試者（Daybreak Blue）使用。",
+      "from_file": "output/2026/09/02.md"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "歐盟將 ChatGPT 列為超大型線上搜尋引擎",
+      "url": "https://gizmodo.com/the-eu-has-officially-decided-chatgpt-is-a-search-engine-2000805030",
+      "source": "gizmodo.com",
+      "company": "European Commission",
+      "topic": "EU DSA ChatGPT VLOSE designation",
+      "fingerprint": "European Commission|chatgpt-vlose-dsa-designation|2026-09-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "首個被納入 DSA 最嚴格監管的獨立 AI 服務"
+      },
+      "summary": "歐盟執委會依數位服務法（DSA）將 ChatGPT 認定為「超大型線上搜尋引擎」（VLOSE），成為第一個被納入最嚴格平台監管的獨立 AI 服務，須承擔系統性風險評估與透明度義務；Reddit 與 Roblox 同步被列為 VLOP。",
+      "from_file": "output/2026/09/02.md"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "五角大廈 GenAI.mil 新增 ChatGPT Mil 與 Grok for Government",
+      "url": "https://gizmodo.com/us-military-rolls-out-custom-versions-of-chatgpt-and-grok-for-warfighters-2000805580",
+      "source": "gizmodo.com",
+      "company": "DoD",
+      "topic": "Pentagon GenAI.mil ChatGPT Grok rollout",
+      "fingerprint": "DoD|genaimil-chatgpt-grok-rollout|2026-09-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [],
+        "note": "國防部正式對 300 萬軍文職人員開放兩大客製 AI"
+      },
+      "summary": "美國國防部在安全 AI 平台 GenAI.mil 上線 OpenAI 的 ChatGPT Mil 與 xAI（Starshield AI）的 Grok for Government 客製版本，供 300 萬軍文職人員用於機密以下工作；平台已有超過 170 萬註冊用戶，先前僅有 Google Gemini。",
+      "from_file": "output/2026/09/02.md"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Google Pics 正式上線",
+      "url": "https://9to5google.com/2026/09/01/google-pics-launch/",
+      "source": "9to5google.com",
+      "company": "Google",
+      "topic": "Google Pics Workspace AI image editor GA",
+      "fingerprint": "Google|google-pics-workspace-image-editor|2026-09-02",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools"
+        ],
+        "note": "Nano Banana 驅動的 Workspace 影像工具正式 GA"
+      },
+      "summary": "Google 宣布 Workspace 原生 AI 影像創作與編輯工具 Google Pics 進入一般可用，基於 Nano Banana 模型，支援物件級精準編輯、圖中文字翻譯（29 種語言）、2K/4K 放大與多人協作，可從 Docs/Slides 或 pics.new 使用，向 AI Pro/Ultra 與多數企業用戶開放。",
+      "from_file": "output/2026/09/02.md"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "帝國理工 AI 兩秒內從心電圖偵測心臟病",
+      "url": "https://www.theguardian.com/technology/2026/aug/31/superhuman-ai-tool-spots-heart-disease",
+      "source": "theguardian.com",
+      "company": "Imperial College London",
+      "topic": "superhuman AI ECG heart disease detection",
+      "fingerprint": "Imperial College|ecg-ai-heart-disease-detection|2026-09-02",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "healthcare"
+        ],
+        "note": "6.7 萬人試驗證實可從例行 ECG 篩出心衰竭與瓣膜病"
+      },
+      "summary": "帝國理工學院團隊開發「超人級」AI 工具，能在兩秒內從例行心電圖（ECG）提取人眼看不見的訊號，篩出心衰竭（81%）與心臟瓣膜病（90%）；6.7 萬人美國試驗結果於歐洲心臟學會年會發表，可望讓高風險病患更快排上超音波確診與治療。",
+      "from_file": "output/2026/09/02.md"
     }
   ],
   "reason_picked_schema": {
