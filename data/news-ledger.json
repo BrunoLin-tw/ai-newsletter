@@ -13158,6 +13158,117 @@
       },
       "summary": "帝國理工學院團隊開發「超人級」AI 工具，能在兩秒內從例行心電圖（ECG）提取人眼看不見的訊號，篩出心衰竭（81%）與心臟瓣膜病（90%）；6.7 萬人美國試驗結果於歐洲心臟學會年會發表，可望讓高風險病患更快排上超音波確診與治療。",
       "from_file": "output/2026/09/02.md"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Meta 發布 Muse Spark 1.3 旗艦編碼與代理模型",
+      "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "source": "research.meta.ai",
+      "company": "Meta",
+      "topic": "Meta Muse Spark 1.3 frontier coding agentic model release",
+      "fingerprint": "Meta|muse-spark-1-3-frontier-release|2026-09-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "Meta 旗艦模型正式發布，DeepSWE 1.1 與長上下文分數超越 GPT-5.6/Opus 5"
+      },
+      "summary": "Meta 發布 Muse Spark 1.3，宣稱在 DeepSWE 1.1 拿下頂尖成績並超越 GPT-5.6 與 Opus 5，長上下文 MRCR 256K-512K 得分 98.5；即日起在 Muse Code 與 Meta Model API 上線，是五個月內第四個 Muse Spark 版本。",
+      "from_file": "output/2026/09/03.md"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "阿里巴巴 Qwen3.8-Max-0902 快追上 Claude Fable 5",
+      "url": "https://wccftech.com/alibabas-qwen-3-8-max-0902-debuts-with-the-weirdest-flex-ever-matches-fable-5-in-capabilities-with-merely-an-update-and-without-jumping-to-a-new-version-number/",
+      "source": "wccftech.com",
+      "company": "Alibaba",
+      "topic": "Qwen3.8-Max-0902 snapshot rivals Claude Fable 5 Code Arena WebDev top",
+      "fingerprint": "Alibaba|qwen-3-8-max-0902-fable5-rival|2026-09-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "僅以快照更新登上 Code Arena WebDev 第一，性價比遠勝 Opus 5"
+      },
+      "summary": "阿里巴巴以 Qwen3.8-Max-0902 快照更新（不換版本號）把 2.4T 參數 MoE 旗艦推到 Code Arena WebDev 第一名（1629 分），能力據稱接近 Claude Fable 5；輸入每百萬 tokens 僅 $2，較 Opus 5（Max）的 $20 便宜一個數量級。",
+      "from_file": "output/2026/09/03.md"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Broadcom Q3 財報 AI 半導體營收翻三倍至 167 億美元",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+      "source": "investors.broadcom.com",
+      "company": "Broadcom",
+      "topic": "Broadcom Q3 FY2026 record AI semiconductor revenue 16.7B",
+      "fingerprint": "Broadcom|q3-fy2026-ai-revenue-16-7b|2026-09-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "AI 加速器需求強勁，AI 半導體營收年增 221%、Q4 展望 217 億美元"
+      },
+      "summary": "Broadcom Q3 財報顯示 AI 半導體營收達 167 億美元、年增 221%，整體營收 296 億美元；管理層預期 Q4 AI 半導體營收達 217 億美元（年增 236%），AI 已占半導體部門約 70%。",
+      "from_file": "output/2026/09/03.md"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "印度要讓 AI Agent 直接刷 UPI 自動結帳",
+      "url": "https://fintechnews.sg/136592/fintech-india/upi-ai-agents/",
+      "source": "fintechnews.sg",
+      "company": "NPCI/India",
+      "topic": "India UPI Unified Agent Protocol agentic payments rollout",
+      "fingerprint": "NPCI/India|upi-agentic-payments-protocol|2026-09-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "finance"
+        ],
+        "note": "全球最大零售即時支付網將允許 AI 代理在額度內自動付款"
+      },
+      "summary": "印度 NPCI 規劃「Unified Agent Protocol」，授權 AI 代理在支出上限與身分驗證框架內自動完成 UPI 小額支付，預告於孟買 Global Fintech Fest 亮相；UPI 八月交易量達 245.1 億筆，被 IMF 列為全球最大零售即時支付網。",
+      "from_file": "output/2026/09/03.md"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "美國在 G20 推 Carolina Principles 籲各國別為 AI 另立新規",
+      "url": "https://www.thehindu.com/sci-tech/technology/us-urges-hands-off-approach-to-ai-regulation-at-g20-tech-meeting/article71418001.ece",
+      "source": "thehindu.com",
+      "company": "US Government",
+      "topic": "US G20 Carolina Principles hands-off AI regulation push",
+      "fingerprint": "US Government|g20-carolina-principles-ai-regulation|2026-09-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "美國主導 G20 科技部長會議立場，與歐盟 AI Act 路線正面對撞"
+      },
+      "summary": "白宮科技顧問 Kratsios 在北卡 G20 科技會議力推 Carolina Principles：各國不應為 AI 另立全新法規、僅規範「新穎情境」並反對成立新國際 AI 監管機構；與歐盟以 AI Act 為核心的規則導向路線形成鮮明對比。",
+      "from_file": "output/2026/09/03.md"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "赫爾辛基把 AI 資料中心廢熱接進城市供暖網",
+      "url": "https://www.helen.fi/en/news/2026/helen-hyodyntaa-uuden-datakeskuksen-hukkalampoa-helsingin-kaukolammossa",
+      "source": "helen.fi",
+      "company": "OnZero/Helen",
+      "topic": "Helsinki AI data centre waste heat district heating OnZero Helen",
+      "fingerprint": "OnZero/Helen|helsinki-datacentre-waste-heat|2026-08-31",
+      "section": "tools",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [],
+        "note": "AI 資料中心廢熱轉為城市供暖，2027 年商轉、規模逾 50 萬 MWh/年"
+      },
+      "summary": "芬蘭 OnZero 與能源公司 Helen 簽約，將赫爾辛基新 AI 資料中心廢熱接入地區供暖網，滿載每年可提供逾 50 萬 MWh 熱能、約當 7 萬戶公寓需求，2027 年開始回收，把 AI 耗能包袱變成城市能源資源。",
+      "from_file": "output/2026/09/03.md"
     }
   ],
   "reason_picked_schema": {
