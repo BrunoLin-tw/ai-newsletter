@@ -13269,6 +13269,136 @@
       },
       "summary": "芬蘭 OnZero 與能源公司 Helen 簽約，將赫爾辛基新 AI 資料中心廢熱接入地區供暖網，滿載每年可提供逾 50 萬 MWh 熱能、約當 7 萬戶公寓需求，2027 年開始回收，把 AI 耗能包袱變成城市能源資源。",
       "from_file": "output/2026/09/03.md"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "GPT-6 Astra 於 ARC-AGI-3 達 62.7%，新 harness 衝上 99.9%",
+      "url": "https://arcprize.org/blog/astra",
+      "source": "arcprize.org",
+      "company": "OpenAI",
+      "topic": "GPT-6 Astra ARC-AGI-3 independent evaluation",
+      "fingerprint": "OpenAI|astra-arc-agi3-evaluation|2026-09-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "近7日已有多則 Astra 報導，本次新意為 ARC Prize 獨立評測與新 harness 99.9% 結果"
+      },
+      "summary": "ARC Prize 獨立評測 GPT-6 Astra：標準 harness 下 ARC-AGI-3 Semi-Private 得分 62.7%（$26,098），改用保留不透明推理狀態的 provider adapter harness 後達 99.9%（$18,817），96% 關卡行動數低於人類基線。",
+      "from_file": "output/2026/09/04.md"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Nvidia PAIR：免費開源工具把家用 PC 組成本地 AI 推理叢集",
+      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "source": "blogs.nvidia.com",
+      "company": "Nvidia",
+      "topic": "Nvidia PAIR local inference router",
+      "fingerprint": "Nvidia|pair-local-inference-router|2026-09-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "IFA 2026 正式發布，開源跨平台路由本地 GPU 推理"
+      },
+      "summary": "Nvidia 於 IFA 2026 發布 Personal AI Router (PAIR)，自動偵測家用網路相容 PC 並將代理式推理請求路由到閒置 GPU，完全離線運作；Beta 支援 RTX 20 系以上、RTX PRO、DGX Spark、Apple M4，整合 Ollama 與 LM Studio，並公布 RTX Spark N1X 十月上市。",
+      "from_file": "output/2026/09/04.md"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Microsoft MAI-Transcribe-2：$0.10/小時語音辨識 undercut 全場",
+      "url": "https://aiweekly.co/alerts/microsoft-ai-cuts-mai-transcribe-2-to-010-per-audio-hour",
+      "source": "aiweekly.co",
+      "company": "Microsoft",
+      "topic": "MAI-Transcribe-2 speech recognition pricing benchmark",
+      "fingerprint": "Microsoft|mai-transcribe-2-launch|2026-09-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "pricing_or_packaging_change"
+        ],
+        "note": "價格殺進 $0.10/hr 並宣稱 FLEURS WER 5.2% 第一"
+      },
+      "summary": "Microsoft AI 推出 MAI-Transcribe-2，支援 60 語言、說話者分離、逐字時間戳與 code-switching；早鳥價 $0.10/音訊小時（比前代便宜 72%），宣稱 FLEURS WER 5.2% 居首，速度為 GPT-Transcribe 10 倍、ElevenLabs Scribe v2 7 倍。",
+      "from_file": "output/2026/09/04.md"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Sanders/Casar 提案永久禁止超級智慧 AI 並暫停前沿研究",
+      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
+      "source": "sanders.senate.gov",
+      "company": "US Congress",
+      "topic": "Ban Artificial Superintelligence Act",
+      "fingerprint": "US Congress|ban-artificial-superintelligence-act|2026-09-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "與近7日 G20 hands-off 立場方向相反的首部禁超級智慧法案"
+      },
+      "summary": "Sanders 與 Casar 提出《Ban Artificial Superintelligence Act》：永久禁止開發超級智慧 AI、在聯邦安全規範建立前暫停先進 AI 研究，並設立內閣級 AI 監管機構、推動國際協議。",
+      "from_file": "output/2026/09/04.md"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Adobe 任命 Anil Chakravarthy 接任 CEO，Narayen 轉任執行董事長",
+      "url": "https://aiweekly.co/alerts/adobe-names-anil-chakravarthy-ceo-effective-dec-1-narayen-to-become-executive",
+      "source": "aiweekly.co",
+      "company": "Adobe",
+      "topic": "Adobe CEO transition Chakravarthy",
+      "fingerprint": "Adobe|ceo-transition-chakravarthy|2026-09-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [],
+        "note": "19 年執行長交棒，新 CEO 定調代理式軟體策略"
+      },
+      "summary": "Adobe 董事會任命 Anil Chakravarthy 為總裁兼 CEO（12 月 1 日生效），結束 Shantanu Narayen 19 年任期；新執行長將策略聚焦於創意、生產力與客戶體驗的代理式軟體。",
+      "from_file": "output/2026/09/04.md"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Crusoe 與 Jane Street 簽 5 年 130 億美元 AI 雲端合約",
+      "url": "https://aiweekly.co/alerts/crusoe-signs-13b-five-year-ai-cloud-deal-with-jane-street",
+      "source": "aiweekly.co",
+      "company": "Crusoe",
+      "topic": "Crusoe Jane Street AI cloud contract",
+      "fingerprint": "Crusoe|jane-street-13b-cloud-deal|2026-09-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "real_world_deployment"
+        ],
+        "note": "規模為 CoreWeave 60 億合約兩倍以上，金融業 AI 算力需求升溫"
+      },
+      "summary": "Crusoe 與 Jane Street 簽下約 130 億美元、5 年期雲端合約供應 GPU 叢集與 AI 訓練基礎設施；公司另傳出以約 300 億美元估值募資 30 億美元，穩固一線 neocloud 地位。",
+      "from_file": "output/2026/09/04.md"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "研究：Claude Code、Codex、Cursor 只在 42% 情況選同一工具",
+      "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "source": "armature.tech",
+      "company": "Armature",
+      "topic": "coding agents tool selection study",
+      "fingerprint": "Armature|coding-agents-tool-selection-study|2026-09-04",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "16,893 session 實測三大 coding agent 工具選擇行為"
+      },
+      "summary": "Armature 跨 75 repo、10 語言、1,163 種 prompt 變體共 16,893 session 的研究：Codex 94% session 會網路搜尋，Claude Code 偏好內建知識且自製工具比例近 2 倍；三代理僅 42% 選擇同一工具，被提及不等於被選中。",
+      "from_file": "output/2026/09/04.md"
     }
   ],
   "reason_picked_schema": {
