@@ -13632,6 +13632,163 @@
       },
       "summary": "Oracle 九月更新把 Kimi K3 納入 OCI Enterprise AI，支援影像+文字多模態推論；同批新增 Gemma 4、Qwen 3.8、Nemotron 3.5 Lightning 等模型匯入，OCI Enterprise AI 並擴展至美國政府與國防雲區域（B300 硬體）。",
       "from_file": "output/2026/09/06.md"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "GPT-6 Astra 擋得住直接攻擊，卻擋不住文件裡的暗算",
+      "url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/",
+      "source": "the-decoder.com",
+      "company": "OpenAI",
+      "topic": "GPT-6 Astra indirect prompt injection Gray Swan IPI Arena evaluation",
+      "fingerprint": "OpenAI|astra-indirect-prompt-injection-gray-swan|2026-09-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "有別於本週已選過的 ARC-AGI-3 評測，此為 Gray Swan IPI Arena 安全測試：直接注入防禦 99.99% 但間接注入 8.5% 得手、多輪攻擊防禦降至 67%"
+      },
+      "summary": "OpenAI 系統卡與 Gray Swan 外部測試顯示 GPT-6 Astra 幻覺更少、直接 prompt injection 防禦率 99.99%，但藏於文件的間接注入在 1,810 條攻擊下仍有 8.5% 得手率，多輪自適應攻擊防禦率僅 67%；Claude Opus 5 失守率 4.8% 亦非免疫。",
+      "from_file": "output/2026/09/07.md"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "騰訊持股的 Enflame 掛牌上海科創板：募 9.11 億美元、散戶超額認購 4,073 倍",
+      "url": "https://www.caixinglobal.com/2026-09-02/tencent-backed-ai-chipmaker-enflame-eyes-9-billion-valuation-in-ipo-102481053.html",
+      "source": "caixinglobal.com",
+      "company": "Enflame",
+      "topic": "Enflame Shanghai STAR Market IPO 6.12 billion yuan valuation",
+      "fingerprint": "Enflame|shanghai-star-ipo-911m|2026-09-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "中國 AI 四小龍最後一家上市，發行價 142.18 元、估值約 61.2 億人民幣，散戶認購 4,073 倍顯示本地 GPU 供應鏈資金熱度"
+      },
+      "summary": "騰訊持股的上海燧原科技 Enflame 在上海科創板 IPO，募資 61.2 億人民幣（約 9.11 億美元），估值約 61.2 億人民幣；散戶部分超額認購 4,073 倍、約 7 百萬張訂單競逐，為 Nvidia 先進晶片受限下中國本地 GPU 供應鏈的指標性事件。",
+      "from_file": "output/2026/09/07.md"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "XDOF 出隱身才 3 個月就要以 12 億美元估值募 B 輪",
+      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "source": "techcrunch.com",
+      "company": "XDOF",
+      "topic": "XDOF robot teleoperation data Series B $1.2B valuation 8VC",
+      "fingerprint": "XDOF|series-b-1-2b-robot-data|2026-09-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "機器人資料代工供應鏈成為新賽道：出隱身 3 個月、年化營收近 5,000 萬美元、8VC 傳領投 12 億估值 B 輪"
+      },
+      "summary": "專做機器人遙操作真實訓練資料收集的新創 XDOF（UC Berkeley 團隊創立）出隱身僅 3 個月，傳出正洽談由 8VC 領投、估值約 12 億美元的 B 輪；年化營收已逼近 5,000 萬美元，定位為前沿實驗室與機器人公司的外包資料供應鏈。",
+      "from_file": "output/2026/09/07.md"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Tim Cook 交棒，蘋果進入 Ternus 時代",
+      "url": "https://www.latimes.com/business/story/2026-09-01/apple-taps-hardware-chief-john-ternus-as-ceo-ending-tim-cooks-4-trillion-run",
+      "source": "latimes.com",
+      "company": "Apple",
+      "topic": "Apple CEO transition John Ternus Tim Cook executive chairman",
+      "fingerprint": "Apple|ternus-ceo-transition|2026-09-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "蘋果 15 年來首次執行長交接：Ternus 9 月 1 日正式接任，Cook 轉任執行董事長；新執行長重視 AI，牽動蘋果 AI 路線"
+      },
+      "summary": "John Ternus 於 9 月 1 日正式接任 Apple CEO，Tim Cook 轉任執行董事長專責政策事務，Art Levinson 改任首席獨立董事。Ternus 夏季已重整硬體工程部門並明確看好 AI，市場關注其能否補上蘋果在 AI 競賽的落後。",
+      "from_file": "output/2026/09/07.md"
+    },
+    {
+      "date": "2026-09-06",
+      "title": "「模型疲勞」來了：一週內 Anthropic、Meta、Google、OpenAI 全出新版",
+      "url": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
+      "source": "cnbc.com",
+      "company": "AI Industry",
+      "topic": "model fatigue rapid AI model release pace industry analysis",
+      "fingerprint": "AI Industry|model-fatigue-release-pace|2026-09-06",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "四大實驗室一週內密集發版，企業買家出現『模型疲勞』，為本輪發布潮的產業面總結分析"
+      },
+      "summary": "CNBC 報導 Anthropic 更新 Fable/Mythos 5.1、Meta 推 Muse Spark 1.3、Google 出 Gemini 3.8 Flash、OpenAI 發 GPT-6 Astra 全擠在同一週，發布節奏之快讓企業 IT 買家難以消化，AI 產業進入『模型疲勞』階段。",
+      "from_file": "output/2026/09/07.md"
+    },
+    {
+      "date": "2026-09-05",
+      "title": "Seattle Times 與 Newsday 加入控告 OpenAI 與 Microsoft 的行列",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "source": "techcrunch.com",
+      "company": "OpenAI",
+      "topic": "Seattle Times Newsday copyright lawsuit OpenAI Microsoft training data",
+      "fingerprint": "OpenAI|seattle-times-newsday-lawsuit|2026-09-05",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "新聞業訴訟潮持續擴大，Seattle Times 案特別諷刺：微軟曾贊助該報新聞計畫；訓練資料法律清算加速"
+      },
+      "summary": "Seattle Times 與 Newsday 對 OpenAI 和 Microsoft 提出侵權訴訟，訴狀稱生成式 AI 是『蛇吃自己的尾巴』、新聞業恐『壞到無法修復』；Seattle Times 過去還接受過微軟贊助的新聞專案，凸顯訓練資料爭議的擴大。",
+      "from_file": "output/2026/09/07.md"
+    },
+    {
+      "date": "2026-09-06",
+      "title": "Microsoft 用 AI agent 砍掉 Windows 11 的「網頁殼 app」亂象",
+      "url": "https://www.windowslatest.com/2026/09/06/microsoft-is-ending-windows-11s-web-app-slop-era-and-ai-now-writes-native-apps-in-30-minutes/",
+      "source": "windowslatest.com",
+      "company": "Microsoft",
+      "topic": "Microsoft WinUI AI-assisted app development quickstart winapp CLI",
+      "fingerprint": "Microsoft|winui-ai-assisted-dev-quickstart|2026-09-06",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "微軟發布 30 分鐘 AI 輔助原生 WinUI 開發流程與 WPF/UWP 遷移指南，直接以 AI agent 解決 Windows 原生 app 短缺問題"
+      },
+      "summary": "微軟發布 AI 輔助快速入門指南：用 VS Code、.NET 10、winapp CLI 與 WinUI agent 從空資料夾到發布原生 WinUI 3 app 約 30 分鐘，含設計、測試、MSIX 打包技能，並附 WPF/UWP 遷移指南讓 AI 接手改寫，目標是終結 Windows 11 的 web app 包殼亂象。",
+      "from_file": "output/2026/09/07.md"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Meta 給 Muse Spark 用戶 95% 折扣，條件是把 prompt 交出來",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+      "source": "techcrunch.com",
+      "company": "Meta",
+      "topic": "Muse Spark contributor pricing discount for sharing prompts",
+      "fingerprint": "Meta|muse-spark-contributor-pricing|2026-09-03",
+      "section": "tools",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "pricing_detail"
+        ],
+        "note": "Muse Spark 1.3 已於 9/3 入選過，本次新意為『貢獻者定價』機制：95% 折扣換用戶 prompt 與輸出資料"
+      },
+      "summary": "Meta 為 Muse Spark 推出貢獻者定價：分享 prompt 與模型輸出供訓練未來模型者，輸入 token 每百萬 $1.25 降至 $0.10、輸出 $4.25 降至 $0.20，平均折扣約 95%；此前 Meta 內部追蹤員工電腦使用行為的計畫曾因爭議在六月暫停。",
+      "from_file": "output/2026/09/07.md"
     }
   ],
   "reason_picked_schema": {
