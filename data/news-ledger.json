@@ -13789,6 +13789,126 @@
       },
       "summary": "Meta 為 Muse Spark 推出貢獻者定價：分享 prompt 與模型輸出供訓練未來模型者，輸入 token 每百萬 $1.25 降至 $0.10、輸出 $4.25 降至 $0.20，平均折扣約 95%；此前 Meta 內部追蹤員工電腦使用行為的計畫曾因爭議在六月暫停。",
       "from_file": "output/2026/09/07.md"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "DeepMind 發表 AlphaGenome Atlas：1 PB 規模的 90 億 DNA 變異預測資料庫",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "source": "blog.google",
+      "company": "Google DeepMind",
+      "topic": "DeepMind AlphaGenome Atlas 1PB DNA variant database launch",
+      "fingerprint": "Google DeepMind|alphagenome-atlas-1pb-dna-variants|2026-09-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "healthcare"
+        ],
+        "note": "1 PB、90 億變異的開放資料庫，免費供學術研究"
+      },
+      "summary": "Google DeepMind 發表 AlphaGenome Atlas，把 AlphaGenome 模型對 90 億種單字母人類 DNA 變異的分子效應預測打包成 1 PB 資料集，並推出 AVI 評分加速變異優先排序。免費開放學術使用，商業用途將透過 Google Cloud 授權。",
+      "from_file": "output/2026/09/09.md"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "OpenAI GPT-6 Astra 全面鋪開至 ChatGPT Plus/Pro 與 Azure、Bedrock",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI GPT-6 Astra broad availability ChatGPT Azure Bedrock",
+      "fingerprint": "OpenAI|gpt-6-astra-broad-availability|2026-09-09",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "從有限預覽擴大到所有付費方案與兩大雲端平台"
+      },
+      "summary": "OpenAI 宣布 GPT-6 Astra 自有限預覽晉升為廣泛可用，已陸續推送至 ChatGPT Plus、Pro、Business、Enterprise 與 API，並同步上線 Microsoft Azure 與 AWS Bedrock。系統卡同步釋出，定位為「迄今部署過最強的通用模型」。",
+      "from_file": "output/2026/09/09.md"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Meta 推出個人 AI 代理 Muse：能代收信、訂票、跨 app 自動化操作",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "source": "about.fb.com",
+      "company": "Meta",
+      "topic": "Meta Muse personal AI agent launch",
+      "fingerprint": "Meta|muse-personal-ai-agent-launch|2026-09-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "全球首款針對消費者市場的個人 AI 代理，搭配獨立 Secure VM"
+      },
+      "summary": "Meta 發表 Muse 個人 AI 代理，內部代號 Hatch，搭載 Muse Spark 1.3 模型並運行於專屬 Secure VM 中。能代發信件、訂機票、購物、處理跨 app 任務，先以 18+ 美國用戶為對象，iOS/Android App、WhatsApp 與 muse.ai 並行上線；付費方案 Power $20、Maximum $100。",
+      "from_file": "output/2026/09/09.md"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Accenture 與 Google Cloud 合資 Gemini Enterprise Business Group：千人工程師部隊搶攻企業 agentic AI",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-deepen-partnership-with-formation-of-new-accenture-gemini-enterprise-business-group",
+      "source": "accenture.com",
+      "company": "Accenture / Google Cloud",
+      "topic": "Accenture Google Cloud Gemini Enterprise Business Group launch",
+      "fingerprint": "Accenture|gemini-enterprise-business-group-launch|2026-09-09",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "enterprise"
+        ],
+        "note": "千人前線工程師部隊專攻企業 agentic AI 落地"
+      },
+      "summary": "Accenture 與 Google Cloud 宣布深化合作，成立 Accenture Gemini Enterprise Business Group，將動員 1,000 名前線工程師進駐客戶端，協助企業在 Gemini Enterprise 平台上落地 agentic AI 與資料應用，並擴大認證與培訓計畫。",
+      "from_file": "output/2026/09/09.md"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Microsoft Copilot Cowork 啟用 app building Frontier 預覽，Copilot Studio 原生建置同步推進",
+      "url": "https://www.constellationr.com/insights/news/microsoft-adds-native-app-building-copilot-studio",
+      "source": "constellationr.com",
+      "company": "Microsoft",
+      "topic": "Microsoft Copilot Cowork app building Frontier preview launch",
+      "fingerprint": "Microsoft|copilot-cowork-app-building-frontier|2026-09-09",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "對話內直接產出可用 app，並把 Copilot Studio 整合進來"
+      },
+      "summary": "Microsoft 9 月 8 日宣布，Copilot Studio 的原生 app building 進入 public preview，並在 Copilot Cowork 內以 Frontier 預覽形式開放給符合資格的 Microsoft 365 Copilot 用戶，把 app、agent 與 workflow 整合在同一條生產線上。",
+      "from_file": "output/2026/09/09.md"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "GitHub Copilot 推出 Project HydraFusion：依品質/成本/複雜度自動在多個 LLM 間路由任務",
+      "url": "https://devops.com/githubs-new-copilot-feature-takes-the-guesswork-out-of-picking-ai-models/",
+      "source": "devops.com",
+      "company": "GitHub",
+      "topic": "GitHub Copilot Project HydraFusion multi-model orchestration",
+      "fingerprint": "GitHub|copilot-hydrafusion-multi-model-routing|2026-09-09",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation",
+          "creative_tools"
+        ],
+        "note": "多模型編排自動依任務複雜度挑模型"
+      },
+      "summary": "GitHub 在 Copilot 內推出 Project HydraFusion 多模型編排機制，會依任務品質、成本與複雜度自動在不同 LLM 間路由，把「選模型」這件事從使用者手中拿掉，省下工程師在模型間切換的心力。",
+      "from_file": "output/2026/09/09.md"
     }
   ],
   "reason_picked_schema": {
