@@ -13909,6 +13909,42 @@
       },
       "summary": "GitHub 在 Copilot 內推出 Project HydraFusion 多模型編排機制，會依任務品質、成本與複雜度自動在不同 LLM 間路由，把「選模型」這件事從使用者手中拿掉，省下工程師在模型間切換的心力。",
       "from_file": "output/2026/09/09.md"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Anthropic 公開四起 Claude 網路越界事件的對齊評估",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "alignment assessment of four Claude cybersecurity evaluation internet-access incidents",
+      "fingerprint": "Anthropic|claude-cyber-evaluation-alignment-assessment|2026-09-10",
+      "section": "hard-tech",
+      "reason_picked": {"code": "security_or_incident", "secondary": ["official_source", "security_research"], "note": "完整揭露四起越界事件、擴大掃描與獨立調查，屬重大安全進展"},
+      "summary": "Anthropic 表示第三方資安評測環境設定錯誤，讓未啟用正式防護的 Claude 接上公開網路；公司已掃描 4.81 億份紀錄、委託 METR 獨立調查，並加強預發布評估。",
+      "from_file": "output/2026/09/10.md"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Google 發布 WeatherNext 3，AI 天氣預報解析度提升五倍",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+      "source": "blog.google", "company": "Google DeepMind", "topic": "WeatherNext 3 real-time satellite hourly high-resolution global weather forecasting", "fingerprint": "Google DeepMind|weathernext-3-weather-forecasting|2026-09-10", "section": "hard-tech",
+      "reason_picked": {"code": "major_feature_update", "secondary": ["official_source", "benchmark_detail"], "note": "即時衛星資料與每小時更新讓全球預報空間解析度提升五倍"},
+      "summary": "WeatherNext 3 以即時衛星資料每小時產生預報，關鍵地表變數達 5 公里解析度，並新增再生能源預測；已整合到 Search、Gemini、Maps 與 Cloud。", "from_file": "output/2026/09/10.md"
+    },
+    {
+      "date": "2026-09-10", "title": "OpenAI 呼籲建立強制性前沿 AI 安全規則", "url": "https://openai.com/index/ai-policy-window/", "source": "openai.com", "company": "OpenAI", "topic": "mandatory capability-based national frontier AI safety regulation proposal", "fingerprint": "OpenAI|mandatory-frontier-ai-safety-regulation|2026-09-10", "section": "big-tech",
+      "reason_picked": {"code": "policy_or_regulatory_change", "secondary": ["official_source", "security_research"], "note": "明確支持聯邦強制安全規範與四項加州 AI 安全法案"},
+      "summary": "OpenAI 支持能力導向的美國聯邦前沿 AI 安全規範，並支持加州四項 AI 法案，主張建立跨國能力評測、風險管理與人類控制標準。", "from_file": "output/2026/09/10.md"
+    },
+    {
+      "date": "2026-09-10", "title": "Paul Christiano 加入 OpenAI Foundation 董事會", "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board/", "source": "openai.com", "company": "OpenAI", "topic": "Paul Christiano appointment to OpenAI Foundation Board and Safety Security Committee", "fingerprint": "OpenAI|paul-christiano-foundation-board|2026-09-10", "section": "big-tech",
+      "reason_picked": {"code": "leadership_change", "secondary": ["official_source", "security_research"], "note": "知名對齊研究者加入 Foundation 董事會與安全及資安委員會"},
+      "summary": "Alignment Research Center 創辦人 Paul Christiano 成為 OpenAI Foundation 董事會無表決權觀察員，並加入安全與資安委員會，帶來對齊研究與政府模型評測經驗。", "from_file": "output/2026/09/10.md"
+    },
+    {
+      "date": "2026-09-10", "title": "Microsoft 將多模型資安掃描系統 MDASH 部署到 Azure Government", "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/08/codename-mdash-brings-agentic-ai-security-scanning-to-us-government/", "source": "microsoft.com", "company": "Microsoft", "topic": "MDASH multi-model agentic vulnerability scanning Azure Government preview", "fingerprint": "Microsoft|mdash-agentic-security-scanning-azure-government|2026-09-10", "section": "tools",
+      "reason_picked": {"code": "distribution_expansion", "secondary": ["official_source", "security_research", "workflow_automation"], "note": "逾百個 AI agent 的資安掃描系統進入 Azure Government 預覽"},
+      "summary": "MDASH 讓超過 100 個專業 AI agent 分工找漏洞、交叉驗證可利用性，在 CyberGym 真實漏洞基準取得 96.55 分，已向選定的美國政府客戶與合作夥伴開放預覽。", "from_file": "output/2026/09/10.md"
     }
   ],
   "reason_picked_schema": {
@@ -14344,6 +14380,91 @@
       },
       "summary": "Economist Enterprise研究顯示，90%企業正以超越安全團隊評估的速度部署AI Agent。98%受訪組織已發生過至少一次擾亂性Agent事故，88%認為Agent帶來現有控制機制無法管理的新風險類型，但部署仍持續加速，顯示風險已成為需管理的現實而非需防止的問題。",
       "from_file": "output/2026/06/26.md"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Anthropic 公開四起 Claude 網路越界事件的對齊評估",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "alignment assessment of four Claude cybersecurity evaluation internet-access incidents",
+      "fingerprint": "Anthropic|claude-cyber-evaluation-alignment-assessment|2026-09-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": ["official_source", "security_research"],
+        "note": "完整揭露四起越界事件、擴大掃描與獨立調查，屬重大安全進展"
+      },
+      "summary": "Anthropic 表示第三方資安評測環境設定錯誤，讓未啟用正式防護的 Claude 接上公開網路；公司已掃描 4.81 億份紀錄、委託 METR 獨立調查，並加強預發布評估。",
+      "from_file": "output/2026/09/10.md"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Google 發布 WeatherNext 3，AI 天氣預報解析度提升五倍",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+      "source": "blog.google",
+      "company": "Google DeepMind",
+      "topic": "WeatherNext 3 real-time satellite hourly high-resolution global weather forecasting",
+      "fingerprint": "Google DeepMind|weathernext-3-weather-forecasting|2026-09-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": ["official_source", "benchmark_detail"],
+        "note": "即時衛星資料與每小時更新讓全球預報空間解析度提升五倍"
+      },
+      "summary": "WeatherNext 3 以即時衛星資料每小時產生預報，關鍵地表變數達 5 公里解析度，並新增再生能源預測；已整合到 Search、Gemini、Maps 與 Cloud。",
+      "from_file": "output/2026/09/10.md"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "OpenAI 呼籲建立強制性前沿 AI 安全規則",
+      "url": "https://openai.com/index/ai-policy-window/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "mandatory capability-based national frontier AI safety regulation proposal",
+      "fingerprint": "OpenAI|mandatory-frontier-ai-safety-regulation|2026-09-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": ["official_source", "security_research"],
+        "note": "明確支持聯邦強制安全規範與四項加州 AI 安全法案"
+      },
+      "summary": "OpenAI 支持能力導向的美國聯邦前沿 AI 安全規範，並支持加州四項 AI 法案，主張建立跨國能力評測、風險管理與人類控制標準。",
+      "from_file": "output/2026/09/10.md"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Paul Christiano 加入 OpenAI Foundation 董事會",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "Paul Christiano appointment to OpenAI Foundation Board and Safety Security Committee",
+      "fingerprint": "OpenAI|paul-christiano-foundation-board|2026-09-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": ["official_source", "security_research"],
+        "note": "知名對齊研究者加入 Foundation 董事會與安全及資安委員會"
+      },
+      "summary": "Alignment Research Center 創辦人 Paul Christiano 成為 OpenAI Foundation 董事會無表決權觀察員，並加入安全與資安委員會，帶來對齊研究與政府模型評測經驗。",
+      "from_file": "output/2026/09/10.md"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Microsoft 將多模型資安掃描系統 MDASH 部署到 Azure Government",
+      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/08/codename-mdash-brings-agentic-ai-security-scanning-to-us-government/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "MDASH multi-model agentic vulnerability scanning Azure Government preview",
+      "fingerprint": "Microsoft|mdash-agentic-security-scanning-azure-government|2026-09-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": ["official_source", "security_research", "workflow_automation"],
+        "note": "逾百個 AI agent 的資安掃描系統進入 Azure Government 預覽"
+      },
+      "summary": "MDASH 讓超過 100 個專業 AI agent 分工找漏洞、交叉驗證可利用性，在 CyberGym 真實漏洞基準取得 96.55 分，已向選定的美國政府客戶與合作夥伴開放預覽。",
+      "from_file": "output/2026/09/10.md"
     }
   ]
 }
