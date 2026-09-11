@@ -13945,6 +13945,32 @@
       "date": "2026-09-10", "title": "Microsoft 將多模型資安掃描系統 MDASH 部署到 Azure Government", "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/08/codename-mdash-brings-agentic-ai-security-scanning-to-us-government/", "source": "microsoft.com", "company": "Microsoft", "topic": "MDASH multi-model agentic vulnerability scanning Azure Government preview", "fingerprint": "Microsoft|mdash-agentic-security-scanning-azure-government|2026-09-10", "section": "tools",
       "reason_picked": {"code": "distribution_expansion", "secondary": ["official_source", "security_research", "workflow_automation"], "note": "逾百個 AI agent 的資安掃描系統進入 Azure Government 預覽"},
       "summary": "MDASH 讓超過 100 個專業 AI agent 分工找漏洞、交叉驗證可利用性，在 CyberGym 真實漏洞基準取得 96.55 分，已向選定的美國政府客戶與合作夥伴開放預覽。", "from_file": "output/2026/09/10.md"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "OpenAI 推出 ChatGPT for Financial Services，整合金融資料與 GPT‑6 Astra",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "ChatGPT for Financial Services built-in data enterprise governance launch",
+      "fingerprint": "OpenAI|chatgpt-financial-services-launch|2026-09-11",
+      "section": "big-tech",
+      "reason_picked": {"code": "official_launch", "secondary": ["official_source", "finance", "workflow_automation"], "note": "金融業專用 ChatGPT Work 正式推出，將內建資料、可追溯引用與企業治理整合為單一產品。"},
+      "summary": "OpenAI 推出 ChatGPT for Financial Services，針對投資銀行與股票研究團隊整合 GPT‑6 Astra、Daloopa、PitchBook、LSEG News、Crunchbase 等資料來源，以及既有訂閱權限整合、可追溯引用、企業模板與治理控制。",
+      "from_file": "output/2026/09/11.md"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Salesforce 發表 Trusted Enterprise AI Harness 與 AI Control Plane",
+      "url": "https://www.salesforce.com/news/stories/enterprise-ai-harness/?bc=OTH",
+      "source": "salesforce.com",
+      "company": "Salesforce",
+      "topic": "Trusted Enterprise AI Harness six capabilities AI Control Plane launch",
+      "fingerprint": "Salesforce|trusted-enterprise-ai-harness-launch|2026-09-11",
+      "section": "tools",
+      "reason_picked": {"code": "official_launch", "secondary": ["official_source", "enterprise", "workflow_automation"], "note": "以六層企業 AI 架構加上集中控制平面，處理多代理、多模型治理與成本管理。"},
+      "summary": "Salesforce 發表 Trusted Enterprise AI Harness，涵蓋情境、代理協作、行動、治理、安全與模型路由六項能力，另以 AI Control Plane 集中管理 Salesforce 與第三方 AI 的可見性、政策、生命週期、效能與成本；新整合體驗預計 FY28 初推出。",
+      "from_file": "output/2026/09/11.md"
     }
   ],
   "reason_picked_schema": {
