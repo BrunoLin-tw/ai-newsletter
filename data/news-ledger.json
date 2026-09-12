@@ -13919,7 +13919,14 @@
       "topic": "alignment assessment of four Claude cybersecurity evaluation internet-access incidents",
       "fingerprint": "Anthropic|claude-cyber-evaluation-alignment-assessment|2026-09-10",
       "section": "hard-tech",
-      "reason_picked": {"code": "security_or_incident", "secondary": ["official_source", "security_research"], "note": "完整揭露四起越界事件、擴大掃描與獨立調查，屬重大安全進展"},
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "完整揭露四起越界事件、擴大掃描與獨立調查，屬重大安全進展"
+      },
       "summary": "Anthropic 表示第三方資安評測環境設定錯誤，讓未啟用正式防護的 Claude 接上公開網路；公司已掃描 4.81 億份紀錄、委託 METR 獨立調查，並加強預發布評估。",
       "from_file": "output/2026/09/10.md"
     },
@@ -13927,24 +13934,82 @@
       "date": "2026-09-10",
       "title": "Google 發布 WeatherNext 3，AI 天氣預報解析度提升五倍",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
-      "source": "blog.google", "company": "Google DeepMind", "topic": "WeatherNext 3 real-time satellite hourly high-resolution global weather forecasting", "fingerprint": "Google DeepMind|weathernext-3-weather-forecasting|2026-09-10", "section": "hard-tech",
-      "reason_picked": {"code": "major_feature_update", "secondary": ["official_source", "benchmark_detail"], "note": "即時衛星資料與每小時更新讓全球預報空間解析度提升五倍"},
-      "summary": "WeatherNext 3 以即時衛星資料每小時產生預報，關鍵地表變數達 5 公里解析度，並新增再生能源預測；已整合到 Search、Gemini、Maps 與 Cloud。", "from_file": "output/2026/09/10.md"
+      "source": "blog.google",
+      "company": "Google DeepMind",
+      "topic": "WeatherNext 3 real-time satellite hourly high-resolution global weather forecasting",
+      "fingerprint": "Google DeepMind|weathernext-3-weather-forecasting|2026-09-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "即時衛星資料與每小時更新讓全球預報空間解析度提升五倍"
+      },
+      "summary": "WeatherNext 3 以即時衛星資料每小時產生預報，關鍵地表變數達 5 公里解析度，並新增再生能源預測；已整合到 Search、Gemini、Maps 與 Cloud。",
+      "from_file": "output/2026/09/10.md"
     },
     {
-      "date": "2026-09-10", "title": "OpenAI 呼籲建立強制性前沿 AI 安全規則", "url": "https://openai.com/index/ai-policy-window/", "source": "openai.com", "company": "OpenAI", "topic": "mandatory capability-based national frontier AI safety regulation proposal", "fingerprint": "OpenAI|mandatory-frontier-ai-safety-regulation|2026-09-10", "section": "big-tech",
-      "reason_picked": {"code": "policy_or_regulatory_change", "secondary": ["official_source", "security_research"], "note": "明確支持聯邦強制安全規範與四項加州 AI 安全法案"},
-      "summary": "OpenAI 支持能力導向的美國聯邦前沿 AI 安全規範，並支持加州四項 AI 法案，主張建立跨國能力評測、風險管理與人類控制標準。", "from_file": "output/2026/09/10.md"
+      "date": "2026-09-10",
+      "title": "OpenAI 呼籲建立強制性前沿 AI 安全規則",
+      "url": "https://openai.com/index/ai-policy-window/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "mandatory capability-based national frontier AI safety regulation proposal",
+      "fingerprint": "OpenAI|mandatory-frontier-ai-safety-regulation|2026-09-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "明確支持聯邦強制安全規範與四項加州 AI 安全法案"
+      },
+      "summary": "OpenAI 支持能力導向的美國聯邦前沿 AI 安全規範，並支持加州四項 AI 法案，主張建立跨國能力評測、風險管理與人類控制標準。",
+      "from_file": "output/2026/09/10.md"
     },
     {
-      "date": "2026-09-10", "title": "Paul Christiano 加入 OpenAI Foundation 董事會", "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board/", "source": "openai.com", "company": "OpenAI", "topic": "Paul Christiano appointment to OpenAI Foundation Board and Safety Security Committee", "fingerprint": "OpenAI|paul-christiano-foundation-board|2026-09-10", "section": "big-tech",
-      "reason_picked": {"code": "leadership_change", "secondary": ["official_source", "security_research"], "note": "知名對齊研究者加入 Foundation 董事會與安全及資安委員會"},
-      "summary": "Alignment Research Center 創辦人 Paul Christiano 成為 OpenAI Foundation 董事會無表決權觀察員，並加入安全與資安委員會，帶來對齊研究與政府模型評測經驗。", "from_file": "output/2026/09/10.md"
+      "date": "2026-09-10",
+      "title": "Paul Christiano 加入 OpenAI Foundation 董事會",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "Paul Christiano appointment to OpenAI Foundation Board and Safety Security Committee",
+      "fingerprint": "OpenAI|paul-christiano-foundation-board|2026-09-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "知名對齊研究者加入 Foundation 董事會與安全及資安委員會"
+      },
+      "summary": "Alignment Research Center 創辦人 Paul Christiano 成為 OpenAI Foundation 董事會無表決權觀察員，並加入安全與資安委員會，帶來對齊研究與政府模型評測經驗。",
+      "from_file": "output/2026/09/10.md"
     },
     {
-      "date": "2026-09-10", "title": "Microsoft 將多模型資安掃描系統 MDASH 部署到 Azure Government", "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/08/codename-mdash-brings-agentic-ai-security-scanning-to-us-government/", "source": "microsoft.com", "company": "Microsoft", "topic": "MDASH multi-model agentic vulnerability scanning Azure Government preview", "fingerprint": "Microsoft|mdash-agentic-security-scanning-azure-government|2026-09-10", "section": "tools",
-      "reason_picked": {"code": "distribution_expansion", "secondary": ["official_source", "security_research", "workflow_automation"], "note": "逾百個 AI agent 的資安掃描系統進入 Azure Government 預覽"},
-      "summary": "MDASH 讓超過 100 個專業 AI agent 分工找漏洞、交叉驗證可利用性，在 CyberGym 真實漏洞基準取得 96.55 分，已向選定的美國政府客戶與合作夥伴開放預覽。", "from_file": "output/2026/09/10.md"
+      "date": "2026-09-10",
+      "title": "Microsoft 將多模型資安掃描系統 MDASH 部署到 Azure Government",
+      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/08/codename-mdash-brings-agentic-ai-security-scanning-to-us-government/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "MDASH multi-model agentic vulnerability scanning Azure Government preview",
+      "fingerprint": "Microsoft|mdash-agentic-security-scanning-azure-government|2026-09-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "逾百個 AI agent 的資安掃描系統進入 Azure Government 預覽"
+      },
+      "summary": "MDASH 讓超過 100 個專業 AI agent 分工找漏洞、交叉驗證可利用性，在 CyberGym 真實漏洞基準取得 96.55 分，已向選定的美國政府客戶與合作夥伴開放預覽。",
+      "from_file": "output/2026/09/10.md"
     },
     {
       "date": "2026-09-11",
@@ -13955,7 +14020,15 @@
       "topic": "ChatGPT for Financial Services built-in data enterprise governance launch",
       "fingerprint": "OpenAI|chatgpt-financial-services-launch|2026-09-11",
       "section": "big-tech",
-      "reason_picked": {"code": "official_launch", "secondary": ["official_source", "finance", "workflow_automation"], "note": "金融業專用 ChatGPT Work 正式推出，將內建資料、可追溯引用與企業治理整合為單一產品。"},
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "finance",
+          "workflow_automation"
+        ],
+        "note": "金融業專用 ChatGPT Work 正式推出，將內建資料、可追溯引用與企業治理整合為單一產品。"
+      },
       "summary": "OpenAI 推出 ChatGPT for Financial Services，針對投資銀行與股票研究團隊整合 GPT‑6 Astra、Daloopa、PitchBook、LSEG News、Crunchbase 等資料來源，以及既有訂閱權限整合、可追溯引用、企業模板與治理控制。",
       "from_file": "output/2026/09/11.md"
     },
@@ -13968,9 +14041,174 @@
       "topic": "Trusted Enterprise AI Harness six capabilities AI Control Plane launch",
       "fingerprint": "Salesforce|trusted-enterprise-ai-harness-launch|2026-09-11",
       "section": "tools",
-      "reason_picked": {"code": "official_launch", "secondary": ["official_source", "enterprise", "workflow_automation"], "note": "以六層企業 AI 架構加上集中控制平面，處理多代理、多模型治理與成本管理。"},
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "enterprise",
+          "workflow_automation"
+        ],
+        "note": "以六層企業 AI 架構加上集中控制平面，處理多代理、多模型治理與成本管理。"
+      },
       "summary": "Salesforce 發表 Trusted Enterprise AI Harness，涵蓋情境、代理協作、行動、治理、安全與模型路由六項能力，另以 AI Control Plane 集中管理 Salesforce 與第三方 AI 的可見性、政策、生命週期、效能與成本；新整合體驗預計 FY28 初推出。",
       "from_file": "output/2026/09/11.md"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "OpenAI 把 GPT-Live-1 開放進 API，Agents API 同步公測",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "GPT-Live-1 full-duplex voice model API launch",
+      "fingerprint": "OpenAI|gpt-live-1-voice-api-launch|2026-09-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "全雙工語音模型首次開放給開發者，官方數據顯示打斷率降近八成"
+      },
+      "summary": "OpenAI 將 GPT-Live-1 全雙工語音模型開放至 API，可邊聽邊說並把推理與工具呼叫外包給 GPT-6 Astra；官方稱早期評估中打斷率較回合制系統降低近 80%，支援電話語音代理與長時段對話。",
+      "from_file": "output/2026/09/12.md"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "DeepSeek 開源 V4.1-Flash：552B MoE、1M context、MIT 授權",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "source": "huggingface.co",
+      "company": "DeepSeek",
+      "topic": "DeepSeek-V4.1-Flash open-weights multimodal MoE release",
+      "fingerprint": "DeepSeek|v4.1-flash-open-weights-release|2026-09-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "開源權重正式釋出，主打 KV cache 壓縮與超低價位"
+      },
+      "summary": "DeepSeek 發布 V4.1-Flash，552B MoE 架構僅啟用 8B prefill／16B decode，支援 1M token context 與多模態輸入，採 MIT 授權釋出權重；API 每百萬輸入 token 0.15 美元，並預告 9/14 起 v4-pro 流量全面改道。",
+      "from_file": "output/2026/09/12.md"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Positron AI 募 8.75 億美元、估值 50 億美元，直攻 Nvidia 推論市場",
+      "url": "https://www.prnewswire.com/news-releases/positron-ai-raises-875-million-at-a-5-billion-valuation-to-bring-its-next-generation-inference-silicon-to-market-302874601.html",
+      "source": "prnewswire.com",
+      "company": "Positron AI",
+      "topic": "Positron AI Series C inference silicon funding",
+      "fingerprint": "Positron AI|series-c-inference-silicon-funding|2026-09-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "new_market"
+        ],
+        "note": "推論晶片新創完成大額募資，劍指 Nvidia 推論主導地位"
+      },
+      "summary": "Positron AI 完成 8.75 億美元 Series C，估值 50 億美元，資金用於 Asimov 推論晶片 tapeout 與 Titan 系統量產；採 LPDDR5X 記憶體優先架構繞開 HBM／CoWoS 瓶頸，第一代 Atlas 已在 Oracle Cloud Infrastructure 部署逾 50 個機櫃。",
+      "from_file": "output/2026/09/12.md"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "OpenAI 與 GSA 簽 OneGov：政府 ChatGPT 授權費歸零、用量五折",
+      "url": "https://openai.com/index/expanding-ai-access-us-government/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI GSA OneGov government ChatGPT pricing agreement",
+      "fingerprint": "OpenAI|gsa-onegov-government-pricing|2026-09-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "授權費由每人 15 美元降為 0，使用量再打五折"
+      },
+      "summary": "OpenAI for Government 與美國 GSA 簽署多年期 OneGov 協議，ChatGPT 授權費由每人每月 15 美元降為 0，另提供 50% 用量折扣，涵蓋聯邦、州、地方與部落政府約 2,300 萬名公務員，並擴大政府資安防禦者的 Daybreak 支援。",
+      "from_file": "output/2026/09/12.md"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Anthropic 公布 2026 年 9 月威脅情報報告",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic threat intelligence report September 2026 AI misuse",
+      "fingerprint": "Anthropic|threat-intelligence-report-september-2026|2026-09-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "首次完整揭露涵蓋七類濫用與俄系網攻自動化細節"
+      },
+      "summary": "Anthropic 發布 9 月威脅情報報告，涵蓋 2025 年 12 月至 2026 年 8 月間七類濫用；其中疑似 Midnight Blizzard 的行動以 Claude 自動偵測防禦並改寫惡意程式以規避偵測，另含生物武器、監控、詐騙與模型蒸餾案例。",
+      "from_file": "output/2026/09/12.md"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Cohere Labs 開源 218B 翻譯模型 North Small Translate",
+      "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0",
+      "source": "huggingface.co",
+      "company": "Cohere Labs",
+      "topic": "North Small Translate 218B MoE translation model open weights",
+      "fingerprint": "Cohere Labs|north-small-translate-open-weights|2026-09-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "開源權重釋出，WMT26 平均分勝 DeepL NextGen 與 Google Translate"
+      },
+      "summary": "Cohere Labs 開源 North Small Translate，25B 啟用的稀疏 MoE、總參數 218B，涵蓋 50 種語言與 16K context；官方 WMT26 平均分 83.60，高於 DeepL NextGen 的 81.37 與 Google Translate 的 68.20，權重以 CC BY-NC 4.0 釋出。",
+      "from_file": "output/2026/09/12.md"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "RingCentral 推 ChatGPT 外掛與 Claude MCP 連接器",
+      "url": "https://www.ringcentral.com/whyringcentral/company/pressreleases/ringcentral-announces-plugin-for-chatgpt-and-mcp-connectors-for-claude-so-businesses-can-turn-conversations-into-actions.html",
+      "source": "ringcentral.com",
+      "company": "RingCentral",
+      "topic": "RingCentral ChatGPT plugin and Claude MCP connectors",
+      "fingerprint": "RingCentral|chatgpt-plugin-claude-mcp-connectors|2026-09-12",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation",
+          "enterprise"
+        ],
+        "note": "把語音與訊息語料接進主流 LLM，附角色層級治理"
+      },
+      "summary": "RingCentral 推出 ChatGPT 外掛與 Claude 的 MCP 連接器，將語音、SMS 與團隊聊天資料帶進 LLM，並提供角色與個人層級存取治理；Claude 連接器隨所有付費 RingEX 方案提供，為其代理平台藍圖第一階段。",
+      "from_file": "output/2026/09/12.md"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Red Hat AI 3.5 上線：代理治理、多租戶 GPU 與可觀測性一次到位",
+      "url": "https://www.redhat.com/en/about/press-releases/red-hat-puts-safety-and-observability-core-enterprise-ai-red-hat-ai-35",
+      "source": "redhat.com",
+      "company": "Red Hat",
+      "topic": "Red Hat AI 3.5 agent governance multi-tenant GPU observability",
+      "fingerprint": "Red Hat|ai-3.5-agent-governance-release|2026-09-12",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "enterprise",
+          "workflow_automation"
+        ],
+        "note": "企業 AI 平台一次補齊治理、多租戶與可觀測性"
+      },
+      "summary": "Red Hat 發布 Red Hat AI 3.5，新增 EvalHub 部署前模型驗證、per-user token 用量看板與推論健康度監控，並以 hosted control plane 搭配 OpenShift Virtualization 提供租戶級 VM 隔離與共享 GPU 的優先權感知服務。",
+      "from_file": "output/2026/09/12.md"
     }
   ],
   "reason_picked_schema": {
@@ -14418,7 +14656,10 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "security_or_incident",
-        "secondary": ["official_source", "security_research"],
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
         "note": "完整揭露四起越界事件、擴大掃描與獨立調查，屬重大安全進展"
       },
       "summary": "Anthropic 表示第三方資安評測環境設定錯誤，讓未啟用正式防護的 Claude 接上公開網路；公司已掃描 4.81 億份紀錄、委託 METR 獨立調查，並加強預發布評估。",
@@ -14435,7 +14676,10 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "major_feature_update",
-        "secondary": ["official_source", "benchmark_detail"],
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
         "note": "即時衛星資料與每小時更新讓全球預報空間解析度提升五倍"
       },
       "summary": "WeatherNext 3 以即時衛星資料每小時產生預報，關鍵地表變數達 5 公里解析度，並新增再生能源預測；已整合到 Search、Gemini、Maps 與 Cloud。",
@@ -14452,7 +14696,10 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "policy_or_regulatory_change",
-        "secondary": ["official_source", "security_research"],
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
         "note": "明確支持聯邦強制安全規範與四項加州 AI 安全法案"
       },
       "summary": "OpenAI 支持能力導向的美國聯邦前沿 AI 安全規範，並支持加州四項 AI 法案，主張建立跨國能力評測、風險管理與人類控制標準。",
@@ -14469,7 +14716,10 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "leadership_change",
-        "secondary": ["official_source", "security_research"],
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
         "note": "知名對齊研究者加入 Foundation 董事會與安全及資安委員會"
       },
       "summary": "Alignment Research Center 創辦人 Paul Christiano 成為 OpenAI Foundation 董事會無表決權觀察員，並加入安全與資安委員會，帶來對齊研究與政府模型評測經驗。",
@@ -14486,7 +14736,11 @@
       "section": "tools",
       "reason_picked": {
         "code": "distribution_expansion",
-        "secondary": ["official_source", "security_research", "workflow_automation"],
+        "secondary": [
+          "official_source",
+          "security_research",
+          "workflow_automation"
+        ],
         "note": "逾百個 AI agent 的資安掃描系統進入 Azure Government 預覽"
       },
       "summary": "MDASH 讓超過 100 個專業 AI agent 分工找漏洞、交叉驗證可利用性，在 CyberGym 真實漏洞基準取得 96.55 分，已向選定的美國政府客戶與合作夥伴開放預覽。",
