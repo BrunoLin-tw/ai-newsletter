@@ -14209,6 +14209,142 @@
       },
       "summary": "Red Hat 發布 Red Hat AI 3.5，新增 EvalHub 部署前模型驗證、per-user token 用量看板與推論健康度監控，並以 hosted control plane 搭配 OpenShift Virtualization 提供租戶級 VM 隔離與共享 GPU 的優先權感知服務。",
       "from_file": "output/2026/09/12.md"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "NVIDIA 聯手澳洲八家業者 2027 年前擴建上看 2GW AI 工廠",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
+      "source": "nvidianews.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA Australia eight partners 2GW DSX AI factory buildout by 2027",
+      "fingerprint": "NVIDIA|australia-2gw-dsx-ai-factory-buildout|2026-09-13",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "八家業者聯合擴建，澳洲算力規模翻倍"
+      },
+      "summary": "NVIDIA 與 Firmus、IREN、Sharon AI、CDC、NEXTDC、AirTrunk、Megaport、ResetData 等八家澳洲雲端與資料中心業者合作，以 DSX 平台推動高密度液冷與動態供電架構，目標 2027 年前在澳洲擴建上看 2GW 的 AI 工廠容量，約等於該國現有資料中心算力的兩倍。",
+      "from_file": "output/2026/09/13.md"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "Bodhan AI 與 AI4Bharat 開源印度語言基礎模型",
+      "url": "https://www.thehindubusinessline.com/info-tech/bodhan-ai-launches-open-weight-foundational-ai-models-for-indic-languages/article71457810.ece",
+      "source": "thehindubusinessline.com",
+      "company": "Bodhan AI",
+      "topic": "Bodhan AI AI4Bharat open-weight Indic language foundation models",
+      "fingerprint": "Bodhan AI|indic-open-weight-models-release|2026-09-13",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "印度語言開源基礎模型一次補齊多模態能力"
+      },
+      "summary": "IIT Madras AI 卓越中心育成的 Bodhan AI 與 AI4Bharat 合作，釋出涵蓋語音辨識、語音合成、機器翻譯與 OCR 的開放權重基礎模型，補上印度語言長期缺乏高效能開源模型的缺口。",
+      "from_file": "output/2026/09/13.md"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "GreyNoise 揭發 AI 代理大規模自動化攻擊 PaperCut 全球行動",
+      "url": "https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
+      "source": "greynoise.io",
+      "company": "GreyNoise",
+      "topic": "AI-orchestrated PaperCut NG/MF campaign hundreds of autonomous agents",
+      "fingerprint": "GreyNoise|papercut-ai-agent-orchestrated-campaign|2026-09-13",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "首次出現數百 AI 代理自動化量產式入侵"
+      },
+      "summary": "GreyNoise 揭露講俄語攻擊者串接 OpenAI Codex harness 與 DeepSeek 模型，部署數百個自主代理，串連 CVE-2026-81578 與 CVE-2026-82078 漏洞，橫掃 48 國、至少 440 台 PaperCut 主機與 395 個組織，尖峰時 26 秒內攻破 11 家機構。",
+      "from_file": "output/2026/09/13.md"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "Altman 表態 OpenAI 2026 年不 IPO：現在上市時機不宜",
+      "url": "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
+      "source": "theguardian.com",
+      "company": "OpenAI",
+      "topic": "OpenAI 2026 IPO ruled out by Sam Altman over AI safety concerns",
+      "fingerprint": "OpenAI|2026-ipo-ruled-out-safety|2026-09-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "執行長明確否決 2026 上市，時程推向 2027 後"
+      },
+      "summary": "Sam Altman 接受 Fortune 專訪時表示，在 AI 安全議題持續延燒的當下讓 OpenAI 上市「並不明智」，公司也沒有上市壓力，等同將掛牌時程推向 2027 年或更晚。",
+      "from_file": "output/2026/09/13.md"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "Anthropic 籲放慢前沿：承諾讓 METR 等外部評測者進駐",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "source": "darioamodei.com",
+      "company": "Anthropic",
+      "topic": "Anthropic We Must Pace the Frontier embedded third-party evaluators pledge",
+      "fingerprint": "Anthropic|pace-the-frontier-embedded-evaluators|2026-09-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "單方面開放員工級評測權限，Altman 跟進"
+      },
+      "summary": "Dario Amodei 發表《We Must Pace the Frontier》，主張 AI 開發應刻意放慢，並單方面承諾給予 METR 等第三方評測機構員工級存取權，包括識別證、筆電與內部系統權限，且可不受公司編輯控制發布發現；Sam Altman 隨後公開表示 OpenAI 將比照辦理。",
+      "from_file": "output/2026/09/13.md"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "Cursor 推出 Projects：協調者代理指揮數千個子代理",
+      "url": "https://cursor.com/changelog/projects",
+      "source": "cursor.com",
+      "company": "Cursor",
+      "topic": "Cursor Projects coordinator agent thousands of subagents cloud sandbox",
+      "fingerprint": "Cursor|projects-coordinator-multi-agent-launch|2026-09-13",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "從單次對話升級為跨月專案級多代理編排"
+      },
+      "summary": "Cursor 推出 Projects，讓開發者處理功能開發、框架遷移等大型工作。每個 Project 有自己的雲端電腦，協調者代理只負責規劃與拆派任務，平行啟動數千個子代理執行，並跨月保存專案上下文、自動進行週期性工作，成果再交回使用者驗收。",
+      "from_file": "output/2026/09/13.md"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "OpenAI 推出 Agents API：把 Codex harness 變成公測 API",
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Agents API public beta managed Codex harness",
+      "fingerprint": "OpenAI|agents-api-public-beta-codex-harness|2026-09-13",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Codex 執行引擎開放，開發者免自建 agent loop"
+      },
+      "summary": "OpenAI 將驅動 Codex 的 agent harness 與執行基礎設施開放為 Agents API 公測，內含長時程 session 管理、上下文壓縮、失敗復原與多代理協作，開發者可用一個 API 叫用，不必自行重建代理迴圈與沙箱環境。",
+      "from_file": "output/2026/09/13.md"
     }
   ],
   "reason_picked_schema": {
