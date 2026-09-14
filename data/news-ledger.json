@@ -14345,6 +14345,164 @@
       },
       "summary": "OpenAI 將驅動 Codex 的 agent harness 與執行基礎設施開放為 Agents API 公測，內含長時程 session 管理、上下文壓縮、失敗復原與多代理協作，開發者可用一個 API 叫用，不必自行重建代理迴圈與沙箱環境。",
       "from_file": "output/2026/09/13.md"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Cognition 發表 SWE-2：Kimi K3 後訓練的編碼模型，同分數便宜 64%",
+      "url": "https://cognition.com/blog/swe-2",
+      "source": "cognition.com",
+      "company": "Cognition",
+      "topic": "Cognition SWE-2 Kimi K3 post-trained agentic coding model cost pareto frontier",
+      "fingerprint": "Cognition|swe-2-kimi-k3-post-trained-coding-model|2026-09-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首次正式發布，含完整 benchmark 與成本對比"
+      },
+      "summary": "Cognition 以 Moonshot 2.8T 參數的 Kimi K3 為底座做後訓練，推出 SWE-2。以 cost-penalized RL 在自家 FrontierCode 1.1 Main 取得 50.0%，僅落後 Fable 5.1 一分但每次 rollout 便宜 64%；並首次在單一 RL run 內訓練多種 reasoning effort，較 SWE-1.7 少 58% 回合、平均成本降 81%。模型整合進 Devin 生態，但不開放權重。",
+      "from_file": "output/2026/09/14.md"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "d-Matrix 用 NVIDIA NVLink Fusion，把 Raptor XPU 塞進 NVIDIA 機櫃",
+      "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+      "source": "blogs.nvidia.com",
+      "company": "d-Matrix / NVIDIA",
+      "topic": "d-Matrix Raptor XPU adopts NVIDIA NVLink Fusion MGX rack-scale disaggregated inference",
+      "fingerprint": "d-Matrix|raptor-xpu-nvlink-fusion-mgx-rack|2026-09-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "SRAM 推論晶片正式接入 NVIDIA 機櫃生態"
+      },
+      "summary": "推論晶片新創 d-Matrix 宣布採用 NVIDIA NVLink Fusion，把下一代 Raptor XPU 直接接進 NVIDIA MGX 機櫃參考架構，與 Vera CPU、NVLink 交換器、BlueField-4 DPU、ConnectX-9 SuperNIC 及 Spectrum-X 網路共存，形成 SRAM 型 decode 晶片與 GPU 混搭的分離式推論部署，2027 年 Q4 起出貨。",
+      "from_file": "output/2026/09/14.md"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "FDA 首度以 De Novo 核准 AI-ECG 心梗分診模型 Queen of Hearts",
+      "url": "https://www.statnews.com/2026/09/11/fda-new-ekg-heart-attack-detection-algo-queen-of-hearts/",
+      "source": "statnews.com",
+      "company": "Powerful Medical",
+      "topic": "Powerful Medical Queen of Hearts AI-ECG De Novo authorization acute MI triage",
+      "fingerprint": "Powerful Medical|queen-of-hearts-ai-ecg-de-novo-authorization|2026-09-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "healthcare",
+          "real_world_deployment"
+        ],
+        "note": "首個 AI-ECG 心梗分診獲 FDA De Novo，開新分類"
+      },
+      "summary": "Powerful Medical 的 Queen of Hearts 取得 FDA De Novo 授權，成為第一個專為急性心肌梗塞（ACS）分診設計的 AI-ECG 醫材，建立全新裝置分類。模型能辨識傳統 ST 上升標準會漏掉的 STEMI 等價型（OMI），臨床數據顯示敏感性約為標準急救流程兩倍，並把誤啟動心導管的比例從 41.8% 降到 7.9%，背後有超過 20 篇、逾 4 萬名病患的同儕審查研究。",
+      "from_file": "output/2026/09/14.md"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Anthropic、OpenAI、Google 私下喬「AI 標準機構」已兩個月",
+      "url": "https://aiweekly.co/alerts/anthropic-openai-google-meet-since-july-on-ai-standards-body",
+      "source": "aiweekly.co",
+      "company": "Anthropic / OpenAI / Google",
+      "topic": "Anthropic OpenAI Google working group industry-led AI standards body pre-release auditing",
+      "fingerprint": "Anthropic|openai-google-industry-led-ai-standards-body|2026-09-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "三大實驗室自 7 月起實質談自律機構，屬新進展"
+      },
+      "summary": "The Information 揭露 Anthropic、OpenAI 與 Google 自 7 月起持續召開工作小組會議，討論成立業界主導的 AI 標準機構，聚焦前沿模型發布前的技術測試與獨立稽核。Amodei 主推、Altman 支持在政府缺席下由實驗室自行建立框架，但三方對治理形態仍分歧：Amodei 要 AI 版 FAA、Hassabis 要 FINRA、Altman 要 IAEA。華府同步流傳成立 AI 自律組織的行政命令草案。",
+      "from_file": "output/2026/09/14.md"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "川普打臉自家科技業：別再喊 AI 慢下來，「贏了 AI 就贏了一切」",
+      "url": "https://www.aljazeera.com/news/2026/9/13/trump-dismisses-calls-for-ai-slowdown-from-leading-tech-ceos",
+      "source": "aljazeera.com",
+      "company": "Trump administration",
+      "topic": "Trump dismisses AI slowdown calls from Amodei Altman Musk over US China lead",
+      "fingerprint": "Trump administration|trump-dismisses-ai-slowdown-calls|2026-09-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "白宮與業界 AI 安全訴求正面對撞，政策訊號轉向"
+      },
+      "summary": "在 Amodei 發文籲放慢前沿、Altman 與 Musk 公開附和後，美國總統川普在愛爾蘭受訪時反駁，稱這些警告來自「非常負面的力量」，講的是「不會發生的事」，並表示美國正領先中國、必須維持，「誰贏下 AI 就贏」。他承認需要部分監管但未提具體措施，與白宮另一頭研議中的 AI 自律組織草案形成矛盾訊號。",
+      "from_file": "output/2026/09/14.md"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "中國 Z.AI 再募 50 億美元：港股折價配售加零息可轉債",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-z-ai-raises-5-billion-from-new-share-convertible-bond-sales-filing-shows/articleshow/134209071.cms",
+      "source": "economictimes.indiatimes.com",
+      "company": "Z.AI",
+      "topic": "Z.AI Hong Kong share placement and zero-coupon convertible bond 5 billion raise",
+      "fingerprint": "Z.AI|hong-kong-placement-convertible-bond-5b-raise|2026-09-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "finance"
+        ],
+        "note": "上市後第三度大額募資，資金直指次代模型與自訓系統"
+      },
+      "summary": "前身智譜 AI 的 Z.AI 公告於香港以每股 HK$714（較前一日收盤價折價 10%）配售約 2,197 萬股新股，募得約 20 億美元；同時發行約 201.4 億人民幣、2027 年 9 月到期的零息可轉債約 30 億美元，合計募資 50 億美元。約 60% 淨額用於下一代模型與全自訓系統研發，15% 用於擴產，其餘優化資本結構與補充營運資金。",
+      "from_file": "output/2026/09/14.md"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "ElevenLabs 簽下 UMG：第一份跟大型唱片公司談成的 AI 音樂授權",
+      "url": "https://elevenlabs.io/blog/umg",
+      "source": "elevenlabs.io",
+      "company": "ElevenLabs",
+      "topic": "ElevenLabs Universal Music Group multi-year licensing and AI music platform",
+      "fingerprint": "ElevenLabs|umg-multi-year-ai-music-licensing-deal|2026-09-14",
+      "section": "tools",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "首份大型唱片公司與 AI 音訊公司的授權型合作"
+      },
+      "summary": "ElevenLabs 與環球音樂集團（UMG）簽署多年期授權與策略合作協議，為 ElevenLabs 第一份與大型唱片公司的合約。內容包含把 UMG 曲庫合法導入 ElevenLabs 產品、共同為藝人與詞曲作者開發 AI 音訊工具，並推出讓粉絲在授權素材上製作 remix、mashup 的 AI 音樂平台，把 AI 音樂從訴訟戰場轉向授權收入模式。",
+      "from_file": "output/2026/09/14.md"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Sakana AI 推 Fugu Max 與 Fugu Ultra v2：把多代理編排當成一個模型",
+      "url": "https://sakana.ai/fugu-max-release/",
+      "source": "sakana.ai",
+      "company": "Sakana AI",
+      "topic": "Sakana AI Fugu Max Fugu Ultra v2 multi-agent orchestration models launch",
+      "fingerprint": "Sakana AI|fugu-max-fugu-ultra-v2-orchestration-launch|2026-09-14",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "以編排模型取代單一大模型，主打成本與能力雙軸"
+      },
+      "summary": "東京 Sakana AI 發布兩款以「多代理系統即模型」為核心的編排模型：Fugu Max 追求最低成本，動態調度輕量開源與專用模型（約 $2 輸入／$6 輸出 per 1M tokens）；Fugu Ultra v2 追求最高能力，改以可替換的開源與專用模型池取代封閉旗艦 API 依賴，在 DeepSWE、Chartography、Toolathon 與自家 SWEFish 等 agentic benchmark 上奪冠或並列第一。兩者共用同一套編排架構。",
+      "from_file": "output/2026/09/14.md"
     }
   ],
   "reason_picked_schema": {
