@@ -14641,6 +14641,169 @@
       },
       "summary": "StackBlitz 在 Bolt.new 加入第三個 agent「Forge」，只跑開源模型（GLM 5.3 系列為預設，Kimi K3、DeepSeek v4 Pro 為實驗選項），在自家 Bolt Build Index 拿到付費最強模型 91% 的分數，換來個人 Pro 方案 50 倍用量；代價是選擇加入者同意以匿名化建置紀錄訓練開源模型。",
       "from_file": "output/2026/09/15.md"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Google 發表 Gemini 3.8 Live 與 3.8 Live Extended Thinking：語音代理進入原生即時推理",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Gemini 3.8 Live and 3.8 Live Extended Thinking native speech-to-speech voice agent models launch",
+      "fingerprint": "Google|gemini-3-8-live-voice-agent-models|2026-09-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "兩款原生語音對語音模型正式發布，附人工分析品質指數第一的 benchmark"
+      },
+      "summary": "兩款原生語音對語音模型可在對話同時於背景執行工具與 API 呼叫，近即時處理視覺輸入並在 97 種語言間切換；Extended Thinking 版以 82.6 居 Artificial Analysis 語音品質指數第一，τ-Voice 得 68.6%。已開放 Live API 與 AI Studio。",
+      "from_file": "output/2026/09/16.md"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Ambarella 推出 X7：首顆獨立式邊緣 AI 加速器，替既有 Arm／x86 主機補上物理 AI",
+      "url": "https://www.globenewswire.com/news-release/2026/09/15/3362186/23306/en/ambarella-launches-x7-its-first-standalone-ai-accelerator-to-add-physical-ai-to-any-host-processor.html",
+      "source": "globenewswire.com",
+      "company": "Ambarella",
+      "topic": "Ambarella X7 standalone CVflow edge AI accelerator for Arm and x86 host processors",
+      "fingerprint": "Ambarella|x7-standalone-edge-ai-accelerator|2026-09-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "首顆獨立式 CVflow 加速器正式發布，主打既有機台免改板升級"
+      },
+      "summary": "X7 把第三代 CVflow 引擎做成獨立 AI 協處理器，走 PCIe Gen 3 或 USB 3.2、功耗 2-5W，搭配 LPDDR5，支援 CNN、ViT、VLM 與多模態混合網路。同步推出 M.2 2280 的 XCalibur 參考平台，可直接沿用 Cooper 開發平台模型與工具鏈。",
+      "from_file": "output/2026/09/16.md"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Agility Robotics 發表 Digit 5：不用安全圍籬就能跟人一起工作的人形機器人",
+      "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+      "source": "agilityrobotics.com",
+      "company": "Agility Robotics",
+      "topic": "Agility Robotics Digit 5 cooperatively safe humanoid robot launch with NVIDIA Halos",
+      "fingerprint": "Agility Robotics|digit-5-cooperatively-safe-humanoid|2026-09-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "real_world_deployment"
+        ],
+        "note": "第五代人形機器人正式發表，主打免圍籬協作並揭露 3 億美元訂單"
+      },
+      "summary": "Digit 5 以可協作安全為核心設計，用自家 AI 演算法與多感測器持續偵測人員，必要時自行避讓、停止或坐下，並以視覺與聽覺提示傳達動作意圖。搬運能力提升到 50 磅（比 Digit 4 多 40%），為 NVIDIA Halos for Robotics 首發夥伴，已揭露逾 3 億美元多年度訂單。",
+      "from_file": "output/2026/09/16.md"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Salesforce 聯手 NVIDIA 發表 Koa：用 Nemotron 3 Super 後訓練出第一顆 CRM 推理模型",
+      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+      "source": "blogs.nvidia.com",
+      "company": "Salesforce / NVIDIA",
+      "topic": "Salesforce Koa CRM reasoning model post-trained on NVIDIA Nemotron 3 Super for Agentforce",
+      "fingerprint": "Salesforce|koa-crm-reasoning-model-nemotron|2026-09-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首顆領域專用 CRM 推理模型發表，跑分錯誤率較通用模型少 3 倍"
+      },
+      "summary": "Koa 在 NVIDIA NeMo 工具鏈上以 SFT 與 GRPO 後訓練 Nemotron 3 Super，語料來自 27 年企業 CRM 部署的合成資料、橫跨 14 個以上產業，客戶資料零使用且完全跑在 Salesforce 自家基礎設施。CRM Benchmark 錯誤率比通用前沿模型少 3 倍，10 月起客戶試行，美國區目標 2026 冬季 GA。",
+      "from_file": "output/2026/09/16.md"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Meta 推出 Meta One 訂閱服務：把 AI 生成額度綁進付費牆",
+      "url": "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai",
+      "source": "about.fb.com",
+      "company": "Meta",
+      "topic": "Meta One cross-app subscription service bundling Meta AI generation limits",
+      "fingerprint": "Meta|meta-one-subscription-service-launch|2026-09-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "首次把 Meta AI 生成額度正式包進跨 App 訂閱層級"
+      },
+      "summary": "Meta One 一次上線 50 多項功能，橫跨 Instagram、Facebook、WhatsApp 與 Meta AI。個人綁售 Core 每月 7.99 美元、Premium 每月 19.99 美元，解鎖以 Muse 模型驅動的更高 AI 圖片與影片生成額度；創作者與企業方案從 14.99 到 499 美元，最高階可在自然貼文與 Reels 說明放可點擊連結。",
+      "from_file": "output/2026/09/16.md"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "荷蘭 EUCLYD 拿下逾 2 億歐元 A 輪：三星共同領投，前 ASML 執行長出任董事長",
+      "url": "https://www.prnewswire.com/news-releases/euclyd-raises-over-200-million-to-break-the-ai-efficiency-wall-302878020.html",
+      "source": "prnewswire.com",
+      "company": "EUCLYD",
+      "topic": "EUCLYD Series A over EUR 200 million Samsung co-led AI inference silicon funding",
+      "fingerprint": "EUCLYD|series-a-200m-inference-silicon|2026-09-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "new_market",
+          "leadership_change"
+        ],
+        "note": "歐洲 2026 最大 AI 推論晶片募資，並邀得前 ASML 執行長任董事長"
+      },
+      "summary": "由三星、Somerset Capital Partners、EQT 管理的 Scaleup Europe Fund 與 Innovation Industries 共同領投，EIFO、imec.xpand、BOM、Quadri 跟投。EUCLYD 要做可程式化 ASIC 運算、處理器與記憶體協同設計及資料中心系統，核心產品為 agentic AI 晶片 craftwerk 與最低功耗 exascale AI 工廠 craftwerk station CWS；前 ASML 執行長 Peter Wennink 出任董事長。",
+      "from_file": "output/2026/09/16.md"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Netskope 推出 Skylight Agent Action Control：在 AI 代理動手前就把高風險動作擋下來",
+      "url": "https://www.netskope.com/blog/introducing-netskope-skylight-ai-security",
+      "source": "netskope.com",
+      "company": "Netskope",
+      "topic": "Netskope Skylight Agent Action Control pre-execution AI agent action governance",
+      "fingerprint": "Netskope|skylight-agent-action-control-launch|2026-09-16",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "把代理動作治理從事後稽核改成執行前依意圖與風險分級攔阻"
+      },
+      "summary": "新功能對代理嘗試的每個動作做意圖分類，依碰觸到的資源給風險等級，再用各代理型態的細粒度政策決定放行、告警或直接封鎖。Netskope 引用調查指出 91% 組織無法在風險動作執行前阻止它；同時把原本的 Netskope One AI Security 更名為 Netskope Skylight 產品線。",
+      "from_file": "output/2026/09/16.md"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "StackHawk 推出 Wingman：讓資安修補直接長在 AI 寫程式的當下",
+      "url": "https://www.prnewswire.com/news-releases/stackhawk-launches-wingman-to-autonomously-fix-vulnerabilities-during-ai-coding-sessions-302878443.html",
+      "source": "prnewswire.com",
+      "company": "StackHawk",
+      "topic": "StackHawk Wingman autonomous vulnerability remediation inside AI coding sessions",
+      "fingerprint": "StackHawk|wingman-ai-coding-session-remediation|2026-09-16",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "把自動修補掛進既有 AI 編碼代理，主打提交前修完而非事後開票"
+      },
+      "summary": "Wingman 以每人每月 10 美元切入，掛進 Claude Code、Cursor、GitHub Copilot 等既有代理工作流，用 find-fix-verify 迴圈在程式碼提交、變成 PR 或待辦票之前自動修掉漏洞。StackHawk 指出從揭露到被利用的時間窗已縮到負 15 小時，等資安團隊幾週後開票已來不及。",
+      "from_file": "output/2026/09/16.md"
     }
   ],
   "reason_picked_schema": {
