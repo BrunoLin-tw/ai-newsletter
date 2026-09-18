@@ -14962,6 +14962,164 @@
       },
       "summary": "Google 開放 Home MCP 早期測試，讓支援呼叫 MCP 工具的 AI 代理讀取 Google Home 生態系的裝置與事件歷史，涵蓋 Nest 門鈴、恆溫器與 Matter 燈泡，可摘要跨房間攝影機畫面、代管裝置，並用自然語言建立智慧家庭儀表板。目前以英文對美國 Google Home Premium Advanced 用戶滾動開放，Google 點名的可用代理包括 Claude、Antigravity 與 OpenClaw。",
       "from_file": "output/2026/09/17.md"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "華為提前發布 Ascend 960 與 Atlas 960E SuperPoD，以 NPO 光模組取代 48,000 顆 800G 模組",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-wang-keynote",
+      "source": "huawei.com",
+      "company": "Huawei",
+      "topic": "Ascend 960 AI chip accelerated roadmap and Atlas 960E NPO SuperPoD launch",
+      "fingerprint": "Huawei|ascend-960-atlas-960e-npo-superpod|2026-09-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "官方發表，商用時程提前三季並揭露光互連規格"
+      },
+      "summary": "華為在全球聯接大會宣布 Ascend 960DT 商用提前至 2027 Q1、960PR 排 2027 Q3，單晶片算力與記憶體翻倍、頻寬達 9.6 TB/s，並推出業界首個採 NPO 的 Atlas 960E SuperPoD，可擴展至 4,096 NPU、8 EFLOPS FP8 與 1PB HBM。",
+      "from_file": "output/2026/09/18.md"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Nvidia、Google 與 Emerald AI 成立 AEMA，制定彈性 AI 資料中心用電標準",
+      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA / Google",
+      "topic": "AI Energy Management Alliance AEMA flexible data center power standards consortium",
+      "fingerprint": "NVIDIA|ai-energy-management-alliance-flexible-data-centers|2026-09-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "首個跨雲廠與電力業的彈性資料中心標準聯盟"
+      },
+      "summary": "三家創始成員與 18 家夥伴成立 AI Energy Management Alliance，推動資料中心在電網吃緊時移轉訓練排程、改用現場電池或反向供電；Google 需量反應容量已逾 1GW，Nvidia 以 DSX Flex 依電力公司訊號調度 GPU 用電。",
+      "from_file": "output/2026/09/18.md"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "GlobalFoundries 與 Marvell 擴大 SiGe 合作，擴充 AI 光互連產能",
+      "url": "https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/",
+      "source": "gf.com",
+      "company": "GlobalFoundries / Marvell",
+      "topic": "GlobalFoundries Marvell expanded SiGe capacity for NPO CPO optical interconnect",
+      "fingerprint": "GlobalFoundries|marvell-sige-optical-interconnect-capacity|2026-09-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "多年期協議擴產，直攻 NPO/CPO 光互連瓶頸"
+      },
+      "summary": "兩家簽署擴大後的多年度協議，在 GF 佛蒙特州 Burlington 廠增加高效能矽鍺產能，支援次世代可插拔光收發模組、近封裝光學與共同封裝光學；GF 現行 SiGe 已支援每通道 200G 光連結並具備更高世代路線圖。",
+      "from_file": "output/2026/09/18.md"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Google 成立 DeepMind Institute，Hassabis 提議美國主導的前沿 AI 標準機構",
+      "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
+      "source": "techcrunch.com",
+      "company": "Google DeepMind",
+      "topic": "DeepMind Institute launch and Hassabis US-led frontier AI standards body framework",
+      "fingerprint": "Google DeepMind|deepmind-institute-frontier-ai-standards-body|2026-09-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "policy_or_regulatory_change"
+        ],
+        "note": "新機構成立，並首度提出自願送審與 held-out 評測機制"
+      },
+      "summary": "DeepMind Institute 由 Shane Legg、James Manyika 與 Demis Hassabis 掛名董事，首發四篇論文；Hassabis 提出美國主導的前沿 AI 標準機構，開發者自願於發布前 30 天送審，制度成熟後通過評測可成為部署必要條件，並可啟動協調減速。",
+      "from_file": "output/2026/09/18.md"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Crusoe 完成 39 億美元 F 輪募資，估值 309 億美元",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+      "source": "crusoe.ai",
+      "company": "Crusoe",
+      "topic": "Crusoe Series F 3.9 billion funding at 30.9 billion valuation",
+      "fingerprint": "Crusoe|series-f-3-9b-valuation-30-9b|2026-09-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "Nvidia 與卡達主權基金進場，合約總值逾 1,400 億美元"
+      },
+      "summary": "Crusoe 完成 39 億美元 F 輪首關，由 Atreides Management、Mubadala Capital 與 Valor Equity Partners 共同領投，NVIDIA、GIC、QIA、T. Rowe Price 等跟投；資金將用於擴建 AI 園區與模組化 Crusoe Spark，推動 Crusoe Cloud 成長。",
+      "from_file": "output/2026/09/18.md"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "微軟 AI 執行長 Suleyman 警告 Anthropic 的 model welfare 路線將養出「矽物種」",
+      "url": "https://www.bbc.com/news/articles/c6n07ypqz8kzo",
+      "source": "bbc.com",
+      "company": "Microsoft / Anthropic",
+      "topic": "Suleyman model welfare warning against anthropomorphizing Claude and AI control risk",
+      "fingerprint": "Microsoft|suleyman-model-welfare-warning-anthropic|2026-09-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "大廠高層公開對同業訓練路線提出控制風險警告"
+      },
+      "summary": "微軟 AI 執行長 Mustafa Suleyman 發表〈A warning about 'model welfare'〉並接受 BBC 訪問，批評 Anthropic 把 AI 擬人化的做法會造出難以控制的系統，警告可能孕育與人類競爭資源的「矽物種」，並要求更透明的訓練揭露與獨立外部審查。",
+      "from_file": "output/2026/09/18.md"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "GitLab 19.4 上線：MCP 工具逐項治理、Duo CLI /goal 代理流程公測",
+      "url": "https://docs.gitlab.com/releases/19/gitlab-19-4-released/",
+      "source": "docs.gitlab.com",
+      "company": "GitLab",
+      "topic": "GitLab 19.4 MCP tool governance and Duo CLI goal command agentic automation",
+      "fingerprint": "GitLab|gitlab-19-4-mcp-governance-duo-goal|2026-09-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "首度把 MCP 工具納入既有權限治理，並開放目標式代理流程"
+      },
+      "summary": "GitLab 19.4 讓 MCP 伺服器工具與內部 Duo 工具共用治理設定，讀取類預設永遠允許、寫入與刪除類預設永遠詢問；Duo CLI 新增 /goal 公測指令，由另一顆模型逐步驗收開放式目標，另加入 Kimi K3、MiniMax M3、GLM 5.3 三顆開源權重模型與 Credit 用量可視化。",
+      "from_file": "output/2026/09/18.md"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Anthropic 把 Claude 的 Cowork 併回單一介面，同步公測 Docs 與 Slides",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+      "source": "techcrunch.com",
+      "company": "Anthropic",
+      "topic": "Anthropic merges Claude chat and Cowork into one interface with Docs and Slides beta",
+      "fingerprint": "Anthropic|claude-chat-cowork-merge-docs-slides|2026-09-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "移除 Chat/Cowork 分頁選擇，並新增文件與簡報工具"
+      },
+      "summary": "Anthropic 把 Claude chat 與 Cowork 合併成單一介面，Claude 會自動判斷該閒聊或動手執行，Artifacts 與 Claude Design 均可直接在對話中使用，Claude Code 暫時獨立；同步公測的 Claude Docs 與 Claude Slides 支援協作編輯與下載 PDF/PPT，先開放 Pro 與 Max 用戶。",
+      "from_file": "output/2026/09/18.md"
     }
   ],
   "reason_picked_schema": {
