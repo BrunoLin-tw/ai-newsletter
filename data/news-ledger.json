@@ -15120,6 +15120,145 @@
       },
       "summary": "Anthropic 把 Claude chat 與 Cowork 合併成單一介面，Claude 會自動判斷該閒聊或動手執行，Artifacts 與 Claude Design 均可直接在對話中使用，Claude Code 暫時獨立；同步公測的 Claude Docs 與 Claude Slides 支援協作編輯與下載 PDF/PPT，先開放 Pro 與 Max 用戶。",
       "from_file": "output/2026/09/18.md"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "HBM 缺料推升中國 AI 晶片報價：華為 Ascend 950DT 開價破 25 萬人民幣，兩個月漲 20%~50%",
+      "url": "https://enterpriseai.economictimes.indiatimes.com/news/industry/chinas-ai-chipmakers-raise-prices-as-high-bandwidth-memory-shortage-bites/134012624",
+      "source": "enterpriseai.economictimes.indiatimes.com",
+      "company": "Huawei",
+      "topic": "Chinese AI chipmakers raise AI accelerator prices 20-50% on HBM shortage",
+      "fingerprint": "Huawei|china-ai-accelerator-hbm-price-hikes|2026-09-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "HBM 缺料推升中國加速卡報價 20%~50%，屬新一波價格調整"
+      },
+      "summary": "高頻寬記憶體全球缺料推升成本，華為把 Ascend 950DT 指標價拉到 25 萬人民幣（約 3.7 萬美元）以上，較兩個月前報價高 20%~50%；寒武紀 690 較兩個月前高 20%~30%，沐曦與天數智芯同步調漲，漲幅依合約條件而異。",
+      "from_file": "output/2026/09/19.md"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Dnotitia 向量處理 ASIC 回片：四卡伺服器向量檢索吞吐量達雙路 CPU 的 5.77 倍",
+      "url": "https://www.prnewswire.com/news-releases/dnotitia-brings-dedicated-vector-silicon-to-server-scale-at-ai-infra-summit-2026-302882731.html",
+      "source": "prnewswire.com",
+      "company": "Dnotitia",
+      "topic": "Dnotitia VDPU vector processing ASIC first silicon return and server-scale benchmarks",
+      "fingerprint": "Dnotitia|vdpu-vector-asic-first-silicon|2026-09-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "official_source"
+        ],
+        "note": "首代 VDPU ASIC 樣品回片並公布矽前 5.77 倍吞吐量實測"
+      },
+      "summary": "Dnotitia 第一代向量資料處理單元（VDPU）ASIC 樣品已從晶圓廠回片並進入 chip-level 特性量測，預計 Q4 2026 做矽上驗證；FPGA 階段四卡 VDPU 伺服器向量搜尋吞吐量最高達雙路 CPU 伺服器的 5.77 倍，同時釋放主機 CPU 與記憶體，並已整合 Seahorse 與 Milvus、FAISS、hnswlib。",
+      "from_file": "output/2026/09/19.md"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Anthropic 設灣區濕實驗室，測試讓 Claude 指揮機器人做生物實驗",
+      "url": "https://www.cnbc.com/2026/09/18/anthropic-quietly-sets-up-biology-lab-as-it-ramps-ai-drug-program-report.html",
+      "source": "cnbc.com",
+      "company": "Anthropic",
+      "topic": "Anthropic wet lab for AI-driven biology experiments and robotic lab automation",
+      "fingerprint": "Anthropic|wet-lab-physical-biology-robotic-experiments|2026-09-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "healthcare",
+          "official_source"
+        ],
+        "note": "首度確認自建濕實驗室並把 Claude 推進實體實驗流程"
+      },
+      "summary": "Anthropic 生命科學負責人 Eric Kauderer-Abrams 向 Reuters 證實公司在舊金山灣區設有 wet lab 並已進行實驗，理由是生物學最終仍須回到真實實驗台；公司正測試讓 Claude 在有限人力下指揮自動化設備執行實驗，人類監督仍是安全要件。官方補充該實驗室非專為藥物開發，但生命科學已是投入最大領域之一。",
+      "from_file": "output/2026/09/19.md"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Meta 監督委員會下令下架 Deepfake，直指平台防護「系統性且根本地不足」",
+      "url": "https://www.theguardian.com/technology/2026/sep/17/meta-ordered-remove-deepfakes-oversight-board-inadequate-safeguards",
+      "source": "theguardian.com",
+      "company": "Meta",
+      "topic": "Meta Oversight Board binding deepfake decisions and nine safeguard reforms",
+      "fingerprint": "Meta|oversight-board-deepfake-removal-nine-reforms|2026-09-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "security_research",
+          "official_source"
+        ],
+        "note": "具約束力的 Deepfake 裁決並提出九項平台政策改革"
+      },
+      "summary": "Meta 監督委員會裁定兩支 AI 生成影片應下架：偽造蘇格蘭工黨議員發表反難民言論的影片違反仇恨行為準則，另一支貶抑穆斯林競選志工的影片觸犯霸凌與騷擾政策，並指 Meta 防護「系統性且根本地不足」。委員會提出九項改革，含降低高風險 AI 內容演算法推送、觀看前警告畫面、加重累犯帳號處罰與擴大不願被操弄影像定義。",
+      "from_file": "output/2026/09/19.md"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "紐時案新解密：微軟高層私下稱 AI 爬取是「人類史上最大規模勞動竊取」",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "source": "techcrunch.com",
+      "company": "Microsoft",
+      "topic": "NYT v Microsoft OpenAI unredacted filings reveal internal theft and existential threat quotes",
+      "fingerprint": "Microsoft|nyt-unredacted-filings-ai-scraping-theft-quotes|2026-09-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "同一訴訟新解封內容，首次曝光內部 theft 與生存威脅自述"
+      },
+      "summary": "紐時告微軟與 OpenAI 案的新解封文件顯示，微軟高層私下把自家 AI 訓練實務描述為 theft，OpenAI 領導層稱模型對出版社與記者構成生存威脅；文件另指兩公司繞過付費牆、大規模爬取並移除訓練資料的版權標示，微軟自家數據顯示 Copilot answer engine 讓紐時網域點擊率較 Bing 搜尋最多掉 93%。多數新資訊來自原告書狀，底層證物仍封存。",
+      "from_file": "output/2026/09/19.md"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Google 把 CC 改造成家庭 AI 代理：專屬 Google 帳號，最多服務六位家庭成員",
+      "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
+      "source": "techcrunch.com",
+      "company": "Google",
+      "topic": "Google CC family household AI agent with own account and shared permissions",
+      "fingerprint": "Google|cc-family-household-agent-expansion|2026-09-19",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "CC 從個人助理轉為家庭共享代理，新增帳號與權限模型"
+      },
+      "summary": "Google 把原本的生產力代理 CC 轉向家務協作：CC 取得專屬 Google 帳號，最多與六位家庭成員協作，各成員自行決定分享哪些信件並可設寄件者白名單自動轉寄，CC 產出共同每日簡報、更新行事曆、追蹤未完成事項、建立文件甚至預填學校同意書，跨家庭外送前會先索取確認。目前限美國成年人個人帳號，新用戶需排候補。",
+      "from_file": "output/2026/09/19.md"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Splunk 開源 Token Meter：在選單列即時顯示 Claude Code、Codex、Cursor 的 token 花費",
+      "url": "https://www.splunk.com/en_us/blog/artificial-intelligence/token-meter-a-live-cost-meter-for-your-coding-agents.html",
+      "source": "splunk.com",
+      "company": "Splunk",
+      "topic": "Splunk open-source Token Meter local cost observability for AI coding agents",
+      "fingerprint": "Splunk|token-meter-open-source-coding-agent-cost|2026-09-19",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "開源本機工具，把 coding agent 成本可觀測性補上"
+      },
+      "summary": "Splunk 開源 Token Meter，讀取本機 AI coding agent 寫在磁碟的 trace 檔，依公開費率換算 token 消耗、估算成本、輸出速度、等待時間與工具呼叫，資料不出本機；可跨 agent、模型與 session 比較效率並設預算或異常花費警示。Splunk 表示靠它把每週 AI 編碼成本砍掉約三分之一。",
+      "from_file": "output/2026/09/19.md"
     }
   ],
   "reason_picked_schema": {
