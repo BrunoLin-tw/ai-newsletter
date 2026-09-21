@@ -15397,6 +15397,145 @@
       },
       "summary": "MVLAND 2.0 以音樂優先邏輯分析節奏、情緒與段落後自動生成分鏡，創作者可對單一鏡頭的運鏡、構圖與角色動作獨立修改或重生，不必整支重跑，並支援多角色一致性與策展風格庫。內建多軌剪輯器可混用 AI 生成片段與實拍素材，把音樂理解到後製收進同一條產線。",
       "from_file": "output/2026/09/20.md"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "CXMT G5 DRAM platform mass production with 24Gb LPDDR5X in Chinese flagship phones",
+      "url": "https://www.chinadaily.com.cn/a/202609/20/WS6aaf7abee4b06d4aa055f08a.html",
+      "source": "China Daily",
+      "company": "CXMT",
+      "topic": "G5 DRAM platform mass production and 24Gb LPDDR5X volume shipments",
+      "fingerprint": "CXMT|g5-dram-platform-mass-production-24gb-lpddr5x|2026-09-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "首次宣布 G5 平台量產並公布 11.95nm 半間距與 50% 毛晶粒增幅等具體製程數據"
+      },
+      "summary": "CXMT 在合肥世界製造業大會宣布 G5 DRAM 平台量產，四重曝光把陣列主動區半間距縮到 11.95nm，45:1 電容深寬比與 DRAM 版 HKMG 把關鍵區域高度壓到 6,762nm，每片晶圓毛晶粒數較第四代多至少 50%。同步量產的 24Gb LPDDR5X 有 496-ball 與 245-ball 封裝，已進入中國主流旗艦手機。",
+      "from_file": "output/2026/09/21.md"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "StepFun Step 5 Preview 600B sparse MoE with 1M context, weights delayed to Oct 15",
+      "url": "https://pandaily.com/stepfun-step-5-preview-600b-moe-1m-context",
+      "source": "Pandaily",
+      "company": "StepFun",
+      "topic": "Step 5 Preview 600B sparse MoE API launch with deferred open weights",
+      "fingerprint": "StepFun|step-5-preview-600b-moe-api-launch|2026-09-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "新旗艦模型首次上線 API，並揭露 600B/27B active、1M context 與 Intelligence Index 44 分等規格"
+      },
+      "summary": "階躍星辰發表 600B 稀疏 MoE 旗艦 Step 5 Preview，每 token 啟用約 27B 參數、支援 1M token 上下文與影像輸入，Artificial Analysis Intelligence Index 得 44 分。API 當天開放，但 Hugging Face 的 stepfun-ai/Step-5-Preview-BF16 目前只有 .gitattributes，官方稱權重 10 月 15 日才開放下載。",
+      "from_file": "output/2026/09/21.md"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Coherent launches PhotonLink optics platform and demos 3.2T OSFP transceiver at ECOC 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/09/20/3365104/11543/en/coherent-showcases-optical-innovations-to-scale-ai-infrastructure-at-ecoc-2026.html",
+      "source": "GlobeNewswire",
+      "company": "Coherent",
+      "topic": "PhotonLink CPO NPO optics platform launch and 3.2T transceiver demonstration",
+      "fingerprint": "Coherent|photonlink-cpo-npo-platform-3-2t-transceiver|2026-09-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "全新 PhotonLink 整合光學平台首次發表，同步端出 3.2T OSFP 與 NPO/CPO 實機示範"
+      },
+      "summary": "Coherent 在 ECOC 2026 發表 PhotonLink 整合光學平台，涵蓋 CPO、NPO 到晶片間連接，細節另行公布。現場示範包含 OSFP 尺寸的 3.2T 2xDR4 收發器（雙 1.6T 光路）、NPO/CPO 方案、光路交換與高功率密度散熱管理，對應 AI 資料中心的 scale-up、scale-out 與 scale-across 連接需求。",
+      "from_file": "output/2026/09/21.md"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Nscale files S-1 for NYSE listing targeting up to $35 billion valuation",
+      "url": "https://www.cityam.com/nscale-files-for-35bn-us-listing/",
+      "source": "City AM",
+      "company": "Nscale",
+      "topic": "Nscale S-1 filing for NYSE IPO with $35 billion valuation target",
+      "fingerprint": "Nscale|s1-filing-nyse-ipo-35bn-valuation|2026-09-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "Nscale 首次遞交上市申請，公開代號 NSCL、承銷團、財報數字與 NVIDIA/Anthropic 合約規模"
+      },
+      "summary": "NVIDIA 投資的英國 AI 雲端商 Nscale 遞交 S-1，計畫以代號 NSCL 在紐交所上市，目標估值上看 350 億美元，由高盛、摩根大通、摩根士丹利主辦並開放英國散戶認購。上半年營收 1.41 億美元、淨損 10 億美元；8 月底約 25,000 顆 GPU 在跑、合約值 26 億美元，NVIDIA 另計畫部署 436,000 顆晶片、合約總額 1,010 億美元。",
+      "from_file": "output/2026/09/21.md"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "US and China agree to establish formal AI Dialogue with incident notification mechanism",
+      "url": "https://www.channelnewsasia.com/world/us-china-officials-meet-trump-xi-summit-6398086",
+      "source": "Channel NewsAsia",
+      "company": "US Treasury / China State Council",
+      "topic": "US-China AI Dialogue establishment with AI incident notification mechanism",
+      "fingerprint": "US-China|ai-dialogue-establishment-incident-notification|2026-09-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "雙邊 AI 對話由會前磋商正式升級為常設機制，並加入事故互相通報的具體安排"
+      },
+      "summary": "美國財長 Bessent 與中國副總理何立峰在紐約會談八小時後，同意建立正式的「美中 AI 對話」並安排後續會議，美方另提議加入 AI 安全威脅與事故的通報機制。會談同時討論延長 11 月到期的貿易休兵、稀土與關鍵礦產供應，為週四的川習會鋪路。",
+      "from_file": "output/2026/09/21.md"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "FAA to deploy SMART AI air traffic planning tool at Washington-area airports",
+      "url": "https://www.scrippsnews.com/science-and-tech/artificial-intelligence/faa-set-to-roll-out-ai-air-traffic-tool-at-washington-area-airports-reports-say",
+      "source": "Scripps News",
+      "company": "FAA",
+      "topic": "SMART AI air traffic planning tool first deployment at Washington airports",
+      "fingerprint": "FAA|smart-ai-air-traffic-tool-washington-deployment|2026-09-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "AI 空中交通規劃工具首次進入實際營運環境，並附 90 天測試期與 8.75 億美元計畫規模"
+      },
+      "summary": "FAA 最快週一起在華盛頓特區周邊機場上線 SMART（Strategic Management of Airspace, Routes and Trajectories）AI 工具，用於減少延誤與取消。署長 Bryan Bedford 表示會先進行 90 天測試再評估擴大；管制員仍負責航機隔離與操作安全，AI 僅做規劃與決策支援。整體為 8.75 億美元、12 年現代化計畫，合作方 Air Space Intelligence。",
+      "from_file": "output/2026/09/21.md"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "CodeRabbit launches Triage to prioritize exploding AI-generated PR queues",
+      "url": "https://www.coderabbit.ai/blog/coderabbit-triage",
+      "source": "CodeRabbit",
+      "company": "CodeRabbit",
+      "topic": "CodeRabbit Triage AI-prioritized pull request queue launch",
+      "fingerprint": "CodeRabbit|triage-ai-pr-queue-prioritization-launch|2026-09-21",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "針對 agent 大量開 PR 的新瓶頸首次推出產品，以規則判狀態加 AI 排序分數的雙層設計"
+      },
+      "summary": "CodeRabbit 推出 Triage，解決 AI agent 開 PR 速度遠快於人類審查的瓶頸。它以確定性規則判斷工作流狀態（待審、被 CI 卡住、等作者更新），再用 AI 給 P0–P3 優先分數與資安風險、影響範圍、預估審查成本，每張卡只提示單一明確動作，並可一鍵清掉過期、被取代或重複的 PR。",
+      "from_file": "output/2026/09/21.md"
     }
   ],
   "reason_picked_schema": {
