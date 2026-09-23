@@ -15676,6 +15676,146 @@
       },
       "summary": "Air Security 揭露 Plugin4Shell：AI coding agent 會 checkout 市集 pin 住的 commit，卻未回頭驗證落地程式碼是否為該 commit。攻擊者只要把 repo 的分支命名為 40 位 hash 並設為預設分支，就能在版本鎖看似無損下換成惡意碼，再靠背景自動更新達成零點擊 RCE。Claude Code 2.1.179 與 Codex 0.146.0 已修補，GitHub Copilot 尚無修正，Gemini CLI 因退役確定不修。",
       "from_file": "output/2026/09/22.md"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "阿里 T-Head 發表 Zhenwu V900：216GB 記憶體、1,200GB/s 互連，逾千顆可串成單一系統",
+      "url": "https://technode.com/2026/09/22/t-head-unveils-zhenwu-v900-ai-chip-in-alibabas-push-to-expand-its-ai-infrastructure-stack/",
+      "source": "technode.com",
+      "company": "Alibaba T-Head",
+      "topic": "Zhenwu V900 training and inference AI chip launch with ICN Switch supernode and Yitian CPU roadmap",
+      "fingerprint": "Alibaba T-Head|zhenwu-v900-ai-chip-supernode-launch|2026-09-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "官方首度發表訓練推論合一的新一代 AI 晶片與 50 萬顆叢集規模"
+      },
+      "summary": "T-Head 在 Apsara Conference 2026 發表 Zhenwu V900，官方稱效能是前代 M890 的三倍，具 216GB 記憶體與 1,200GB/s 晶片間頻寬，原生支援 FP8 與 FP4。以自家 ICN Switch 串成 supernode 後，逾千顆可協同運作，搭配新世代伺服器與 Alibaba Cloud 網路架構，單一叢集號稱可擴充至 50 萬顆加速器。V900 預計 2027 Q1 量產，Yitian 720 與 730 伺服器 CPU 排在 2027 Q3。",
+      "from_file": "output/2026/09/23.md"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "小米開源 MiMo-V2.6：1.02T 稀疏 MoE、42B 啟動參數，空降開源權重榜首",
+      "url": "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash",
+      "source": "venturebeat.com",
+      "company": "Xiaomi",
+      "topic": "MiMo-V2.6-Pro and Flash open-weight omnimodal model release with public RL training report",
+      "fingerprint": "Xiaomi|mimo-v2-6-pro-flash-open-weight-release|2026-09-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "official_source"
+        ],
+        "note": "首次開源 1T 級 omnimodal 權重並公布完整 RL 訓練成本與防 reward hacking 做法"
+      },
+      "summary": "小米開源 MiMo-V2.6-Pro（1.02T 稀疏 MoE、42B 啟動）與 MiMo-V2.6-Flash（310B／15B），兩者皆支援 1M context 與文字、影像、音訊、影片輸入，採 MIT 授權。Pro 在 Artificial Analysis 智慧指數取得 46，與 Grok 4.7 並列並領先 Gemini 3.8 Flash，API 定價每百萬 token 輸入 $0.435、輸出 $0.87。技術報告揭露 RL 花費約 262 萬美元、六天內跑完約 75 萬條 trajectory，並說明以防 reward hacking 的 grader 設計。",
+      "from_file": "output/2026/09/23.md"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Anthropic 發布 Claude Opus 5.5：對標 Fable 5.1、執行成本砍 40%",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude Opus 5.5 flagship model release with 40 percent cost reduction and agentic coding benchmarks",
+      "fingerprint": "Anthropic|claude-opus-5-5-release|2026-09-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "official_source"
+        ],
+        "note": "Claude 5.5 家族首發，主打同等能力下成本降四成與對齊分數提升"
+      },
+      "summary": "Anthropic 發布 Claude Opus 5.5，是 Claude 5.5 家族首個模型，官方稱表現接近 Fable 5.1、執行成本比 Opus 5 低 40%。Terminal-Bench 4.0 拿到 66.4%（Opus 5 為 52.3%），GDPval-AA v2.1 以 1846 Elo 居冠，Terminal-Bench-Science 0.1 由 29% 躍升至 58.7%，輸出速度也快三成以上。API 每百萬 token 輸入 $4、輸出 $20，cache 讀取降至 $0.20，Sonnet 5.5 與 Haiku 5.5 預計數週內推出。",
+      "from_file": "output/2026/09/23.md"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "OpenAI 推出 GPT-6 Sol 與 Luna，API 價格較前代直接砍半",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "GPT-6 Sol and Luna cost-efficiency model launch with 50 percent API price cut and caching discounts",
+      "fingerprint": "OpenAI|gpt-6-sol-luna-price-cut-release|2026-09-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "以 Astra 訓練方法延伸出兩個低價位階，API 價格與快取折扣同步大改"
+      },
+      "summary": "OpenAI 擴充 GPT-6 家族，推出 GPT-6 Sol 與 GPT-6 Luna，兩者沿用 Astra 的訓練方法但以成本效率為訴求，API 價格比 GPT-5.6 同名版本低 50%：Sol 為每百萬 token 輸入 $2、輸出 $10，Luna 為 $0.10／$0.50。DeepSWE 1.1 上 Sol 拿 68.8%，僅落後 Fable 5 約 1.1 分而每任務成本少約八成；Luna 拿 66.6%。快取讀取折扣提高到 90%，開發者還能在不破壞快取的前提下調整 reasoning effort 或工具開關。",
+      "from_file": "output/2026/09/23.md"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Amazon 擋下 Meta 的 Muse：不准 AI agent 代客下單，搬出 Conditions of Use",
+      "url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+      "source": "geekwire.com",
+      "company": "Amazon / Meta",
+      "topic": "Amazon blocks Meta Muse AI agent from agentic shopping on its marketplace",
+      "fingerprint": "Amazon / Meta|amazon-blocks-muse-agentic-shopping|2026-09-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "workflow_automation",
+          "security_research"
+        ],
+        "note": "平台首次以服務條款為武器封鎖第三方購物 agent，牽動顧客關係歸屬"
+      },
+      "summary": "Amazon 以違反 Conditions of Use 為由，封鎖 Meta 新推出的 Muse 個人 AI agent 在其平台上代客購物，使用者會看到「未授權 AI agent 持續存取違反 Amazon 使用條件」的提示。Amazon 指出 Meta 未事先告知、agent 瀏覽時不表明身分，且可能擷取並儲存客戶憑證；Meta 回應 Muse 看不到密碼與付款方式。此舉延續 Amazon 對 Perplexity、Google 與 OpenAI 購物 agent 的封鎖路線，核心爭議是誰掌握 agent 代買時的顧客關係。",
+      "from_file": "output/2026/09/23.md"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "NVIDIA 釋出 Isaac ROS 5.0，把 AI agent 拉進機器人開發流程",
+      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "Isaac ROS 5.0 release with rosidl Buffer zero-copy GPU transport and agent-ready robotics skills",
+      "fingerprint": "NVIDIA|isaac-ros-5-0-zero-copy-agentic-robotics|2026-09-23",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "與前一日 DSX Ready 屬不同主題：這次是機器人開發框架與零拷貝 GPU 傳輸"
+      },
+      "summary": "NVIDIA 在 ROSCon 發表 Isaac ROS 5.0，支援 ROS Lyrical 與 Ubuntu 24.04，並對 ROS 上游貢獻 CUDA buffer backend，讓節點間以 rosidl::Buffer 直接傳遞 GPU 常駐資料，免去 CPU 記憶體複製與序列化。新版加入 agent-ready 技能，包括自動把既有 CUDA 節點遷移到 rosidl::Buffer 的 skill，以及 FoundationStereo 微調技能；FoundationPose 推論庫稱物件姿態追蹤快 5.5 倍。支援範圍涵蓋 Jetson Orin Nano 到 Jetson Thor，現已開源免費釋出。",
+      "from_file": "output/2026/09/23.md"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Z.ai 開源 ZCode 止血：承認偷傳本地快照，公開的 repo 只剩兩個 commit",
+      "url": "https://thenextweb.com/news/zai-zcode-open-source-commit-history-security-assessment",
+      "source": "thenextweb.com",
+      "company": "Z.ai",
+      "topic": "Z.ai open-sources ZCode after silent workspace snapshot upload controversy and wipes commit history",
+      "fingerprint": "Z.ai|zcode-open-source-snapshot-upload-controversy|2026-09-23",
+      "section": "tools",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "開發者揭露加密上傳整個 repo 後官方開源止血，但歷史紀錄同時被抹除"
+      },
+      "summary": "研究者 ferstar 發現 Z.ai 的 coding 工具 ZCode 會把本地 workspace 快照以 AES-256-CTR 加密後上傳阿里雲，其中一個 313MB 快照含 42,411 個檔案與完整 Git 歷史。Z.ai 隨後在 v3.14.0 停用上傳流程、移除 Repo Wiki、清空 zcode-prod bucket 並開源程式碼，但公開 repo 只剩兩個 commit，負責上傳的程式碼本身已無從查驗，刪除主張仍只能聽官方一方說法。",
+      "from_file": "output/2026/09/23.md"
     }
   ],
   "reason_picked_schema": {
