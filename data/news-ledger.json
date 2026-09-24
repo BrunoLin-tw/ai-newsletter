@@ -15816,6 +15816,145 @@
       },
       "summary": "研究者 ferstar 發現 Z.ai 的 coding 工具 ZCode 會把本地 workspace 快照以 AES-256-CTR 加密後上傳阿里雲，其中一個 313MB 快照含 42,411 個檔案與完整 Git 歷史。Z.ai 隨後在 v3.14.0 停用上傳流程、移除 Repo Wiki、清空 zcode-prod bucket 並開源程式碼，但公開 repo 只剩兩個 commit，負責上傳的程式碼本身已無從查驗，刪除主張仍只能聽官方一方說法。",
       "from_file": "output/2026/09/23.md"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "高通同時發表 Snapdragon 8 Elite Gen 6 與 Extreme Gen 6 兩顆 2nm 旗艦晶片",
+      "url": "https://www.techtimes.com/articles/327920/20260923/qualcomm-snapdragon-summit-debuts-dual-2nm-chips-extreme-gen-6-runs-30b-ai-models-offline.htm",
+      "source": "techtimes.com",
+      "company": "Qualcomm",
+      "topic": "Snapdragon 8 Elite Gen 6 and Extreme Gen 6 dual 2nm mobile platform launch enabling 30B on-device models",
+      "fingerprint": "Qualcomm|snapdragon-8-elite-gen-6-dual-2nm-launch|2026-09-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首次以雙旗艦策略發表台積電 N2P 2nm 行動平台，手機可離線跑 30B 模型"
+      },
+      "summary": "高通在 Snapdragon Summit 發表 Snapdragon 8 Elite Gen 6 與 Extreme Gen 6，兩者皆採台積電 N2P 環繞閘極奈米片製程，八核 Oryon 最高 5.00 GHz，Adreno 845 GPU 效能提升 35%，Hexagon NPU 新增 Element Accelerator，首次讓手機不需伺服器即可執行 30B 參數模型。",
+      "from_file": "output/2026/09/24.md"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Q.ANT 開源全球首個光子運算 SDK",
+      "url": "https://www.globenewswire.com/news-release/2026/09/23/3367409/0/en/q-ant-launches-world-first-open-source-sdk-for-photonic-computing.html",
+      "source": "globenewswire.com",
+      "company": "Q.ANT",
+      "topic": "open-source SDK for programming photonic Native Processing Units with CPU simulation backend",
+      "fingerprint": "Q.ANT|photonic-computing-open-source-sdk|2026-09-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "史上第一個公開的光子處理器開發工具，含 CPU 模擬後端可先驗證再上實機"
+      },
+      "summary": "Q.ANT 推出全球首個開源光子運算 SDK，提供 C 與 Python API、範例應用、文件與可在標準 CPU 執行的模擬後端，讓開發者無需光子學背景或專用硬體即可撰寫並驗證 Native Processing Unit 應用，後續將透過 IONOS 雲端與地端 Native Processing Server 開放實機存取。",
+      "from_file": "output/2026/09/24.md"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Kyutai 開源 Voice of Reason 語音原生數學推理模型",
+      "url": "https://www.marktechpost.com/2026/09/22/kyutai-releases-voice-of-reason-a-speech-native-model-that-solves-spoken-math-with-reinforcement-learning/",
+      "source": "marktechpost.com",
+      "company": "Kyutai",
+      "topic": "speech-native open-weight models applying reinforcement learning to spoken mathematical reasoning",
+      "fingerprint": "Kyutai|voice-of-reason-speech-native-math-rl|2026-09-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "official_source"
+        ],
+        "note": "首度把 RL 用於語音原生模型的數學推理，口說 GSM8K 由 27.3% 提升到 77.1%"
+      },
+      "summary": "Kyutai 以 GLM-4-Voice-9B 為基礎，透過 SFT 與群組相對 REINFORCE 訓練釋出兩份 9B 開源權重，中間不經語音轉文字與文字 LLM，口說 GSM8K 準確率從 27.3% 提升至 77.1%；STITCH 版本在語音區塊間插入無聲推理，兩份 BF16 檢查點皆可在單張 H100 自架。",
+      "from_file": "output/2026/09/24.md"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "OpenAI 與 Anthropic 執行長在聯合國安理會呼籲全球 AI 監管",
+      "url": "https://www.aljazeera.com/news/2026/9/24/ai-corporate-leaders-tell-un-the-industry-needs-global-regulation",
+      "source": "aljazeera.com",
+      "company": "OpenAI / Anthropic",
+      "topic": "AI lab CEOs urging UN Security Council to establish global frontier AI oversight frameworks",
+      "fingerprint": "OpenAI|un-security-council-global-ai-oversight-appeal|2026-09-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "近 7 日僅有 OpenAI 單方政策提案與美中對話，本次是首次在聯合國安理會場合同台呼籲全球監管並遭美方當場回絕"
+      },
+      "summary": "法國召集的聯合國安理會會議上，Anthropic 執行長 Dario Amodei 稱管理不善的 AI 可能對全人類構成風險，OpenAI 執行長 Sam Altman 警告人類可能失去對 AI 未來的控制，主張關鍵決策須經民主程序；美國代表 Michael Kratsios 當場拒絕國際機構的集中式治理，中國則預期在習川會中討論 AI 監管路線。",
+      "from_file": "output/2026/09/24.md"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Meta Connect 發表 Ray-Ban Meta Gen 3、無相機 Ray-Ban Meta Audio 與眼鏡版 Muse",
+      "url": "https://www.cnet.com/tech/mobile/meta-connect-new-glasses-muse-ai-hearing-assistance-ray-bans-more/",
+      "source": "cnet.com",
+      "company": "Meta",
+      "topic": "Meta Connect smart glasses lineup launch with Muse agent on glasses and camera-free audio model",
+      "fingerprint": "Meta|meta-connect-ray-ban-gen-3-muse-on-glasses|2026-09-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "近 7 日僅有 Amazon 封鎖 Muse 購物與 Oversight Board 治理消息，本次為 Meta Connect 硬體產品線正式發表並首度把 Muse 帶上眼鏡"
+      },
+      "summary": "Meta 於 Connect 發表 Ray-Ban Meta Gen 3，配備 6 麥克風陣列、12MP 相機、可自訂 Action Button 與最長 9 小時續航；同時推出首款無相機的 Ray-Ban Meta Audio，最輕 43 克、續航 12 小時、售價 349 美元。Muse agent 正式登上眼鏡，可透過語音或實體按鍵喚起，並新增 149 美元開通的 FDA 認證助聽模式。",
+      "from_file": "output/2026/09/24.md"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "DigitalOcean 推出 Managed Agents 公測",
+      "url": "https://www.digitalocean.com/blog/managed-agents-public-preview",
+      "source": "digitalocean.com",
+      "company": "DigitalOcean",
+      "topic": "Managed Agents public preview with Firecracker microVM sessions MCP action gateway and per-second billing",
+      "fingerprint": "DigitalOcean|managed-agents-public-preview|2026-09-24",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把 AI agent 視為一級運算介面的新雲端服務首次進入公測，含暫停續接與 MCP 工具治理"
+      },
+      "summary": "DigitalOcean Managed Agents 進入公測，每個 agent session 執行於獨立 Firecracker microVM，支援暫停、續接與 fork（自暫停恢復約 300ms），相容 Claude Code、Codex CLI、OpenCode、LangGraph 與 CrewAI；Action Gateway 以受管理的 MCP 端點代理逾 16,000 個工具與 API，計費按秒並在等待推論或工具時暫停計費。",
+      "from_file": "output/2026/09/24.md"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Google 旗下 Intrinsic 以 Apache 2.0 開源 Intrinsic Core 機器人堆疊",
+      "url": "https://www.intrinsic.ai/blog/posts/introducing-intrinsic-core",
+      "source": "intrinsic.ai",
+      "company": "Google Intrinsic",
+      "topic": "Intrinsic Core open-source ROS-compatible industrial robotics stack release under Apache 2.0",
+      "fingerprint": "Google-Intrinsic|intrinsic-core-open-source-robotics-stack|2026-09-24",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Alphabet 把工廠實際運行的工業機器人底層以 Apache 2.0 開源，內容與近 7 日 NVIDIA Isaac ROS 5.0 為不同廠商的不同堆疊"
+      },
+      "summary": "Alphabet 旗下 Intrinsic 在 ROSCon 2026 開源 Intrinsic Core，採 Apache 2.0 授權，包含硬體無關的即時控制框架、動作規劃、抓取規劃、Gazebo 模擬服務、相機校正與 ROS 相容驅動，姿態估計直接整合 NVIDIA FoundationPose，提供可直接部署於地端硬體的生產級工業機器人軟體堆疊。",
+      "from_file": "output/2026/09/24.md"
     }
   ],
   "reason_picked_schema": {
