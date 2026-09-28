@@ -16234,6 +16234,166 @@
       },
       "summary": "Exa Agent 的最高強度模式，主打大型清單建構、實體資訊補全與需要數千來源的問題。將任務拆成子任務並派多個 subagent 同時研究不同領域，只在需要前沿智慧的步驟路由到前沿模型。Exa 稱在 WANDR、DeepSearchQA、WideSearch、Company Find-All 四項基準上勝過 Opus 5.5、GPT-6 Astra 與 Perplexity Agent 的最高強度設定；複雜任務約 30 分鐘、最難可達 3 小時。以 effort: ultra 啟用，按標準 Agent 用量計費。",
       "from_file": "output/2026/09/27.md"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "PrismML brings 1-bit Bonsai vision-language models to Snapdragon AR1 Gen 1 smart glasses",
+      "url": "https://prismml.com/news/prismml-brings-1-bit-bonsai-models-to-ai-smart-glasses-powered-by-snapdragon",
+      "source": "prismml.com",
+      "company": "PrismML",
+      "topic": "1-bit quantized 2B vision-language model running locally on Snapdragon AR1 Gen 1 smart glasses with Hexagon NPU optimization",
+      "fingerprint": "PrismML|1-bit-bonsai-vlm-on-snapdragon-ar1-glasses|2026-09-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "1-bit 量化首次把 2B 視覺語言模型搬上眼鏡 SoC，記憶體與速度數字明確"
+      },
+      "summary": "PrismML 在 Snapdragon Summit 展示以 1-bit 精度把 2B 參數視覺語言模型跑在 Snapdragon AR1 Gen 1 智慧眼鏡上，同記憶體下可容納 4 倍參數量、記憶體約省 4 倍、生成速度超過 2 倍。模型建構於 Bonsai 1.7B，權重與架構針對 Qualcomm Hexagon NPU 最佳化，主打離線視覺理解與即時回應，目前僅為技術展示。",
+      "from_file": "output/2026/09/28.md"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Qualcomm to acquire PickNik Robotics and keep MoveIt open-source",
+      "url": "https://www.qualcomm.com/news/releases/2026/09/qualcomm-to-acquire-picknik-to-advance-the-future-of-open-roboti",
+      "source": "qualcomm.com",
+      "company": "Qualcomm",
+      "topic": "Qualcomm acquisition of PickNik to integrate MoveIt manipulation framework with Dragonwing edge robotics platforms",
+      "fingerprint": "Qualcomm|acquires-picknik-moveit-for-physical-ai|2026-09-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "MoveIt 維護者被 Qualcomm 納入 Dragonwing 生態，開源承諾明確"
+      },
+      "summary": "Qualcomm 宣布收購 ROS 生態最廣泛使用的手臂運動規劃框架 MoveIt 的長期維護者 PickNik，並承諾維持開源。雙方將把 MoveIt 與 MoveIt Pro 的運動規劃能力整合進 Qualcomm Dragonwing 邊緣運算與機器人平台，把運動規劃從工作站推向嵌入式 SoC。財務條件未揭露。",
+      "from_file": "output/2026/09/28.md"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "China weighs allowing ByteDance and Alibaba to buy new Nvidia RTX PRO 5500 chips",
+      "url": "https://www.chinatechnews.com/2026/09/28/129979-china-weighs-allowing-bytedance-and-alibaba-to-buy-new-nvidia-chips-heres-why",
+      "source": "chinatechnews.com",
+      "company": "Nvidia / China MIIT",
+      "topic": "China MIIT signaling it may authorize ByteDance and Alibaba procurement of Nvidia RTX PRO 5500 chips despite US export controls",
+      "fingerprint": "Nvidia China MIIT|may-allow-bytedance-alibaba-rtx-pro-5500-purchases|2026-09-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "new_market",
+          "official_source"
+        ],
+        "note": "出口管制可能鬆綁的政策訊號，附採購與出貨量數字"
+      },
+      "summary": "據 The Information 報導，中國工信部近期要求 ByteDance、Alibaba 等大廠回報 Nvidia RTX PRO 5500 採購計畫，並告知政府有意核准，業界預期這款高階專業卡可避開美國出口限制。ByteDance 目標約 100 萬顆，主因本地需求超出 Huawei 等國產供應能力；Nvidia 規劃自 12 月起每季出貨 50 萬顆。Nvidia 回應仍指美國出口管制與中國進口限制雙重夾擊。",
+      "from_file": "output/2026/09/28.md"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Google, OpenAI, Anthropic plan self-regulatory Standards Authority for Frontier AI",
+      "url": "https://www.bankinfosecurity.com/google-openai-anthropic-plan-frontier-ai-standards-body-a-32926",
+      "source": "bankinfosecurity.com",
+      "company": "Google / OpenAI / Anthropic",
+      "topic": "Formation of the Standards Authority for Frontier AI as an industry self-regulatory body setting pre-deployment testing and incident reporting standards",
+      "fingerprint": "Google OpenAI Anthropic|standards-authority-for-frontier-ai-safa|2026-09-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "有別於上週聯合國呼籲國際監管，這次是三家實驗室自建自律機構與稽核規則"
+      },
+      "summary": "三家前沿實驗室正敲定成立 Standards Authority for Frontier AI（SAFA）作為獨立自律組織，目標 2026 年底至 2027 年初啟動。規劃包含共同的部署前測試框架、第三方稽核員資格認定，以及 AI 安全事故通報流程，構想來自 DeepMind 執行長的 FINRA 式自律提案。原為公私協作，在聯邦監管卡關後改由產業自行推進，Meta、xAI、Nvidia 已公開質疑這是三家實驗室的默契而非全體共識。",
+      "from_file": "output/2026/09/28.md"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Grok Bot's Finance integration links bank, card, and brokerage accounts via Plaid",
+      "url": "https://247wallst.com/cards/xpost-01m3ft1pjq2p3afr67xj2avdtg",
+      "source": "247wallst.com",
+      "company": "xAI",
+      "topic": "Grok Bot Finance integration granting read-only Plaid access to bank card and investment accounts for spending analysis",
+      "fingerprint": "xAI|grok-bot-finance-plaid-read-only-accounts|2026-09-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "finance",
+          "real_world_deployment"
+        ],
+        "note": "消費級 AI agent 首次取得常態性真實財務資料存取，非單純理財建議"
+      },
+      "summary": "Grok Bot 推出 Finance 整合，美國用戶可透過 Plaid 連結銀行、信用卡、貸款與券商帳戶，在對話中查詢餘額、支出分類、訂閱項目與投資持倉。官方強調為唯讀授權、不使用者也看不到登入憑證、可隨時解除連結，且不具備轉帳或變更帳戶設定的能力。此舉把 Grok 直接對上長年收費的帳戶聚合與預算工具。",
+      "from_file": "output/2026/09/28.md"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Amazon opens Seller Central to outside AI agents starting with Anthropic's Claude",
+      "url": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude",
+      "source": "aboutamazon.com",
+      "company": "Amazon / Anthropic",
+      "topic": "Amazon Selling Partner plugin letting sellers operate Seller Central listings inventory and pricing from Claude with per-action approval",
+      "fingerprint": "Amazon|seller-central-plugin-for-claude-and-quick|2026-09-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "賣家後台首次對外部 agent 開放，MCP 工具包同步開源"
+      },
+      "summary": "Amazon 在 Accelerate 發表讓外部 AI 助理操作賣家後台的 Selling Partner 外掛，美國賣家 beta 首發支援 Anthropic Claude，Amazon 自家 Quick 同步上線並贈送 12 個月 Quick Plus。賣家透過 OAuth 約一分鐘完成連結，之後可在對話中查詢指標、檢查 FBA 庫存、調整價格與修改商品頁；所有寫入動作需賣家逐筆核准並留有稽核軌跡。底層技能以 MCP 標準開源為 selling-partner-agentic-toolkit。",
+      "from_file": "output/2026/09/28.md"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Docker publishes portable open-source skills for AI coding agents",
+      "url": "https://github.com/docker/skills",
+      "source": "github.com",
+      "company": "Docker",
+      "topic": "Docker open-source SKILL.md catalog giving AI coding agents repeatable Dockerfile Compose sandbox and agent configuration workflows",
+      "fingerprint": "Docker|open-source-skills-catalog-for-ai-coding-agents|2026-09-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把容器最佳實務封裝成可攜式技能，多個主流 coding agent 皆可自動載入"
+      },
+      "summary": "Docker 在 GitHub 釋出可攜式 SKILL.md 技能庫，涵蓋 Dockerfile 與映像建構、Compose 組態、microVM 沙箱生命週期與網路憑證策略、agent.yaml 代理設定等。技能安裝後，Claude Code、Copilot CLI、Cursor、Codex 與 Gemini CLI 會在偵測到任務時自動載入對應技能，讓 agent 產出符合官方建議的多階段建構、層快取與非 root 執行設定。",
+      "from_file": "output/2026/09/28.md"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Alibaba launches Qwen-Audio 3.1 with five models and cuts voice API prices up to 95 percent",
+      "url": "https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/",
+      "source": "the-decoder.com",
+      "company": "Alibaba Qwen",
+      "topic": "Qwen-Audio 3.1 five-model speech stack launch with ASR TTS Realtime price cuts up to 95 percent",
+      "fingerprint": "Alibaba Qwen|qwen-audio-3-1-stack-and-voice-api-price-cuts|2026-09-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_launch",
+          "creative_tools"
+        ],
+        "note": "五模型新堆疊加上 95% 降價，直接重設語音服務成本基準"
+      },
+      "summary": "Qwen 推出五款音訊模型：升級版 ASR 強化多語與方言並自動清理贅字、ASR-Next 支援多說話者分離與情緒環境音辨識、TTS 支援跨語言音色轉移、TTS-Next 以語言模型加擴散架構一次生成人聲音效與背景音，以及可即時插話的 Realtime Plus 具備 262K context。價格同步調降：ASR 最多 95%、Realtime 約 85%、TTS 約 70%，於阿里雲百鍊與 Qwen API 平台提供。",
+      "from_file": "output/2026/09/28.md"
     }
   ],
   "reason_picked_schema": {
