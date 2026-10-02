@@ -16849,6 +16849,145 @@
       },
       "summary": "技嘉發表 AI TOP 100 B850 桌邊 AI 工作站，以 16 核 32 執行緒 AMD Ryzen 9 9950X 為核心，配 128GB DDR5 與 2TB PCIe Gen4 SSD，鎖定本地 LLM 微調、生成式 AI 與 agentic AI。兩種 GPU 配置：NVIDIA RTX 5090 版本跑 32B 模型推論可達每秒 64.9 token；雙 AMD Radeon AI PRO R9700 版本合計 64GB VRAM，可推論最高 235B、微調最高 110B 參數模型。採標準桌機零件與雙 PCIe 5.0 插槽，訴求降低對雲端與按 token 計費服務的依賴。",
       "from_file": "output/2026/10/01.md"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Ai2 開源 Olmo-core 3 兆參數 MoE 訓練棧，吞吐量提升 2.7 倍",
+      "url": "https://huggingface.co/blog/allenai/olmocore3",
+      "source": "huggingface.co",
+      "company": "Allen Institute for AI (Ai2)",
+      "topic": "Olmo-core 3 open MoE training framework scaling to trillion-parameter models with DDP resident experts",
+      "fingerprint": "Ai2|olmo-core-3-open-moe-training-stack|2026-10-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首次發布含 2.7 倍吞吐與兆參數 MoE 實測數據"
+      },
+      "summary": "Ai2 釋出 Olmo-core 3，改用 DDP 讓專家常駐 GPU，8 張 B300 上 47B MoE 達每 GPU 每秒 52,000 token、約舊版 2.7 倍；專家池由 8 擴到 128 時總參數量增 10 倍而吞吐僅掉不到 5%，技術報告與程式碼同步開源。",
+      "from_file": "output/2026/10/02.md"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Runway 發表首個開源權重世界動作模型 Praxis-1，跨足機器人控制",
+      "url": "https://roboticsandautomationnews.com/2026/10/01/runway-moves-into-robotics-with-open-weight-praxis-1-ai-model/105402/",
+      "source": "roboticsandautomationnews.com",
+      "company": "Runway",
+      "topic": "Praxis-1 open-weight world action model transferring video pretraining to physical robot control",
+      "fingerprint": "Runway|praxis-1-open-weight-world-action-model|2026-10-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "生成式影片廠商首度跨入機器人，開源權重世界動作模型"
+      },
+      "summary": "Runway 發表 Praxis-1，用大規模影片預訓練的物理常識控制實體機器人，降低對遙操作資料的依賴；實驗顯示網路影片預訓練策略經微調後放置誤差可與遙操作路線相比，正與 Noble Machines、Standard Bots、Ultra Robotics 測試，數月內公開釋出權重。",
+      "from_file": "output/2026/10/02.md"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "美光台中 HBM 先進封裝二廠 10 月中啟用，在台累計投資破 1.6 兆元",
+      "url": "https://udn.com/news/story/7240/9788376",
+      "source": "udn.com",
+      "company": "Micron",
+      "topic": "Micron Taiwan HBM advanced packaging Fab 2 in Taichung starting operations mid-October and NT$1.6T cumulative investment",
+      "fingerprint": "Micron|taichung-hbm-advanced-packaging-fab-2-opening|2026-10-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "新增具體啟用時程、桃園 EUV 廠與 1.6 兆元投資數字"
+      },
+      "summary": "台灣美光董事長盧東暉指出，台中第二座先進封裝廠 10 月中交由製造團隊進駐並展開設備調試，桃園 Fab 11E 以 2028 年上線為目標並預留 High-NA EUV 需求；截至今年 6 月在台累計投資逾新台幣 1.6 兆元，約半數集中在近 4 年。",
+      "from_file": "output/2026/10/02.md"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "OpenAI 解僱 3 名安全團隊成員，指其不當處理敏感資訊",
+      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "source": "techcrunch.com",
+      "company": "OpenAI",
+      "topic": "OpenAI parts ways with three safety researchers over mishandling confidential information shared with external AI safety organization",
+      "fingerprint": "OpenAI|fires-three-safety-researchers-confidential-info-leak|2026-10-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "內部調查後解僱安全團隊成員，資安與治理事件"
+      },
+      "summary": "OpenAI 在內部調查後與 3 名安全團隊成員分道揚鑣，聲明指其違反敏感資訊存取與處理政策，將機密資訊分享給外部 AI 安全評測機構；事件發生在員工警告遭忽視的報導兩天後，同週還包括 Astra 發布喊停與多起 agent 失控事件。",
+      "from_file": "output/2026/10/02.md"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "騰訊砸 70 億美元向甲骨文租 10 萬顆 AI 晶片，繞道東南亞",
+      "url": "https://technews.tw/2026/10/01/tencent-7-billion-lease-100000-ai-chips-oracle/",
+      "source": "technews.tw",
+      "company": "Tencent / Oracle",
+      "topic": "Tencent 7 billion USD five-year lease of 100,000 advanced AI chips across Oracle Southeast Asia data centers",
+      "fingerprint": "Tencent|oracle-7b-lease-100000-ai-chips-southeast-asia|2026-10-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "new_market",
+          "finance"
+        ],
+        "note": "騰訊歷來最大海外算力租賃，繞道出口管制的雲端通道"
+      },
+      "summary": "金融時報報導騰訊同意租用甲骨文東南亞多座資料中心 5 年、總值約 70 億美元並含約 30% 預付款，藉雲端租用取得約 10 萬顆中國境內買不到的先進 AI 晶片，推進自家大模型與 AI Agent，預料將引來美國國會對境外雲端租用漏洞的關注。",
+      "from_file": "output/2026/10/02.md"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "加州紐森簽署 3 項法案，限制雇主以 AI 監控與裁員",
+      "url": "https://www.theguardian.com/us-news/2026/sep/30/gavin-newsom-california-ai-threat",
+      "source": "theguardian.com",
+      "company": "California Governor's Office",
+      "topic": "California laws banning sole reliance on AI for firing workers and restricting AI workplace emotion and neural surveillance",
+      "fingerprint": "California|newsom-signs-ai-worker-protection-laws|2026-10-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "州級立法禁止僅憑 AI 解僱與情緒神經監控"
+      },
+      "summary": "加州州長紐森簽署法案，禁止雇主僅憑 AI 決定解僱或懲處員工、要求 AI 促成的大規模裁員須書面通知，AB 1883 禁止以生物特徵推測員工情緒或蒐集神經資料，AB 1331 禁止廁所等場所監控；他同日簽行政命令要求州府續用 artificial intelligence 一詞並批聯邦缺乏立法。",
+      "from_file": "output/2026/10/02.md"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Fastino 開源 GLiDE 決策模型，Decision Index 領先榜首 6.9 分",
+      "url": "https://www.prnewswire.com/news-releases/fastino-labs-releases-glide-the-first-thinking-decision-model-leading-the-decision-indexs-top-model-by-6-9-points-302896638.html",
+      "source": "prnewswire.com",
+      "company": "Fastino Labs",
+      "topic": "Fastino GLiDE open-weight adaptive reasoning decision model topping Decision Index 0.2.1 by 6.9 points",
+      "fingerprint": "Fastino Labs|glide-open-decision-model-decision-index-leader|2026-10-02",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首個思考型決策模型，公開 benchmark 領先 6.9 分"
+      },
+      "summary": "GLiNER 家族的 Fastino Labs 釋出 GLiDE，主打首個具自適應推理的決策模型，在 Decision Index 0.2.1 拿下 64.81 分、領先榜首 Jev 6.90 分，五大領域全勝且 38 項 benchmark 贏 31 項，知識與推理領先 11.5 分，即日起可透過 Fastino API 取用。",
+      "from_file": "output/2026/10/02.md"
     }
   ],
   "reason_picked_schema": {
