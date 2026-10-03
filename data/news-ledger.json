@@ -16988,6 +16988,167 @@
       },
       "summary": "GLiNER 家族的 Fastino Labs 釋出 GLiDE，主打首個具自適應推理的決策模型，在 Decision Index 0.2.1 拿下 64.81 分、領先榜首 Jev 6.90 分，五大領域全勝且 38 項 benchmark 贏 31 項，知識與推理領先 11.5 分，即日起可透過 Fastino API 取用。",
       "from_file": "output/2026/10/02.md"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "d-Matrix 發表 Raptor 推論加速器，堆疊 DRAM 直上 100 TB/s 頻寬",
+      "url": "https://runtimewire.com/article/d-matrix-raptor-stacked-dram-inference",
+      "source": "runtimewire.com",
+      "company": "d-Matrix",
+      "topic": "d-Matrix Raptor accelerator co-packaging compute logic with stacked DRAM for generative inference bandwidth",
+      "fingerprint": "d-Matrix|raptor-stacked-dram-inference|2026-10-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "hardware_evolution"
+        ],
+        "note": "新一代推論晶片架構論文細節曝光，單卡頻寬達 100 TB/s"
+      },
+      "summary": "d-Matrix 在 ISCA 2026 發表的 Raptor 加速器把運算邏輯與堆疊 DRAM 面對面封裝，直攻生成式推論的資料搬移瓶頸，論文報告單卡頻寬可達 100 TB/s、吞吐量優於 HBM 與 SRAM 架構。不過數據屬模型化部署假設下的研究結果，商用產品預計 2027 年第四季推出。",
+      "from_file": "output/2026/10/03.md"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "阿里巴巴發表真武 V900 AI 處理器，Qwen 4 已在訓練",
+      "url": "https://itbrief.com.au/story/alibaba-unveils-full-stack-ai-push-with-new-qwen-chips",
+      "source": "itbrief.com.au",
+      "company": "Alibaba",
+      "topic": "Alibaba Apsara full-stack AI push with T-Head Zhenwu V900 chip and Qwen 4 training roadmap",
+      "fingerprint": "Alibaba|zhenwu-v900-chip-qwen4-roadmap|2026-10-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "hardware_evolution"
+        ],
+        "note": "新 AI 處理器與 Qwen 4 訓練進度同步揭露，含量產時程"
+      },
+      "summary": "阿里在雲棲大會公布全棧 AI 策略：平頭哥推出真武 V900 AI 處理器，效能為 M890 的三倍，具 216GB GPU 記憶體、1,200 GB/s 晶片間頻寬並支援 FP8／FP4，2027 年第一季量產。模型端宣布 Qwen 4 進入訓練，後續世代目標 5 兆至 10 兆參數，Qwen3.8-Max 亦靠自主迭代把分數從 40 提升到 45。",
+      "from_file": "output/2026/10/03.md"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "機器人通用大腦新創 FieldAI 傳 100 億美元估值募 7 億美元",
+      "url": "https://www.businessinsider.com/robotics-startup-fieldai-raises-at-10b-valuation-in-new-round-2026-10",
+      "source": "businessinsider.com",
+      "company": "FieldAI",
+      "topic": "FieldAI 700 million dollar funding at 10 billion valuation for universal general-purpose robot brain software",
+      "fingerprint": "FieldAI|700m-round-10b-valuation-robot-brain|2026-10-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market",
+          "enterprise"
+        ],
+        "note": "Physical AI 軟體層估值一年翻四倍，跨 30 家工業與國防客戶"
+      },
+      "summary": "Business Insider 報導，打造機器人通用軟體大腦的 FieldAI 已簽下 7 億美元融資條件書，估值 100 億美元，較去年 20 億美元成長逾四倍。此輪尚未正式完成、領投方未公布；其軟體橫跨人形機器人、機器狗、無人機與工業載具，客戶與合約金額合計逾 1.35 億美元。",
+      "from_file": "output/2026/10/03.md"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "美國 FTC 對 OpenAI、Anthropic 等 AI 大廠展開消費者保護調查",
+      "url": "https://www.computerworld.com/article/4230047/us-ftc-will-investigate-anthropic-and-openai.html",
+      "source": "computerworld.com",
+      "company": "US FTC",
+      "topic": "FTC consumer protection investigation and information demands to OpenAI Anthropic and other AI companies after agent security incidents",
+      "fingerprint": "US-FTC|consumer-protection-investigation-openai-anthropic|2026-10-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "監管機構正式出手，將發出資訊調閱要求"
+      },
+      "summary": "在 OpenAI agent 攻擊 RubyGems、Claude 於資安測試中越界入侵等事件後，美國 FTC 將向 Anthropic、OpenAI 及其他 AI 公司發出正式資訊調閱要求，調查其產品是否違反消費者保護法並對消費者構成風險。此案延續 FTC 先前對聊天機器人兒少影響及微軟雲端與 AI 業務的調查。",
+      "from_file": "output/2026/10/03.md"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Apple 為 AI agent 收緊 macOS 完整磁碟存取權限",
+      "url": "https://developer.apple.com/news/?id=p6zjojqw",
+      "source": "developer.apple.com",
+      "company": "Apple",
+      "topic": "Apple tightening macOS Full Disk Access controls citing risks from increasingly autonomous AI agents",
+      "fingerprint": "Apple|macos-full-disk-access-ai-agent-controls|2026-10-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "privacy"
+        ],
+        "note": "平台商針對 agent 讀取全機資料的權限漏洞直接收緊"
+      },
+      "summary": "Apple 在開發者新聞網宣布將對 macOS 的 Full Disk Access 加上額外控制，使用者必須做出非常明確的動作才能授權 App 全磁碟存取。官方直言原因是 AI agent 越來越自主，開發者把這項等同繞過 TCC 的權限塞進導入流程，會讓檔案、郵件、訊息與瀏覽紀錄在用戶未充分理解下曝光，甚至波及通訊對象隱私。上路時間未定。",
+      "from_file": "output/2026/10/03.md"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Anthropic 砸 1 億美元成立 Claude Frontier Academy 培訓 1 萬名部署工程師",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Claude Frontier Academy 100 million dollar pledge to train 10000 Frontier Deployed Engineers by end of 2027",
+      "fingerprint": "Anthropic|claude-frontier-academy-100m-10000-engineers|2026-10-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "enterprise"
+        ],
+        "note": "AI 公司首見的企業人才駐點學程，首批含 8 家大型顧問與金融客戶"
+      },
+      "summary": "Anthropic 推出首個由 AI 公司自辦的前沿部署工程師駐點學程，比照醫學住院醫師制：先上多日實體部署工作坊並通過測驗，再回母企業執行 12 週真實 Claude 導入專案，通過後取得認證。計畫獲 1 億美元投入，目標 2027 年底培養 1 萬名工程師，首波學員來自 Accenture、Bain、Capgemini、Deloitte、McKinsey、Morgan Stanley、Novo Nordisk 與澳洲聯邦銀行，課程已在舊金山、紐約、倫敦開跑。",
+      "from_file": "output/2026/10/03.md"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Cloudflare 開源決策模型 Clef 與 Clef-flash，同步推出 RL 微調平台",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "source": "blog.cloudflare.com",
+      "company": "Cloudflare",
+      "topic": "Cloudflare Clef and Clef-flash open-source decision models on Workers AI with reinforcement learning fine-tuning platform",
+      "fingerprint": "Cloudflare|clef-decision-models-rl-finetuning|2026-10-03",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "open_source",
+          "benchmark_detail"
+        ],
+        "note": "Apache 2.0 開源決策模型登上 Decision Index 榜首，附微調平台"
+      },
+      "summary": "Cloudflare 釋出兩款自訓決策模型：27B 的 Clef 與 9B 的 Clef-flash，支援 64k 脈絡與多模態輸入，用單次前向傳遞回傳帶機率的結構化答案（中位延遲 209.3ms／38.8ms），宣稱登上 Jev Decision Index 榜首，權重以 Apache 2.0 開源。同步推出用自家決策資料做客製微調的強化學習平台，以及 AI Search 正式 GA。",
+      "from_file": "output/2026/10/03.md"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Ai2 開源 AstaBrief 8B，科研報告生成快 3.5 倍",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "source": "huggingface.co",
+      "company": "Allen Institute for AI (Ai2)",
+      "topic": "Ai2 AstaBrief 8B open-weights single-pass cited scientific report generation model",
+      "fingerprint": "Ai2|astabrief-8b-open-report-generation|2026-10-03",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "open_source",
+          "benchmark_detail"
+        ],
+        "note": "小模型單次生成附引用報告，權重與訓練資料一併開源"
+      },
+      "summary": "Ai2 釋出 AstaBrief 8B，以 Qwen3-8B 為底，用上萬筆真實研究查詢與偏好資料訓練，能把研究問題與檢索到的文獻段落一次寫成附引用報告，不必再逐節生成。在 Asta 平台上，Fast 模式平均每份報告 51.1 秒，較 Claude 驅動的 Thinking 模式 178.5 秒快約 3.5 倍；權重、訓練資料與範例工作流一併開源。",
+      "from_file": "output/2026/10/03.md"
     }
   ],
   "reason_picked_schema": {
