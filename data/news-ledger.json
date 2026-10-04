@@ -17149,7 +17149,165 @@
       },
       "summary": "Ai2 釋出 AstaBrief 8B，以 Qwen3-8B 為底，用上萬筆真實研究查詢與偏好資料訓練，能把研究問題與檢索到的文獻段落一次寫成附引用報告，不必再逐節生成。在 Asta 平台上，Fast 模式平均每份報告 51.1 秒，較 Claude 驅動的 Thinking 模式 178.5 秒快約 3.5 倍；權重、訓練資料與範例工作流一併開源。",
       "from_file": "output/2026/10/03.md"
-    }
+    },
+{
+    "date": "2026-10-04",
+    "title": "Aleph Alpha 開源 Kolibri 主權模型：78B MoE、1M 脈絡、每 Token 僅啟用 3B",
+    "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+    "source": "aleph-alpha.com",
+    "company": "Aleph Alpha",
+    "topic": "Aleph Alpha Kolibri sovereign open-weight 78B MoE bilingual model with 1M context",
+    "fingerprint": "Aleph Alpha|kolibri-sovereign-open-weight-moe|2026-10-03",
+    "section": "hard-tech",
+    "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+            "official_source",
+            "benchmark_detail"
+        ],
+        "note": "德國主權模型首度開源權重，78B MoE 只啟用 3B 即可對標四倍活化參數模型"
+    },
+    "summary": "德國 Aleph Alpha 在德國統一日釋出主權開源權重模型 Kolibri，英德雙語 MoE 架構，總參數 78B、每 Token 僅啟用約 3.46B，以 Apache 2.0 授權開放下載，可完全跑在客戶自有基礎設施上。官方 benchmark 顯示它在 AIME、GPQA、τ³-bench 等推理與代理任務上，能與活化參數量高達四倍的模型抗衡。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "CoreWeave 讓 NVIDIA Vera Rubin NVL72 進入正式生產，Cognition 實測 4.8 倍吞吐",
+    "url": "https://www.coreweave.com/news/coreweave-delivers-nvidia-vera-rubin-nvl72-performance-at-production-scale-starting-with-cognition",
+    "source": "coreweave.com",
+    "company": "CoreWeave / Cognition",
+    "topic": "CoreWeave Vera Rubin NVL72 production availability with Cognition 4.8x throughput benchmark",
+    "fingerprint": "CoreWeave|vera-rubin-nvl72-production-cognition-benchmark|2026-09-30",
+    "section": "hard-tech",
+    "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+            "official_source",
+            "benchmark_detail"
+        ],
+        "note": "首個客戶已在 Vera Rubin 上跑生產代理推論，實測 4.8 倍 Token 吞吐"
+    },
+    "summary": "CoreWeave 宣布 Vera Rubin NVL72 正式提供服務，Devin 開發商 Cognition 成為全球首個跑生產工作負載的客戶。Cognition 自行量測，SWE-2 代理推論任務的每 GPU 總 Token 吞吐量比 GB200 NVL72 基準高出 4.8 倍，強化學習工作負載的輸出 Token 吞吐量也提升 3.8 倍。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "CScale 結束隱身募 1.45 億美元，NVIDIA 與 Intel 入股光互連",
+    "url": "https://thenextweb.com/news/cscale-145m-series-c-optical-interconnect-ai",
+    "source": "thenextweb.com",
+    "company": "CScale",
+    "topic": "CScale 145M Series C optical interconnect for gigawatt-scale AI data centers with NVIDIA and Intel strategic investment",
+    "fingerprint": "CScale|145m-series-c-optical-interconnect-gigawatt-ai|2026-09-30",
+    "section": "hard-tech",
+    "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+            "official_source"
+        ],
+        "note": "結束隱身並獲 NVIDIA、Intel 策略投資，直攻千瓦級叢集光互連瓶頸"
+    },
+    "summary": "專做 AI 資料中心光互連的 CScale 揭露 1.45 億美元 C 輪，總募資達 1.88 億美元，由 Atreides 領投，NVIDIA 與 Intel Capital 首度以策略投資人身分加入。公司主打「雷射會壞，算力不能停」：在數十萬條光鏈路的千瓦級叢集裡，用整合光引擎讓光元件故障不至於中斷整個訓練工作。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "美國等 16 國簽署京都願景，把 AI 推進科學研究核心",
+    "url": "https://www.nbcnews.com/tech/tech-news/global-tech-policymakers-embrace-ai-science-rcna600974",
+    "source": "nbcnews.com",
+    "company": "White House OSTP / 16 governments",
+    "topic": "Kyoto Vision for a Golden Age of Science joint statement by US and 15 nations on AI-driven science",
+    "fingerprint": "White House OSTP|kyoto-vision-golden-age-science-ai|2026-10-03",
+    "section": "big-tech",
+    "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+            "official_source"
+        ],
+        "note": "16 國聯手宣示以 AI 主導科學研究，但不附新資金與強制力"
+    },
+    "summary": "美國與另外 15 國在京都 STS 論壇前夕發布《京都願景：科學的黃金年代》聯合聲明，由白宮 OSTP 主導，日本、韓國、英國、阿聯等科技部長背書，主軸是「元科學」與讓 AI 自主設計、執行並分析實驗。聲明並未附帶新資金，屬無強制力的政策宣示。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "OpenAI 安全主管 David Robinson 請辭，稱公司文化壞掉",
+    "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+    "source": "theguardian.com",
+    "company": "OpenAI",
+    "topic": "OpenAI safety lead David Robinson resignation and Atlantic essay on broken culture and external safety incentives",
+    "fingerprint": "OpenAI|david-robinson-safety-resignation-broken-culture|2026-10-03",
+    "section": "big-tech",
+    "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+            "official_source",
+            "security_research"
+        ],
+        "note": "負責發布安全報告的主管離職並公開投書，與日前三位研究員被解約屬不同事件"
+    },
+    "summary": "負責撰寫模型發布安全報告的 David Robinson 離職，並在《大西洋月刊》投書〈我離開 OpenAI，因為它的文化壞掉了〉，批評「先上線再補破網」的迭代部署在高自主性系統上已不再安全，主張前沿 AI 該比照核電或民航的高風險標準，並需要更強的外部安全誘因。OpenAI 回應強調會在測試未達門檻時暫停發布。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "IBM 讓 Bob 進駐地端與氣隙環境，搶攻主權 AI",
+    "url": "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance",
+    "source": "newsroom.ibm.com",
+    "company": "IBM",
+    "topic": "IBM Bob self-hosted and air-gapped deployment for enterprise AI sovereignty and governance",
+    "fingerprint": "IBM|bob-self-hosted-air-gapped-deployment|2026-10-01",
+    "section": "big-tech",
+    "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+            "official_source",
+            "workflow_automation"
+        ],
+        "note": "agentic 開發平台首度可地端與氣隙部署，切進受監管產業的主權需求"
+    },
+    "summary": "IBM 為 agentic 軟體開發平台 IBM Bob 推出自託管部署，可跑在地端、私有雲、主權雲與完全離線的氣隙環境，支援 Red Hat OpenShift 與自帶授權，並能執行 Granite、Mistral 等本地模型。IBM 引用自家調查指出，68% 高階主管坦言跨地理的資料落地與主權要求難以達成。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "Microsoft 開源 ThinkingBox：改看資料庫終態來驗證 AI agent",
+    "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "source": "huggingface.co",
+    "company": "Microsoft",
+    "topic": "Microsoft ThinkingBox database-verified AI agent benchmark with 507 stateful workflows on Hugging Face OpenEnv",
+    "fingerprint": "Microsoft|thinkingbox-database-verified-agent-benchmark|2026-10-03",
+    "section": "tools",
+    "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+            "official_source",
+            "benchmark_detail"
+        ],
+        "note": "以資料庫終態與副作用取代文字評分，揭露 agent 連 20 次一致性落差"
+    },
+    "summary": "微軟與 Hugging Face 合作把 ThinkingBox 推上 HF，內含 507 個可執行的企業級有狀態工作流，在隔離的 MCP 工具 session 中執行 agent，最後檢查後端資料庫狀態與副作用是否正確。每題跑 20 次，揭露「單次會過、連 20 次做不完」的可靠度落差。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "DeepSeek Harness 桌面版全球公測，開源外掛化的 agent 工作台",
+    "url": "https://www.deepseek.com/en/harness/",
+    "source": "deepseek.com",
+    "company": "DeepSeek",
+    "topic": "DeepSeek Harness open-source plugin-based agent harness public preview with desktop and web UI",
+    "fingerprint": "DeepSeek|harness-open-source-public-preview-desktop|2026-10-03",
+    "section": "tools",
+    "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+            "official_source",
+            "workflow_automation"
+        ],
+        "note": "自帶執行環境的開源 agent harness 進入全球公測，桌面版與 web UI 同步開放"
+    },
+    "summary": "DeepSeek 把 Harness 推到全球公測並開源，採 Cordis 的「一切皆外掛」架構，可跑桌面 App 或直接從程式碼啟動 web UI，涵蓋檔案整理、資料分析、程式開發、研究查證與背景任務。特色是自帶執行環境、免設定即可開跑 agent 工作流。",
+    "from_file": "output/2026/10/04.md"
+}
   ],
   "reason_picked_schema": {
     "type": "object",
