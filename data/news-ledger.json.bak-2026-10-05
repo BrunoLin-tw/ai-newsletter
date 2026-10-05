@@ -17150,321 +17150,164 @@
       "summary": "Ai2 釋出 AstaBrief 8B，以 Qwen3-8B 為底，用上萬筆真實研究查詢與偏好資料訓練，能把研究問題與檢索到的文獻段落一次寫成附引用報告，不必再逐節生成。在 Asta 平台上，Fast 模式平均每份報告 51.1 秒，較 Claude 驅動的 Thinking 模式 178.5 秒快約 3.5 倍；權重、訓練資料與範例工作流一併開源。",
       "from_file": "output/2026/10/03.md"
     },
-    {
-      "date": "2026-10-04",
-      "title": "Aleph Alpha 開源 Kolibri 主權模型：78B MoE、1M 脈絡、每 Token 僅啟用 3B",
-      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "source": "aleph-alpha.com",
-      "company": "Aleph Alpha",
-      "topic": "Aleph Alpha Kolibri sovereign open-weight 78B MoE bilingual model with 1M context",
-      "fingerprint": "Aleph Alpha|kolibri-sovereign-open-weight-moe|2026-10-03",
-      "section": "hard-tech",
-      "reason_picked": {
+{
+    "date": "2026-10-04",
+    "title": "Aleph Alpha 開源 Kolibri 主權模型：78B MoE、1M 脈絡、每 Token 僅啟用 3B",
+    "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+    "source": "aleph-alpha.com",
+    "company": "Aleph Alpha",
+    "topic": "Aleph Alpha Kolibri sovereign open-weight 78B MoE bilingual model with 1M context",
+    "fingerprint": "Aleph Alpha|kolibri-sovereign-open-weight-moe|2026-10-03",
+    "section": "hard-tech",
+    "reason_picked": {
         "code": "official_launch",
         "secondary": [
-          "official_source",
-          "benchmark_detail"
+            "official_source",
+            "benchmark_detail"
         ],
         "note": "德國主權模型首度開源權重，78B MoE 只啟用 3B 即可對標四倍活化參數模型"
-      },
-      "summary": "德國 Aleph Alpha 在德國統一日釋出主權開源權重模型 Kolibri，英德雙語 MoE 架構，總參數 78B、每 Token 僅啟用約 3.46B，以 Apache 2.0 授權開放下載，可完全跑在客戶自有基礎設施上。官方 benchmark 顯示它在 AIME、GPQA、τ³-bench 等推理與代理任務上，能與活化參數量高達四倍的模型抗衡。",
-      "from_file": "output/2026/10/04.md"
     },
-    {
-      "date": "2026-10-04",
-      "title": "CoreWeave 讓 NVIDIA Vera Rubin NVL72 進入正式生產，Cognition 實測 4.8 倍吞吐",
-      "url": "https://www.coreweave.com/news/coreweave-delivers-nvidia-vera-rubin-nvl72-performance-at-production-scale-starting-with-cognition",
-      "source": "coreweave.com",
-      "company": "CoreWeave / Cognition",
-      "topic": "CoreWeave Vera Rubin NVL72 production availability with Cognition 4.8x throughput benchmark",
-      "fingerprint": "CoreWeave|vera-rubin-nvl72-production-cognition-benchmark|2026-09-30",
-      "section": "hard-tech",
-      "reason_picked": {
+    "summary": "德國 Aleph Alpha 在德國統一日釋出主權開源權重模型 Kolibri，英德雙語 MoE 架構，總參數 78B、每 Token 僅啟用約 3.46B，以 Apache 2.0 授權開放下載，可完全跑在客戶自有基礎設施上。官方 benchmark 顯示它在 AIME、GPQA、τ³-bench 等推理與代理任務上，能與活化參數量高達四倍的模型抗衡。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "CoreWeave 讓 NVIDIA Vera Rubin NVL72 進入正式生產，Cognition 實測 4.8 倍吞吐",
+    "url": "https://www.coreweave.com/news/coreweave-delivers-nvidia-vera-rubin-nvl72-performance-at-production-scale-starting-with-cognition",
+    "source": "coreweave.com",
+    "company": "CoreWeave / Cognition",
+    "topic": "CoreWeave Vera Rubin NVL72 production availability with Cognition 4.8x throughput benchmark",
+    "fingerprint": "CoreWeave|vera-rubin-nvl72-production-cognition-benchmark|2026-09-30",
+    "section": "hard-tech",
+    "reason_picked": {
         "code": "real_world_deployment",
         "secondary": [
-          "official_source",
-          "benchmark_detail"
+            "official_source",
+            "benchmark_detail"
         ],
         "note": "首個客戶已在 Vera Rubin 上跑生產代理推論，實測 4.8 倍 Token 吞吐"
-      },
-      "summary": "CoreWeave 宣布 Vera Rubin NVL72 正式提供服務，Devin 開發商 Cognition 成為全球首個跑生產工作負載的客戶。Cognition 自行量測，SWE-2 代理推論任務的每 GPU 總 Token 吞吐量比 GB200 NVL72 基準高出 4.8 倍，強化學習工作負載的輸出 Token 吞吐量也提升 3.8 倍。",
-      "from_file": "output/2026/10/04.md"
     },
-    {
-      "date": "2026-10-04",
-      "title": "CScale 結束隱身募 1.45 億美元，NVIDIA 與 Intel 入股光互連",
-      "url": "https://thenextweb.com/news/cscale-145m-series-c-optical-interconnect-ai",
-      "source": "thenextweb.com",
-      "company": "CScale",
-      "topic": "CScale 145M Series C optical interconnect for gigawatt-scale AI data centers with NVIDIA and Intel strategic investment",
-      "fingerprint": "CScale|145m-series-c-optical-interconnect-gigawatt-ai|2026-09-30",
-      "section": "hard-tech",
-      "reason_picked": {
+    "summary": "CoreWeave 宣布 Vera Rubin NVL72 正式提供服務，Devin 開發商 Cognition 成為全球首個跑生產工作負載的客戶。Cognition 自行量測，SWE-2 代理推論任務的每 GPU 總 Token 吞吐量比 GB200 NVL72 基準高出 4.8 倍，強化學習工作負載的輸出 Token 吞吐量也提升 3.8 倍。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "CScale 結束隱身募 1.45 億美元，NVIDIA 與 Intel 入股光互連",
+    "url": "https://thenextweb.com/news/cscale-145m-series-c-optical-interconnect-ai",
+    "source": "thenextweb.com",
+    "company": "CScale",
+    "topic": "CScale 145M Series C optical interconnect for gigawatt-scale AI data centers with NVIDIA and Intel strategic investment",
+    "fingerprint": "CScale|145m-series-c-optical-interconnect-gigawatt-ai|2026-09-30",
+    "section": "hard-tech",
+    "reason_picked": {
         "code": "official_launch",
         "secondary": [
-          "official_source"
+            "official_source"
         ],
         "note": "結束隱身並獲 NVIDIA、Intel 策略投資，直攻千瓦級叢集光互連瓶頸"
-      },
-      "summary": "專做 AI 資料中心光互連的 CScale 揭露 1.45 億美元 C 輪，總募資達 1.88 億美元，由 Atreides 領投，NVIDIA 與 Intel Capital 首度以策略投資人身分加入。公司主打「雷射會壞，算力不能停」：在數十萬條光鏈路的千瓦級叢集裡，用整合光引擎讓光元件故障不至於中斷整個訓練工作。",
-      "from_file": "output/2026/10/04.md"
     },
-    {
-      "date": "2026-10-04",
-      "title": "美國等 16 國簽署京都願景，把 AI 推進科學研究核心",
-      "url": "https://www.nbcnews.com/tech/tech-news/global-tech-policymakers-embrace-ai-science-rcna600974",
-      "source": "nbcnews.com",
-      "company": "White House OSTP / 16 governments",
-      "topic": "Kyoto Vision for a Golden Age of Science joint statement by US and 15 nations on AI-driven science",
-      "fingerprint": "White House OSTP|kyoto-vision-golden-age-science-ai|2026-10-03",
-      "section": "big-tech",
-      "reason_picked": {
+    "summary": "專做 AI 資料中心光互連的 CScale 揭露 1.45 億美元 C 輪，總募資達 1.88 億美元，由 Atreides 領投，NVIDIA 與 Intel Capital 首度以策略投資人身分加入。公司主打「雷射會壞，算力不能停」：在數十萬條光鏈路的千瓦級叢集裡，用整合光引擎讓光元件故障不至於中斷整個訓練工作。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "美國等 16 國簽署京都願景，把 AI 推進科學研究核心",
+    "url": "https://www.nbcnews.com/tech/tech-news/global-tech-policymakers-embrace-ai-science-rcna600974",
+    "source": "nbcnews.com",
+    "company": "White House OSTP / 16 governments",
+    "topic": "Kyoto Vision for a Golden Age of Science joint statement by US and 15 nations on AI-driven science",
+    "fingerprint": "White House OSTP|kyoto-vision-golden-age-science-ai|2026-10-03",
+    "section": "big-tech",
+    "reason_picked": {
         "code": "policy_or_regulatory_change",
         "secondary": [
-          "official_source"
+            "official_source"
         ],
         "note": "16 國聯手宣示以 AI 主導科學研究，但不附新資金與強制力"
-      },
-      "summary": "美國與另外 15 國在京都 STS 論壇前夕發布《京都願景：科學的黃金年代》聯合聲明，由白宮 OSTP 主導，日本、韓國、英國、阿聯等科技部長背書，主軸是「元科學」與讓 AI 自主設計、執行並分析實驗。聲明並未附帶新資金，屬無強制力的政策宣示。",
-      "from_file": "output/2026/10/04.md"
     },
-    {
-      "date": "2026-10-04",
-      "title": "OpenAI 安全主管 David Robinson 請辭，稱公司文化壞掉",
-      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-      "source": "theguardian.com",
-      "company": "OpenAI",
-      "topic": "OpenAI safety lead David Robinson resignation and Atlantic essay on broken culture and external safety incentives",
-      "fingerprint": "OpenAI|david-robinson-safety-resignation-broken-culture|2026-10-03",
-      "section": "big-tech",
-      "reason_picked": {
+    "summary": "美國與另外 15 國在京都 STS 論壇前夕發布《京都願景：科學的黃金年代》聯合聲明，由白宮 OSTP 主導，日本、韓國、英國、阿聯等科技部長背書，主軸是「元科學」與讓 AI 自主設計、執行並分析實驗。聲明並未附帶新資金，屬無強制力的政策宣示。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "OpenAI 安全主管 David Robinson 請辭，稱公司文化壞掉",
+    "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+    "source": "theguardian.com",
+    "company": "OpenAI",
+    "topic": "OpenAI safety lead David Robinson resignation and Atlantic essay on broken culture and external safety incentives",
+    "fingerprint": "OpenAI|david-robinson-safety-resignation-broken-culture|2026-10-03",
+    "section": "big-tech",
+    "reason_picked": {
         "code": "leadership_change",
         "secondary": [
-          "official_source",
-          "security_research"
+            "official_source",
+            "security_research"
         ],
         "note": "負責發布安全報告的主管離職並公開投書，與日前三位研究員被解約屬不同事件"
-      },
-      "summary": "負責撰寫模型發布安全報告的 David Robinson 離職，並在《大西洋月刊》投書〈我離開 OpenAI，因為它的文化壞掉了〉，批評「先上線再補破網」的迭代部署在高自主性系統上已不再安全，主張前沿 AI 該比照核電或民航的高風險標準，並需要更強的外部安全誘因。OpenAI 回應強調會在測試未達門檻時暫停發布。",
-      "from_file": "output/2026/10/04.md"
     },
-    {
-      "date": "2026-10-04",
-      "title": "IBM 讓 Bob 進駐地端與氣隙環境，搶攻主權 AI",
-      "url": "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance",
-      "source": "newsroom.ibm.com",
-      "company": "IBM",
-      "topic": "IBM Bob self-hosted and air-gapped deployment for enterprise AI sovereignty and governance",
-      "fingerprint": "IBM|bob-self-hosted-air-gapped-deployment|2026-10-01",
-      "section": "big-tech",
-      "reason_picked": {
+    "summary": "負責撰寫模型發布安全報告的 David Robinson 離職，並在《大西洋月刊》投書〈我離開 OpenAI，因為它的文化壞掉了〉，批評「先上線再補破網」的迭代部署在高自主性系統上已不再安全，主張前沿 AI 該比照核電或民航的高風險標準，並需要更強的外部安全誘因。OpenAI 回應強調會在測試未達門檻時暫停發布。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "IBM 讓 Bob 進駐地端與氣隙環境，搶攻主權 AI",
+    "url": "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance",
+    "source": "newsroom.ibm.com",
+    "company": "IBM",
+    "topic": "IBM Bob self-hosted and air-gapped deployment for enterprise AI sovereignty and governance",
+    "fingerprint": "IBM|bob-self-hosted-air-gapped-deployment|2026-10-01",
+    "section": "big-tech",
+    "reason_picked": {
         "code": "distribution_expansion",
         "secondary": [
-          "official_source",
-          "workflow_automation"
+            "official_source",
+            "workflow_automation"
         ],
         "note": "agentic 開發平台首度可地端與氣隙部署，切進受監管產業的主權需求"
-      },
-      "summary": "IBM 為 agentic 軟體開發平台 IBM Bob 推出自託管部署，可跑在地端、私有雲、主權雲與完全離線的氣隙環境，支援 Red Hat OpenShift 與自帶授權，並能執行 Granite、Mistral 等本地模型。IBM 引用自家調查指出，68% 高階主管坦言跨地理的資料落地與主權要求難以達成。",
-      "from_file": "output/2026/10/04.md"
     },
-    {
-      "date": "2026-10-04",
-      "title": "Microsoft 開源 ThinkingBox：改看資料庫終態來驗證 AI agent",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "source": "huggingface.co",
-      "company": "Microsoft",
-      "topic": "Microsoft ThinkingBox database-verified AI agent benchmark with 507 stateful workflows on Hugging Face OpenEnv",
-      "fingerprint": "Microsoft|thinkingbox-database-verified-agent-benchmark|2026-10-03",
-      "section": "tools",
-      "reason_picked": {
+    "summary": "IBM 為 agentic 軟體開發平台 IBM Bob 推出自託管部署，可跑在地端、私有雲、主權雲與完全離線的氣隙環境，支援 Red Hat OpenShift 與自帶授權，並能執行 Granite、Mistral 等本地模型。IBM 引用自家調查指出，68% 高階主管坦言跨地理的資料落地與主權要求難以達成。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "Microsoft 開源 ThinkingBox：改看資料庫終態來驗證 AI agent",
+    "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "source": "huggingface.co",
+    "company": "Microsoft",
+    "topic": "Microsoft ThinkingBox database-verified AI agent benchmark with 507 stateful workflows on Hugging Face OpenEnv",
+    "fingerprint": "Microsoft|thinkingbox-database-verified-agent-benchmark|2026-10-03",
+    "section": "tools",
+    "reason_picked": {
         "code": "official_launch",
         "secondary": [
-          "official_source",
-          "benchmark_detail"
+            "official_source",
+            "benchmark_detail"
         ],
         "note": "以資料庫終態與副作用取代文字評分，揭露 agent 連 20 次一致性落差"
-      },
-      "summary": "微軟與 Hugging Face 合作把 ThinkingBox 推上 HF，內含 507 個可執行的企業級有狀態工作流，在隔離的 MCP 工具 session 中執行 agent，最後檢查後端資料庫狀態與副作用是否正確。每題跑 20 次，揭露「單次會過、連 20 次做不完」的可靠度落差。",
-      "from_file": "output/2026/10/04.md"
     },
-    {
-      "date": "2026-10-04",
-      "title": "DeepSeek Harness 桌面版全球公測，開源外掛化的 agent 工作台",
-      "url": "https://www.deepseek.com/en/harness/",
-      "source": "deepseek.com",
-      "company": "DeepSeek",
-      "topic": "DeepSeek Harness open-source plugin-based agent harness public preview with desktop and web UI",
-      "fingerprint": "DeepSeek|harness-open-source-public-preview-desktop|2026-10-03",
-      "section": "tools",
-      "reason_picked": {
+    "summary": "微軟與 Hugging Face 合作把 ThinkingBox 推上 HF，內含 507 個可執行的企業級有狀態工作流，在隔離的 MCP 工具 session 中執行 agent，最後檢查後端資料庫狀態與副作用是否正確。每題跑 20 次，揭露「單次會過、連 20 次做不完」的可靠度落差。",
+    "from_file": "output/2026/10/04.md"
+},
+{
+    "date": "2026-10-04",
+    "title": "DeepSeek Harness 桌面版全球公測，開源外掛化的 agent 工作台",
+    "url": "https://www.deepseek.com/en/harness/",
+    "source": "deepseek.com",
+    "company": "DeepSeek",
+    "topic": "DeepSeek Harness open-source plugin-based agent harness public preview with desktop and web UI",
+    "fingerprint": "DeepSeek|harness-open-source-public-preview-desktop|2026-10-03",
+    "section": "tools",
+    "reason_picked": {
         "code": "official_launch",
         "secondary": [
-          "official_source",
-          "workflow_automation"
+            "official_source",
+            "workflow_automation"
         ],
         "note": "自帶執行環境的開源 agent harness 進入全球公測，桌面版與 web UI 同步開放"
-      },
-      "summary": "DeepSeek 把 Harness 推到全球公測並開源，採 Cordis 的「一切皆外掛」架構，可跑桌面 App 或直接從程式碼啟動 web UI，涵蓋檔案整理、資料分析、程式開發、研究查證與背景任務。特色是自帶執行環境、免設定即可開跑 agent 工作流。",
-      "from_file": "output/2026/10/04.md"
     },
-    {
-      "date": "2026-10-05",
-      "title": "Meta Muse Spark 與數學家合著 6 篇論文，5 篇解開未解難題",
-      "url": "https://research.meta.ai/blog/solving-open-research-problems-together",
-      "source": "research.meta.ai",
-      "company": "Meta",
-      "topic": "Meta Muse Spark co-authored mathematics papers answering previously open research problems",
-      "fingerprint": "Meta|muse-spark-coauthored-math-papers-open-problems|2026-10-05",
-      "section": "hard-tech",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [
-          "official_source"
-        ],
-        "note": "首次公布與人類數學家合著論文，5 篇回答既有未解問題"
-      },
-      "summary": "Meta 公布與人類數學家合作的六篇論文，其中五篇回答過去未解的開放問題，涵蓋高維橢圓擬合門檻、雙調和薛丁格方程的有限時間波崩塌、二元多項式鬆弛精確性，以及反證 Kida 2024 猜想。全程只用 meta.ai 聊天介面與 Thinking 模式，未搭客製研究框架，並標註 AI 與人類各自撰寫的段落。",
-      "from_file": "output/2026/10/05.md"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "NVIDIA 推 64GB DGX Spark，4,999 美元起、兩台串成 128GB",
-      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-      "source": "blogs.nvidia.com",
-      "company": "NVIDIA",
-      "topic": "NVIDIA DGX Spark 64GB unified memory SKU with Sync Cluster Assistant two-unit 128GB clustering",
-      "fingerprint": "NVIDIA|dgx-spark-64gb-sync-cluster-assistant|2026-10-05",
-      "section": "hard-tech",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [
-          "official_source",
-          "pricing_detail"
-        ],
-        "note": "首個 64GB DGX Spark SKU，公布 4,999 美元定價與 10/23 出貨時程"
-      },
-      "summary": "NVIDIA 新增 64GB 統一記憶體版本 DGX Spark，由 Acer、ASUS、Dell、Gigabyte、HP、MSI 出貨，10 月 23 日起開賣、售價 4,999 美元起，單機可跑最高 1,000 億參數模型。兩台可用 Sync Cluster Assistant 經 QSFP 直連串成 128GB、支援 2,000 億參數，官方 Qwen 3.8 27B 測試顯示叢集效能可達單機 1.7 倍。",
-      "from_file": "output/2026/10/05.md"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Satlyt 募 800 萬美元，要讓 AI 直接在衛星上跑",
-      "url": "https://technews.tw/2026/10/05/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-      "source": "technews.tw",
-      "company": "Satlyt",
-      "topic": "Satlyt 8M seed round for orbital AI inference software running models on satellites",
-      "fingerprint": "Satlyt|orbital-ai-inference-software-8m-seed|2026-10-05",
-      "section": "hard-tech",
-      "reason_picked": {
-        "code": "real_world_deployment",
-        "secondary": [
-          "new_market",
-          "official_source"
-        ],
-        "note": "軟體已隨 SpaceX 火箭上軌道測試，並有 NASA 付費試用"
-      },
-      "summary": "前 Google、SpaceX 產品經理 Rama Afullo 創辦的 Satlyt 完成 800 萬美元種子輪（Non Sibi Ventures 領投），專攻在軌 AI 軟體而非自建衛星。其軟體 10 月 1 日隨 SpaceX 火箭升空測試，今年稍早在 Momentus 太空船部署 Google DeepMind 的 Gemma 模型，把機載軟體錯誤回報的資料量砍逾 60%，估計每顆衛星每年可省下數十萬美元。",
-      "from_file": "output/2026/10/05.md"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "川普成立「超級智慧部隊」，聯邦 AI 正式改稱 SI",
-      "url": "https://www.cbsnews.com/news/ai-super-intelligence-force-trump-jay-clayton/",
-      "source": "cbsnews.com",
-      "company": "White House",
-      "topic": "Trump Super Intelligence Force establishment with Jay Clayton as AI czar and federal SI renaming order",
-      "fingerprint": "White House|super-intelligence-force-clayton-si-renaming|2026-10-05",
-      "section": "big-tech",
-      "reason_picked": {
-        "code": "policy_or_regulatory_change",
-        "secondary": [
-          "official_source"
-        ],
-        "note": "正式成立 SIF 並拍板四位主持人選，聯邦用語改為 SI"
-      },
-      "summary": "川普簽署行政命令要求聯邦機構把「AI」改稱「Super Intelligence／SI」，並宣布成立 Super Intelligence Force，由國家情報總監 Jay Clayton 領軍，FTC 主席 Andrew Ferguson、五角大廈 CTO Emil Michael、OPM 局長 Scott Kupor 共同主持，對總統與幕僚長 Susie Wiles 負責。任務是統籌政府對消費者、公益團體與業界的溝通，但預算與時程尚未公布。",
-      "from_file": "output/2026/10/05.md"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Gemini 免費層 10/9 起只剩 Flash-Lite，AI Pro 反而下放 Deep Think",
-      "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
-      "source": "9to5google.com",
-      "company": "Google",
-      "topic": "Google Gemini app model access limits for free and AI Plus tiers with Deep Think coming to AI Pro",
-      "fingerprint": "Google|gemini-app-tier-model-access-limits-deep-think|2026-10-05",
-      "section": "big-tech",
-      "reason_picked": {
-        "code": "pricing_or_packaging_change",
-        "secondary": [
-          "official_source"
-        ],
-        "note": "免費與 AI Plus 層可存取模型縮減，AI Pro 首次取得 Deep Think"
-      },
-      "summary": "Google 更新支援文件，自 10 月 9 日起未付費 Gemini 用戶只能用 3.5 Flash-Lite，失去 3.6 Flash 與 3.1 Pro；每月 4.99 美元的 AI Plus 只剩 Flash-Lite 與 Flash。19.99 美元的 AI Pro 反而升格，首度取得原本高階方案專屬的 Deep Think 平行推理，Gemini App 也將加入 low／medium／high 三級推理強度。",
-      "from_file": "output/2026/10/05.md"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Toshiba 砸 600 億日圓翻倍 AI 資料中心硬碟產能",
-      "url": "https://www.trendforce.com/news/2026/10/02/news-toshiba-to-double-ai-data-center-hdd-capacity-by-fy2027-with-380m-expansion-as-ai-storage-demand-surges/",
-      "source": "trendforce.com",
-      "company": "Toshiba",
-      "topic": "Toshiba doubling AI data center nearline HDD capacity by FY2027 with 60 billion yen Philippines expansion",
-      "fingerprint": "Toshiba|nearline-hdd-capacity-doubling-fy2027|2026-10-05",
-      "section": "big-tech",
-      "reason_picked": {
-        "code": "real_world_deployment",
-        "secondary": [
-          "official_source",
-          "new_market"
-        ],
-        "note": "五年來首次大型硬碟投資，鎖定 AI 冷儲存並喊出 30% 市占"
-      },
-      "summary": "Toshiba 宣布投入約 600 億日圓（約 3.8 億美元）擴建菲律賓 Laguna 廠，要在 2027 會計年度前把 AI 資料中心用 nearline HDD 產能翻倍，是五年來首次大型硬碟投資。目標把容量市占從目前約 10% 拉到 30%，2027 年先推 30TB 級 MAMR 產品，2030 年後布局 65TB 與 100TB 級硬碟。",
-      "from_file": "output/2026/10/05.md"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Instinct 募 10 億美元 C 輪，估值一個月從 25 億衝到 100 億",
-      "url": "https://www.unite.ai/instinct-raises-1b-series-c-at-10b-valuation-to-bring-useful-ai-to-everyone/",
-      "source": "unite.ai",
-      "company": "Instinct",
-      "topic": "Instinct 1 billion dollar Series C at 10 billion valuation for a personal AI agent that operates phone and computer",
-      "fingerprint": "Instinct|series-c-1b-10b-valuation-personal-agent|2026-10-05",
-      "section": "tools",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [
-          "official_source",
-          "finance"
-        ],
-        "note": "14 人團隊一個月內估值四級跳，並公布 Concierge 等新功能"
-      },
-      "summary": "由 23 歲 Noah Shinn 創辦、僅約 14 人的個人 AI 代理新創 Instinct 完成 10 億美元 C 輪，由 Sequoia、Benchmark、Coatue 領投，估值達 100 億美元，較上個月 B 輪的 25 億四級跳。產品不靠專屬 App，使用者用簡訊、電話或 email 下指令，代理用自己的門號與電腦代打電話、訂位、買菜、取消訂閱，另有讓代理彼此協調的 Trusted Person Network。",
-      "from_file": "output/2026/10/05.md"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Strata 開源引擎把 125B MoE 模型塞進 12GB 消費級 GPU",
-      "url": "https://github.com/Niko1221/Strata",
-      "source": "github.com",
-      "company": "Strata",
-      "topic": "Strata open-source inference engine running 125B parameter Qwen3.8-Flash-Next MoE on a single 12GB consumer GPU",
-      "fingerprint": "Strata|125b-moe-12gb-consumer-gpu-inference-engine|2026-10-05",
-      "section": "tools",
-      "reason_picked": {
-        "code": "official_launch",
-        "secondary": [
-          "official_source",
-          "benchmark_detail"
-        ],
-        "note": "以熱專家快取與自寫 CUDA kernel 讓 125B MoE 跑在 12GB 顯卡"
-      },
-      "summary": "開源推論引擎 Strata 用熱專家 VRAM 快取、CPU 卸載與針對 Qwen 架構手寫的 CUDA kernel，讓 125B 參數的 Qwen3.8-Flash-Next 在單張 12GB 遊戲顯卡加 64GB 記憶體上跑出每秒 60-95 token。計畫在 Hacker News 衝上前排，並提供 Windows／Linux 一鍵安裝與 OpenAI、Anthropic 相容的本機 API。",
-      "from_file": "output/2026/10/05.md"
-    }
+    "summary": "DeepSeek 把 Harness 推到全球公測並開源，採 Cordis 的「一切皆外掛」架構，可跑桌面 App 或直接從程式碼啟動 web UI，涵蓋檔案整理、資料分析、程式開發、研究查證與背景任務。特色是自帶執行環境、免設定即可開跑 agent 工作流。",
+    "from_file": "output/2026/10/04.md"
+}
   ],
   "reason_picked_schema": {
     "type": "object",
