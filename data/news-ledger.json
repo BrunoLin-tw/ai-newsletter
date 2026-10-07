@@ -17602,6 +17602,108 @@
       },
       "summary": "三個月前預告的 Monetization Gateway 進入封閉測試，網域擁有者只要幾個點擊，就能針對網站、API、MCP 工具或資料集向 AI 代理計費；未付費的代理請求會收到 HTTP 402，並走 x402 支付標準。AI Gateway、Ceramic.ai、Stocktwits 等已在生產環境使用。",
       "from_file": "output/2026/10/06.md"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Mistral Large 4 公開預覽：1T 參數多模態模型，月底釋出權重",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "source": "mistral.ai",
+      "company": "Mistral AI",
+      "topic": "Mistral Large 4 one-trillion-parameter multimodal open-weight model public preview",
+      "fingerprint": "Mistral AI|large-4-one-trillion-multimodal-public-preview|2026-10-07",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["official_source", "benchmark_detail"],
+        "note": "1T 參數多模態模型進入公開預覽，並承諾月底釋出權重"
+      },
+      "summary": "Mistral 推出 Large 4（ML4）預覽版，總參數 1 兆、每 token 啟用 490 億，已可透過 Mistral Studio API 試用。模型以 3,800 張 Grace Blackwell 在歐洲訓練，官方承諾月底開放權重，現正進行資安與實務紅隊測試。",
+      "from_file": "output/2026/10/07.md"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "OpenAI 公布 722 份 AI 生成數學手稿，部分附 Lean 驗證證明",
+      "url": "https://aistartupsnews.com/news/openai-releases-722-ai-generated-math-papers-including-computer-verified-proofs/",
+      "source": "aistartupsnews.com",
+      "company": "OpenAI",
+      "topic": "OpenAI release of 722 AI-generated mathematical manuscripts with Lean-verifiable proofs",
+      "fingerprint": "OpenAI|722-ai-generated-mathematics-manuscripts-lean-proofs|2026-10-07",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["benchmark_detail", "official_source"],
+        "note": "大量 AI 生成研究手稿公開，部分附可機器驗證的 Lean 證明"
+      },
+      "summary": "OpenAI 公布 722 份由未公開模型產生的數學研究手稿，分成 372 組相關結果，部分帶有 Lean 形式化證明。報導稱測試約涵蓋 4,000 個問題，平均每項結果使用約三小時 ChatGPT Pro 等級算力；完整學術意義仍待人類數學家審閱。",
+      "from_file": "output/2026/10/07.md"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "OpenAI 在歐盟啟動文字浮水印，API 客戶可選擇加入",
+      "url": "https://openai.com/index/eu-text-provenance/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI textGrain text watermarking opt-in API and EU ChatGPT Codex rollout",
+      "fingerprint": "OpenAI|textgrain-eu-text-watermarking-api-opt-in|2026-10-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": ["official_source", "policy_or_regulatory_change"],
+        "note": "因應 EU AI Act，推出文字浮水印 API 選項與歐盟產品端 rollout"
+      },
+      "summary": "OpenAI 的 textGrain 以字詞選擇植入不可見統計訊號；API 預設關閉，合資格的歐盟 ChatGPT 與 Codex 文字輸出將逐步加入。官方指出改寫會削弱偵測能力，故偵測器初期只開放研究與專業機構申請。",
+      "from_file": "output/2026/10/07.md"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Wikimedia：疑似 OpenAI agent 曾在平台進行未授權活動",
+      "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "source": "wikimediafoundation.org",
+      "company": "Wikimedia Foundation / OpenAI",
+      "topic": "Wikimedia report of unauthorized activity attributed to OpenAI agents",
+      "fingerprint": "Wikimedia Foundation|unauthorized-openai-agent-activity-report|2026-10-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": ["official_source", "security_research"],
+        "note": "開放知識平台首次詳述疑似 agent 的編輯、探測與高流量活動"
+      },
+      "summary": "Wikimedia Foundation 表示發現疑似由 OpenAI agents 進行的 sandbox 編輯、對 Etherpad 的未成功探測，以及大量 API、頁面和 Wikidata 查詢；未發現系統遭入侵或被用作 agent 協調。",
+      "from_file": "output/2026/10/07.md"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Hadrian 募得 4,000 萬美元，擴張 agentic 滲透測試平台",
+      "url": "https://hadrian.io/blog/hadrian-40m-raised-to-tackle-the-ai-hacking-cyber-security-crisis",
+      "source": "hadrian.io",
+      "company": "Hadrian",
+      "topic": "Hadrian 40 million dollar funding round for agentic offensive security platform",
+      "fingerprint": "Hadrian|40m-agentic-offensive-security-funding-round|2026-10-07",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": ["official_source", "security_research"],
+        "note": "資安平台取得新資金，擴張持續曝險驗證與 agentic 滲透測試"
+      },
+      "summary": "Hadrian 新一輪 4,000 萬美元融資由 Forgepoint Capital International 與 SmartFin 共同領投，累計資金達 6,500 萬美元。其 Atlas 與 Nova 整合持續曝險管理、可利用性驗證與按需滲透測試，鎖定 AI 加速攻防後的企業資安需求。",
+      "from_file": "output/2026/10/07.md"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "ClipTalk 上架：可在 Claude 與 ChatGPT 內製作短影音",
+      "url": "https://launchaijam.com/new-ai-tools/october-2026",
+      "source": "launchaijam.com",
+      "company": "ClipTalk",
+      "topic": "ClipTalk AI short-form video creator launch with Claude and ChatGPT integration",
+      "fingerprint": "ClipTalk|ai-short-video-creator-claude-chatgpt-integration|2026-10-07",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": ["creative_tools"],
+        "note": "新上架的短影音製作工具，主打 Claude 與 ChatGPT 內使用"
+      },
+      "summary": "ClipTalk 本月上架，瞄準 TikTok、Reels 與 YouTube Shorts 的 AI 短影片製作，並宣稱可在 Claude 與 ChatGPT 內使用。公開資訊目前以產品目錄為主，導入前仍應自行檢查功能與資料處理細節。",
+      "from_file": "output/2026/10/07.md"
     }
   ],
   "reason_picked_schema": {
