@@ -17614,7 +17614,10 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["official_source", "benchmark_detail"],
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
         "note": "1T 參數多模態模型進入公開預覽，並承諾月底釋出權重"
       },
       "summary": "Mistral 推出 Large 4（ML4）預覽版，總參數 1 兆、每 token 啟用 490 億，已可透過 Mistral Studio API 試用。模型以 3,800 張 Grace Blackwell 在歐洲訓練，官方承諾月底開放權重，現正進行資安與實務紅隊測試。",
@@ -17631,7 +17634,10 @@
       "section": "hard-tech",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["benchmark_detail", "official_source"],
+        "secondary": [
+          "benchmark_detail",
+          "official_source"
+        ],
         "note": "大量 AI 生成研究手稿公開，部分附可機器驗證的 Lean 證明"
       },
       "summary": "OpenAI 公布 722 份由未公開模型產生的數學研究手稿，分成 372 組相關結果，部分帶有 Lean 形式化證明。報導稱測試約涵蓋 4,000 個問題，平均每項結果使用約三小時 ChatGPT Pro 等級算力；完整學術意義仍待人類數學家審閱。",
@@ -17648,7 +17654,10 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "major_feature_update",
-        "secondary": ["official_source", "policy_or_regulatory_change"],
+        "secondary": [
+          "official_source",
+          "policy_or_regulatory_change"
+        ],
         "note": "因應 EU AI Act，推出文字浮水印 API 選項與歐盟產品端 rollout"
       },
       "summary": "OpenAI 的 textGrain 以字詞選擇植入不可見統計訊號；API 預設關閉，合資格的歐盟 ChatGPT 與 Codex 文字輸出將逐步加入。官方指出改寫會削弱偵測能力，故偵測器初期只開放研究與專業機構申請。",
@@ -17665,7 +17674,10 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "security_or_incident",
-        "secondary": ["official_source", "security_research"],
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
         "note": "開放知識平台首次詳述疑似 agent 的編輯、探測與高流量活動"
       },
       "summary": "Wikimedia Foundation 表示發現疑似由 OpenAI agents 進行的 sandbox 編輯、對 Etherpad 的未成功探測，以及大量 API、頁面和 Wikidata 查詢；未發現系統遭入侵或被用作 agent 協調。",
@@ -17682,7 +17694,10 @@
       "section": "big-tech",
       "reason_picked": {
         "code": "real_world_deployment",
-        "secondary": ["official_source", "security_research"],
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
         "note": "資安平台取得新資金，擴張持續曝險驗證與 agentic 滲透測試"
       },
       "summary": "Hadrian 新一輪 4,000 萬美元融資由 Forgepoint Capital International 與 SmartFin 共同領投，累計資金達 6,500 萬美元。其 Atlas 與 Nova 整合持續曝險管理、可利用性驗證與按需滲透測試，鎖定 AI 加速攻防後的企業資安需求。",
@@ -17699,11 +17714,152 @@
       "section": "tools",
       "reason_picked": {
         "code": "official_launch",
-        "secondary": ["creative_tools"],
+        "secondary": [
+          "creative_tools"
+        ],
         "note": "新上架的短影音製作工具，主打 Claude 與 ChatGPT 內使用"
       },
       "summary": "ClipTalk 本月上架，瞄準 TikTok、Reels 與 YouTube Shorts 的 AI 短影片製作，並宣稱可在 Claude 與 ChatGPT 內使用。公開資訊目前以產品目錄為主，導入前仍應自行檢查功能與資料處理細節。",
       "from_file": "output/2026/10/07.md"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "OpenAI 把 GPT-6 推向所有使用者，同步導入 Intelligent UI",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "GPT-6 general availability for all ChatGPT users with Intelligent UI interactive component generation",
+      "fingerprint": "OpenAI|gpt-6-intelligent-ui-general-availability|2026-10-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "GPT-6 從付費層下放到全體週活 12 億用戶，Intelligent UI 為全新互動介面能力"
+      },
+      "summary": "OpenAI 把 GPT-6 推向所有 ChatGPT 用戶，並導入 Intelligent UI：模型可依問題自行組合圖表、按鈕、表單與互動元件，同時支援邊思考邊作答以縮短等待時間。",
+      "from_file": "output/2026/10/08.md"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Anthropic 推出 Claude Haiku 5.5，成本砍到前代約四分之一",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude Haiku 5.5 small model launch with tiered pricing and adjustable effort control",
+      "fingerprint": "Anthropic|claude-haiku-5-5-launch|2026-10-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首度在 Haiku 級距提供 effort 調整，100k token 以內價格大幅下修並附完整 benchmark"
+      },
+      "summary": "Claude Haiku 5.5 主打高頻、成本敏感工作，平均執行成本比 Haiku 4.5 低約 75%，100k token 以內輸入每百萬 token 0.10 美元，OSWorld 2.1 達 72.4%，並同步把 Sonnet 5.5 的 cache read 價格砍半。",
+      "from_file": "output/2026/10/08.md"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "三星 12 層 HBM4E 通過 NVIDIA 驗證，卡位 Rubin Ultra",
+      "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202610070018",
+      "source": "kedglobal.com",
+      "company": "Samsung",
+      "topic": "Samsung 12-layer HBM4E qualification test pass with NVIDIA and hyperscalers",
+      "fingerprint": "Samsung|hbm4e-12-layer-nvidia-qualification|2026-10-08",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "三星在 HBM3E 世代落後後首度取得 NVIDIA 次世代記憶體驗證，直攻 Rubin Ultra"
+      },
+      "summary": "三星 12 層 HBM4E 已完成 NVIDIA 與多家超大規模雲端客戶的品質驗證測試，瞄準下一世代 Rubin Ultra AI GPU；供應量、合約規模與量產時程尚未由雙方正式確認。",
+      "from_file": "output/2026/10/08.md"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "微軟與 NVIDIA 聯手推 Surface Laptop Ultra，RTX Spark 晶片首發",
+      "url": "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+      "source": "blogs.windows.com",
+      "company": "Microsoft / NVIDIA",
+      "topic": "Surface Laptop Ultra and Surface RTX Spark Dev Box pre-orders with local 120B model inference",
+      "fingerprint": "Microsoft|surface-laptop-ultra-rtx-spark-preorder|2026-10-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "RTX Spark 超級晶片首發機種開放預購，主打本機執行 120B 以上參數模型"
+      },
+      "summary": "Surface Laptop Ultra 搭載 NVIDIA RTX Spark，最高 20 核 Grace CPU、6,144 核 Blackwell RTX GPU 與 128GB 統一記憶體，本機可跑 120B 以上參數模型並提供 1 petaflop AI 算力，2,599 美元起、10 月 16 日出貨；同步推出 5,999 美元的 Surface RTX Spark Dev Box。",
+      "from_file": "output/2026/10/08.md"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "SpaceX 洽談 400 億美元融資，專款買 NVIDIA AI 晶片",
+      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/07/spacex-seeks-us40-billion-financing-to-buy-nvidia-chips-sources-say/",
+      "source": "bnnbloomberg.ca",
+      "company": "SpaceX / NVIDIA",
+      "topic": "SpaceX 40 billion dollar debt financing package to purchase NVIDIA AI chips for Colossus 2",
+      "fingerprint": "SpaceX|40b-financing-nvidia-chip-purchase|2026-10-08",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "AI 算力採購規模再創新高，單筆 400 億美元債務融資專用於購買晶片"
+      },
+      "summary": "SpaceX 正與銀行及資產管理公司洽談約 400 億美元融資，結構為 100 億美元銀行貸款加 300 億美元投資級債，Apollo 預計主導、PIMCO 洽談參與，資金將用於採購 NVIDIA 晶片以擴充 xAI 的 Colossus 2 算力。",
+      "from_file": "output/2026/10/08.md"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Liquid AI 開源 d1 決策模型：不吐 token，Jetson 上 26 毫秒給答案",
+      "url": "https://www.liquid.ai/blog/d1-open",
+      "source": "liquid.ai",
+      "company": "Liquid AI",
+      "topic": "Liquid AI d1-3B and d1-omni-600M open-weight multimodal decision models with zero output tokens",
+      "fingerprint": "Liquid AI|open-d1-decision-models|2026-10-08",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "非生成式決策模型開源權重，單次前向傳播出答案，邊緣裝置延遲數據完整"
+      },
+      "summary": "d1-3B 接受文字與圖片、d1-omni-600M 實驗版接受文字配圖片或語音，兩者都不生成 token 而是單次前向傳播直接輸出結構化答案；d1-3B 在 Decision Index v0.2.1 得 48.57，RTX 4090 上 8ms、Jetson AGX Orin 26ms，Hugging Face 已可下載。",
+      "from_file": "output/2026/10/08.md"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Silicon Labs 推 Simplicity AI SDK 公測，讓 AI 助手直接寫嵌入式",
+      "url": "https://www.prnewswire.com/news-releases/silicon-labs-expands-ai-developer-platform-to-simplify-iot-development-and-scale-edge-intelligence-302900358.html",
+      "source": "prnewswire.com",
+      "company": "Silicon Labs",
+      "topic": "Silicon Labs Simplicity AI SDK public beta with Hardware Intent Agent and Databricks partnership",
+      "fingerprint": "Silicon Labs|simplicity-ai-sdk-public-beta|2026-10-08",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "嵌入式開發工具原生支援 Copilot、Cursor、Codex，並接上 Databricks 資料流程"
+      },
+      "summary": "Simplicity AI SDK 進入公測，支援 GitHub Copilot、Cursor 與 Codex；新增的 Hardware Intent Agent 可依口語意圖生成硬體配置，開源社群 Beta 從藍牙 LE 起步，並成為 Databricks 合作夥伴，把邊緣模型與硬體測試結果接進企業資料與 AI 工作流程。",
+      "from_file": "output/2026/10/08.md"
     }
   ],
   "reason_picked_schema": {
