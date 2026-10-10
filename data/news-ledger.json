@@ -18000,6 +18000,146 @@
       },
       "summary": "OutSystems 在 OutSystems World Tour Las Vegas 宣布 Agent Experience 正式 GA，支援 Claude Code、Cursor、Codex 與 Kiro 等外部 AI 編碼代理。代理改在系統架構層運作，由平台自動套用系統相依性、資料關聯與既有商業邏輯，並內建治理、安全、測試與生命週期控管，目標是讓企業不必統一模型與代理，也能避免 AI 生成程式碼造成架構碎裂與技術債。",
       "from_file": "output/2026/10/09.md"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "OpenAI 發布 GPT-6.1 Sol，以約五分之一價格逼近 GPT-6 Astra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "GPT-6.1 Sol release with Astra-class agentic performance at one-fifth token price",
+      "fingerprint": "OpenAI|gpt-6-1-sol-release|2026-10-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "pricing_or_packaging"
+        ],
+        "note": "全新版本正式發布，官方給出多項 benchmark 與價格對比"
+      },
+      "summary": "GPT-6.1 Sol 在多項 agentic coding、computer use 與專業工作評測上幾乎追平最強的 GPT-6 Astra，標準輸入輸出價格僅約五分之一，快取輸入每百萬 token 0.10 美元。即日起於 ChatGPT Work 與 Codex 開放，API 型號 gpt-6.1-sol。",
+      "from_file": "output/2026/10/10.md"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Lumentum 光學元件產能賣到 2029 年初全滿，光互連成 AI 新瓶頸",
+      "url": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/",
+      "source": "247wallst.com",
+      "company": "Lumentum",
+      "topic": "Lumentum optoelectronic capacity sold out through early 2029 on AI data center demand",
+      "fingerprint": "Lumentum|optical-capacity-sold-out-2029|2026-10-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "執行長親口證實產能全滿到 2029 年初，光學族群同步大漲"
+      },
+      "summary": "Lumentum 執行長表示 AI 資料中心需求看不到盡頭，公司光學元件產能已幾乎賣完到 2029 年初，Lumentum 與 Applied Optoelectronics 盤中大漲約 7%、Coherent 漲 5%，反映機房從銅線轉向光互連的長期瓶頸。",
+      "from_file": "output/2026/10/10.md"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "紅杉加持的 Nuvacore 以約 25 億美元估值募資，開發 AI 資料中心 CPU",
+      "url": "https://pressnewsagency.org/exclusive-sequoia-backed-chip-startup-nuvacore-raising-funds-at-about-a-2-5-billion-valuation-sources-say/",
+      "source": "pressnewsagency.org",
+      "company": "Nuvacore",
+      "topic": "Nuvacore funding at 2.5 billion dollar valuation for AI data center CPU",
+      "fingerprint": "Nuvacore|2-5b-valuation-data-center-cpu|2026-10-10",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "成立半年、尚無產品即取得高估值，切入 AI 資料中心 CPU 新賽道"
+      },
+      "summary": "成立僅 6 個月的 Nuvacore 正以約 25 億美元估值募資數億美元，開發替 AI 加速器調度、並能執行自駕 agent 的資料中心 CPU；創辦團隊包含前 Apple 工程主管 Gerard Williams，策略是先做核心功能再決定是否綁定 x86 或 Arm。",
+      "from_file": "output/2026/10/10.md"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "英國 ICO 讓 10 家 AI 大廠改產品，監管目光轉向 AI agent",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents/",
+      "source": "ico.org.uk",
+      "company": "ICO / Amazon / Anthropic / Apple / Cohere / DeepSeek / Google / Meta / Microsoft / OpenAI / Stability AI",
+      "topic": "ICO secures data protection changes from ten foundation model developers and opens agentic AI call for evidence",
+      "fingerprint": "ICO|ten-ai-developers-data-protection-changes-agentic-ai|2026-10-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "監管機關正式公布十家開發商讓步，並把監管範圍擴大到 AI agent"
+      },
+      "summary": "英國 ICO 公布 Amazon、Anthropic、Apple、Cohere、DeepSeek、Google、Meta、Microsoft、OpenAI、Stability AI 十家基礎模型開發商在約兩年監督後做出或承諾資料保護調整，涵蓋透明度、使用者權利與防護評估，並同步對 agentic AI 啟動證據徵集與調查。",
+      "from_file": "output/2026/10/10.md"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Anthropic 為 2028 美國大選設專責政治參與計畫與職缺",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/dario-amodei-wants-to-make-sure-it-gets-both-democrats-and-republicans-on-its-side-as-it-hires-/articleshow/134825008.cms",
+      "source": "timesofindia.indiatimes.com",
+      "company": "Anthropic",
+      "topic": "Anthropic presidential engagement program and Political Programs Lead role for 2028 election",
+      "fingerprint": "Anthropic|presidential-engagement-program-2028|2026-10-10",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "前沿 AI 實驗室首見候選人層級政治編制，掌管政治捐款與 PAC"
+      },
+      "summary": "Anthropic 開出 Political Programs Lead 職缺，要建立直通 2028 總統候選人的政治參與計畫，跨民主、共和兩黨進行 AI 政策教育、安排高層與競選團隊對談，並掌管政治捐款與員工 PAC 運作，時間點落在期中選舉與可能 IPO 之前。",
+      "from_file": "output/2026/10/10.md"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Sanas 推出 Supervised AI，讓一位真人主管同時監督四個 AI 客服",
+      "url": "https://www.martechcube.com/sanas-announced-the-introduction-of-supervised-ai/",
+      "source": "martechcube.com",
+      "company": "Sanas",
+      "topic": "Sanas Supervised AI platform with one human supervisor governing four AI voice agents",
+      "fingerprint": "Sanas|supervised-ai-contact-center-launch|2026-10-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "首度提出真人主管同時監督多個 AI 語音代理的第三種客服模式"
+      },
+      "summary": "Sanas Supervised AI 讓 AI 直接接客服電話，一位真人主管在同一場對話中同時監督 4 通，情緒或信心下滑時可即時私下下指令、中途接管再交還 AI，客戶無須重講；每通電話開頭皆揭露 AI 與真人監督，目前邀請制試用，12 月正式商用。",
+      "from_file": "output/2026/10/10.md"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "美國 OPM 推出 FWD Chat 公測，用 GPT-5.6 讓聯邦人力數據可白話查詢",
+      "url": "https://fedscoop.com/opm-launch-beta-ai-chatbot-workforce-data-openai/",
+      "source": "fedscoop.com",
+      "company": "US OPM / OpenAI",
+      "topic": "OPM FWD Chat beta chatbot on OpenAI GPT-5.6 for federal workforce data queries",
+      "fingerprint": "OPM|fwd-chat-beta-federal-workforce-data|2026-10-10",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "政府機構正式上線公測工具，把官方數據查詢翻成 SQL 執行"
+      },
+      "summary": "美國人事管理局推出 FWD Chat 公測版，讓民眾以白話詢問聯邦人力與薪資數據，系統把問題翻成 SQL 查詢官方資料，附建議追問與資料下載，底層使用 OpenAI GPT-5.6，並規劃後續與 America.gov 整合。",
+      "from_file": "output/2026/10/10.md"
     }
   ],
   "reason_picked_schema": {
