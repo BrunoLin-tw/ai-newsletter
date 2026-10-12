@@ -18281,6 +18281,148 @@
       },
       "summary": "社群維護的 Google Workspace MCP 伺服器推出 v2，把 Gmail、Drive、Calendar、Docs、Sheets、Slides、Forms、Tasks、Contacts、Chat、Custom Search 到 Apps Script 的 120 多項工具收斂到單一 MCP 端點，原生支援 OAuth 2.1 多使用者驗證與無狀態容器部署，並提供 core／extended／complete 三段式工具層級與可加密快取 token 的 workspace-cli。",
       "from_file": "output/2026/10/11.md"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "NVIDIA 傳停產 RTX 5090，GB202 全部轉供 RTX PRO",
+      "url": "https://www.techpowerup.com/353578/nvidia-reportedly-ending-the-rtx-5090-reserves-gb202-silicon-for-workstation-gpus",
+      "source": "techpowerup.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA halts RTX 5090 GB202 allocation and reserves all Blackwell GB202 silicon for RTX PRO workstation cards",
+      "fingerprint": "NVIDIA|rtx-5090-discontinued-gb202-to-rtx-pro|2026-10-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "hardware_supply",
+          "official_source"
+        ],
+        "note": "前一日僅為爆料傳聞，今日已由多家硬體媒體交叉確認 GB202 不再分配給 5090，並補上 24GB RTX 5080 接棒的具體後續"
+      },
+      "summary": "硬體爆料者 MEGAsizeGPU 稱 NVIDIA 已停止把新 GB202 晶圓分配給 GeForce RTX 5090，未來 GB202 供給專供 RTX PRO Blackwell 工作站卡；爆料時 5090 已從美國一線零售消失，第三方價格炒到約 9,500 美元，另有 24GB RTX 5080 可能於 2027 年初接替旗艦。NVIDIA 未證實。",
+      "from_file": "output/2026/10/12.md"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Sakana AI 用 MASS 讓 27B 模型自己當執行者、優化者與裁判",
+      "url": "https://pub.sakana.ai/mass/",
+      "source": "pub.sakana.ai",
+      "company": "Sakana AI",
+      "topic": "Sakana AI MASS multi-agent self-supervision recursive self-improvement with one 27B model filling executor optimizer and evaluator roles",
+      "fingerprint": "Sakana AI|mass-multi-agent-self-supervision-rsi|2026-10-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "MASS 為首次正式發表，附四個開放基準的完整數據與安全盲點分析"
+      },
+      "summary": "Sakana AI 與 UC Berkeley 提出 MASS，讓同一個 27B 開源模型輪流扮演執行者、優化者與評估者，先最佳化多代理工作流，再把集體智慧蒸餾回單一模型當自我監督訊號。兩輪後四個開放基準上每輸出 token 分數提升 1.2 至 1.6 倍、勝率 68.3%，監督 token 少 31%；論文亦點出模型自我評分會產生共同盲點並在訓練中被放大。",
+      "from_file": "output/2026/10/12.md"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Zenity 揭露 AgentCorruption：一個 prompt 就能接管同區所有 AWS AgentCore agent",
+      "url": "https://zenity.io/press-release/zenity-labs-discloses-agentcorruption-a-chain-of-aws-agentcore-flaws",
+      "source": "zenity.io",
+      "company": "Zenity Labs / AWS",
+      "topic": "Zenity Labs AgentCorruption vulnerability chain in Amazon Bedrock AgentCore enabling single-prompt takeover of all agents in an AWS account and region",
+      "fingerprint": "Zenity Labs|agentcorruption-aws-agentcore-flaw-chain|2026-10-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research",
+          "official_source"
+        ],
+        "note": "首次完整揭露 AgentCore 設計缺陷鏈，含 IMDS 濫用、過寬預設 IAM 角色與記憶體注入的實際攻擊路徑"
+      },
+      "summary": "Zenity Labs 在 SecTor 2026 公布 Amazon Bedrock AgentCore 的一系列缺陷：對一個對外開放的 agent 送出一段 prompt，即可誘導其讀取 AWS IMDS 取得臨時憑證，而該憑證屬於權限過寬的預設 IAM 角色，足以橫向存取同帳號同區域所有 agent，讀取私有對話與長期記憶、下載容器映像與原始碼、取得 Secrets Manager 憑證，甚至植入惡意記憶外送後續對話。AWS 已收緊預設值並強制新 agent 使用 IMDSv2。",
+      "from_file": "output/2026/10/12.md"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "NVIDIA 傳洽談收購 Reflection AI，可能採 acqui-hire 繞過反壟斷審查",
+      "url": "https://siliconangle.com/2026/10/11/nvidia-reportedly-in-early-talks-to-buy-acqui-hire-or-invest-more-in-reflection-ai/",
+      "source": "siliconangle.com",
+      "company": "NVIDIA / Reflection AI",
+      "topic": "NVIDIA early talks to acquire or acqui-hire open-weight model startup Reflection AI alongside chip and compute supply",
+      "fingerprint": "NVIDIA|reflection-ai-acquisition-acqui-hire-talks|2026-10-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "new_market",
+          "official_source"
+        ],
+        "note": "NVIDIA 對其最大投資之一的開源模型新創啟動併購談判，並附上三種交易結構與監管考量的具體說明"
+      },
+      "summary": "FT 報導 NVIDIA 正就收購開源模型新創 Reflection AI 展開初步談判，可能全額收購、加碼投資並搭配晶片與算力供應，或採 acqui-hire 引進團隊並授權技術以避開冗長反壟斷審查，協議最快數週內成形也可能破局。Reflection 估值約 250 億美元，NVIDIA 累計已投入約 8 億美元；該公司五天前才發表 501B 參數開源 MoE 模型 Beam。",
+      "from_file": "output/2026/10/12.md"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Amazon 傳 70 億美元洽購 Decart，補上跨晶片搬遷的軟體拼圖",
+      "url": "https://siliconangle.com/2026/10/11/report-amazon-in-talks-with-ai-startup-decart-over-possible-7b-acquisition/",
+      "source": "siliconangle.com",
+      "company": "Amazon / Decart",
+      "topic": "Amazon advanced talks to acquire Decart for about 7 billion dollars for cross-chip AI workload migration software",
+      "fingerprint": "Amazon|decart-acquisition-talks-7b|2026-10-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "new_market",
+          "workflow_automation"
+        ],
+        "note": "WSJ 揭露 Amazon 洽購 Decart 的具體價碼與其對自研 Trainium3 的策略意義，並補上 Anthropic 退出競價的脈絡"
+      },
+      "summary": "WSJ 報導 Amazon 正洽談以約 70 億美元收購以色列 AI 新創 Decart，最快數日內敲定。Decart 的 DOS 軟體能自動把神經網路最佳化到指定處理器，把晶片遷移工程從數個月壓縮到約兩週，讓 AI 工作負載可在不同晶片間搬移，正好補齊力推自研 Trainium3 的 AWS 軟體層。Decart 今年 5 月以 40 億美元估值募資 3 億美元，Anthropic 曾在 60 億美元價位盡職調查後退出。",
+      "from_file": "output/2026/10/12.md"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "美國政策轉彎，恢復英國 AISI 取得預發布模型的測試權",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/12/us-reverses-course-on-britain039s-testing-of-ai-models-telegraph-says",
+      "source": "thestar.com.my",
+      "company": "US Government / UK AISI",
+      "topic": "US reverses directive blocking US AI developers from giving UK AI Security Institute pre-release model access for safety testing",
+      "fingerprint": "US Government|uk-aisi-pre-release-model-access-restored|2026-10-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "美方正式撤回限制英方預發布測試的指令，與前幾日 9 月底的禁令形成明確政策轉向"
+      },
+      "summary": "路透引述每日電訊報，川普政府已撤回先前要求 OpenAI、Anthropic 等開發商不要在發布前把新模型分享給英國 AI 安全研究院的指令，讓美國業者重新取得與英國並行測試的空間。該限制 9 月底以國安審查與美方優先為由實施，政策轉彎被視為華府對國際 AI 安全合作立場放軟。",
+      "from_file": "output/2026/10/12.md"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "REA 把 Claude Code、Cursor 接上 Ghidra 與 IDA Pro，讓 agent 自己逆向工程",
+      "url": "https://cybersecuritynews.com/reverse-engineer-anything-tool",
+      "source": "cybersecuritynews.com",
+      "company": "REA (morluto/rea)",
+      "topic": "REA open-source MCP server bridging Claude Code Cursor Codex Gemini CLI to Ghidra IDA Pro Hopper for autonomous reverse engineering",
+      "fingerprint": "REA|reverse-engineer-anything-mcp-server|2026-10-12",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools",
+          "workflow_automation",
+          "security_research"
+        ],
+        "note": "REA 首次以開源 MCP 伺服器形式把多家 coding agent 接上主流逆向工程工具鏈"
+      },
+      "summary": "開源專案 REA（Reverse Engineer Anything）推出 MCP 伺服器，把 Claude Code、Cursor、Codex、Gemini CLI、Grok Build 接上 Ghidra、IDA Pro 與 Hopper，讓 agent 自行拆解原生執行檔，也能處理 JavaScript、Electron、.NET、Android 與韌體，取得虛擬碼、組語、字串、符號與呼叫參考。官方展示中還原的音效定位計算通過 3,205 項測試並完整重現 63 個編譯後函式的位元組。",
+      "from_file": "output/2026/10/12.md"
     }
   ],
   "reason_picked_schema": {
