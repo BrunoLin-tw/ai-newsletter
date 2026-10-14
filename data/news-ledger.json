@@ -18558,6 +18558,144 @@
       },
       "summary": "AMD 發表新一代 Ryzen AI Halo Developer Platform，搭載 Ryzen AI Max+ PRO 495，最高 192GB LPDDR5X-8533 統一記憶體（其中 160GB 可作顯示記憶體），可本機執行 300B 參數以上大模型，並附策劃好的軟體體驗，零售售價 7,299.99 美元。",
       "from_file": "output/2026/10/13.md"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Google 把 Gemini 4 Argon 推向 GA：100 萬 token 輸出、Vals Index 第一",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud",
+      "source": "cloud.google.com",
+      "company": "Google",
+      "topic": "Gemini 4 Argon general availability via Gemini API Vertex AI with 1M token output",
+      "fingerprint": "Google|gemini-4-argon-general-availability|2026-10-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "正式 GA 開放 API，含 1M token 輸出與上市定價"
+      },
+      "summary": "Gemini 4 Argon 正式 GA，開發者可在 Gemini API、AI Studio 與 Vertex AI 以 gemini-4-argon 呼叫，輸入輸出各支援 100 萬 token、可調思考深度，官方稱 Vals Index 經濟任務評測第一，上市促銷價每百萬 token 輸入 2 美元、輸出 10 美元。",
+      "from_file": "output/2026/10/14.md"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Liquid AI 開源 LFM2.5-24B-A2B：2B 活躍參數，桌機跑得動的 agent 模型",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "huggingface.co",
+      "company": "Liquid AI",
+      "topic": "LFM2.5-24B-A2B open-weight reasoning agent model with 2B active parameters",
+      "fingerprint": "Liquid AI|lfm2.5-24b-a2b-open-weight-agent-model|2026-10-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "新一代開源權重模型釋出，131K 上下文並在 agent 基準領先"
+      },
+      "summary": "Liquid AI 釋出 LFM2.5-24B-A2B，24B 總參數、每 token 僅啟用 2B 的 MoE 推理模型，上下文拉到 131K，官方稱 Apple M5 Max 達 184 tok/s、AutomationBench 27.69 遠勝次佳 8.72，開源權重且首日支援 llama.cpp、MLX、vLLM、SGLang 與 ONNX。",
+      "from_file": "output/2026/10/14.md"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Anthropic 開放 OSS Scanner：免費幫開源專案掃漏洞，跳過人工複核",
+      "url": "https://red.anthropic.com/oss-scanner/",
+      "source": "red.anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic OSS Scanner opt-in free fast-track vulnerability scanning for open source with skipped human review",
+      "fingerprint": "Anthropic|oss-scanner-free-opt-in-vulnerability-scanning|2026-10-14",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "在既有 CVD 流程外新增免人工複核的志願快速通道"
+      },
+      "summary": "Anthropic 推出 opt-in 的 OSS Scanner，用最強模型定期掃描開源專案並直接把未經人工複核的報告寄給維護者，資格比照 OSS-Fuzz，核心維護者送 PR 即可加入；既有 CVD 流程已累計人工檢視逾 6,000 份報告。",
+      "from_file": "output/2026/10/14.md"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Anthropic 首座日本專用資料中心落腳大阪，造價上看 1 兆日圓",
+      "url": "https://thenextweb.com/news/ntt-data-anthropic-osaka-data-centre",
+      "source": "thenextweb.com",
+      "company": "Anthropic / NTT Data",
+      "topic": "NTT Data near deal to build Anthropic first dedicated Japan data center in Osaka at up to 1 trillion yen 500MW",
+      "fingerprint": "Anthropic|ntt-data-osaka-dedicated-japan-data-center|2026-10-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "首座日本專屬資料中心，500MW 規模並規劃 2028 啟用"
+      },
+      "summary": "日經報導 NTT Data 接近與 Anthropic 敲定大阪資料中心案，將是 Anthropic 在日本首座專屬設施，興建成本上看 1 兆日圓（約 63 億美元），用電最高 500MW，目標 2027 年 3 月底前簽約、最快 2028 年部分啟用。",
+      "from_file": "output/2026/10/14.md"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Workday 把 Trusted Agent Platform 變 headless，HR／財務 agent 開放自建",
+      "url": "https://newsroom.workday.com/2026-10-13-Workdays-Trusted-Agent-Platform-Now-Delivers-Headless-Access-to-HR-and-Finance,-Letting-Customers-Build-and-Run-Lawful-AI-Agents",
+      "source": "newsroom.workday.com",
+      "company": "Workday",
+      "topic": "Workday Trusted Agent Platform headless access with Agent Harness and MCP Agent-Ready Tools general availability",
+      "fingerprint": "Workday|trusted-agent-platform-headless-ga|2026-10-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "平台轉 headless 並讓 Agent Harness 等元件同步 GA"
+      },
+      "summary": "Workday 宣布 Trusted Agent Platform 走向 headless，客戶可用自選模型與 IDE 建置 HR／財務 agent，但一律跑在同一套 Workday 權限、簽核與稽核下；Developer Agent、Custom Agents、Agent Harness 與 MCP 版 Agent-Ready Tools 同步 GA，Live Data Query 可直查即時資料。",
+      "from_file": "output/2026/10/14.md"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Apple 端出新一代 Apple TV 4K，Siri AI 首度進駐客廳",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+      "source": "apple.com",
+      "company": "Apple",
+      "topic": "Apple TV 4K fourth generation launch with full-screen Siri AI and far-field microphones",
+      "fingerprint": "Apple|apple-tv-4k-siri-ai-launch|2026-10-14",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "新一代硬體正式發表，Siri AI 首次進入客廳場景"
+      },
+      "summary": "Apple 發表第四代 Apple TV 4K，搭載下一代 Apple Intelligence 的全新 Siri AI，提供全螢幕對話式搜尋與內建遠場麥克風的免持操作，售價 299 美元、11 月 13 日開賣，Siri AI 以 beta 形式在美英澳加等 8 個英語市場上線。",
+      "from_file": "output/2026/10/14.md"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Dell 幫企業 agent 補上商業語意：統一語意層、企業知識圖譜與 Knowledge Agents",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/dell-launches-new-tools-to-help-ai-agents-understand-business-data-and-connect-information-across-systems-what-it-means/articleshow/134925118.cms",
+      "source": "timesofindia.indiatimes.com",
+      "company": "Dell",
+      "topic": "Dell AI Data Platform expansion with Unified Semantic Layer Enterprise Knowledge Graph and Knowledge Agents for AI agents",
+      "fingerprint": "Dell|ai-data-platform-semantic-layer-knowledge-graph-agents|2026-10-14",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "workflow_automation",
+          "benchmark_detail"
+        ],
+        "note": "平台新增三項 agent 語意能力，並公布 NVIDIA GPU 加速實測"
+      },
+      "summary": "Dell 擴充 AI Data Platform，新增 Unified Semantic Layer、Enterprise Knowledge Graph 與 Knowledge Agents，解決 agent 每次重建理解的問題；資料處理引擎靠 NVIDIA cuDF 與 RTX PRO 4500 Blackwell GPU，內部測試平均比純 CPU 快近 4 倍、特定批次負載最高 20 倍，三項 agent 能力預計 2027 上半年推出。",
+      "from_file": "output/2026/10/14.md"
     }
   ],
   "reason_picked_schema": {
