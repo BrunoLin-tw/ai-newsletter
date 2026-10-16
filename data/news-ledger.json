@@ -18697,147 +18697,286 @@
       "summary": "Dell 擴充 AI Data Platform，新增 Unified Semantic Layer、Enterprise Knowledge Graph 與 Knowledge Agents，解決 agent 每次重建理解的問題；資料處理引擎靠 NVIDIA cuDF 與 RTX PRO 4500 Blackwell GPU，內部測試平均比純 CPU 快近 4 倍、特定批次負載最高 20 倍，三項 agent 能力預計 2027 上半年推出。",
       "from_file": "output/2026/10/14.md"
     },
-  {
-    "date": "2026-10-15",
-    "title": "NVIDIA 開源 Nemotron 3.5 Bolt 74B-A9B：74B 塞進 24GB 筆電，專為本地 agent 打造",
-    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-    "source": "blogs.nvidia.com",
-    "company": "NVIDIA",
-    "topic": "NVIDIA Nemotron 3.5 Bolt 74B-A9B open-weights MoE release for local agentic AI with 2-bit quantization into 24GB",
-    "fingerprint": "NVIDIA|nemotron-3-5-bolt-74b-a9b-local-agentic-open-weights|2026-10-15",
-    "section": "hard-tech",
-    "reason_picked": {
-      "code": "official_launch",
-      "secondary": [
-        "official_source",
-        "benchmark_detail"
-      ],
-      "note": "官方指定 10/15 釋出，74B 以 2-bit QAT 壓進 24GB 並開源權重"
+    {
+      "date": "2026-10-15",
+      "title": "NVIDIA 開源 Nemotron 3.5 Bolt 74B-A9B：74B 塞進 24GB 筆電，專為本地 agent 打造",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA Nemotron 3.5 Bolt 74B-A9B open-weights MoE release for local agentic AI with 2-bit quantization into 24GB",
+      "fingerprint": "NVIDIA|nemotron-3-5-bolt-74b-a9b-local-agentic-open-weights|2026-10-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "官方指定 10/15 釋出，74B 以 2-bit QAT 壓進 24GB 並開源權重"
+      },
+      "summary": "NVIDIA 宣布 Nemotron 3.5 Bolt 74B-A9B 於 10 月 15 日釋出，74B 總參數、每 token 僅啟用 9B 的 MoE 模型，以 2-bit 量化搭配量化感知訓練壓進 24GB 記憶體。開源權重附訓練資料說明與微調配方，首日支援 llama.cpp、Ollama、vLLM 與 LM Studio，鎖定常駐本地 personal agent；NVIDIA PAIR 同時走出 beta 並加入 llama.cpp 支援。",
+      "from_file": "output/2026/10/15.md"
     },
-    "summary": "NVIDIA 宣布 Nemotron 3.5 Bolt 74B-A9B 於 10 月 15 日釋出，74B 總參數、每 token 僅啟用 9B 的 MoE 模型，以 2-bit 量化搭配量化感知訓練壓進 24GB 記憶體。開源權重附訓練資料說明與微調配方，首日支援 llama.cpp、Ollama、vLLM 與 LM Studio，鎖定常駐本地 personal agent；NVIDIA PAIR 同時走出 beta 並加入 llama.cpp 支援。",
-    "from_file": "output/2026/10/15.md"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "階躍星辰 Step-5 開源權重正式釋出：600B MoE、27B 活躍、100 萬 token 上下文",
-    "url": "https://huggingface.co/SHSLab/Step-5-Preview-BF16",
-    "source": "huggingface.co",
-    "company": "StepFun",
-    "topic": "StepFun Step-5 open weights release on Hugging Face as 600B sparse MoE with 27B active parameters and 1M token context",
-    "fingerprint": "StepFun|step-5-open-weights-600b-moe-release|2026-10-15",
-    "section": "hard-tech",
-    "reason_picked": {
-      "code": "official_launch",
-      "secondary": [
-        "official_source",
-        "benchmark_detail"
-      ],
-      "note": "9 月 API 預覽後，10/15 依約把 BF16 權重正式開源"
+    {
+      "date": "2026-10-15",
+      "title": "階躍星辰 Step-5 開源權重正式釋出：600B MoE、27B 活躍、100 萬 token 上下文",
+      "url": "https://huggingface.co/SHSLab/Step-5-Preview-BF16",
+      "source": "huggingface.co",
+      "company": "StepFun",
+      "topic": "StepFun Step-5 open weights release on Hugging Face as 600B sparse MoE with 27B active parameters and 1M token context",
+      "fingerprint": "StepFun|step-5-open-weights-600b-moe-release|2026-10-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "9 月 API 預覽後，10/15 依約把 BF16 權重正式開源"
+      },
+      "summary": "9 月先以 API 預覽登場的 Step-5，10 月 15 日把 BF16 權重放上 Hugging Face。稀疏 MoE 架構 600B 總參數、27B 活躍，支援 100 萬 token 上下文與最多 64K 輸出，原生支援文字、圖像與影片輸入，主打長流程 agent、coding 與金融分析；本機可用 vLLM／SGLang 部署，社群已補上 GGUF、INT4 與 NVFP4 量化版本。",
+      "from_file": "output/2026/10/15.md"
     },
-    "summary": "9 月先以 API 預覽登場的 Step-5，10 月 15 日把 BF16 權重放上 Hugging Face。稀疏 MoE 架構 600B 總參數、27B 活躍，支援 100 萬 token 上下文與最多 64K 輸出，原生支援文字、圖像與影片輸入，主打長流程 agent、coding 與金融分析；本機可用 vLLM／SGLang 部署，社群已補上 GGUF、INT4 與 NVFP4 量化版本。",
-    "from_file": "output/2026/10/15.md"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "NVIDIA 把 Run:ai 整套開源，納入 DSX AI Factory 平台",
-    "url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/",
-    "source": "developer.nvidia.com",
-    "company": "NVIDIA",
-    "topic": "NVIDIA open sources the full Run:ai platform under DSX AI Factory including KAI Scheduler GPU Fractioning Operator KAI Resource Management and Workload Map",
-    "fingerprint": "NVIDIA|run-ai-platform-open-source-dsx-ai-factory|2026-10-15",
-    "section": "hard-tech",
-    "reason_picked": {
-      "code": "major_feature_update",
-      "secondary": [
-        "official_source",
-        "workflow_automation"
-      ],
-      "note": "企業級 GPU 調度平台整套開源，並拆出四個可獨立採用元件"
+    {
+      "date": "2026-10-15",
+      "title": "NVIDIA 把 Run:ai 整套開源，納入 DSX AI Factory 平台",
+      "url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/",
+      "source": "developer.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA open sources the full Run:ai platform under DSX AI Factory including KAI Scheduler GPU Fractioning Operator KAI Resource Management and Workload Map",
+      "fingerprint": "NVIDIA|run-ai-platform-open-source-dsx-ai-factory|2026-10-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "企業級 GPU 調度平台整套開源，並拆出四個可獨立採用元件"
+      },
+      "summary": "NVIDIA 宣布完整開源 Run:ai 平台並納入 DSX AI Factory，同時拆出四個可獨立採用的元件：KAI Scheduler（GPU 感知 K8s 排程器）、GPU Fractioning Operator（CUDA 原生 GPU 分割）、KAI Resource Management（組織層級與 GPU 配額）與 Workload Map。AI 雲與平台團隊可整包採用或只整合所需元件，等於把企業級 GPU 資源調度能力下放給整個生態系。",
+      "from_file": "output/2026/10/15.md"
     },
-    "summary": "NVIDIA 宣布完整開源 Run:ai 平台並納入 DSX AI Factory，同時拆出四個可獨立採用的元件：KAI Scheduler（GPU 感知 K8s 排程器）、GPU Fractioning Operator（CUDA 原生 GPU 分割）、KAI Resource Management（組織層級與 GPU 配額）與 Workload Map。AI 雲與平台團隊可整包採用或只整合所需元件，等於把企業級 GPU 資源調度能力下放給整個生態系。",
-    "from_file": "output/2026/10/15.md"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Anthropic 開新加坡辦公室，與星國政府簽 AI 安全 MOU",
-    "url": "https://www.anthropic.com/news/singapore-office-opening",
-    "source": "anthropic.com",
-    "company": "Anthropic",
-    "topic": "Anthropic opens Singapore office and signs AI safety MOU with Singapore Ministry of Digital Development and Information",
-    "fingerprint": "Anthropic|singapore-office-and-government-ai-safety-mou|2026-10-15",
-    "section": "big-tech",
-    "reason_picked": {
-      "code": "distribution_expansion",
-      "secondary": [
-        "official_source",
-        "new_market"
-      ],
-      "note": "亞太第五個據點開幕，並與星國 MDDI 簽署安全與評測合作 MOU"
+    {
+      "date": "2026-10-15",
+      "title": "Anthropic 開新加坡辦公室，與星國政府簽 AI 安全 MOU",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic opens Singapore office and signs AI safety MOU with Singapore Ministry of Digital Development and Information",
+      "fingerprint": "Anthropic|singapore-office-and-government-ai-safety-mou|2026-10-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "亞太第五個據點開幕，並與星國 MDDI 簽署安全與評測合作 MOU"
+      },
+      "summary": "Anthropic 開設新加坡辦公室，為亞太第五個據點，並與新加坡數位發展及新聞部（MDDI）簽署合作備忘錄，涵蓋 AI 安全、資安與模型評測，以及 AI 採用與影響研究。Claude 已在新加坡支撐 GovTech、Grab、DBS 等服務；MOU 由 MDDI 常任秘書 Chng Kai Fong 與 Anthropic 共同創辦人 Ben Mann 在新加坡國際網路週場邊簽署。",
+      "from_file": "output/2026/10/15.md"
     },
-    "summary": "Anthropic 開設新加坡辦公室，為亞太第五個據點，並與新加坡數位發展及新聞部（MDDI）簽署合作備忘錄，涵蓋 AI 安全、資安與模型評測，以及 AI 採用與影響研究。Claude 已在新加坡支撐 GovTech、Grab、DBS 等服務；MOU 由 MDDI 常任秘書 Chng Kai Fong 與 Anthropic 共同創辦人 Ben Mann 在新加坡國際網路週場邊簽署。",
-    "from_file": "output/2026/10/15.md"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Agilent 砸 2.7 億美元買下 Proscia，攻 AI 數位病理",
-    "url": "https://www.inquirer.com/business/proscia-acquisition-agilent-technologies-artificial-intelligence-20261014.html",
-    "source": "inquirer.com",
-    "company": "Agilent / Proscia",
-    "topic": "Agilent agrees to acquire AI digital pathology software maker Proscia for up to 270 million dollars",
-    "fingerprint": "Agilent|proscia-acquisition-ai-digital-pathology|2026-10-15",
-    "section": "big-tech",
-    "reason_picked": {
-      "code": "partnership_or_integration",
-      "secondary": [
-        "official_source",
-        "healthcare"
-      ],
-      "note": "2.4 億美元現金收購 AI 病理軟體商，切入 50 億美元數位病理市場"
+    {
+      "date": "2026-10-15",
+      "title": "Agilent 砸 2.7 億美元買下 Proscia，攻 AI 數位病理",
+      "url": "https://www.inquirer.com/business/proscia-acquisition-agilent-technologies-artificial-intelligence-20261014.html",
+      "source": "inquirer.com",
+      "company": "Agilent / Proscia",
+      "topic": "Agilent agrees to acquire AI digital pathology software maker Proscia for up to 270 million dollars",
+      "fingerprint": "Agilent|proscia-acquisition-ai-digital-pathology|2026-10-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "healthcare"
+        ],
+        "note": "2.4 億美元現金收購 AI 病理軟體商，切入 50 億美元數位病理市場"
+      },
+      "summary": "Agilent 宣布以 2.4 億美元現金、外加最高 3,000 萬美元里程碑金收購費城 AI 數位病理軟體商 Proscia。Proscia 的 Concentriq 平台連接玻片掃描器、LIS 與第三方 AI 工具，已服務逾 4,000 家實驗室、醫院與診所及 16 家全球前 20 大藥廠，年營收逾 1,800 萬美元，並取得 FDA 510(k) 主要臨床診斷許可；交易預計 2027 會計年度初完成。",
+      "from_file": "output/2026/10/15.md"
     },
-    "summary": "Agilent 宣布以 2.4 億美元現金、外加最高 3,000 萬美元里程碑金收購費城 AI 數位病理軟體商 Proscia。Proscia 的 Concentriq 平台連接玻片掃描器、LIS 與第三方 AI 工具，已服務逾 4,000 家實驗室、醫院與診所及 16 家全球前 20 大藥廠，年營收逾 1,800 萬美元，並取得 FDA 510(k) 主要臨床診斷許可；交易預計 2027 會計年度初完成。",
-    "from_file": "output/2026/10/15.md"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Modal 募 7.5 億美元 D 輪，估值三倍跳上 157.5 億美元",
-    "url": "https://siliconangle.com/2026/10/14/ai-cloud-startup-modal-raises-750m-at-15-75b-valuation/",
-    "source": "siliconangle.com",
-    "company": "Modal Labs",
-    "topic": "Modal Labs raises 750 million dollar Series D at 15.75 billion dollar valuation on AI sandbox container infrastructure growth",
-    "fingerprint": "Modal Labs|series-d-750m-15-75b-valuation-sandboxes|2026-10-15",
-    "section": "big-tech",
-    "reason_picked": {
-      "code": "real_world_deployment",
-      "secondary": [
-        "official_source",
-        "finance",
-        "workflow_automation"
-      ],
-      "note": "估值自 5 月翻三倍、年化營收破 10 億美元，agent 沙箱容器需求爆發"
+    {
+      "date": "2026-10-15",
+      "title": "Modal 募 7.5 億美元 D 輪，估值三倍跳上 157.5 億美元",
+      "url": "https://siliconangle.com/2026/10/14/ai-cloud-startup-modal-raises-750m-at-15-75b-valuation/",
+      "source": "siliconangle.com",
+      "company": "Modal Labs",
+      "topic": "Modal Labs raises 750 million dollar Series D at 15.75 billion dollar valuation on AI sandbox container infrastructure growth",
+      "fingerprint": "Modal Labs|series-d-750m-15-75b-valuation-sandboxes|2026-10-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "finance",
+          "workflow_automation"
+        ],
+        "note": "估值自 5 月翻三倍、年化營收破 10 億美元，agent 沙箱容器需求爆發"
+      },
+      "summary": "AI 基礎設施雲 Modal Labs 完成 7.5 億美元 D 輪，由 Accel 領投、Kleiner Perkins 與既有股東跟投，估值自 5 月成長逾三倍至 157.5 億美元，年化營收同步翻三倍突破 10 億美元。近三分之一營收來自 Sandboxes 容器服務，官方稱可在數秒內開出上百萬個並行容器；Secret Injection 讓 agent 使用登入憑證卻看不到內容，降低失控 agent 風險。",
+      "from_file": "output/2026/10/15.md"
     },
-    "summary": "AI 基礎設施雲 Modal Labs 完成 7.5 億美元 D 輪，由 Accel 領投、Kleiner Perkins 與既有股東跟投，估值自 5 月成長逾三倍至 157.5 億美元，年化營收同步翻三倍突破 10 億美元。近三分之一營收來自 Sandboxes 容器服務，官方稱可在數秒內開出上百萬個並行容器；Secret Injection 讓 agent 使用登入憑證卻看不到內容，降低失控 agent 風險。",
-    "from_file": "output/2026/10/15.md"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Skywork 開源 Matrix-Game 4.0：單張顯卡就能玩「AI 生成」遊戲",
-    "url": "https://github.com/SkyworkAI/Matrix-Game",
-    "source": "github.com",
-    "company": "Skywork AI",
-    "topic": "Skywork AI Matrix-Game 4.0 open-source interactive world model combining executable game engines with streaming neural rendering on a single consumer GPU",
-    "fingerprint": "Skywork AI|matrix-game-4-0-open-source-neural-rendering-world-model|2026-10-15",
-    "section": "tools",
-    "reason_picked": {
-      "code": "official_launch",
-      "secondary": [
-        "official_source",
-        "creative_tools"
-      ],
-      "note": "10/15 釋出，引擎加神經渲染混合架構可在單張消費級 GPU 即時執行"
+    {
+      "date": "2026-10-15",
+      "title": "Skywork 開源 Matrix-Game 4.0：單張顯卡就能玩「AI 生成」遊戲",
+      "url": "https://github.com/SkyworkAI/Matrix-Game",
+      "source": "github.com",
+      "company": "Skywork AI",
+      "topic": "Skywork AI Matrix-Game 4.0 open-source interactive world model combining executable game engines with streaming neural rendering on a single consumer GPU",
+      "fingerprint": "Skywork AI|matrix-game-4-0-open-source-neural-rendering-world-model|2026-10-15",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "10/15 釋出，引擎加神經渲染混合架構可在單張消費級 GPU 即時執行"
+      },
+      "summary": "昆侖萬維旗下 Skywork AI 釋出 Matrix-Game 4.0，把可執行的遊戲引擎與因果影片模型接在一起：引擎負責物理、碰撞與玩家輸入並輸出低多邊形畫面，神經渲染模型再把畫面即時轉成高保真視覺。單張消費級 GPU 即可 480p／60 FPS 互動，輸入到畫面延遲低於 150ms、峰值 VRAM 約 18.5GB。推論程式、瀏覽器 demo 與三款遊戲的原始碼與權重全部開源。",
+      "from_file": "output/2026/10/15.md"
     },
-    "summary": "昆侖萬維旗下 Skywork AI 釋出 Matrix-Game 4.0，把可執行的遊戲引擎與因果影片模型接在一起：引擎負責物理、碰撞與玩家輸入並輸出低多邊形畫面，神經渲染模型再把畫面即時轉成高保真視覺。單張消費級 GPU 即可 480p／60 FPS 互動，輸入到畫面延遲低於 150ms、峰值 VRAM 約 18.5GB。推論程式、瀏覽器 demo 與三款遊戲的原始碼與權重全部開源。",
-    "from_file": "output/2026/10/15.md"
-  }
+    {
+      "date": "2026-10-16",
+      "title": "台積電上調 2026 年營收成長至 44%，2 奈米成主要動能",
+      "url": "https://focustaiwan.tw/business/202610150018",
+      "source": "focustaiwan.tw",
+      "company": "TSMC",
+      "topic": "TSMC raises 2026 USD revenue growth forecast to 44 percent with 2nm ramp and unchanged 60-64 billion dollar capex",
+      "fingerprint": "TSMC|2026-revenue-growth-forecast-raised-44-percent-2nm|2026-10-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "10/15 法說會正式上調全年成長預測至 44%，2 奈米占比跳升"
+      },
+      "summary": "台積電在法說會上把 2026 年全年美元營收成長預測從 7 月的「略高於 40%」上調到 44%，資本支出維持 600 億至 640 億美元不變。第三季 EPS 29.43 元創單季新高，2 奈米佔整體銷售比重從上季 3% 拉高到 8%。財務長黃仁昭預估第四季營收 523 億至 543 億美元、中位數年增 58%，毛利率 65-67%；並直指 agentic AI 應用是推升長期需求的主力，CoWoS 需求持續吃緊。",
+      "from_file": "output/2026/10/16.md"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "美光台中 AATT2 啟用：2027 年 HBM 產能已全部賣光",
+      "url": "https://focustaiwan.tw/politics/202610150012",
+      "source": "focustaiwan.tw",
+      "company": "Micron",
+      "topic": "Micron inaugurates AATT2 advanced assembly and test plant in Taichung with 2027 HBM capacity fully sold out",
+      "fingerprint": "Micron|aatt2-taichung-hbm-packaging-plant-inauguration-2027-sold-out|2026-10-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "10/15 新廠正式啟用量產，2027 HBM 產能已完售"
+      },
+      "summary": "美光在台中啟用第二座先進封測廠「AATT2」，從動土到量產只花約一年，專門擴充 AI 加速器用的高頻寬記憶體（HBM）封裝與測試產能。總裁暨營運長 Manish Bhatia 在典禮上透露，該廠 2027 年 HBM 產能已被客戶預訂一空，並預期 HBM 成長動能延續到 2028 年後仍優於整體 DRAM。這是美光在台灣的第五座廠，賴清德總統親自出席，強調美光累計在台投資已超過 1.4 兆元。",
+      "from_file": "output/2026/10/16.md"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "NVIDIA 推 cuPotential，讓 AI agent 模擬原子級材料行為",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+      "source": "nvidianews.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA cuPotential CUDA-X library plus open source NanoVDB and NPP for AI-defined fabs adopted by Applied Materials Cadence KLA Lam Research Siemens Synopsys",
+      "fingerprint": "NVIDIA|cupotential-cuda-x-library-ai-defined-fabs|2026-10-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "10/15 發表 cuPotential，並獲多家半導體大廠於 AI-defined fab 採用"
+      },
+      "summary": "NVIDIA 端出新的 CUDA-X 函式庫 cuPotential，開發者可用來打造模擬原子與分子交互作用的 AI agent，在既有 GPU 優化流程上再快 2-3 倍。同時開源的 NanoVDB 讓 Lam Research 的晶片製造模擬快 30 倍，NPP 則協助 KLA 加速晶圓檢測。Applied Materials、Cadence、KLA、Lam Research、Siemens、Synopsys 等大廠都在採用這套堆疊推進「AI-defined fab」，用數位孿生先把製程改動驗過再上線。",
+      "from_file": "output/2026/10/16.md"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Meta 開源 Muse Spark Open：816B 參數，兩台 Mac Studio 就能跑",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "source": "research.meta.ai",
+      "company": "Meta",
+      "topic": "Meta releases Muse Spark Open 816B parameter 42B active open weights multimodal MoE for coding and agentic work running on two M5 Ultra Mac Studios",
+      "fingerprint": "Meta|muse-spark-open-816b-open-weights-release|2026-10-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "10/15 正式釋出權重，816B 開源模型首度可在桌機執行"
+      },
+      "summary": "Meta 把 4 月以來一直閉源的 Muse Spark 釋出權重，成為目前最強的美國開源權重模型。Muse Spark Open 是原生多模態稀疏 MoE，816B 總參數、每 token 啟用 42B，具備 100 萬 token 上下文，鎖定長流程 coding 與 multi-step agent 任務。官方稱這是同級首個能在桌機跑起的模型——用兩台搭載 M5 Ultra 的 Mac Studio 加最新 MLX 框架即可；同日已在 Baseten、Fireworks、Groq、Modal、Nebius、OpenRouter、Together AI 上架，權重可從 Hugging Face、SageMaker、Google Cloud Model Garden 與 Microsoft Foundry 下載。",
+      "from_file": "output/2026/10/16.md"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "OpenAI 推 GPT-Live-1.1：13 種新語音，非英語口音大改善",
+      "url": "https://community.openai.com/t/gpt-live-1-1-is-rolling-out-with-new-voices-and-better-accents/1406704",
+      "source": "community.openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI rolls out GPT-Live-1.1 full-duplex voice model with 13 new voices across six languages for ChatGPT Codex and dots",
+      "fingerprint": "OpenAI|gpt-live-1-1-13-new-voices-multilingual-rollout|2026-10-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "10/15 全雙工語音模型更新，新增 13 語音並改善非英語表現"
+      },
+      "summary": "OpenAI 更新全雙工語音模型 GPT-Live 到 1.1 版，一次補上 13 種新聲音，涵蓋法語、德語、印地語、墨西哥西語、韓語與日語，非英語的發音與區域自然度明顯提升，也修掉了查資料時反覆「checking…」的卡頓。本次同步在 ChatGPT 語音（付費版預設 1.1、免費版走輕量 Quip）、Codex 與 dots 上線，API 稍後跟進。",
+      "from_file": "output/2026/10/16.md"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Perplexity 開源 SPACE：讓長時 agent 跑在可暫停、可分支的沙箱裡",
+      "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+      "source": "perplexity.ai",
+      "company": "Perplexity AI",
+      "topic": "Perplexity open sources SPACE agent sandbox platform with Firecracker microVM isolation and pause resume branch session controls",
+      "fingerprint": "Perplexity AI|space-agent-sandbox-platform-open-source-apache-2-0|2026-10-16",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "10/15 以 Apache 2.0 開源生產級 agent 沙箱，含零逃逸紅隊結果"
+      },
+      "summary": "Perplexity 以 Apache 2.0 開源 SPACE（Sandboxed Platform for Agentic Code Execution），也就是支撐 Computer 個人 agent 的那套隔離執行環境。每個任務跑在自己的 microVM 裡，跟主機有硬體虛擬化邊界；長時間任務可暫停、恢復、檢查點與分支，機密憑證與網路規則則由 host 端代管，不落進 agent 的檔案系統。官方稱每日處理數百萬個沙箱、建立速度比先前商用供應商快 3-5 倍，並在 9 個前沿模型、118 次逃逸嘗試的紅隊測試中零成功逃脫；CoreWeave、Akamai、Crusoe 已加入提供託管 runtime。",
+      "from_file": "output/2026/10/16.md"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Snyk 推 Evo Agentic AppSec：用一群資安 agent 對抗 agent 寫的程式碼",
+      "url": "https://snyk.io/news/snyk-launches-evo-agentic-appsec/",
+      "source": "snyk.io",
+      "company": "Snyk",
+      "topic": "Snyk launches Evo Agentic AppSec team of AI security agents with independent verification and 90 percent mergeable fix rate",
+      "fingerprint": "Snyk|evo-agentic-appsec-ai-security-agents-launch|2026-10-16",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "10/15 發表 agent 世代的 AppSec 產品，附可合併修正率 benchmark"
+      },
+      "summary": "Snyk 發表 Evo Agentic AppSec，把資安防線推進到「撰寫的當下」：一整隊 AI 安全 agent 跟著 coding agent 在開發迴圈裡跑，即時找出並修掉漏洞，且每個結果都由不同於產出者的 agent 獨立驗證。Snyk 直指通用 LLM 做資安審查有 49.7% 的發現下次重跑就消失、單靠 LLM 只有 59.6% 能產出可合併的修正，而自家 Remediation Agent 在同一標準下把可合併率拉到 90%。背景是客戶端新發現的重大與高風險問題一年成長 10 倍，每修掉 1 個漏洞卻新增約 8 個。",
+      "from_file": "output/2026/10/16.md"
+    }
   ],
   "reason_picked_schema": {
     "type": "object",
