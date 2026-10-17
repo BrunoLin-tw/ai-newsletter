@@ -18976,6 +18976,146 @@
       },
       "summary": "Snyk 發表 Evo Agentic AppSec，把資安防線推進到「撰寫的當下」：一整隊 AI 安全 agent 跟著 coding agent 在開發迴圈裡跑，即時找出並修掉漏洞，且每個結果都由不同於產出者的 agent 獨立驗證。Snyk 直指通用 LLM 做資安審查有 49.7% 的發現下次重跑就消失、單靠 LLM 只有 59.6% 能產出可合併的修正，而自家 Remediation Agent 在同一標準下把可合併率拉到 90%。背景是客戶端新發現的重大與高風險問題一年成長 10 倍，每修掉 1 個漏洞卻新增約 8 個。",
       "from_file": "output/2026/10/16.md"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Anthropic：Claude 自主設計量子電路，8 項任務有 7 項超越已發表最佳設計",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude autonomously designs state-of-the-art quantum circuits beating published baselines in 7 of 8 tasks",
+      "fingerprint": "Anthropic|claude-autonomous-quantum-circuit-design|2026-10-17",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "官方發表自主研究框架，附對照已發表電路的 benchmark 與 Lean 形式驗證"
+      },
+      "summary": "Anthropic 給 Claude 八個量子電路的白話規格與自動評分器，讓模型自己改設計、自己重跑。結果多數任務贏過既有已發表電路，部分快一個數量級以上：橢圓曲線點加法閘數少 17 倍（單次 53 小時自主執行），DQI 解碼器閘數約減 12 倍，效率改善最高 39 倍，第八項任務提出新的可逆架構，關鍵論述由 Lean 定理證明器驗證。",
+      "from_file": "output/2026/10/17.md"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Reflection 釋出 Beam 開源權重：501B MoE、Apache 2.0，主打代理工作流的推論效率",
+      "url": "https://reflection.ai/blog/beam-is-available",
+      "source": "reflection.ai",
+      "company": "Reflection",
+      "topic": "Reflection releases Beam 501B MoE open weights under Apache 2.0 with day-0 inference stack support",
+      "fingerprint": "Reflection|beam-open-weights-apache-2-0-release|2026-10-17",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "10/5 只開預告，本次正式釋出權重與安全報告，屬首次可下載"
+      },
+      "summary": "Beam 權重正式放上 Hugging Face，採 Apache 2.0。501B 總參數、每 token 啟用 23B，上下文 100 萬 token，用 23.8 兆 token 預訓練，再花四週在 10.5K 張 GB300 上做 RL、產生逾 1 億次 rollout。釋出 BF16／FP8／NVFP4 與推測解碼草稿模型，附模型卡與安全技術報告，並串起 40 多家夥伴的 agent 開放作業系統，vLLM、SGLang、Transformers、Baseten 皆 day-0 支援。",
+      "from_file": "output/2026/10/17.md"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "DeepMind 四個 Gemini 4 Argon agent 花 27 小時自主破關 Minecraft",
+      "url": "https://arxiv.org/abs/2610.22319",
+      "source": "arxiv.org",
+      "company": "Google DeepMind",
+      "topic": "Four Gemini 4 Argon agents autonomously beat Minecraft end-to-end in 27 hours as long-horizon multi-agent benchmark",
+      "fingerprint": "Google DeepMind|gemini-4-argon-agents-beat-minecraft-end-to-end|2026-10-17",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首次有通用 agent 端到端自主完成 Minecraft，可量化長時程多代理協作"
+      },
+      "summary": "四個 Gemini 4 Argon agent 被丟進沙盒 Minecraft 生存世界，唯一目標是打倒終界龍，沒有人分配角色、寫遊戲邏輯或預探種子。每個 agent 透過 Mineflayer 控制一名玩家，靠遊戲內聊天與共享記憶協調。最後花 27 小時 14 分完成，寫出 2,783 支程式、交換 229 則訊息、存下 42 個可重用函式，並死了 605 次還會互相撿裝備。團隊定位為長時程多 agent 協作的 benchmark。",
+      "from_file": "output/2026/10/17.md"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "中國擬將 23 項 AI 技術列入出口管制，2 兆參數以上模型權重禁出口",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/10/17/2003866098",
+      "source": "taipeitimes.com",
+      "company": "China Commerce Ministry",
+      "topic": "China proposes export controls on 23 advanced AI technologies including model weights above 2 trillion parameters",
+      "fingerprint": "China Commerce Ministry|ai-export-control-list-draft-23-technologies|2026-10-17",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "草案直接管制模型權重、checkpoint、原始碼與架構，影響開源與雲端落地路徑"
+      },
+      "summary": "中國商務部草案要把 23 項先進 AI 技術納入出口管制，涵蓋 LLM、agent、晶片設計與運算叢集，受管項目包括權重、checkpoint、原始碼與架構，門檻為 2 兆參數以上（如 Kimi K3、Qwen3.8-Max）或在效能、使用量、安全性排進全球前 10。以《資料安全法》定義之核心資料訓練的模型一律禁止出口；已公開的開源技術不在管制內，並提供開源出口自動許可等簡化程序。",
+      "from_file": "output/2026/10/17.md"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Google AI 新聞授權計畫擴大：CNN、金融時報、Axios 等 400 家媒體加入",
+      "url": "https://www.manilatimes.net/2026/10/17/business/foreign-business/google-cnn-others-join-ai-news-program/2447442",
+      "source": "manilatimes.net",
+      "company": "Google",
+      "topic": "Google expands AI news licensing program to 400 publishers adding CNN FT and Axios with attribution links",
+      "fingerprint": "Google|ai-news-licensing-program-expands-400-publishers|2026-10-17",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "從試辦擴大到 400 家媒體並新增 CNN、FT、Axios，付費授權與出處連結成形"
+      },
+      "summary": "Google 把去年從《華盛頓郵報》等夥伴試辦的 AI 新聞授權計畫擴大，全球已有 400 多家媒體加入，最新一批包含 CNN、Financial Times 與 Axios。媒體授予更完整內容權利供 Google 開發生成式功能，Google 付費（金額未揭露），AI 回答附明確出處與原文連結。這也是 Paramount Skydance 完成華納兄弟探索併購後 CNN 的第一個大型科技合作。",
+      "from_file": "output/2026/10/17.md"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "日本俳優連合首訂生成式 AI 聲音指引：訓練、建模、使用三階段都要事前同意",
+      "url": "https://www3.nhk.or.jp/nhkworld/news/20261016de60382/",
+      "source": "www3.nhk.or.jp",
+      "company": "Japan Actors Union",
+      "topic": "Japan Actors Union issues first generative AI voice guidelines requiring consent at training modeling and usage stages",
+      "fingerprint": "Japan Actors Union|first-generative-ai-voice-consent-guidelines|2026-10-17",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "首份工會級聲音 AI 指引，明確三階段同意、禁買斷、禁已故者訓練"
+      },
+      "summary": "代表約 2,600 名演員與聲優的日俳連公布首份生成式 AI 聲音利用指引：從 AI 訓練、建立聲音模型到產出上線，三階段都要本人事前書面同意，禁止買斷式合約、同意效期原則上一年。已故演員的聲音原則上不得用於訓練，僅在嚴格例外下放行。為《七龍珠》孫悟空配音的野沢雅子首度公開受訪，直言未經同意生成她的聲音「無法原諒」。",
+      "from_file": "output/2026/10/17.md"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Microsoft Copilot Studio 預覽 agent 帳號與共享記憶，讓數位代理人接手跨部門流程",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/delegate-shared-business-processes-to-agents-that-are-more-persistent-and-proactive-with-microsoft-copilot-studio/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "Copilot Studio Frontier preview adds agent accounts business process memory and triggers for persistent process agents",
+      "fingerprint": "Microsoft|copilot-studio-agent-accounts-shared-memory-triggers|2026-10-17",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "agent 取得 Entra 身分與跨任期共享流程記憶，並可不靠 prompt 自動觸發"
+      },
+      "summary": "Microsoft 在 Frontier 預覽放進三項能力：agent accounts 讓 agent 擁有自己的 Entra 身分、business process memory 讓流程知識跨越單一員工在職期間累積、triggers 讓 agent 不必等人下 prompt 就能在 GitHub Copilot harness 裡自己開工。過去 AI 都是有人打字才有事做，這批功能把 agent 變成隸屬組織、比個人任期活更久的數位同事，代價是每個 agent 都需要 scoped 權限與治理邊界。",
+      "from_file": "output/2026/10/17.md"
     }
   ],
   "reason_picked_schema": {
