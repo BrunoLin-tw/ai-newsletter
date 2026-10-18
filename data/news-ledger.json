@@ -19116,6 +19116,145 @@
       },
       "summary": "Microsoft 在 Frontier 預覽放進三項能力：agent accounts 讓 agent 擁有自己的 Entra 身分、business process memory 讓流程知識跨越單一員工在職期間累積、triggers 讓 agent 不必等人下 prompt 就能在 GitHub Copilot harness 裡自己開工。過去 AI 都是有人打字才有事做，這批功能把 agent 變成隸屬組織、比個人任期活更久的數位同事，代價是每個 agent 都需要 scoped 權限與治理邊界。",
       "from_file": "output/2026/10/17.md"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "DeepSeek 更新 V4.1-Flash-1017：效能升、成本降，Search／Fetch API 同步開放",
+      "url": "https://api-docs.deepseek.com/news/news261017/",
+      "source": "api-docs.deepseek.com",
+      "company": "DeepSeek",
+      "topic": "DeepSeek V4.1 Flash 1017 model update with self-feedback RL open weights and public Search Fetch APIs",
+      "fingerprint": "DeepSeek|v4-1-flash-1017-search-fetch-api-open-release|2026-10-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "open_source"
+        ],
+        "note": "模型、權重與搜尋工具同日更新，效能、成本及開發介面都有實質新進展"
+      },
+      "summary": "DeepSeek-V4.1-Flash-1017 以自我回饋強化學習改善端到端專案開發，並以更短輸出、更快完成速度降低成本；權重已開源，Search 與 Fetch API 也以每千次 0.75 美元公開。",
+      "from_file": "output/2026/10/18.md"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Librarian Agents 先整理長文件，BrowseComp-Plus 準確率多 33 個百分點",
+      "url": "https://arxiv.org/abs/2610.22273",
+      "source": "arxiv.org",
+      "company": "Librarian Agents research team",
+      "topic": "Librarian Agents reinforcement-learned anticipatory curation of long-context workspaces for future queries",
+      "fingerprint": "Librarian Agents|rl-curated-long-context-workspaces|2026-10-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "新框架把長文件檢索改成可學習的事前整理，兩項基準都有大幅提升"
+      },
+      "summary": "Librarian Agents 讓 builder agent 先把文件重組成階層式工作區，再交給回答 agent；相較最強基線，BrowseComp-Plus 提升 33 個百分點，BRIGHT 零樣本平均提升 31 個百分點。",
+      "from_file": "output/2026/10/18.md"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "PS5LM Plus 把越獄 PS5 變成本機 LLM 主機：27B 跑 20 tok/s、3B 破百",
+      "url": "https://github.com/abhi245y/PS5LM-Plus",
+      "source": "github.com",
+      "company": "PS5LM Plus",
+      "topic": "PS5LM Plus native GPU llama.cpp app for jailbroken PlayStation 5 with local model store and compatible APIs",
+      "fingerprint": "PS5LM Plus|native-ps5-gpu-local-llm-server|2026-10-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "open_source",
+          "benchmark_detail"
+        ],
+        "note": "原生 GPU 應用把 PS5 從 CPU 每分鐘一 token 推進到 27B 模型每秒 20 token"
+      },
+      "summary": "PS5LM Plus 把 llama.cpp 做成使用 GPU 與 12 GiB 記憶體池的原生 PS5 應用，Qwen3.8-27B 達 20.3 tok/s、Llama 3.2 3B 達 124 tok/s，並提供 OpenAI 與 Anthropic 相容 API。",
+      "from_file": "output/2026/10/18.md"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Replit 把 OpenAI 設為 Agent 預設模型，Claude 仍可選",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "techcrunch.com",
+      "company": "Replit / OpenAI / Anthropic",
+      "topic": "Replit makes OpenAI the preferred default model partner for Replit Agent while retaining Claude as an option",
+      "fingerprint": "Replit|openai-default-partner-claude-still-optional|2026-10-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "Replit 由 Anthropic 重要客戶轉向 OpenAI 預設，直接反映模型效能與成本競爭"
+      },
+      "summary": "Replit CEO 表示，成本、合作關係與內部 benchmark 促成 OpenAI 成為 Replit Agent 的預設與首選夥伴；平台仍保留 Claude 等其他模型供使用者選擇。",
+      "from_file": "output/2026/10/18.md"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Anthropic 內部 Agent 工時達人類 6 倍，初階技術招募占比降至 9%",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic internal employment study finds agent hours six times human hours and junior technical hiring share falls to nine percent",
+      "fingerprint": "Anthropic|internal-agent-work-hours-junior-hiring-study|2026-10-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "workflow_automation"
+        ],
+        "note": "首次用內部工時、招募與產出資料量化 AI-native 組織的人力結構變化"
+      },
+      "summary": "Anthropic 研究顯示，初階技術新進人員占比從 27% 降至 9%，8 月互動式 agent 工時為員工的 6 倍，工程師人均提交速度半年增至 5 倍，會議時間則年增 20%。",
+      "from_file": "output/2026/10/18.md"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Meta 撤回商業條款中的廣泛抓取與訓練文字",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "source": "techcrunch.com",
+      "company": "Meta",
+      "topic": "Meta removes broad commercial terms language on crawling linked websites and training products after publisher concerns",
+      "fingerprint": "Meta|removes-broad-commercial-crawling-training-terms|2026-10-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [],
+        "note": "遭出版業與法律專家質疑後立即刪除爭議條款，改變企業內容授權邊界"
+      },
+      "summary": "Meta 新商業條款一度被解讀為可抓取企業帳號連結網站並用於訓練，招致質疑後已移除相關文字；公司稱原意只適用廣告與商業產品，爬蟲政策未變。",
+      "from_file": "output/2026/10/18.md"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "CiteProof 用法院資料庫抓假案例，不拿另一個 LLM 審 LLM",
+      "url": "https://getciteproof.com/",
+      "source": "getciteproof.com",
+      "company": "CiteProof",
+      "topic": "CiteProof deterministic legal brief citation and quote verification against public court records without LLM review",
+      "fingerprint": "CiteProof|deterministic-legal-citation-quote-checker|2026-10-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "以確定性法院資料查詢攔截 AI 捏造案例，補上法律文件生成的關鍵驗證層"
+      },
+      "summary": "CiteProof 以確定性流程把案例引用送到 CourtListener 核對，付費版再比對引文，整份文件不交給 AI 模型；基本檢查免費，單份完整檢查為 49 美元。",
+      "from_file": "output/2026/10/18.md"
     }
   ],
   "reason_picked_schema": {
