@@ -19255,6 +19255,128 @@
       },
       "summary": "CiteProof 以確定性流程把案例引用送到 CourtListener 核對，付費版再比對引文，整份文件不交給 AI 模型；基本檢查免費，單份完整檢查為 49 美元。",
       "from_file": "output/2026/10/18.md"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "NVIDIA RTX Spark 筆電開賣：128GB 統一記憶體、1 PFLOP FP4",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "source": "nvidianews.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA RTX Spark laptops global availability from six OEMs with 128GB unified memory and 1 PFLOP FP4",
+      "fingerprint": "NVIDIA|rtx-spark-laptops-global-availability|2026-10-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "new_market",
+          "benchmark_detail"
+        ],
+        "note": "近 7 日已報 Nemotron 軟體更新；本次新意是 RTX Spark 硬體正式開賣，OEM 與價格落地"
+      },
+      "summary": "RTX Spark 筆電以 Blackwell RTX GPU、Grace CPU、最高 128GB 統一記憶體和 1 PFLOP FP4 效能支援本機模型與 agent；六家 OEM 已出貨，售價 2,599 美元起。",
+      "from_file": "output/2026/10/19.md"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "AWS 公開 AgentCore 九階段評測框架：錯誤偵測縮到 4 小時內",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+      "source": "aws.amazon.com",
+      "company": "AWS",
+      "topic": "Amazon Bedrock AgentCore production multi-agent nine-stage continuous evaluation framework",
+      "fingerprint": "AWS|bedrock-agentcore-nine-stage-production-evaluation-framework|2026-10-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "workflow_automation"
+        ],
+        "note": "AWS 首次公開內部生產多 agent 評測流程，並量化偵測與迭代速度改善"
+      },
+      "summary": "AWS 的九階段框架從 golden set、CI／CD gate、canary 延伸到線上漂移與自動回饋，涵蓋工具、agent 與多 agent 層；品質問題偵測從數天或數週降到 4 小時內。",
+      "from_file": "output/2026/10/19.md"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Anthropic 拿 5% 股份成立公共利益基金，估值成長還會加碼",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Public Benefit Fund receives five percent equity with valuation-linked increases",
+      "fingerprint": "Anthropic|public-benefit-fund-equity-commitment|2026-10-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "把公共利益承諾寫進公司股權與估值成長機制，是具體且可擴張的治理變化"
+      },
+      "summary": "Anthropic 將先把 5% 股份放入 Public Benefit Fund，估值每增加 50% 時董事會可再追加 2%；加上既有承諾，約 20% 股份將用於公共利益。",
+      "from_file": "output/2026/10/19.md"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "巴西 Itaú 的 AI 助理先上線 30 萬客戶，年底擴至全體",
+      "url": "https://openai.com/index/itau-generative-ai/",
+      "source": "openai.com",
+      "company": "Itaú / OpenAI",
+      "topic": "Itau iai conversational banking rollout with IARA governance platform and GPT models",
+      "fingerprint": "Itaú|iai-customer-rollout-iara-governance-platform|2026-10-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "finance",
+          "workflow_automation"
+        ],
+        "note": "受監管銀行把多模型治理平台與客戶助理投入大規模實際營運，並公布明確成效"
+      },
+      "summary": "Itaú 的 ia.i 已服務約 30 萬客戶並計畫年底全面開放；IARA 平台每月處理逾 200 萬項法律任務、涵蓋 9,000 萬份文件，部分流程效率提升 20% 至 80%。",
+      "from_file": "output/2026/10/19.md"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Kroger 把 500 台 Tally 機器人搬進賣場，洛杉磯門市上線",
+      "url": "https://www.latimes.com/business/story/2026-10-15/ai-robots-are-roaming-la-grocery-store-aisles-shoppers-workers-are-worried",
+      "source": "latimes.com",
+      "company": "Kroger / Simbe Robotics",
+      "topic": "Kroger Tally autonomous shelf-scanning robots expand to Los Angeles Ralphs stores",
+      "fingerprint": "Kroger|tally-inventory-robots-los-angeles-expansion|2026-10-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "new_market",
+          "workflow_automation"
+        ],
+        "note": "數百台實體 AI 機器人從試點擴至洛杉磯日常零售場景，部署規模已具代表性"
+      },
+      "summary": "Kroger 今年 8 月部署第 500 台 Tally，近期擴至 Ralphs 等洛杉磯門市；機器人自主掃描缺貨、錯放與價格，但工會擔心盤點自動化會壓縮工時與職缺。",
+      "from_file": "output/2026/10/19.md"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "GitHub Copilot 在 Slack／Teams 支援跨多個 repo 工作",
+      "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates/",
+      "source": "github.blog",
+      "company": "GitHub",
+      "topic": "GitHub Copilot in Slack and Microsoft Teams multi-repository support",
+      "fingerprint": "GitHub|copilot-slack-teams-multi-repo-support|2026-10-19",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "跨 repo 查詢、改碼與開 PR 直接進入團隊聊天工具，補上多專案協作缺口"
+      },
+      "summary": "GitHub Copilot 現可在同一段 Slack 或 Teams 對話中跨多個 repo 建 issue、修改程式、開 PR 與追蹤工作，也能直接使用 Slack 訊息和 thread 作為上下文。",
+      "from_file": "output/2026/10/19.md"
     }
   ],
   "reason_picked_schema": {
