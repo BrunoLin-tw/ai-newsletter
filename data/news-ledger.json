@@ -19377,6 +19377,148 @@
       },
       "summary": "GitHub Copilot 現可在同一段 Slack 或 Teams 對話中跨多個 repo 建 issue、修改程式、開 PR 與追蹤工作，也能直接使用 Slack 訊息和 thread 作為上下文。",
       "from_file": "output/2026/10/19.md"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Mercury 3 把 diffusion LLM 推到每秒 1,068 token",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "source": "inceptionlabs.ai",
+      "company": "Inception",
+      "topic": "Mercury 3 diffusion LLM launch with 1068 tokens per second and 1M context",
+      "fingerprint": "Inception|mercury-3-diffusion-llm-launch|2026-10-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "擴散式 LLM 正式擴到百萬 token 與 1,068 tok/s，並已有多種即時代理部署"
+      },
+      "summary": "Inception 發布新一代擴散式語言模型，支援 100 萬 token context；官方稱速度比同級模型快 4–8 倍，且已用於網頁代理、即時搜尋與語音客服。",
+      "from_file": "output/2026/10/20.md"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "MiniMax M3.1 Flash 上線：推論近 3 倍快、成本降 70%",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "source": "minimax.io",
+      "company": "MiniMax",
+      "topic": "MiniMax M3.1 Flash agent model launch with faster inference and lower pricing",
+      "fingerprint": "MiniMax|m3-1-flash-agent-model-launch|2026-10-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "正式上線並同時公布 agent、Computer Use、速度與價格數據"
+      },
+      "summary": "新模型主攻 agent、程式開發、Computer Use 與資安；輸出中位速度超過 170 tok/s，API 定價為每百萬 input／output token 0.15／0.60 美元。",
+      "from_file": "output/2026/10/20.md"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "GoTo 開源 27B 印尼語 LLM，補足多種地方語言",
+      "url": "https://www.gotocompany.com/en/news/press/goto-releases-new-llm-2026",
+      "source": "gotocompany.com",
+      "company": "GoTo",
+      "topic": "GoTo open 27B Gemma 3 model for Indonesian and regional languages",
+      "fingerprint": "GoTo|open-27b-indonesian-regional-language-llm|2026-10-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "東南亞大型平台正式開放可自行部署的本地語言模型"
+      },
+      "summary": "這款 Gemma 3 衍生模型涵蓋印尼語、爪哇語、巽他語、峇里語與巴塔克語，並開放大學、新創與公部門自行部署、研究及改造。",
+      "from_file": "output/2026/10/20.md"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "德國政府攜 NVIDIA 推 Physical AI，工業 AI 從資料中心進工廠",
+      "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+      "source": "blogs.nvidia.com",
+      "company": "NVIDIA / Germany",
+      "topic": "Germany and NVIDIA joint physical AI initiative with industrial deployment",
+      "fingerprint": "NVIDIA|germany-joint-physical-ai-industrial-initiative|2026-10-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "real_world_deployment"
+        ],
+        "note": "政府合作意向與 Siemens 實廠量化成果同日落地，和近一週 NVIDIA 模型及工具新聞不同"
+      },
+      "summary": "德國政府與 NVIDIA 簽署合作意向，將共同發展實體 AI 模型與歐洲工業 AI 生態；Siemens 實廠案例顯示，虛擬投產準備最高可減少 85% 工程量，代理式排程可省 20% 成本。",
+      "from_file": "output/2026/10/20.md"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Microsoft 把企業 AI agent 視為「內部人」管理",
+      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+      "source": "blogs.microsoft.com",
+      "company": "Microsoft",
+      "topic": "Project Perception Guardian Agents for continuous containment of enterprise agentic insiders",
+      "fingerprint": "Microsoft|project-perception-guardian-agents-agentic-insiders|2026-10-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "相較 7 月的外部攻擊防禦，本次新增內部 agent 即時監督、動態風險與權限 containment"
+      },
+      "summary": "Project Perception 的新方向是用 Guardian Agents 即時監督其他代理，依身分、權限、資料、端點與執行環境的風險動態限制行動，把不可預測的模型包進可稽核的確定性控制。",
+      "from_file": "output/2026/10/20.md"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Google 為紐西蘭大選部署 AI 內容標示與 SynthID",
+      "url": "https://blog.google/intl/en-nz/company-news/supporting-the-2026-new-zealand-general-election/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Google New Zealand election AI media labeling SynthID and threat safeguards rollout",
+      "fingerprint": "Google|new-zealand-election-ai-content-safeguards|2026-10-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "針對即將舉行的大選，把 AI 標示、水印與威脅偵測實際部署到三項主要產品"
+      },
+      "summary": "Search、YouTube 與 Gemini 將顯示官方投票資訊，廣告主須揭露 AI 內容；Google 也將以 SynthID 與威脅情報團隊偵測協同行動和網路攻擊。",
+      "from_file": "output/2026/10/20.md"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Huntington + Google Cloud 推小企業 AI 作業系統 1866 Studio",
+      "url": "https://ir.huntington.com/news-presentations/press-releases/detail/1028/huntington-bank-introduces-the-1866-studio-an-ai-powered-small-business-operating-system-built-with-google-cloud",
+      "source": "ir.huntington.com",
+      "company": "Huntington Bank / Google Cloud",
+      "topic": "Huntington 1866 Studio Gemini-powered small business operating system launch",
+      "fingerprint": "Huntington Bank|1866-studio-small-business-ai-operating-system|2026-10-20",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "finance",
+          "workflow_automation"
+        ],
+        "note": "銀行正式推出跨設立、行銷、融資與營運的 agentic 小企業工具，並開放 early access"
+      },
+      "summary": "平台用 Gemini 串起公司設立、行銷內容、貸款準備與營運監控，保留跨任務的商業脈絡；10 月 19 日起開放申請 early access，非該銀行客戶也能登記。",
+      "from_file": "output/2026/10/20.md"
     }
   ],
   "reason_picked_schema": {
