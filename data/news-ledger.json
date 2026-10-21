@@ -19519,6 +19519,130 @@
       },
       "summary": "平台用 Gemini 串起公司設立、行銷內容、貸款準備與營運監控，保留跨任務的商業脈絡；10 月 19 日起開放申請 early access，非該銀行客戶也能登記。",
       "from_file": "output/2026/10/20.md"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "DeepSeek 開源 DeepInfer：把 V4.1 Flash 的生產推論引擎搬上 GitHub",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "source": "github.com",
+      "company": "DeepSeek",
+      "topic": "DeepSeek open sources DeepInfer production inference framework for V4.1 Flash under Apache 2.0",
+      "fingerprint": "DeepSeek|deepinfer-production-inference-framework-open-source|2026-10-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "近 7 日已報 V4.1 Flash 模型；本次新意是其生產推論引擎完整開源並支援 NVIDIA 與昇騰"
+      },
+      "summary": "DeepInfer 以 Apache 2.0 開源，包含非同步排程、MoE 平行化、確定性取樣與結構化輸出，支援 NVIDIA SM100 GPU 與華為昇騰 950 NPU；目前釋出版聚焦離線推論，完整服務仍需另接 KV cache、負載平衡等元件。",
+      "from_file": "output/2026/10/21.md"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Google 發布 llm-d 1.0：跨 TPU／GPU 的 agent 推論調度正式穩定",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/llm-d-1-0-an-open-source-stack-for-distributed-inference",
+      "source": "cloud.google.com",
+      "company": "Google Cloud / llm-d",
+      "topic": "llm-d 1.0 Kubernetes-native distributed inference stack with cache-aware routing and mixed TPU GPU serving",
+      "fingerprint": "Google Cloud|llm-d-1-0-distributed-agent-inference-stack|2026-10-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "workflow_automation"
+        ],
+        "note": "分散式推論堆疊正式進入 1.0，新增 agent-aware 調度並公布 TPU／GPU 生產 benchmark"
+      },
+      "summary": "這套 Kubernetes 原生分散式推論堆疊加入 cache-aware routing、分層 KV cache、優先級流量控制與零停機更新；官方 agent coding 測試顯示，首 token 中位延遲降低逾 85%、總吞吐提升 2.4 倍。",
+      "from_file": "output/2026/10/21.md"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Claude 設計蠍毒蛋白 binder：211 個進實驗室，17 個成功結合",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "source": "anthropic.com",
+      "company": "Anthropic / Citrini Research",
+      "topic": "Claude autonomous scorpion neurotoxin protein binder design with 17 successful binders from 211 lab-tested candidates",
+      "fingerprint": "Anthropic|claude-scorpion-toxin-binder-lab-validation|2026-10-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "healthcare"
+        ],
+        "note": "從先前電腦模擬推進到 211 個實驗室測試與 17 個有效 binder，並公開完整數據"
+      },
+      "summary": "Anthropic 與 Citrini 合作，讓 Claude 在 64 小時內產生逾 31 萬個設計，再由兩家實驗室測試 211 個候選；17 個達到結合標準，最強候選達單位數 nM 親和力，但尚未證明能中和毒液，完整設計與數據已公開。",
+      "from_file": "output/2026/10/21.md"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "OpenAI 收購 Orchestra Bio，把藥物研發 agent 納入 Rosalind",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+      "source": "openai.com",
+      "company": "OpenAI / Orchestra Bio",
+      "topic": "OpenAI acquires Orchestra Bio to integrate drug development coordination agents with Rosalind",
+      "fingerprint": "OpenAI|orchestra-bio-acquisition-rosalind-integration|2026-10-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "healthcare",
+          "workflow_automation"
+        ],
+        "note": "OpenAI 首次把藥物研發協調平台整併進 Rosalind，從科學推理延伸到研發營運"
+      },
+      "summary": "Orchestra 的平台讓人類與 agent 協同追蹤試驗、製造與時程連鎖影響；併入後將與 GPT‑Rosalind、Rosalind Workbench 結合，從研究推理延伸到藥物計畫協調與決策。",
+      "from_file": "output/2026/10/21.md"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Mistral 推 Voxtral 3：50+ 語言、不到一秒的即時語音 agent",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "source": "mistral.ai",
+      "company": "Mistral AI",
+      "topic": "Mistral Voxtral 3 multilingual speech models and real-time voice agent SDK launch",
+      "fingerprint": "Mistral AI|voxtral-3-voice-agent-sdk-speech-models|2026-10-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "workflow_automation"
+        ],
+        "note": "完整語音 agent SDK 與新 STT／TTS 模型同步上線，公布語言、延遲與定價細節"
+      },
+      "summary": "新系列整合轉錄、推理、工具呼叫與語音合成，支援打斷、SIP／WebRTC 與 35+ 語言、50+ 方言；可走 Mistral API 或自行部署，批次轉錄最低每分鐘 0.0035 美元。",
+      "from_file": "output/2026/10/21.md"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Gradium 開源 Phonon 0.4：31M 小模型讓手機、瀏覽器都能本機念給你聽",
+      "url": "https://github.com/gradium-ai/xn-ptts/releases/tag/v0.4.0",
+      "source": "github.com",
+      "company": "Gradium",
+      "topic": "Gradium Phonon 0.4 stable on-device streaming TTS release with Rust runtime and 31M 40M models",
+      "fingerprint": "Gradium|phonon-0-4-stable-on-device-tts-release|2026-10-21",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "首個穩定版把小型串流 TTS 帶到桌機、行動裝置與瀏覽器，並提供多種安裝介面"
+      },
+      "summary": "首個穩定版以 Rust 執行、不需 PyTorch，可跑桌機、伺服器、手機與瀏覽器；31M 英文模型採 Apache 2.0，另有五語 40M 版本，並提供 Python、Swift、Android、Web 與 OpenAI 相容 API。",
+      "from_file": "output/2026/10/21.md"
     }
   ],
   "reason_picked_schema": {
