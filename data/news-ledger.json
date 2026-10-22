@@ -19643,6 +19643,146 @@
       },
       "summary": "首個穩定版以 Rust 執行、不需 PyTorch，可跑桌機、伺服器、手機與瀏覽器；31M 英文模型採 Apache 2.0，另有五語 40M 版本，並提供 Python、Swift、Android、Web 與 OpenAI 相容 API。",
       "from_file": "output/2026/10/21.md"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Recursive 開源 Flint：40B MoE 只啟用 2.5B，筆電上跑 125+ tok/s 的本地 coding agent",
+      "url": "https://recursive.com/updates/introducing-recursive-flint",
+      "source": "recursive.com",
+      "company": "Recursive",
+      "topic": "Recursive Flint 39.8B MoE 2.5B active Apache 2.0 open-weights local agentic coding model release",
+      "fingerprint": "Recursive|flint-40b-moe-open-weights-coding-release|2026-10-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首個模型正式釋出，同尺寸 MoE 中最強的 agentic coding 表現加上可離線本機推論"
+      },
+      "summary": "Richard Socher 新公司首發模型，40B 總參數、2.5B 活躍，Apache 2.0 權重上 Hugging Face，支援 512K 上下文；官方稱 SWE-Bench Pro v2 89.7%、Terminal-Bench 2.1 54.9%，M4 Pro MacBook 上 125+ tok/s、64GB RTX Spark 逾 150 tok/s，訓練與推論堆疊多由 Eureka Machine 自動化產出。",
+      "from_file": "output/2026/10/22.md"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "AI 挖出藏了 20 年的 PHP 核心 RCE：CVSS 9.2、5.4 以後全中，修補已釋出",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "source": "wiz.io",
+      "company": "Wiz",
+      "topic": "Wiz Research frontier AI discovers unauthenticated PHP core RCE CVSS 9.2 affecting all versions since 5.4, emergency patch",
+      "fingerprint": "Wiz|php-core-rce-cvss-9-2-ai-discovered|2026-10-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research",
+          "official_source"
+        ],
+        "note": "前沿模型首次把藏了二十年的核心語言漏洞變成可利用，官方同日釋出修補"
+      },
+      "summary": "Wiz Research 與 OpenAI 前沿模型合作，找到 PHP 上傳進度反序列化與 fatal error backtrace 兩個未授權 RCE，同屬一組 CVE、CVSS 9.2，5.4 以後所有版本都受影響；PHP 官方 10 月 21 日緊急修補，Cloudflare 提前九小時部署 WAF，屬 Patch the Planet 第一波大型揭露。",
+      "from_file": "output/2026/10/22.md"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "31 年 KLS 猜想被證明：人類主導、AI 探索上百條路線的 agentic 研究工作流",
+      "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "Microsoft Research KLS conjecture 31-year-old proof with human-directed agentic AI O(1) bound",
+      "fingerprint": "Microsoft|kls-conjecture-proof-agentic-research|2026-10-22",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "數學重大突破，且明確界定 AI 在其中的角色與極限"
+      },
+      "summary": "微軟研究院張新智與趙松發表 140 頁論文，證明 KLS 常數有與維度無關的 O(1) 上界，並給出各向同性對數凹測度的 Poincaré 常數通用界；AI 負責推導、稿件準備與證明檢查，但作者強調同算力下無引導的模型嘗試仍會失敗。",
+      "from_file": "output/2026/10/22.md"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Google Cloud 把 OpenAI 模型搬進 Model Garden，三大閉源 LLM 首度同台",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+      "source": "cloud.google.com",
+      "company": "Google Cloud",
+      "topic": "Google Cloud Model Garden adds OpenAI GPT-6 Astra GPT-6.1 Sol GPT-6 Luna private preview marketplace billing",
+      "fingerprint": "Google Cloud|model-garden-openai-models-private-preview|2026-10-22",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "首次讓 OpenAI 模型上自家雲，Google 成為唯一同時提供三家閉源 LLM 的超大規模雲"
+      },
+      "summary": "GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 已對特定企業客戶私測，之後才 GA；交易走 Google Cloud Marketplace，用量併入同一張帳單並可折抵既有承諾與 FSP；Google 現在是唯一同時提供 OpenAI、Anthropic 與自家 Gemini 的超大規模雲。",
+      "from_file": "output/2026/10/22.md"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Anthropic 開 Claude Duet 研究預覽：會主動找你的 agent，關機也繼續跑",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "source": "claude.com",
+      "company": "Anthropic",
+      "topic": "Anthropic Claude Duet proactive agent standalone app Opus 5.5 research preview Pro Max waitlist",
+      "fingerprint": "Anthropic|claude-duet-proactive-agent-preview|2026-10-22",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "從被動對話轉向主動 agent 的正式產品化，含雲端 VM 執行與人工核可機制"
+      },
+      "summary": "獨立 iOS／Android／web app，基於 Opus 5.5，每天早上送簡報、持續盯著連接的 app，只有需要你決定時才傳訊息；任務跑在雲端 VM 上，敏感動作前須人工核可，憑證依 Managed Agents 設計處理、模型看不到密碼；美國 Pro／Max 訂閱者可排隊，用量計入原方案額度。",
+      "from_file": "output/2026/10/22.md"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Meta Q3 營收衝 646 億美元、年增 26%，資本支出下限再上調到 1,350 億",
+      "url": "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html",
+      "source": "cnbc.com",
+      "company": "Meta",
+      "topic": "Meta Q3 2026 earnings revenue 64.6B capex guidance raised 135-145B Muse AI charge",
+      "fingerprint": "Meta|q3-2026-earnings-capex-guidance-raise|2026-10-22",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "finance",
+          "official_source"
+        ],
+        "note": "AI 資本支出指引再度上調，同時揭露 AI 產品對營收的實際貢獻"
+      },
+      "summary": "單季 capex 達 349 億美元、年增 80%，全年指引下限從 1,300 億上調到 1,350 億；營業利益因 98.9 億美元新墨西哥州和解金大跌 37% 至 129.9 億，營業利益率由 40% 砍半至 20%；Zuckerberg 把成長歸功於 9 月上線的 Muse 與首個前沿模型 Muse Wonder，Q4 營收指引 730–760 億。",
+      "from_file": "output/2026/10/22.md"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Trail of Bits 開源兩支 agent 外掛：修 bug 之外，還要抓它順手改了什麼",
+      "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+      "source": "blog.trailofbits.com",
+      "company": "Trail of Bits",
+      "topic": "Trail of Bits open-sources patching-bugs and regression-hunt agent plugins with three-arm proof",
+      "fingerprint": "Trail of Bits|patching-bugs-regression-hunt-agent-plugins|2026-10-22",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "直接開源可用的 agent 修補流程，並公布迴歸率與誤報改善的量化結果"
+      },
+      "summary": "patching-bugs 要求「三段證明」（原版失敗、修補後通過、回退再失敗）加上不變量導引修復；regression-hunt 專門獵模型夾帶的行為變更。在 130+ 個 Patch the Planet PR 上實測抓出 21 個真實迴歸（16 功能、1 效能、4 建置測試），誤報比 baseline Codex agent 少 25%。",
+      "from_file": "output/2026/10/22.md"
     }
   ],
   "reason_picked_schema": {
