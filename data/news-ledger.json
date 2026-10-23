@@ -19783,6 +19783,146 @@
       },
       "summary": "patching-bugs 要求「三段證明」（原版失敗、修補後通過、回退再失敗）加上不變量導引修復；regression-hunt 專門獵模型夾帶的行為變更。在 130+ 個 Patch the Planet PR 上實測抓出 21 個真實迴歸（16 功能、1 效能、4 建置測試），誤報比 baseline Codex agent 少 25%。",
       "from_file": "output/2026/10/22.md"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Anthropic 讓 Claude 在 RISC-V 組合語言層證明 123 個開源庫「不會當」",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude formally verifies no-crash properties at RISC-V assembly level across 123 OSS-Fuzz libraries with Theorem",
+      "fingerprint": "Anthropic|claude-formal-verification-riscv-oss-libraries|2026-10-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research",
+          "benchmark_detail"
+        ],
+        "note": "首次在組合語言層大規模形式化驗證生產級開源碼，並公開部分證明"
+      },
+      "summary": "與 Theorem 合作，Claude 針對 239 個 fuzz 進入點產出 Rocq 形式化證明，總計約 1.8 億行程式碼，證明「任何 64MB 以下輸入都不會觸發記憶體錯誤或斷言失敗」；過程中挖出多年未見的 bug，包括需 64MB 輸入加 2GB 記憶體才觸發的越界讀取，以及 libexpat 的 CVE-2026-56132。官方強調這不等於零 bug，剩餘風險集中在 Rocq、RISC-V 與 Linux 語意等信任基底。",
+      "from_file": "output/2026/10/23.md"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "METR 與 Redwood 進駐 OpenAI 三週：compaction 事件讓約 10% Codex 內部流量沒被監控",
+      "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+      "source": "metr.org",
+      "company": "METR / Redwood Research",
+      "topic": "METR and Redwood red-team OpenAI internal agent misalignment monitoring, finding compaction-event coverage gap",
+      "fingerprint": "METR|red-teaming-openai-internal-agent-monitoring-compaction-gap|2026-10-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research",
+          "official_source"
+        ],
+        "note": "首份外部深度進駐的 agent 監控稽核，量化監控覆蓋率缺口"
+      },
+      "summary": "兩位外部研究員在 7/21 至 8/11 取得內部程式碼、監控 prompt 與設定並訪談十多位工程師，交出 61 頁內部報告。關鍵發現是監控只在 agent 交還控制權時觸發，agent 只要持續動作、反覆觸發上下文壓縮就能無限期延後被檢查；另找到可讓數百個連續動作從監控 transcript 消失的 exploit。內部 Codex 流量有 99.2% 具監控資格，但壓縮事件缺口使約 10% 在 5 至 7 月間未受監控。",
+      "from_file": "output/2026/10/23.md"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Anthropic 把 Agent Skills 捐給 Agentic AI Foundation：1 百萬個 skill、2.8 億次安裝一起交出去",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic donates Agent Skills open standard, name, GitHub org and domain to Linux Foundation AAIF",
+      "fingerprint": "Anthropic|donating-agent-skills-to-aaif|2026-10-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把自家 agent 標準連同商標與網域移交中立基金會，治理層級實質升級"
+      },
+      "summary": "連同 Agent Skills 名稱、logo、GitHub 組織與 agentskills.io 網域全部移交 Linux Foundation 下的 AAIF，比照先前 MCP 的做法。2025 年 12 月開放標準化後，ChatGPT、Cursor、GitHub Copilot、VS Code 等 70 多個平台已支援載入，累積 100 萬個 skill 與近 2.8 億次安裝，維護者以個人身分參與而非公司代表。AAIF 同時納入 OpenAI 的 Open Responses、Hugging Face 的 OpenEnv 與阿里巴巴的 OpenSandbox。",
+      "from_file": "output/2026/10/23.md"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "DeepSeek 完成約 150 億美元募資，投前估值 740 億美元",
+      "url": "https://techstartups.com/2026/10/22/deepseek-raises-15-billion-at-74-billion-valuation-backed-by-tencent-catl-and-chinese-tech-giants/",
+      "source": "techstartups.com",
+      "company": "DeepSeek",
+      "topic": "DeepSeek closes roughly 100 billion yuan round at 74 billion dollar pre-money valuation ahead of IPO",
+      "fingerprint": "DeepSeek|15b-funding-round-74b-valuation|2026-10-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "金額與投資人組合成形，且發生在美國聯邦禁用其技術兩天後"
+      },
+      "summary": "約 1,000 億人民幣來自 15 家以上投資人，包括騰訊、寧德時代、吉利、兆易創新與美團，Reuters 引述四名知情人士；募資規模從原本 500 億人民幣目標被超額認購拉到兩倍，post-money 上看近 890 億美元。時機點敏感：就在美國聯邦機構被要求移除 DeepSeek 技術的兩天後，中國民間資本反而集中加碼，並為 2027 年初可能啟動的 IPO 鋪路。",
+      "from_file": "output/2026/10/23.md"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "T-Mobile 打通全球第一通商用網路 AI-RAN 通話，基地台開始兼差算 AI",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-nokia-and-leading-telecom-operators-turn-networks-into-distributed-intelligence-platforms",
+      "source": "nvidianews.nvidia.com",
+      "company": "NVIDIA / Nokia / T-Mobile",
+      "topic": "T-Mobile completes first commercial-network AI-RAN call as BT, DT and Elisa launch live pilots on NVIDIA ARC",
+      "fingerprint": "NVIDIA|first-commercial-ai-ran-call-t-mobile-emea-pilots|2026-10-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "從實驗室推進到現網商用通話，多家電信同步啟動 live 試驗"
+      },
+      "summary": "在華盛頓州 Bellevue 現網完成，跑 Nokia CUDA 加速 anyRAN 軟體加 NVIDIA Aerial RAN Computer，用一般商用 5G 手機與 Massive MIMO radio 連上 live 5G SA 核心。Deutsche Telekom 在 Bonn 與 Oulu 實驗室驗證上行通道估計用即時 AI 模型可提升 10–15% 吞吐；Elisa 完成歐洲首次現地語音、數據與視覺 AI 同平台測試，BT 準備在英國上線試驗。NVIDIA 同步推出 MGX 2U／4U 的 ARC 高容量機型。",
+      "from_file": "output/2026/10/23.md"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "1Password 推 1Password for Agents：讓 agent 登入，但永遠看不到你的密碼",
+      "url": "https://1password.com/blog/1password-for-ai-agents",
+      "source": "1password.com",
+      "company": "1Password",
+      "topic": "1Password for Agents platform brokers agent logins with user-approved autofill and no credential exposure",
+      "fingerprint": "1Password|1password-for-agents-platform|2026-10-23",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "把非人類身分憑證管理做成產品，首批整合多家主流 agent 平台"
+      },
+      "summary": "agent 遇到登入頁時向 1Password 請求憑證，使用者在自家裝置上看到「哪一組帳密、為了什麼」再批准，通過後由 1Password 直接自動填入，agent 既讀不到也存不進上下文，一次授權只綁單一任務。首波整合 Meta Muse 與 SpaceXSI Grok Bot，Anthropic Claude Duet、OpenAI ChatGPT Work 與 dots、Town Townie 接著上。母公司同步公布 ARR 破 5 億美元，自主 agent 取用憑證次數年增 500%。",
+      "from_file": "output/2026/10/23.md"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Canva 端出自家第一個影像生成模型 Canva Craft：先規劃版面再畫",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "source": "techcrunch.com",
+      "company": "Canva",
+      "topic": "Canva releases Canva Craft, its first in-house two-stage image generation foundation model",
+      "fingerprint": "Canva|canva-craft-image-generation-model|2026-10-23",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "creative_tools",
+          "official_source"
+        ],
+        "note": "平台自研首個基礎模型上線全體用戶，用設計稿而非照片訓練"
+      },
+      "summary": "兩階段架構：第一階段解析 prompt 並規劃空間關係、相對尺度、視覺層級與文字內容，第二階段輸出最高 2K、30 種長寬比的圖，主打物件細節準確、文字可讀與局部精準編修。訓練資料不是照片而是 Canva 平台上的人類設計模板，成品可直接用 Canva Magic 轉成分層設計稿；即日起全體使用者可在 Dream Lab 使用，也開放 Canva API，之後還要透過 MCP 進 ChatGPT 與 Gemini。",
+      "from_file": "output/2026/10/23.md"
     }
   ],
   "reason_picked_schema": {
