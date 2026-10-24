@@ -19923,6 +19923,145 @@
       },
       "summary": "兩階段架構：第一階段解析 prompt 並規劃空間關係、相對尺度、視覺層級與文字內容，第二階段輸出最高 2K、30 種長寬比的圖，主打物件細節準確、文字可讀與局部精準編修。訓練資料不是照片而是 Canva 平台上的人類設計模板，成品可直接用 Canva Magic 轉成分層設計稿；即日起全體使用者可在 Dream Lab 使用，也開放 Canva API，之後還要透過 MCP 進 ChatGPT 與 Gemini。",
       "from_file": "output/2026/10/23.md"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Moonshot 端出 Kimi K3.1 Pro：3T 級開源權重、Terminal-Bench 超車 GPT-6 Astra",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "source": "kimi.ai",
+      "company": "Moonshot AI",
+      "topic": "Moonshot AI releases Kimi K3.1 Pro post-trained 2.8T MoE open-weight model with 1M context",
+      "fingerprint": "Moonshot AI|kimi-k3-1-pro-post-trained-release|2026-10-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "新系列首發，Terminal-Bench 贏 GPT-6 Astra 且價格低於舊款"
+      },
+      "summary": "架構沒動，還是 K3 那顆 2.8 兆參數 MoE（約 104B 活躍）配 100 萬 token 上下文，但後訓練算力大幅加碼，跨數百個下游領域做聯合強化學習。Terminal-Bench 4.0 拿 65.7%，贏過 GPT-6 Astra 的 58.2%、只差 Claude Opus 5.5 的 66.4%；BenchCAD 92.7、OfficeQA Pro v2 64.4 是 SOTA，內部幻覺率從 23.4% 降到 8.3%。同步推出 Highspeed 版本，同能力但快 2-3 倍。比較反常的是價格：新模型每百萬 token 輸入 2 美元、輸出 10 美元，比舊 K3 的 3/15 還便宜。安全上交待得很細——官方從 mid-training 語料與 RL 環境移除資安相關資料，自家 xdev-bench-hard 的漏洞利用解題率因此從 90.5% 壓到 81.0%。完整權重 11 月 4 日前釋出。",
+      "from_file": "output/2026/10/24.md"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Unitree 要做「會自己進化的機器人」：Rehearsal 讓 AI 自己讀論文、寫控制碼、上真機驗證",
+      "url": "https://thenextweb.com/news/unitree-rehearsal-self-improving-robots-2028-breakthrough",
+      "source": "thenextweb.com",
+      "company": "Unitree",
+      "topic": "Unitree unveils Rehearsal self-evolving training loop for humanoid robots with 2028 timeline",
+      "fingerprint": "Unitree|rehearsal-self-evolving-humanoid-training|2026-10-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "real_world_deployment",
+          "workflow_automation"
+        ],
+        "note": "首次公開自演進訓練框架，並把商用時間表提前到 2028"
+      },
+      "summary": "創辦人王興興在杭州主辦的 2026 世界物理 AI 大會上發表 Unitree Rehearsal，並稱它是公司今年最重要的專案。運作方式是讓大模型去搜研究論文、撰寫並除錯機器人控制程式，先在模擬環境跑，再到實體機器上試，最後把真機回饋收回來更新權重，形成閉環。他同時把時間表往前拉：原本說工廠與家庭普及要十年，現在認為最快 2028 年人形機器人就能完成 80% 的語音指令任務，並稱之為實用機器人的「aha」時刻。他也提到轉念的關鍵是 GPT-6 這類模型開始能自我改進，目前 Unitree 人形機器人已能調色畫畫、下圍棋，產能則準備朝年產數千萬台的規模擴充。",
+      "from_file": "output/2026/10/24.md"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "NVIDIA 擴充 Cosmos：用合成影片補齊「現實裡不敢拍」的訓練資料",
+      "url": "https://mixed-news.com/en/nvidia-cosmos-tools-synthetic-training-robot-world-models/",
+      "source": "mixed-news.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA Cosmos Data Factory five blueprints and Cosmos 3 Nano simulation variants for robot training",
+      "fingerprint": "NVIDIA|cosmos-data-factory-five-blueprints|2026-10-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail",
+          "workflow_automation"
+        ],
+        "note": "補上罕見事件與缺陷合成資料流程，機器人訓練資料瓶頸有新解"
+      },
+      "summary": "新增的五條 Data Factory 流程分別處理自動駕駛資料集生成、改變畫面中物件外觀、把靜態圖轉成事件影片、生成缺陷影像，以及在保留場景結構的前提下改天氣與光線。Cosmos 3 Nano 新變體支援多鏡頭視角與多感測器輸入，附帶程式碼讓開發者調整模擬情境，在部署前先測策略。官方舉例：巡檢機器人公司 ANYbotics 已用這套流程產出 1,500 段以上合成影片，用來訓練辨識積液等地貌變化——這是廠商自述案例，不是獨立量測的安全改善。整套工具在 GitHub 與 Azure、Nebius、CoreWeave 等雲端服務上架，開發者可以只用其中單一元件，不必整包吞下。",
+      "from_file": "output/2026/10/24.md"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Zoom 買下 Onyx，把開源企業搜尋塞進 Zoom AI Services",
+      "url": "https://news.zoom.com/zoom-acquires-onyx-adding-open-source-enterprise-knowledge-search-to-zoom-ai-services/",
+      "source": "news.zoom.com",
+      "company": "Zoom",
+      "topic": "Zoom acquires Onyx open-source enterprise search and knowledge management platform",
+      "fingerprint": "Zoom|acquisition-of-onyx-enterprise-search|2026-10-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "收購補齊對話外的組織知識層，Onyx 維持開源與可自架"
+      },
+      "summary": "Onyx 2023 年成立，開源企業搜尋與知識管理平台，能接 50 多種企業應用（文件、wiki、工單、客戶紀錄），而且完全可自架，對資料主權與地端需求的公司是關鍵賣點。目前每週處理超過 100 萬次查詢、社群逾 3 萬名開發者，客戶包括 NASA、Nebius 與 Hudson River Trading。交易金額未揭露，Onyx 團隊（共同創辦人 Chris Weaver、Yuhong Sun）加入 Zoom，但產品維持獨立、開源、model-agnostic 與 app-agnostic。這樁收購接在 10 月 20 日發表的 Unified Context Layer 之後，補的是「對話之外的組織知識」那一塊。",
+      "from_file": "output/2026/10/24.md"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "義大利 AI 法規今天生效：招聘、考績、解僱不能只由 AI 決定",
+      "url": "https://www.actuia.com/en/news/italy-from-23-october-ai-hiring-or-firing-requires-a-human-decision-maker/",
+      "source": "actuia.com",
+      "company": "義大利政府",
+      "topic": "Italy Legislative Decree 179 AI Act implementation requires human decision-maker in employment",
+      "fingerprint": "義大利政府|decree-179-human-oversight-employment|2026-10-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "AI 決定勞動關係正式入法，違反者決定無效"
+      },
+      "summary": "第 179 號立法 decree 10 月 8 日刊登公報，10 月 23 日正式上路，用來把國內法對接 EU AI Act（Regulation EU 2024/1689）。第三章規範教育、專業、勞動、醫療與行政領域的 AI 使用，其中雇主條款要求：涉及勞動關係成立、變更或終止的最終決定，不得「完全基於自動化處理」，紀律處分與績效考核一併適用；最終決定必須由具「實際且自主」權限的自然人做成，不能只是形式簽核。違反者，解僱與其他雇主決定在法律上無效。這是繼韓國、日本之後，又一個把 human-in-the-loop 從指引升級成硬性法律後果的市場。",
+      "from_file": "output/2026/10/24.md"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Figma Config India 一口氣丟出 code layers 與 Specs：畫布上直接跑真程式碼",
+      "url": "https://help.figma.com/hc/en-us/articles/43663368947863-What-s-new-from-Config-India-2026",
+      "source": "help.figma.com",
+      "company": "Figma",
+      "topic": "Figma Config India 2026 code layers and Specs open beta with Payload and MCP updates",
+      "fingerprint": "Figma|config-india-code-layers-specs-open-beta|2026-10-24",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "設計稿與可執行程式碼終於同層，open beta 開放所有方案"
+      },
+      "summary": "在 Config 舊金山場先預告的 code layers 進入 open beta 並開放所有方案，圖層裡放的是真的會執行的程式碼，設計稿當場變成可互動原型；可以從網頁抓程式碼貼上，也可以選設計 frame 叫 agent 轉成 code layer，或直接 clone 已連接的 GitHub repo。Figma Specs 同步 open beta（Professional、Organization、Enterprise），把設計與開發共用的 context 做在一起。另外 Payload 進到 Figma Make、MCP 整合加速、Guidelines open beta、library 內的 code source 封測、集中式 design system 預覽，行動版也支援 Specs 與 code layers。",
+      "from_file": "output/2026/10/24.md"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Gemini Notebook 變成 Connected App：在對話裡直接建筆記本、加來源、查內容",
+      "url": "https://9to5google.com/2026/10/23/gemini-notebook-connected-app/",
+      "source": "9to5google.com",
+      "company": "Google",
+      "topic": "Gemini Notebook Connected App natural language notebook management inside Gemini app",
+      "fingerprint": "Google|gemini-notebook-connected-app|2026-10-24",
+      "section": "tools",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "workflow_automation",
+          "new_market"
+        ],
+        "note": "筆記本升級為 Connected App，全球預設開啟直接可用"
+      },
+      "summary": "Google 把 Gemini Notebook 從側邊面板升級成跟 Workspace、Photos 同級的 Connected App，用 @Gemini Notebook 就能在聊天中用自然語言管理筆記本：新建、編輯、刪除筆記本，新增或移除來源，列出所有筆記本與來源清單，或直接拿筆記本內容回答問題（例：「我的筆記本裡關於蝴蝶遷徙說了什麼」）。Gemini 會自動判斷哪些 prompt 該觸發這個 Connected App。功能已上線並對全球使用者預設開啟，歐洲經濟區預設關閉；Workspace 客戶、Workspace Individual 訂閱者與個人 Google 帳號都能用。",
+      "from_file": "output/2026/10/24.md"
     }
   ],
   "reason_picked_schema": {
