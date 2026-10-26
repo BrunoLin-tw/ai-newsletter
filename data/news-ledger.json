@@ -20200,6 +20200,144 @@
       },
       "summary": "10 月 23 日上線的 Computer Use 把 agent 從寫程式、改程式推進到自己驗收：可以點擊、輸入、在任意桌面 app 操作，官方示範是同一個任務裡建好 iOS 功能、啟動 Simulator、照流程點一遍、看結果、回頭改 code。用法是在 prompt 加 @Computer Use，或讓 agent 自己判斷需要時啟用。代價是要給權限：本機需更新 Cursor 並開 macOS 輔助使用與螢幕錄製權限；跑在自架 Mac worker 上還得加 --computer-use。",
       "from_file": "output/2026/10/25.md"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "IQuest-Q1 開源 320B/15B 稀疏 MoE：Terminal-Bench 2.1 衝 83.2，直接掛進 Claude Code 與 Codex CLI",
+      "url": "https://arxiv.org/abs/2610.30949",
+      "source": "arxiv.org",
+      "company": "IQuest",
+      "topic": "IQuest-Q1 open-weight 320B/15B sparse MoE for agentic CLI with Claude Code and Codex CLI hooks",
+      "fingerprint": "IQuest|q1-320b-15b-agentic-cli-moe|2026-10-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首個 320B 稀疏 MoE 開源釋出，原生掛鉤 Claude Code 與 Codex CLI"
+      },
+      "summary": "88 層、256 個 expert 每 token 只路由 8 個，總參數 320B 但每步只啟用 15B，配 512K context，主打前沿輸出、小模型推論成本。訓練拆三階段：穩定預訓練、把 context 漸進拉到 512K 的中期訓練、再混 SFT 與領域 RL 做多 scaffold 後訓練；論文聲稱比 baseline 多 1.93 倍 scaling 效率。原生支援 Claude Code 與 Codex CLI 掛鉤，SGLang 首日就跟上。同份表格裡 Terminal-Bench 2.1 為 83.2，但 3.0 只有 17.9、4.0 是 22.7。",
+      "from_file": "output/2026/10/26.md"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "十年前的 CNN 打贏前沿 LLM：皮膚癌切片判讀 62% 對 42%",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "source": "lynchlab.net",
+      "company": "Lynch Lab / Guy's Hospital",
+      "topic": "Fine-tuned Inception v3 beats GPT-6 Astra and Claude Fable 5.1 on 200 biopsy-proven skin lesions",
+      "fingerprint": "Lynch Lab|inception-v3-beats-frontier-llms-skin-cancer|2026-10-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "healthcare",
+          "security_research"
+        ],
+        "note": "頭對頭 200 病灶實測，通用前沿模型在窄領域明顯輸給專用 CNN"
+      },
+      "summary": "Guy's Hospital 皮膚科醫師 Magnus Lynch 拿 ISIC MILK10k 裡 200 個組織病理確診病灶，同時測 GPT-6 Astra 與 Claude Fable 5.1。Inception v3 微調約 20 分鐘答對 125 個（62%），兩個前沿模型只有 84 與 85 個（42%）；30 個黑色素瘤中 CNN 抓到 13 個，Astra 8 個、Fable 11 個。首個案例是耳廓侵入性黑色素瘤，兩個 LLM 都判成脂漏性角化並建議可出院。結論是窄領域視覺型態辨識，專用 CNN 尚未被通用模型取代。",
+      "from_file": "output/2026/10/26.md"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Nanbeige4.3-33B 開源：Apache 2.0、512K context、Terminal-Bench 2.1 拿 80.9",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "source": "huggingface.co",
+      "company": "Nanbeige LLM Lab",
+      "topic": "Nanbeige4.3-33B Apache 2.0 dense teacher model with 512K context for agentic coding",
+      "fingerprint": "Nanbeige|nanbeige4-3-33b-apache-open-agentic-model|2026-10-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "30B 級開源 agentic 模型新選擇，權重與部署設定齊備但僅自報數據"
+      },
+      "summary": "背後是招聘平台 BOSS Zhipin 旗下的 Nanbeige LLM Lab，33B dense 模型定位為 teacher model，未來要 distill 成 3B 小模型。對比 Qwen3.8-27B：Terminal-Bench 2.1 是 80.9 對 73.0，DeepSWE 65.5 對 42.5，AIME 2026 95.2 對 94.5，但 SWE-Bench Pro 以 60.3 輸給 Qwen 的 61.7。部署建議 tensor-parallel 4 搭 SGLang 或 vLLM，BF16 約 66GB、4-bit 約 20GB。所有數字自報，尚無第三方複現。",
+      "from_file": "output/2026/10/26.md"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "SpaceX 敲定 400 億美元 GPU 債務，Musk 順口預告 200 家 neocloud 要大逃殺",
+      "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+      "source": "cnbc.com",
+      "company": "SpaceX",
+      "topic": "SpaceX closes 40 billion dollar callable GPU debt financing and Musk predicts neocloud consolidation",
+      "fingerprint": "SpaceX|40b-gpu-callable-debt-neocloud-warning|2026-10-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "400 億美元 GPU 融資成形，同時揭露 AI 基建債市已對純 neocloud 關門"
+      },
+      "summary": "Musk 週日在 X 上說 SpaceX 已完成 400 億美元融資，主要是可召回（callable）債務，用來買 NVIDIA GPU，預計 2027 年 Q1、Q2 到貨。他的說法是 SpaceX 有投資級信用評等，加上 Starlink 與火箭發射的獨立現金流才借得到；反過來，沒有 AI 資料中心以外營收的公司債市幾乎已經關門，所以「200 多家 neocloud 會看到孔雀魚等級的死亡與整併」。彭博先前報導這筆是以特殊目的載具包裝的表外債務，過程曾被 AI 市場震盪卡住。",
+      "from_file": "output/2026/10/26.md"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Amazon 放棄 Ashburn 4.27 億美元資料中心：鄰居抗議，乾脆撤案不告了",
+      "url": "https://247wallst.com/investing/2026/10/24/amazon-just-walked-away-from-a-427-million-data-center-plan-after-neighbors-fought-back/",
+      "source": "247wallst.com",
+      "company": "Amazon",
+      "topic": "Amazon withdraws Bridgefield Tech Center data center plan in Ashburn Virginia under Project Potomac Promise",
+      "fingerprint": "Amazon|bridgefield-ashburn-data-center-withdrawal|2026-10-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "real_world_deployment"
+        ],
+        "note": "地方許可反挫首度讓 hyperscaler 整案撤回並放棄訴訟，成後續選址先例"
+      },
+      "summary": "Loudoun County 監事會 10 月 20 日宣布「Project Potomac Promise」，Amazon 撤回 Bridgefield Tech Center 申請，並承諾不為蓋資料中心提訴訟。這塊 122 英畝的地是今年 3 月以約 4.27 億美元買下，接近公告現值四倍；現在約 25 英畝要捐出來做藝術中心與體育設施，其餘改劃為住宅與混合使用。對市值 2.68 兆的公司來說錢不是重點，重點是示範了地方反對可以讓新址直接卡死。",
+      "from_file": "output/2026/10/26.md"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "399 美元的 Microduck 在出貨前就破 2 萬張預購",
+      "url": "https://finance.biggo.com/news/9bcb5f35-1bab-4403-9e55-f37d94fa96e9",
+      "source": "finance.biggo.com",
+      "company": "Pollen Robotics / Hugging Face",
+      "topic": "Pollen Robotics Microduck 399 dollar open-source biped passes 20000 preorders after GTC Berlin demo",
+      "fingerprint": "Pollen Robotics|microduck-20000-preorders|2026-10-26",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "education"
+        ],
+        "note": "低價開源雙足機器人預購爆量，sim2real 自行重訓流程完全開放"
+      },
+      "summary": "Pollen Robotics（Hugging Face 機器人團隊）的 25 公分雙足小鴨：15 顆馬達、相機、深度感測器、兩顆 IMU，出廠有 7 個訓練好的動作，附開源 SDK，行為在 NVIDIA Isaac 模擬訓練後 sim2real 部署，想教新招可自己重訓。Jensen Huang 在 GTC Berlin 台上叫一群鴨子坐下、睡覺、翻跟斗的影片爆紅，Clem Delangue 說隔天預購衝過 2 萬台。這是預購數不是出貨數，首波交付目標聖誕節前。",
+      "from_file": "output/2026/10/26.md"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "一個丟在 ~/Downloads 的 AGENTS.md 就能劫持你的 coding agent",
+      "url": "https://www.bastionzero.com/blog/rogue-agents-md-downloads-folder-hijacks-ai-coding-agents",
+      "source": "bastionzero.com",
+      "company": "Forever Security",
+      "topic": "Malicious AGENTS.md in Downloads folder hijacks Codex and Claude Code to install rogue npm package and leak OAuth tokens",
+      "fingerprint": "Forever Security|agents-md-downloads-hijack-coding-agents|2026-10-26",
+      "section": "tools",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "不用任何軟體漏洞，只靠指令檔就能接管 agent，暴露啟動目錄的信任邊界"
+      },
+      "summary": "Forever Security 在客戶的 Downloads 資料夾發現惡意 AGENTS.md，誘導 agent 安裝名為 function-color 的 rogue npm 套件；他們隨後在 OpenAI Codex 上完整重現，並用同樣手法對 Claude Code 洩漏 OAuth token、進而接管帳號。整件事沒有用到任何軟體漏洞，靠的只是 agent 會自動讀取工作目錄指令檔、而且預設照做的天性。跑 coding agent 的機器，現在得連它從哪個資料夾啟動一起管。",
+      "from_file": "output/2026/10/26.md"
     }
   ],
   "reason_picked_schema": {
