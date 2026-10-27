@@ -20338,6 +20338,145 @@
       },
       "summary": "Forever Security 在客戶的 Downloads 資料夾發現惡意 AGENTS.md，誘導 agent 安裝名為 function-color 的 rogue npm 套件；他們隨後在 OpenAI Codex 上完整重現，並用同樣手法對 Claude Code 洩漏 OAuth token、進而接管帳號。整件事沒有用到任何軟體漏洞，靠的只是 agent 會自動讀取工作目錄指令檔、而且預設照做的天性。跑 coding agent 的機器，現在得連它從哪個資料夾啟動一起管。",
       "from_file": "output/2026/10/26.md"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "GPT-6.1 Terra 發表：價格砍半、視覺與電腦操作對齊 Astra，Terminal-Bench 4.0 卻只有 50.3",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI GPT-6.1 Terra launch with half-price API, visual reasoning and computer use near GPT-6 Astra, weaker Terminal-Bench 4.0",
+      "fingerprint": "OpenAI|gpt-6-1-terra-launch|2026-10-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "正式發布且價格砍半，視覺強但終端機任務明顯較弱"
+      },
+      "summary": "API 每百萬 token 輸入 1 美元、輸出 5 美元，比 GPT-5.6 Terra 與 GPT-6.1 Sol 便宜一半。Agents' Last Exam 中等推理 57.6% 與 GPT-6 Astra 同級，但每題成本 0.29 對 4.82 美元；MMMU-Pro 最高 85.5% 幾乎追平 Astra。OSWorld 2.1 最高 74.2%，仍輸 Sonnet 5.5 的 83.9%。Terminal-Bench 4.0 只有 50.3%，低於 Sol 的 55.9% 與 Sonnet 5.5 的 70.6%。事實錯誤率在低推理等級從 53.6% 降到 16.7%，context 105 萬 token、知識截止 2026 年 6 月。",
+      "from_file": "output/2026/10/27.md"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Claude Fable 5.1 與 Mythos 5.1 登場：Terminal-Bench-Science 從 24.7% 跳到 52.6%，還附企業零留存方案",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Claude Fable 5.1 and Mythos 5.1 launch with Enterprise Frontier Safeguards zero data retention and science benchmark jump",
+      "fingerprint": "Anthropic|fable-5-1-mythos-5-1-launch-efs|2026-10-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "新模型加上 EFS 企業隱私方案，科學與 coding benchmark 同步大躍進"
+      },
+      "summary": "Fable 5.1 與 Mythos 5.1 是同一個模型，差在防護等級：Fable 5.1 一般可用，Mythos 5.1 只走資安與生命科學信任存取。Enterprise Frontier Safeguards 把監控資料存在客戶自己的雲端，兼得零資料留存與濫用偵測，將支援 Claude Code、Bedrock、Google Agent Platform 與 Microsoft Foundry。快取讀取降價讓典型工作負載省約 25%，高 agentic 用量最多省 45%。Terminal-Bench-Science 0.1 從 24.7% 升到 52.6%，Terminal-Bench 4.0 為 55.8%。科學面設計的蛋白質結合親和力比公開競賽最佳方案高 10 倍、命中率近 50%，並重繪三分之一個金星地形。",
+      "from_file": "output/2026/10/27.md"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "NVIDIA 把 Vera Rubin 機櫃設計捐進 OCP，MGX 1.2 直接支援 250kW 機櫃與 5,000A 液冷母線",
+      "url": "https://datacenter.news/story/nvidia-backs-open-standards-for-ai-factory-builds",
+      "source": "datacenter.news",
+      "company": "NVIDIA",
+      "topic": "NVIDIA contributes Vera Rubin rack and compute tray designs to OCP via MGX 1.2 with 250kW racks and open AI factory specs",
+      "fingerprint": "NVIDIA|vera-rubin-mgx-ocp-open-ai-factory-standards|2026-10-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "機櫃與供電規格開放到 OCP，AI 工廠從專利設計走向共通標準"
+      },
+      "summary": "MGX 1.2 加入機櫃級盲插液冷、可互通的機櫃內互連、5,000A 液冷母線與原生 19 吋設備支援，架構可支撐單櫃 250kW。同步開源 DSX OS 的網路設定、叢集驗證、機櫃管理與裸機部署元件。業界規格跟著推進：Open Data Centre Specification v0.7 由 AMD、Google、Meta 與 NVIDIA 共同發布；電網韌性規格要求 AI 設施在擾動時維持併網、自動回應並在 2 秒內回到近滿載。Meta 宣布採用 Spectrum-6 102.4Tb/s 交換器並跑自家 FBOSS；NVIDIA 與 Cisco 另推 USFP 光模組標準。",
+      "from_file": "output/2026/10/27.md"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Meta 要募 950 億美元蓋 AI：350 億承銷、600 億隨市發行，輝達、AMD、博通排隊當基石投資人",
+      "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+      "source": "cnbc.com",
+      "company": "Meta",
+      "topic": "Meta 95 billion dollar equity offering for AI infrastructure with Nvidia AMD Broadcom cornerstone interest and Class C non-voting shares",
+      "fingerprint": "Meta|95b-equity-offering-ai-infrastructure|2026-10-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "財報後一週即啟動 950 億增資，是 capex 上調的實際資金動作"
+      },
+      "summary": "先用承銷公開募資拿 350 億美元，再透過 at-the-market 計畫賣 600 億，其中含無表決權的 Class C 股，確保 Zuckerberg 控制權不被稀釋；NVIDIA、AMD、Broadcom 表態最多合計認購 50 億美元。消息出來股價先跌 1.6%。錢要蓋四座各超過 1GW 的 supercluster，以及 Muse agent 與資料中心業務；公司說 2026 年總基礎設施容量會接近翻倍。高盛估 2026 到 2031 年 AI 相關資本支出合計約 7.6 兆美元。",
+      "from_file": "output/2026/10/27.md"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Anthropic 遞交 S-1：上半年營收 163 億、淨損 807 億，代號 ANT 力拚感恩節週掛牌",
+      "url": "https://fortune.com/2026/10/26/anthropics-s-1/",
+      "source": "fortune.com",
+      "company": "Anthropic",
+      "topic": "Anthropic S-1 IPO filing with 16.3 billion first-half revenue, 80.7 billion net loss and Nasdaq ticker ANT",
+      "fingerprint": "Anthropic|s-1-ipo-filing-nasdaq-ant|2026-10-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "首度完整揭露財務，將以 ANT 掛牌並搶在 OpenAI 之前上市"
+      },
+      "summary": "上半年營收 163 億美元、年增 1,300%，807 億淨損裡 724 億是可轉換公司債升值的會計認列；營運虧損從 21 億縮到 6.93 億，調整後營業利益 16 億、約 10% 利潤率，營運現金流首度轉正達 39 億。Q2 花 56 億算力換 116 億營收，每 1 美元算力換回 2.08 美元。風險揭露很實在：前五大客戶約占 25% 營收、近半營收走 Amazon／Google／Microsoft 雲端市集，另有 5-7% 營收來自後來被認定違反使用政策的客戶。與 SpaceXAI 的算力協議在 2029 年前承諾上限 1,205 億美元，滿載後每月約 31 億。",
+      "from_file": "output/2026/10/27.md"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Siri AI 一次補五種語言：法、日、韓、葡、西語隨 iOS 27.2 上線，但歐盟還不能用",
+      "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
+      "source": "apple.com",
+      "company": "Apple",
+      "topic": "Apple Siri AI expands to French Japanese Korean Portuguese and Spanish in iOS 27.2 beta with EU still excluded",
+      "fingerprint": "Apple|siri-ai-five-more-languages-ios-27-2|2026-10-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "新世代 Siri 首度跨出英語圈，同時揭露伺服器功能的每日上限"
+      },
+      "summary": "Siri AI 主打畫面感知與跨 app 上下文，可在本機完成多步任務，隨 iOS、iPadOS、macOS、watchOS 與 visionOS 27.2 beta 上線，新增法、日、韓、葡、西語。仍屬 beta，需 Apple Intelligence 機型且系統語言相符；歐盟的 iOS、iPadOS、watchOS 尚未開放，Apple 說仍在與歐盟協商。另一個容易漏看的細節：依賴伺服器端模型的功能（Siri AI、智慧修圖、Image Playground、捷徑中的 AFM 3 Cloud）都有每日使用上限，官方也預告未來部分擴充用量將收費。13 歲以下用戶不開放。",
+      "from_file": "output/2026/10/27.md"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Mirendil 推出首顆模型 Fern 0.1：1000 萬 token context，一次吞 50 萬行程式碼",
+      "url": "https://mirendil.com/news/introducing-fern",
+      "source": "mirendil.com",
+      "company": "Mirendil",
+      "topic": "Mirendil Fern 0.1 launch with 10M token context window for high-volume agentic coding and training data auditing",
+      "fingerprint": "Mirendil|fern-0-1-10m-context-coding-agent|2026-10-27",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首顆自訓模型主打超長 context，但規格之外尚無任何可驗證數字"
+      },
+      "summary": "Mirendil 的第一顆自訓模型，定位為高頻 agentic 任務的便宜工人：審訓練資料、從 log 除錯、整條 agent trace 讀完再解釋。架構、訓練與推論都撐到 10M token，約 23MB 程式碼或 50 萬行，相當於 Megatron-LM 規模的 repo。目前公布的只有規格：RULER 分數、agentic benchmark 數字、價格與 API 全部未提供，存取狀態是「即將推出」；同家族還有 0.5-2T 與 2-10T 兩顆在預訓練，分別完成 80% 與 20%。要試的人建議先問清 1M 與 10M 的實測準確率、延遲與成本。",
+      "from_file": "output/2026/10/27.md"
     }
   ],
   "reason_picked_schema": {
