@@ -20477,6 +20477,143 @@
       },
       "summary": "Mirendil 的第一顆自訓模型，定位為高頻 agentic 任務的便宜工人：審訓練資料、從 log 除錯、整條 agent trace 讀完再解釋。架構、訓練與推論都撐到 10M token，約 23MB 程式碼或 50 萬行，相當於 Megatron-LM 規模的 repo。目前公布的只有規格：RULER 分數、agentic benchmark 數字、價格與 API 全部未提供，存取狀態是「即將推出」；同家族還有 0.5-2T 與 2-10T 兩顆在預訓練，分別完成 80% 與 20%。要試的人建議先問清 1M 與 10M 的實測準確率、延遲與成本。",
       "from_file": "output/2026/10/27.md"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Anthropic 內部研究模型揪出 Chrome、Safari、Android 關鍵漏洞，Chrome 一次補 62 個 CVE",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic unreleased research model discovers full attack chains in Chrome Safari Android Windows Linux with 62 Chrome CVEs patched",
+      "fingerprint": "Anthropic|research-model-critical-exploits-chrome-safari-android|2026-10-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "首次公開模型自行串出多段完整 RCE 攻擊鏈，含 62 個已修補 CVE"
+      },
+      "summary": "Anthropic 用一個未公開的內部研究模型，在 Chrome、Safari、Android、Windows 與 Linux 上找出五條可實際運作的攻擊鏈，多數只需點開一個頁面。Chrome 那條最完整：V8 堆積破壞、繞過記憶體沙箱與 ASLR、用 CacheStorage 的 race condition 讀到瀏覽器行程記憶體布局，最後以 FedCM 的 use-after-free 跳出行程沙箱，在預設設定的 macOS Chrome 上幾秒內就能開起小算盤。Google 已修補，Chrome 156 一次補掉 62 個 CVE，全部 critical 或 high，其中 13 個是沙箱逃脫。Safari 那條更陰：完全不靠任意程式執行，只用記憶體讀寫改掉安全旗標、物件大小與 URL，就整組繞過同源政策，能讀歷史、cookie 與已登入信箱；Apple 當天就確認並推出修補。另外還有 Android 鎖屏繞過等案例。這也是為什麼資安圈對「模型會自己寫 exploit」這件事開始認真看待。",
+      "from_file": "output/2026/10/28.md"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "DeepMind 發表 Genie 4 世界模型：即時生成畫面，還同時生出環境音與對話",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "deepmind.google",
+      "company": "Google DeepMind",
+      "topic": "Google DeepMind Genie 4 real-time world model with native audio and Gemini-guided multi-step simulation",
+      "fingerprint": "Google DeepMind|genie-4-native-audio-world-model|2026-10-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首度把原生音訊與互動對話納入即時世界模型，並與 Gemini 串成閉環"
+      },
+      "summary": "Genie 4 是 DeepMind 新的即時世界模型，最大差別是原生多模態：畫面上的風聲、海浪、背景音樂與人物對話都由模型自己產生，不再事後配音。架構上借了 Gemini 家族的力，Gemini Omni 負責把模擬錨定在真實世界的外觀與行為，Gemini 3.8 Flash 則在迴圈裡當 guiding agent，持續看畫面、把目標拆成步驟、逐格驗證有沒有做到，使用者中途插手時還會即時改計畫。物理表現也升級，包含空氣動力與碰撞；人物動作與即時互動對話是這輪最明顯的跳躍。目前是研究預覽，只給 trusted testers，之後才輪到 Google AI Ultra 訂閱戶在 Project Genie、以及 Gemini API 與 AI Studio 的早期夥伴。DeepMind 也示範了 Gemini 4 Argon 搭配 Genie 4 去模擬 Apptronik Apollo 人形機器人下跳棋，等於把「先在世界模型裡練」這條路鋪出來。",
+      "from_file": "output/2026/10/28.md"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "韓國首宗生成式 AI 助長駭客案：自學主嫌 40 天攻破 60 家，共 90 家、820 萬筆個資外洩",
+      "url": "https://cybersecuritynews.com/hacker-uses-ai-to-breach-organizations/",
+      "source": "cybersecuritynews.com",
+      "company": "Seoul Metropolitan Police Agency",
+      "topic": "South Korea arrests seven for AI-assisted hacking of 90 organizations and 8.2 million stolen records",
+      "fingerprint": "Seoul Metropolitan Police Agency|ai-assisted-hacking-90-orgs-8-2m-records|2026-10-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research"
+        ],
+        "note": "韓國首度以大型生成式 AI 助長網攻成案，規模與速度都可當基準案例"
+      },
+      "summary": "首爾警察廳 cyber crime 部門逮捕七人，主嫌 32 歲、非資工背景，靠網路資料自學，2019 到 2022 年曾在資安公司做滲透測試。2025 年 9 月到 2026 年 10 月之間，這組人侵入約 90 家韓國機構，含醫院、補習班、大學、高爾夫球場與大企業關係企業，偷走 820 萬筆個資與內部文件，再拿資料去勒索被害人。關鍵轉折在 2026 年 8 月下旬：他開始大量使用生成式 AI，之後約 40 天就攻下 90 家裡的大約 60 家，等於把過去要靠老手的偵查與試錯壓縮成流水線。主嫌 10 月 15 日被逮、23 日羈押移送，其餘六人未羈押持續調查。警方說法很直白：生成式 AI 正在把大規模入侵的技術門檻拉低到「不需要專家的程度」。",
+      "from_file": "output/2026/10/28.md"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Oracle 把 OpenAI 塞進企業流程：ChatGPT 直接跑 Fusion、NetSuite，Codex 變無程式碼開發工具",
+      "url": "https://www.oracle.com/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/",
+      "source": "oracle.com",
+      "company": "Oracle / OpenAI",
+      "topic": "Oracle OpenAI enterprise suite Oracle AI Workspace App Composer AI Security Mesh at Oracle AI World",
+      "fingerprint": "Oracle|oracle-ai-workspace-openai-enterprise-suite|2026-10-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "OpenAI 模型首次以產品套裝形式深入 Oracle 應用、資料庫與雲基礎設施"
+      },
+      "summary": "Oracle AI World 上最大的一槍：Oracle 與 OpenAI 把合作從「模型可用」推進到「流程可執行」。核心是 Oracle AI Workspace，透過 ChatGPT 外掛把 Fusion Applications、NetSuite、Oracle AI Database、OCI 與其他企業系統串起來，員工用自然語言就能查資料、跑已核准的業務流程，權限、簽核與稽核仍走企業原本那一套。App Composer 由 Codex 驅動，讓非工程師用自然語言生 app，自動接上 Oracle 的資料流並部署到 OCI，底層用 APEXlang 確保產出的程式碼可維護。AI Security Mesh 則是託管式資安服務，用 OpenAI 的前沿模型掃 OCI、多雲與地端環境並給出重現步驟。另外還有給中小企業的 AI SMB Bundle（含每年 1.2 萬美元 OCI 額度）與由 Oracle CSS 帶隊的 AI Services Practice。對企業客戶的意義是：買的不再只是 token，而是一整套「agent-ready」的改裝。",
+      "from_file": "output/2026/10/28.md"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Apple 新 iMac 換上 M6：每核都有 Neural Accelerator，on-device AI 比 M4 快 5 倍",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
+      "source": "apple.com",
+      "company": "Apple",
+      "topic": "Apple iMac with M6 chip Neural Accelerators dual 16-core Neural Engine 5x on-device AI",
+      "fingerprint": "Apple|imac-m6-neural-accelerators|2026-10-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "M6 首次把 Neural Accelerator 放進每顆 GPU 核心，主打本機 AI 推論"
+      },
+      "summary": "新 iMac 用 M6，CPU 與 GPU 都升到最高 12 核（各多 2 核），重點是 GPU 每顆核心都加了 Neural Accelerator，搭配 Dual 16 核 Neural Engine，官方數字是本機 AI 算力比 M4 快 5 倍、比最普及的 Intel 機種快 18 倍。對工程師比較有意思的是定位：Apple 直接把「跑本地模型」和「vibe coding」寫進宣傳，等於承認本機推論已經是日常工作負載。其他規格就中規中矩：24 吋 4.5K Retina、Wi-Fi 7、Bluetooth 6、最高 4 個 Thunderbolt 4、儲存快 2 倍，跑 macOS 27，七色可選。10 月 28 日開放預購，11 月 6 日開賣。",
+      "from_file": "output/2026/10/28.md"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "騰訊開源 Hy-SimulMT：中英同步口譯延遲約 3 秒，還能即時複製講者音色",
+      "url": "https://technode.com/2026/10/27/tencent-open-sources-ai-model-for-real-time-chinese-english-interpretation/",
+      "source": "technode.com",
+      "company": "Tencent Hunyuan",
+      "topic": "Tencent open-sources Hy-SimulMT simultaneous Chinese-English interpretation model with voice cloning",
+      "fingerprint": "Tencent|hy-simulmt-open-source-simultaneous-interpretation|2026-10-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "同步口譯＋即時音色複製整套開源，含權重、推論與訓練工具"
+      },
+      "summary": "騰訊丟出 Hy-SimulMT，專門做中英同步口譯：不像傳統逐句翻，它連續吃語音串流，同時輸出譯文與語音，而且會即時複製講者音色，聽起來還是同一個人在講。開源誠意不錯，模型權重、推論軟體與訓練工具都給了；在 RealSI 長音檔 benchmark 上，騰訊自報串流延遲約 3 秒，翻譯品質贏過其他開源模型，也贏過比較清單裡五個商用 API 中的四個。要注意的是語音生成與音色複製得自己接 TTS 服務，不是裝好就能跑。想先試效果的，騰訊自家的 Hy Translate app 已經可以用。",
+      "from_file": "output/2026/10/28.md"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Cloudera 推 Blueprints：把 NVIDIA Agent Toolkit 搬進資料所在的雲、地端與邊緣",
+      "url": "https://www.globenewswire.com/news-release/2026/10/27/3389099/31982/en/cloudera-launches-cloudera-blueprints-bringing-nvidia-agent-toolkit-to-enterprise-data-anywhere.html",
+      "source": "globenewswire.com",
+      "company": "Cloudera / NVIDIA",
+      "topic": "Cloudera Blueprints launch with NVIDIA AI Blueprints and Agent Toolkit for enterprise AI deployment",
+      "fingerprint": "Cloudera|cloudera-blueprints-nvidia-agent-toolkit|2026-10-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把 NVIDIA 參考工作流預配置進企業資料平台，主打資料不搬家的部署"
+      },
+      "summary": "Cloudera 在既有的 AMPs（Accelerators for ML Projects）之上擴成 Blueprints 產品線，其中最受注目的是 NVIDIA AI Blueprints：用 NVIDIA Agent Toolkit 把參考 AI 工作流直接配好，跑在 Cloudera AI 上，再疊上 Cloudera 自己的資料管理、安全與治理。賣點是「AI 去資料那裡」，同一套平台可以部署在公有雲、自建機房與邊緣，金融、公部門這類資料不能亂搬的場景最吃這套。CPO Leo Brunnick 的說法很直接：企業卡住的不是想法，是把 prototype 變成 production 的那段工程。",
+      "from_file": "output/2026/10/28.md"
     }
   ],
   "reason_picked_schema": {
