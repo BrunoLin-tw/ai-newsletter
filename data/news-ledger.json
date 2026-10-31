@@ -20874,6 +20874,145 @@
       },
       "summary": "OpenAI 舊 Pro 200 寬限期於 10 月 30 日結束，同價位下 Codex 與 ChatGPT Work 用量從 Plus 的 20 倍降至 10 倍，等於砍半。同日推出月費 500 美元的 Pro 500，提供 Plus 的 25 倍額度與唯一可用的 Astra Ultrafast，Codex 內約 300 tokens/s、最高 8 倍速。受影響訂閱戶獲得一次性 62,500 點（官方估值 2,500 美元），但於 12 月 31 日到期且非 API 額度。",
       "from_file": "output/2026/10/30.md"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "DiffuSpace 開源 Clover-35B-A3B：擴散語言模型放大後真的能贏同級自迴歸模型",
+      "url": "https://huggingface.co/blog/Diffuspace/clover-35b-a3b-preview",
+      "source": "huggingface.co",
+      "company": "DiffuSpace",
+      "topic": "DiffuSpace releases Clover-35B-A3B-Preview Apache 2.0 MoE diffusion language model beating same-size autoregressive models on agent benchmarks at 680 tokens per second",
+      "fingerprint": "DiffuSpace|clover-35b-a3b-preview-moe-diffusion-model-release|2026-10-31",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首度把擴散語言模型推到 35B 級並在同級 agent benchmark 全面勝出"
+      },
+      "summary": "DiffuSpace 發布首個模型 Clover-35B-A3B-Preview，Apache 2.0、35B 總參數 / 3B 激活的 MoE 擴散語言模型，支援 128K 上下文與 thinking 模式。六項 agent benchmark 全勝同級 Qwen3.6-35B-A3B：SWE-bench Verified 73.6、Terminal-Bench 2.1 為 51.7、τ³ Overall 65.3，也壓過 LLaDA2.2 Flash 與 Mercury 2.5。通用能力 GPQA Diamond 83.8、ZebraLogic 95.8、AA-LCR 72.0。速度上單張 GB300 跑 680 tokens/s、H200 515 tokens/s，高於 Qwen 搭 DFlash2 的 365 tokens/s。",
+      "from_file": "output/2026/10/31.md"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "CrowdStrike 揭 VAPOR PANDA 用 ARTEX agent 框架，11 天平行打 14 國 200 多家組織",
+      "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+      "source": "crowdstrike.com",
+      "company": "CrowdStrike",
+      "topic": "CrowdStrike reports VAPOR PANDA used ARTEX agentic framework with DeepSeek to run parallel intrusions against 200 plus organizations in 14 countries over 11 days",
+      "fingerprint": "CrowdStrike|vapor-panda-artex-agentic-pentest-parallel-intrusions|2026-10-31",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "首次觀察到中國關聯行為者用 AI agent 同時執行多場入侵"
+      },
+      "summary": "CrowdStrike OverWatch 揭露中國關聯的 VAPOR PANDA 以 ARTEX agentic 框架搭配 DeepSeek 與第二個商用 LLM，自 10 月 17 日起 11 天內對至少 14 國、逾 200 個組織發動入侵，含多國外交部、美國半導體國防核能製藥與智庫、以及美比菲電信商。已確認 9 家遭後滲透並部署 BLOODALCHEMY 後門，另有至少 12 家被密碼噴灑。ARTEX 以主 agent 加規劃與執行子 agent 共用事實與目標圖，單次入侵規劃 agent 消耗約 14 億 input tokens；紀錄顯示人類操作者以中文下【人类指令】並要求寫 web shell、撈網域管理員密碼。",
+      "from_file": "output/2026/10/31.md"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "NVIDIA 傳為 Nscale 的 Anthropic 資料中心提供數十億美元信用擔保",
+      "url": "https://www.business-standard.com/technology/tech-news/nvidia-in-talks-to-give-credit-support-for-nscale-s-deal-with-anthropic-126103001890_1.html",
+      "source": "business-standard.com",
+      "company": "NVIDIA / Nscale / Anthropic",
+      "topic": "NVIDIA in talks to give multibillion dollar credit guarantees backing Nscale debt for the West Virginia Anthropic data center",
+      "fingerprint": "NVIDIA|nscale-anthropic-west-virginia-credit-guarantee|2026-10-31",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "finance"
+        ],
+        "note": "NVIDIA 同時當股東、供應商與債務保證人，循環融資爭議升溫"
+      },
+      "summary": "The Information 報導 NVIDIA 正洽談為 AI 雲端業者 Nscale 提供數十億美元信用擔保，協助其為西維吉尼亞州、Anthropic 要用的 AI 資料中心取得債務融資，範圍涵蓋電力基礎設施與建廠支出。Anthropic 八月已簽 450 億美元租用該園區算力，另有約 460MW、金額約 450 億美元的交易在談。擔保尚未簽署、條款可能變動。NVIDIA 同時是 Nscale 投資人與晶片供應商，市場對 AI 建設債務與循環融資的疑慮因此再升溫，也牽動 Nscale 的 NYSE 上市計畫。",
+      "from_file": "output/2026/10/31.md"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "OpenAI 募資目標砍 100 億美元，估值從 1.4 兆退到 1.25 兆",
+      "url": "https://startupfortune.com/openai-cuts-its-funding-round-target-by-10-billion-dollars-amid-market-jitters/",
+      "source": "startupfortune.com",
+      "company": "OpenAI",
+      "topic": "OpenAI cuts latest funding round target by 10 billion dollars to about 20 billion at a 1.25 trillion valuation amid AI capex jitters",
+      "fingerprint": "OpenAI|funding-round-target-cut-20b-1-25t-valuation|2026-10-31",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "finance",
+          "new_market"
+        ],
+        "note": "延續十月募資報導，本次是目標與估值正式下修的實質變化"
+      },
+      "summary": "金融時報 10 月 30 日報導，OpenAI 把最新一輪募資目標從 300 億美元下調約 100 億至約 200 億美元，估值從月中向私人財富客戶喊的 1.4 兆美元退到 1.25 兆，認購承諾當天到期。同期 Alphabet 因 2026 年資本支出指引達 1,850 億美元、自由現金流首度轉負而市值蒸發約 7,000 億美元，Intel 自九月高點跌近 20%。對照今年春天 SoftBank 領投的 400 億美元、3,000 億美元估值，反映投資人對舉債擴建 AI 基礎設施的耐受度正在下降。",
+      "from_file": "output/2026/10/31.md"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "四大 AI 廠罕見聯手：robots.txt 一組 __usage_ai-training 就能對所有家退出訓練",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+      "source": "openai.com",
+      "company": "OpenAI / Google / Anthropic / Microsoft",
+      "topic": "OpenAI Google Anthropic and Microsoft jointly support the IETF AIPREF shared robots.txt AI training opt-out signal",
+      "fingerprint": "OpenAI|ietf-aipref-shared-robots-txt-ai-training-opt-out-signal|2026-10-31",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "四大廠共同採用單一訓練退出訊號，出版商不必逐家維護規則"
+      },
+      "summary": "OpenAI 宣布將遵循 IETF AIPREF 工作組的共用 robots.txt 訊號，與 Google、Anthropic、Microsoft 共同支援。網站過去需逐一辨識各家爬蟲並維護多套規則，現在只要在 robots.txt 寫 `User-agent: __usage_ai-training` 搭配 Disallow 即可一次對多家表達訓練偏好。此訊號只管訓練、不管抓取，搜尋索引與即時檢索照舊，且各家既有爬蟲指令如 GPTBot、Google-Extended 優先於通用訊號。OpenAI 稱未來數個月實作，Anthropic 已上線，Google 排 2027 年初、Microsoft 排 2027 年 2 月 1 日。",
+      "from_file": "output/2026/10/31.md"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Anthropic 把 Max 改名 Ultra，驗證過的 200 美元用戶直接解除 5 小時上限",
+      "url": "https://windowsreport.com/anthropic-renames-claude-max-5x-and-20x-plans-removes-ultras-5-hour-limit/",
+      "source": "windowsreport.com",
+      "company": "Anthropic",
+      "topic": "Anthropic renames Claude Max 5x to Max and Max 20x to Ultra while removing the 5-hour usage limit for verified Ultra accounts",
+      "fingerprint": "Anthropic|claude-max-ultra-rebrand-5-hour-limit-removed|2026-10-31",
+      "section": "tools",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "方案改名同時對驗證過的 Ultra 移除滾動 5 小時上限"
+      },
+      "summary": "Anthropic 10 月 30 日宣布簡化 Claude 訂閱命名：Max 5x 改為 Max、維持 100 美元，Max 20x 改為 Ultra、維持 200 美元，現有訂閱者無需任何操作。真正的變化是驗證過的 Ultra 帳號自當天起移除滾動 5 小時上限，先從多數既有訂閱者開始；較新的 Ultra 訂閱者在完成驗證前仍保留臨時限制，解除時會收到 email 通知。週上限維持不變，因此 Ultra 並非完全無限量。",
+      "from_file": "output/2026/10/31.md"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Gemini 聊天室直接改檔案：PDF、Docs、簡報、試算表、程式碼都不用匯出",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Google Gemini app adds in-chat generation preview and editing for documents PDFs presentations spreadsheets markdown and code",
+      "fingerprint": "Google|gemini-app-in-chat-file-editing-launch|2026-10-31",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把生成到編修收進同一對話，PDF 支援 web 與行動版"
+      },
+      "summary": "Google 10 月 29 日更新 Gemini app，現在可在對話中直接生成、預覽並編輯文件、PDF、簡報、試算表、Markdown、TXT 與程式碼，不需先下載再上傳。檔案可展開全螢幕直接輸入修改，也能選取特定段落提問、請 Gemini 調整文字或視覺，並在同一對話繼續追問。PDF 預覽與編輯在 web 與行動版皆支援，其餘格式目前僅限 web 版。功能對所有使用者、所有 Gemini app 支援語言同步上線。",
+      "from_file": "output/2026/10/31.md"
     }
   ],
   "reason_picked_schema": {
