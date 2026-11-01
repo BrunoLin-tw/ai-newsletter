@@ -21013,6 +21013,124 @@
       },
       "summary": "Google 10 月 29 日更新 Gemini app，現在可在對話中直接生成、預覽並編輯文件、PDF、簡報、試算表、Markdown、TXT 與程式碼，不需先下載再上傳。檔案可展開全螢幕直接輸入修改，也能選取特定段落提問、請 Gemini 調整文字或視覺，並在同一對話繼續追問。PDF 預覽與編輯在 web 與行動版皆支援，其餘格式目前僅限 web 版。功能對所有使用者、所有 Gemini app 支援語言同步上線。",
       "from_file": "output/2026/10/31.md"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Mistral 開源 Mistral Large 4：1 兆參數多模態模型，主打開源最強 coding 與防禦資安",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "source": "mistral.ai",
+      "company": "Mistral AI",
+      "topic": "Mistral releases open weights for Mistral Large 4 Le Chonk 1.05T parameter multimodal MoE claiming best open-weight coding and defensive cybersecurity",
+      "fingerprint": "Mistral AI|mistral-large-4-open-weights-release|2026-11-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "1T 級旗艦首次放出權重，FrontierCode 與 Terminal-Bench 開源第一"
+      },
+      "summary": "Mistral 釋出旗艦 Mistral Large 4（Le Chonk）權重，1.05 兆總參數稀疏 MoE、每 token 約 49B 激活（含 embedding 與輸出層 52B），原生多模態、1M 上下文，全程在歐洲基礎設施訓練。官方稱追加三週 RL 後在 FrontierCode 與 Terminal-Bench 取得開源權重第一，Artificial Analysis Coding Agent Index 得 48，與 GPT-6.1 Terra 同級且 token 效率更好，並提供三種 reasoning 模式；權重採自訂 Mistral 開源權重授權而非純 MIT。",
+      "from_file": "output/2026/11/01.md"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Factory Droid 1.0 把工具呼叫改成「寫程式」：Terminal-Bench 4 拿 65.2%，成本再降 15%",
+      "url": "https://www.artiverse.ca/factory-droid-10-turns-one-model-request-into-hundreds-of-tool-calls/",
+      "source": "artiverse.ca",
+      "company": "Factory",
+      "topic": "Factory Droid 1.0 coding agent harness makes programmatic tool calling default via sandboxed JavaScript Script tool scoring 65.2 percent on Terminal-Bench 4",
+      "fingerprint": "Factory|droid-1-0-programmatic-tool-calling-harness|2026-11-01",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail",
+          "workflow_automation"
+        ],
+        "note": "工具呼叫改為沙箱內執行程式，context 用量與成本同步大降"
+      },
+      "summary": "Factory 發布 Droid 1.0，將 programmatic tool calling 設為預設：模型改寫 JavaScript 在無檔案、無網路、無系統權限的沙箱執行，只有程式輸出回到 context。修單元測試由 15 次工具呼叫、10 次模型呼叫降到 5 次，41.6 秒完成；清理任務以 312 次工具呼叫、2 次請求、約 6.1 萬 tokens 搬完 151 個 issue，直接呼叫需 36 次請求、310 萬 tokens。CI 掃描 5,384 個 job 只用 2 次請求，不到 0.1% 工具結果進入 context。base prompt 縮 37% 至 13,055 tokens，Claude Opus 5.5 上 Terminal-Bench 4 達 65.2%，每通過任務 $4.73，成本最多低 24%。",
+      "from_file": "output/2026/11/01.md"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Meta 找上中國 Fourier 三個月做出人形機器人 Max，第二版已在開發",
+      "url": "https://thedeepdive.ca/meta-turns-to-china-to-build-humanoid-robots-as-trump-restricts-foreign-ones/",
+      "source": "thedeepdive.ca",
+      "company": "Meta",
+      "topic": "Meta builds humanoid robot prototype Max with Shanghai startup Fourier in three months while FCC covered list rules restrict foreign-made robots in US",
+      "fingerprint": "Meta|fourier-humanoid-max-prototype|2026-11-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "首次曝光 Meta 人形機器人與中國代工合作，撞上美國本土製造門檻"
+      },
+      "summary": "The Information 報導 Meta 與上海 Fourier 合作，三個月內完成代號 Max 的人形機器人原型，約 1.5 公尺高、106 磅重，8 月內部演示、9 月起開發第二版。Meta 稱屬內部研究實驗且無販售計畫，但機器人副總 Li-Chen Miller 曾在 Fourier 上海廠近兩個月。FCC 九月已將外國生產先進機器人列入國安 Covered List，新機型須在美製造且本土零組件成本占比逾 65%（2028 前）、2029 年升至 75% 才易取得授權。",
+      "from_file": "output/2026/11/01.md"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "DeepMind 的 Gemini 都市計畫工具 PlanAssist 擴大到 15 個英國自治體",
+      "url": "https://creatorstoolbox.com/blog/google-deepmind-planassist-uk-councils",
+      "source": "creatorstoolbox.com",
+      "company": "Google DeepMind",
+      "topic": "Google DeepMind PlanAssist Gemini planning tool expands to 12 more English councils entering 12-month live beta after 58 percent task time cut",
+      "fingerprint": "Google DeepMind|planassist-council-expansion-15-authorities|2026-11-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "從三地試辦擴大到 15 個自治體，公共部門規模化落地"
+      },
+      "summary": "Google DeepMind 與英國政府、Google Cloud、Faculty 合作的 PlanAssist 在 Barnet、Camden、Dorset 試辦後，再開放 12 個英格蘭自治體加入，總數達 15 個並進入 12 個月 live beta、分三批上線。工具會讀申請文件與圖說、查樹木保護令等文資限制、比對地方與國家政策及先前陳情，產出帶引用的報告供承辦人修改，最終決定權仍在具資格規劃官。試辦顯示特定任務處理時間平均降 58%，官方計畫 2027 年推廣全英格蘭且不強制。",
+      "from_file": "output/2026/11/01.md"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "CNTXT AI 砸 5,000 萬美元在杜拜與阿布達比建 3 萬平方英尺機器人資料中心",
+      "url": "https://www.thenationalnews.com/future/technology/2026/10/30/cntxt-robots-physical-ai-mohammad-abu-sheikh/",
+      "source": "thenationalnews.com",
+      "company": "CNTXT AI",
+      "topic": "CNTXT AI invests 50 million dollars in 30000 square feet robotics data collection facilities in Dubai and Abu Dhabi for physical AI",
+      "fingerprint": "CNTXT AI|uae-robotics-data-facilities-50m|2026-11-01",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "new_market"
+        ],
+        "note": "首批 physical AI 動作資料工廠之一，11 月開始運作"
+      },
+      "summary": "CNTXT AI 共同創辦人 Mohammad Abu Sheikh 表示將在阿聯建多座機器人資料設施，至少一座 11 月開始運作。投資總額上看 5,000 萬美元，核心是杜拜與阿布達比共 3 萬平方英尺的 robotics-data 場地：杜拜讓工作人員穿動作感測服採集家務與辦公場景動作，其他設施以輕量頭戴裝置做第一人稱 egocentric 資料，記錄手部動作、環境脈絡與物件互動，用於推進物理 AI 與 AI 主權。",
+      "from_file": "output/2026/11/01.md"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "微軟與 Berkeley 開源 TokenEconomizer：不改 agent，coding 成本直接降 18–31%",
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "source": "github.com",
+      "company": "Microsoft",
+      "topic": "Microsoft Research and UC Berkeley open-source TokenEconomizer cutting coding agent token cost 18.4 to 30.9 percent via micro-skills tool filtering and loop detection",
+      "fingerprint": "Microsoft|tokeneconomizer-coding-agent-cost-control|2026-11-01",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "不改模型與 agent 即可省成本，相容主流 coding agent"
+      },
+      "summary": "微軟研究院與 UC Berkeley 開源 TokenEconomizer（Apache 2.0，論文 arXiv 2610.22732），在 SWE-Bench 277 個任務、五組 agent–model 組合上平均降低成本 18.4% 至 30.9%，30 個 repo×組合全部變便宜，Pass@1 有四組上升。機制有三：記住 repo 的運作方式避免重複探索、按任務刪除不需要的工具定義、偵測重複失敗時促使 agent 換策略。支援 Claude Code、OpenAI Codex、GitHub Copilot CLI 與 Pi，不需修改 agent 本身。",
+      "from_file": "output/2026/11/01.md"
     }
   ],
   "reason_picked_schema": {
