@@ -21131,6 +21131,143 @@
       },
       "summary": "微軟研究院與 UC Berkeley 開源 TokenEconomizer（Apache 2.0，論文 arXiv 2610.22732），在 SWE-Bench 277 個任務、五組 agent–model 組合上平均降低成本 18.4% 至 30.9%，30 個 repo×組合全部變便宜，Pass@1 有四組上升。機制有三：記住 repo 的運作方式避免重複探索、按任務刪除不需要的工具定義、偵測重複失敗時促使 agent 換策略。支援 Claude Code、OpenAI Codex、GitHub Copilot CLI 與 Pi，不需修改 agent 本身。",
       "from_file": "output/2026/11/01.md"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Google 的軌道 TPU 真的跑起来了：Gemma 4 在太空寫下第一首詩",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "source": "blog.google",
+      "company": "Google",
+      "topic": "Project Suncatcher prototype satellite runs Gemma 4 inference on an orbital TPU and downlinks the first AI response from a data center class TPU in space",
+      "fingerprint": "Google|project-suncatcher-orbital-tpu-first-inference|2026-11-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "9 月只是發射，這次是首次在軌完成 TPU 推論並回傳結果"
+      },
+      "summary": "Project Suncatcher 原型衛星 10 月 1 日發射後花三週完成 commissioning，本週達成 Hello World：地面站在衛星通過時上傳 prompt，衛星上的 Gemma 4 生成俳句，於飛越挪威 Svalbard 時成功下載，是史上第一次由資料中心等級 TPU 在軌道產生 AI 回應。衛星搭載四顆 TPU、太陽能上限 1kW，因此一次只能開一顆、約 20 分鐘後必須靠輻射散熱；團隊接下來測試散熱與宇宙射線造成的 bit flip，若通過則 2027 年發射兩顆互連衛星並測試雷射鏈路。",
+      "from_file": "output/2026/11/02.md"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "NVIDIA 悄悄下修 Rubin 規格：HBM4 頻寬少 11%、NVLink scale-up 砍 17%",
+      "url": "https://www.servethehome.com/nvidia-updates-rubin-gpu-specs-as-first-production-hardware-arrives/",
+      "source": "servethehome.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA finalizes shipping specs for Rubin GPU lowering HBM4 memory bandwidth to 19.2TB/s and NVLink scale-up to 3.0TB/s while raising scale-out networking to 0.45TB/s",
+      "fingerprint": "NVIDIA|rubin-shipping-specs-memory-nvlink-cut|2026-11-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "量產交貨同時定案規格，與先前宣傳值相比是明顯下修"
+      },
+      "summary": "隨著 Vera Rubin 進入量產、首批 NVL72 開始交貨，NVIDIA 把原本標示 preliminary 的規格定案，結果多數往下修：單顆 Rubin 的 HBM4 頻寬由 22TB/s 降至 19.2TB/s（每 pin 9.375Gbps，約少 11%），scale-up NVLink 由 3.6TB/s 降至 3.0TB/s，只有 scale-out 網路由 0.4TB/s 升到 0.45TB/s。容量與算力不變：288GB HBM4、NVFP4 推論 50 PFLOPS、訓練 35 PFLOPS。作為對照，AMD MI455X 的 HBM4 僅 7.6Gbps/pin。NVIDIA 未說明下修原因，外界解讀與 HBM4 供應鏈時脈達標能力有關。",
+      "from_file": "output/2026/11/02.md"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "AMD 用推論成本反打：MI355X 跑 Kimi K3 2.8T，每 token 比 GB200 NVL72 便宜 46%",
+      "url": "https://inferencex.semianalysis.com/compare-per-dollar/kimi-k3-gb200-vs-mi355x",
+      "source": "inferencex.semianalysis.com",
+      "company": "AMD",
+      "topic": "SemiAnalysis InferenceX benchmark compares AMD MI355X against NVIDIA GB200 NVL72 serving Kimi K3 2.8T with up to 46 percent lower cost per million tokens",
+      "fingerprint": "AMD|mi355x-vs-gb200-nvl72-kimi-k3-cost-per-token|2026-11-02",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "benchmark_detail"
+        ],
+        "note": "首次有 Kimi K3 2.8T 的第三方推論成本對比，且揭露併發取捨"
+      },
+      "summary": "SemiAnalysis InferenceX 以 FP4、8K in／1K out 條件比較 2.8 兆參數 Kimi K3 的每 token 成本：165 tok/s/user 時 MI355X 每百萬 token $0.15、GB200 NVL72 $0.22，便宜 46%；118 tok/s 時 $0.14 對 $0.16（20%）；71 tok/s 時 $0.05 對 $0.07（35%）。成本模型輸入為 GB200 NVL72 每 chip 每小時 $1.86、MI355X $1.50。代價是併發：165 tok/s 時 GB200 每顆晶片約服務 8 位使用者、MI355X 僅約 4 位。方法論仍屬單一廠商 TCO 模型。",
+      "from_file": "output/2026/11/02.md"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Aramco 砸 26 億美元吃下 HUMAIN 49%：PIF 保留 51%，目標 2030 年 3GW AI 資料中心",
+      "url": "https://www.aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth",
+      "source": "aramco.com",
+      "company": "Aramco / PIF",
+      "topic": "PIF and Aramco close transaction giving Aramco a 49 percent stake in Saudi AI company HUMAIN with 2.6 billion dollars cash plus AI assets while PIF keeps 51 percent",
+      "fingerprint": "Aramco|humain-49-percent-stake-close-2-6b|2026-11-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "從 2025 年意向書走到正式交割，沙烏地 AI 資產整併完成"
+      },
+      "summary": "PIF 與 Aramco 11 月 1 日宣布交易完成：Aramco 透過全資子公司取得 HUMAIN 49% 股權，對價為移轉關鍵 AI 資產加上 2026 年約 99 億里亞爾（26 億美元）現金，PIF 維持 51% 控股。雙方把 AI 資產、算力與人才投入 HUMAIN，目標 2030 年前部署 3GW AI 資料中心容量，並涵蓋雲端、模型（含阿拉伯語多模態 ALLaM）與產業方案。Aramco 執行長 Nasser 表示 2023 年以來集團 Technology Realized Value 累計 113 億美元、其中相當比重來自 AI。",
+      "from_file": "output/2026/11/02.md"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "蘋果在中國把 Qwen 塞進 Apple Intelligence：11 月 4 日開發者 beta、12 月隨 iOS 27.3 上線",
+      "url": "https://news.cgtn.com/news/2026-10-31/Alibaba-s-Qwen-to-integrate-into-Apple-Intelligence-in-landmark-deal-1RHilSeJsbK/p.html",
+      "source": "news.cgtn.com",
+      "company": "Apple / Alibaba",
+      "topic": "Alibaba Qwen powers Apple Intelligence in China across Siri Writing Tools and Visual Intelligence with developer beta November 4 and iOS 27.3 rollout in December",
+      "fingerprint": "Apple|qwen-apple-intelligence-china-integration|2026-11-02",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "new_market",
+          "official_source"
+        ],
+        "note": "中國版 Apple Intelligence 首次確定由中國模型擔任系統級主幹"
+      },
+      "summary": "阿里巴巴與蘋果 10 月 31 日宣布合作，Qwen 進駐中國版 Apple Intelligence，涵蓋 Siri、Writing Tools 與 Visual Intelligence 的文字與影像理解及內容生成。開發者 11 月 4 日可在最新 iOS beta 測試，正式版隨 12 月 iOS 27.3 推送，適用於在中國購買支援 Apple Intelligence 的 iPhone，或裝置地區與 Apple Account 皆設為中國的機型。使用者可自行選擇是否啟用及分享範圍，阿里承諾不將用戶請求和生成結果用於訓練。這是首次有全球頂級消費硬體廠把中國大模型作為中國市場的系統級 AI 主幹。",
+      "from_file": "output/2026/11/02.md"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "DeepSeek 開源 Super-Agent：不是等你敲它，而是盯著群組聊天自己開 PR",
+      "url": "https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent",
+      "source": "thenextweb.com",
+      "company": "DeepSeek",
+      "topic": "DeepSeek open sources dsh-superagent MIT licensed Router-Worker coding agent prototype that monitors GitHub and Feishu chats and opens pull requests autonomously",
+      "fingerprint": "DeepSeek|dsh-superagent-router-worker-open-source|2026-11-02",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "正式開源可跑的 Router-Worker 原型，直接對標 Claude Code"
+      },
+      "summary": "DeepSeek 的 Harness 團隊 10 月 31 日在 GitHub 釋出 dsh-superagent，MIT 授權，兩天內突破 7,000 星。架構為 Router-Worker：Router 常駐監看單一 GitHub repo 與可選的飛書群組，被授權者交辦後開 ticket，於獨立 session 平行處理，重現問題、修改、跑測試，最後回原討論串貼 PR；需人工決策者列在 web 面板。設計原則是「Take as little human attention as possible, and give as much value as possible」。DeepSeek 強調這是研究原型而非官方產品，公開版與內部版有落差，使用前需自行審查。",
+      "from_file": "output/2026/11/02.md"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Vercel 開源 agent-desktop：不截圖猜像素，直接讀作業系統的無障礙樹",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "source": "github.com",
+      "company": "Vercel",
+      "topic": "Vercel Labs open sources agent-desktop Rust CLI and C library giving coding agents computer use on native apps via OS accessibility trees with stable refs",
+      "fingerprint": "Vercel|agent-desktop-accessibility-tree-computer-use|2026-11-02",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "workflow_automation",
+          "official_source"
+        ],
+        "note": "Apache-2.0 開源，跨三大平台且用量測數據證明 token 大幅下降"
+      },
+      "summary": "Vercel Labs 釋出 agent-desktop，Rust 撰寫的 CLI 與 C 函式庫（Apache-2.0），支援 macOS、Windows、Linux，讓 coding agent 透過作業系統無障礙 API（macOS AX、Windows UI Automation、Linux AT-SPI）讀取原生 App 的真實 UI 結構，回傳帶 ref 的 JSON；agent 對 ref 動作後再快照確認，不做像素比對，ref 穩定且動作可安全重試。多個 agent 可各帶一個螢幕游標 headless 平行操作，使用者同時可繼續工作。Vercel 自家測試把 52 步的 Apple Maps 任務從 19.8 萬 tokens 降至 3.1 萬。可透過 npm 全域安裝，macOS 需輔助使用權限。",
+      "from_file": "output/2026/11/02.md"
     }
   ],
   "reason_picked_schema": {
