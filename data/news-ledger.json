@@ -21268,6 +21268,164 @@
       },
       "summary": "Vercel Labs 釋出 agent-desktop，Rust 撰寫的 CLI 與 C 函式庫（Apache-2.0），支援 macOS、Windows、Linux，讓 coding agent 透過作業系統無障礙 API（macOS AX、Windows UI Automation、Linux AT-SPI）讀取原生 App 的真實 UI 結構，回傳帶 ref 的 JSON；agent 對 ref 動作後再快照確認，不做像素比對，ref 穩定且動作可安全重試。多個 agent 可各帶一個螢幕游標 headless 平行操作，使用者同時可繼續工作。Vercel 自家測試把 52 步的 Apple Maps 任務從 19.8 萬 tokens 降至 3.1 萬。可透過 npm 全域安裝，macOS 需輔助使用權限。",
       "from_file": "output/2026/11/02.md"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Marvell 用 1,150 億美元全股票吃下 Lumentum：AI 叢集的瓶頸從銅線換成光",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
+      "source": "investor.marvell.com",
+      "company": "Marvell / Lumentum",
+      "topic": "Marvell acquires Lumentum in 115 billion dollar all-stock deal at 4.5 exchange ratio creating full-stack electrical and optical AI connectivity leader with 550 billion dollar TAM",
+      "fingerprint": "Marvell|lumentum-all-stock-acquisition-ai-optical-connectivity|2026-11-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "光互連成為 AI 叢集瓶頸後最大的一筆整併，直接把電與光兩層吃下"
+      },
+      "summary": "Marvell 11 月 2 日宣布以全股票交易收購 Lumentum，隱含企業價值 1,150 億美元、每股約 1,132 美元，較 10 月 28 日未受消息影響收盤價溢價 23.9%。換股比例為每股 Lumentum 換 4.5 股 Marvell，交易後 Marvell 股東持約 67%、Lumentum 約 33%，預計 2028 年上半年完成，目標年化成本綜效超過 10 億美元。合併把 Marvell 的電性與光學互連、網路交換、客製 XPU，與 Lumentum 的高效能雷射、光收發模組、光路交換（OCS）及化合物半導體製造結合，可服務市場規模上看 5,500 億美元。官方理由是 AI 基礎設施正從離散模組走向高度整合光學方案，銅線的物理極限已擋在前面。",
+      "from_file": "output/2026/11/03.md"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "onsemi 砸 6 億美元買 Ferric：把穩壓器搬進 AI 晶片封裝裡",
+      "url": "https://www.globenewswire.com/news-release/2026/11/02/3393726/0/en/onsemi-to-acquire-ferric-establishing-leadership-in-power-delivery-for-next-generation-ai-processors.html",
+      "source": "globenewswire.com",
+      "company": "onsemi / Ferric",
+      "topic": "onsemi acquires Ferric for 600 million dollars cash plus 175 million contingent consideration to own integrated voltage regulator technology and raise 2030 AI data center revenue target above 3 billion dollars",
+      "fingerprint": "onsemi|ferric-ivr-acquisition-ai-power-delivery|2026-11-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "供電層首次成為 AI 晶片擴產的關鍵瓶頸，IVR 直接進封裝"
+      },
+      "summary": "onsemi 11 月 2 日宣布以 6 億美元現金收購 Ferric，另附最高 1.75 億美元營收里程碑對價。Ferric 的整合式穩壓器（IVR）把電源控制器、FET、電感與電容塞進單一封裝，相較傳統方案可減少 50-70% 板面積。理由是 AI 處理器功耗往上衝之後，電壓調節必須一路往處理器靠近，才能降低損耗、拉高功率密度、更快回應負載瞬變。交易讓 onsemi 把 2030 年 AI 資料中心營收目標上調 5 億美元到超過 30 億美元；同日公布的 Q3 2026 財報顯示 AI 資料中心相關營收年增約 175%。",
+      "from_file": "output/2026/11/03.md"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "42AI 帶著 6,250 萬美元出 stealth：不是預測你買過什麼，是預測你下一步怎麼決定",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "source": "techcrunch.com",
+      "company": "42AI",
+      "topic": "42AI exits stealth with 62.5 million dollar seed for a behavioral world model predicting individual decisions for brokerages with F1 of 0.8 to 0.85 on trading direction and volume",
+      "fingerprint": "42AI|behavioral-world-model-seed-funding|2026-11-03",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "finance"
+        ],
+        "note": "行為世界模型首次有具體客戶數與 F1 數字，且已跑在 10 家券商"
+      },
+      "summary": "以色列新創 42AI 結束三年潛水，宣布 6,250 萬美元種子輪（創辦人與 Infinity Group 出資），主打預測人在全新情境下如何做決定的「行為世界模型」。做法是不外插歷史行為模式，而是從看似無關的互動推測內在動機：對交易員客戶而言是 KYC、開戶、客服通話的語氣、次數與時機，轉成特徵表徵後餵進 transformer 世界模型輸出決策機率分布，再用另一語言模型生成解釋。團隊先研究數千人，再接入政府與 biobank 超過 200 萬人資料集，客戶資料已近 3,000 萬人。目前跑在約 10 家大型券商，交易方向與量的 F1 為 0.8 到 0.85，營收已過七位數。",
+      "from_file": "output/2026/11/03.md"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "紐約時報告 Brave：說它一邊當小偷、一邊當 AI 的收贓者",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "source": "techcrunch.com",
+      "company": "New York Times / Brave",
+      "topic": "New York Times sues Brave Software for scraping journalism and selling access to Anthropic Perplexity Mistral xAI and Cohere with a 30 billion page index and paywall bypass",
+      "fingerprint": "Brave|nyt-lawsuit-ai-scraping-paywall-bypass|2026-11-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "首次把 AI 資料中間商本身列為被告，不只告模型廠"
+      },
+      "summary": "紐約時報 11 月 2 日在曼哈頓聯邦法院起訴 Brave Software，指控它爬取自家新聞內容並賣給 Anthropic、Perplexity、Mistral、xAI 與 Cohere。訴狀稱 Brave 同時像「竊取出版商內容的竊賊」與「把贓物賣給第三方的 AI 收贓者」，並指其用未識別的爬蟲建了超過 300 億頁索引，讓出版商無法封鎖。同日紐約每日新聞、芝加哥論壇報與奧蘭多哨兵報也提類似訴訟。訴狀另外打到 Brave 繞過付費牆的功能，以及封鎖出版商廣告卻賣自家廣告的做法。紐時要求禁制令與損害賠償；Brave 2015 年成立、累計募資約 2.5 億美元，未立即回應。",
+      "from_file": "output/2026/11/03.md"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Anthropic 更新版 S-1：Q3 營收 170 億美元、單季淨損 232.9 億，還有 8,954 億美元的採購承諾",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "source": "cnbc.com",
+      "company": "Anthropic",
+      "topic": "Anthropic amended S-1 discloses 17 billion dollar Q3 revenue with 23.29 billion quarterly net loss and 895.4 billion dollars of compute purchase commitments and leases",
+      "fingerprint": "Anthropic|amended-s1-q3-financials-compute-commitments|2026-11-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "接續 10 月 27 日 S-1，這次補齊 Q3 與 8,954 億美元算力承諾的完整成本輪廓"
+      },
+      "summary": "Anthropic 11 月 2 日向 SEC 遞交修正後 S-1，補上截至 9 月 30 日數字：Q3 營收約 170 億美元、年增 1,127%，但季增只剩約 47%，遠低於 Q2 的 144% 與 Q1 的 132%；單季淨損 232.9 億美元。前九個月營收 332.4 億美元、年增約 1,200%，淨損 1,040 億美元，多來自可轉換公司債與衍生性負債的公允價值變動。最受注目的是採購承諾與租賃協議合計約 8,954 億美元，「幾乎全部與算力及基礎設施有關」；前九個月算力與基礎設施費用增加 144 億美元、年增 329%。公司正準備掛牌路演，而市場同時在擔心利率上升壓垮資料中心開發商與 neocloud 的債務。",
+      "from_file": "output/2026/11/03.md"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "OpenAI 推 Grid Protectors：喬治亞園區讓出 1,000MW，等於 70 萬戶家庭用電",
+      "url": "https://openai.com/index/grid-protectors-program/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI launches Grid Protectors Program starting at Effingham County Georgia campus with up to 1000 megawatts of flexible demand response and full infrastructure cost payment",
+      "fingerprint": "OpenAI|grid-protectors-flexible-demand-program|2026-11-03",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "資料中心首次把可削減用電寫成對外承諾，回應地方反彈"
+      },
+      "summary": "OpenAI 11 月 2 日啟動 Grid Protectors Program，首個試點在喬治亞州 Effingham County 園區：極端天氣或緊急狀況時把用電需求降下來，最多釋出 1,000MW，約等於 70 萬戶家庭平均用電。公司承諾自行負擔該園區全部基礎設施與電力服務成本，並與 Georgia Power 談妥需求反應安排；後者估計自 2029 年起每年為用戶省約 9.5 億美元，典型家庭每月至少省 15 美元。背景是美國資料中心容量預計 2030 年突破 100GW，各地對資料中心的反彈擴大，多州已立法禁止 AI 公司把能源成本轉嫁居民；OpenAI 近來也把資料中心改稱 compute campus。",
+      "from_file": "output/2026/11/03.md"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "SpaceX 承認 Grok Bot 額度被砍不是 bug：一句「成本高到撐不住」",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "source": "techcrunch.com",
+      "company": "SpaceX",
+      "topic": "SpaceX cuts Grok Bot weekly usage limits with Musk confirming serving cost was unsustainably high relative to revenue despite 800000 weekly paying users",
+      "fingerprint": "SpaceX|grok-bot-usage-limit-cut-cost|2026-11-03",
+      "section": "tools",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "workflow_automation"
+        ],
+        "note": "當紅 agent 產品首次因單位經濟虧損直接砍額度"
+      },
+      "summary": "萬聖節週末有用戶發現 Grok Bot 週用量從 50% 直接跳到 100%，Elon Musk 11 月 1 日在 X 回覆確認不是故障：「Grok Bot 的服務成本相對於營收高到無法持續。」Grok Bot 額度與 Grok、Cursor 共用；SpaceX 總裁 Gwynne Shotwell 10 月初才說這個 agent 每週有 80 萬付費用戶，Musk 不到兩週前還稱它是自己見過成長最快的產品。SpaceX 上月申報顯示 AI 已占公司收入 52%，改名後的 Super Intelligence 部門實際獲利 4.31 億美元，若無收購 Cursor 的 12 億美元一次性成本會更高。額度後續怎麼調，Musk 尚未說明。",
+      "from_file": "output/2026/11/03.md"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Langflow 爆 9.8 分重大漏洞：未驗證就能透過 MCP 工具列舉執行任意程式碼",
+      "url": "https://www.ibm.com/support/pages/security-bulletin-langflow-oss-affected-multiple-vulnerabilities-2",
+      "source": "ibm.com",
+      "company": "IBM / Langflow",
+      "topic": "IBM discloses four Langflow OSS vulnerabilities including 9.8 authentication bypass CVE-2026-93680 and unauthenticated RCE CVE-2026-110186 affecting versions 1.0.0 through 1.12.8 fixed in 1.13.0",
+      "fingerprint": "Langflow|mcp-tool-enumeration-unauthenticated-rce-cve-2026-110186|2026-11-03",
+      "section": "tools",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "agent 組裝平台出現未驗證 RCE，已有 Metasploit 模組在打"
+      },
+      "summary": "IBM 揭露 Langflow OSS 四個漏洞：CVE-2026-93680 是 9.8 分的驗證繞過，CVE-2026-110186 是 9.8 分的任意程式碼執行且可從未驗證的 MCP 工具列舉路徑觸發，另有 8.8 分的 Agentic Assistant 程式碼注入（CVE-2026-110193）與第三方相依套件 Hono 的多個已知漏洞。受影響範圍為 1.0.0 到 1.12.8 全部版本，修補版本 1.13.0，已有 Metasploit 模組對未修補的 MCP 端點列舉工具。IBM 提醒 1.12.8 預設開啟自動登入、1.13.0 改為預設關閉，升級前須確認既有帳號可用密碼登入，並備份資料庫、secret key 與上傳檔案。",
+      "from_file": "output/2026/11/03.md"
     }
   ],
   "reason_picked_schema": {
