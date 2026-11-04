@@ -21426,6 +21426,169 @@
       },
       "summary": "IBM 揭露 Langflow OSS 四個漏洞：CVE-2026-93680 是 9.8 分的驗證繞過，CVE-2026-110186 是 9.8 分的任意程式碼執行且可從未驗證的 MCP 工具列舉路徑觸發，另有 8.8 分的 Agentic Assistant 程式碼注入（CVE-2026-110193）與第三方相依套件 Hono 的多個已知漏洞。受影響範圍為 1.0.0 到 1.12.8 全部版本，修補版本 1.13.0，已有 Metasploit 模組對未修補的 MCP 端點列舉工具。IBM 提醒 1.12.8 預設開啟自動登入、1.13.0 改為預設關閉，升級前須確認既有帳號可用密碼登入，並備份資料庫、secret key 與上傳檔案。",
       "from_file": "output/2026/11/03.md"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "NVIDIA 對資料中心客戶下 51% 非中國營收口頭令：租晶片的後門正在關",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/04/2003867097",
+      "source": "taipeitimes.com",
+      "company": "NVIDIA",
+      "topic": "NVIDIA requires data center partners to sell at least 51 percent of cloud services to non-Chinese customers per FT report affecting future contracts only",
+      "fingerprint": "NVIDIA|datacenter-partners-51-percent-non-china-revenue-rule|2026-11-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "不成文新規直接掐住境外算力轉租中國這條路"
+      },
+      "summary": "金融時報 11 月 3 日報導，NVIDIA 要求全球資料中心合作夥伴縮減中國客戶業務：轉租 NVIDIA 晶片的雲端業者至少 51% 服務須賣給非中國企業，否則可能失去硬體供應，新規只適用未來合約、不追溯既有協議。此舉收窄了中國 AI 公司透過海外資料中心租用美國晶片的繞道，正是美國國會近月立法的目標。NVIDIA 不承認也不否認，僅聲明「建立在美國晶片上的資料中心與雲端，是美國模型與應用廠商在全球競爭的基礎」。中國外交部發言人毛寧稱未掌握報導，重申盼各國提供公平透明非歧視營商環境。",
+      "from_file": "output/2026/11/04.md"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "墨芯人工智能完成近 10 億元 C+ 輪：稀疏計算推理晶片要拼下一代 SP200",
+      "url": "https://technode.com/2026/11/03/ai-inference-chipmaker-moffett-ai-raises-nearly-rmb-1-billion-in-series-c-funding/",
+      "source": "technode.com",
+      "company": "Moffett AI",
+      "topic": "Moffett AI closes nearly RMB 1 billion Series C+ five months after prior round to fund sparse-computing inference chip upgrades and next-gen SP200 accelerator",
+      "fingerprint": "Moffett AI|series-c-plus-1b-sparse-inference-sp200|2026-11-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "五個月內第二筆近 10 億元，中國推理算力軍備賽未減速"
+      },
+      "summary": "深圳墨芯（Moffett AI）11 月 3 日宣布完成近 10 億元人民幣 C+ 輪融資，距上一輪同規模融資僅約五個月。資金用於稀疏計算推理晶片升級、下一代處理器研發，以及與研究機構和產業夥伴合作。稀疏計算利用模型資料與運算中的稀疏性削減實際計算量，換取更高吞吐與更低功耗，在推理成本成為 AI 商業化最大變數的 2026 年吸引力直線上升。墨芯稱已在中國四個區域部署推理叢集並與電信營運商合作，下一代 SP200 加速卡預計年底前到位。",
+      "from_file": "output/2026/11/04.md"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Cogent VR-1.1 在 LiveCVEBench 拿下 57.9%：專用修漏洞模型明顯甩開通用 coding agent",
+      "url": "https://www.cogent.com/blog/vr-1.1-on-livecvbench-remediating-real-vulnerabilities",
+      "source": "cogent.com",
+      "company": "Cogent Security",
+      "topic": "Cogent VR-1.1 repairs 57.9 percent of LiveCVEBench 190 real CVE tasks versus 45.3 percent for Claude Code Opus 5.5 and Codex GPT-5.6-Cyber",
+      "fingerprint": "Cogent Security|vr-1-1-livecvebench-57-9-percent|2026-11-04",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "專用修漏洞模型首次在同條件下明顯勝過通用前沿模型"
+      },
+      "summary": "Cogent Security 11 月 3 日發布 VR-1.1，在 LiveCVEBench 的 190 個真實 CVE 修補任務取得 57.9% 通過率，Claude Code（Opus 5.5）與 Codex（GPT-5.6-Cyber）各為 45.3%，條件相同、每題三次嘗試，只認真正修掉漏洞的最終 patch。背景是 2026 年已公布超過 9 萬個 CVE、接近 2025 全年兩倍，企業完整修補中位時間從 32 天拉長到 43 天，攻擊者平均比 patch 早一週開始利用。VR-1.1 先自行建立漏洞脈絡、重現問題、寫修補再驗證，而非把修漏洞當一般 coding 任務。",
+      "from_file": "output/2026/11/04.md"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "CrowdStrike 砸約 4.95 億美元連吃 Fiddler 與 Dreadnode：AI 測試與 AI 監控一起買進 Falcon",
+      "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-dreadnode-advance-ai-trust/",
+      "source": "crowdstrike.com",
+      "company": "CrowdStrike",
+      "topic": "CrowdStrike signs definitive agreements for Dreadnode automated AI security testing and Fiddler AI agent observability in deals reportedly worth 495 million dollars closing FY27 Q4",
+      "fingerprint": "CrowdStrike|fiddler-dreadnode-acquisitions-495m-ai-security|2026-11-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "從事後偵測轉向部署前證明的兩筆關鍵併購，另有 AI Kill Switch"
+      },
+      "summary": "CrowdStrike 11 月 3 日在 Fal.Con Europe 宣布簽下 AI 安全測試公司 Dreadnode 與 AI agent 可觀測性公司 Fiddler AI，華爾街日報報導合計約 4.95 億美元（Fiddler 約 4 億、Dreadnode 約 9,500 萬），以現金為主、部分為受領限制股票，預計 FY27 第四季完成。Dreadnode 把超過 100 種已知 AI 攻擊手法（jailbreak、prompt injection、多輪與 agent 專屬攻擊）變成 Falcon 上的自動化測試，FY27 Q4 正式可用；Fiddler 補上部署前 agent 評估、推理與工具呼叫追蹤、生產環境行為漂移與幻覺偵測。同場推出執行層的 AI Kill Switch 與 Amazon Bedrock AgentCore Guardrails 原生整合。",
+      "from_file": "output/2026/11/04.md"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "日經：五大科技廠表外 AI 負債半年翻倍到 3.2 兆美元，Meta 一家占 4,200 億",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "source": "asia.nikkei.com",
+      "company": "Alphabet / Microsoft / Amazon / Meta / Oracle",
+      "topic": "Nikkei reports off-balance-sheet AI obligations at five US tech giants nearly doubled in six months to about 3.2 trillion dollars or 80 percent of total assets with Meta alone at 420 billion",
+      "fingerprint": "Big Tech|off-balance-sheet-ai-obligations-3-2-trillion|2026-11-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "finance"
+        ],
+        "note": "同一組公司六個月內從 1.65 兆翻到 3.2 兆，槓桿疑慮正式浮上檯面"
+      },
+      "summary": "日經亞洲 11 月 4 日報導，Alphabet、Microsoft、Amazon、Meta、Oracle 的 AI 相關表外義務六個月內從約 1.65 兆美元幾乎翻倍到約 3.2 兆美元，已達五家公司總資產約 80%。這些不是傳統負債，而是藏在 SEC 財報附註的未來租賃義務與多年期採購承諾——晶片、伺服器、資料中心容量。Meta 一家約 4,200 億美元，幾乎是帳上長期負債 587 億美元的三倍。對照 11 月 2 日 Anthropic 修正後 S-1 揭露的 8,954 億美元採購承諾，模型公司與雲端晶片廠兩端都在堆疊未列於主要報表的承諾金額。",
+      "from_file": "output/2026/11/04.md"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "OpenAI 找來前陸軍部長 Dan Driscoll 當國安現代化高級顧問：新設職位主攻盟友與網路安全",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI appoints former 26th US Secretary of the Army Dan Driscoll as Senior Counselor for National Security Modernization in a newly created role",
+      "fingerprint": "OpenAI|dan-driscoll-national-security-modernization-counselor|2026-11-04",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source",
+          "policy"
+        ],
+        "note": "新設職位加前內閣官員，民主 AI 這條線開始有編制"
+      },
+      "summary": "OpenAI 宣布 Dan Driscoll 出任新設的 National Security Modernization 高級顧問，與資深管理層及外部夥伴合作，就先進 AI 如何強化國家與網路安全提供建議，重點是與美國盟友推進負責任使用。Driscoll 曾任美國第 26 任陸軍部長，管轄近 100 萬現役、國民兵與後備軍人及逾 26.5 萬文職人員，任內推動陸軍轉型、加速新科技部署與採購改革。職務內容包括協助政府、產業、學界與盟友機構推進實務現代化，並讓 OpenAI 內部理解各國國安機構的實際運作需求，延續 Daybreak 計畫的資安韌性工作。",
+      "from_file": "output/2026/11/04.md"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Snowflake Expedition 2026：Business Ontology 加 Cortex AI Gateway，把 agent 的定義與權限一次鎖死",
+      "url": "https://www.snowflake.com/en/news/press-releases/expedition-2026-business-ontology-ai-gateway/",
+      "source": "snowflake.com",
+      "company": "Snowflake",
+      "topic": "Snowflake launches Business Ontology in Horizon Context plus Cortex AI Gateway with Cortex Sandboxes and Agent Abuse Detection to govern every enterprise agent",
+      "fingerprint": "Snowflake|business-ontology-cortex-ai-gateway-agent-governance|2026-11-04",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation",
+          "security_research"
+        ],
+        "note": "把商業定義與 MCP 權限收斂到單一前門，agent 上線門檻往前移"
+      },
+      "summary": "Snowflake 11 月 3 日於 Expedition 2026 宣布 Business Ontology 進到 Horizon Context：企業可集中登錄核心名詞的官方定義、綁定底層表與檢視並指定問責人，agent 只取得已核准版本；第三方目錄或試算表定義可透過一次 CoCo 引導工作階段匯入並標為草稿待核准，每次變更留紀錄。Cortex AI Gateway 作為所有 agent 的單一前門，跨雲、跨框架、跨模型供應商套用同一組政策，agent 經 MCP server 存取資料時直接繼承人類使用者既有權限。新增 Cortex Sandboxes 讓 agent 在資料旁跑自訂程式碼並自動套用執行者權限、跑完即關；Agent Abuse Detection 分析完整 agent 軌跡而非單一 prompt 來抓越權與內部濫用。",
+      "from_file": "output/2026/11/04.md"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Prime Intellect 開源 Prime Agent：把 context 當變數、子 agent 當函式呼叫，harness 自己會改自己",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "source": "primeintellect.ai",
+      "company": "Prime Intellect",
+      "topic": "Prime Intellect open-sources Prime Agent coding harness built on Recursive Language Model context-as-variable REPL subagents and Continual Harness self-refinement",
+      "fingerprint": "Prime Intellect|prime-agent-rlm-continual-harness-open-source|2026-11-04",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "harness 狀態本身可 CRUD 並自我 refine，跟固定 tool schema 路線正面對撞"
+      },
+      "summary": "Prime Intellect 發布開源 coding harness Prime Agent，核心是兩個抽象。RLM 把 context 當變數、把子 agent 委派當 REPL 內的函式呼叫，模型可直接寫程式平行 fan-out 子任務，子 agent 各有模型、kernel、session tree 與對話歷史，結果透過 agent_message 回傳而非回傳值。Continual Harness 把 prompt、子 agent 規格、skill、memory 變成可 CRUD 的狀態掛在常駐 IPython kernel 上，跨回合跨 session 保留；/refine 讀 agent 自身軌跡只做最小幅度編輯並記錄觸發與結果。背景 daemon 管理所有 session，worker 掛掉可從 JSONL 與 kernel 快照還原，閒置 30 分鐘卸載。",
+      "from_file": "output/2026/11/04.md"
     }
   ],
   "reason_picked_schema": {
