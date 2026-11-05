@@ -21589,6 +21589,146 @@
       },
       "summary": "Prime Intellect 發布開源 coding harness Prime Agent，核心是兩個抽象。RLM 把 context 當變數、把子 agent 委派當 REPL 內的函式呼叫，模型可直接寫程式平行 fan-out 子任務，子 agent 各有模型、kernel、session tree 與對話歷史，結果透過 agent_message 回傳而非回傳值。Continual Harness 把 prompt、子 agent 規格、skill、memory 變成可 CRUD 的狀態掛在常駐 IPython kernel 上，跨回合跨 session 保留；/refine 讀 agent 自身軌跡只做最小幅度編輯並記錄觸發與結果。背景 daemon 管理所有 session，worker 掛掉可從 JSONL 與 kernel 快照還原，閒置 30 分鐘卸載。",
       "from_file": "output/2026/11/04.md"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "OpenAI 讓 GPT-6 Astra 從零設計實體裝置：不到一週、無人工修改，BenchCAD 2.0 內部新版拿 0.875",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI reports GPT-6 Astra designed a physical Codex companion device end to end including enclosure PCB firmware and UX with no direct human edits and BenchCAD 2.0 scoring",
+      "fingerprint": "OpenAI|astra-end-to-end-physical-device-design-benchcad|2026-11-05",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首次公開模型端到端設計實體裝置的完整案例與分數"
+      },
+      "summary": "OpenAI 11 月 4 日公開內部實驗：只給功能需求，讓 GPT-6 Astra 自行設計一台用來跟 Codex 對話的裝置，涵蓋外觀、外殼與內部結構、電路板元件選型與佈局、韌體與 UI/UX，全程沒有直接人工編輯，代工廠一個月內做出小批量樣機。Astra 未穩定考慮製造公差與組裝細節，來回改了數版；OpenAI 稱更新的內部模型在 BenchCAD 2.0 拿到 0.875，Astra 在最大推理強度下為 0.594。OpenAI 同時開放與工程師、工程公司與 CAD 軟體廠商合作，把這條線延伸到真實專業工作流。",
+      "from_file": "output/2026/11/05.md"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "MIT 論文「權重空間程式設計」：LLM 直接讀寫神經網路權重，Qwen 3.8 27B 在筆電上也做得到",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "source": "rikiyat.github.io",
+      "company": "MIT CSAIL",
+      "topic": "MIT CSAIL Sparks of Weight-Space Programming shows LLMs natively read and write neural network weights without gradients including fixing Qwen3.5-0.8B reasoning loops",
+      "fingerprint": "MIT CSAIL|weight-space-programming-native-weight-read-write|2026-11-05",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "official_source"
+        ],
+        "note": "新研究方向首次公開，含可複現的權重讀寫實驗"
+      },
+      "summary": "MIT CSAIL 團隊發表 Sparks of Weight-Space Programming，主張前沿模型可不做梯度訓練，僅靠推理讀懂並改寫另一顆網路的權重。GPT-6 Astra 光看原始權重即可判斷小網路訓練來玩哪個遊戲，並從零寫出勝過 PPO 訓練一億步的網路；它還找出 Qwen3.5-0.8B 權重中造成推理迴圈的根源，只改 0.016% 參數就把 MATH-500 從 7.9% 提升到 48.1%，IFEval 提升約三倍。Simon Willison 用筆電上的量化 Qwen 3.8 27B 複現，四個遊戲猜對三個。批評者如 Matthew Honnibal 認為論文混淆了直接讀權重與工具輔助編輯。",
+      "from_file": "output/2026/11/05.md"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Google 威脅情報：LLMjacking 已成產業鏈，有企業一天被燒 10 萬美元、累計破 100 萬",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models",
+      "source": "cloud.google.com",
+      "company": "Google",
+      "topic": "Google Threat Intelligence Group and Mandiant report LLMjacking ecosystem with LLM Mixers reselling stolen inference and victims billed over 100k per day up to 1 million cumulative",
+      "fingerprint": "Google|llmjacking-ecosystem-llm-mixers-million-dollar-bills|2026-11-05",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "security_research",
+          "official_source"
+        ],
+        "note": "首次完整拆解 LLM Mixer 轉賣鏈與實際帳單規模"
+      },
+      "summary": "Google Threat Intelligence Group 與 Mandiant 11 月 4 日發布報告，整理 2026 年多起企業 LLM 存取被劫持事件，涵蓋北美、南美與亞太的金融、零售、科技與運輸業。LLMjacking 與挖礦劫持不同，幾小時內即可產生六位數帳單：單一事件單日超過 10 萬美元，部分企業在撤銷存取前累計達 100 萬美元。生態系已分工，一邊負責初始入侵，一邊經營 LLM Mixer 將竊得的推理能力代理、聚合、轉賣給地下訂戶；其中 Jet Night 在八小時內執行逾 50 萬次 API 呼叫。建議措施包括最低權限、金鑰輪替、花費上限，以及監控 max_tokens=1 這類探測請求。",
+      "from_file": "output/2026/11/05.md"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Meta 首次發行歐元債就創紀錄：€90 億落袋、訂單 €530 億歐元，兩天募到約 250 億美元",
+      "url": "https://www.straitstimes.com/business/companies-markets/meta-sells-first-bonds-in-euros-raises-eu9-billion",
+      "source": "straitstimes.com",
+      "company": "Meta",
+      "topic": "Meta sells debut euro-denominated bonds raising 9 billion euros with record 53 billion euro order book after 15 billion dollar US bond sale for AI infrastructure",
+      "fingerprint": "Meta|debut-euro-bond-9bn-record-order-book-ai-funding|2026-11-05",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "finance",
+          "new_market"
+        ],
+        "note": "首次進軍歐元債市並創歐洲企業債訂單紀錄"
+      },
+      "summary": "Meta 11 月 4 日完成首次歐元計價公司債，六個天期從 4 年到 38 年，募得 €90 億，訂單達 €530 億歐元、約六倍超額認購，超越 AB InBev 2016 年 €310 億紀錄，成為歐洲企業債史上最大訂單量。前一日它才在美國發行 150 億美元五分券，兩天合計約 250 億美元，全數指向 AI 基礎建設。為吸引對 AI 資本支出存疑的保守投資人，Meta 給的利差約為 Alphabet 本週 €60 億債券的 1.4 倍。Meta 近期另完成 250 億美元 A 股與 125 億美元可轉換特別股發行。",
+      "from_file": "output/2026/11/05.md"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Drax 攜手 Brookfield 在發電廠舊址蓋 GW 級 AI 資料中心：總投資上看 £200 億",
+      "url": "https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/",
+      "source": "drax.com",
+      "company": "Drax / Brookfield",
+      "topic": "Drax Brookfield and Radiant partnership to develop GW-scale AI data centre capacity at Drax Power Station with over 20 billion pounds total investment phased 100MW from 2028",
+      "fingerprint": "Drax|brookfield-radiant-gw-data-centre-drax-power-station|2026-11-05",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "real_world_deployment"
+        ],
+        "note": "退役爭議電廠改造為 GW 級 AI 園區的正式合作"
+      },
+      "summary": "Drax、Brookfield 與其英國 AI 基礎設施平台 Radiant 宣布策略合作，在北約克郡 Drax 發電廠現址開發 GW 級資料中心容量，Brookfield 估計總投資可能超過 £200 億，其中第一階段 £25 億。時程分三段：第一階段 100MW 目標 2028 年 Q1 上線，2028 至 2031 年擴至 500MW，2031 年後再增。Drax 提供土地與併網容量，Radiant 負責設計與商業化，Brookfield-Qai 合資出資。專案仍需規劃許可、電網審批與租戶，公司稱初步評估與英國政府新推出的 Data Centre Covenant 高度契合。",
+      "from_file": "output/2026/11/05.md"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "推理服務商 Fal 估值翻倍到 160 億美元：一輪募 13 億，年化營收已破 8 億",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "source": "techcrunch.com",
+      "company": "Fal",
+      "topic": "Fal raises 1.3 billion dollars at 16 billion valuation led by Bessemer doubling April valuation on surging inference demand with 800 million annualized revenue",
+      "fingerprint": "Fal|series-f-1-3b-16b-valuation-inference-demand|2026-11-05",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "finance",
+          "workflow_automation"
+        ],
+        "note": "估值四個月翻倍，反映推理容量成為獨立大市場"
+      },
+      "summary": "Fal 以 160 億美元估值完成 13 億美元募資，由 Bessemer 領投，NVIDIA、T. Rowe Price、Sound Ventures、HOF Capital 參與，估值為 4 月 80 億美元的兩倍。公司同時公布 Series E（Sequoia 領投）與 Series F，兩輪合計 16.5 億美元。Fal 托管影像、影片與音訊模型的推理服務，今年年化營收突破 8 億美元；執行長 Burkay Gur 表示夏季需求超出現有容量，曾對客戶限流，新資金將投入算力與人力。同業 Baseten、Fireworks AI、Modal 也在快速成長，但算力成本使毛利偏薄。",
+      "from_file": "output/2026/11/05.md"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Netflix 在電視 App 上線 AI Discover 分頁：用心情找片，還能當場反饋調教推薦",
+      "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+      "source": "theverge.com",
+      "company": "Netflix",
+      "topic": "Netflix launches AI Discover tab on TV app with theme-based AI recommendations and real-time feedback learning starting in the US",
+      "fingerprint": "Netflix|ai-discover-tab-theme-recommendations|2026-11-05",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "AI 推薦正式進到電視主介面並支援即時反饋"
+      },
+      "summary": "Netflix 11 月 3 日起在美國逐步推出 AI Discover，電視 App 上方新增 Discover 分頁，首批功能為主題式推薦，如 Something Light、Family Movie Night、Quick Watches，選定主題後給出對應片單。背後是一層新打造的 intelligence layer，會即時回應使用者意見並持續學習，不喜歡的推薦可直接告知且會被記住。Netflix 將 AI Discover 定位為實驗性探索功能的測試廚房，首波僅限美國、英文介面與支援的電視機型。此發表適逢公司裁員約 1,000 人、用戶開 App 頻率下滑。",
+      "from_file": "output/2026/11/05.md"
     }
   ],
   "reason_picked_schema": {
