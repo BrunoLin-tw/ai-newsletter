@@ -22009,6 +22009,146 @@
       },
       "summary": "跟等在對話框裡被叫的助理不同，Teammates 是常駐的：一個工作空間裡可以養多個 agent，各接一個職務同時跑，還會沿用你原本在 Perplexity 裡的專案、技能與記憶。它是建在 Perplexity Computer 之上的協作層，主打「持續性的大規模工作」，進度可以在 App 的個別 thread 追，也能直接在 Slack 裡對話。代價是它綁在每月 200 美元的 Max 方案。這代表 agentic workspace 這個類別現在有三個認真的玩家加一個快速跟隨者——OpenAI 綁 ChatGPT 與 Codex 額度、Anthropic 綁 Claude 訂閱與企業控管、Perplexity 從自己已有的搜尋與研究流程出發。之後的競爭重點不會是模型多聰明，而是觸發設計、connector、歷史處理與失敗復原。",
       "from_file": "output/2026/11/07.md"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "TIER IV 一口氣開源 5 款端到端自駕模型",
+      "url": "https://tier4.co.jp/en/updates/press-release/20261111-tieriv-unveils-e2e-autonomous-driving",
+      "source": "tier4.co.jp",
+      "company": "TIER IV / Autoware Foundation",
+      "topic": "TIER IV releases five end-to-end autonomous driving AI models across camera LiDAR radar and HD map configurations for Autoware",
+      "fingerprint": "TIER IV|five-open-e2e-driving-models-autoware|2026-11-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "五款模型同步開源並整合 Autoware，從 16M 到 2B 參數"
+      },
+      "summary": "TIER IV 公開 Alpamayo 2 Edge、AutoE2E、METEOR、OnePlanner 與 LatentDrive，涵蓋純相機、LiDAR、雷達及 HD 地圖配置；其中 79.9M 參數的 AutoE2E Reactive Model 已整合 Autoware。",
+      "from_file": "output/2026/11/12.md"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "0.8B 的 BotPsy 要把 AI agent 塞進手機",
+      "url": "https://qvac.tether.io/blog/on-device-ai-agent-botpsy",
+      "source": "qvac.tether.io",
+      "company": "Tether AI Research / QVAC",
+      "topic": "BotPsy 0.8B open-weight on-device agent model for offline tool calling and private personal tasks",
+      "fingerprint": "Tether AI Research|botpsy-0-8b-on-device-agent|2026-11-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "0.8B 模型可離線工具呼叫，多步任務勝過 2B 級模型"
+      },
+      "summary": "BotPsy 是可在手機或筆電離線執行的 0.8B 參數 agent 模型，採 Apache 2.0 開放權重；多步任務平均分 50.3，超過大 2.5 倍的 Qwen3.5-2B，並讓個人資料留在裝置端。",
+      "from_file": "output/2026/11/12.md"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "英國 AI 晶片新創 Fractile 募得逾 5 億英鎊",
+      "url": "https://www.wired-gov.net/wg/news.nsf/articles/Sovereign%2BAI%2Band%2BBritish%2BBusiness%2BBank%2Binvest%2Bin%2BBritish%2Bfirm%2Bdeveloping%2Bthe%2Bnext%2Bgeneration%2Bof%2BAI%2Bhardware%2B11112026151500",
+      "source": "wired-gov.net / UK Cabinet Office",
+      "company": "Fractile",
+      "topic": "Fractile raises more than 500 million pounds for full-stack AI inference chips with UK sovereign investment at over 5 billion pound valuation",
+      "fingerprint": "Fractile|500m-pound-ai-chip-series-c-uk-sovereign|2026-11-12",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "逾 5 億英鎊新資金與英國主權投資，將推論晶片推向量產"
+      },
+      "summary": "Fractile 在 Series C 募得逾 5 億英鎊，由英國 Sovereign AI、British Business Bank 與 CapitalG、Lightspeed 等支持，公司估值超過 50 億英鎊，資金將用於擴大 AI 推論晶片與全棧技術。",
+      "from_file": "output/2026/11/12.md"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Databricks 把 Genie 升級成常駐企業 agent",
+      "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex",
+      "source": "databricks.com",
+      "company": "Databricks",
+      "topic": "Databricks second-generation Genie becomes an always-on governed enterprise agent with subagents priority inbox and ontology",
+      "fingerprint": "Databricks|second-gen-always-on-genie-enterprise-agent|2026-11-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Genie 從問答升級為常駐長任務 agent，並可分派 sub-agent"
+      },
+      "summary": "第二代 Genie 能在背景執行長任務、分派 sub-agent、追蹤缺少的輸入，並透過 priority inbox 或 Email 要求人類決策；Genie 與 Ontology 已 GA，常駐模式即將進入預覽與 beta。",
+      "from_file": "output/2026/11/12.md"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Google Labs 推出多人即時協作的 Tabletop",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "source": "blog.google",
+      "company": "Google Labs",
+      "topic": "Google Labs Tabletop generates shared real-time collaborative planning spaces from links files and prompts",
+      "fingerprint": "Google Labs|tabletop-collaborative-planning-spaces|2026-11-12",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把生成式 UI 與多人即時協作合成可分享的規劃空間"
+      },
+      "summary": "Tabletop 讓多人把連結、檔案與想法放進共享空間，再用 @tabletop 生成行程、投票、分帳器或賽程表，所有人可像 Google Doc 一樣即時共同操作；目前先在美國候補開放。",
+      "from_file": "output/2026/11/12.md"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Plurai 用數位孿生替企業 AI agent 壓力測試",
+      "url": "https://www.prnewswire.com/news-releases/plurai-raises-13m-to-build-the-simulation-infrastructure-for-trustworthy-self-improving-ai-agents-302936422.html",
+      "source": "prnewswire.com / Plurai",
+      "company": "Plurai",
+      "topic": "Plurai launches generally available digital twin simulation platform for testing fixing and post-training enterprise AI agents",
+      "fingerprint": "Plurai|ga-agent-simulation-digital-twin-platform|2026-11-12",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "平台正式 GA，用數位孿生找出 agent 罕見失敗並持續修補"
+      },
+      "summary": "Plurai 模擬企業的工具、政策、資料與使用者，先找出 agent 在罕見情境下的失敗，再用小模型與 post-training 降低成本並持續修補；公司同步宣布平台 GA 與 1,300 萬美元種子輪。",
+      "from_file": "output/2026/11/12.md"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Helix 用 4 秒語音挑戰確認真人與年齡",
+      "url": "https://www.prnewswire.com/news-releases/helix-secures-6-2-million-in-pre-seed-capital-and-launches-voice-based-human-verification-for-the-ai-era-302936742.html",
+      "source": "prnewswire.com / Helix",
+      "company": "Helix",
+      "topic": "Helix launches on-device voice-based human identity and age verification with zero PII server storage",
+      "fingerprint": "Helix|on-device-voice-human-age-verification|2026-11-12",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "用裝置端短語音取代 CAPTCHA、簡訊或證件上傳"
+      },
+      "summary": "Helix 用四個數字的語音挑戰在四秒內確認真人、身分與年齡，所有分析都在裝置端完成，不把生物特徵或個資存到伺服器；產品已與首批夥伴上線並募得 620 萬美元。",
+      "from_file": "output/2026/11/12.md"
     }
   ],
   "reason_picked_schema": {
