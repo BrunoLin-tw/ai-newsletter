@@ -22149,6 +22149,144 @@
       },
       "summary": "Helix 用四個數字的語音挑戰在四秒內確認真人、身分與年齡，所有分析都在裝置端完成，不把生物特徵或個資存到伺服器；產品已與首批夥伴上線並募得 620 萬美元。",
       "from_file": "output/2026/11/12.md"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Gemini 4 Hydrogen 上線：每秒 236 tokens、百萬 token 輸入只要 1.5 美元",
+      "url": "https://blog.google/intl/en-in/products/introducing-gemini-4-hydrogen/",
+      "source": "blog.google / Google",
+      "company": "Google",
+      "topic": "Google launches Gemini 4 Hydrogen speed-focused model for coding and agentic workflows with four thinking levels one-million-token context and broad rollout",
+      "fingerprint": "Google|gemini-4-hydrogen-agentic-workflows-launch|2026-11-13",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "高速 Gemini 4 正式廣泛上線，價格與效能細節完整"
+      },
+      "summary": "Google 推出 Gemini 4 Hydrogen，提供 100 萬 token context、四段 thinking level，並稱 coding 與 agent 任務比 3.8 Flash 快 2.5 倍；現已進入 AI Studio、Gemini API、Search 與 Gemini App。",
+      "from_file": "output/2026/11/13.md"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "AMD 新增 288GB HBM4 的 Instinct MI450X",
+      "url": "https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/",
+      "source": "AMD Newsroom",
+      "company": "AMD",
+      "topic": "AMD expands Instinct MI400 series with 288GB HBM4 MI450X for Helios and publishes MI455X DeepSeek-R1 MLPerf Offline inference results",
+      "fingerprint": "AMD|instinct-mi450x-mi455x-helios-mlperf|2026-11-13",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "新增 Helios GPU 記憶體級距並公布可比較的推論成績"
+      },
+      "summary": "AMD 為 Helios 新增 288GB HBM4 的 Instinct MI450X，沿用 MI455X 的運算與互連規格；同時公布 MI455X 跑 DeepSeek-R1 的 MLPerf Offline 成績，每顆 GPU 達 21,333 tokens/s。",
+      "from_file": "output/2026/11/13.md"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "黃仁勳辭去 NVIDIA 執行長，財務長 Colette Kress 暫代",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "source": "NVIDIA Newsroom",
+      "company": "NVIDIA",
+      "topic": "NVIDIA CEO transition as Jensen Huang resigns immediately and CFO Colette Kress becomes interim CEO while board starts successor search",
+      "fingerprint": "NVIDIA|jensen-huang-resigns-colette-kress-interim-ceo|2026-11-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "leadership_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "創辦人執行長即刻辭職，直接牽動全球 AI 基礎設施龍頭"
+      },
+      "summary": "黃仁勳即刻辭去 NVIDIA 執行長與董事職務，財務長 Colette Kress 暫代，董事會啟動內外部接班人搜尋；公司稱營運與產品路線不受影響。",
+      "from_file": "output/2026/11/13.md"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Anthropic 把 Claude Managed Agents 整套搬進企業內網",
+      "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+      "source": "Claude / Anthropic",
+      "company": "Anthropic",
+      "topic": "Anthropic opens self-hosted Claude Managed Agents private beta for running harness sandboxes credentials and session history in customer cloud or on-premises",
+      "fingerprint": "Anthropic|self-hosted-claude-managed-agents-private-beta|2026-11-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "完整 agent 控制平面首次可自架，解除受監管企業採用障礙"
+      },
+      "summary": "自架版 Claude Managed Agents 讓企業在自家雲端或地端運行 harness、sandbox、憑證與 session history，並自行決定模型請求路由；目前開放私有測試。",
+      "from_file": "output/2026/11/13.md"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "美國倡議團體告上法院，要求五大 AI 公司暫停新模型",
+      "url": "https://apnews.com/article/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai-03ece37b96979fe834f60976648504ba",
+      "source": "Associated Press",
+      "company": "Anthropic / Google / Meta / OpenAI / SpaceXSI",
+      "topic": "US advocacy groups sue five leading AI companies in California seeking to halt development and deployment of new models over catastrophic-risk claims",
+      "fingerprint": "AI industry|california-lawsuit-halt-new-model-development|2026-11-13",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "訴訟直接要求五大 AI 公司停止開發與部署新模型"
+      },
+      "summary": "四個倡議團體在舊金山高等法院控告 Anthropic、Google、Meta、OpenAI 與 SpaceXSI，主張網攻與失控風險構成公共危害，並要求停止新模型開發與部署。",
+      "from_file": "output/2026/11/13.md"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Claude Meetings 進入 beta，直接加入 Google Meet 邊聊邊做事",
+      "url": "https://claude.com/resources/articles/claude-meetings",
+      "source": "Claude / Anthropic",
+      "company": "Anthropic",
+      "topic": "Anthropic launches Claude Meetings beta for Team and Enterprise with Google Meet participation live notes action items documents and whiteboards",
+      "fingerprint": "Anthropic|claude-meetings-google-meet-beta|2026-11-13",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Claude 首次成為可見會議參與者並同步產出工作成果"
+      },
+      "summary": "Claude Meetings 在 Team、Enterprise 進入 beta，可作為可見參與者加入 Google Meet，製作逐字稿、摘要與待辦，並在通話中建立文件和白板。",
+      "from_file": "output/2026/11/13.md"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "NiCE Cognigy 換上新一代企業 AI agent 工作台",
+      "url": "https://www.businesswire.com/news/home/20261112890751/en/NiCE-Launches-Next-Generation-NiCE-Cognigy-to-Accelerate-Enterprise-AI-Agent-Deployment-and-Orchestration",
+      "source": "Business Wire / NiCE",
+      "company": "NiCE",
+      "topic": "NiCE launches next-generation Cognigy enterprise AI agent platform with AI Assist reusable skills decision tracing and native speech-to-speech",
+      "fingerprint": "NiCE|next-generation-cognigy-agentic-experience-studio|2026-11-13",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "企業 agent 工作台加入完整建置、追蹤與語音能力"
+      },
+      "summary": "新一代 NiCE Cognigy 加入 AI Assist、可重用 skills、完整 decision tracing 與原生語音對語音模型，預設模型直接包含在每次對話價格中。",
+      "from_file": "output/2026/11/13.md"
     }
   ],
   "reason_picked_schema": {
