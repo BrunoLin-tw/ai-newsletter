@@ -22428,6 +22428,170 @@
       },
       "summary": "開源 NeMo Switchyard 搭配 LiteLLM 與 Bedrock，可依最近工具執行結果在 Claude Opus 5.5 和 Nemotron 3 Super 之間切換，評估重點改看每個成功任務的成本。",
       "from_file": "output/2026/11/14.md"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "MIT 的 AI copilot 讓工程師邊算邊改結構設計",
+      "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+      "source": "MIT News",
+      "company": "MIT",
+      "topic": "MIT human-in-the-loop AI copilot improves topology optimized structural manufacturability and buckling performance",
+      "fingerprint": "MIT|human-in-loop-structural-topology-optimization-copilot|2026-11-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "人機協作拓樸最佳化實測提升屈曲載重與可製造性"
+      },
+      "summary": "系統用機器學習找出最可能需要人工調整的區域，讓工程師在拓樸最佳化過程中直接加厚或削薄；實驗把可製造性與線性屈曲載重提升 39%，總設計時間只多約 15 秒。",
+      "from_file": "output/2026/11/15.md"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Bland 推出全雙工語音模型 Tofu-1",
+      "url": "https://www.bland.ai/speech-to-speech",
+      "source": "Bland",
+      "company": "Bland",
+      "topic": "Bland launches Tofu-1 full-duplex speech-to-speech model for noisy high-stakes multi-speaker calls",
+      "fingerprint": "Bland|tofu-1-full-duplex-high-stakes-voice-model|2026-11-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "healthcare"
+        ],
+        "note": "首款模型開放研究預覽，主打嘈雜高風險通話的全雙工理解"
+      },
+      "summary": "模型直接理解音訊，可在多人重疊、車內或醫院等嘈雜情境分辨說話者與背景聲，並在說話時持續聆聽、被打斷與同步推理；目前開放企業申請 research preview。",
+      "from_file": "output/2026/11/15.md"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Google 把 Antigravity 多 agent 團隊開放給外部研究者",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "source": "Google Research",
+      "company": "Google Research",
+      "topic": "Google Antigravity teamwork multi-agent workflows become externally available for open science engineering and formal proof problems",
+      "fingerprint": "Google Research|antigravity-teamwork-multi-agent-science-release|2026-11-15",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "education"
+        ],
+        "note": "研究型多 agent 工作流正式外放並提供萬名學者六個月額度"
+      },
+      "summary": "`/teamwork` 與 `/boost` 已用 Gemini 4 系列協作處理資訊理論、形式驗證、分子結構與 kernel 最佳化等開放問題；Google 同時開放 1 萬名學術研究者申請六個月最高用量方案。",
+      "from_file": "output/2026/11/15.md"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "GitHub 讓 AI Scan 可透過 REST API 大規模管理",
+      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/",
+      "source": "GitHub Changelog",
+      "company": "GitHub",
+      "topic": "GitHub adds organization and repository REST API controls for AI Scan repository security analysis",
+      "fingerprint": "GitHub|ai-scan-repository-rest-api-management|2026-11-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "AI Scan 首次可由 REST API 與 IaC 在組織和儲存庫層級管理"
+      },
+      "summary": "組織與儲存庫管理者能用 `repository_scan` 開關全庫 agentic 安全掃描，並寫進 script 或 IaC；企業政策若禁止啟用，API 會回傳 422 且不套用任何變更。",
+      "from_file": "output/2026/11/15.md"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "OpenAI 投入 200 萬美元研究兒童與 AI 安全",
+      "url": "https://openai.com/index/children-first-declaration/",
+      "source": "OpenAI",
+      "company": "OpenAI",
+      "topic": "OpenAI commits two million dollars to independent global research network on AI and children safety measurement",
+      "fingerprint": "OpenAI|children-ai-safety-research-network-funding|2026-11-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "education",
+          "security_research"
+        ],
+        "note": "簽署兒童安全 AI 憲章並資助可獨立發布結果的研究網路"
+      },
+      "summary": "資金將支持跨國研究網路建立共用風險與機會衡量工具；研究團隊保有結論控制權，連負面或無顯著結果也會公開。",
+      "from_file": "output/2026/11/15.md"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Google Cloud 用 agent skills 把 HPC 部署流程規格化",
+      "url": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26",
+      "source": "Google Cloud",
+      "company": "Google Cloud",
+      "topic": "Google Cloud launches validated reusable agent skills for Cluster Toolkit HPC deployment and optimization at SC26",
+      "fingerprint": "Google Cloud|validated-agent-skills-cluster-toolkit-hpc-sc26|2026-11-15",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "不同於昨日可觀測性，本次是可下載且經測試的 HPC 部署技能"
+      },
+      "summary": "新技能會先查配額、做區域容量 canary、匹配 Cluster Toolkit blueprint，再等人工核准才部署；Google 也在 SC26 展示 Antigravity for HPC 與 AlphaEvolve 的雲端演算法最佳化。",
+      "from_file": "output/2026/11/15.md"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Devin Apps 讓 coding agent 直接交付私有內部工具",
+      "url": "https://devin.ai/blog/devin-apps",
+      "source": "Devin",
+      "company": "Cognition",
+      "topic": "Cognition launches Devin Apps for building hosting and versioning private internal web applications on Devin cloud computers",
+      "fingerprint": "Cognition|devin-apps-private-agent-built-internal-tools|2026-11-15",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "coding agent 首次直接承接私有 app 建置、託管、版本與存取控制"
+      },
+      "summary": "使用者描述需求後，Devin 會建置並託管可分享的穩定網址，沿用既有 MCP、整合與程式碼；更新失敗會回退舊版，機器閒置休眠，定位在內部工具而非高流量服務。",
+      "from_file": "output/2026/11/15.md"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Vercel Workflow SDK 5 把長流程 agent 做到更快、更安全",
+      "url": "https://vercel.com/blog/workflow-sdk-5",
+      "source": "Vercel",
+      "company": "Vercel",
+      "topic": "Vercel releases Workflow SDK 5 with encrypted regional durable execution and lower agent workflow overhead",
+      "fingerprint": "Vercel|workflow-sdk-5-encrypted-regional-agent-durability|2026-11-15",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "workflow_automation"
+        ],
+        "note": "正式版加入端到端加密、區域化執行與最高 25 倍開銷改善"
+      },
+      "summary": "每次執行以 AES-256-GCM 端到端加密 payload，工作流可就近跑在各區域；官方基準中 1,020 steps 的中位時間從 21 分鐘降到 3 分鐘，串流交付從 226.1 秒降到 53.5 秒。",
+      "from_file": "output/2026/11/15.md"
     }
   ],
   "reason_picked_schema": {
