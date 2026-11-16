@@ -22592,6 +22592,127 @@
       },
       "summary": "每次執行以 AES-256-GCM 端到端加密 payload，工作流可就近跑在各區域；官方基準中 1,020 steps 的中位時間從 21 分鐘降到 3 分鐘，串流交付從 226.1 秒降到 53.5 秒。",
       "from_file": "output/2026/11/15.md"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Inkling 2 Small 正式開放權重",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "source": "Thinking Machines Lab",
+      "company": "Thinking Machines Lab",
+      "topic": "Thinking Machines Lab releases Inkling 2 Small open weights under Apache 2.0 with broad inference and training integrations",
+      "fingerprint": "Thinking Machines Lab|inkling-2-small-open-weights-release|2026-11-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "不同於 11 月 5 日的閉源預覽，完整權重已通過安全測試並以 Apache 2.0 開放"
+      },
+      "summary": "Thinking Machines Lab 將 594B 總參數、17B 啟用參數的多模態 MoE 模型 Inkling 2 Small 正式開放權重，並接上 vLLM、SGLang、Unsloth 與多家推論平台。",
+      "from_file": "output/2026/11/16.md"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "改不到 10 個神經元，就能把 AI agent 變成潛伏攻擊者",
+      "url": "https://www.microsoft.com/en-us/research/publication/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "source": "Microsoft Research",
+      "company": "Microsoft Research",
+      "topic": "Lazarus backdoors tool-using AI agents by reprogramming fewer than ten dormant neurons without model retraining",
+      "fingerprint": "Microsoft Research|lazarus-dormant-neuron-agent-backdoor|2026-11-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "security_research",
+          "benchmark_detail"
+        ],
+        "note": "首次證明少量權重修改即可讓通過一般評測的 agent 在觸發後執行惡意命令"
+      },
+      "summary": "Microsoft Research 的 Lazarus 方法不需重新訓練就能植入觸發式惡意 payload；在 Nemotron-Terminal-8B 上僅改 7 個神經元，觸發後成功率至少 98.8%。",
+      "from_file": "output/2026/11/16.md"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "ZONOS3-Mini 把即時語音複製塞進手機瀏覽器",
+      "url": "https://www.zyphra.com/our-work/zonos3-mini",
+      "source": "Zyphra",
+      "company": "Zyphra",
+      "topic": "Zyphra releases Apache 2.0 ZONOS3-Mini on-device real-time voice cloning TTS with word-level delivery control",
+      "fingerprint": "Zyphra|zonos3-mini-on-device-voice-cloning-tts|2026-11-16",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "開源 100M 啟用參數模型首次把高擬真語音複製與逐字表達控制帶到手機瀏覽器"
+      },
+      "summary": "ZONOS3-Mini 是 800M 總參數、100M 啟用參數的開源 TTS 模型，可控制語者、口音、情緒與語速；Pixel 9 瀏覽器首段音訊延遲低於 570 ms。",
+      "from_file": "output/2026/11/16.md"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Anthropic 推出 Claude for Manufacturing",
+      "url": "https://claude.com/resources/articles/claude-for-manufacturing",
+      "source": "Claude / Anthropic",
+      "company": "Anthropic",
+      "topic": "Anthropic launches Claude for Manufacturing plugin with 17 skills and Autodesk Fusion Infor Microsoft 365 and NetSuite connectors",
+      "fingerprint": "Anthropic|claude-for-manufacturing-plugin-launch|2026-11-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "不同於近期通用型 Claude agent，本次針對製造現場推出 17 項技能與四套核心系統連接器"
+      },
+      "summary": "Claude for Manufacturing 內含 17 項製造業技能，串接 Autodesk Fusion、Infor、Microsoft 365 與 Oracle NetSuite，可處理報價、品質報告、供應鏈與停機診斷並保留人工核准。",
+      "from_file": "output/2026/11/16.md"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "GitHub Copilot 今日淘汰三款舊模型",
+      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/",
+      "source": "GitHub Changelog",
+      "company": "GitHub",
+      "topic": "GitHub Copilot deprecates Claude Opus 4.8 Claude Opus 5 and GPT-5.6 Terra across Copilot experiences on November 16",
+      "fingerprint": "GitHub|copilot-three-models-retired-november-16|2026-11-16",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "先前公告的模型退役於今日正式生效，企業工作流需切換到指定替代模型"
+      },
+      "summary": "Claude Opus 4.8、Claude Opus 5 與 GPT-5.6 Terra 自 11 月 16 日起退出多數 GitHub Copilot 體驗，官方建議改用 Claude Opus 5.5、GPT-6.1 Sol 或 GPT-6 Luna。",
+      "from_file": "output/2026/11/16.md"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Automattic 推出讓 AI agent 直接部署 app 的 Spacefast",
+      "url": "https://automattic.com/2026/11/09/meet-spacefast/",
+      "source": "Automattic",
+      "company": "Automattic / Spacefast",
+      "topic": "Automattic launches Spacefast for AI agents to deploy and manage hosted apps databases domains versions and access controls",
+      "fingerprint": "Automattic|spacefast-agent-native-app-deployment-platform|2026-11-16",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "把託管、資料庫、網域、版本與權限封裝成 agent 可直接操作的 API、CLI 和 MCP 流程"
+      },
+      "summary": "Spacefast 讓既有 AI 或 coding agent 直接完成 app 託管、SQL 資料庫、網域、版本與分享權限設定，敏感操作另設核准檢查，並提供 API、CLI 與 MCP server。",
+      "from_file": "output/2026/11/16.md"
     }
   ],
   "reason_picked_schema": {
