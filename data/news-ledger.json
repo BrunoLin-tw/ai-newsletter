@@ -22713,6 +22713,146 @@
       },
       "summary": "Spacefast 讓既有 AI 或 coding agent 直接完成 app 託管、SQL 資料庫、網域、版本與分享權限設定，敏感操作另設核准檢查，並提供 API、CLI 與 MCP server。",
       "from_file": "output/2026/11/16.md"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Qwen4-Max 登場：2.4 兆參數、每 token 啟用 710 億參數",
+      "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max?_p_lc=1",
+      "source": "Alibaba Cloud",
+      "company": "Alibaba Cloud / Qwen",
+      "topic": "Alibaba releases Qwen4-Max 2.4T MoE multimodal flagship with 71B active parameters and one-million-token context",
+      "fingerprint": "Alibaba Cloud|qwen4-max-2-4t-moe-multimodal-launch|2026-11-17",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "新一代旗艦 MoE 正式發布，架構、成本與基準細節完整"
+      },
+      "summary": "阿里巴巴發布 2.4 兆參數 Qwen4-Max，原生支援視覺與 100 萬 token 上下文；每 token 啟用 710 億參數，官方稱高推理強度下比前代少用 35% token。",
+      "from_file": "output/2026/11/17.md"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "騰訊 Hy4 flash 用 120 億啟用參數拚低價高速",
+      "url": "https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/",
+      "source": "Tencent",
+      "company": "Tencent Hy",
+      "topic": "Tencent launches Hy4 flash 224B MoE with 12B active parameters multimodal input one-million-token context and low-cost high-speed inference",
+      "fingerprint": "Tencent|hy4-flash-low-cost-fast-multimodal-launch|2026-11-17",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "新模型以低啟用參數、150 tokens/s 與大幅降價主打實用部署"
+      },
+      "summary": "Hy4 flash 是 2240 億參數、每次啟用 120 億參數的多模態 MoE，支援 100 萬 token 上下文，官方公布解碼超過每秒 150 tokens 與每百萬輸入 tokens 約 0.07 美元。",
+      "from_file": "output/2026/11/17.md"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "MLPerf Training v6.1 首納 Rubin 與 TPUv7",
+      "url": "https://www.globenewswire.com/news-release/2026/11/16/3403869/0/en/mlcommons-releases-mlperf-training-v6-1-results-spotlighting-recent-advances-in-ai-training.html",
+      "source": "MLCommons",
+      "company": "MLCommons",
+      "topic": "MLCommons publishes MLPerf Training v6.1 with new post-training benchmarks Rubin GPUs TPUv7 and record-scale industry participation",
+      "fingerprint": "MLCommons|mlperf-training-v6-1-rubin-tpuv7-results|2026-11-17",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "新一輪獨立訓練基準加入 post-training、Rubin 與 TPUv7 結果"
+      },
+      "summary": "MLPerf Training v6.1 收到 24 個組織的 153 套系統與 250 筆結果，首次納入 Rubin GPU、Google TPUv7 及新 post-training 測試，最大提交規模達 10,240 顆加速器。",
+      "from_file": "output/2026/11/17.md"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "OpenAI 讓醫療 AI agent 直接跨系統辦事",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/",
+      "source": "OpenAI",
+      "company": "OpenAI",
+      "topic": "OpenAI expands ChatGPT for Healthcare with computer-use agents improved clinical search and more than twenty healthcare plugins",
+      "fingerprint": "OpenAI|healthcare-computer-use-agents-clinical-search-plugins|2026-11-17",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "healthcare"
+        ],
+        "note": "醫療產品新增跨應用操作、臨床搜尋與 20 多款外掛並已實際部署"
+      },
+      "summary": "ChatGPT for Healthcare 新增 computer-use agents、改良臨床搜尋與 20 多款外掛，可跨 EHR、排程及保險入口執行流程，並提供存取控制與稽核紀錄。",
+      "from_file": "output/2026/11/17.md"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Pony.ai 與 Toyota 的無人 bZ4X Robotaxi 正式營運",
+      "url": "https://ir.pony.ai/node/8791/pdf",
+      "source": "Pony.ai Investor Relations",
+      "company": "Pony.ai / Toyota",
+      "topic": "Pony.ai and Toyota launch fully driverless commercial Gen-7 bZ4X Robotaxi service in Guangzhou toward a one-thousand-vehicle deployment",
+      "fingerprint": "Pony.ai Toyota|gen7-bz4x-driverless-commercial-service|2026-11-17",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "第七代 Level 4 車款由量產驗證跨入全天候商業營運"
+      },
+      "summary": "Pony.ai 與 Toyota 的第七代 bZ4X Robotaxi 已加入廣州 24 小時全無人商業服務，雙方同時準備進入其他主要城市，目標部署約 1,000 輛。",
+      "from_file": "output/2026/11/17.md"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Amazon Bedrock 把長期記憶接進 Agentic Retrieve",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/",
+      "source": "AWS Machine Learning Blog",
+      "company": "Amazon Web Services",
+      "topic": "Amazon Bedrock Managed Knowledge Base integrates AgentCore memory with Agentic Retrieve for private per-user long-term memory and ACL-aware retrieval",
+      "fingerprint": "AWS|bedrock-agentic-retrieve-agentcore-memory-integration|2026-11-17",
+      "section": "tools",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Agentic Retrieve 原生整合長期記憶、ACL 與回合持久化"
+      },
+      "summary": "Bedrock Managed Knowledge Base 可透過 memoryConfiguration 將 AgentCore memory 當成檢索來源，在單次 AgenticRetrieveStream 中還原對話、搜尋長期記憶、套用文件 ACL 並保存新回合。",
+      "from_file": "output/2026/11/17.md"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "AWS 讓桌面 AI agent 在 image builder 先練再上線",
+      "url": "https://aws.amazon.com/blogs/desktop-and-application-streaming/workspaces-for-ai-agents-now-available-on-workspaces-applications-image-builders/",
+      "source": "AWS Desktop and Application Streaming Blog",
+      "company": "Amazon Web Services",
+      "topic": "AWS makes WorkSpaces for AI Agents available on WorkSpaces Applications image builders for governed desktop workflow testing before production",
+      "fingerprint": "AWS|workspaces-ai-agents-image-builder-testing|2026-11-17",
+      "section": "tools",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "桌面 agent 測試能力擴展至 image builder，支援切換使用者與稽核"
+      },
+      "summary": "WorkSpaces for AI Agents 現可在 Applications image builders 直接測試與調整桌面 agent，沿用 MCP、權限、護欄與監控，並能在同一 session 切換管理員與一般使用者。",
+      "from_file": "output/2026/11/17.md"
     }
   ],
   "reason_picked_schema": {
