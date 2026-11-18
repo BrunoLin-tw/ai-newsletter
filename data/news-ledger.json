@@ -22853,6 +22853,166 @@
       },
       "summary": "WorkSpaces for AI Agents 現可在 Applications image builders 直接測試與調整桌面 agent，沿用 MCP、權限、護欄與監控，並能在同一 session 切換管理員與一般使用者。",
       "from_file": "output/2026/11/17.md"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "OpenAI 推出 GPT-6.2 Astra 與 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "source": "OpenAI",
+      "company": "OpenAI",
+      "topic": "OpenAI launches GPT-6.2 Astra and Sol for professional work coding computer use and more efficient agentic workflows",
+      "fingerprint": "OpenAI|gpt-6-2-astra-sol-launch|2026-11-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "兩款新一代模型正式上線，專業工作、coding、computer use、價格與安全評測細節完整"
+      },
+      "summary": "GPT-6.2 Astra 專攻高難度專業工作，API 輸入與輸出價格比 GPT-6 Astra 低 20%；GPT-6.2 Sol 維持前代價格，強化多步 agent、coding 與 computer use。",
+      "from_file": "output/2026/11/18.md"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Microsoft 一口氣發布七款 MAI 模型",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "source": "Microsoft AI",
+      "company": "Microsoft",
+      "topic": "Microsoft releases seven MAI models across cybersecurity coding image speech transcription and decision routing at Ignite 2026",
+      "fingerprint": "Microsoft|seven-mai-models-ignite-2026|2026-11-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "七款自研模型同步發布，覆蓋多個企業工作負載並公開價格效能數據"
+      },
+      "summary": "新陣容涵蓋資安、coding、影像、即時語音、醫療轉錄與決策路由；官方稱 MAI Code 2 以約 40% 價格達到 GPT-6.1 Sol 的 98% coding 品質。",
+      "from_file": "output/2026/11/18.md"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "EmbeddingGemma 2 把四種模態塞進同一向量空間",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2-technical-report/",
+      "source": "Google",
+      "company": "Google",
+      "topic": "Google releases EmbeddingGemma 2 multimodal open embedding model and technical report for text image audio and video",
+      "fingerprint": "Google|embeddinggemma-2-multimodal-technical-report|2026-11-18",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "開放 embedding 模型首次原生統一四種模態，並同步公布完整技術報告"
+      },
+      "summary": "EmbeddingGemma 2 原生支援文字、圖片、音訊與影片，將不同模態映射到同一向量空間，並公布完整訓練方法、評測與實驗結果。",
+      "from_file": "output/2026/11/18.md"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Microsoft IQ 統一企業 agent 的知識底座",
+      "url": "https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent/",
+      "source": "Microsoft Azure",
+      "company": "Microsoft",
+      "topic": "Microsoft launches IQ enterprise context platform combining Work Fabric Foundry and Web IQ with reusable governed business plugins",
+      "fingerprint": "Microsoft|iq-enterprise-context-agent-platform|2026-11-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "新企業 context 平台把四套 IQ、逾 350 個連接器與可跨 agent 重用的 business plugin 整合起來"
+      },
+      "summary": "Microsoft IQ 整合 Work、Fabric、Foundry 與 Web IQ，加上逾 350 個連接器，讓治理過的資料、技能與 business plugin 能跨 Copilot、ChatGPT、Claude 與 MCP 重用。",
+      "from_file": "output/2026/11/18.md"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "OpenAI 推出 ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales/",
+      "source": "OpenAI",
+      "company": "OpenAI",
+      "topic": "OpenAI launches ChatGPT for Sales with dedicated sales plugin and more than thirty partner plugins across CRM prospecting meetings and contracts",
+      "fingerprint": "OpenAI|chatgpt-for-sales-plugin-ecosystem|2026-11-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "不同於昨日醫療方案，本次推出完整銷售垂直流程與 30 多款夥伴 plugin"
+      },
+      "summary": "ChatGPT for Sales 以新 Sales plugin 搭配 30 多款新增或升級的夥伴 plugin，串起 CRM、會議紀錄、外聯、報價與簡報工具，讓業務從找客戶到跟進都在 ChatGPT 完成。",
+      "from_file": "output/2026/11/18.md"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Meta Muse 正式進軍澳洲",
+      "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+      "source": "Meta Newsroom",
+      "company": "Meta",
+      "topic": "Meta expands Muse personal AI agent to Australia with local commerce property fitness creative and entertainment connectors",
+      "fingerprint": "Meta|muse-australia-local-connectors-launch|2026-11-18",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "Muse 首次進入澳洲並加入一批在地生活服務連接器"
+      },
+      "summary": "Meta Muse 在澳洲上線，將逐步串接 Canva、Domain、Kogan、Ticketek 等在地服務；敏感操作前會要求確認，憑證則保存在專屬 Secure VM。",
+      "from_file": "output/2026/11/18.md"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Gemini Task 開始替你打電話、繳帳單與購物",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "Google",
+      "company": "Google",
+      "topic": "Google rolls out Gemini Task mode for calls appointments bill analysis shopping payments email and calendar workflows in six markets",
+      "fingerprint": "Google|gemini-task-personal-agent-six-markets|2026-11-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Gemini 從對話跨進可執行通話、付款與跨應用流程的免費 task mode"
+      },
+      "summary": "Google 把多步任務能力免費推向美國、日本、韓國、加拿大、澳洲與印度；Gemini 可連接行事曆、郵件、密碼與付款方式，並在硬體隔離 VM 中執行、關鍵步驟先徵求確認。",
+      "from_file": "output/2026/11/18.md"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "GitHub Copilot Evals 開放公開預覽",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview/",
+      "source": "GitHub Changelog",
+      "company": "GitHub",
+      "topic": "GitHub launches Copilot Evals public preview for repeatable testing and regression comparison of skills custom agents and MCP tools",
+      "fingerprint": "GitHub|copilot-evals-public-preview|2026-11-18",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "首次提供針對 Copilot skill、agent 與 MCP 的可重跑本機 eval 工作流"
+      },
+      "summary": "GitHub Copilot Evals 可為 skill、custom agent 與 MCP tool 建立可重跑的測試，比較修改前後結果並找出 regression；目前支援 VS Code、Copilot CLI 與 Copilot app。",
+      "from_file": "output/2026/11/18.md"
     }
   ],
   "reason_picked_schema": {
