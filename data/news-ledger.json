@@ -23013,6 +23013,147 @@
       },
       "summary": "GitHub Copilot Evals 可為 skill、custom agent 與 MCP tool 建立可重跑的測試，比較修改前後結果並找出 regression；目前支援 VS Code、Copilot CLI 與 Copilot app。",
       "from_file": "output/2026/11/18.md"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Rumble-2-Flash：5 億參數做 40 多語語音辨識",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "source": "Hugging Face / Reson8",
+      "company": "Reson8 / Hugging Face",
+      "topic": "Reson8 open sources Rumble-2-Flash 0.5B multilingual speech recognition model with Transformers and vLLM support",
+      "fingerprint": "Reson8|rumble-2-flash-open-multilingual-asr|2026-11-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "Apache 2.0 開源 0.5B ASR，公布多語、速度與真實電話基準"
+      },
+      "summary": "Rumble-2-Flash 支援 40 多種語言與自動語言偵測，原生相容 Transformers、vLLM；官方稱滿批次超過 7,000 RTFx，並在 302 小時客服電話基準上追平 30B 級模型。",
+      "from_file": "output/2026/11/19.md"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Google 開源 Sashiko，替 Linux 核心做 agentic code review",
+      "url": "https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system",
+      "source": "Google Cloud",
+      "company": "Google",
+      "topic": "Google open-source Sashiko Gemini-powered agentic code review system for Linux kernel maintainers",
+      "fingerprint": "Google|sashiko-linux-agentic-code-review|2026-11-19",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "新開源 agentic review 系統已捐給 Linux Foundation，專攻核心級驗證"
+      },
+      "summary": "Sashiko 由 Gemini 驅動，將 bug 發現與驗證分離，協助維護者審查 Linux kernel 每年超過 8.5 萬筆變更；Google 同步公開架構、實測資料與開發經驗。",
+      "from_file": "output/2026/11/19.md"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Genie 4 正式進入 Project Genie",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "source": "Google",
+      "company": "Google DeepMind",
+      "topic": "Google rolls out Genie 4 interactive world model to eligible AI Ultra subscribers in Project Genie",
+      "fingerprint": "Google DeepMind|genie-4-project-genie-subscriber-rollout|2026-11-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "不同於 10 月研究預覽，本次首次向 AI Ultra 訂閱戶正式開放"
+      },
+      "summary": "Google AI Ultra 訂閱戶現在可在瀏覽器使用 Genie 4，以自然語言即時改變世界、加入角色與原生音訊；Project Genie 也新增建構 agent 與社群 remix gallery。",
+      "from_file": "output/2026/11/19.md"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "NVIDIA RTX Spark 桌上型迷你機正式開賣",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "source": "NVIDIA Blog",
+      "company": "NVIDIA",
+      "topic": "NVIDIA launches RTX Spark compact desktops from ASUS Dell and MSI for local 120B model and always-on agent workloads",
+      "fingerprint": "NVIDIA|rtx-spark-compact-desktops-availability|2026-11-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "不同於 10 月筆電開賣，本次 ASUS、Dell、MSI 桌上型迷你機正式供貨"
+      },
+      "summary": "首批 RTX Spark compact desktops 配備 20 核 Grace CPU、6,144 核 Blackwell RTX GPU、最高 128GB 統一記憶體與 1 petaflop AI 效能，可在本機執行 120B 模型與常駐 agent。",
+      "from_file": "output/2026/11/19.md"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Azure 今日退役整批 o-series 推理模型",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+      "source": "Microsoft Learn",
+      "company": "Microsoft Azure",
+      "topic": "Microsoft Foundry retires o1 o1-pro o3 o3-deep-research o3-mini o3-pro and o4-mini models on November 19",
+      "fingerprint": "Microsoft Azure|o-series-model-retirement-november-19|2026-11-19",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "既定退役今日正式生效，批次、區域與佈建型工作負載需分流遷移"
+      },
+      "summary": "o1、o1-pro、o3、o3-deep-research、o3-mini、o3-pro 與 o4-mini 同日退役；官方建議多數部署改用 GPT-5.6 Sol 或 Terra，部分 Batch 與 Regional 類型需另選替代模型。",
+      "from_file": "output/2026/11/19.md"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Stitch AI 把銀行 agent 直接裝進核心營運",
+      "url": "https://www.stitch.co/ai",
+      "source": "Stitch",
+      "company": "Stitch",
+      "topic": "Stitch launches governed banking AI platform with copilot prebuilt agents and custom agent harness",
+      "fingerprint": "Stitch|banking-copilot-prebuilt-agents-governed-harness|2026-11-19",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "finance",
+          "workflow_automation"
+        ],
+        "note": "銀行專用平台同時整合 Copilot、預製 agent 與可稽核自建 harness"
+      },
+      "summary": "Stitch AI 提供自然語言 Copilot、七款預製銀行 agent 與自建 harness；每個 agent 都有獨立身分、權限、硬限制、maker-checker、資料遮罩與完整稽核軌跡。",
+      "from_file": "output/2026/11/19.md"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "FlowForma Agent Trust 專抓企業裡的影子 agent",
+      "url": "https://www.flowforma.com/news/introducing-flowforma-agent-trust",
+      "source": "FlowForma",
+      "company": "FlowForma",
+      "topic": "FlowForma launches cross-platform Agent Trust governance hub for discovering monitoring pausing and auditing enterprise AI agents",
+      "fingerprint": "FlowForma|agent-trust-cross-platform-governance-hub|2026-11-19",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "相較近期單一平台治理工具，本次新意是跨平台發現影子 agent 與一鍵 containment"
+      },
+      "summary": "FlowForma Agent Trust 可跨 Copilot Studio、Power Automate、n8n 與自建系統發現未登記 agent，指派負責人、追蹤成果與成本，並一鍵暫停或送交人工審查。",
+      "from_file": "output/2026/11/19.md"
     }
   ],
   "reason_picked_schema": {
