@@ -23154,6 +23154,128 @@
       },
       "summary": "FlowForma Agent Trust 可跨 Copilot Studio、Power Automate、n8n 與自建系統發現未登記 agent，指派負責人、追蹤成果與成本，並一鍵暫停或送交人工審查。",
       "from_file": "output/2026/11/19.md"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Gemini API 推出 Tool Retrieval，工具 schema 用到再載入",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google",
+      "company": "Google",
+      "topic": "Google launches Gemini API Tool Retrieval preview for on-demand function and MCP parameter schema loading",
+      "fingerprint": "Google|gemini-api-tool-retrieval-preview|2026-11-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "大型工具庫可按需載入 schema，直接降低 agent token 與延遲"
+      },
+      "summary": "Gemini Interactions API 新增 Tool Retrieval，agent 只在需要時載入完整工具參數 schema，可降低 token、延遲與選擇失準；支援 Gemini 3.6 以上模型及遠端 MCP server。",
+      "from_file": "output/2026/11/20.md"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Genie 4 正式開放 Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+      "source": "Google",
+      "company": "Google DeepMind",
+      "topic": "Google makes Genie 4 interactive world model available through Gemini Interactions API and AI Studio",
+      "fingerprint": "Google DeepMind|genie-4-gemini-api-ai-studio|2026-11-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "不同於昨日訂閱戶 rollout，本次首次讓開發者經 API 建立互動世界"
+      },
+      "summary": "Genie 4 現可透過 Interactions API 與 Google AI Studio 生成 720p、24fps、含同步原生音訊的可互動世界，並用鍵盤與文字即時改變場景。",
+      "from_file": "output/2026/11/20.md"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "OpenAI 用 Codex 效能工廠自動抓 ChatGPT regression",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/",
+      "source": "OpenAI",
+      "company": "OpenAI",
+      "topic": "OpenAI deploys Codex-powered Performance Factory for autonomous ChatGPT regression investigation fixes and recovery verification",
+      "fingerprint": "OpenAI|codex-performance-factory-chatgpt-regressions|2026-11-20",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "workflow_automation",
+          "benchmark_detail"
+        ],
+        "note": "端到端 agent 工作流已在生產環境完成逾 1,700 次效能調查"
+      },
+      "summary": "Performance Factory 把告警、根因分析、修正提案與部署後驗證串成完整工作流；三個多月已跑逾 1,700 次調查並找出 600 多起根因。",
+      "from_file": "output/2026/11/20.md"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Gemini 登上 Mac，能在背景操作桌面 App 與網站",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "source": "Google",
+      "company": "Google",
+      "topic": "Google launches Gemini computer use on Mac for isolated background desktop app file and web workflows",
+      "fingerprint": "Google|gemini-mac-background-computer-use|2026-11-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Gemini 首次在 Mac 隔離背景視窗跨桌面 App、檔案與網站執行任務"
+      },
+      "summary": "Gemini computer use 在隔離視窗執行多步任務，不占用主畫面與游標；使用者可指定 App 權限、即時監看，關鍵操作前仍須核准。",
+      "from_file": "output/2026/11/20.md"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "美國眾議院成立首個 AI Safety and Innovation Caucus",
+      "url": "https://whitesides.house.gov/2026/11/19/reps-whitesides-moran-and-beyer-launch-first-congressional-caucus-focused-on-ai-safety-and-innovation/",
+      "source": "U.S. House of Representatives",
+      "company": "U.S. House of Representatives",
+      "topic": "US House launches bipartisan AI Safety and Innovation Caucus for legislation incident response and congressional expertise",
+      "fingerprint": "US House|ai-safety-innovation-caucus-launch|2026-11-20",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "policy_or_regulatory_change",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "首個專責 AI 安全與創新的跨黨派國會小組正式成立"
+      },
+      "summary": "跨黨派小組將推動 AI 安全法案、建立重大事故快速應變與專家簡報機制，同時把技術領先與風險管控納入國會議程。",
+      "from_file": "output/2026/11/20.md"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "AWS 讓 AI agent 直接在 Marketplace 買 x402 工具",
+      "url": "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/",
+      "source": "AWS Machine Learning Blog",
+      "company": "Amazon Web Services",
+      "topic": "AWS extends Bedrock AgentCore payments to x402 Marketplace products with AWS Billing budgets and auditability",
+      "fingerprint": "AWS|agentcore-marketplace-x402-aws-billing|2026-11-20",
+      "section": "tools",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "finance",
+          "workflow_automation"
+        ],
+        "note": "AgentCore payments 首次接上 Marketplace、AWS Billing 與 x402 商品發現"
+      },
+      "summary": "Bedrock AgentCore payments 新增 AWS Billing，可讓 agent 發現並按次購買 API、資料與內容；開發者能設預算與核准賣家，交易則進入 CloudTrail 與 Cost Explorer。",
+      "from_file": "output/2026/11/20.md"
     }
   ],
   "reason_picked_schema": {
