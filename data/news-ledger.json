@@ -23276,6 +23276,128 @@
       },
       "summary": "Bedrock AgentCore payments 新增 AWS Billing，可讓 agent 發現並按次購買 API、資料與內容；開發者能設預算與核准賣家，交易則進入 CloudTrail 與 Cost Explorer。",
       "from_file": "output/2026/11/20.md"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Inkling 2 Mini：20GB 開放權重模型能在筆電離線跑",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "source": "Thinking Machines Lab",
+      "company": "Thinking Machines Lab",
+      "topic": "Thinking Machines Lab releases Inkling 2 Mini looped MoE open-weight model for local laptop inference",
+      "fingerprint": "Thinking Machines Lab|inkling-2-mini-looped-local-open-weights|2026-11-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "264 億參數循環式 MoE 以約 20GB 原生低精度權重正式開放，可在消費級裝置離線執行"
+      },
+      "summary": "Thinking Machines Lab 發布 264 億參數、每 token 啟用 34 億參數的循環式 MoE；原生 NVFP4/MXFP8 權重約 20GB，支援 Ollama、vLLM、SGLang 等本機推論工具。",
+      "from_file": "output/2026/11/21.md"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "OpenAI 推出 MedChemBench，測 AI 能否挑出下一個藥物候選",
+      "url": "https://openai.com/index/introducing-medchembench/",
+      "source": "OpenAI",
+      "company": "OpenAI",
+      "topic": "OpenAI launches MedChemBench multimodal benchmark for medicinal chemistry reasoning and compound selection",
+      "fingerprint": "OpenAI|medchembench-medicinal-chemistry-reasoning|2026-11-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "healthcare"
+        ],
+        "note": "首次以真實藥物化學問題評估模型讀分子、解讀實驗與選擇下一個候選化合物的能力"
+      },
+      "summary": "這套多模態基準要求模型讀分子結構、解讀實驗結果並處理藥物性質間的取捨，評估 AI 是否真能支援藥物化學研究決策。",
+      "from_file": "output/2026/11/21.md"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "GPT-6.2 Astra 把受保護推理抽取成功率壓到 0.2%",
+      "url": "https://openai.com/index/combatting-adversarial-distillation/",
+      "source": "OpenAI",
+      "company": "OpenAI",
+      "topic": "OpenAI strengthens GPT-6.2 adversarial distillation defenses against protected reasoning extraction",
+      "fingerprint": "OpenAI|gpt-6-2-adversarial-distillation-defense|2026-11-21",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "新防禦把前序請求受保護推理的自適應黑箱抽取成功率由 54.0% 降至 0.2%"
+      },
+      "summary": "OpenAI 公開對抗式蒸餾防禦結果：針對前一輪請求推理的黑箱抽取成功率，從 GPT-6 Astra 的 54.0% 降至 GPT-6.2 Astra 的 0.2%。",
+      "from_file": "output/2026/11/21.md"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Anthropic 完成 935 億美元 IPO 與 260 億美元私募",
+      "url": "https://www.anthropic.com/news/ipo-close",
+      "source": "Anthropic",
+      "company": "Anthropic",
+      "topic": "Anthropic closes expanded initial public offering and concurrent strategic private placement",
+      "fingerprint": "Anthropic|ipo-close-private-placement|2026-11-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "finance"
+        ],
+        "note": "IPO 正式完成且承銷商全額行使增購權，同步結束由七家科技企業參與的 260 億美元私募"
+      },
+      "summary": "公司以每股 83 美元完成 11.27 億股 IPO，另由 AMD、Google、Microsoft、NVIDIA、TSMC 等投資人完成 Class N 私募；A 類股已以 ANT 在 Nasdaq 交易。",
+      "from_file": "output/2026/11/21.md"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "華為推出 OSTA O1 Pro，把主動式 AI 夥伴放進手機",
+      "url": "https://consumer.huawei.com/cn/osta/phones/o1-pro/",
+      "source": "Huawei",
+      "company": "Huawei",
+      "topic": "Huawei launches OSTA O1 Pro HarmonyOS AI phone with proactive Xiaoxingmang assistant",
+      "fingerprint": "Huawei|osta-o1-pro-proactive-ai-phone|2026-11-21",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "華為全新 OSTA 子品牌首款手機正式上市，主打會主動推薦、提醒與跨應用辦事的 AI 夥伴"
+      },
+      "summary": "這款 HarmonyOS 7 AI 手機主打能推薦、下單、提醒與跨應用協作的「小星芒」，並搭載麒麟 9030S、2 億畫素主攝與 7000mAh 電池。",
+      "from_file": "output/2026/11/21.md"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Gulf Air 用 1 萬道真實業務題把兩個 AI agent 推上線",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/gulf-airs-continuous-improvement-journey-with-microsoft-foundry/4574913",
+      "source": "Microsoft Foundry Blog",
+      "company": "Microsoft / Gulf Air",
+      "topic": "Gulf Air deploys voice and chat agents after Microsoft Foundry trace evaluation and optimization workflow",
+      "fingerprint": "Microsoft Gulf Air|foundry-agent-evaluation-production-deployment|2026-11-21",
+      "section": "tools",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "兩個航空營運 agent 經約一萬道業務題、trace 分析與人工覆核後正式上線"
+      },
+      "summary": "團隊把 Microsoft Foundry 的 traces、評測、人工審查與 optimizer 串成迭代流程，讓語音與聊天 agent 能處理航空營運、財務計算與權限規則。",
+      "from_file": "output/2026/11/21.md"
     }
   ],
   "reason_picked_schema": {
