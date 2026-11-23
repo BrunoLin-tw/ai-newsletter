@@ -23538,6 +23538,165 @@
       },
       "summary": "Stripe 的 69 情境評測顯示 agent plugin 讓 14 組 coding agent 都提升約 3 至 8 個百分點並減少 96% 網路搜尋，但嚴格全通過率平均僅 29.4%。",
       "from_file": "output/2026/11/22.md"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "NVIDIA Dynamo 加速 RL rollout 與權重同步",
+      "url": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/",
+      "source": "NVIDIA Technical Blog",
+      "company": "NVIDIA",
+      "topic": "NVIDIA Dynamo distributed reinforcement learning rollout routing weight updates and recovery",
+      "fingerprint": "NVIDIA|dynamo-rl-rollout-modelexpress-recovery|2026-11-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "KV-aware routing、delta 權重更新與故障復原形成完整 RL rollout 基礎設施"
+      },
+      "summary": "NVIDIA Dynamo 以 KV-aware routing 減少共用前綴重算，ModelExpress 用 GPU 對 GPU 與 delta 傳輸同步權重，實際案例最高將權重更新加速 15 倍。",
+      "from_file": "output/2026/11/23.md"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "NVIDIA DAQIRI 讓科學儀器邊採集邊跑 AI",
+      "url": "https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/",
+      "source": "NVIDIA Technical Blog",
+      "company": "NVIDIA",
+      "topic": "NVIDIA DAQIRI GPU-native high-bandwidth scientific instrument data acquisition update",
+      "fingerprint": "NVIDIA|daqiri-gpu-native-scientific-instrument-acquisition|2026-11-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "新版加入硬體封包重排、近兩倍吞吐與 2–4 微秒低延遲控制"
+      },
+      "summary": "DAQIRI 可把超過 500 Gbps 的顯微鏡資料直接送進 GPU，並新增 NIC 硬體封包重排、近兩倍小封包吞吐與 2–4 微秒直接輪詢。",
+      "from_file": "output/2026/11/23.md"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "PolyAI 即時語音推理模型登上 SageMaker JumpStart",
+      "url": "https://aws.amazon.com/blogs/machine-learning/polyai-dialog-rsn-1-is-now-on-amazon-sagemaker-jumpstart/",
+      "source": "AWS Machine Learning Blog",
+      "company": "Amazon Web Services / PolyAI",
+      "topic": "PolyAI Dialog-RSN-1 real-time audio reasoning model available on SageMaker JumpStart",
+      "fingerprint": "AWS PolyAI|dialog-rsn-1-sagemaker-jumpstart|2026-11-23",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "new_market"
+        ],
+        "note": "即時音訊推理模型首次進入 AWS Marketplace 與 SageMaker 一鍵部署"
+      },
+      "summary": "Dialog-RSN-1 直接從音訊理解語氣與時機並即時回應，現可一鍵部署到客戶 VPC，支援 OpenAI Realtime protocol。",
+      "from_file": "output/2026/11/23.md"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "OpenAI：AI agent 已能獨立完成近半數 2–4 小時研究任務",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+      "source": "OpenAI",
+      "company": "OpenAI",
+      "topic": "OpenAI internal measurement of coding agent research acceleration and autonomous task success",
+      "fingerprint": "OpenAI|research-acceleration-jagged-frontier|2026-11-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首次量化 2–4 小時任務成功率達 46%，並公開不同研究工作落差"
+      },
+      "summary": "OpenAI 內部估算 agent 獨立完成 2–4 小時研究任務的成功率由 23% 升至 46%，但 inference/serving 程式撰寫仍只有 25%。",
+      "from_file": "output/2026/11/23.md"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Google Cloud Storage 直接把非結構化檔案變成 agent context",
+      "url": "https://cloud.google.com/blog/products/storage-data-transfer/cost-effective-ai-context-extraction-from-unstructured-gcs-data",
+      "source": "Google Cloud Blog",
+      "company": "Google Cloud",
+      "topic": "Cloud Storage object enrichments creates in-place AI metadata for agent-ready context",
+      "fingerprint": "Google Cloud|storage-object-enrichments-agent-context|2026-11-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "預覽服務把圖片與 PDF 的 AI metadata 原地寫回 Cloud Storage"
+      },
+      "summary": "Object enrichments 可在原物件旁寫入圖片與 PDF 的 AI metadata，1,000 萬個檔案標註定價 700 美元，並可直接送進 BigQuery。",
+      "from_file": "output/2026/11/23.md"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "GitHub Copilot cloud sandbox 今日開始計入 Actions 額度",
+      "url": "https://github.blog/changelog/2026-10-28-work-from-anywhere-with-a-new-connected-copilot-cloud-experience/",
+      "source": "GitHub Changelog",
+      "company": "GitHub",
+      "topic": "GitHub Copilot cloud sandbox billing begins through shared Actions compute entitlement",
+      "fingerprint": "GitHub|copilot-cloud-sandbox-actions-billing|2026-11-23",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "pricing_or_packaging_change",
+        "secondary": [
+          "official_source"
+        ],
+        "note": "11 月 23 日起 cloud sandbox 正式從共享 Actions compute entitlement 扣抵"
+      },
+      "summary": "Copilot 跨 Web、Mobile、CLI、VS Code、Slack 與 Teams 的雲端工作階段已可用，今日起 sandbox 用量正式計入共享 Actions 額度。",
+      "from_file": "output/2026/11/23.md"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "NVIDIA 教你用 AI agent 寫可靠的 Rust tool-call parser",
+      "url": "https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/",
+      "source": "NVIDIA Technical Blog",
+      "company": "NVIDIA",
+      "topic": "NVIDIA frontend-crates Rust tool-call parser generation and conformance testing workflow",
+      "fingerprint": "NVIDIA|rust-tool-call-parser-conformance-workflow|2026-11-23",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "開源跨模型測試 corpus 與 agent 實作流程可直接重用"
+      },
+      "summary": "開源 frontend-crates 用跨模型 Conformance Corpus 測試完整、截斷、串流與格式錯誤輸出，降低 agent 洩漏標記或錯誤工具呼叫。",
+      "from_file": "output/2026/11/23.md"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "AWS AgentCore Gateway 加入雙向敏感資料遮罩",
+      "url": "https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/",
+      "source": "AWS Machine Learning Blog",
+      "company": "Amazon Web Services / Skyflow",
+      "topic": "Skyflow interceptor protects AgentCore Gateway tool calls models and documents with de-identification",
+      "fingerprint": "AWS Skyflow|agentcore-tool-call-data-deidentification|2026-11-23",
+      "section": "tools",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "雙向 interceptor 可遮罩工具、模型與文件資料且不改既有 agent 程式"
+      },
+      "summary": "Skyflow interceptor 在工具呼叫前後去識別姓名、帳號與文件內容，再只向授權端還原，不需修改既有 agent 或工具程式碼。",
+      "from_file": "output/2026/11/23.md"
     }
   ],
   "reason_picked_schema": {
