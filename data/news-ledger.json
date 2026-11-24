@@ -23697,6 +23697,128 @@
       },
       "summary": "Skyflow interceptor 在工具呼叫前後去識別姓名、帳號與文件內容，再只向授權端還原，不需修改既有 agent 或工具程式碼。",
       "from_file": "output/2026/11/23.md"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "GLM-5.4 首度採用 Loop Transformer",
+      "url": "https://z.ai/blog/glm-5.4",
+      "source": "Z.ai",
+      "company": "Z.ai",
+      "topic": "GLM-5.4 first loop transformer for generalized coding vision video games CAD and 3D generation",
+      "fingerprint": "Z.ai|glm-5-4-loop-transformer-generalized-coding|2026-11-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "首款 loop 架構旗艦模型，將 28 層骨幹重複運算兩輪"
+      },
+      "summary": "GLM-5.4 以首度採用的 Loop Transformer 增加計算深度，並把程式能力延伸到影片、完整遊戲、CAD 與 3D shader；API 與開放權重仍待後續發布。",
+      "from_file": "output/2026/11/24.md"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "OpenAI 公布 11 月 23 日版 GPT-6.2 安全評估",
+      "url": "https://deploymentsafety.openai.com/gpt-6-2-chatgpt/gpt-6-2-chatgpt.pdf",
+      "source": "OpenAI Deployment Safety Hub",
+      "company": "OpenAI",
+      "topic": "OpenAI GPT-6.2 November 23 ChatGPT deployment preparedness and safety evaluation",
+      "fingerprint": "OpenAI|gpt-6-2-november-23-chatgpt-safety-evaluation|2026-11-24",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "新增 11 月 23 日部署版的資安、自我改進與 agent 安全數據"
+      },
+      "summary": "OpenAI 的新評估把 11 月 23 日版 GPT-6.2 判定為資安 Critical、AI 自我改進 High；SEC-Bench Pro 漏洞重現率為 90.16%，並套用高風險防護。",
+      "from_file": "output/2026/11/24.md"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Anthropic 推出 Claude Ship",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "source": "Claude by Anthropic",
+      "company": "Anthropic",
+      "topic": "Claude Ship agents review fix and approve pull requests under repository policies",
+      "fingerprint": "Anthropic|claude-ship-pr-review-fix-approval-agents|2026-11-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "兩個新 agent 串起 PR 修復與依政策核准，正式進入 beta"
+      },
+      "summary": "Claude Ship 結合 Code Review、PR Steward 與 Claude Approvals，自動審查與修復 PR，再依 repo 內政策決定可否核准，敏感情境仍可要求人工簽核。",
+      "from_file": "output/2026/11/24.md"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Audi 把 Microsoft 365 AI 助理裝進車內",
+      "url": "https://www.audi.com/en/media-releases/audi-integrates-new-app-with-ai-assistant-for-mobile-work-in-the-car-with-cerence-ai-and-microsoft-18450/download",
+      "source": "Audi MediaCenter",
+      "company": "Audi / Cerence AI / Microsoft",
+      "topic": "Audi connected work voice AI assistant integrates Microsoft 365 in vehicles across 28 European countries",
+      "fingerprint": "Audi Cerence Microsoft|connected-work-microsoft-365-vehicle-agent|2026-11-24",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "new_market",
+          "workflow_automation"
+        ],
+        "note": "車載語音 agent 月底在歐洲 28 國實際上線"
+      },
+      "summary": "Audi 的 connected work 讓駕駛以語音操作 Outlook 與 Teams，可寫信、讀訊息、排會議與取得行程簡報，月底起在 28 個歐洲國家推出。",
+      "from_file": "output/2026/11/24.md"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "SDVault.ai 用 250 多個 agent 跑軟體定義車工程",
+      "url": "https://www.ltts.com/press-release/launches-sdvault-ai",
+      "source": "L&T Technology Services",
+      "company": "L&T Technology Services",
+      "topic": "SDVault.ai domain-aware multi-agent engineering and assurance toolchain for software-defined vehicles",
+      "fingerprint": "LTTS|sdvault-ai-software-defined-vehicle-engineering-agents|2026-11-24",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "250 多個領域 agent 覆蓋 12 個安全關鍵車輛工程環節"
+      },
+      "summary": "SDVault.ai 將 250 多個領域 agent 與確定性自動化結合，覆蓋需求、架構、功能安全、資安、驗證、除錯到發布等 12 個軟體定義車工程領域。",
+      "from_file": "output/2026/11/24.md"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Vercel AI Gateway 支援文件欄位擷取",
+      "url": "https://vercel.com/changelog/ai-gateway-now-supports-extraction-models",
+      "source": "Vercel Changelog",
+      "company": "Vercel / ScaleDown",
+      "topic": "Vercel AI Gateway extraction models with ScaleDown Extract-1 for text image and PDF fields",
+      "fingerprint": "Vercel ScaleDown|ai-gateway-extraction-models-extract-1|2026-11-24",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "AI SDK 新增文字、圖片與 PDF 結構化欄位擷取"
+      },
+      "summary": "Vercel AI Gateway 首發 ScaleDown Extract-1，可從文字、圖片與 PDF 擷取指定文字或清單欄位，並回傳信心分數與文字位置供程式審核。",
+      "from_file": "output/2026/11/24.md"
     }
   ],
   "reason_picked_schema": {
