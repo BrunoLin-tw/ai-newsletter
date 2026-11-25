@@ -23819,6 +23819,169 @@
       },
       "summary": "Vercel AI Gateway 首發 ScaleDown Extract-1，可從文字、圖片與 PDF 擷取指定文字或清單欄位，並回傳信心分數與文字位置供程式審核。",
       "from_file": "output/2026/11/24.md"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "OpenAI：GPT-6 已能直接設計蛋白質",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "GPT-6 general-purpose protein structure and sequence design with wet-lab binding validation",
+      "fingerprint": "OpenAI|gpt-6-intrinsic-protein-design|2026-11-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "healthcare"
+        ],
+        "note": "首次展示通用 GPT-6 模型直接設計蛋白質，且有五個目標的濕實驗結合證據"
+      },
+      "summary": "GPT-6 系列只靠推理與通用程式工具，就能設計蛋白質結構與序列；GPT-6.2 的設計在五個目標上都出現實驗室結合證據。",
+      "from_file": "output/2026/11/25.md"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Cosmos 3 Nano 用 12GB VRAM 也能跑",
+      "url": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/",
+      "source": "developer.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "Cosmos 3 Nano local generation on 12GB GPUs with Diffusers CPU weight offloading",
+      "fingerprint": "NVIDIA|cosmos-3-nano-12gb-local-diffusers|2026-11-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "官方提供 12GB VRAM 本機執行 Cosmos 3 Nano 的完整權重卸載與 FP8 流程"
+      },
+      "summary": "NVIDIA 透過 Hugging Face Diffusers 將大部分權重留在系統記憶體，讓消費級 GPU 執行 720p 影片、聲音與動作生成。",
+      "from_file": "output/2026/11/25.md"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "MAGI-2 用 480B MoE 同步生成影像與聲音",
+      "url": "https://higgsfield.ai/magi-2-intro",
+      "source": "higgsfield.ai",
+      "company": "Sand.ai / Higgsfield",
+      "topic": "MAGI-2 480B sparse video model with synchronized audio and multimodal references",
+      "fingerprint": "Sand.ai-Higgsfield|magi-2-video-audio-model|2026-11-25",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "creative_tools",
+          "benchmark_detail"
+        ],
+        "note": "480B 稀疏模型正式上線，可原生生成最長 30 秒 1080p 同步影音"
+      },
+      "summary": "Sand.ai 的新模型可產生最長 30 秒、1080p、25 fps 影片，並接受最多 20 個圖像、影片與音訊參考。",
+      "from_file": "output/2026/11/25.md"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Anthropic 讓 MCP Server 直接附帶 Skills",
+      "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+      "source": "claude.com",
+      "company": "Anthropic",
+      "topic": "Skills over MCP public beta with Tasks and Elicitation general availability",
+      "fingerprint": "Anthropic|skills-over-mcp-tasks-elicitation|2026-11-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "MCP Server 可同步發布工具與工作指引，並支援背景任務與中途互動"
+      },
+      "summary": "Skills over MCP 進入公開測試，Tasks 與 Elicitation 也正式 GA，讓伺服器可教 Claude 工作流程、執行長任務並中途向使用者確認。",
+      "from_file": "output/2026/11/25.md"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Google Agent Retrieval 一次 API 就能查文件與影片",
+      "url": "https://developers.googleblog.com/from-files-to-cited-answers-in-one-api-call-managed-ingestion-and-searchdocuments-in-agent-retrieval/",
+      "source": "developers.googleblog.com",
+      "company": "Google Cloud",
+      "topic": "Agent Retrieval managed ingestion and SearchDocuments public preview for cited document and video search",
+      "fingerprint": "Google-Cloud|agent-retrieval-managed-ingestion-searchdocuments|2026-11-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Agent Retrieval 新增完整代管匯入與帶頁碼時間戳的單一搜尋 API"
+      },
+      "summary": "Managed ingestion 與 SearchDocuments 公開預覽，可自動解析、切分、嵌入 PDF、Office 檔與影片，回傳頁碼或時間戳引用。",
+      "from_file": "output/2026/11/25.md"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "NVIDIA 把文字動作生成接進 Unreal Engine 5.9",
+      "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/",
+      "source": "developer.nvidia.com",
+      "company": "NVIDIA",
+      "topic": "Kimodo AI motion generation integration in Unreal Engine 5.9 guided animation framework",
+      "fingerprint": "NVIDIA|kimodo-unreal-engine-5-9-animation|2026-11-25",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "partnership_or_integration",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "Kimodo 成為 Unreal Engine guided animation framework 的首個整合模型"
+      },
+      "summary": "Kimodo 成為新版 guided animation framework 首個 AI 模型，遊戲開發者可用文字、路徑與關鍵姿勢直接在 Sequencer 生成角色動畫。",
+      "from_file": "output/2026/11/25.md"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Vercel MCP 現在能管理 AI Gateway",
+      "url": "https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp",
+      "source": "vercel.com",
+      "company": "Vercel",
+      "topic": "Vercel MCP management for AI Gateway virtual models routing rules and budgets",
+      "fingerprint": "Vercel|mcp-ai-gateway-management|2026-11-25",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Agent 首次能透過 Vercel MCP 管理虛擬模型、路由與團隊預算"
+      },
+      "summary": "Agent 可用自然語言建立虛擬模型、調整團隊路由規則與預算，模型設定改動後不必重部署應用。",
+      "from_file": "output/2026/11/25.md"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Claude Artifacts 可一鍵裝成桌面 App",
+      "url": "https://claude.com/resources/articles/install-as-app",
+      "source": "claude.com",
+      "company": "Anthropic",
+      "topic": "Claude Artifacts install as native-style Mac and Windows desktop apps beta",
+      "fingerprint": "Anthropic|claude-artifacts-desktop-apps|2026-11-25",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "creative_tools",
+          "workflow_automation"
+        ],
+        "note": "Artifacts 首次可安裝成獨立 Mac 與 Windows App，並加入分級權限"
+      },
+      "summary": "Mac 與 Windows 測試版支援獨立視窗、通知與系統匣，並以分級權限控管檔案與程式存取。",
+      "from_file": "output/2026/11/25.md"
     }
   ],
   "reason_picked_schema": {
