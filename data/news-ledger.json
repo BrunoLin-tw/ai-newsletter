@@ -23982,6 +23982,128 @@
       },
       "summary": "Mac 與 Windows 測試版支援獨立視窗、通知與系統匣，並以分級權限控管檔案與程式存取。",
       "from_file": "output/2026/11/25.md"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Anthropic 把 Messages API 從 Python 搬到 Rust",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "source": "anthropic.com",
+      "company": "Anthropic",
+      "topic": "Anthropic migrates Messages API from Python to Rust with production traffic verification loops",
+      "fingerprint": "Anthropic|messages-api-rust-production-verification|2026-11-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "workflow_automation"
+        ],
+        "note": "正式完成主 API Rust 遷移，CPU 降約 70%、首 token 延遲降約 20%"
+      },
+      "summary": "Claude agent 以 production shadow traffic 驗證新舊行為，最終讓單次請求 CPU 用量降低約 70%、首 token 中位延遲縮短約 20%。",
+      "from_file": "output/2026/11/26.md"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "騰訊開源 WeMM-Ecom 多模態模型家族",
+      "url": "https://github.com/Tencent/WeMM-Ecom",
+      "source": "github.com/Tencent",
+      "company": "Tencent WeChat Vision",
+      "topic": "Tencent WeChat Vision open sources WeMM-Ecom multimodal e-commerce model family",
+      "fingerprint": "Tencent-WeChat-Vision|wemm-ecom-open-multimodal-model-family|2026-11-26",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "五種規模與多種量化權重完整開源，並已用於微信電商工作負載"
+      },
+      "summary": "WeChat Vision 一次釋出 0.8B 到 35B-A3B 五種規模，支援中英文字、圖片與影片理解，並提供 BF16、FP8、GPTQ、GGUF 權重。",
+      "from_file": "output/2026/11/26.md"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "NIO 發布 NWM 3.0 與 NOMI Intelligence 4.0",
+      "url": "https://www.nio.com/news/20261125001",
+      "source": "nio.com",
+      "company": "NIO",
+      "topic": "NIO launches NWM 3.0 driving world model and NOMI Intelligence 4.0 vehicle-native agent",
+      "fingerprint": "NIO|nwm-3-nomi-intelligence-4-launch|2026-11-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "real_world_deployment"
+        ],
+        "note": "世界模型與車載 agent 同日正式發布，並公布分階段上車時程"
+      },
+      "summary": "新版世界模型把車端 attention 運算需求壓低 36 倍、訓練效率提升至前代 5 倍；車載 agent 則能理解目標、規劃並跨車輛系統執行任務。",
+      "from_file": "output/2026/11/26.md"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "OpenAI Private Inference 進入 API Preview",
+      "url": "https://openai.com/business/private-intelligence/",
+      "source": "openai.com",
+      "company": "OpenAI",
+      "topic": "OpenAI Private Inference confidential computing API preview for sensitive enterprise workflows",
+      "fingerprint": "OpenAI|private-inference-api-preview|2026-11-26",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "Private Inference 標示為 API Preview，將機密運算帶入企業敏感工作流程"
+      },
+      "summary": "Private Intelligence 以 confidential computing 與可驗證控制保護推論中的 prompt 與回覆，並讓企業自行界定 agent 可用資料、工具、動作與審批規則。",
+      "from_file": "output/2026/11/26.md"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Tripo H3.5 Preview 主打可直接列印的高精度 3D",
+      "url": "https://www.tripo3d.ai/blog/tripo-h3-5",
+      "source": "tripo3d.ai",
+      "company": "Tripo",
+      "topic": "Tripo H3.5 Preview high-fidelity 3D generation with printability checks and automatic mesh repair",
+      "fingerprint": "Tripo|h3-5-preview-printable-high-fidelity-3d|2026-11-26",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "creative_tools"
+        ],
+        "note": "新模型與列印檢查、自動修補同時推出，直接銜接實體製作流程"
+      },
+      "summary": "文字或圖片可生成最高 500 萬三角面的模型，Studio 另加入列印檢查與自動修補，可直接送往多款切片軟體。",
+      "from_file": "output/2026/11/26.md"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Raycast AI 現在能在背景操作瀏覽器",
+      "url": "https://www.raycast.com/changelog/windows/2-14",
+      "source": "raycast.com",
+      "company": "Raycast",
+      "topic": "Raycast 2.14 background browser use across Chrome Firefox and Safari with blocked website controls",
+      "fingerprint": "Raycast|browser-use-v2-14-background-automation|2026-11-26",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Browser Use 正式進入 v2.14，並加入網站封鎖與跨瀏覽器支援"
+      },
+      "summary": "v2.14 可開頁、填表並讀取分頁、書籤與歷史紀錄，支援 Chrome、Firefox、Safari，也能封鎖指定網站避免 agent 存取。",
+      "from_file": "output/2026/11/26.md"
     }
   ],
   "reason_picked_schema": {
