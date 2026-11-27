@@ -24104,6 +24104,128 @@
       },
       "summary": "v2.14 可開頁、填表並讀取分頁、書籤與歷史紀錄，支援 Chrome、Firefox、Safari，也能封鎖指定網站避免 agent 存取。",
       "from_file": "output/2026/11/26.md"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "BharatGen 開源 Patram 1.5 文件視覺模型",
+      "url": "https://bharatgen.com/blogs/introducing-patram-1-5/",
+      "source": "bharatgen.com",
+      "company": "BharatGen",
+      "topic": "Patram 1.5 open-weight 7B document vision model with promptable OCR and abstention",
+      "fingerprint": "BharatGen|patram-1-5-document-vision-ocr-abstention|2026-11-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "7B 開放權重模型新增可提示 OCR 與拒答能力，並公布完整比較評測"
+      },
+      "summary": "這款 7B 模型加入可指定欄位與格式的 OCR 3.0，也能在資訊不足時主動拒答；官方評測稱其整體分數追平大 97 倍的模型。",
+      "from_file": "output/2026/11/27.md"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "Ming-Image 0.2 Design 開放權重",
+      "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design",
+      "source": "huggingface.co",
+      "company": "inclusionAI",
+      "topic": "Ming-Image 0.2 Design open-weight visual design generation and character layer decomposition",
+      "fingerprint": "inclusionAI|ming-image-0-2-design-open-weights|2026-11-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "creative_tools",
+          "benchmark_detail"
+        ],
+        "note": "新版提升複雜構圖與文字生成，並把圖層拆解細化到人物部件"
+      },
+      "summary": "inclusionAI 的 6B 圖像模型強化複雜構圖、光影與文字生成，並能把人物拆成可供後續編輯與動畫使用的透明圖層。",
+      "from_file": "output/2026/11/27.md"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "NVIDIA 公開 Nemotron 3.5 Parse 訓練資料與加速方案",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "source": "huggingface.co",
+      "company": "NVIDIA",
+      "topic": "Nemotron 3.5 Parse synthetic datasets fine-tuning recipe and DFlash2 inference acceleration",
+      "fingerprint": "NVIDIA|nemotron-3-5-parse-open-data-dflash2|2026-11-27",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "新增近 1,900 萬筆資料、可重現微調流程與 7.62 倍單請求吞吐提升"
+      },
+      "summary": "三套合成資料合計近 1,900 萬筆，另附 SFT、RLVR 微調流程；DFlash2 在單請求測試中把輸出吞吐提高 7.62 倍。",
+      "from_file": "output/2026/11/27.md"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "Microsoft 揭露 ARTEX 已被多國駭客用來自動化攻擊",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+      "source": "microsoft.com",
+      "company": "Microsoft",
+      "topic": "Microsoft threat intelligence report on ARTEX agentic penetration framework abuse",
+      "fingerprint": "Microsoft|artex-agentic-cyberattack-abuse-report|2026-11-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "security_or_incident",
+        "secondary": [
+          "official_source",
+          "security_research"
+        ],
+        "note": "首次彙整多個國家級與財務型威脅行動者的 ARTEX 使用方式及防禦指標"
+      },
+      "summary": "這套多 agent 滲透框架能在數分鐘內從偵察推進到持久化與高權限存取；Microsoft 建議防守方改看機器速度的行為訊號，而非只靠固定特徵。",
+      "from_file": "output/2026/11/27.md"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "Claude Duet 預覽擴至印度、印尼、巴西與日本",
+      "url": "https://claude.com/product/claude-duet",
+      "source": "claude.com",
+      "company": "Anthropic",
+      "topic": "Claude Duet research preview expands beyond United States to four additional countries",
+      "fingerprint": "Anthropic|claude-duet-preview-four-country-expansion|2026-11-27",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "distribution_expansion",
+        "secondary": [
+          "official_source",
+          "new_market",
+          "workflow_automation"
+        ],
+        "note": "原先美國限定的主動式 agent 候補名單新增印度、印尼、巴西與日本"
+      },
+      "summary": "Anthropic 的主動式工作 agent 可在雲端持續處理任務、串接超過 6,000 個工具，現在除美國外再開放四國 Pro、Max 與 Ultra 用戶候補。",
+      "from_file": "output/2026/11/27.md"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "DeepL 推出即時語音翻譯模型 Aure v2",
+      "url": "https://www.deepl.com/en/press-release/aure-v2",
+      "source": "deepl.com",
+      "company": "DeepL",
+      "topic": "Aure v2 end-to-end real-time speech translation model with reduced latency",
+      "fingerprint": "DeepL|aure-v2-real-time-speech-translation|2026-11-27",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "端到端架構與強化學習讓官方內部測試的翻譯延遲降低 50%"
+      },
+      "summary": "新的端到端語音轉語音架構搭配強化學習，官方內部測試顯示翻譯延遲減半；英文、德文、法文、西文、日文與韓文已可使用。",
+      "from_file": "output/2026/11/27.md"
     }
   ],
   "reason_picked_schema": {
