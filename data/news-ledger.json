@@ -24226,6 +24226,149 @@
       },
       "summary": "新的端到端語音轉語音架構搭配強化學習，官方內部測試顯示翻譯延遲減半；英文、德文、法文、西文、日文與韓文已可使用。",
       "from_file": "output/2026/11/27.md"
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Sage-Med-Preview 用 3B 啟用參數挑戰醫療多模態",
+      "url": "https://huggingface.co/internlm/Sage-Med-Preview",
+      "source": "huggingface.co/internlm",
+      "company": "Shanghai AI Laboratory",
+      "topic": "Sage-Med-Preview open-weight 35B-A3B medical multimodal model for understanding reporting and grounding",
+      "fingerprint": "Shanghai-AI-Laboratory|sage-med-preview-medical-multimodal-open-weights|2026-11-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "healthcare"
+        ],
+        "note": "35B-A3B 醫療多模態模型開放權重，並公布 31 項公開基準與臨床轉移評測"
+      },
+      "summary": "上海人工智慧實驗室釋出 35B-A3B 醫療模型，整合影像理解、報告生成與視覺定位；官方在 31 項公開基準的平均分為 58.26。",
+      "from_file": "output/2026/11/28.md"
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Trainium3 跑 LTX-2.5，10 秒影音只花 22–23 秒",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "source": "Hugging Face Blog",
+      "company": "Hugging Face / AWS",
+      "topic": "LTX-2.5 video and audio generation optimized on AWS Trainium3 with tensor and sequence parallelism",
+      "fingerprint": "Hugging-Face-AWS|ltx-2-5-trainium3-video-generation-optimization|2026-11-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "material_followup",
+        "secondary": [
+          "official_source",
+          "benchmark_detail"
+        ],
+        "note": "完整公開 LTX-2.5 在 Trainium3 的移植與最佳化方法，端到端生成縮短至 22–23 秒"
+      },
+      "summary": "Hugging Face 與 AWS 實測用半台 trn3.48xlarge、32 個 NeuronCore 生成 2048×1024 同步影音，速度由最初 5 分 20 秒縮短到 22–23 秒。",
+      "from_file": "output/2026/11/28.md"
+    },
+    {
+      "date": "2026-11-28",
+      "title": "KVAE-3.0 一次開源音訊、影像與影片 tokenizer",
+      "url": "https://huggingface.co/blog/kandinskylab/kvae-3",
+      "source": "Hugging Face Community Blog",
+      "company": "Kandinsky Lab",
+      "topic": "KVAE 3.0 open audio image and video latent tokenizers with latent alignment",
+      "fingerprint": "Kandinsky-Lab|kvae-3-open-multimodal-latent-tokenizers|2026-11-28",
+      "section": "hard-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "benchmark_detail",
+          "creative_tools"
+        ],
+        "note": "同日公開音訊、影像與影片 tokenizer 權重、程式與壓縮品質評測"
+      },
+      "summary": "Kandinsky Lab 公開三套 latent tokenizer；音訊版本支援 48 kHz 立體聲，影片版本做到空間 32 倍、時間 4 倍壓縮。",
+      "from_file": "output/2026/11/28.md"
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Volvo 把人形機器人帶進比利時車廠受訓",
+      "url": "https://www.volvocars.com/intl/media/press-releases/CC9EB8A9723DD536/",
+      "source": "Volvo Cars Media",
+      "company": "Volvo Cars / Hexagon Robotics",
+      "topic": "Volvo Ghent factory trains Hexagon AEON humanoid robots with imitation learning for 2027 pilot",
+      "fingerprint": "Volvo-Hexagon|aeon-humanoid-ghent-manufacturing-pilot|2026-11-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "real_world_deployment",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "Volvo 首座工廠正式展開人形機器人實際工序訓練，並定出 2027 試點時程"
+      },
+      "summary": "Volvo Cars 與 Hexagon Robotics 在 Ghent 工廠用模仿學習訓練 AEON 人形機器人，先從精準放置零件做起，目標在 2027 年進入工廠試點。",
+      "from_file": "output/2026/11/28.md"
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Google Workspace MCP Server 與 CLI 正式 GA",
+      "url": "https://workspace.google.com/blog/product-announcements/built-for-trust-and-control-new-ai-agent-protections-and-developer-tools-in-google-workspace",
+      "source": "Google Workspace Blog",
+      "company": "Google",
+      "topic": "Google Workspace MCP servers and CLI general availability with agent governance and REST enforcement",
+      "fingerprint": "Google|workspace-mcp-cli-ga-agent-governance|2026-11-28",
+      "section": "big-tech",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "official_source",
+          "security_research",
+          "workflow_automation"
+        ],
+        "note": "Workspace MCP 與 CLI 正式 GA，並明確公布 agent REST API 的 2027 年技術限制"
+      },
+      "summary": "Gmail、Drive、Docs、Sheets、Calendar 等服務現可透過 Google 管理的 MCP 與 CLI 供 agent 存取，並套用 DLP、人工確認與稽核。",
+      "from_file": "output/2026/11/28.md"
+    },
+    {
+      "date": "2026-11-28",
+      "title": "AWS Elemental Inference 可自訂每個鏡頭的 AI 判斷",
+      "url": "https://docs.aws.amazon.com/elemental-inference/latest/userguide/doc-history.html",
+      "source": "AWS Documentation",
+      "company": "Amazon Web Services",
+      "topic": "AWS Elemental Inference custom decisions for shot and scene contextual metadata using question sets",
+      "fingerprint": "AWS|elemental-inference-custom-shot-scene-decisions|2026-11-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "major_feature_update",
+        "secondary": [
+          "official_source",
+          "workflow_automation"
+        ],
+        "note": "11 月 27 日新增 question sets，讓影音工作流可對每個 shot 與 scene 產生自訂決策"
+      },
+      "summary": "AWS Elemental Inference 新增 Custom decisions，使用者能用 question sets 要求系統針對影音的 shot 與 scene 產生自訂決策。",
+      "from_file": "output/2026/11/28.md"
+    },
+    {
+      "date": "2026-11-28",
+      "title": "AI Model Market Daily 把模型榜做成每日市場看板",
+      "url": "https://huggingface.co/blog/FINAL-Bench/ai-model-market-daily-reading-ai-models-like-a-sto",
+      "source": "Hugging Face Community Blog",
+      "company": "FINAL-Bench / VIDraft",
+      "topic": "AI Model Market Daily combines usage benchmarks and security scans into a reproducible daily model board",
+      "fingerprint": "FINAL-Bench-VIDraft|ai-model-market-daily-board|2026-11-28",
+      "section": "tools",
+      "reason_picked": {
+        "code": "official_launch",
+        "secondary": [
+          "benchmark_detail",
+          "security_research"
+        ],
+        "note": "每日公開 885 模型的使用、能力與安全快照，並提供可追溯資料集"
+      },
+      "summary": "新工具每天彙整付費使用、能力與安全三條軸線；11 月 27 日追蹤 885 個模型、排名 211 個開放權重模型，並掃描 538 個模型。",
+      "from_file": "output/2026/11/28.md"
     }
   ],
   "reason_picked_schema": {
